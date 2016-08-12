@@ -44,8 +44,10 @@ lang_names_IELex_to_ASJP = {
                             "SERBO-CROATIAN" : "SERBOCROATIAN",
                             "CLASSICAL_ARMENIAN" : "ARMENIAN_CLASSICAL"
                             }
-# 
-# 
+
+
+
+
 """
 TRAIN PHONEME EMBEDDINGS
 """
@@ -268,11 +270,11 @@ z = Lambda(sampling, output_shape=(latent_dim,),name="layer_z")([z_mean, z_log_s
 
 #decoder phono
 # we instantiate these layers separately so as to reuse them later
-#phono_decoding_layer_intermediate = Dense(intermediate_dim_phono,activation="relu",name="phono_decoding_layer_intermediate")
-#phono_decoding_intermediate = phono_decoding_layer_intermediate(z)
+phono_decoding_layer_intermediate = Dense(intermediate_dim_phono,activation="relu",name="phono_decoding_layer_intermediate")
+phono_decoding_intermediate = phono_decoding_layer_intermediate(z)
 
-phono_decoding_layer_decoded = Dense(original_dim_phono,activation="linear",name="phono_decoding_layer_decoded")
-phono_decoded = phono_decoding_layer_decoded(z)
+phono_decoding_layer_decoded = Dense(original_dim_phono,activation="sigmoid",name="phono_decoding_layer_decoded")
+phono_decoded = phono_decoding_layer_decoded(phono_decoding_intermediate)
 
 
 def vae_loss(input_phono,phono_decoded):
