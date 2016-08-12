@@ -1,0 +1,20 @@
+Dear Cagri,
+
+I have some questions:
+
+1. Which corpus was the one those data for the PCA exercise were trained on? I could imagine that it would be helpful for my seminar project ...
+
+2. I asked you during your class on thursday about upsampling in convolutional autoencoders, as some sort of counterpart for depooling layers in the encoder part. 
+
+The reason I am asking is that the convolutional autoencoders I implemented with Keras can encode those word matrices quite well with regard to their phonemic features (much better than autoencoders with only fully connected layers), but I also want to encode the information what meaning a given word has, with the idea being that words should only cluster in the code if they look similar _and_ have the same meaning, so that I can be much more sure that words that look similar are actually cognates. 
+
+So my idea was that I basically have an encoder for the actual word matrix, whose code is then merged with a vector describing the meaning of the word (for comparing words in swadesh lists the meaning is always annotated and the same for all word lists of the given languages to compare, so here I guess for a start one hot vectors should be enough). I then encode the resulting vector again into a code that transcribes both the phonological representation and the meaning of the words, with the hope that words with similar appearance and meaning should cluster among each other. I then jointly train two encoders, one to reconstruct the phonological form of the word and another one to reconstruct the meaning, where my idea was that it should be possible through a combined objective function least_squares(phono_input,phono_decoded)+alpha*cross_entropy(meaning_input,meaning_decoded), where alpha is some hyperparameter that balances the two objectives.
+
+Keras does not allow such more complicated objective functions, so I thought about implementing it in tensorflow. The encoder is not problem, but I am not sure how to implement the upsampling in the decoder as counterpart to the maxpooling in the encoder, as there are apparently no out of the box solutions in the tensorflow API and a plain google search did not really clarify a lot either. You offered that we could check how it is done in the actual Keras source code since it is just a wrapper around tensorflow / theano?
+
+In general, are there any special issues to consider when minimizing such combined objective functions?
+
+Would it be possible to drop by at your office this tuesday or thursday?
+
+Regards,
+Marlon

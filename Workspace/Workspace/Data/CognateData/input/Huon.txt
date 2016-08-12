@@ -1,0 +1,1662 @@
+     1    20  1700     3     1
+(I3)     
+  1  I
+  2  thou
+  3  we
+  6  who
+  7  what
+  5  that
+  4  this
+ 11  one
+ 12  two
+ 71  say
+ 73  moon
+ 98  round
+ 95  full
+ 47  knee
+ 45  claw
+ 51  breast
+ 66  come
+ 68  sit
+ 70  give
+ 69  stand
+  9  all
+ 10  many
+ 92  night
+ 14  long
+ 13  big
+ 15  small
+ 74  star
+ 72  sun
+ 80  cloud
+ 76  rain
+ 49  belly
+ 41  nose
+ 52  heart
+ 32  fat
+ 50  neck
+ 37  hair
+ 61  die
+ 57  see
+ 60  sleep
+ 55  eat
+ 56  bite
+ 91  black
+ 88  green
+ 90  white
+ 87  red
+ 89  yellow
+ 97  good
+ 93  hot
+ 96  new
+ 99  dry
+ 94  cold
+100  name
+  8  not
+ 84  burn
+ 85  road
+ 75  water
+ 81  smoke
+ 59  know
+ 78  sand
+ 77  stone
+ 86  mountain
+ 83  ash
+ 79  earth
+ 25  leaf
+ 23  tree
+ 26  root
+ 24  seed
+ 39  ear
+ 22  louse
+ 21  dog
+ 20  bird
+ 16  woman
+ 17  man
+ 30  blood
+ 48  hand
+ 44  tongue
+ 43  tooth
+ 46  foot
+ 35  tail
+ 29  meat
+ 40  eye
+ 28  skin
+ 38  head
+ 31  bone
+ -1
+KATE
+MAPE_2
+DEDUA
+HUBE
+TOBO
+KOSORONG
+MINDIK
+BURUM
+ONO
+KOMBA
+SELEPET
+TIMBE
+NABAK
+MOMOLILI
+  
+Huon (McElhanon)
+(A1,3X,15I2)
+  1  1 1 2 2 2 2 2 2 1 1 1 1 1 1  I
+  2  1 1 2 2 2 2 2 2 2 1 1 1 1 1  thou
+  3  1 1 2 2 2 1 2 2 3 2 2 2 2 2  we
+  0  1 1 1 1 1 1 2 2 3 4 5 6 7 5  who
+  0  1 1 2 3 3 4 5 6 7 6 6 6 8 6  what
+  0  1 2 3 3 4 3 4 4 5 3 3 6 7 4  that
+  0  1 2 3 3 4 3 4 5 3 1 6 3 7 8  this
+ 11  1 2 1 1 3 4 1 3 5 6 6 6 7 7  one
+ 12  1 1 1 2 2 3 3 2 4 2 2 5 6 7  two
+  0  1 1 2 2 2 2 2 2 3 2 2 4 2 2  say
+  0  1 1 2 3 3 4 4 4 1 4 5 6 7 7  moon
+  0  1 1 1 2 1 2 2 3 2 4 4 4 5 6  round
+ 95  1 1 2 3 3 4 5 5 6 7 7 7 8 8  full
+ 47  1 1 2 3 3 3 3 3 4 3 5 5 6 7  knee
+  0  1 2 3 3 4 5 6 7 8 9 9 91011  claw
+ 51  1 1 2 2 2 3 3 3 2 2 2 2 2 2  breast
+ 66  1 2 3 3 4 5 4 4 6 4 4 4 7 8  come
+  0  1 1 2 2 2 2 2 2 3 2 2 2 2 2  sit
+  0  1 1 2 2 2 2 3 3 2 3 3 3 4 5  give
+  0  1 1 2 2 2 2 3 3 4 3 3 3 5 5  stand
+  0  1 1 1 2 3 4 5 6 7 8 9101112  all
+  0  1 1 2 3 3 4 3 5 6 7 7 7 8 8  many
+ 92  1 2 3 4 4 5 6 6 7 8 9101112  night
+  0  1 1 2 2 2 2 2 2 2 2 2 2 3 4  long
+  0  1 2 3 3 4 5 6 6 7 8 8 91011  big
+  0  1 2 3 4 4 5 4 6 7 8 9101112  small
+ 74  1 1 1 2 2 2 2 2 3 2 4 4 5 6  star
+ 72  1 2 3 4 4 5 6 6 4 7 8 91011  sun
+  0  1 2 3 4 4 4 4 4 5 6 7 8 910  cloud
+  0  1 1 1 1 1 2 1 1 1 3 4 5 3 3  rain
+  0  1 2 3 4 3 3 5 6 7 8 8 8 8 8  belly
+ 41  1 1 1 2 3 4 3 3 5 3 6 6 7 8  nose
+  0  1 2 3 4 5 6 5 5 7 8 8 91011  heart
+  0  1 2 1 3 3 3 3 3 3 3 3 3 3 3  fat
+  0  1 1 1 2 3 4 3 3 1 5 1 6 7 7  neck
+  0  1 2 1 3 3 3 3 3 3 4 4 4 3 3  hair
+ 61  1 1 1 1 1 1 1 1 2 3 3 3 4 4  die
+ 57  1 1 2 3 2 3 4 4 2 4 4 4 3 5  see
+  0  1 2 1 1 3 1 4 4 5 6 6 6 7 7  sleep
+  0  1 1 1 1 1 1 1 1 1 1 1 1 1 1  eat
+  0  1 1 1 1 1 1 2 2 1 2 2 2 2 3  bite
+  0  1 1 2 3 3 4 4 5 6 7 8 8 910  black
+  0  1 2 1 3 4 4 5 6 7 8 9 91011  green
+  0  1 1 2 3 3 4 5 5 6 7 7 7 8 8  white
+  0  1 1 2 3 3 4 3 3 5 6 6 7 8 9  red
+  0  1 1 2 3 3 4 5 4 6 7 7 7 8 8  yellow
+  0  1 2 3 2 4 5 6 6 7 6 6 6 8 9  good
+  0  1 2 3 3 3 3 4 4 3 4 4 4 5 5  hot
+ 96  1 1 1 1 1 1 2 2 3 2 4 2 2 5  new
+  0  1 2 1 3 4 5 6 6 4 6 6 7 8 6  dry
+  0  1 1 1 2 2 3 4 5 6 7 8 8 910  cold
+100  1 1 2 2 2 3 4 5 6 7 7 7 3 7  name
+  0  1 2 1 3 3 3 4 4 1 1 5 6 5 7  not
+  0  1 1 1 1 1 1 1 1 1 1 1 2 1 1  burn
+ 85  1 2 3 4 4 4 4 4 5 6 7 8 9 4  road
+ 75  1 2 3 3 3 4 2 2 3 5 5 5 5 5  water
+  0  1 1 1 1 1 1 1 1 2 3 4 5 1 1  smoke
+  0  1 1 2 3 3 4 4 4 5 6 6 6 7 6  know
+  0  1 1 1 2 2 2 2 2 3 2 2 2 4 5  sand
+ 77  1 2 2 3 4 5 6 6 7 6 6 6 8 8  stone
+ 86  1 1 1 2 2 2 3 3 2 4 5 5 6 6  mountain
+  0  1 1 2 2 2 3 4 4 4 4 4 4 4 5  ash
+  0  1 1 2 2 2 3 4 5 6 7 7 7 8 8  earth
+ 25  1 1 2 3 3 4 4 4 5 4 4 4 4 4  leaf
+ 23  1 1 2 2 2 2 2 2 3 4 4 5 6 6  tree
+  0  1 1 1 1 2 3 4 4 5 2 6 7 7 7  root
+  0  1 2 1 3 4 5 5 5 6 7 7 8 5 5  seed
+ 39  1 1 1 1 1 1 1 1 1 1 2 2 3 4  ear
+ 22  1 1 1 1 1 1 1 1 1 1 1 1 1 2  louse
+ 21  1 1 2 2 3 2 3 3 2 4 5 6 7 7  dog
+  0  1 2 3 3 3 4 3 3 3 3 3 5 6 5  bird
+  0  1 1 1 2 2 2 2 2 3 2 2 2 2 2  woman
+  0  1 1 1 1 1 2 3 4 1 5 6 6 5 5  man
+ 30  1 2 1 1 1 1 1 1 3 1 1 4 1 1  blood
+ 48  1 1 2 2 2 3 4 2 1 5 5 5 5 5  hand
+ 44  1 2 1 3 3 3 3 3 4 3 3 5 3 3  tongue
+ 43  1 2 3 4 4 4 4 4 5 4 4 4 4 4  tooth
+  0  1 1 2 2 2 2 2 2 1 1 1 1 3 4  foot
+  0  1 2 2 2 2 2 3 2 2 2 4 4 5 5  tail
+  0  1 1 2 2 2 2 2 2 1 3 3 3 4 5  meat
+ 40  1 1 2 2 3 4 4 4 4 4 4 5 4 4  eye
+ 28  1 2 3 3 3 4 4 4 4 5 5 5 5 5  skin
+  0  1 2 3 4 5 6 5 5 7 8 9 8 910  head
+ 31  1 1 1 1 1 1 1 1 1 2 1 1 3 1  bone
+X
+p
+b
+f
+v
+m
+w             
+8       
+t
+d
+s
+z
+c
+n
+r
+l       
+S
+Z       
+C
+j
+T       
+5
+y
+k
+g
+x
+N
+q                     
+X
+h
+7
+L
+4
+G
+!       
+i   
+e
+E
+3
+a
+u
+o
+     
+       
+KATE{TNG.FINISTERRE-HUON|Trans-NewGuinea,Finisterre-Huon,Huon,Eastern@Trans_New_Guinea,MainSection,CentralandWestern,Huon-Finisterre,Huon,Huon_Eastern}
+ 1   -6.50  147.75        6125   kat   kmg
+1 I	no //
+2 you	go //
+3 we	noNo7 //
+11 one	moyaha //
+12 two	yayahe7 //
+18 person	XXX // 
+19 fish	XXX //
+21 dog	kp~oto //
+22 louse	imeN //
+23 tree	yo7 //
+25 leaf	reha7 // stem, "its leaf"
+28 skin	saha7 // stem, "its skin"
+30 blood	so7 // stem, "its blood"
+31 bone	sie7 // stem, "its bone"
+34 horn	XXX //
+39 ear	hace7 // stem, "its ear"
+40 eye	coNe // stem, "its eye"
+41 nose	soke // stem, "its nose"
+43 tooth	mi7 // stem, "its tooth"
+44 tongue	nameN // stem, "its tongue"
+47 knee	dieN // stem, "his knee"
+48 hand	me // stem, "his hand"
+51 breast	moN //
+53 liver	XXX //
+54 drink	XXX //
+57 see	honenu // stem, "he sees me"
+58 hear	XXX //
+61 die	homo // stem, "he dies"
+66 come	wefu // stem, "he comes"
+72 sun	coaN //
+74 star	bopiN //
+75 water	opo //
+77 stone	kp~ono //
+82 fire	XXX //
+85 path	hata //
+86 mountain	tiki //
+92 night	Nafe //
+95 full	fuse // stem, "it is full"
+96 new	gb~orine //
+100 name	coNe // stem, "its name"
+6 who	mo7 //
+7 what	wemo //
+5 that	i //
+4 this	ci //
+71 say	mu //
+73 moon	mosa //
+45 claw	misiN //
+68 sit	Ne //
+70 give	nare //
+69 stand	doma //
+9 all	sasawa //
+10 many	bo7yaha //
+14 long	cori7ne //
+80 cloud	karora7 //
+76 rain	hoe //
+49 belly	bu //
+52 heart	bu hondoN //
+50 neck	upe //
+37 hair	cowo //
+55 eat	no //
+56 bite	ki //
+91 black	gogopo7 //
+88 green	oroNbori7 //
+90 white	kp~aN kp~aN //
+87 red	boboroN //
+89 yellow	boNeNne //
+97 good	biaNne //
+93 hot	co7 //
+99 dry	kereNke //
+94 cold	moteNne //
+8 not	mi //
+84 burn	ca //
+59 know	mana //
+78 sand	moNgeN //
+83 ash	cafe //
+79 earth	moreN //
+26 root	goto //
+24 seed	hondoN //
+20 bird	wipe //
+16 woman	Noka7 //
+17 man	Ni7 //
+46 foot	kike //
+35 tail	ge7 //
+38 head	kp~ice7 //
+27 bark	XXX //
+13 big	ko7gbene //
+33 egg	XXX //
+29 flesh	bihu7 //
+64 fly	XXX //
+36 feather	XXX //
+32 grease	wokemaN //
+62 kill	XXX //
+67 lie	XXX //
+42 mouth	XXX //
+98 round	oroN oroN //
+15 small	piti7ne //
+63 swim	XXX //
+60 sleep	fo //
+81 smoke	hoso7 //
+65 walk	XXX //
+MAPE_2{TNG.FINISTERRE-HUON|Trans-NewGuinea,Finisterre-Huon,Huon,Eastern@Trans_New_Guinea,MainSection,CentralandWestern,Huon-Finisterre,Huon,Huon_Eastern}                                                                           	
+ 1   -6.32  147.39        5117         mlh
+6 who	mo7 //
+7 what	wamo //
+5 that	o //
+4 this	oi //
+71 say	mi //
+73 moon	mosa //
+45 claw	yuyuN //
+68 sit	Ne //
+70 give	nare //
+69 stand	dimi //
+9 all	sosowo //
+10 many	boiaha //
+14 long	coraikne //
+80 cloud	goweN //
+76 rain	kue //
+49 belly	ata //
+52 heart	maki koruN //
+50 neck	upe //
+37 hair	kaNcaN //
+55 eat	na //
+56 bite	ki //
+91 black	gogowuk //
+88 green	buge //
+90 white	kp~aN kp~aN //
+87 red	boboroN //
+89 yellow	boboNeN //
+97 good	fine //
+93 hot	foro //
+99 dry	ciga //
+94 cold	moteNne //
+8 not	so //
+84 burn	ca //
+59 know	mane //
+78 sand	mageN //
+83 ash	cafe //
+79 earth	moreN //
+26 root	goru //
+24 seed	fonoN //
+20 bird	woro //
+16 woman	Nigok //
+17 man	Nik //
+46 foot	kigo //
+35 tail	ci //
+38 head	kp~oru //
+27 bark	XXX //
+13 big	yasogo //
+33 egg	XXX //
+29 flesh	biu //
+64 fly	XXX //
+36 feather	XXX //
+32 grease	wici //
+62 kill	XXX //
+67 lie	XXX //
+42 mouth	XXX //
+98 round	oroN //
+15 small	mendakne //
+63 swim	XXX //
+60 sleep	kp~e //
+81 smoke	kosok //
+65 walk	XXX //
+1   I	no //  
+2   you	go //  
+3   we	noNu //  
+11  one	mokotoN //  
+12  two	yoyokak //  
+95  full	fuse //  
+47  knee	dieN //  
+51  breast	moN //  
+66  come	wape //  
+92  night	uwu //  
+74  star	bopiN //  
+72  sun	wegi //  
+41  nose	siko //  
+61  die	kome //  
+57  see	Nonenu //  
+96  new	gb~oine //  
+100 name	ciNo //  
+75  water	owu //  
+77  stone	kok //  
+86  mountain	tiki //  
+25  leaf	rekak //  
+23  tree	yok //  
+39  ear	kace //  
+22  louse	imeN //  
+21  dog	kp~oro //  
+30  blood	dari //  
+48  hand	me //  
+44  tongue	eroN //  
+43  tooth	misio //  
+40  eye	ciNo //  
+28  skin	mocu //  
+31  bone	siak //  
+19  fish	XXX //  
+34  horn	XXX //  
+53  liver	XXX //  
+54  drink	XXX //  
+58  hear	XXX //  
+82  fire	XXX //  
+85  path	kari //  
+18  person	XXX //  
+DEDUA{TNG.FINISTERRE-HUON|Trans-NewGuinea,Finisterre-Huon,Huon,Eastern@Trans_New_Guinea,MainSection,CentralandWestern,Huon-Finisterre,Huon,Huon_Eastern}
+ 1   -6.42  147.67        5620         ded
+1 I	ni //
+2 you	ge //
+3 we	nini //
+11 one	mokgu //
+12 two	yohokaN //
+18 person	XXX //
+19 fish	XXX //
+21 dog	kasi //
+22 louse	yomiN //
+23 tree	ik //
+25 leaf	mari // stem, "its leaf"
+28 skin	sebi // stem, "its skin"
+30 blood	sawa // stem, "its blood"
+31 bone	sir // stem, "its bone"
+34 horn	XXX //
+39 ear	heca // stem, "its ear"
+40 eye	kiwa // stem, "its eye"
+41 nose	soge // stem, "its nose"
+43 tooth	enar // stem, "its tooth"
+44 tongue	nameN // stem, "its tongue"
+47 knee	fakuruN // stem, "his knee"
+48 hand	mari // stem, "his hand"
+51 breast	namu //
+53 liver	XXX //
+54 drink	XXX //
+57 see	nen // stem, "he sees me"
+58 hear	XXX //
+61 die	home // stem, "he dies"
+66 come	ere // stem, "he comes"
+72 sun	wonak //
+74 star	bopiN //
+75 water	doku //
+77 stone	hok //
+82 fire	XXX //
+85 path	siN //
+86 mountain	tiki //
+92 night	tofonak //
+95 full	wake // stem, "it is full"
+96 new	gb~oria //
+100 name	kiwa // stem, "its name"
+6 who	moN //
+7 what	dafi //
+5 that	yo //
+4 this	i //
+71 say	de //
+73 moon	afo //
+45 claw	boN //
+68 sit	tak //
+70 give	nen //
+69 stand	nan //
+9 all	sasawa //
+10 many	homak //
+14 long	herea //
+80 cloud	kurumeN //
+76 rain	kia //
+49 belly	kera //
+52 heart	woso honduN //
+50 neck	upe //
+37 hair	cowe //
+55 eat	ne //
+56 bite	ki //
+91 black	cacu //
+88 green	oroNborik //
+90 white	koNak //
+87 red	sak sak //
+89 yellow	cagea //
+97 good	gombuNa //
+93 hot	gerek //
+99 dry	kereN //
+94 cold	moteNa //
+8 not	mi //
+84 burn	ca //
+59 know	negen //
+78 sand	moNgeN //
+83 ash	hama //
+79 earth	baNek //
+26 root	gode //
+24 seed	honduN //
+20 bird	neN //
+16 woman	Nak //
+17 man	Nik //
+46 foot	hani //
+35 tail	ci //
+38 head	fufu //
+27 bark	XXX //
+13 big	kuneN //
+33 egg	XXX //
+29 flesh	fusi //
+64 fly	XXX //
+36 feather	XXX //
+32 grease	wokemaN //
+62 kill	XXX //
+67 lie	XXX //
+42 mouth	XXX //
+98 round	oroN //
+15 small	kapia //
+63 swim	XXX //
+60 sleep	fe //
+81 smoke	husuk //
+65 walk	XXX //
+HUBE{TNG.FINISTERRE-HUON|Trans-NewGuinea,Finisterre-Huon,Huon,Eastern@Trans_New_Guinea,MainSection,CentralandWestern,Huon-Finisterre,Huon,Huon_Eastern}
+ 1   -6.50  147.50        6000         kgf
+1 I	ni //
+2 you	gi //
+3 we	nini //
+11 one	momakgu //
+12 two	rehek //
+18 person	XXX //
+19 fish	XXX //
+21 dog	kacu //
+22 louse	imin //
+23 tree	ik //
+25 leaf	hareN // stem, "its leaf"
+28 skin	sewira // stem, "its skin"
+30 blood	sawa // stem, "its blood"
+31 bone	sigl~ // stem, "its bone"
+34 horn	XXX //
+39 ear	geca // stem, "its ear"
+40 eye	kiwa // stem, "its eye"
+41 nose	sere // stem, "its nose"
+43 tooth	cegl~ // stem, "its tooth"
+44 tongue	eceraN // stem, "its tongue"
+47 knee	simiN // stem, "his knee"
+48 hand	meri // stem, "his hand"
+51 breast	namu //
+53 liver	XXX //
+54 drink	XXX //
+57 see	ni // stem, "he sees me"
+58 hear	XXX //
+61 die	humu // stem, "he dies"
+66 come	ere // stem, "he comes"
+72 sun	kaiwe //
+74 star	sikiru //
+75 water	doku //
+77 stone	gokmea //
+82 fire	XXX //
+85 path	hena //
+86 mountain	boNa //
+92 night	siNi //
+95 full	koia kp~e // "it is full"
+96 new	gb~eria //
+100 name	kiwa // stem, "its name"
+6 who	moN //
+7 what	nemak //
+5 that	yo //
+4 this	i //
+71 say	ce //
+73 moon	komoN //
+45 claw	boNsewe //
+68 sit	tak //
+70 give	nen //
+69 stand	nan //
+9 all	mokcoN //
+10 many	sasara //
+14 long	horua //
+80 cloud	hosesu //
+76 rain	kia //
+49 belly	tomeN //
+52 heart	webogokme //
+50 neck	ebasi~gla //
+37 hair	cu //
+55 eat	ne //
+56 bite	ki //
+91 black	capera //
+88 green	gerik meria //
+90 white	rarak //
+87 red	pesia //
+89 yellow	gb~aok gb~aok //
+97 good	fia //
+93 hot	gerik //
+99 dry	irege //
+94 cold	sageNa //
+8 not	munda //
+84 burn	ce //
+59 know	nin //
+78 sand	sakesa //
+83 ash	homa //
+79 earth	baek //
+26 root	gete //
+24 seed	gokme //
+20 bird	nei //
+16 woman	embak //
+17 man	ik //
+46 foot	heni //
+35 tail	ci //
+38 head	ogu //
+27 bark	XXX //
+13 big	kuneN //
+33 egg	XXX //
+29 flesh	busi //
+64 fly	XXX //
+36 feather	XXX //
+32 grease	harek //
+62 kill	XXX //
+67 lie	XXX //
+42 mouth	XXX //
+98 round	rerek rerek //
+15 small	komoga //
+63 swim	XXX //
+60 sleep	fe //
+81 smoke	hofak //
+65 walk	XXX //
+TOBO{TNG.FINISTERRE-HUON|Trans-NewGuinea,Finisterre-Huon,Huon,Western@Trans_New_Guinea,MainSection,CentralandWestern,Huon-Finisterre,Huon,Huon_Western}
+ 1   -6.42  147.42        2230         tbv
+1 I	ni //
+2 you	gi //
+3 we	nini //
+11 one	mohok //
+12 two	rohot //
+18 person	XXX //
+19 fish	XXX //
+21 dog	kiam //
+22 louse	imin //
+23 tree	ip //
+25 leaf	karem // stem, "its leaf"
+28 skin	sowol // stem, "its skin"
+30 blood	sap // stem, "its blood"
+31 bone	sihit // stem, "its bone"
+34 horn	XXX //
+39 ear	kesap // stem, "its ear"
+40 eye	kp~at // stem, "its eye"
+41 nose	sohori // stem, "its nose"
+43 tooth	cot // stem, "its tooth"
+44 tongue	ecelom // stem, "its tongue"
+47 knee	simin // stem, "his knee"
+48 hand	moro // stem, "his hand"
+51 breast	namo //
+53 liver	XXX //
+54 drink	XXX //
+57 see	nen // stem, "he sees me"
+58 hear	XXX //
+61 die	komu // stem, "he dies"
+66 come	ka // stem, "he comes"
+72 sun	kaiwe //
+74 star	sekelo //
+75 water	duku //
+77 stone	baNa //
+82 fire	XXX //
+85 path	kona //
+86 mountain	bohoNa //
+92 night	siNiaha //
+95 full	koia kp~e // "it is full"
+96 new	gb~ilik //
+100 name	kiwa // stem, "its name"
+6 who	moN //
+7 what	nomat //
+5 that	mi //
+4 this	mu //
+71 say	ci //
+73 moon	kombol //
+45 claw	kawon //
+68 sit	ta //
+70 give	nem //
+69 stand	nan //
+9 all	eNalek //
+10 many	sesia //
+14 long	korua //
+80 cloud	kosu //
+76 rain	kia //
+49 belly	kerap //
+52 heart	wel bot //
+50 neck	cel //
+37 hair	cu //
+55 eat	ne //
+56 bite	ki //
+91 black	capala //
+88 green	asoNa //
+90 white	lalap //
+87 red	posoha //
+89 yellow	gb~aot gb~aot //
+97 good	eha //
+93 hot	girua //
+99 dry	cipko //
+94 cold	saNgeN //
+8 not	mondo //
+84 burn	ce //
+59 know	nin //
+78 sand	sak //
+83 ash	kama //
+79 earth	bait //
+26 root	onde //
+24 seed	gopi //
+20 bird	ni //
+16 woman	embat //
+17 man	ip //
+46 foot	kani //
+35 tail	ci //
+38 head	norok //
+27 bark	XXX //
+13 big	baia //
+33 egg	XXX //
+29 flesh	busi //
+64 fly	XXX //
+36 feather	XXX //
+32 grease	kalak //
+62 kill	XXX //
+67 lie	XXX //
+42 mouth	XXX //
+98 round	koroN koroN //
+15 small	komora //
+63 swim	XXX //
+60 sleep	goohe //
+81 smoke	kasak //
+65 walk	XXX //
+KOSORONG{TNG.FINISTERRE-HUON|Trans-NewGuinea,Finisterre-Huon,Huon,Eastern@Trans_New_Guinea,MainSection,CentralandWestern,Huon-Finisterre,Huon,Huon_Eastern}                                                                           	
+ 1   -6.50  147.47        2069         ksr
+6 who	moN //
+7 what	namuNak //
+5 that	lo //
+4 this	i //
+71 say	co //
+73 moon	koiN //
+45 claw	kosi //
+68 sit	ra //
+70 give	non //
+69 stand	nan //
+9 all	kuya //
+10 many	mamagu //
+14 long	koriga //
+80 cloud	kosuk //
+76 rain	koN //
+49 belly	keri //
+52 heart	bakota //
+50 neck	are //
+37 hair	cui //
+55 eat	ne //
+56 bite	ki //
+91 black	incaNa //
+88 green	asoN asoN //
+90 white	tataNkota //
+87 red	osoga //
+89 yellow	gogokota //
+97 good	aua //
+93 hot	gerek //
+99 dry	tobori //
+94 cold	oloNa //
+8 not	mende //
+84 burn	ce //
+59 know	mo //
+78 sand	sakasiN //
+83 ash	tok //
+79 earth	namok //
+26 root	tita //
+24 seed	kota //
+20 bird	koN //
+16 woman	embak //
+17 man	ecak //
+46 foot	kani //
+35 tail	dai //
+38 head	osoga //
+27 bark	XXX //
+13 big	somata //
+33 egg	XXX //
+29 flesh	busi //
+64 fly	XXX //
+36 feather	XXX //
+32 grease	kelega //
+62 kill	XXX //
+67 lie	XXX //
+42 mouth	XXX //
+98 round	lilik lilik //
+15 small	merak //
+63 swim	XXX //
+60 sleep	e //
+81 smoke	kasok //
+65 walk	XXX //
+1   I	ni //  
+2   you	gi //  
+3   we	nono //  
+11  one	motoNgok //  
+12  two	woik //  
+95  full	sa kp~e //  
+47  knee	simiN //  
+51  breast	acu //  
+66  come	wa //  
+92  night	ketek //  
+74  star	seNgeleu //  
+72  sun	weN //  
+41  nose	sewaN //  
+61  die	komu //  
+57  see	ni //  
+96  new	gb~ilia //  
+100 name	cakota //  
+75  water	apuk //  
+77  stone	camok //  
+86  mountain	baNa //  
+25  leaf	seN //  
+23  tree	ik //  
+39  ear	geca //  
+22  louse	imoN //  
+21  dog	kasuk //  
+30  blood	saya //  
+48  hand	borok //  
+44  tongue	neselaN //  
+43  tooth	cot //  
+40  eye	ca //  
+28  skin	sele //  
+31  bone	sita //  
+19  fish	XXX //  
+34  horn	XXX //  
+53  liver	XXX //  
+54  drink	XXX //  
+58  hear	XXX //  
+82  fire	XXX //  
+85  path	kanak //  
+18  person	XXX //  
+MINDIK{TNG.FINISTERRE-HUON|Trans-NewGuinea,Finisterre-Huon,Huon,Western@Trans_New_Guinea,MainSection,CentralandWestern,Huon-Finisterre,Huon,Huon_Western}                                                                           	
+ 1   -6.50  147.33        8253   bmr   bmu
+6 who	moN //
+7 what	nowo //
+5 that	me //
+4 this	mu //
+71 say	ci //
+73 moon	kaiN //
+45 claw	kesot //
+68 sit	ta //
+70 give	niNgi //
+69 stand	kin //
+9 all	moketaNi //
+10 many	seseNi //
+14 long	koripNi //
+80 cloud	kousu //
+76 rain	kie //
+49 belly	irip //
+52 heart	wel bot //
+50 neck	col //
+37 hair	cup //
+55 eat	ne //
+56 bite	yoho //
+91 black	incaNi //
+88 green	toNgon toNgon //
+90 white	toatNi //
+87 red	posikNi //
+89 yellow	gibaNi //
+97 good	olpNi //
+93 hot	konop //
+99 dry	oroNgo //
+94 cold	hamotNi //
+8 not	kp~aho //
+84 burn	ce //
+59 know	mo //
+78 sand	sakosiN //
+83 ash	kau //
+79 earth	baloN //
+26 root	calo //
+24 seed	kot //
+20 bird	nei //
+16 woman	ambi //
+17 man	aiwi //
+46 foot	kana //
+35 tail	lou //
+38 head	noruk //
+27 bark	XXX //
+13 big	ketaNi //
+33 egg	XXX //
+29 flesh	busu //
+64 fly	XXX //
+36 feather	XXX //
+32 grease	kelok //
+62 kill	XXX //
+67 lie	XXX //
+42 mouth	XXX //
+98 round	lilik lilik //
+15 small	komokNi //
+63 swim	XXX //
+60 sleep	aho //
+81 smoke	kowak //
+65 walk	XXX //
+1   I	ni //  
+2   you	gi //  
+3   we	nini //  
+11  one	mokuN //  
+12  two	woit //  
+95  full	koko kp~e //  
+47  knee	simin //  
+51  breast	cucu //  
+66  come	ka //  
+92  night	suNgem //  
+74  star	seNgelau //  
+72  sun	wehon //  
+41  nose	soNgoro //  
+61  die	komu //  
+57  see	nek //  
+96  new	dolokNi //  
+100 name	kurap //  
+75  water	ou //  
+77  stone	kot //  
+86  mountain	kunduNi //  
+25  leaf	sin //  
+23  tree	ip //  
+39  ear	kecap //  
+22  louse	imin //  
+21  dog	kiam //  
+30  blood	sep //  
+48  hand	cot //  
+44  tongue	nesolam //  
+43  tooth	cot //  
+40  eye	ce //  
+28  skin	sele //  
+31  bone	sihit //  
+19  fish	XXX //  
+34  horn	XXX //  
+53  liver	XXX //  
+54  drink	XXX //  
+58  hear	XXX //  
+82  fire	XXX //  
+85  path	kona //  
+18  person	XXX //  
+BURUM{TNG.FINISTERRE-HUON|Trans-NewGuinea,Finisterre-Huon,Huon,Western@Trans_New_Guinea,MainSection,CentralandWestern,Huon-Finisterre,Huon,Huon_Western}                                                                           	
+ 1   -6.50  147.33        8253   bmr   bmu
+6 who	kun //
+7 what	wania //
+5 that	me //
+4 this	ke //
+71 say	ci //
+73 moon	kain //
+45 claw	kambo //
+68 sit	ta //
+70 give	niNgi //
+69 stand	kin //
+9 all	kp~akp~ak //
+10 many	gotpok //
+14 long	koripNi //
+80 cloud	kousu //
+76 rain	kie //
+49 belly	golom //
+52 heart	wel bot //
+50 neck	col //
+37 hair	cup //
+55 eat	ne //
+56 bite	yoho //
+91 black	towuNi //
+88 green	gorokNi //
+90 white	tuatNi //
+87 red	pisikNi //
+89 yellow	gohotNi //
+97 good	olpNi //
+93 hot	kondop //
+99 dry	oroNgo //
+94 cold	ciNim //
+8 not	kp~ahop //
+84 burn	ce //
+59 know	ma //
+78 sand	sak //
+83 ash	kau //
+79 earth	golme //
+26 root	calo //
+24 seed	kot //
+20 bird	nei //
+16 woman	ambi //
+17 man	aci //
+46 foot	kana //
+35 tail	dai //
+38 head	noruk //
+27 bark	XXX //
+13 big	ketaNi //
+33 egg	XXX //
+29 flesh	busu //
+64 fly	XXX //
+36 feather	XXX //
+32 grease	kelok //
+62 kill	XXX //
+67 lie	XXX //
+42 mouth	XXX //
+98 round	lambo //
+15 small	moroNi //
+63 swim	XXX //
+60 sleep	aho //
+81 smoke	kasak //
+65 walk	XXX //
+1   I	ni //  
+2   you	gi //  
+3   we	nini //  
+11  one	mohot //  
+12  two	yahat //  
+95  full	kokolak kp~e //  
+47  knee	simin //  
+51  breast	cucu //  
+66  come	ka //  
+92  night	suNgem //  
+74  star	seNgelau //  
+72  sun	welgon //  
+41  nose	sohoro //  
+61  die	komu //  
+57  see	nek //  
+96  new	dolokNi //  
+100 name	kp~et //  
+75  water	ou //  
+77  stone	kot //  
+86  mountain	kunduNi //  
+25  leaf	sin //  
+23  tree	ip //  
+39  ear	kecap //  
+22  louse	imin //  
+21  dog	kiam //  
+30  blood	sep //  
+48  hand	boro //  
+44  tongue	neselam //  
+43  tooth	cit //  
+40  eye	ce //  
+28  skin	sile //  
+31  bone	sihit //  
+19  fish	XXX //  
+34  horn	XXX //  
+53  liver	XXX //  
+54  drink	XXX //  
+58  hear	XXX //  
+82  fire	XXX //  
+85  path	kona //  
+18  person	XXX //  
+ONO{TNG.FINISTERRE-HUON|Trans-NewGuinea,Finisterre-Huon,Huon,Western@Trans_New_Guinea,MainSection,CentralandWestern,Huon-Finisterre,Huon,Huon_Western}
+ 1   -6.17  147.42        5500   ono   ons
+1 I	na //
+2 you	ge //
+3 we	Nedo //
+11 one	weku //
+12 two	etke //
+18 person	XXX //
+19 fish	XXX //
+21 dog	kasi //
+22 louse	emen //
+23 tree	eki //
+25 leaf	meti // stem, "its leaf"
+28 skin	solai // stem, "its skin"
+30 blood	weNemi // stem, "its blood"
+31 bone	set // stem, "its bone"
+34 horn	XXX //
+39 ear	ket // stem, "its ear"
+40 eye	dei // stem, "its eye"
+41 nose	sot // stem, "its nose"
+43 tooth	Net // stem, "its tooth"
+44 tongue	belakami // ?its tongue?
+47 knee	wawet // stem, "his knee"
+48 hand	me // stem, "his hand"
+51 breast	Namu //
+53 liver	XXX //
+54 drink	XXX //
+57 see	nan // stem, "he sees me"
+58 hear	XXX //
+61 die	seuki // stem, "he dies"
+66 come	sa // stem, "he comes"
+72 sun	kaiwe //
+74 star	serekiN //
+75 water	doku //
+77 stone	wesi //
+82 fire	XXX //
+85 path	numa //
+86 mountain	bonaga //
+92 night	ruwo //
+95 full	weTgi // stem, "it is full"
+96 new	wele //
+100 name	dei // stem, "its name"
+6 who	mane //
+7 what	onoka //
+5 that	eri //
+4 this	i //
+71 say	ra //
+73 moon	meso //
+45 claw	zolip //
+68 sit	meri //
+70 give	nin //
+69 stand	okore //
+9 all	korop //
+10 many	louloutNe //
+14 long	kiroine //
+80 cloud	kezoN //
+76 rain	koia //
+49 belly	kai //
+52 heart	kombaNi //
+50 neck	ebi //
+37 hair	cou //
+55 eat	ni //
+56 bite	ki //
+91 black	dika //
+88 green	wisika //
+90 white	libeka //
+87 red	weNemka //
+89 yellow	yaNaike //
+97 good	maine //
+93 hot	gerep //
+99 dry	cipki //
+94 cold	momoine //
+8 not	mi //
+84 burn	ci //
+59 know	deri //
+78 sand	gb~alak //
+83 ash	kau //
+79 earth	kepe //
+26 root	Nodi //
+24 seed	wau //
+20 bird	naNi //
+16 woman	Nerep //
+17 man	Nei //
+46 foot	ki //
+35 tail	dai //
+38 head	lewit //
+27 bark	XXX //
+13 big	suaine //
+33 egg	XXX //
+29 flesh	biku //
+64 fly	XXX //
+36 feather	XXX //
+32 grease	kelok //
+62 kill	XXX //
+67 lie	XXX //
+42 mouth	XXX //
+98 round	lolik lolik //
+15 small	nigatne //
+63 swim	XXX //
+60 sleep	pa //
+81 smoke	Naup //
+65 walk	XXX //
+KOMBA{TNG.FINISTERRE-HUON|Trans-NewGuinea,Finisterre-Huon,Huon,Western@Trans_New_Guinea,MainSection,CentralandWestern,Huon-Finisterre,Huon,Huon_Western}
+ 1   -6.17  147.25       15000         kpf
+1 I	no //
+2 you	go //
+3 we	nen //
+11 one	konok //
+12 two	zohot //
+18 person	XXX // (only V)
+19 fish	XXX //
+21 dog	wau //
+22 louse	imen //
+23 tree	nak //
+25 leaf	in // stem, "its leaf"
+28 skin	sok // stem, "its skin"
+30 blood	sep // stem, "its blood"
+31 bone	ton // stem, "its bone"
+34 horn	XXX //
+39 ear	kidap // stem, "its ear"
+40 eye	si // stem, "its eye"
+41 nose	sogon // stem, "its nose"
+43 tooth	sot // stem, "its tooth"
+44 tongue	nobolam // stem, "its tongue"
+47 knee	simin // stem, "his knee"
+48 hand	bit // stem, "his hand"
+51 breast	nam //
+53 liver	XXX //
+54 drink	XXX //
+57 see	nek // stem, "he sees me"
+58 hear	XXX //
+61 die	mu // stem, "he dies"
+66 come	ga // stem, "he comes"
+72 sun	mirosiN //
+74 star	segelak //
+75 water	to //
+77 stone	kot //
+82 fire	XXX //
+85 path	motop //
+86 mountain	kakNa //
+92 night	Natik //
+95 full	pik // stem, "it is full"
+96 new	irakNo //
+100 name	kut // stem, "its name"
+6 who	Nai //
+7 what	wan //
+5 that	zo //
+4 this	zi //
+71 say	s //
+73 moon	kain //
+45 claw	pakit //
+68 sit	ta //
+70 give	nih //
+69 stand	kin //
+9 all	aksik //
+10 many	biwiro //
+14 long	korep //
+80 cloud	sasa //
+76 rain	map //
+49 belly	tip //
+52 heart	kabiam //
+50 neck	godu //
+37 hair	somot //
+55 eat	ni //
+56 bite	zihi //
+91 black	sumun sumun //
+88 green	wohon wohon //
+90 white	kau kau //
+87 red	kuriN //
+89 yellow	gibaN gibaN //
+97 good	olipNo //
+93 hot	korop //
+99 dry	araroN //
+94 cold	poteN //
+8 not	mo //
+84 burn	si //
+59 know	naga //
+78 sand	sak //
+83 ash	kau //
+79 earth	an //
+26 root	odoN //
+24 seed	ket //
+20 bird	ni //
+16 woman	abon //
+17 man	a //
+46 foot	ki //
+35 tail	da //
+38 head	kauk //
+27 bark	XXX //
+13 big	pato //
+33 egg	XXX //
+29 flesh	sunum //
+64 fly	XXX //
+36 feather	XXX //
+32 grease	kelok //
+62 kill	XXX //
+67 lie	XXX //
+42 mouth	XXX //
+98 round	gawoN gawoN //
+15 small	moikto //
+63 swim	XXX //
+60 sleep	zi //
+81 smoke	mudo //
+65 walk	XXX //
+SELEPET{TNG.FINISTERRE-HUON|Trans-NewGuinea,Finisterre-Huon,Huon,Western@Trans_New_Guinea,MainSection,CentralandWestern,Huon-Finisterre,Huon,Huon_Western}
+ 1   -6.17  147.17        7000   slp   spl
+1 I	no //
+2 you	go //
+3 we	nen //
+11 one	konok //
+12 two	yohop //
+18 person	XXX //
+19 fish	XXX //
+21 dog	soso //
+22 louse	imen //
+23 tree	nak //
+25 leaf	esen // stem, "its leaf"
+28 skin	hok // stem, "its skin"
+30 blood	hep // stem, "its blood"
+31 bone	hahit // stem, "its bone"
+34 horn	XXX //
+39 ear	odop // stem, "its ear"
+40 eye	sen // stem, "its eye"
+41 nose	home // stem, "its nose"
+43 tooth	sot // stem, "its tooth"
+44 tongue	nibilam // stem, "its tongue"
+47 knee	pawut // stem, "his knee"
+48 hand	bot // stem, "his hand"
+51 breast	nam //
+53 liver	XXX //
+54 drink	XXX //
+57 see	nek // stem, "he sees me"
+58 hear	XXX //
+61 die	mu // stem, "he dies"
+66 come	ga // stem, "he comes"
+72 sun	dewuto //
+74 star	petu //
+75 water	to //
+77 stone	kot //
+82 fire	XXX //
+85 path	giop //
+86 mountain	giboNe //
+92 night	omoN //
+95 full	pik // stem, "it is full"
+96 new	oiNe //
+100 name	kut // stem, "its name"
+6 who	olo //
+7 what	wuon //
+5 that	ya //
+4 this	yu //
+71 say	y //
+73 moon	emesenNe //
+45 claw	pekat //
+68 sit	ta //
+70 give	nihi //
+69 stand	kin //
+9 all	kerek //
+10 many	biwiro //
+14 long	kolip //
+80 cloud	elem //
+76 rain	gelok //
+49 belly	tep //
+52 heart	kabiam //
+50 neck	obe //
+37 hair	somot //
+55 eat	ni //
+56 bite	ihi //
+91 black	heleN //
+88 green	golo //
+90 white	kaok //
+87 red	kuriN //
+89 yellow	gibaN //
+97 good	olipNe //
+93 hot	kolop //
+99 dry	horoN //
+94 cold	bolopNe //
+8 not	ki //
+84 burn	si //
+59 know	naga //
+78 sand	sak //
+83 ash	kou //
+79 earth	hon //
+26 root	gihit //
+24 seed	kehet //
+20 bird	noi //
+16 woman	ibi //
+17 man	lok //
+46 foot	koi //
+35 tail	hape //
+38 head	kun //
+27 bark	XXX //
+13 big	pato //
+33 egg	XXX //
+29 flesh	sunum //
+64 fly	XXX //
+36 feather	XXX //
+32 grease	kelu //
+62 kill	XXX //
+67 lie	XXX //
+42 mouth	XXX //
+98 round	gawoN gawoN //
+15 small	tipiNe //
+63 swim	XXX //
+60 sleep	i //
+81 smoke	utun //
+65 walk	XXX //
+TIMBE{TNG.FINISTERRE-HUON|Trans-NewGuinea,Finisterre-Huon,Huon,Western@Trans_New_Guinea,MainSection,CentralandWestern,Huon-Finisterre,Huon,Huon_Western}
+ 1   -6.17  147.08       11000         tim
+1 I	no //
+2 you	go //
+3 we	nen //
+11 one	konok //
+12 two	louwo //
+18 person	XXX //
+19 fish	XXX //
+21 dog	dua //
+22 louse	imen //
+23 tree	lowin //
+25 leaf	esen // stem, "its leaf"
+28 skin	hok // stem, "its skin"
+30 blood	gilom // stem, "its blood"
+31 bone	hahit // stem, "its bone"
+34 horn	XXX //
+39 ear	odop // stem, "its ear"
+40 eye	dewun // stem, "its eye"
+41 nose	home // stem, "its nose"
+43 tooth	dot // stem, "its tooth"
+44 tongue	elewot // stem, "its tongue"
+47 knee	powut // stem, "his knee"
+48 hand	bot // stem, "his hand"
+51 breast	nam //
+53 liver	XXX //
+54 drink	XXX //
+57 see	nek // stem, "he sees me"
+58 hear	XXX //
+61 die	mo // stem, "he dies"
+66 come	gu // stem, "he comes"
+72 sun	poiap //
+74 star	pituN //
+75 water	tu //
+77 stone	kot //
+82 fire	XXX //
+85 path	dop //
+86 mountain	giboNe //
+92 night	hadok //
+95 full	pik // stem, "it is full"
+96 new	irakNe //
+100 name	kot // stem, "its name"
+6 who	kio //
+7 what	wan //
+5 that	ido //
+4 this	i //
+71 say	ma //
+73 moon	dewuto hodohon gotNe//
+45 claw	pekat //
+68 sit	ta //
+70 give	niN //
+69 stand	kin //
+9 all	horowok //
+10 many	biwiro //
+14 long	kolip //
+80 cloud	hamadat //
+76 rain	tonok //
+49 belly	tep //
+52 heart	okot //
+50 neck	han //
+37 hair	dumut //
+55 eat	ni //
+56 bite	ihi //
+91 black	heleN //
+88 green	golo //
+90 white	kau //
+87 red	gilomNe //
+89 yellow	gibaN //
+97 good	olipNe //
+93 hot	kolop //
+99 dry	kamili //
+94 cold	bolopNe //
+8 not	bo //
+84 burn	o //
+59 know	nogo //
+78 sand	sak //
+83 ash	kau //
+79 earth	hon //
+26 root	kodoro //
+24 seed	kodet //
+20 bird	laut //
+16 woman	oboi //
+17 man	luok //
+46 foot	kei //
+35 tail	dape //
+38 head	kaut //
+27 bark	XXX //
+13 big	humo //
+33 egg	XXX //
+29 flesh	sunum //
+64 fly	XXX //
+36 feather	XXX //
+32 grease	kelu //
+62 kill	XXX //
+67 lie	XXX //
+42 mouth	XXX //
+98 round	gawoN gawoN //
+15 small	boleNe //
+63 swim	XXX //
+60 sleep	ye //
+81 smoke	dowok //
+65 walk	XXX //
+NABAK{TNG.FINISTERRE-HUON|Trans-NewGuinea,Finisterre-Huon,Huon,Western@Trans_New_Guinea,MainSection,CentralandWestern,Huon-Finisterre,Huon,Huon_Western}
+ 1   -6.42  147.00       16000   nab   naf
+1 I	n3N //
+2 you	g3N //
+3 we	nin //
+11 one	kpep //
+12 two	cut //
+18 person	XXX //
+19 fish	XXX //
+21 dog	tam //
+22 louse	emin //
+23 tree	t3p //
+25 leaf	sin // stem, "its leaf"
+28 skin	s3k // stem, "its skin"
+30 blood	sip // stem, "its blood"
+31 bone	kanc~iN // stem, "its bone"
+34 horn	XXX //
+39 ear	wak // stem, "its ear"
+40 eye	ci // stem, "its eye"
+41 nose	NiN3N // stem, "its nose"
+43 tooth	cet // stem, "its tooth"
+44 tongue	namb~arem // ?its tongue?
+47 knee	kpet // stem, "his knee"
+48 hand	bet // stem, "his hand"
+51 breast	nam //
+53 liver	XXX //
+54 drink	XXX //
+57 see	ni // stem, "he sees me"
+58 hear	XXX //
+61 die	g3ki // stem, "he dies"
+66 come	kpe // stem, "he comes"
+72 sun	k3suk //
+74 star	wenzim //
+75 water	tu //
+77 stone	nanc~3N //
+82 fire	XXX //
+85 path	set //
+86 mountain	kal3N //
+92 night	t3mb~uyat //
+95 full	cece kpe // "it is full"
+96 new	arakN3N //
+100 name	cik3t // stem, "its name"
+6 who	kureki //
+7 what	pitne //
+5 that	ke //
+4 this	kapi //
+71 say	cei //
+73 moon	eyoNge //
+45 claw	p3luk //
+68 sit	ta //
+70 give	nai //
+69 stand	ta //
+9 all	ilinsakpep //
+10 many	kilisik //
+14 long	tepm3N //
+80 cloud	canca //
+76 rain	map //
+49 belly	tip //
+52 heart	gum k3t //
+50 neck	Nande //
+37 hair	cup //
+55 eat	ni //
+56 bite	i //
+91 black	sopm3N //
+88 green	araN3N //
+90 white	satn3N //
+87 red	Nam3N //
+89 yellow	araraN //
+97 good	kp~emben3N //
+93 hot	tecin //
+99 dry	ko //
+94 cold	bakN3N //
+8 not	ku //
+84 burn	ci //
+59 know	noi //
+78 sand	gambibit //
+83 ash	kou //
+79 earth	misat //
+26 root	kindi //
+24 seed	k3t //
+20 bird	aga //
+16 woman	imbi //
+17 man	an //
+46 foot	set //
+35 tail	dak //
+38 head	Nokanci //
+27 bark	XXX //
+13 big	taemba //
+33 egg	XXX //
+29 flesh	s3sumbaN //
+64 fly	XXX //
+36 feather	XXX //
+32 grease	kerak //
+62 kill	XXX //
+67 lie	XXX //
+42 mouth	XXX //
+98 round	kililiN //
+15 small	isikN3n //
+63 swim	XXX //
+60 sleep	we //
+81 smoke	k3s3k //
+65 walk	XXX //
+MOMOLILI{TNG.FINISTERRE-HUON|Trans-NewGuinea,Finisterre-Huon,Huon,Western@Trans_New_Guinea,MainSection,CentralandWestern,Huon-Finisterre,Huon,Huon_Western}
+ 1   -6.58  147.08        4000         mci
+1 I	na //
+2 you	ga //
+3 we	ni //
+11 one	kpeci //
+12 two	ceba //
+18 person	XXX // (only V)
+19 fish	XXX //
+21 dog	ta //
+22 louse	l3m //
+23 tree	t3 //
+25 leaf	sin // stem, "its leaf"
+28 skin	s3k // stem, "its skin"
+30 blood	sip // stem, "its blood"
+31 bone	siet // stem, "its bone"
+34 horn	XXX //
+39 ear	b3b3t // stem, "its ear"
+40 eye	ci // stem, "its eye"
+41 nose	siNg~eN // stem, "its nose"
+43 tooth	c3t // stem, "its tooth"
+44 tongue	namb~alaN // ?its tongue?
+47 knee	kpekakpat3 // ?his knee?
+48 hand	b3t // stem, "his hand"
+51 breast	nam //
+53 liver	XXX //
+54 drink	XXX //
+57 see	n3x3i // stem, "he sees me"
+58 hear	XXX //
+61 die	g3ki // stem, "he dies"
+66 come	ko // stem, "he comes"
+72 sun	k3su //
+74 star	c3m3rinc~3 //
+75 water	tu //
+77 stone	nanc~a //
+82 fire	XXX //
+85 path	k3 //
+86 mountain	kalaN //
+92 night	mimb~a //
+95 full	c3c3 ko // stem, "it is full"
+96 new	gor3N //
+100 name	kot // stem, "its name"
+6 who	ala //
+7 what	wana //
+5 that	mei //
+4 this	wi //
+71 say	c3 //
+73 moon	3yoNga //
+45 claw	ciNg3Ng3N //
+68 sit	ta //
+70 give	naka //
+69 stand	ta //
+9 all	p3s3kpep //
+10 many	kirisi //
+14 long	kepm //
+80 cloud	kumbu //
+76 rain	ma //
+49 belly	tip //
+52 heart	wemb3 k3t //
+50 neck	andeN //
+37 hair	cup //
+55 eat	nin //
+56 bite	ye //
+91 black	s3mbopm //
+88 green	kokN //
+90 white	sagatn //
+87 red	kukN //
+89 yellow	alaN //
+97 good	saNgam //
+93 hot	teci //
+99 dry	alaNg3 //
+94 cold	tak3N //
+8 not	k3m //
+84 burn	ci //
+59 know	niNge //
+78 sand	gaNa //
+83 ash	cita //
+79 earth	misa //
+26 root	kindiri //
+24 seed	k3t //
+20 bird	lau //
+16 woman	imbi //
+17 man	a* //
+46 foot	k3t //
+35 tail	dak //
+38 head	nok //
+27 bark	XXX //
+13 big	k3itn //
+33 egg	XXX //
+29 flesh	mirik //
+64 fly	XXX //
+36 feather	XXX //
+32 grease	ker3k //
+62 kill	XXX //
+67 lie	XXX //
+42 mouth	XXX //
+98 round	warag3n //
+15 small	namzi //
+63 swim	XXX //
+60 sleep	we //
+81 smoke	k3s3 //
+65 walk	XXX //
+                 
+                          

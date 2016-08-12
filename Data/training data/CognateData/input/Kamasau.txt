@@ -1,0 +1,467 @@
+     1    10     0     3     1                       
+(I3)
+ 30  blood
+ 31  bone
+ 51  breast 
+ 66  come
+ 61  die
+ 21  dog
+ 54  drink
+ 39  ear
+ 40  eye
+ 82  fire
+ 19  fish
+ 95  full
+ 48  hand
+ 58  hear
+  1  I
+ 25  leaf
+ 22  louse
+ 86  mountain
+100  name
+ 96  new
+ 92  night
+ 41  nose
+ 11  one
+ 85  road (path)
+ 57  see
+ 28  skin
+ 74  star
+ 77  stone
+ 72  sun
+ 44  tongue
+ 43  tooth
+ 23  tree
+ 12  two
+ 75  water
+  3  we
+  2  you
+ -1                                     
+TRING
+WAU
+KAMASAU
+YIBAB
+WANDOMI
+KENYARI
+PARUWA
+SAMAP
+
+Kamasau (Sanders & Sanders)
+(a1,2x,10i2)
+ 30 1 1 1 1 2 1 1 2
+ 31 1 1 1 1 2 1 1 0
+ 51 1 1 1 1 1 1 1 1
+ 66 1 1 1 1 1 1 1 1
+ 61 1 1 1 1 1 1 0 2
+ 21 1 1 1 2 2 1 1 1
+ 54 1 1 1 1 1 1 0 1
+ 39 1 1 1 1 1 1 1 1
+ 40 1 1 1 1 1 1 1 1
+ 82 1 1 1 1 1 1 1 1
+ 19 1 1 1 1 1 1 0 1
+ 95 1 1 1 1 1 1 0 1
+ 48 1 2 1 1 1 1 3 1
+ 58 1 1 1 1 1 1 0 1
+  1 1 1 1 1 1 1 0 1
+ 25 1 1 1 2 1 3 4 1
+ 22 1 1 1 1 1 2 2 1
+ 86 1 1 1 1 1 1 0 2
+100 1 1 1 1 1 1 0 1
+ 96 1 1 1 2 2 1 0 3
+ 92 1 1 1 1 1 2 0 2
+ 41 1 1 1 1 1 1 1 1
+ 11 1 1 1 1 1 1 1 2
+ 85 1 1 1 2 2 2 2 1
+ 57 1 1 1 1 1 1 1 1
+ 28 1 1 1 1 0 1 1 2
+ 74 1 1 1 2 2 1 0 3
+ 77 1 1 1 1 1 1 1 0
+ 72 1 1 2 1 1 1 1 2
+ 44 1 1 1 1 1 2 2 1
+ 43 1 1 1 1 1 1 1 1
+ 23 1 1 1 1 1 1 1 1
+ 12 1 1 1 1 1 2 0 2
+ 75 1 1 1 1 1 1 1 1
+  3 1 1 1 1 1 1 0 2
+  2 1 1 1 1 1 1 0 2
+X
+p
+b
+f
+v
+m
+w             
+8       
+t
+d
+s
+z
+c
+n
+r
+l       
+S
+Z       
+C
+j
+T       
+5
+y
+k
+g
+x
+N
+q                     
+X
+h
+7
+L
+4
+G
+!       
+i   
+e
+E
+3
+a
+u
+o
+     
+       
+TRING{Tor.MARIENBERG|Torricelli,Marienberg@Torricelli,Marienberg}
+ 3   -3.83  143.83         960         kms
+30  blood	yab3 //  
+31  bone	Nape //  
+51  breast	mi5 //  
+66  come	mandi // ="they come"  
+61  die	nati, kati  // = "he dies, I die"  
+21  dog	5ombwi //  
+54  drink	ne //  
+39  ear	aNge //  
+40  eye	rar //  
+82  fire	wase //  
+19  fish	umo //  
+95  full	bire //  
+48  hand	suram, si //  
+58  hear	wutuNu // = "she hears"  
+34  horn	XXX //  
+1   I	Ne //  
+47  knee	XXX //  
+25  leaf	ra7e //  
+53  liver	XXX //  
+22  louse	3mbiski //  
+86  mountain	rand //  
+100 name	5amb //  
+96  new	urupwi //  
+92  night	bur //  
+41  nose	k3me //  
+11  one	iri, temi //  
+85  path	N3m //  
+18  person	XXX //  
+57  see	nu7ond // = "he sees me"  
+28  skin	CoNgo //  
+74  star	tomiNgi //  
+77  stone	wet //  
+72  sun	Ni5 //  
+44  tongue	minju //  
+43  tooth	sawo //  
+23  tree	5umo //  
+12  two	teri //  
+75  water	wiye //  
+3   we	begi //  
+2   you	nu //  
+WAU{Tor.MARIENBERG|Torricelli,Marienberg@Torricelli,Marienberg}
+ 1   -3.83  143.83         960         kms
+30  blood	yab3 //  
+31  bone	Nape //  
+51  breast	mi5 //  
+66  come	mandi // = "they come"  
+61  die	nati, kati  // = "he dies, I die"  
+21  dog	5ombwi //  
+54  drink	na //  
+39  ear	aNga //  
+40  eye	rar //  
+82  fire	wase //  
+19  fish	7umo //  
+95  full	bire //  
+48  hand	timi, si //  
+58  hear	wutuNu // = "she hears"
+34  horn	XXX //  
+1   I	Ne //  
+47  knee	XXX //  
+25  leaf	ra7e //  
+53  liver	XXX //  
+22  louse	mbiski //  
+86  mountain	rand //  
+100 name	5amb //  
+96  new	7urupwi //  
+92  night	bur //  
+41  nose	k3me //  
+11  one	iri, tremi //  
+85  path	N3m //  
+18  person	XXX //  
+57  see	nu7onj // = "he sees me"  
+28  skin	CoNgo //  
+74  star	tomiNgi //  
+77  stone	wet //  
+72  sun	Ni5 //  
+44  tongue	minju //  
+43  tooth	sawo //  
+23  tree	5umo //  
+12  two	teri //  
+75  water	wiye //  
+3   we	begi //  
+2   you	nu //  
+KAMASAU{Tor.MARIENBERG|Torricelli,Marienberg@Torricelli,Marienberg}
+ 1   -3.83  143.83         960         kms
+30  blood	yab3 //  
+31  bone	Nape //  
+51  breast	mi5 //  
+66  come	mandi // = "they come"  
+61  die	nati, kati  // = "he dies, I die"  
+21  dog	5ombwi//  
+54  drink	ne //  
+39  ear	aNge //  
+40  eye	rar //  
+82  fire	wase //  
+19  fish	umo //  
+95  full	bire //  
+48  hand	suram, si //  
+58  hear	wutuNu // = "she hears"
+34  horn	XXX //  
+1   I	Ne //  
+47  knee	XXX //  
+25  leaf	ra7e //  
+53  liver	XXX //  
+22  louse	mbiski //  
+86  mountain	rand //  
+100 name	5amb //  
+96  new	7urupwi //  
+92  night	bur //  
+41  nose	k3me //  
+11  one	iri, temi //  
+85  path	N3m //  
+18  person	XXX //  
+57  see	nu7ond // = "he sees me"  
+28  skin	CoNgo //  
+74  star	domiNgi //  
+77  stone	wet //  
+72  sun	bogi //  
+44  tongue	minju //  
+43  tooth	sawo //  
+23  tree	5umo //  
+12  two	teri //  
+75  water	wiye //  
+3   we	begi //  
+2   you	nu //  
+YIBAB{Tor.MARIENBERG|Torricelli,Marienberg@Torricelli,Marienberg}
+ 1   -3.83  143.83         960         kms
+30  blood	yabu //  
+31  bone	Nape //  
+51  breast	mi5 //  
+66  come	mandi // = "they come"  
+61  die	nati, gati  // = "he dies, I die"  
+21  dog	7et //  
+54  drink	na //  
+39  ear	maNge //  
+40  eye	rar //  
+82  fire	wate //  
+19  fish	7umo //  
+95  full	bire //  
+48  hand	turam, ti //  
+58  hear	wutuNu // = "she hears"
+34  horn	XXX //  
+1   I	Ne //  
+47  knee	XXX //  
+25  leaf	yam //  
+53  liver	XXX //  
+22  louse	mbit //  
+86  mountain	rand //  
+100 name	5ambu //  
+96  new	tiNeye //  
+92  night	bur //  
+41  nose	k3me //  
+11  one	iri, temi //  
+85  path	ma5e //  
+18  person	XXX //  
+57  see	nu7onj // = "he sees me"  
+28  skin	CaNgo //  
+74  star	tem //  
+77  stone	wet //  
+72  sun	Ni5 //  
+44  tongue	minju //  
+43  tooth	tawo //  
+23  tree	5umo //  
+12  two	teri //  
+75  water	wiye //  
+3   we	Nebewu //  
+2   you	nu //  
+WANDOMI{Tor.MARIENBERG|Torricelli,Marienberg@Torricelli,Marienberg}
+ 1   -3.83  143.83         960         kms
+30  blood	wunande //  
+31  bone	diage //  
+51  breast	mi5 //  
+66  come	mandi // = "they come"  
+61  die	nati, gati  // = "he dies, I die"  
+21  dog	yet //  
+54  drink	na //  
+39  ear	maNge //  
+40  eye	rar //  
+82  fire	wate //  
+19  fish	umo //  
+95  full	bire //  
+48  hand	turam, ti //  
+58  hear	wutuNu // = "she hears"
+34  horn	XXX //  
+1   I	Ne //  
+47  knee	XXX //  
+25  leaf	ra //  
+53  liver	XXX //  
+22  louse	mbit //  
+86  mountain	randig //  
+100 name	5amb //  
+96  new	tineye //  
+92  night	bur //  
+41  nose	k3me //  
+11  one	iri, temi //  
+85  path	ma5e //  
+18  person	XXX //  
+57  see	nuwonj // = "he sees me"  
+28  skin	XXX //  
+74  star	tem //  
+77  stone	wet //  
+72  sun	gi5 //  
+44  tongue	minju //  
+43  tooth	tawo //  
+23  tree	5umo //  
+12  two	teri //  
+75  water	wiye //  
+3   we	Nebegi //  
+2   you	nu //  
+KENYARI{Tor.MARIENBERG|Torricelli,Marienberg@Torricelli,Marienberg}
+ 1   -3.83  143.83         960         kms
+30  blood	yab3 //  
+31  bone	Nape //  
+51  breast	mi5 //  
+66  come	mandi // = "they come"  
+61  die	nahi, kahi  // = "he dies, I die"  
+21  dog	5ombwi //  
+54  drink	ne //  
+39  ear	aNge //  
+40  eye	ra7 //  
+82  fire	waha //  
+19  fish	7umo //  
+95  full	bire //  
+48  hand	huram, hi //  
+58  hear	wuhuNu // = "she hears"
+34  horn	XXX //  
+1   I	Nebi //  
+47  knee	XXX //  
+25  leaf	njau //  
+53  liver	XXX //  
+22  louse	pinji //  
+86  mountain	randi //  
+100 name	5amb //  
+96  new	uruhwi //  
+92  night	wuNgi //  
+41  nose	k3me //  
+11  one	iri, meremi //  
+85  path	ma5eriNk //  
+18  person	XXX //  
+57  see	nu7ond // = "he sees me"  
+28  skin	CaNgwo //  
+74  star	pomi7i //  
+77  stone	weh //  
+72  sun	Ni5 //  
+44  tongue	Nari //  
+43  tooth	hawo //  
+23  tree	5umo //  
+12  two	mereyi //  
+75  water	wiye //  
+3   we	bewi //  
+2   you	nu //  
+PARUWA{Tor.MARIENBERG|Torricelli,Marienberg@Torricelli,Marienberg}
+ 1   -3.83  143.83         960         kms
+30  blood	yab3 //  
+31  bone	Nape //  
+51  breast	m35 //  
+66  come	mandi // = "they come"  
+61  die	XXX //   
+21  dog	5ombwi //  
+54  drink	XXX //  
+39  ear	aNgo //  
+40  eye	ra7 //  
+82  fire	waha //  
+19  fish	XXX //  
+95  full	XXX //  
+48  hand	hiNap3 //  
+58  hear	XXX //  
+34  horn	XXX //  
+1   I	XXX //  
+47  knee	XXX //  
+25  leaf	mane //  
+53  liver	XXX //  
+22  louse	pinji //  
+86  mountain	XXX //  
+100 name	XXX //  
+96  new	XXX //  
+92  night	XXX //  
+41  nose	k3mo //  
+11  one	ri, mremi //  
+85  path	myeriNk //  
+18  person	XXX //  
+57  see	noand // = "he sees me"  
+28  skin	Cangwo //  
+74  star	XXX //  
+77  stone	wa //  
+72  sun	Neni //  
+44  tongue	Nari //  
+43  tooth	hawo //  
+23  tree	5imer //  
+12  two	XXX //  
+75  water	wiye //  
+3   we	XXX //  
+2   you	XXX //  
+SAMAP{Tor.MARIENBERG|Torricelli,Marienberg@Torricelli,Marienberg}
+ 1   -3.67  143.92         330         ele
+30  blood	Nainde //  
+31  bone	XXX //  
+51  breast	mi5 //  
+66  come	maN // = "they come"  
+61  die	gureN nand, nita // = "he dies, I die"  
+21  dog	5amp //  
+54  drink	da //  
+39  ear	ma7aNk //  
+40  eye	rar //  
+82  fire	wate //  
+19  fish	7uma //  
+95  full	mbara //  
+48  hand	turambi, katu //  
+58  hear	wutu7 // = "she hears" 
+34  horn	XXX //  
+1   I	Na //  
+47  knee	XXX //  
+25  leaf	re7e //  
+53  liver	XXX //  
+22  louse	mbite //  
+86  mountain	paNg //  
+100 name	5amb //  
+96  new	nji7i5e //  
+92  night	wuNga //  
+41  nose	k3me //  
+11  one	ki, meremi //  
+85  path	N3m //  
+18  person	XXX //  
+57  see	nu7onj // = "he sees me"  
+28  skin	jogo //  
+74  star	mutami //  
+77  stone	XXX //  
+72  sun	bwog //  
+44  tongue	minju //  
+43  tooth	tawo //  
+23  tree	yuma //  
+12  two	merere //  
+75  water	wiye //  
+3   we	NanuNgu //  
+2   you	ninde //  
+   

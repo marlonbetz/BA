@@ -1,0 +1,34 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/Users/marlon/Documents/BA/Workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/BA/com.python.pydev.analysis/v2_indexcache
+VAE|1470317061000000000|/Users/marlon/Documents/BA/Workspace/BA/VAE.py
+-- END DISKCACHE
+-- START DICTIONARY
+1
+1=VAE
+-- END DICTIONARY
+-- START TREE 1
+19
+all|1|allWords!11@
+asj|2|asjp_word!11@asjp_words!11@
+cog|2|cognate_classes!11@cognate_class!11@
+dim|1|dim_embedding!11@
+fre|1|freq_phonemes!11@
+get|2|getWordMatrix!10@getListofASJPPhonemes!10@
+glo|2|global_ids!11@global_id!11@
+hs|1|hs!11@
+lan|2|language!11@languages!11@
+lin|1|line!11@
+n_e|1|n_ensemble!11@
+neg|1|negative!11@
+pat|2|pathToWordList!11@pathToASJPCorpusFile!11@
+sg|1|sg!11@
+tba|1|tba!11@
+vec|1|vectorLinspace!10@
+w2v|1|w2v_model!11@
+win|1|window!11@
+wor|2|words!11@word!11@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

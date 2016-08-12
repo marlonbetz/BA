@@ -1,0 +1,956 @@
+     1    20  1700     3     1
+(I3)     
+  0  all
+  0  ashes
+  0  bark
+  0  belly
+  0  big
+  0  bird
+  0  bite
+  0  black
+ 30  blood
+ 31  bone
+ 51  breast 
+  0  burn
+  0  cloud
+  0  cold
+ 66  come
+ 61  die
+ 21  dog
+ 54  drink
+  0  dry
+ 39  ear
+  0  earth
+  0  eat
+  0  egg
+ 40  eye
+  0  fat
+  0  feather
+ 82  fire
+ 19  fish
+  0  fly
+  0  foot
+ 95  full
+  0  give
+  0  good
+  0  green
+  0  hair
+ 48  hand
+  0  head
+ 58  hear
+  0  heart
+ 34  horn
+  1  I
+  0  kill
+ 47  knee
+  0  know
+ 25  leaf
+  0  lie
+ 53  liver
+  0  long
+ 22  louse
+  0  man
+  0  many
+  0  meat
+  0  moon
+ 86  mountain
+  0  mouth
+  0  nail (claw)
+100  name
+  0  neck
+ 96  new
+ 92  night
+  0  no
+ 41  nose
+ 11  one
+ 18  person
+  0  rain
+  0  red
+ 85  road (path)
+  0  root
+  0  round
+  0  sand
+ 57  see
+  0  seed
+  0  sit
+ 28  skin
+  0  sleep
+  0  small
+  0  smoke
+  0  speak
+  0  stand
+ 74  star
+ 77  stone
+ 72  sun
+  0  swim
+  0  tail
+  0  that
+  0  this
+ 44  tongue
+ 43  tooth
+ 23  tree
+ 12  two
+  0  walk
+  0  warm
+ 75  water
+  3  we
+  0  what
+  0  white
+  0  who
+  0  woman
+  0  yellow
+  2  you
+ -1
+BURMESE
+ZAIWA
+AKHA
+BIYUE
+MPI
+BISU
+JINO
+LAHU
+XIDE
+DAFANG
+NANJIANG
+LISU
+NUSU
+ACHANG
+NAXI
+   
+Lolo-Burmese (Peiros)
+(A1,1X,36I2)
+   1 3 4 5 0 0 3 2 6 7 1 4 4 0 4
+   1 3 1 1 1 1 5 1 1 4 4 1 1 2 6
+   1 0 1 0 1 1 0 1 1 0 0 0 0 0 0
+   1 1 1 2 1 2 1 1 3 1 2 1 1 1 4
+   1 2 1 1 1 1 1 3 1 1 1 1 1 1 4
+   1 1 2 1 1 1 1 1 1 1 1 1 1 1 1
+   1 3 1 4 4 5 5 5 5 5 0 1 5 2 5
+   1 1 1 1 1 2 1 1 1 1 1 1 1-1 1
+ 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 2 1 1 1 1 1 1 1 2 1 1 3 1 1 1 1
+ 2 1 0 2 0 3 4 0 0 6 0 0 0 0 0 0
+   1 0 2 0 2 0 0 2 3 0 0 0 0 0 0
+   1 3 1 2-1 4 1 3 1 1 1 5 2 2 2
+   1 0 2 0 0 3 0 3 4 0 4 4 4 4 1
+ 2 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2
+ 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 2 1 1 1 1 1 1 1 1 1 1 1 2 1 1 1
+ 2 1 1 2 2 2 2 2 2 2 2 2 2 1 1 3
+   1 0 0 1 1 1 1 3 3 3 3 4 7 2 6
+ 2 1 1 1 1 2 1 1 1 1 2 1 1 1 1 3
+   1 1 1 1 1 2 1 1 1 1 1 1 1 1 1
+   1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+   1 1 1 1 1 1 1 1 2 3 1 1 1 1 1
+ 2 1 1 1 1 2 1 1 1 1 1 1 1 1 1 1 
+   1 2 1 2 2 3 1 2 2 2 1 1 0 2 4
+   1 0 0 0 1 1 0 1 1 0 0 0 0 0 1
+ 2 1 1 1 1 1 1 1 1 1 1 3 3 1-1 1
+ 2 1 1 1 1 1 2 1 1 1 1 1 1 1 1-1
+   1 2 3 1 1 1 1 1 1 1 1 1 1 1 1
+   1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 2 1 1 0 1 1 1 1 1 1 1 2 1 1 1 3
+   1 0 1 1 1 1 1 1 1 0 0 2 0 3 0
+   1 3 0 4 4 4 4 5 3 6 4 0 8 2 7
+   1 2 2 2 2-1 2 2 3 4 2 2 2 2 2
+   1 1 3 1 3 1 1 2 2 1 3 3 1 2 4  
+ 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+   1 2 2 1 4 3 1 1 5 1 1 1 2 1 1
+ 2 1 1 1 2 1 1 2 2 2 1 2 2 2 1 3
+   1 2 2 2 2 2 1 2 2 2 2 2 2 2 2
+ 2 1 1 1 1 1 1 1 1 2 1 1 1 1 1 1
+ 2 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+   1 1 1 1 1 1 1 2 1 1 1 1 1 1 3
+ 2 1 2 5 0 4 1 2 4 5 0 0 0 0 5 0
+   1 1 1 1 1 2 1 1 3 1 1 1 4 1 1
+ 2 1 1 2 2 2 2 2 2 3 4 2 2 2 1 2
+   1 0 2 0 3 0 0 0 3 0 0 0 0 0 0 
+ 2 1 1 1 1 2 1 1 1 1 1 1 1 1 1 1
+   1 1 2 2 1 2 1 3 1 1 1 1 1 1 1
+ 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+   1 1 3 3 5 5 5 6 3 4 4 3 1-1 3
+   1 1 1 1 1 1 2 1 1 1 3 1 1 1 4
+   1 1 2 1 1 1 3 1 1 1 1 1 1 1 1
+   1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 2 1 2 3 4 2 5 5 3 2 2 3 3 7 2 3
+   1 1 0 1 1-1 1 1 1 2 1 1 3 1 1
+   1 2 3 3 4 5 3 3 4 3 4 3 6 2 2
+ 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+   1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 2 1 1 1 1 1 2 1 3 1 1 1 1 1 1 3
+ 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+   1 3 2 2 2 2 2 2 2 5 2 2 5 1 2
+ 2 1 2 1 1 1 1 1 1 2 1 1 1 1 1 1
+ 2 1 1 1 1 3 1 1 1 1 1 1 1 1 1 1
+ 2 1-1 1 1 1 1 1 1 1 1 1 1 1 1 1
+   1 3 2 2 2 2 2 2 2 2 2 2 6 3 5
+   1 1 2 2 2 2 1 1 1 1 2 1 1 1 2
+ 2 1 1 1 1 1 1 1 1 1 1 1 2 3 1 3
+   1 3 2 2 3 4 3 2 2 6 2 6 3 7 6
+   1 2 3 3 3 3 3 3 3 3 3 3 3 1 3
+   1 2 2 2 3-1 2 1 1 1 1 2 2 2 1
+ 2 1 3 1 4 1 1 4 5 3 8 6 5 3 2 7
+   1 1 2 5 3 4 3 2 3 3 3 3 4 1 5
+   1 3 2 2 1 2 1 4 2 2 5 2 2 2 3
+ 2 1 2 2 3 2 2 2 3 3 3 3 3 1 1 1
+   1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+   1-1 2 2 2 3 2 3 7 4 5 6 8 2 7
+   1 1 1 1 1 1 1 1 1 1 0 1 1 1 1
+   1 3 4 5 6 6 1 7 8 8 9 910 211
+   1 1 1 2 1 3 1 1 1 1 1 1 4 1 1
+ 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 2 1 2 1 1 1 1 1 1 3 1 4 1 1 1 1
+   1 0 0 0 2 3 0 0 4 0 0 0 0 0 5
+   1 1 1 1 1 1 1 1 4 1 1 1 1 2 1
+   1 2 1 3 4 1 5 8 1 3 4 7 8 1 1
+   1 2 2 2 2 3 5 4 4 4 5 6 5 2 4
+ 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1-2
+ 2 1 2 1 2 1 1 2 2 2 2 2 2 1 2 1
+ 2 1 1 3 1 1 2 2 1 1 1 1 1 1 1 1
+ 2 1 0 1 1 1 1 1 1 1 1 1 1 2 3 1
+   1 1 2 3 4 3 3 8 1 1 7 1 1 1 2
+   1 0 2 2 2 2 0 2 2 3 2 2 0 2 2
+ 2 1 1 1 1 3 4 1 1 1 1 1 1 1 4 1
+ 2 1 2 0 3 0 3 3 3 3 3 4 5 1 1 6
+   1 3 2 2 2 2 2 4 2 5 2 6 7 2 2
+   1 1 1 1 2 2 2 1 1 1 1 1-1 1 1
+   1 2 1 1 1 3 1 1 4 5 1 6 4 1 7
+   1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+   1 2 2 2-1 2 2 2 2 2 2 2 3-1 2
+ 2 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2	
+X                                     
+i   
+e
+E
+a
+3
+o
+u
+p
+b
+m
+w
+v       
+f       
+8       
+t
+d
+s
+z
+c
+n
+4       
+S
+Z       
+C
+j       
+5
+y
+T       
+l
+L       
+k
+g
+N
+x
+q
+G       
+X
+7
+h
+r
+!       
+     
+       
+BURMESE{ST.BURMESE-LOLO|Sino-Tibetan,Tibeto-Burman,Lolo-Burmese,Burmish,Southern}
+ 3   21.00   96.00    32301581   brm   mya
+30 blood	sw~e //
+31 bone	arui //
+51 breast	raN //
+66 come	la //
+61 die	siy //
+21 dog	khw$e //
+54 drink	suak //
+39 ear	na //
+40 eye	my~akTi //
+82 fire	mi //
+19 fish	Na //
+95 full	pra5 //
+48 hand	lak //
+58 hear	kra //
+34 horn	khy$ui //
+1 I	kyw$antau //
+47 knee	du //
+25 leaf	saTrw~ak //
+53 liver	asa5 //
+22 louse	san //
+86 mountain	tauN //
+100 name	ama5 //
+96 new	sat //
+92 night	5a //
+41 nose	hnakh~auN //
+11 one	taT //
+85 path	lam //
+18 person	lu //
+57 see	mraN //
+28 skin	are //
+74 star	kray //
+77 stone	ky~auk //
+72 sun	niy //
+44 tongue	hly~a //
+43 tooth	sw~a //
+23 tree	satpaN //
+12 two	hnaT //
+75 water	riy //
+3 we	kyw$antautui //
+2 you	TaN //
+ZAIWA{ST.BURMESE-LOLO|Sino-Tibetan,Tibeto-Burman,Lolo-Burmese,Burmish,Northern}
+ 1   24.33   98.00      110000         atb
+30 blood	sui //
+31 bone	Sovui //
+51 breast	XXX //
+66 come	le //
+61 die	Si //
+21 dog	kh~ui //
+54 drink	Su7 //
+39 ear	nophy$o //
+40 eye	my~oCi //
+82 fire	my~3 //
+19 fish	Noco //
+95 full	py~iN //
+48 hand	lo7 //
+58 hear	ky~o //
+34 horn	khy$ui //
+1 I	No //
+47 knee	khy$iph~ut //
+25 leaf	axa7 //
+53 liver	siN //
+22 louse	Sin //
+86 mountain	pum //
+100 name	ny~iN //
+96 new	asik //
+92 night	my~inle //
+41 nose	no7 //
+11 one	Za //
+85 path	khy$o //
+18 person	py~u //
+57 see	vu //
+28 skin	Soku7 //
+74 star	ky~i //
+77 stone	luko7 //
+72 sun	pui //
+44 tongue	So //
+43 tooth	cui //
+23 tree	sik //
+12 two	XXX //
+75 water	iCh~o //
+3 we	Namo //
+2 you	naN //
+AKHA{ST.BURMESE-LOLO|Sino-Tibetan,Tibeto-Burman,Burmic,Ngwi,Southern}
+ 1   21.83   99.83      449261   akh   ahk
+30 blood	sy~hi //
+31 bone	sh~aye //
+51 breast	atyh~e //
+66 come	la7 //
+61 die	syh$i //
+21 dog	a7khy$ //
+54 drink	do //
+39 ear	nabo //
+40 eye	my~any~7 //
+82 fire	mica //
+19 fish	Nasyh$a //
+95 full	XXX //
+48 hand	la7 //
+58 hear	ga //
+34 horn	u7ty~e //
+1 I	Na //
+47 knee	khy$cy~7 //
+25 leaf	apa //
+53 liver	sh~ach~aN //
+22 louse	sh~Emo //
+86 mountain	gody~o //
+100 name	tyh$Emy~aN //
+96 new	sjy7 //
+92 night	u7ty~i7 //
+41 nose	namE //
+11 one	tith~i //
+85 path	gama //
+18 person	ch~oha //
+57 see	mo //
+28 skin	baxo7 //
+74 star	agy~ //
+77 stone	xh~alo //
+72 sun	naNma //
+44 tongue	mela //
+43 tooth	sh~3 //
+23 tree	abo //
+12 two	ny~i //
+75 water	ity~u //
+3 we	XXX //
+2 you	no //
+BIYUE{ST.BURMESE-LOLO|Sino-Tibetan,Tibeto-Burman,Burmic,Ngwi,Southern}
+ 1   23.00  102.50      100000         byo
+30 blood	osi //
+31 bone	oyi //
+51 breast	XXX //
+66 come	la, l3 //
+61 die	s3 //
+21 dog	kh~3 //
+54 drink	tu //
+39 ear	nopu //
+40 eye	mac37 //
+82 fire	mico //
+19 fish	Noso //
+95 full	p3 //
+48 hand	ala7 //
+58 hear	nate //
+34 horn	vch~i //
+1 I	Na //
+47 knee	XXX //
+25 leaf	aph~a7 //
+53 liver	och~3 //
+22 louse	seph~v //
+86 mountain	yumo //
+100 name	omi //
+96 new	as3 //
+92 night	mekh~e7 //
+41 nose	name //
+11 one	th~3 //
+85 path	yamo //
+18 person	ch~u //
+57 see	te //
+28 skin	oci //
+74 star	mici //
+77 stone	lv7mo //
+72 sun	5imo //
+44 tongue	ala //
+43 tooth	oc3 //
+23 tree	s3c3 //
+12 two	ne7 //
+75 water	vch~v7 //
+3 we	Nov //
+2 you	nv //
+MPI{ST.BURMESE-LOLO|Sino-Tibetan,Tibeto-Burman,Lolo-Burmese,Loloish,Southern,Phunoi}
+ 1   18.15  100.30         900         mpz
+30 blood	si //
+31 bone	o73 //
+51 breast	mpo //
+66 come	lo, l3 //
+61 die	si //
+21 dog	kh~3 //
+54 drink	toN //
+39 ear	mph~a //
+40 eye	5ch~o //
+82 fire	mi //
+19 fish	No //
+95 full	py~3 //
+48 hand	loph~u //
+58 hear	ky~o //
+34 horn	Nkh~ui //
+1 I	No //
+47 knee	NkoN //
+25 leaf	oph~a7 //
+53 liver	oth~3 //
+22 louse	se //
+86 mountain	opy~o //
+100 name	mmi //
+96 new	s37 //
+92 night	uNkhw$i7 //
+41 nose	Nkh~oN //
+11 one	th~37 //
+85 path	kokh~uN //
+18 person	ch~oN //
+57 see	my~oN //
+28 skin	okh~o //
+74 star	piki //
+77 stone	solo7 //
+72 sun	5iwo //
+44 tongue	olo //
+43 tooth	oso, c3 //
+23 tree	sot3 //
+12 two	5i //
+75 water	ch~o7 //
+3 we	XXX //
+2 you	noN //
+BISU{ST.BURMESE-LOLO|Sino-Tibetan,Tibeto-Burman,Burmic,Ngwi,Southern}
+ 1   19.75  100.00        1240   biu   bzi
+30 blood	Si //
+31 bone	aNgaw //
+51 breast	loNpEt //
+66 come	la, l3 //
+61 die	Si //
+21 dog	kh~3 //
+54 drink	taN //
+39 ear	nas3N //
+40 eye	mEn3 //
+82 fire	bith~o //
+19 fish	loNtE //
+95 full	aNpl3N //
+48 hand	lapo //
+58 hear	ky~a //
+34 horn	aNkhy$aw //
+1 I	ga //
+47 knee	pato //
+25 leaf	aNph~a //
+53 liver	aNch~in //
+22 louse	hmoN //
+86 mountain	tasE //
+100 name	aNhmEN //
+96 new	aNS3 //
+92 night	muNkh~i //
+41 nose	nakh~aN //
+11 one	t3 //
+85 path	kiba //
+18 person	ch~aN //
+57 see	hmy~aN //
+28 skin	aNkho //
+74 star	3k3 //
+77 stone	loba //
+72 sun	muNhn3N //
+44 tongue	manhla //
+43 tooth	soph~e //
+23 tree	c3Nc3N //
+12 two	ni //
+75 water	laN //
+3 we	gu //
+2 you	naN //
+JINO{ST.BURMESE-LOLO|Sino-Tibetan,Tibeto-Burman,Burmic,Ngwi,Central}
+ 1   22.00  101.00       10000   jin   jiu
+30 blood	Si //
+31 bone	So x3 //
+51 breast	ma po //
+66 come	lo //
+61 die	Si //
+21 dog	kh~3 yo //
+54 drink	t3 //
+39 ear	nh~a kh~o //
+40 eye	my~a ci //
+82 fire	mi //
+19 fish	Nh~o So //
+95 full	pr3 //
+48 hand	la pu //
+58 hear	nh~o to //
+34 horn	vu kh~i //
+1 I	No //
+47 knee	ph~3 //
+25 leaf	a ph~a //
+53 liver	a ch~3 //
+22 louse	Si ph~ru //
+86 mountain	x3 th~a //
+100 name	a mh~e //
+96 new	Si //
+92 night	mh~e kh~a //
+41 nose	nh~o to //
+11 one	th~i //
+85 road	yo kh~o //
+18 person	ch~3 zo //
+57 see	my~3 //
+28 skin	a kh~o //
+74 star	pu ki //
+77 stone	lo mo //
+72 sun	53 o //
+44 tongue	a Lo //
+43 tooth	Cy~i //
+23 tree	a c3 //
+12 two	ni //
+75 water	e Ch~o //
+3 we	Na vu //
+2 thou	n3 //
+LAHU{ST.BURMESE-LOLO|Sino-Tibetan,Tibeto-Burman,Burmic,Ngwi,Central}
+ 1   20.00   98.17      577178   lah   lhu
+1 I	Na //
+2 you	no //
+3 we	Nax3 //
+4 this	ch~i //
+5 that	XXX //
+6 who	asi //
+7 what	ath~u7ma //
+8 not	ma //
+9 all	ka //
+10 many	ma //
+11 one	te //
+12 two	ni //
+13 big	XXX //
+14 long	z3 //
+15 small	XXX //
+16 woman	zamima //
+17 man	xoqh~a7pa //
+18 person	ch~o //
+19 fish	Na //
+20 bird	Na //
+21 dog	ph~3 //
+22 louse	se //
+23 tree	s37 //
+24 seed	ozo //
+25 leaf	oph~a7 //
+26 root	og3 //
+27 bark	XXX //
+28 skin	og3 //
+29 flesh	sa //
+30 blood	os3 //
+31 bone	omi7ki //
+32 grease	ch~i //
+33 egg	oi //
+34 horn	kh~o //
+35 tail	mEti //
+36 feather	m3 //
+37 hair	imi //
+38 head	iqu //
+39 ear	napo //
+40 eye	mesi //
+41 nose	naqh~o //
+42 mouth	mo7qo //
+43 tooth	ci //
+44 tongue	xate //
+45 claw	la7siqi //
+46 foot	kh~3se //
+47 knee	kh~3c3qi //
+48 hand	la7sE //
+49 belly	xupe //
+50 neck	qopE //
+51 breasts	XXX //
+52 heart	nimasi //
+53 liver	ose //
+54 drink	do //
+55 eat	ca //
+56 bite	ch~e, th~3 //
+57 see	ni //
+58 hear	na //
+59 know	si //
+60 sleep	z37 //
+61 die	s3 //
+62 kill	pE //
+63 swim	XXX //
+64 fly	pu //
+65 walk	ci, tu //
+66 come	la //
+67 lie	XXX //
+68 sit	m3 //
+69 stand	xi //
+70 give	pi //
+71 say	zo, qu7 //
+72 sun	mini //
+73 moon	xapa //
+74 star	m37k3 //
+75 water	ika7 //
+76 rain	mize //
+77 stone	xap3 //
+78 sand	saisi //
+79 earth	mi //
+80 cloud	mu //
+81 smoke	miqh~o //
+82 fire	ami //
+83 ash	kh~ola //
+84 burn	po7 //
+85 path	za7qo //
+86 mountain	qh~o //
+87 red	ni //
+88 green	no //
+89 yellow	si //
+90 white	ph~i //
+91 black	na7 //
+92 night	takh~3 //
+93 hot	lE //
+94 cold	ka7 //
+95 full	b3 //
+96 new	os3 //
+97 good	da //
+98 round	io //
+99 dry	ii //
+100 name	omE //
+XIDE{ST.BURMESE-LOLO|Sino-Tibetan,Tibeto-Burman,Burmic,Ngwi,Northern}
+ 1   28.31  102.44     1600000         iii
+30 blood	s3 //
+31 bone	vudu //
+51 breast	Nomo //
+66 come	la //
+61 die	s3 //
+21 dog	kh~3 //
+54 drink	nd~o //
+39 ear	hn3po //
+40 eye	5oc3 //
+82 fire	mtu //
+19 fish	h3 //
+95 full	dy~i //
+48 hand	lo //
+58 hear	hna //
+34 horn	ofu //
+1 I	Na //
+47 knee	baT37 //
+25 leaf	ch~ich~i //
+53 liver	si //
+22 louse	ch~oS3 //
+86 mountain	bo //
+100 name	hmi //
+96 new	aS37 //
+92 night	kh~3th~3mo //
+41 nose	hnabi //
+11 one	ch~3 //
+85 path	gamo //
+18 person	ch~o //
+57 see	h3 //
+28 skin	ndy$iS3 //
+74 star	mc3 //
+77 stone	luma //
+72 sun	hobu //
+44 tongue	hane //
+43 tooth	j3 //
+23 tree	s3bo //
+12 two	5i //
+75 water	y3 //
+3 we	Noxo //
+2 you	n3 //
+DAFANG{ST.BURMESE-LOLO|Sino-Tibetan,Tibeto-Burman,Burmic,Ngwi,Northern}
+ 1   27.15  105.60      905000         yig
+30 blood	si //
+31 bone	xox3 //
+51 breast	XXX //
+66 come	lo, li //
+61 die	si //
+21 dog	ch~y //
+54 drink	nd~o //
+39 ear	lopo //
+40 eye	nadu //
+82 fire	mto //
+19 fish	No //
+95 full	die //
+48 hand	la //
+58 hear	dy~u //
+34 horn	och~i //
+1 I	No //
+47 knee	XXX //
+25 leaf	seth~u //
+53 liver	s3 //
+22 louse	simo //
+86 mountain	b3 //
+100 name	mie //
+96 new	xe //
+92 night	s3piha //
+41 nose	nomo //
+11 one	th~a //
+85 path	dy~o //
+18 person	ch~o //
+57 see	na //
+28 skin	ndy~i //
+74 star	camo //
+77 stone	lomo //
+72 sun	ndy$y //
+44 tongue	Lo //
+43 tooth	c3mo //
+23 tree	se //
+12 two	5i //
+75 water	yi //
+3 we	Nox3 //
+2 you	na //
+NANJIANG{ST.BURMESE-LOLO|Sino-Tibetan,Tibeto-Burman,Burmic,Ngwi,Central}
+ 1   25.00  100.25      300000   lal   ywt
+30 blood	s3 //
+31 bone	uda //
+51 breast	XXX //
+66 come	la //
+61 die	x3 //
+21 dog	akh~3 //
+54 drink	du //
+39 ear	napu //
+40 eye	mise //
+82 fire	ato //
+19 fish	XXX //
+95 full	c3 //
+48 hand	liph~i7 //
+58 hear	ne //
+34 horn	kh~u //
+1 I	No //
+47 knee	XXX //
+25 leaf	s3ph~i7 //
+53 liver	c3s3 //
+22 louse	si //
+86 mountain	kh~uj3 //
+100 name	mi*c3 //
+96 new	x37 //
+92 night	mikh~3si //
+41 nose	nokh~u //
+11 one	Ch~3 //
+85 path	goma //
+18 person	ch~u //
+57 see	XXX //
+28 skin	d3Cu //
+74 star	ce //
+77 stone	kalo //
+72 sun	amux3 //
+44 tongue	la //
+43 tooth	sy //
+23 tree	s3c37 //
+12 two	XXX //
+75 water	x3 //
+3 we	XXX //
+2 you	XXX //
+LISU{ST.BURMESE-LOLO|Sino-Tibetan,Tibeto-Burman,Lolo-Burmese,Loloish,Northern,Lisu}
+ 1   26.00   98.00      767000   lis   lis
+30 blood	s3 //
+31 bone	oto //
+51 breast	XXX //
+66 come	la //
+61 die	S3 //
+21 dog	ana //
+54 drink	do //
+39 ear	nopo //
+40 eye	miEs3 //
+82 fire	ato //
+19 fish	Nua //
+95 full	bile //
+48 hand	lEph~E //
+58 hear	nalo //
+34 horn	oCh~3 //
+1 I	Nua //
+47 knee	XXX //
+25 leaf	eph~ia //
+53 liver	s3 //
+22 louse	x3 //
+86 mountain	ko //
+100 name	emi //
+96 new	eS3 //
+92 night	sakh~ua //
+41 nose	nakh~u //
+11 one	th~i //
+85 path	jagu //
+18 person	ch~oza //
+57 see	5i //
+28 skin	koji //
+74 star	komaze //
+77 stone	loch~3 //
+72 sun	m3mi //
+44 tongue	laCh~3 //
+43 tooth	s3Ch~i //
+23 tree	s3c3 //
+12 two	5i //
+75 water	ejE //
+3 we	Nuanu //
+2 you	nu //
+NUSU{ST.BURMESE-LOLO|Sino-Tibetan,Tibeto-Burman,Burmic,Ngwi,Central}
+ 1   26.75   99.00       12000   nus   nuf
+30 blood	sui //
+31 bone	r3 //
+51 breast	XXX //
+66 come	la //
+61 die	si //
+21 dog	kh~ui //
+54 drink	sh~u7 //
+39 ear	hnash~3* //
+40 eye	miady~i //
+82 fire	mi //
+19 fish	Na //
+95 full	b3* //
+48 hand	la7 //
+58 hear	hna //
+34 horn	kh~r3a //
+1 I	Na //
+47 knee	XXX //
+25 leaf	ph~aLa //
+53 liver	ch~3* //
+22 louse	Sa //
+86 mountain	5ua, la* //
+100 name	hme* //
+96 new	dy~o //
+92 night	suana //
+41 nose	hnaka* //
+11 one	th~i //
+85 path	kh~raph~ro* //
+18 person	su //
+57 see	ru //
+28 skin	kh~uri //
+74 star	krelo //
+77 stone	lu7 //
+72 sun	5ia //
+44 tongue	fra //
+43 tooth	sh~ua //
+23 tree	sic3* //
+12 two	XXX //
+75 water	rigra //
+3 we	Nad3 //
+2 you	5o //
+ACHANG{ST.BURMESE-LOLO|Sino-Tibetan,Tibeto-Burman,Lolo-Burmese,Burmish,Northern}
+ 1   25.00   98.50       29408   acn   acn
+30 blood	sui //
+31 bone	aZau //
+51 breast	XXX //
+66 come	Z3 //
+61 die	sa //
+21 dog	xui //
+54 drink	So7 //
+39 ear	niCua //
+40 eye	5oci7 //
+82 fire	poi //
+19 fish	NaSua //
+95 full	pZ3N //
+48 hand	lo7 //
+58 hear	kZua //
+34 horn	kh~Zau //
+1 I	No //
+47 knee	ch~i5o7 //
+25 leaf	axro7 //
+53 liver	aS3N //
+22 louse	San //
+86 mountain	pum //
+100 name	a5iN //
+96 new	S3k //
+92 night	nich~ot //
+41 nose	nixoN //
+11 one	ta //
+85 path	xamZua //
+18 person	Co //
+57 see	en //
+28 skin	aZ3 //
+74 star	kh~Ze //
+77 stone	liNko7 //
+72 sun	nimo, pui //
+44 tongue	so //
+43 tooth	coi //
+23 tree	saNceN //
+12 two	s3k //
+75 water	ti //
+3 we	Notu7 //
+2 you	nuaN //
+NAXI{ST.NAXI|Sino-Tibetan,Tibeto-Burman,Lolo-Burmese,Naxi}
+ 2   27.50  100.00      308839   nax   nbf
+30 blood	sa //
+31 bone	Solo //
+51 breast	XXX //
+66 come	l3, ch~3 //
+61 die	S3 //
+21 dog	kh~3 //
+54 drink	th~3 //
+39 ear	xEc3 //
+40 eye	mi3lv //
+82 fire	mi //
+19 fish	5i //
+95 full	S3r //
+48 hand	lo //
+58 hear	kh~omi //
+34 horn	kh~o //
+1 I	N3 //
+47 knee	XXX //
+25 leaf	ph~i3 //
+53 liver	s3r //
+22 louse	Su //
+86 mountain	ko, nd~y //
+100 name	mi //
+96 new	S3 //
+92 night	mvkh~v //
+41 nose	5im3r //
+11 one	d3 //
+85 path	z3gv //
+18 person	si //
+57 see	ly //
+28 skin	x3 //
+74 star	k3 //
+77 stone	lvpa //
+72 sun	5ime //
+44 tongue	si //
+43 tooth	x3 //
+23 tree	nc~3r //
+12 two	5i //
+75 water	dy~i //
+3 we	N3Ng3 //
+2 you	nv //
+              

@@ -1,0 +1,2492 @@
+     1    10     0     3     1                       
+(I3)
+ 41  nose
+ 40  eye
+ 28  skin
+ 47  knee
+ 18  person (man)
+ 21  dog
+ 85  road (path)
+ 77  stone
+ 82  fire
+ 39  ear
+ 44  tongue
+ 43  tooth
+ 51  breast 
+ 48  hand
+ 72  sun
+ 74  star
+ 75  water
+ 23  tree
+ 25  leaf
+ 57  see
+ 66  come
+ 22  louse
+ 11  one
+ 12  two
+ 53  liver
+ 31  bone
+ 30  blood
+100  name
+ 86  mountain
+ 92  night
+ 96  new
+ 95  full
+ 58  hear
+ 54  drink
+  1  I
+  2  you (thou)
+ 61  die
+  3  we (excl.)
+ -1                                     
+WAGAU
+MAPOS
+MANGA
+PATEP
+KUMARU
+ZENAG
+TOWANGARA
+SAMBIO
+DAMBI
+PIU
+BUASI
+LATEP
+DUNGUNTUNG
+DANGAL
+SILISILI
+BUBWAF
+DAGIN
+AZERA
+WAMPAR
+SIRAK
+GUWOT
+DUWET
+MUSOM
+SUKURUM
+SIRASIRA
+MARALANGO
+WAMPUR
+MARI
+ONANK
+YAROS
+AMARI
+LABU
+BUKAUA
+KELA
+KAIWA
+SIPOMA
+HOTE
+YAMAP
+JABEM
+TAMI
+MALASANGA
+GITUA
+LUKEP
+MANGAP
+BARIM
+MUTU
+TUAM
+SIO
+NENGAYA
+ROINJI
+ARAWE
+MALEU
+NAKANAI
+HALIA
+GEDAGED
+     
+Morobe (Hooley)
+(A1,3X,60I2)
+ 41  1 1 1 1 1 1 1 1 1 1 1 1 8 8 8 8 811 8 8 7 7 81111 81121231111 8 8 2 1 3 4 5 812 9 8 9 8 9 8 810 8101314151622
+ 40  1 1 1 1 1 1 1 1 1 1 1 7 1 1 1 1 1 1 1 1 1 1 6 1 1 1 1 1 1 1 1 1 3 4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 8 1 1 1
+ 28  1 1 1 1 1 1 1 1 1 2 3 1 4 6 6 6 6 6 614 6 6 923 6 4 6 624 6 6 6 910 9111212 617 6 818 6 6 6 61923 9 5 7 81523
+ 47  1 1 2 2 2 2 2 2 2 2 2 2 3 2 3 3 5 8 91312121327 2 3262626 8 8 7 7 6 6 719 8 81415 71516171818 1 118111920 128
+ 18  1 1 2 3 1 3 2 2 1 1 1 9 5 5 522 613 8131515132513 51313 51313 7 8 910111212131617181616161616162526 416 51916
+ 21  1 1 1 1 1 1 1 1 1 3 1 1 4 4 4 4 4 4 4 4 7 7 4 4 4 4 4 4 4 4 4 4 4 4 5 4 5 5 4 8 8 4 8 9 8101012 4 413141516 8
+ 85  1 1 2 2 2 2 2 3 2 4 5 2 7 6 7 7 613 6161717 2 231 6 6 7 71333 8 910111012121318101410101020211029301922172210
+ 77  1 1 2 3 3 3 3 4 3 5 1 3 5 6 520 7 510121313122323 6 523 5 5 5 8 8 9 6 6101022 6 614 6 6 6151416222218 6 6 2 6
+ 82  1 2 3 2 2 2 2 2 2 2 2 2 5 4 5 5 6 6 6 6 6 6 615 6 4 6 6 6 6 6 6 6 6 6 6 4 8 6 6 9 6 9 6 9 6 6 6 6 6 3 71011 6
+ 39  1 1 1 1 1 1 2 1 1 3 1 1 1 1 1 1 4 1 4 1 1 1 1 1 1 113 1 1 1 1 1 1 5 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7 1 1
+ 44  1 1 1 2 2 2 3 2 2 4 1 2 5 2 5 5 5 5 5 5 5 5 515 5 2 5 5 5 5 5 5 6 7 6 7 8 8 6121011101010111113 5 513141510 6
+ 43  1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 1 2 2 9 9 2 1 1 2 1 1 1 1 1 3 4 4 1 1 5 6 7 11011121010 1 11311101410 1 1 1
+ 51  1 2 3 2 2 2 2 2 2 2 3 2 3 3 3 3 3 3 3 3 3 3 3 8 8 3 8 8 3 3 3 3 3 4 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 6 3 3 3 3
+ 48  1 2 2 3 2 2 3 2 2 3 2 2 3 3 3 3 3 3 3 5 2 2 5 3 3 3 3 3 3 3 3 3 2 3 3 2 3 3 2 2 3 2 2 2 3 2 2 6 2 2 7 3 2 2 2
+ 72  1 1 2 3 3 3 3 4 3 5 4 3 6 6 6 6 710 7 71414 71029 61010 63010 5 8 9 8 9 6 6111516171818 713192019191621212219
+ 74  1 1 2 1 3 1 1 1 3 3 1 111 5 6 6 411 4 4 4 4 423 1 62222 51111 7 7 4 1 9 31012 118 117 115 1 1 1 1 1 8 1 7 1 1
+ 75  1 2 2 3 3 3 3 3 3 6 5 3 4 4 4 4 4 4 4 4 6 6 4 4 4 4 4 4 4 4 4 4 4 7 4 8 9 9 4111112111311151514 9 9 916171822
+ 23  1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 2 3 5 2 2 613 2 2 2 2 2 2 2 2 2 2 2 2 3 3 2 2 2 2 2 2 2 2 2 2 2 2 7 2 8 9 5
+ 25 14 1 1 1 1 1 2 1 1 2 1 2 2 3 2 2 4 4 4 8 8 8 81413 2 4 4 2 4 4 5 6 6 6 6 6 6 6 6 6 6 9 6 6 6 6 6 6 6 8101010 6
+ 57  1 1 1 1 1 1 1 1 2 3 1 1 1 1 1 1 416 4 8 9 9102726 1 226262716 5 1 6 1 6 1 1 111 412 5 113141415242517 1 11828
+ 66  1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 114 1 91010 92214 21414241414 4 4 5 4 6 1 1 7 111 112121212 1131312151616 123
+ 22  1 2 2 1 4 1 3 1 4 1 1 115 5 5 5 518 5 1 9 9 51716 5 5 5 5 519 5 6 4 6 6 7 6 6 61211121212 6 612 5121213121212
+ 11  1 1 1 1 1 1 1 1 1 1 1 1 3 3 3 3 3 4 3 31010112121 3 4 4 4 4 4 5 1 1 6 7 8 8 11013141010101415 1101016171022 1
+ 12  1 1 1 1 1 1 5 1 1 1 1 1 2 2 2 2 2 1 2 2 2 2 2 110 21010 2 2 2 2 1 1 1 1 1 3 1 1 1 1 1 1 1 1 1 1 1 1 6 1 1 1 1
+ 53  1 1 1 2 3 4 4 1 3 5 622 4 4 4 4 720 72014 4162726 020202829 1 7 8 910 11111 11313211319 0 1 1 0 1 113 1 123 1
+ 31  1 1 2 3 4 3 3 4 4 5 4 4 6 4 6 6 612 6 6 6 6 623 6 4 612 4 4 4 1 8 8 9101111 810141014141410101010101516101724
+ 30  1 2 1 3 1 4 4 1 5 6 1 4 1 1 1 1 8 8 8 1 1 1 1 1 1 1 1 1 61212 7 91011101213 9 91415141514151516 82517181920 9
+100  1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 6 7 217 2 2 2 2 2 2 2 32020 1 1 1 220 819201918192121102222 910111116
+ 86  1 1 1 1 1 1 1 1 1 1 1 122222222 2 2 211121211262630242827 2 2 3 4 5 6 7 8 9 4 713141515151616 1 4251716181922
+ 92  1 3 3 3 3 1 1 4 3 5 3 3 6 7 6 6 8 9 81516161626 8 72425 9 8 8 910 9 3111212131212171819121212 3121720122112 3
+ 96  1 1 1 3 3 3 3 3 3 3 111 3 3 3 3 3 3 3 3 6 6 3 3 3 31718 3 3 3 3 3 3 3 3 4 4 3 7 8 3 810 8 3 3 3 8 812 813 1 8
+ 95  1 1 1 1 1 1 1 1 1 2 3 1 4 4 4 4 517 5131414151717 42917171717 6 7 8 9 51011 716 9171717 917171827281917202117
+ 58  1 1 1 1 1 1 1 1 1 1 1 1 1 3 1 1 1 5 0 0 0 0 0 0 0 1 1 1 1 1 1 2 1 1 4 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 7 1 8 1 1
+ 54  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 1 1 1 1 1 1 2 1 3 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 5 1 6 712
+  1  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 1 1 3 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 1 1 1 51111 6 7 1 813
+  2  1 1 1 1 1 1 1 1 1 1 1 1 2 3 2 2 4 2 4 8 5 5 8 1 2 2 2 2 1 2 2 4 5 6 4 4 1 1 5 5 1 9 110 1 91112 1 111111314 1
+ 61  1 1 2 2 3 2 2 3 3 3 2 2 4 4 4 4 4 8 410111110 8 8 4 8 8 4 8 8 5 6 7 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 412 4 4
+  3  1 2 2 3 3 4 4 5 2 1 3 5 4 5 4 4 4 4 41314 0 027 0 426 428 4 4 6 7 8 9 31011 015 7 1 0 0 0 0 0 0252716161718 7
+X                                     
+i   
+e
+E
+a
+3
+o
+u
+p
+b
+m
+w
+v       
+f       
+8       
+t
+d
+s
+z
+c
+n
+4       
+S
+Z       
+C
+j       
+5
+y
+T       
+l
+L       
+k
+g
+N
+x
+q
+G       
+X
+7
+h
+r
+!       
+     
+        
+WAGAU{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,South,Hote-Buang,Buang@} 	
+ 1   -6.92  146.83       10500         bzh		
+30          blood	os //  
+31          bone	sEke //  
+51          breast	baus //  
+66          come	lam //  
+61          die	ndik //  
+21          dog	ana //  
+54          drink	num //  
+39          ear	iNa //  
+40          eye	mala //  
+82          fire	kalE //  
+19          fish	XXX //  
+95          full	pup //  
+48          hand	oroh //  
+58          hear	No //  
+34          horn	XXX //  
+1           I	keh //  
+47          knee	lus //  
+25          leaf	upu //  
+53          liver	ate //  
+22          louse	th~a //  
+86          mountain	kundu //  
+100         name	are //  
+96          new	muwis //  
+92          night	pEtak //  
+41          nose	nEru //  
+11          one	ti //  
+85          path	axauta //  
+18          person	malux // "man" 
+57          see	ule //  
+28          skin	nabi //  
+74          star	mbEtuN //  
+77          stone	NgalaN //  
+72          sun	mENkaxEN //  
+44          tongue	ndalEn //  
+43          tooth	n3bu //  
+23          tree	kolE //  
+12          two	lu //  
+75          water	ruk //  
+3           we	aei //  exclusive
+2           you	oN //  
+MAPOS{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,South,Hote-Buang,Buang@} 	
+ 1   -6.92  146.83       10500         bzh	
+30          blood	kok //  
+31          bone	s3ke //  
+51          breast	rur //  
+66          come	yam //  
+61          die	ndik //  
+21          dog	ano //  
+54          drink	num //  
+39          ear	n3Na //  
+40          eye	mala //  
+82          fire	n3Nwax //  
+19          fish	XXX //  
+95          full	pup //  
+48          hand	n3ma //  
+58          hear	No //  
+34          horn	XXX //  
+1           I	sa //  
+47          knee	lus //  
+25          leaf	ris //  
+53          liver	ate //  
+22          louse	pon3N //  
+86          mountain	k3ndu //  
+100         name	are //  
+96          new	m3wis //  
+92          night	mbuk //  
+41          nose	n3ru //  
+11          one	ti //  
+85          path	agata //  
+18          person	malux // "man" 
+57          see	le //  
+28          skin	nabi //  
+74          star	mb3tux3N //  
+77          stone	Ng3loN //  
+72          sun	5eNk //  
+44          tongue	ndagEn //  
+43          tooth	n3bu //  
+23          tree	k3lE //  
+12          two	lu //  
+75          water	mbel //  
+3           we	xE //  exclusive
+2           you	xoN //  
+MANGA{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,South,Hote-Buang,Buang@}  	
+ 1   -7.00  146.67        3000         mmo	
+30          blood	nixes //  
+31          bone	kok //  
+51          breast	narusum //  
+66          come	naram //  
+61          die	yimp //  
+21          dog	bow //  
+54          drink	nanum //  
+39          ear	na5e //  
+40          eye	me //  
+82          fire	kin //  
+19          fish	XXX //  
+95          full	pup //  
+48          hand	nama //  
+58          hear	xaNo //  
+34          horn	XXX //  
+1           I	sa //  
+47          knee	baxa katu //  
+25          leaf	ris //  
+53          liver	te //  
+22          louse	ponaN //  
+86          mountain	kandu //  
+100         name	xare //  
+96          new	mos //  
+92          night	mbusin //  
+41          nose	naru //  
+11          one	ti //  
+85          path	mop //  
+18          person	mow // "man" 
+57          see	nayi //  
+28          skin	nabi //  
+74          star	matam //  
+77          stone	tatuh //  
+72          sun	takume //  
+44          tongue	ndaran //
+43          tooth	nabu //  
+23          tree	xax //  
+12          two	yuh //  
+75          water	mber //  
+3           we	xey //  exclusive
+2           you	xoN //  
+PATEP{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,South,Hote-Buang,Buang,Mumeng@}  	
+ 1   -6.92  146.58        1700   pat   ptp	
+30          blood	he //  
+31          bone	lEn //  
+51          breast	rur //  
+66          come	lam //  
+61          die	yimp //  
+21          dog	no //  
+54          drink	inum //  
+39          ear	niNo //  
+40          eye	manon //  
+82          fire	Nwax //  
+19          fish	XXX //  
+95          full	pup //  
+48          hand	b3Nge //  
+58          hear	iNo //  
+34          horn	XXX //  
+1           I	ah //  
+47          knee	baxa kotu //  
+25          leaf	lihi //  
+53          liver	logowa //  
+22          louse	tah //  
+86          mountain	k3ton //  
+100         name	rEh //  
+96          new	paha //  
+92          night	mbu7En //  
+41          nose	nEru //  
+11          one	ti //  
+85          path	mop //  
+18          person	bux // "man" 
+57          see	iye //  
+28          skin	ni n3bi //  
+74          star	p3tuwah //  
+77          stone	Nandax //  
+72          sun	heyop //
+44          tongue	Nget //
+43          tooth	n3bu //  
+23          tree	3xax //  
+12          two	yu //  
+75          water	mia //  
+3           we	il //  exclusive
+2           you	oN //  
+KUMARU{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,South,Hote-Buang,Buang,Mumeng@}  	
+ 1   -7.00  146.50        2580         ksl	
+30          blood	7is //  
+31          bone	kanSe //  
+51          breast	rur //  
+66          come	lam //  
+61          die	mEr //  
+21          dog	nou //  
+54          drink	inum //  
+39          ear	5iNa ris //  
+40          eye	ma5on //  
+82          fire	Nwax //  
+19          fish	XXX //  
+95          full	pupiN //  
+48          hand	n3ma //  
+58          hear	iNo //  
+34          horn	XXX //  
+1           I	aey //  
+47          knee	baxa kotu //  
+25          leaf	lis //  
+53          liver	wambimb //  
+22          louse	ndo7 //  
+86          mountain	katony //  
+100         name	lE //  
+96          new	pas //  
+92          night	bubu5En //  
+41          nose	5eru //  
+11          one	timbEnd3N //  
+85          path	mop //  
+18          person	maux //  "man"
+57          see	ye //  
+28          skin	ni nobi //  
+74          star	b3lin //  
+77          stone	landax //  
+72          sun	yob //  
+44          tongue	NgEs //  
+43          tooth	nibu //  
+23          tree	xax //  
+12          two	yu //  
+75          water	min //  
+3           we	iy //  exclusive
+2           you	oN //  
+ZENAG{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,South,Hote-Buang,Buang,Mumeng@}  	
+ 1   -6.92   00.00        1820         zeg	
+30          blood	yohoh //  
+31          bone	lEn //  
+51          breast	lul //  
+66          come	lam //  
+61          die	nzimp //  
+21          dog	nau //  
+54          drink	num //  
+39          ear	n35aNk //  
+40          eye	maNg3lEn //  
+82          fire	Nyax //  
+19          fish	XXX //  
+95          full	pup3lE7 //  
+48          hand	n3maNk //  
+58          hear	No //  
+34          horn	XXX //  
+1           I	ah //  
+47          knee	baxaNk k3tu //  
+25          leaf	lEhe //  
+53          liver	buwa //  
+22          louse	th~a //  
+86          mountain	k3tun //  
+100         name	ri //  
+96          new	paha //  
+92          night	map3to7 //  
+41          nose	nuluNk //  
+11          one	ti //  
+85          path	muph~ //  
+18          person	bux //  "man"
+57          see	yih //  
+28          skin	nENk n3bE //  
+74          star	b3tuwaN //  
+77          stone	b3ndax //  
+72          sun	heyub //  
+44          tongue	Nget //  
+43          tooth	n3buNk //  
+23          tree	xax //  
+12          two	yu //  
+75          water	my~EaN //  
+3           we	xol //  exclusive
+2           you	oN //  
+TOWANGARA{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,South,Hote-Buang,Buang,Mumeng@}  	
+ 1   -6.92  146.58        2740         goc	
+30          blood	yo //  
+31          bone	lEn //  
+51          breast	lul //  
+66          come	lam //  
+61          die	yimbE //  
+21          dog	Na //  
+54          drink	onum //  
+39          ear	5ali //  
+40          eye	maNalu //  
+82          fire	5ak //  
+19          fish	XXX //  
+95          full	pup //  
+48          hand	bENgi //  
+58          hear	oNo //  
+34          horn	XXX //  
+1           I	ha //  
+47          knee	ba kotu //  
+25          leaf	go //  
+53          liver	l3wa //  
+22          louse	bobil //  
+86          mountain	k3tun //  
+100         name	li //  
+96          new	pah //  
+92          night	p3tok //  
+41          nose	lElu //  
+11          one	ti //  
+85          path	mup //  
+18          person	ma //  "man"
+57          see	wi //  
+28          skin	nin3bi //  
+74          star	pEtuwa //  
+77          stone	N3ndax //  
+72          sun	yub //  
+44          tongue	gep //  
+43          tooth	lEbu //  
+23          tree	ak //  
+12          two	o //  
+75          water	mE //  
+3           we	xol //  exclusive
+2           you	o //  
+SAMBIO{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,South,Hote-Buang,Buang@}  	
+ 1   -7.08  146.50        2350         tbx	
+30          blood	yes //  
+31          bone	kanjE //  
+51          breast	lul //  
+66          come	ram //  
+61          die	mei //  
+21          dog	nou //  
+54          drink	enum //  
+39          ear	nE5a ris //  
+40          eye	mah //  
+82          fire	nE5Ex //  
+19          fish	XXX //  
+95          full	pup //  
+48          hand	mEma //  
+58          hear	eNo //  
+34          horn	XXX //  
+1           I	ai //  
+47          knee	baxa katu //  
+25          leaf	lis //  
+53          liver	te //  
+22          louse	ta //  
+86          mountain	lukandu //  
+100         name	le
+96          new	bako //  
+92          night	bakEN //  
+41          nose	nElu //  
+11          one	tig3mu //  
+85          path	sakwaiN //  
+18          person	mau //  "man"
+57          see	ye //  
+28          skin	nenabi //  
+74          star	b3tum //  
+77          stone	kakos //  
+72          sun	sayeb //  
+44          tongue	Ngas //  
+43          tooth	nEbu //  
+23          tree	gag //  
+12          two	yu //  
+75          water	mEmiN //  
+3           we	ga //  exclusive
+2           you	uwaN //  
+DAMBI{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,South,Hote-Buang,Buang,Mumeng@}  	
+ 1   -7.00  146.50         710         dac	
+30          blood	njand //  
+31          bone	kanZEk //  
+51          breast	lul //  
+66          come	lam //  
+61          die	mEl //  
+21          dog	nau //  
+54          drink	num //  
+39          ear	n35a lis //  
+40          eye	ma //  
+82          fire	Nwax //  
+19          fish	XXX //  
+95          full	pup //  
+48          hand	n3ma //  
+58          hear	No //  
+34          horn	XXX //  
+1           I	aiy //  
+47          knee	baxa katu //  
+25          leaf	lis //  
+53          liver	wambimb //  
+22          louse	ndok //  
+86          mountain	luk3ndu //  
+100         name	alENk //  
+96          new	pas //  
+92          night	mbuk //  
+41          nose	n3lu //  
+11          one	ti //  
+85          path	mop3ta //  
+18          person	maux // "man" 
+57          see	naNgwEh //  
+28          skin	ninabi //  
+74          star	b3linik //  
+77          stone	landax //  
+72          sun	yob //  
+44          tongue	Nges //  
+43          tooth	n3bu //  
+23          tree	gag //  
+12          two	yu //  
+75          water	min //  
+3           we	xE //  exclusive
+2           you	oN //  
+PIU{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,South,Hote-Buang,Buang@}  	
+ 1   -7.00  146.42         100         pix	
+30          blood	aso //  
+31          bone	aki //  
+51          breast	lul //  
+66          come	yam //  
+61          die	mel //  
+21          dog	nduwo //  
+54          drink	anom //  
+39          ear	bEna aki //  
+40          eye	maNganun //  
+82          fire	na //  
+19          fish	XXX //  
+95          full	asup //  
+48          hand	baNgi //  
+58          hear	aNo //  
+34          horn	XXX //  
+1           I	a //  
+47          knee	baxa kato //  
+25          leaf	7ko //  
+53          liver	bokwanum //  
+22          louse	tah //  
+86          mountain	baNgwu7atuN //  
+100         name	oli //  
+96          new	ph~ah //  
+92          night	baNkwaNcu //  
+41          nose	b3lu //  
+11          one	tika //  
+85          path	wu //  
+18          person	mug // "man" 
+57          see	abi //  
+28          skin	nirampe //  
+74          star	bElEN //  
+77          stone	toub //  
+72          sun	bEsak //  
+44          tongue	namEN //  
+43          tooth	b3bu //  
+23          tree	ga //  
+12          two	lu //  
+75          water	mbi //  
+3           we	yE //  exclusive
+2           you	boN //  
+BUASI{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,South,Hote-Buang,Buang@}  	
+ 1   -6.92  146.92          70         val	
+30          blood	xEs //  
+31          bone	kanjE //  
+51          breast	sum //  
+66          come	nam //  
+61          die	yimp //  
+21          dog	nay //  
+54          drink	num //  
+39          ear	niNa //  
+40          eye	mamgarus //  
+82          fire	n3NEx //  
+19          fish	XXX //  
+95          full	bE //  
+48          hand	n3ma //  
+58          hear	raNo //  
+34          horn	XXX //  
+1           I	sa //  
+47          knee	baxam kandu //  
+25          leaf	ris //  
+53          liver	masi //  
+22          louse	tanon //  
+86          mountain	kunduh //  
+100         name	rE //  
+96          new	nim3gus //  
+92          night	mbo7in //  
+41          nose	n3rum //  
+11          one	timu //  
+85          path	ragan //  
+18          person	mog // "man" 
+57          see	niyEh //  
+28          skin	njioNk //  
+74          star	mb3tuin //  
+77          stone	NgoroN //  
+72          sun	siyEb //  
+44          tongue	nd3rEn //  
+43          tooth	n3bo //  
+23          tree	xax //  
+12          two	uy //  
+75          water	kotok //  
+3           we	7i //  exclusive
+2           you	goN //  
+LATEP{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,South,Hote-Buang,Buang,Mumeng@}  	
+ 1   -6.92  146.50        1820         zeg	
+30          blood	yo //  
+31          bone	k3nsE7 //  
+51          breast	lol //  
+66          come	lom //  
+61          die	njemp //  
+21          dog	naw //  
+54          drink	nom //  
+39          ear	n35om //  
+40          eye	mam3nun //  
+82          fire	5ag //  
+19          fish	XXX //  
+95          full	pup //  
+48          hand	n3mam //  
+58          hear	No //  
+34          horn	XXX //  
+1           I	ay //  
+47          knee	bogokotu //  
+25          leaf	lE //  
+53          liver	pieyo7 //  
+22          louse	ta //  
+86          mountain	luk3tun //  
+100         name	lim //  
+96          new	gwimboN //  
+92          night	gwombo7 //  
+41          nose	nolom //  
+11          one	tika //  
+85          path	mup //  
+18          person	t3mbEy // "man" 
+57          see	yi //  
+28          skin	nEm n3vE //  
+74          star	bo7tooN //  
+77          stone	bondog //  
+72          sun	iyub //  
+44          tongue	NgEt //  
+43          tooth	n3vum //  
+23          tree	gag //  
+12          two	yow //  
+75          water	mEyoN //  
+3           we	ga //  exclusive
+2           you	oN //  
+DUNGUNTUNG{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,Markham,Watut@}  	
+ 1   -6.83  146.33        1350         mpl
+30          blood	wai7 //  
+31          bone	kwalo7 //  
+51          breast	sEso7 //  
+66          come	yapa //  
+61          die	inisinema //  
+21          dog	kh~iyam //  
+54          drink	elom //  
+39          ear	rENga //  
+40          eye	Namara nicu //  
+82          fire	seNo //  
+19          fish	XXX //  
+95          full	yifuNk //  
+48          hand	baNkim //  
+58          hear	idiNgu //  
+34          horn	XXX //  
+1           I	ciyi //  
+47          knee	gogolo7 //  
+25          leaf	naNkoc //  
+53          liver	nui7 //  
+22          louse	oyi7 //  
+86          mountain	subuntu //  
+100         name	beNa //  
+96          new	wafa //  
+92          night	yao //  
+41          nose	so7 //  
+11          one	moroc //  
+85          path	NaNku //  
+18          person	maro7 //  "man"
+57          see	uli //  
+28          skin	peyapEc //  
+74          star	Nantam //  
+77          stone	tauf //  
+72          sun	suy //  
+44          tongue	ma //  
+43          tooth	gantu7 //  
+23          tree	gy~a7 //  
+12          two	sela //  
+75          water	bo7 //  
+3           we	kagam //  exclusive
+2           you	kugu //  
+DANGAL{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,Markham,Watut@}  	
+ 1   -7.08  146.33         890         mcy	
+30          blood	waty~ //  
+31          bone	kh~ansik //  
+51          breast	sus //  
+66          come	mayaka7 //  
+61          die	mimar //  
+21          dog	kh~iam //  
+54          drink	lamanumumpu7 //  
+39          ear	liNantu //  
+40          eye	maraNgambu //  
+82          fire	suma //  
+19          fish	XXX //  
+95          full	yEfuruNk //  
+48          hand	baNkiNk //  
+58          hear	lamaru //  
+34          horn	XXX //  
+1           I	ca //  
+47          knee	faNkwatoN //  
+25          leaf	nu //  
+53          liver	nuwa //  
+22          louse	gul //  
+86          mountain	su //  
+100         name	binaNk //  
+96          new	wofokh~ //  
+92          night	borofu //  
+41          nose	suNk //  
+11          one	taNkanaNk //  
+85          path	mocu //  
+18          person	amaru //  "man"
+57          see	wudi7 //  
+28          skin	yiniNapa //  
+74          star	waswasi //  
+77          stone	bath~ap //  
+72          sun	suak //  
+44          tongue	Nkas //  
+43          tooth	dy~EntuNk //  
+23          tree	dia7 //  
+12          two	suruk //  
+75          water	mbu7 //  
+3           we	kh~ani //  exclusive
+2           you	cE7 //  
+SILISILI{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,Markham,Watut@}  	
+ 1   -6.83  146.33        1350         mpl	
+30          blood	wei7 //  
+31          bone	kwaro //  
+51          breast	sEso //  
+66          come	leyaph~a //  
+61          die	liNisE nemar //  
+21          dog	kh~iyim //  
+54          drink	lEnom //  
+39          ear	lENga //  
+40          eye	Namara //  
+82          fire	siNo //  
+19          fish	XXX //  
+95          full	lifuNk //  
+48          hand	baNki //  
+58          hear	liliNu //  
+34          horn	XXX //  
+1           I	ciyi //  
+47          knee	gogoro //  
+25          leaf	naNkoc //  
+53          liver	nuwi7 //  
+22          louse	gor //  
+86          mountain	subunth~u //  
+100         name	beNa //  
+96          new	wafa7 //  
+92          night	yauN //  
+41          nose	Naso //  
+11          one	moroc //  
+85          path	NaNku //  
+18          person	Namaro //  "man"
+57          see	uli7 //  
+28          skin	lEnipEpEc //  
+74          star	kose //  
+77          stone	tauf //  
+72          sun	suwi //  
+44          tongue	ma //  
+43          tooth	ganth~u //  
+23          tree	ga7 //  
+12          two	sEro //  
+75          water	ph~o //  
+3           we	kh~aga //  exclusive
+2           you	kh~ugu //  
+BUBWAF{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,Markham,Watut@}  	
+ 1   -6.83  146.33        1350         mpl	
+30          blood	weit //  
+31          bone	kwarok //  
+51          breast	soso7 //  
+66          come	yoko //  
+61          die	liNis mEma //  
+21          dog	tiom //  
+54          drink	nEnom //  
+39          ear	lENgan //  
+40          eye	mara nicu //  
+82          fire	suNgo7 //  
+19          fish	XXX //  
+95          full	lifuNk //  
+48          hand	bENki //  
+58          hear	ladiNu //  
+34          horn	XXX //  
+1           I	cio //  
+47          knee	gogoro //  
+25          leaf	naNkoc //  
+53          liver	nuo7 //  
+22          louse	gol //  
+86          mountain	subuntu //  
+100         name	benaNk //  
+96          new	wafak //  
+92          night	yao //  
+41          nose	so7 //  
+11          one	moroc //  
+85          path	nokwu //  
+18          person	Narumuku //  "man"
+57          see	li7iditio //  
+28          skin	lEne //  
+74          star	kose7 //  
+77          stone	loNg //  
+72          sun	suok //  
+44          tongue	ma7 //  
+43          tooth	gontu //  
+23          tree	ga7 //  
+12          two	SErok //  
+75          water	po7 //  
+3           we	kaga //  exclusive
+2           you	kugu //  
+DAGIN{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,Markham,Lower,Wampar@}  	
+ 1   -6.75  146.67        5150         lbq	
+30          blood	bi //  
+31          bone	waro //  
+51          breast	sEson //  
+66          come	eyama //  
+61          die	Enabanemar //  
+21          dog	ijum //  
+54          drink	enom //  
+39          ear	naiNgEmpon //  
+40          eye	morodijin //  
+82          fire	jif //  
+19          fish	XXX //  
+95          full	isum //  
+48          hand	baNid //  
+58          hear	iruNum //  
+34          horn	XXX //  
+1           I	Eja //  
+47          knee	foud donon //  
+25          leaf	yafan //  
+53          liver	nun //  
+22          louse	gor //  
+86          mountain	momoa //  
+100         name	bENan //  
+96          new	wafu //  
+92          night	sEfo7 //  
+41          nose	so danson //  
+11          one	oroc //  
+85          path	muji //  
+18          person	yair // "man" 
+57          see	etau //  
+28          skin	renEt daNkan //  
+74          star	Narumarec //  
+77          stone	cEru //  
+72          sun	S3u //  
+44          tongue	mat //  
+43          tooth	gEntuwavu //  
+23          tree	orok //  
+12          two	cErok //  
+75          water	po7 //  
+3           we	yaga //  exclusive
+2           you	yey //  
+AZERA{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,Markham,Upper@}  	
+ 1   -6.30  146.20       28900   adz   adz	
+30          blood	bi7 //  
+31          bone	urun //  
+51          breast	sisun //  
+66          come	badan //  
+61          die	imamp //  
+21          dog	iyam //  
+54          drink	inum //  
+39          ear	riNan //  
+40          eye	maran //  
+82          fire	zaf //  
+19          fish	XXX //  
+95          full	ifu7 //  
+48          hand	baNin //  
+58          hear	iriNant //  
+34          horn	XXX //  
+1           I	zi //  
+47          knee	faga guzun //  
+25          leaf	yafan //  
+53          liver	nugun iran //  
+22          louse	irimbuN //  
+86          mountain	mamai //  
+100         name	biNan //  
+96          new	fa7 //  
+92          night	iziaN //  
+41          nose	yun //  
+11          one	bic //  
+85          path	sanab //  
+18          person	garam // "man" 
+57          see	icaNan //  
+28          skin	rinin //  
+74          star	Nantam //  
+77          stone	tauf //  
+72          sun	gubu7 //  
+44          tongue	man //  
+43          tooth	nifun //  
+23          tree	gai //  
+12          two	iru7 //  
+75          water	mpui //  
+3           we	aga //  exclusive
+2           you	agu //  
+WAMPAR{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,Markham,Lower,Wampar@Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,Markham,Lower,Wampar}
+ 1   -6.75  146.70        5150         lbq
+30          blood	bi7 //  
+31          bone	walo //  
+51          breast	sEson //  
+66          come	yoma7 //  
+61          die	emar //  
+21          dog	ijum //  
+54          drink	XXX //  
+39          ear	nagEmpon //  
+40          eye	maranijin //  
+82          fire	cif //  
+19          fish	XXX //  
+95          full	isum //  
+48          hand	boNEn //  
+58          hear	XXX //  
+34          horn	XXX //  
+1           I	eca7 //  
+47          knee	ononantut //  
+25          leaf	yafaN //  
+53          liver	nun //  
+22          louse	gol //  
+86          mountain	momoa //  
+100         name	beNan //  
+96          new	wafu //  
+92          night	sefo //  
+41          nose	so nanCon //  
+11          one	oroc //  
+85          path	moaji //  
+18          person	Nain // "man" 
+57          see	etao //  
+28          skin	enegaNkan //  
+74          star	Naromarec //  
+77          stone	salu //  
+72          sun	su //  
+44          tongue	man //  
+43          tooth	gontiwalo7 //  
+23          tree	orok //  
+12          two	selok //  
+75          water	po7 //  
+3           we	yagai //  exclusive
+2           you	yei7 //  
+SIRAK{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,Markham,Lower,Busu@}  	
+ 1   -6.50  146.83         160         srf	
+30          blood	wek //  
+31          bone	kwaluk //  
+51          breast	sus //  
+66          come	Nika //  
+61          die	gimbak //  
+21          dog	kom //  
+54          drink	XXX //  
+39          ear	liNan //  
+40          eye	molom //  
+82          fire	sif //  
+19          fish	XXX //  
+95          full	Nifin //  
+48          hand	baEn //  
+58          hear	XXX //  
+34          horn	XXX //  
+1           I	wi //  
+47          knee	anoN //  
+25          leaf	ninon //  
+53          liver	niukundupun //  
+22          louse	gwatatak //  
+86          mountain	sun //  
+100         name	biNan //  
+96          new	wofok //  
+92          night	lEmEk //  
+41          nose	suN //  
+11          one	alus //  
+85          path	mi //  
+18          person	alom // "man" 
+57          see	yiwEnwi //  
+28          skin	pupup //  
+74          star	domalis //  
+77          stone	saok //  
+72          sun	siwuk //  
+44          tongue	mo //  
+43          tooth	gindim //  
+23          tree	yo //  
+12          two	siluk //  
+75          water	bu //  
+3           we	si //  exclusive
+2           you	yiN //  
+GUWOT{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,Markham,Lower,Busu@}  	
+ 1   -6.50  146.83         400         gve	
+30          blood	wiok //  
+31          bone	koalek //  
+51          breast	seis //  
+66          come	muyE //  
+61          die	miyEt //  
+21          dog	yain //  
+54          drink	XXX //  
+39          ear	nogibEn //  
+40          eye	malam //  
+82          fire	sia //  
+19          fish	XXX //  
+95          full	yaunt //  
+48          hand	limain //  
+58          hear	XXX //  
+34          horn	XXX //  
+1           I	ahi //  
+47          knee	ambindois //  
+25          leaf	niEn //  
+53          liver	logilua //  
+22          louse	et //  
+86          mountain	logelain //  
+100         name	yoin //  
+96          new	akein //  
+92          night	miyok //  
+41          nose	sizein //  
+11          one	taine //  
+85          path	lau //  
+18          person	ut //  "man"
+57          see	kwouN //  
+28          skin	dinain //  
+74          star	domarais //  
+77          stone	daNk //  
+72          sun	siEnt //  
+44          tongue	man //  
+43          tooth	niaun //  
+23          tree	a //  
+12          two	seik //  
+75          water	mbei //  
+3           we	aindaNk //  exclusive
+2           you	au //  
+DUWET{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,Markham,Lower,Busu@}  	
+ 1   -6.50  146.83         400         gve	
+30          blood	wiok //  
+31          bone	kwalek //  
+51          breast	sisoin //  
+66          come	muya //  
+61          die	miEt //  
+21          dog	yEn //  
+54          drink	XXX //  
+39          ear	noNgimbEn //  
+40          eye	molan //  
+82          fire	sia //  
+19          fish	XXX //  
+95          full	yaun //  
+48          hand	dimian //  
+58          hear	XXX //  
+34          horn	XXX //  
+1           I	ahe7 //  
+47          knee	ombindais //  
+25          leaf	niEn //  
+53          liver	newundaN //  
+22          louse	oit //  
+86          mountain	logelain //  
+100         name	muan //  
+96          new	akEn //  
+92          night	miEk //  
+41          nose	soin //  
+11          one	taine //  
+85          path	logau //  
+18          person	ut //  "man"
+57          see	kwanuN //  
+28          skin	ninikuruais //  
+74          star	damalais //  
+77          stone	daNk //  
+72          sun	siEn //  
+44          tongue	man //  
+43          tooth	niaum //  
+23          tree	a //  
+12          two	seik //  
+75          water	bei //  
+3           we	XXX //  
+2           you	au7 //  
+MUSOM{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,Markham,Lower,Busu@Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,Markham,Lower,Busu}
+ 1   -6.58  147.00         200   msm   msu
+30          blood	weok //  
+31          bone	kwaruk //  
+51          breast	sesun //  
+66          come	kwa //  
+61          die	gibak //  
+21          dog	kom //  
+54          drink	XXX //  
+39          ear	liNagebun //  
+40          eye	momicin //  
+82          fire	cih //  
+19          fish	XXX //  
+95          full	hiNgEn //  
+48          hand	boin //  
+58          hear	XXX //  
+34          horn	XXX //  
+1           I	wir //  
+47          knee	hoNgunoN //  
+25          leaf	inon //  
+53          liver	lain //  
+22          louse	ur //  
+86          mountain	sun //  
+100         name	biNon //  
+96          new	wahok //  
+92          night	mikim //  
+41          nose	suncigon //  
+11          one	munut //  
+85          path	mop //  
+18          person	arom //  "man"
+57          see	rikik //  
+28          skin	kuwit //  
+74          star	damarin //  
+77          stone	saut //  
+72          sun	siu //  
+44          tongue	man //  
+43          tooth	gidim //  
+23          tree	leb //  
+12          two	seruk //  
+75          water	bu //  
+3           we	XXX //  
+2           you	iNk //  
+SUKURUM{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,Markham,Upper,Mountain@}  	
+ 1   -6.20  146.50        1160         zsu	
+30          blood	buat //  
+31          bone	kamakal //  
+51          breast	tut //  
+66          come	takokeba //  
+61          die	gimam //  
+21          dog	kiam //  
+54          drink	XXX //  
+39          ear	liNan //  
+40          eye	malan //  
+82          fire	lokoi //  
+19          fish	XXX //  
+95          full	ifuaN //  
+48          hand	baNgiEn //  
+58          hear	XXX //  
+34          horn	XXX //  
+1           I	si //  
+47          knee	f3l3Nkuw3t //  
+25          leaf	yenam //  
+53          liver	fiyan //  
+22          louse	lan //  
+86          mountain	Nun //  
+100         name	liNamgi3m //  
+96          new	fak //  
+92          night	filaf //  
+41          nose	Nun //  
+11          one	misadon //  
+85          path	s3m3p //  
+18          person	NalaNgal //  "man"
+57          see	wagolisi //  
+28          skin	siliniN //  
+74          star	tambinan //  
+77          stone	sakof //  
+72          sun	gubuak //  
+44          tongue	lakalat //  
+43          tooth	nifuan //  
+23          tree	kukwap //  
+12          two	lEluk //  
+75          water	pui //  
+3           we	agisa sukulum tak //  exclusive
+2           you	aNo //  
+SIRASIRA{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,Markham,Upper,Mountain@}  	
+ 1   -6.20  146.50         600         zsa	
+30          blood	biak //  
+31          bone	kurukuon //  
+51          breast	tut //  
+66          come	woba //  
+61          die	gamam //  
+21          dog	kiam //  
+54          drink	XXX //  
+39          ear	diNan //  
+40          eye	maran //  
+82          fire	saf //  
+19          fish	XXX //  
+95          full	afuaN //  
+48          hand	baNgiEn //  
+58          hear	XXX //  
+34          horn	XXX //  
+1           I	si //  
+47          knee	fakuat //  
+25          leaf	gayat //  
+53          liver	NaNaEn //  
+22          louse	lindit //  
+86          mountain	Nun //  
+100         name	biNan //  
+96          new	fak //  
+92          night	sifu7 //  
+41          nose	Nun //  
+11          one	taNguo //  
+85          path	kansit //  
+18          person	garaNgat //  "man"
+57          see	warago //  
+28          skin	dinin //  
+74          star	tifitu //  
+77          stone	saguf //  
+72          sun	marak //  
+44          tongue	man //  
+43          tooth	nifun //  
+23          tree	gai //  
+12          two	irukiruk //  
+75          water	pui //  
+3           we	XXX //  
+2           you	agu //  
+MARALANGO{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,Markham,Watut@}  	
+ 1   -7.08  146.33         890         mcy
+30          blood	buek //  
+31          bone	kanzek //  
+51          breast	sos //  
+66          come	yaka7 //  
+61          die	imar //  
+21          dog	kiam //  
+54          drink	enum //  
+39          ear	NareNa //  
+40          eye	mara7 //  
+82          fire	somoa7 //  
+19          fish	XXX //  
+95          full	ifuruNk //  
+48          hand	baNge //  
+58          hear	ruNo //  
+34          horn	XXX //  
+1           I	si7ya //  
+47          knee	gogoro7 //  
+25          leaf	naNgoc //  
+53          liver	lagefua //  
+22          louse	gor //  
+86          mountain	Zaremp //  
+100         name	beNa //  
+96          new	wafak //  
+92          night	birefo7 //  
+41          nose	so7 //  
+11          one	takanaNk //  
+85          path	mwaco //  
+18          person	Na maro7 //  "man"
+57          see	ibiri //  
+28          skin	sambec //  
+74          star	kwase //  
+77          stone	batap //  
+72          sun	suak //  
+44          tongue	Ngas //  
+43          tooth	Ngando7 //  
+23          tree	ga7 //  
+12          two	sirok //  
+75          water	mbo7 //  
+3           we	kaga7 //  exclusive
+2           you	kugu //  
+WAMPUR{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,Markham,Upper,Mountain@}  	
+ 1   -6.42  146.08         320         waz	
+30          blood	boi7 //  
+31          bone	7uru7an //  
+51          breast	tot //  
+66          come	giba //  
+61          die	igimamamp //  
+21          dog	iyam //  
+54          drink	iginum //  
+39          ear	gain //  
+40          eye	amaran //  
+82          fire	cah //  
+19          fish	XXX //  
+95          full	gikith~ //  
+48          hand	ba7ian //  
+58          hear	ginaNuat //  
+34          horn	XXX //  
+1           I	ci //  
+47          knee	ruguntuN //  
+25          leaf	cahan //  
+53          liver	nuguan //  
+22          louse	gur //  
+86          mountain	ururia //  
+100         name	biNan //  
+96          new	pisa //  
+92          night	maru7 //  
+41          nose	cun //  
+11          one	bisaN7ua //  
+85          path	macip //  
+18          person	garam //  "man"
+57          see	gina7e //  
+28          skin	riniabit //  
+74          star	rumantaN //  
+77          stone	tauh //  
+72          sun	gubua7 //  
+44          tongue	man //  
+43          tooth	nihu77uru7uan //  
+23          tree	gai //  
+12          two	iru7iru7 //  
+75          water	poi //  
+3           we	agararuNmalaN7 //  exclusive
+2           you	agua //  
+MARI{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,Markham,Upper,Mountain@}  	
+ 1   -6.00  145.83         810         hob	
+30          blood	bwik //  
+31          bone	kurukwan //  
+51          breast	tut //  
+66          come	waba7 //  
+61          die	gimomp //  
+21          dog	kiam //  
+54          drink	wonum //  
+39          ear	diNan //  
+40          eye	maragara //  
+82          fire	zah //  
+19          fish	XXX //  
+95          full	gihuwoNk //  
+48          hand	baNkian //  
+58          hear	agugaioNuwa //  
+34          horn	XXX //  
+1           I	ci //  
+47          knee	hogonugun //  
+25          leaf	yahan //  
+53          liver	nugwan //  
+22          louse	gur //  
+86          mountain	NoriN //  
+100         name	biNon //  
+96          new	hori //  
+92          night	mikwon //  
+41          nose	hohin //  
+11          one	pisinta7 //  
+85          path	naNkuburam //  
+18          person	garam //  "man"
+57          see	wararap //  
+28          skin	dinibuit //  
+74          star	wantuaN //  
+77          stone	sakuak //  
+72          sun	gubuak //  
+44          tongue	man //  
+43          tooth	nihuan //  
+23          tree	gai //  
+12          two	irukaNkua7 //  
+75          water	pui7 //  
+3           we	ogai //  exclusive
+2           you	aguwo //  
+ONANK{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,Markham,Watut@}  	
+ 1   -6.75  146.25         460         una	
+30          blood	uai7 //  
+31          bone	varu7 //  
+51          breast	sisu7 //  
+66          come	yo7o7 //  
+61          die	mimar //  
+21          dog	iyam //  
+54          drink	unum //  
+39          ear	tiNan //  
+40          eye	maronicu7 //  
+82          fire	yo7 //  
+19          fish	XXX //  
+95          full	omEpoN bag //  
+48          hand	baNkE7 //  
+58          hear	reNo7 //  
+34          horn	XXX //  
+1           I	iyo7 //  
+47          knee	haganugun //  
+25          leaf	naNkuc //  
+53          liver	nuwo7 //  
+22          louse	gur //  
+86          mountain	ruNg //  
+100         name	biNu7 //  
+96          new	woho7 //  
+92          night	diyauN //  
+41          nose	susu7aru7 //  
+11          one	bi7ic //  
+85          path	naNk37 //  
+18          person	Namaru7 //  "man"
+57          see	warE7 //  
+28          skin	EbErE7 //  
+74          star	wasi7 //  
+77          stone	fauf //  
+72          sun	suwo7 //  
+44          tongue	mo7 //  
+43          tooth	nEho7 //  
+23          tree	ga7 //  
+12          two	siru7 //  
+75          water	mpu7 //  
+3           we	ompirino7 //  exclusive
+2           you	ogo7 //  
+YAROS{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,Markham,Upper@}  	
+ 1   -6.30  146.20       28900   adz   adz	
+30          blood	bia7 //  
+31          bone	uruwan //  
+51          breast	sisun //  
+66          come	giba //  
+61          die	gimamp //  
+21          dog	iyam //  
+54          drink	ginum //  
+39          ear	riNan //  
+40          eye	maran //  
+82          fire	caf //  
+19          fish	XXX //  
+95          full	fuN7 //  
+48          hand	banian //  
+58          hear	giriNant //  
+34          horn	XXX //  
+1           I	ci //  
+47          knee	faga gucun //  
+25          leaf	yafan //  
+53          liver	nugu bucuwan //  
+22          louse	gur //  
+86          mountain	mamai //  
+100         name	biNan //  
+96          new	fa7 //  
+92          night	sifu //  
+41          nose	yun //  
+11          one	bisinta //  
+85          path	sanab //  
+18          person	garam //  "man"
+57          see	gicaNan //  
+28          skin	riniubit //  
+74          star	Nantam //  
+77          stone	tauf //  
+72          sun	bugua7 //  
+44          tongue	man //  
+43          tooth	nifu uruon //  
+23          tree	gai //  
+12          two	iru7 //  
+75          water	pui //  
+3           we	agi //  exclusive
+2           you	agu //  
+AMARI{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,Markham,Upper@}  	
+ 1   -6.30  146.20       28900   adz   adz	
+30          blood	bi7 //  
+31          bone	urun //  
+51          breast	sisun //  
+66          come	ba //  
+61          die	imamp //  
+21          dog	iyam //  
+54          drink	inum //  
+39          ear	riNan //  
+40          eye	maran nicun //  
+82          fire	caf //  
+19          fish	XXX //  
+95          full	ifuN7isuf //  
+48          hand	baNin //  
+58          hear	iriNant inan //  
+34          horn	XXX //  
+1           I	ci //  
+47          knee	gusuntuN //  
+25          leaf	yafan //  
+53          liver	nugubucun //  
+22          louse	risiyan //  
+86          mountain	mamai //  
+100         name	biNan //  
+96          new	fa7 //  
+92          night	nam sifu //  
+41          nose	yun //  
+11          one	bisinta //  
+85          path	fagampun //  
+18          person	garam //  "man"
+57          see	icayan //  
+28          skin	rinin //  
+74          star	Nantam //  
+77          stone	tauf //  
+72          sun	gubu7 //  
+44          tongue	man //  
+43          tooth	nifu //  
+23          tree	gai //  
+12          two	irurun //  
+75          water	pui //  
+3           we	agai //  exclusive
+2           you	agu //  
+LABU{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,Markham,Lower,Labu@}  	
+ 1   -6.83  146.92        1600   lab   lbu	
+30          blood	ci //  
+31          bone	7alugu //  
+51          breast	suh //  
+66          come	Name //  
+61          die	inimbanuma hanu //  
+21          dog	iya //  
+54          drink	iniNonu //  
+39          ear	naNa //  
+40          eye	maraho //  
+82          fire	ya //  
+19          fish	XXX //  
+95          full	mesoho //  
+48          hand	namah //  
+58          hear	inilindi //  
+34          horn	XXX //  
+1           I	7ae //  
+47          knee	hatu //  
+25          leaf	7alo //  
+53          liver	7anati //  
+22          louse	kuruku //  
+86          mountain	ndji //  
+100         name	7apaNa //  
+96          new	hau7u //  
+92          night	pisi //  
+41          nose	sahu //  
+11          one	togwato //  
+85          path	isato //  
+18          person	7amina //  "man"
+57          see	dumara //  
+28          skin	nini //  
+74          star	ta //  
+77          stone	hu //  
+72          sun	7a //  
+44          tongue	mandi //  
+43          tooth	nahe //  
+23          tree	7a //  
+12          two	salu //  
+75          water	pu //  
+3           we	7Emaha //  exclusive
+2           you	yei //  
+BUKAUA{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,North@}  	
+ 1   -6.75  147.25        9690         buk	
+30          blood	da7 //  
+31          bone	Nakwa7 //  
+51          breast	suh //  
+66          come	me //  
+61          die	mba7ndu7 //  
+21          dog	iyam //  
+54          drink	num //  
+39          ear	taNarauN //  
+40          eye	danuh //  
+82          fire	yah //  
+19          fish	XXX //  
+95          full	mENguhu //  
+48          hand	lamaN //  
+58          hear	Nguh //  
+34          horn	XXX //  
+1           I	au //  
+47          knee	ahintu //  
+25          leaf	NaruN //  
+53          liver	Nata7 //  
+22          louse	tum //  
+86          mountain	ru7 //  
+100         name	Na //  
+96          new	waku7 //  
+92          night	ubwi //  
+41          nose	teisuN //  
+11          one	tigEN //  
+85          path	SiE //  
+18          person	Nga7 //  "man"
+57          see	g3li //  
+28          skin	7uli7 //  
+74          star	tata //  
+77          stone	ho7 //  
+72          sun	7a7 //  
+44          tongue	emblam //  
+43          tooth	ohoN //  
+23          tree	7ah //  
+12          two	luh //  
+75          water	buh //  
+3           we	ama7 //  exclusive
+2           you	aum //  
+KELA{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,North@}  	
+ 1   -7.42  147.08        2150   kap   kcl	
+30          blood	NameseN //  
+31          bone	Natuwa //  
+51          breast	sokwa //  
+66          come	mbo //  
+61          die	7agawEN //  
+21          dog	kia //  
+54          drink	7agumu //  
+39          ear	tawaNgu //  
+40          eye	tambwa //  
+82          fire	iya //  
+19          fish	XXX //  
+95          full	kui //  
+48          hand	maNge //  
+58          hear	aikitawaNgu //  
+34          horn	XXX //  
+1           I	kia //  
+47          knee	ne nubu //  
+25          leaf	NalauN //  
+53          liver	yuraku //  
+22          louse	zoh //  
+86          mountain	bah //  
+100         name	Nase //  
+96          new	wauN //  
+92          night	kizi //  
+41          nose	siNgawa //  
+11          one	tiaNo //  
+85          path	darawa //  
+18          person	tambu //  "man"
+57          see	oNgu //  
+28          skin	masaro //  
+74          star	damani //  
+77          stone	loi //  
+72          sun	yawasa //  
+44          tongue	mamala //  
+43          tooth	7oh //  
+23          tree	7ai //  
+12          two	rua //  
+75          water	are //  
+3           we	kara //  exclusive
+2           you	koi //  
+KAIWA{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,South,Kaiwa@}  	
+ 1  -10.33  150.58        1500         kbm	
+30          blood	tuwerk //  
+31          bone	tulkwe //  
+51          breast	ruru //  
+66          come	eNgenme //  
+61          die	eNgimat //  
+21          dog	ubun //  
+54          drink	eNgunum //  
+39          ear	taNilat //  
+40          eye	matanu //  
+82          fire	yEp //  
+19          fish	XXX //  
+95          full	gitupkigipil //  
+48          hand	bage //  
+58          hear	eNgible //  
+34          horn	XXX //  
+1           I	aiyew //  
+47          knee	pandubi //  
+25          leaf	lan //  
+53          liver	Subwe //  
+22          louse	tum //  
+86          mountain	rai //  
+100         name	are //  
+96          new	paku //  
+92          night	tambok //  
+41          nose	n3ruapu //  
+11          one	doNke //  
+85          path	luEp //  
+18          person	7a7mor //  "man"
+57          see	eNgili //  
+28          skin	ulis //  
+74          star	piteukawe //  
+77          stone	pat //  
+72          sun	7as matanu //  
+44          tongue	amble //  
+43          tooth	nipo //  
+23          tree	ey //  
+12          two	ailu //  
+75          water	bui //  
+3           we	eitit //  exclusive
+2           you	miye //  
+SIPOMA{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,Numbami@}  	
+ 1   -7.50  147.25         270         sij	
+30          blood	masina //  
+31          bone	tuatua //  
+51          breast	susu //  
+66          come	eima //  
+61          die	imande //  
+21          dog	kiyami //  
+54          drink	inumo //  
+39          ear	taNanoa //  
+40          eye	matana //  
+82          fire	yawi //  
+19          fish	XXX //  
+95          full	isuni //  
+48          hand	nima //  
+58          hear	iloNone //  
+34          horn	XXX //  
+1           I	woya //  
+47          knee	aeduga //  
+25          leaf	lau //  
+53          liver	ate //  
+22          louse	tuma //  
+86          mountain	bou //  
+100         name	ase //  
+96          new	wow //  
+92          night	towambana //  
+41          nose	nisinoa //  
+11          one	sEsEmi //  
+85          path	andorowa //  
+18          person	kore //  "man"
+57          see	iyoNgo //  
+28          skin	boro //  
+74          star	gitimana //  
+77          stone	wati //  
+72          sun	yabEra //  
+44          tongue	amara //  
+43          tooth	niwo //  
+23          tree	ai //  
+12          two	lua //  
+75          water	tina //  
+3           we	i //  exclusive
+2           you	aiya //  
+HOTE{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,South,Hote-Buang,Hote@}  	
+ 1   -7.08  146.92        2240         hot	
+30          blood	lo7ma //  
+31          bone	lokwaN //  
+51          breast	sum //  
+66          come	halim //  
+61          die	hamah //  
+21          dog	apuN //  
+54          drink	hanum //  
+39          ear	lENumbu //  
+40          eye	malENdaluk //  
+82          fire	7atum //  
+19          fish	XXX //  
+95          full	haiyosiN //  
+48          hand	bahEN //  
+58          hear	halaNo //  
+34          horn	XXX //  
+1           I	yah //  
+47          knee	pENbudum //  
+25          leaf	Nau //  
+53          liver	kapoloN //  
+22          louse	nu //  
+86          mountain	li //  
+100         name	aliN //  
+96          new	lukmuk //  
+92          night	bulupuN //  
+41          nose	hronaN //  
+11          one	tom //  
+85          path	loNindi //  
+18          person	7aNo //  "man"
+57          see	hayE //  
+28          skin	lEnpiN kupik //  
+74          star	puliN //  
+77          stone	balu //  
+72          sun	wak //  
+44          tongue	di5aN //  
+43          tooth	pENbulik kalalaN //  
+23          tree	arokwaN //  
+12          two	yu //  
+75          water	NaN //  
+3           we	alololoklo //  exclucive
+2           you	7oh //  
+YAMAP{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,South,Hote-Buang,Hote@}  	
+ 1   -7.00  147.83        1580         ymp	
+30          blood	lE7ma //  
+31          bone	lokwaN //  
+51          breast	sum //  
+66          come	hElim //  
+61          die	hEma //  
+21          dog	abum //  
+54          drink	hEinum //  
+39          ear	yaliNbukh~ //  
+40          eye	yamalEN //  
+82          fire	amela //  
+19          fish	XXX //  
+95          full	ibuta7diN //  
+48          hand	yambagEN //  
+58          hear	hElaNu //
+34          horn	XXX //  
+1           I	ya //  
+47          knee	yabEm gudun //  
+25          leaf	NauN //  
+53          liver	kapo //  
+22          louse	lum //  
+86          mountain	dum //  
+100         name	abEN //  
+96          new	lE7mukh~ //  
+92          night	bilibuN //  
+41          nose	yaduN //  
+11          one	tom //  
+85          path	loNdan //  
+18          person	a5o //  "man"
+57          see	giyE //  
+28          skin	yakopik //  
+74          star	motup //  
+77          stone	balu //  
+72          sun	wakh~ //  
+44          tongue	yadiNaN //  
+43          tooth	yabuEN //  
+23          tree	alokwaN //  
+12          two	zi //  
+75          water	anaN //  
+3           we	au //  exclucive
+2           you	oN //  
+JABEM{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,HuonGulf,North@}  	
+ 1   -6.58  147.78        2080   jab   jae	
+30          blood	dE7 //  
+31          bone	Natekwa //  
+51          breast	su //  
+66          come	meN //  
+61          die	ma7 //  
+21          dog	keam //  
+54          drink	nom //  
+39          ear	taNa //  
+40          eye	mata //  
+82          fire	ya //  
+19          fish	XXX //  
+95          full	meNge7 //  
+48          hand	lema //  
+58          hear	No //  
+34          horn	XXX //  
+1           I	ae //  
+47          knee	adu7 //  
+25          leaf	NalauN //  
+53          liver	Nate mayaN //  
+22          louse	tom //  
+86          mountain	lo7 //  
+100         name	Nae //  
+96          new	waku7 //  
+92          night	gebe7 //  
+41          nose	lusu //  
+11          one	tagEN //  
+85          path	intena //  
+18          person	Na7 //  "man"
+57          see	tali7 //  
+28          skin	Naoli //  
+74          star	uti //  
+77          stone	po7 //  
+72          sun	o7 //  
+44          tongue	imbela //  
+43          tooth	loluN //  
+23          tree	ka //  
+12          two	luage7 //  
+75          water	bu //  
+3           we	XXX // 
+2           you	aom //  
+TAMI{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,Ngero-Vitiaz,Vitiaz,Tami@}  	
+ 1   -6.75  147.75        1500         tmy	
+30          blood	dal //  
+31          bone	katukatuk //  
+51          breast	sut //  
+66          come	kulam //  
+61          die	emat //  
+21          dog	koun //  
+54          drink	XXX //  
+39          ear	aleNanlau //  
+40          eye	motanlu //  
+82          fire	ya7 //  
+19          fish	XXX //  
+95          full	lamu //  
+48          hand	neman //  
+58          hear	XXX //  
+34          horn	XXX //  
+1           I	yau //  
+47          knee	kinapa7 //  
+25          leaf	lau //  
+53          liver	kakat //  
+22          louse	tum //  
+86          mountain	gbau //  
+100         name	it //  
+96          new	upu //  
+92          night	buN //  
+41          nose	nusiNgut //  
+11          one	taitu //  
+85          path	kinakau //  
+18          person	tamala //  "man"
+57          see	wayau //  
+28          skin	kaokul //  
+74          star	biti //  
+77          stone	pa7 //  
+72          sun	kat //  
+44          tongue	kawaniamal //  
+43          tooth	nonpu7 //  
+23          tree	kai //  
+12          two	lu //  
+75          water	lan //  
+3           we	git //  exclucive
+2           you	kom //  
+MALASANGA{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,Ngero-Vitiaz,Vitiaz,Korap@}  	
+ 1   -6.00  147.08         900         mqz	
+30          blood	rarana //  
+31          bone	turana //  
+51          breast	suina //  
+66          come	imako //  
+61          die	imate //  
+21          dog	gaune //  
+54          drink	XXX //  
+39          ear	taNalana //  
+40          eye	matana //  
+82          fire	ei //  
+19          fish	XXX //  
+95          full	kutuNge //  
+48          hand	bagena //  
+58          hear	XXX //  
+34          horn	XXX //  
+1           I	oo //  
+47          knee	kainataruna //  
+25          leaf	rauna //  
+53          liver	katena //  
+22          louse	kut //  
+86          mountain	orona //  
+100         name	ena //  
+96          new	pauna //  
+92          night	boN //  
+41          nose	karuna //  
+11          one	emoN //  
+85          path	dara //  
+18          person	kurap //  "man"
+57          see	iwotao //  
+28          skin	tinina //  
+74          star	boi //  
+77          stone	pat //  
+72          sun	sinaNa //  
+44          tongue	mena //  
+43          tooth	nduNana //  
+23          tree	kai //  
+12          two	rua //  
+75          water	ran //  
+3           we	om //  exclusive
+2           you	oN //  
+GITUA{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,Ngero-Vitiaz,Ngero,Tuam@}  	
+ 1   -6.08  147.50         760         ggt	
+30          blood	siN //  
+31          bone	tua //  
+51          breast	tuzu //  
+66          come	lam //  
+61          die	mate //  
+21          dog	kiam //  
+54          drink	XXX //  
+39          ear	taliNa //  
+40          eye	mata //  
+82          fire	yap //  
+19          fish	XXX //  
+95          full	won //  
+48          hand	nima //  
+58          hear	XXX //  
+34          horn	XXX //  
+1           I	yau //  
+47          knee	papatu //  
+25          leaf	rau //  
+53          liver	kondoro //  
+22          louse	lezat //  
+86          mountain	bonaNga //  
+100         name	zeNan //  
+96          new	pagu //  
+92          night	doroman //  
+41          nose	izuNgu //  
+11          one	Ez //  
+85          path	istina //  
+18          person	Nero //  "man"
+57          see	ela //  
+28          skin	wili //  
+74          star	pitium //  
+77          stone	maito //  
+72          sun	lawaNa //  
+44          tongue	yama //  
+43          tooth	auwa //  
+23          tree	ai7 //  
+12          two	rua //  
+75          water	yau //  
+3           we	yei //  exclusive
+2           you	yum //  
+LUKEP{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,Ngero-Vitiaz,Vitiaz,Korap@}  	
+ 1   -5.83  147.05        3020   alk   apr	
+30          blood	rara //  
+31          bone	turana //  
+51          breast	sui //  
+66          come	imani //  
+61          die	imat //  
+21          dog	goul //  
+54          drink	XXX //  
+39          ear	talana //  
+40          eye	matana //  
+82          fire	ei //  
+19          fish	XXX //  
+95          full	ipon //  
+48          hand	lomana //  
+58          hear	XXX //  
+34          horn	XXX //  
+1           I	au //  
+47          knee	turum //  
+25          leaf	kadEne //  
+53          liver	kataki //  
+22          louse	kut //  
+86          mountain	kawal //  
+100         name	Ene //  
+96          new	pounu //  
+92          night	bol //  
+41          nose	korum //  
+11          one	ta //  
+85          path	dara //  
+18          person	tomoto //  "man"
+57          see	ikamada //  
+28          skin	konono //  
+74          star	kimai //  
+77          stone	pat //  
+72          sun	sool //  
+44          tongue	mEnE //  
+43          tooth	roana //  
+23          tree	kai //  
+12          two	ru //  
+75          water	ran //  
+3           we	XXX // 
+2           you	oN //  
+MANGAP{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,Ngero-Vitiaz,Vitiaz,Mangap-Mbula@}  	
+ 1   -5.67  148.08        4500   mmb   mna	
+30          blood	siNini //  
+31          bone	turoro //  
+51          breast	zuzunu //  
+66          come	imax //  
+61          die	imedi //  
+21          dog	mE //  
+54          drink	XXX //  
+39          ear	talNana //  
+40          eye	matana //  
+82          fire	you //  
+19          fish	XXX //  
+95          full	ipin //  
+48          hand	namana //  
+58          hear	XXX //  
+34          horn	XXX //  
+1           I	5o //  
+47          knee	kubulubukunu //  
+25          leaf	runu //  
+53          liver	kopotpot //  
+22          louse	kut //  
+86          mountain	awal //  
+100         name	zana //  
+96          new	popoNana //  
+92          night	biN //  
+41          nose	kuzunu //  
+11          one	ta //  
+85          path	zal //  
+18          person	tomoto //  "man"
+57          see	ireyo //  
+28          skin	kulini //  
+74          star	piti7 //  
+77          stone	pat //  
+72          sun	col //  
+44          tongue	maene //  
+43          tooth	zoNono //  
+23          tree	ky~e //  
+12          two	ru //  
+75          water	yok //  
+3           we	XXX //
+2           you	Nu //  
+BARIM{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,Ngero-Vitiaz,Vitiaz,Korap@}  	
+ 1   -5.83  147.92         920         bbv	
+30          blood	rar //  
+31          bone	turan //  
+51          breast	suin //  
+66          come	ima //  
+61          die	imat //  
+21          dog	gaun //  
+54          drink	XXX //  
+39          ear	talNan //  
+40          eye	matan //  
+82          fire	ei //  
+19          fish	XXX //  
+95          full	kutuNwe //  
+48          hand	bagin //  
+58          hear	XXX //  
+34          horn	XXX //  
+1           I	au //  
+47          knee	kain burian //  
+25          leaf	raun //  
+53          liver	XXX //  
+22          louse	kut //  
+86          mountain	kawal //  
+100         name	En //  
+96          new	paun //  
+92          night	boN //  
+41          nose	kadun //  
+11          one	atu //  
+85          path	dad //  
+18          person	kurap tamut //  "man"
+57          see	igot //  
+28          skin	tinin //  
+74          star	geu //  
+77          stone	pat //  
+72          sun	keu //  
+44          tongue	mEn //  
+43          tooth	duNan //  
+23          tree	kai //  
+12          two	ru //  
+75          water	ran //  
+3           we	XXX //  
+2           you	oN //  
+MUTU{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,Ngero-Vitiaz,Ngero,Tuam@}  	
+ 1   -5.83  148.00        3500         tuc	
+30          blood	siN //  
+31          bone	tua7 //  
+51          breast	tuzu7 //  
+66          come	inima7 //  
+61          die	imat //  
+21          dog	labul //  
+54          drink	XXX //  
+39          ear	talina7 //  
+40          eye	matam //  
+82          fire	yob //  
+19          fish	XXX //  
+95          full	iwon //  
+48          hand	limom //  
+58          hear	XXX //  
+34          horn	XXX //  
+1           I	yau //  
+47          knee	agE7daba7 //  
+25          leaf	rau //  
+53          liver	atEm //  
+22          louse	tum //  
+86          mountain	loloz //  
+100         name	iza7 //  
+96          new	pagu //  
+92          night	boN //  
+41          nose	uzub //  
+11          one	eze //  
+85          path	atam //  
+18          person	tamox //  "man"
+57          see	igitagau //  
+28          skin	tinim //  
+74          star	pitum //  
+77          stone	yam //  
+72          sun	dag //  
+44          tongue	yama7 //  
+43          tooth	libo7 //  
+23          tree	ai //  
+12          two	ru //  
+75          water	ya7 //  
+3           we	XXX //  
+2           you	yom //  
+TUAM{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,Ngero-Vitiaz,Ngero,Tuam@}  	
+ 1   -5.83  148.00        3500         tuc		
+30          blood	siN //  
+31          bone	tuak //  
+51          breast	tuz //  
+66          come	ulam //  
+61          die	imat //  
+21          dog	gabul //  
+54          drink	XXX //  
+39          ear	tiliNa //  
+40          eye	mada //  
+82          fire	yab //  
+19          fish	XXX //  
+95          full	ibon //  
+48          hand	nima //  
+58          hear	XXX //  
+34          horn	XXX //  
+1           I	yau //  
+47          knee	agendaba //  
+25          leaf	rau //  
+53          liver	ati //  
+22          louse	tum //  
+86          mountain	loloz //  
+100         name	eza //  
+96          new	pagu //  
+92          night	boN //  
+41          nose	uzu //  
+11          one	taloko //  
+85          path	ez //  
+18          person	tamtamon //  "man"
+57          see	igita //  
+28          skin	tinim //  
+74          star	pitum //  
+77          stone	mait //  
+72          sun	az //  
+44          tongue	yama //  
+43          tooth	libo7 //  
+23          tree	ai //  
+12          two	ru //  
+75          water	ya //  
+3           we	XXX //  
+2           you	yo7 //  
+SIO{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,Ngero-Vitiaz,Vitiaz,Sio@}  	
+ 1   -5.95  147.33        3500   sio   xsi	
+30          blood	se //  
+31          bone	tuka //  
+51          breast	su //  
+66          come	imolo //  
+61          die	imote //  
+21          dog	bomba //  
+54          drink	XXX //  
+39          ear	taNa //  
+40          eye	mata //  
+82          fire	yo //  
+19          fish	XXX //  
+95          full	pipilo //  
+48          hand	bao //  
+58          hear	XXX //  
+34          horn	XXX //  
+1           I	kuka //  
+47          knee	tuku //  
+25          leaf	lao //  
+53          liver	XXX //  
+22          louse	kutu //  
+86          mountain	tu //  
+100         name	Na //  
+96          new	woseki //  
+92          night	mbo //  
+41          nose	wigu //  
+11          one	timuN //  
+85          path	cola //  
+18          person	tamone //  "man"
+57          see	moranalo //  
+28          skin	karae //  
+74          star	pitu //  
+77          stone	mira //  
+72          sun	kari //  
+44          tongue	mEmela //  
+43          tooth	iNo //  
+23          tree	k3e //  
+12          two	rua //  
+75          water	lo //  
+3           we	XXX //  
+2           you	noko //  
+NENGAYA{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,Ngero-Vitiaz,Vitiaz,Roinji-Nenaya@}  	
+ 1   -6.00  146.92         580         met	
+30          blood	siwigwa //  
+31          bone	tuagwa //  
+51          breast	su //  
+66          come	nalo //  
+61          die	mati //  
+21          dog	koma //  
+54          drink	XXX //  
+39          ear	taNagu //  
+40          eye	ma7a agwa //  
+82          fire	yap //  
+19          fish	XXX //  
+95          full	ba7agi //  
+48          hand	dimagwa //  
+58          hear	XXX //  
+34          horn	XXX //  
+1           I	naba //  
+47          knee	kigutu7uno //  
+25          leaf	ailoN //  
+53          liver	wotiguyi //  
+22          louse	girok //  
+86          mountain	uru7una //  
+100         name	yanoa //  
+96          new	houna //  
+92          night	yomboN //  
+41          nose	yuNa agwa //  
+11          one	tainina7 //  
+85          path	ca7aNa //  
+18          person	lipu //  "man"
+57          see	boguna //  
+28          skin	saNga agwa //  
+74          star	hatuN //  
+77          stone	siaN //  
+72          sun	aicap //  
+44          tongue	managwa //  
+43          tooth	woigwa //  
+23          tree	ai //  
+12          two	rua7 //  
+75          water	laN //  
+3           we	aNba // exclusive 
+2           you	uNba //   
+ROINJI{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,Ngero-Vitiaz,Vitiaz,Roinji-Nenaya@}  	
+ 1   -5.92  146.58         450         roe	
+30          blood	sip //  
+31          bone	tuamcua //  
+51          breast	suzindua //  
+66          come	ma7a //  
+61          die	ma7ati //  
+21          dog	koma //  
+54          drink	XXX //  
+39          ear	taNleNamcua //  
+40          eye	maramcua //  
+82          fire	yap //  
+19          fish	XXX //  
+95          full	uNmana //  
+48          hand	limamcua //  
+58          hear	XXX //  
+34          horn	XXX //  
+1           I	na7a //  
+47          knee	kEmtamboNa //  
+25          leaf	kailoN //  
+53          liver	kate //  
+22          louse	utu //  
+86          mountain	gorogari //  
+100         name	ya7ano //  
+96          new	pauna //  
+92          night	kiroma //  
+41          nose	yugua //  
+11          one	tenina //  
+85          path	kalu //  
+18          person	nimu //  "man"
+57          see	mamalaNa //  
+28          skin	tunima //  
+74          star	patuN //  
+77          stone	siaN //  
+72          sun	kaizap //  
+44          tongue	monema //  
+43          tooth	doNamcua //  
+23          tree	kai //  
+12          two	lua //  
+75          water	laN //  
+3           we	am // exclusive 
+2           you	uN //  
+ARAWE{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,Ngero-Vitiaz,Vitiaz,SouthwestNewBritain,Arawe-Pasismanua,Arawe,WestArawe@}  	
+ 1   -5.92  148.83        2200         aaw	
+30          blood	k3mlEko //  
+31          bone	kakai //  
+51          breast	mENE7 //  
+66          come	waimE //  
+61          die	maku //  
+21          dog	l3mganEsNo //  
+54          drink	aiNu //  
+39          ear	loNom //  
+40          eye	motomgabiu //  
+82          fire	3uku3n //
+19          fish	XXX //  
+95          full	gogatilapo //  
+48          hand	imE7 //  
+58          hear	agoloN //  
+34          horn	XXX //  
+1           I	wan //  
+47          knee	oi3mgakum //  
+25          leaf	ininin //  
+53          liver	kata //  
+22          louse	auguth~ //  
+86          mountain	Elit //  
+100         name	iom //  
+96          new	EteNEn //  
+92          night	Emlik //  
+41          nose	iEnlo //  
+11          one	nor3geNEn //  
+85          path	3sulo //  
+18          person	tatogu //  "man"
+57          see	waimagismi7 //  
+28          skin	iNom //  
+74          star	Emti7 //  
+77          stone	oukh~um //  
+72          sun	isn3NmEdE7 //  
+44          tongue	mamalo //  
+43          tooth	kominono //  
+23          tree	Eke //  
+12          two	3noEp //  
+75          water	enuN //  
+3           we	yEm // exclusive 
+2           you	you //  
+MALEU{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,Ngero-Vitiaz,Vitiaz,Kilenge-Maleu@}  	
+ 1   -5.72  148.42        5200   mlu   mgl	
+30          blood	tepw3 //  
+31          bone	boboir3 //  
+51          breast	sua //  
+66          come	imai //  
+61          die	mate //  
+21          dog	nagaune //  
+54          drink	in //  
+39          ear	talNe //  
+40          eye	aror3 //  
+82          fire	nariNa //  
+19          fish	XXX //  
+95          full	ipuN //  
+48          hand	bagia //  
+58          hear	uloNo //  
+34          horn	XXX //  
+1           I	yum //  
+47          knee	narubw3 //  
+25          leaf	lolowa //  
+53          liver	atatia //  
+22          louse	nagine //  
+86          mountain	nalolo //  
+100         name	Epasis //  
+96          new	pawa //  
+92          night	naboN //  
+41          nose	band3 //  
+11          one	kiabolem //  
+85          path	naroro //  
+18          person	nat3mt3mau //  "man"
+57          see	ileye //  
+28          skin	dind3 //  
+74          star	naputom //  
+77          stone	napoth~ //  
+72          sun	newaro //  
+44          tongue	maiy3 //  
+43          tooth	roNara //  
+23          tree	nai //  
+12          two	lua //  
+75          water	nakh~o //  
+3           we	yEm // exclusive 
+2           you	iyau //  
+NAKANAI{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,MesoMelanesian,Willaumez@}  	
+ 1   -5.58  150.58       13000   nak   nak	
+30          blood	kasosola //  
+31          bone	tuhala //  
+51          breast	lasusu //  
+66          come	gomai //  
+61          die	pEho //  
+21          dog	lapaia //  
+54          drink	liu //  
+39          ear	lagabusala //  
+40          eye	lamatala //  
+82          fire	lahabi //  
+19          fish	XXX //  
+95          full	blou //  
+48          hand	lalimala //  
+58          hear	loloa //  
+34          horn	XXX //  
+1           I	Eau //  
+47          knee	latutula //  
+25          leaf	galalao //  
+53          liver	hatEla //  
+22          louse	lautu //  
+86          mountain	gobE //  
+100         name	isala //  
+96          new	halaba //
+92          night	laligi //  
+41          nose	lamaisula //  
+11          one	isa //  
+85          path	lagauru //  
+18          person	malE //  "man"
+57          see	hiloa //  
+28          skin	labobola //  
+74          star	matatabu //  
+77          stone	labati //  
+72          sun	laharo //  
+44          tongue	lakalamEala //  
+43          tooth	lalibola //  
+23          tree	obu //  
+12          two	ilua //  
+75          water	lalu //  
+3           we	etatou //  exclusive
+2           you	EmE //  
+HALIA{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,MesoMelanesian,NewIreland,SouthNewIreland-NorthwestSolomonic,Nehan-NorthBougainville,Buka,Halia@}  	
+ 1   -5.25  154.67       20000   hal   hla	
+30          blood	rEhariNnEn //  
+31          bone	CinunEn //  
+51          breast	asusnEn //  
+66          come	lanama //  
+61          die	EmatE //  
+21          dog	muki //  
+54          drink	Ewana //  
+39          ear	taliNanEn //  
+40          eye	matanEn //  
+82          fire	tula //  
+19          fish	XXX //  
+95          full	saputu //  
+48          hand	alimanEn //  
+58          hear	EhENona //  
+34          horn	XXX //  
+1           I	alia //  
+47          knee	tukununumou //  
+25          leaf	kala //  
+53          liver	kimkimu3snEn //  
+22          louse	utu //  
+86          mountain	pokus //  
+100         name	solo //  
+96          new	Cimus //  
+92          night	boN //  
+41          nose	7EsnEn //  
+11          one	toa //  
+85          path	maroro //  
+18          person	Co3n //  "man"
+57          see	tarana //  
+28          skin	pikpikunEn //  
+74          star	pitopito //  
+77          stone	hatu //  
+72          sun	pitala //  
+44          tongue	mEanEn //  
+43          tooth	lihonEn //  
+23          tree	roei //  
+12          two	huol //  
+75          water	ramu3n //  
+3           we	alam //  exclusive
+2           you	alo //  
+GEDAGED{An.OCEANIC|Austronesian,Malayo-Polynesian,Central-Eastern,EasternMalayo-Polynesian,Oceanic,WesternOceanic,NorthNewGuinea,Ngero-Vitiaz,Vitiaz,Bel,NuclearBel,Northern@}  	
+ 1   -5.17  145.75        6950         gdd	
+30          blood	daz //  
+31          bone	tiwon //  
+51          breast	su //  
+66          come	iso //  
+61          die	imat //  
+21          dog	gaun //  
+54          drink	imili //  
+39          ear	taliNan //  
+40          eye	malan //  
+82          fire	ja //  
+19          fish	XXX //  
+95          full	fuam //  
+48          hand	niman //  
+58          hear	iloN //  
+34          horn	XXX //  
+1           I	Na //  
+47          knee	dagun //  
+25          leaf	zaun //  
+53          liver	aten //  
+22          louse	ut //  
+86          mountain	did //  
+100         name	nean //  
+96          new	faun //  
+92          night	bo //  
+41          nose	win //  
+11          one	taimon //  
+85          path	dal //  
+18          person	tamol //  "man"
+57          see	nasi //  
+28          skin	siliNon //  
+74          star	patui //  
+77          stone	pat //  
+72          sun	ad //  
+44          tongue	balen //  
+43          tooth	liwon //  
+23          tree	ja //  
+12          two	azu //  
+75          water	naz //  
+3           we	am //  exclusive
+2           you	o //  
+       

@@ -1,0 +1,3337 @@
+     1    24  1700     3     1                           
+(i3,2x,10a1)
+  1. I          	Ei //			
+  2. you        	yu //
+  3. we	        	wi //		
+  4. this       	8is //		
+  5. that       	8Et //		
+  6. who        	hu //
+  7. what       	wh~at //		
+  8. not        	nat //		
+  9. all        	ol //		
+ 10. many       	mini //		
+ 11. one        	w3n //		
+ 12. two        	tu //		
+ 13. big        	big //		
+ 14. long       	loN //		
+ 15. small      	smaul, litl //		
+ 16. woman      	w3min //		
+ 17. man        	mEn //		
+ 18. person     	pers3n //
+ 19. fish       	fiS //		
+ 20. bird       	b3rd //
+ 21. dog        	dag //		
+ 22. louse      	laus //		
+ 23. tree       	tri //		
+ 24. seed       	sid //		
+ 25. leaf       	lif //		
+ 26. root       	rut //
+ 27. bark       	bark //
+ 28. skin       	skin //		
+ 29. flesh      	flES, mit //		
+ 30. blood      	bl3d //		
+ 31. bone       	bon //		
+ 32. grease     	gris //		
+ 33. egg        	eg //		
+ 34. horn       	horn //
+ 35. tail       	tel //		
+ 36. feather    	fe8r //	
+ 37. hair       	hEr //		
+ 38. head       	hed //		
+ 39. ear        	ir //		
+ 40. eye        	Ei //		
+ 41. nose       	nos //		
+ 42. mouth      	mau8 //
+ 43. tooth      	tu8 //		
+ 44. tongue     	t3N //		
+ 45. claw       	klau //
+ 46. foot       	fut //		
+ 47. knee       	ni //		
+ 48. hand       	hEnd //		
+ 49. belly      	beli //	
+ 50. neck       	nek //		
+ 51. breasts    	brest //		
+ 52. heart      	hart //		
+ 53. liver      	liv3r //		
+ 54. drink      	drink //		
+ 55. eat        	it //
+ 56. bite       	bEit //		
+ 57. see        	si //		
+ 58. hear       	hir //		
+ 59. know       	no //		
+ 60. sleep      	slip //		
+ 61. die        	dEi //		
+ 62. kill       	kil //		
+ 63. swim       	swim //		
+ 64. fly        	flEi //		
+ 65. walk       	wok //
+ 66. come       	k3m //		
+ 67. lie        	lEi //			
+ 68. sit        	sit //
+ 69. stand      	stEnd //
+ 70. give       	giv //		
+ 71. say        	sei //		
+ 72. sun        	s3n //		
+ 73. moon       	mun //		
+ 74. star       	star //		
+ 75. water      	wat3r //		
+ 76. rain       	rein //		
+ 77. stone      	ston //		
+ 78. sand       	sEnd //		
+ 79. earth      	3r8 //
+ 80. cloud      	klaud //		
+ 81. smoke      	smok //		
+ 82. fire       	fEir //		
+ 83. ash        	ES //			
+ 84. burn       	b3rn //		
+ 85. path       	pE8 //		
+ 86. mountain   	maunt3n //	
+ 87. red        	red //		
+ 88. green      	grin //		
+ 89. yellow     	yelo		
+ 90. white      	wh~Eit //		
+ 91. black      	blEk //		
+ 92. night      	nEit //		
+ 93. hot        	hat //		
+ 94. cold       	kold //		
+ 95. full       	ful //		
+ 96. new        	nu //		
+ 97. good       	gud //		
+ 98. round      	rawnd //
+ 99. dry        	drEi //		
+100. name       	nem //		
+ -1
+HUASTEC
+CHICOMUCELTEC
+TOJOLABAL
+CHUJ
+MOCHO
+JACALTEC
+QANJOBAL_SANTA_EULALIA
+ACATECO_SAN_MIGUEL_ACATAN
+IXIL_CHAJUL
+AGUACATEC
+TECO_TECTITAN
+MAM_NORTHERN
+SIPAKAPENSE
+SACAPULTECO_SACAPULAS_CENTRO
+CENTRAL_QUICHE
+SOUTHERN_CAKCHIQUEL_SAN_ANDRES_ITZAPA
+TZUTUJIL_SAN_JUAN_LA_LAGUNA
+POQOMCHI_WESTERN
+POCOMAM_EASTERN
+USPANTEKO
+EASTERN_KEKCHI_CAHABON
+ZINACANTAN_TZOTZIL
+TZELTAL_BACHAJON
+CHOL_TUMBALA
+CHONTAL_TABASCO
+CHORTI
+ITZAJ
+MOPAN
+MAYA_YUCATAN
+LACANDON
+                                          
+Mayan (Brown)
+(4x,a1,40i2)
+  1 2 1 0 6 1 0 1 2 1 1 1 3 2 1 3 1 2 1 4 4 1 3 0 5 5 0 1 1 1 1 0
+  2 2 1 0 3 1 0 1 1 1 4 5 6 7 1 2 1 2 1 1 1 1 1 1 1 1 8 91011 1 0
+  3 2 6 0 7 1 0 8 4 4 3 3 3 3 1 2 1 2 1 1 1 1 1 5 5 1 1 1 1 1 1 0
+  4 0 9 0 110 0 1 2 2 3111213 3 4 5 4 5 514 4 6 4 6 7 7 8 8 8 8 8
+  5 0 6 0 7 8 0 9 1 110 21112 2 2 2 2 5 3 3 31314 415 4 516171819
+  6 0 7 0 1 1 0 2 2 5 8 3 910 6 3 61112 4 4131415 1 2 116 5 2 5 1
+  7 0 7 0 4 8 0 1 1 91011 2 2 3 3 4121314151617 518192021 6 5 6 6
+  8 0 7 0 2 5 4 8 1 1 91011 21213 3 3 3 4 5 5 5 5 4 4 6 6 5 4 4 5
+  9 0 5 0 6 1 7 8 1 1 2 9 2 2 3 3 3 3 31011 3121314 0151617 4 418
+ 10 0 1 1 5 6 3 7 8 9 210 2 2 3 3 3 3 3 311 3121314151617 4 4 4 4
+ 11 2 1 1 1 1 1 1 1 1 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3
+ 12 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 13 0 6 7 1 1 8 2 3 3 2 2 2 9 2 2 210 2 2 2 2 211 1 4 4 4 4 5 512
+ 14 0 1 1 2 2 7 2 8 9 3 3 310 4111213 4 4 4 4 414 1 5 5 1 6 6 6 6
+ 15 0 8 9 4101112 1 1131415 316 2 2 3 317 618 4 5 519 6 3 720 7 7
+ 16 0 1 1 2 3 2 3 3 3 2 8 4 4 2 2 2 2 2 2 2-1 2 5 5 6 6 6 7 7 7 9
+ 17 0 1 1 1 1 1 1 1 1 1 4 5 6 2 2 2 2 2 1 7 1 1 1 1 1 1 1 1 1 3 3
+ 18 2 3 1 1-1 1-1-1-1 2 1 2 2 1 1 1 1 1-2 1-2-2-2-2-2 1 1 4-2 1 1
+ 19 2 1 1 2 2 2 2 2 2 2 2 3 2 2 2 2 2 4 2 2 2 2 2 2 2 5 2 2 6 2 2
+ 20 0 2 0 5 1 0 1 2 2 6 7 8 910 2 2 2 2 211 2 2 3 3 3 3 3 4 4 4 4
+ 21 2 1 4 2 2 2 2 2 2 2 2 3 3 2 2 2 2 2 2 2 2 2 2 2 2 5 2 1 1 1 1
+ 22 2 1 1 1 1 1 1 1 1 1 3 1 2 2 1 1 1 1 1 1 2 1 1 1 1 1 1 1 1 1 1
+ 23 2 1 1 1 1 1 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 24 0 0 0 1 1 1 1 1 0 2 3 2 2 3 3 3 4 4 3 0 5 5 6 0 6 6 1 7-1 7 7
+ 25 2 1 1 5 6 1 1 1 1 1 1 1 1 1 2 1 2 2 1 1 1 1 7 8 3 3 3 4 4 4 4
+ 26 0 7 0 8 910 1 1 1 2 2 2 2 11112 3 3 413 4 11415 5 5161718 6 0
+ 27 0 1 1 4 6 0 2 2 7 8 91011 3 3 3 4 4 3 5 5 3 4 4 0 4 4 4 4 012
+ 28 2 1 1 2 2 2 2 2 2 2 2 2 2 6 2 2 2 2 2 7 2 2 3 3 4 4 4 5 5 5 1
+ 29 0 1 1 2 3 4 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 5 4 5 4 4 4 4
+ 30 2 1 1 3 3 2 3 2 2 4 5 2 2 2 2 3 2 2 2 2 2 2 3 2 2 2 2 2 2 2 2
+ 31 2 2 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 32 0 1 0 2-1 0-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1 3-2 0 4 5 6-1 7 8
+ 33 0-1 7 1 1 8 2 2 2 9 2 2 2 1 3 3 3 3 4 4 3 110 5 5-111 6 6 6 0
+ 34 2 5 0 3 6 0 1 1 1 2 2 1 7 1 1 1 1 1 1 1-1 4 3 3 0 8-1 9 3 0 0
+ 35 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 36 0 1 1 6 1 5 1 9 1 1 1 2 2 5 310 311 8 8 5 3 6 6 712 7 6 7 6 7
+ 37 0 1 7 6 2 1 2 2 2 2 2 3 3 4 4 4 5 5 5 8 5 5 6 6 6 6 6 0 6 6 6
+ 38 0 1 1 2 2 0 3 2 2 3 3 3 3 2 2 2 2 3 6 2 7 2 8 4 4 9 4 4 5 5 4
+ 39 2 6 7 2 2 2 2 3 3 4 4 4 4 4 4 4 5 5 4 4 4 4 2 2 2 2 2 4 4 4 4
+ 40 2 1 1 2 2 8 2 2 2 3 91011 3 3 3 5 4 5 5 3 2 2 6 612 7 7 7 7 2
+ 41 0 1 1 2 2 3 3 3 3 4 4 6 7 5 5 5 5 5 4 4 5 8 2 2 2 2 2 2 2 2 2
+ 42 0 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 2 2 2 2 2 2
+ 43 2 1 1 2 0 2 0 2 2 2 2 2 0 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3
+ 44 2 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 0 2 2 2 2
+ 45 0 4 4 2 2 3 3 3 3 3 5 3 3 3 3 3 3 3 3 3 3 3 4 4 0 4 6 4 4 4 0
+ 46 0 1 1 2 2 2 2 1 1 2 1 2 1 1 1 1 1 1 2 3 1 2 2 2 2 2 2 2 2 2 2
+ 47 2 7 8 910 1 1 2 211 3 3 3 31213 3 3 4 4 314 5 5 6 6 615 6 6 6
+ 48 2 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 2 2 2 2 2 2 2 2 2
+ 49 0 5 6 7 1 1 1 1 1 8 1 2 2 910 3 3 3 3 311121314 0 4 4 4 4 4 4
+ 50 0 1 1 1 4 1 1 1 1 2 2 3 2 2 2 2 2 2 3 3 2 4 1 1 0 6 1 5 5 5 5
+ 51 2 1 1 5 1 1 1 1 1 6 1 1 7 1 2 2 3 3 4 4 2 2 2 2 2 2 2 1 2 0 1
+ 52 0 1 1 5 2 0-1 2 2-1-1-1-1-1-1-1-1-1 0-1-1-1 3 3 4 0-1 4 4 4 2
+ 53 2 1 1 8 2 2 4 91011 3 4 3 0 4 4 4 4 71213 4 5 5 6 614 7 7 7 7
+ 54 2 1 0 1 1 1-1 1 1 1 5 1 6 2 2 3 3 3 1 1 1 1 1 1 4 1 7 1 1 1 4
+ 55 0 7 0 1 1 2 1 2 2 8 3 3 3 1 1 9 1 1 4 410 111 1 5 5 1 6 6 6 6
+ 56 0 5 0 4 1 0 6 1 1 1 1 7 8 1 9 110 1 211 1 2 1 1 4 412 1 1 113
+ 57 2 4 0 2 2 1 1 1 1 1 1 5 6 1 1 1 3 3 1 2 0 1 1 1 2 7 2 1 1 2 1
+ 58 2 7 0 1 1 1 1 1 1 1 8 2 9 2 2 2 3 3 4 4 2 1 110 5 5 6 6 5 6 6
+ 59 0 7 0 1 8 9 2 2 2 2101112 3 3 3 3 2 413 3 4 1 414 6 6 515 5 5
+ 60 0 1 0 1 1 1 1 1 1 1 1 1 3 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2
+ 61 2 2 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 2 1
+ 62 0 4 0 1 1 3 5 2 2 6 3 3 7 8 3 3 3 3 3 3 3 3 1 1 3 3 3 3 3 3 3
+ 63 0 6 0 2 5 0 7 1 1 2 3 3 8 9 3 4 410 4 4 511 2 2 2 2 2121314 0
+ 64 0 7 0 1 8 1 4 910 2 2 3 3 2 6 6 6 2 2 4 2 2 5 5 5 511 2 2 2 0
+ 65 0 7 0 1 1 1 7 1 1 2 2 3 3 4 4 4 4 4 1 1 4 1 5 1 5 5 5 6 6 6 6
+ 66 2 4 0 1 5 1 1 1 1 1 6 1 1 2 2 7 2 2 4 8 2 4 4 4 4 910 4 1 4 4
+ 67 0 5 0 6 7 0 8 1 1 9101112 2 213 2 2 3 314151617 4 4 418191920
+ 68 0 3 0 4 5 6 7 1 1 8 910 2 2 2111213 214151617181920212223 324
+ 69 0 6 0 5 2 1 2 7 2 8 9 3 3 3 3 5 4 4 4 4 310 0 5 1 1 1 1 1 111
+ 70 0 5 0 1 1 1 1 1 1 1 4 4 6 2 2 2 2 2 2 2 2 7 1 1 1 8 1 9 3 3 0
+ 71 0 1 0 1 4 5 1 1 1 1 1 6 7 2 2 2 2 2 3 3 0 8 1 1 1 1 1 1 1 9 1
+ 72 2 1 2 2 3 4 4 3 3 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 5 1 1 1 1 1 1
+ 73 0 1 1 2 4 2 2 2 2 1 2 5 2 1 6 1 1 1 3 3 1 3 4 0 4 4 4 4 4 4 0
+ 74 2 1 1 2 2 0 4 3 3 4 4 5 5 4 4 4 4 4 4 4 4 8 2 7 7 7 7 7 9 710
+ 75 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 76 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 0
+ 77 2 1 1 2 3 2 3 3 3 6 7 4 8 4 4 4 4 4 4 4 4 9 2 2 2 2 2 5 5 5 5
+ 78 0 1 1 6 2 2-1 2 7 2 8 9 2 3 3 3 3 3 3 3 3 3 4 4 4 4 4 510 5 5
+ 79 0 1 1 2 2 6 3 3 3 7 3 3 3 4 4 4 4 4 5 5 4 3 0 2 2-1 2 2 2 2 2
+ 80 0 4 6 1 1 0 5 1 1 3 7 5 5 8 3 3 3 3 3 3 3 4 4 4 4 9 4 5 5 5 5
+ 81 0 1 1 2 2 3 3 3 7 4 4 4 4 4 4 4 4 4 4 4 4 4 5 5 6 6 6 6 6 6 6
+ 82 2 3 4 1 1 1 1 1 1 2 1 1 1 1 1 1 1 1 1 1 1 2 1 1 1 1 1 1 1 1 1
+ 83 0 1 1 1 1 3 1 2 2 1 1 1 1 1 1 1 1 1 1 4 1 1 1 1 1 1 1 1 1 1 1
+ 84 0 1 0 6 1 1 1 7 1 8 910 2 2 2 2 2 2 211 212 3 3 4 4 4 51314 5
+ 85 2 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 0 2 2 1 2 2 2 2
+ 86 2 0 0 1 1 1 1 1 0 1 1 1 1 2 2 0 2 2 3 3 1 0 1 1 1 0 1 1 1 1 1
+ 87 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 1 1 1 1 1 1
+ 88 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 89 0 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 90 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 91 0 4 2 1 1 1 1 1 1 1 1 1 1 1 1 1 5 1 1 1 1 6 2 2 2 2-1 2 3 3 2
+ 92 2 1 1 1 2 2 2 2 3 2 4 2 2 5 5 5 5 2 2 2 4 7 6 6 1 5 8 5 5 5 2
+ 93 0 1 1 1 1 3 6 2 2 3 7 2 2 4 4 4 4 4 3 3 8 5 1 9 5 510 5 5 5 0
+ 94 0 1 1 6 2 2 3 2 2 3 3 3 3 3 3 3 3 3 7 8 3 9 2 210 4 4 5 4 5 4
+ 95 2 1 1 2 7 3 4 4 4 4 3 4 4 4 5 5 5 5 5 5 8 5 3 2 2 6 2 9 610 3
+ 96 2 6 7 8 1 1 1 1 1 1 2 2 2 3 3 3 0 3 1 1 1 1 1 1 4 4 910 5 511
+ 97 0 6 7 5 1 0 8 1 1 2 9 2 2 3 3 3 3 3101112 3 3 5 3 313 4 4 314
+ 98 0 7-1 1 8 1 9 6 610 4 411 2 2 3 3 3 4 3 312 01314 5 5 515 516
+ 99 0 1 1 2 2 0 2 2 2 2 2 3 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+100 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 3 3 2 2 2 2 2 2 2
+    X                                                            
+p
+b
+f
+v
+m
+w             
+8       
+t
+d
+s
+z
+c
+n
+r
+l       
+S
+Z       
+C
+j
+T       
+5
+y
+k
+g
+x
+N
+q                     
+X
+h
+7
+L
+4
+G
+!       
+i   
+e
+E
+3
+a
+u
+o
+     
+       
+HUASTEC{May.MAYAN|Mayan,Huastecan@Mayan,Huastecan}
+ 3   22.08  -99.33       70000   htc   hva
+1 I	in, nana7 //
+2 you	it, ata7 //
+3 we	wawa7 //
+4 this	aSe7 //
+5 that	niSe7, niS //
+6 who	hita7 //
+7 what	hant"o //
+8 not	iba, yab //
+9 all	tala7, patal //
+10 many	yan, yantalam //
+11 one	hun //
+12 two	cab //
+13 big	pak8a7 //
+14 long	nakat, nak8a7 //
+15 small	cipil //
+16 woman	uSum //
+17 man	inik //
+18 person	tenek //
+19 fish	to7ol //
+20 bird	c"icin //
+21 dog	pik"o7 //
+22 louse	uc" //
+23 tree	te7 //
+24 seed	ilab, iCiC //
+25 leaf	Seklek //
+26 root	iblab //
+27 bark	ot"lab //
+28 skin	ot"lab //
+29 flesh	t"ulek //
+30 blood	Sic" //
+31 bone	beklek //
+32 grease	pemey //
+33 egg	8ak"Cok" //
+34 horn	ic"am //
+35 tail	wew //
+36 feather	huhlek //
+37 hair	Si7 //
+38 head	ok" //
+39 ear	Sucun //
+40 eye	wal //
+41 nose	8am //
+42 mouth	wi7 //
+43 tooth	kamab //
+44 tongue	lek"ab //
+45 claw	icik" //
+46 foot	akan //
+47 knee	kw~alal //
+48 hand	k"ubak //
+49 belly	ebom //
+50 neck	nuk"lek //
+51 breasts	imil //
+52 heart	iCiC //
+53 liver	mamal //
+54 drink	uc"al //
+55 eat	k"apul //
+56 bite	k"at"uwal //
+57 see	cutal //
+58 hear	ac"al //
+59 know	co7ob, eSlal //
+60 sleep	wayal //
+61 die	cemel //
+62 kill	em8al //
+63 swim	kowal //
+64 fly	humnal //
+65 walk	belal //
+66 come	tal, Ce7el //
+67 lie	kw~acat //
+68 sit	ketel //
+69 stand	kubat //
+70 give	pi8al //
+71 say	ulal, ulu //
+72 sun	k"iCa //
+73 moon	ic" //
+74 star	ot //
+75 water	ha7 //
+76 rain	ab //
+77 stone	t"uhub //
+78 sand	ki8ib //
+79 earth	anam //
+80 cloud	tokow //
+81 smoke	paw //
+82 fire	k"amal //
+83 ash	holtay7 //
+84 burn	t"a7il //
+85 path	bel //
+86 mountain	bolCal //
+87 red	Cak //
+88 green	yaS //
+89 yellow	manu7 //
+90 white	8ak //
+91 black	t"unu7 //
+92 night	akal //
+93 hot	k"ak", 8ihiy //
+94 cold	c"ayil, camay //
+95 full	t"uCat, micicil //
+96 new	it //
+97 good	alwa7 //
+98 round	kw~eCoCol, mululul //
+99 dry	wayenek, waylom //
+100 name	bih //
+CHICOMUCELTEC{May.MAYAN|Mayan,Huastecan@Mayan,Huastecan}
+ 1   15.50  -92.25       -1990   cec   cob
+30 blood	SiC" //
+31 bone	weklek //
+51 breast	im //
+66 come	XXX //
+61 die	XXX //
+21 dog	sul //
+54 drink	XXX //
+39 ear	huCun //
+40 eye	wal //
+82 fire	si7 //
+19 fish	to7ol //
+95 full	t"utenik //
+48 hand	k"owak //
+58 hear	XXX //
+34 horn	XXX //
+1 I	XXX //
+47 knee	toloC, potonil //
+25 leaf	Sekelte7 //
+53 liver	mamal //
+22 louse	uC" //
+86 mountain	C"en //
+100 name	tonakawih //
+96 new	awel //
+92 night	akal, aklem //
+41 nose	sam //
+11 one	hun //
+85 path	wel //
+18 person	inik //
+57 see	XXX //
+28 skin	ot"ol //
+74 star	ot //
+77 stone	tuhu, hasam //
+72 sun	k"ak"al //
+44 tongue	lek"aw //
+43 tooth	kamaw //
+23 tree	te7 //
+12 two	Cateew //
+75 water	ha7 //
+3 we	XXX //
+2 you	XXX //
+4 this	XXX //
+5 that	XXX //
+6 who	XXX //
+7 what	XXX //
+8 not	XXX //
+9 all	XXX //
+10 many	yan //
+13 big	yeheliC, pulik //
+14 long	nakat //
+15 small	ekw~etnik, tuSte //
+16 woman	uSum //
+17 man	inikkimalom, k"et //
+20 bird	XXX //
+24 seed	wiye, ehil //
+26 root	XXX //
+27 bark	otoSte7 //
+29 flesh	t"ul //
+32 grease	XXX //
+33 egg	ul, utiCin //
+35 tail	wew //
+36 feather	huhul //
+37 hair	hulok //
+38 head	ok" //
+42 mouth	tukuwi7 //
+45 claw	iCak" //
+46 foot	akan //
+49 belly	tukul //
+50 neck	nuk" //
+52 heart	iCit //
+55 eat	XXX //
+56 bite	XXX //
+59 know	XXX //
+60 sleep	XXX //
+62 kill	XXX //
+63 swim	XXX //
+64 fly	XXX //
+65 walk	XXX //
+67 lie	XXX //
+68 sit	XXX //
+69 stand	XXX //
+70 give	XXX //
+71 say	XXX //
+73 moon	iC" //
+76 rain	aw //
+78 sand	kisiw //
+79 earth	anam, amal //
+80 cloud	siyal //
+81 smoke	pa //
+83 ash	tay7 //
+84 burn	XXX //
+87 red	Cak //
+88 green	yaS //
+89 yellow	k"an //
+90 white	sak //
+91 black	ekinik //
+93 hot	k"ak" //
+94 cold	C"ayil //
+97 good	tahelatnik //
+98 round	%akewelta // Spanish loan
+99 dry	waynek //
+TOJOLABAL{May.MAYAN|Mayan,Kanjobalan-Chujean,Chujean@Mayan,Kanjobalan-Chujean,Chujean}
+ 1   16.33  -91.50       36000   toj   toj
+1 I	ken, kena //
+2 you	wen, wena //
+3 we	kent~ik //
+11 one	xune //
+12 two	Cab" //
+18 person	wink~il, %kristy~ano // Spanish loan
+19 fish	Cay //
+21 dog	c"i7 //
+22 louse	uk" //
+23 tree	te7 //
+25 leaf	spowil //
+28 skin	c"uxmil //
+30 blood	Cik"el //
+31 bone	b"ak //
+34 horn	Sulub", %kaCo //  Spanish loan
+39 ear	sti7 xCikint~ik //
+40 eye	sat //
+41 nose	ni7 //
+43 tooth	ex //
+44 tongue	ak" //
+47 knee	Sixk"an //
+48 hand	k"ab" //
+51 breast	miS //
+53 liver	Cok"ol //
+54 drink	u7, ub" //
+57 see	ila //
+58 hear	ab"i //
+61 die	Tham //
+66 come	xul, xak //
+72 sun	k"ak"u //
+74 star	k"anal //
+75 water	xa7 //
+77 stone	ton, stoxnal //
+82 fire	k"ak", scub"ulab"il //
+85 path	b"ex //
+86 mountain	wic //
+92 night	a7kw~al //
+95 full	b"ut" //
+96 new	axk"aC //
+100 name	b"i7il //
+4 this	iti //
+5 that	tan, xaw //
+6 who	maC7, ma7 //
+7 what	xas //
+8 not	mi, mok //
+9 all	specanil, snolanal //
+10 many	xel, xican //
+13 big	niwan, naxat //
+14 long	naxat //
+15 small	C"in, nuS //
+16 woman	iSuk, nan //
+17 man	winik //
+20 bird	yalCan //
+24 seed	inat //
+26 root	yeC //
+27 bark	pat //
+29 flesh	b"ak"et, ti7ox //
+32 grease	yecel //
+33 egg	nolob" //
+35 tail	nexal //
+36 feather	k"uk"um, k"uk"mil //
+37 hair	co7oc //
+38 head	olom //
+42 mouth	ti7 //
+45 claw	eCal //
+46 foot	okal //
+49 belly	lukum, pax //
+50 neck	nuk" //
+52 heart	alcil, k"uxol //
+55 eat	wa7i //
+56 bite	k"uSu //
+59 know	na7a //
+60 sleep	wayi //
+62 kill	mila, pancun //
+63 swim	noSi //
+64 fly	lupupi, xuxpi  //
+65 walk	b"exyi //
+67 lie	b"a7an //
+68 sit	kulan //
+69 stand	tek"an //
+70 give	ak"uni, a7a //
+71 say	ala, utax //
+73 moon	iSaw //
+76 rain	xa7 //
+78 sand	xixkab" //
+79 earth	lu7um //
+80 cloud	ason, altik //
+81 smoke	tab" //
+83 ash	ta7an //
+84 burn	cika //
+87 red	Cak //
+88 green	ya7aS //
+89 yellow	k"an //
+90 white	sak //
+91 black	k"ik" //
+93 hot	k"ak", k"ak"al //
+94 cold	Ce7e //
+97 good	lek, yucil //
+98 round	setan, k"olan //
+99 dry	takin //
+CHUJ{May.MAYAN|Mayan,Kanjobalan-Chujean,Chujean@Mayan,Kanjobalan-Chujean,Chujean}
+ 1   15.92  -91.58       31630   chj   cnm
+1 I	in //
+2 you	aC, eStik //
+3 we	oN //
+4 this	xun tik //
+5 that	xun Ca //
+6 who	maC //
+7 what	tas //
+8 not	ma //
+9 all	smasnil //
+10 many	niwan //
+11 one	xun //
+12 two	Ca7ab //
+13 big	niwkil //
+14 long	nat //
+15 small	yune //
+16 woman	iS //
+17 man	winak //
+18 person	anma7 //
+19 fish	Cay //
+20 bird	C"ik //
+21 dog	c"i7 //
+22 louse	uk" //
+23 tree	te7 //
+24 seed	iNat //
+25 leaf	Sil te7 //
+26 root	C"aNl yip //
+27 bark	xokbal te7 //
+28 skin	c"umal //
+29 flesh	Cibx //
+30 blood	Cik"il //
+31 bone	bak //
+32 grease	%mantka7 //  Spanish loan
+33 egg	Nolob //
+34 horn	C"a7ak //
+35 tail	ye //
+36 feather	Sil //
+37 hair	Sil xolom //
+38 head	xolom //
+39 ear	Cikin //
+40 eye	yol sat //
+41 nose	Ni7 //
+42 mouth	ti7 //
+43 tooth	XXX //
+44 tongue	ak" //
+45 claw	eC //
+46 foot	ok //
+47 knee	xolm penek //
+48 hand	k"ab //
+49 belly	k"oxol //
+50 neck	xax //
+51 breasts	im //
+52 heart	piSan //
+53 liver	seyub //
+54 drink	ukx //
+55 eat	wa7i //
+56 bite	Ci7a //
+57 see	wila7 //
+58 hear	abi //
+59 know	oxk //
+60 sleep	wayaN //
+61 die	Cami //
+62 kill	mila7 //
+63 swim	aCni //
+64 fly	xeNw //
+65 walk	bey //
+66 come	xaw //
+67 lie	ek" kotan //
+68 sit	em wokan //
+69 stand	k"e liNan //
+70 give	ak" //
+71 say	Ci //
+72 sun	k"u //
+73 moon	ux //
+74 star	k"anal //
+75 water	a7 //
+76 rain	puC nab //
+77 stone	k"e7en //
+78 sand	pok //
+79 earth	lu7um //
+80 cloud	asun //
+81 smoke	tab //
+82 fire	k"ak" //
+83 ash	te ta7aN //
+84 burn	c"a7i //
+85 path	be //
+86 mountain	wic //
+87 red	Cak //
+88 green	yaS //
+89 yellow	k"an //
+90 white	saq //
+91 black	k"ik" //
+92 night	ak"wal //
+93 hot	k"ak"l //
+94 cold	sik //
+95 full	butxi //
+96 new	ak" //
+97 good	waC" //
+98 round	pilan //
+99 dry	takin //
+100 name	bi //
+MOCHO{May.MAYAN|Mayan,Kanjobalan-Chujean,Kanjobalan,Mocho@Mayan,Kanjobalan-Chujean,Kanjobalan,Mocho}
+ 1   15.37  -92.23         168         mhc
+75 agua	ha7 //
+23 arbol	te7 //
+54 beber	uk" //
+85 camino	beh //
+86 cerro	wic //
+34 cuerno	XXX //
+43 diente	eh //
+12 dos	kab", ka7 //
+74 estrella	XXX //
+82 fuego	q"aq" //
+53 higado	seyub" //
+25 hoja	Saq //
+31 hueso	baq //
+44 lengua	aq", lec" //
+95 lleno	noh //
+48 mano	q"ab //
+61 morir	kam //
+41 nariz	Cam //
+92 noche	aq"b"al //
+100 nombre	bih //
+3 nosotros	XXX //
+96 nuevo	ak", k"ol3n //
+58 oir	ab"i //
+40 ojo	Cet //
+39 oreja	Cikin //
+21 perro	C"i7 //
+18 persona	winaq //
+19 pez	kaC //
+77 piedra	toN //
+28 piel	c"um, iN //
+22 piojo	uk" //
+47 rodilla	wiC"i7 //
+30 sangre	kik" //
+51 seno	im //
+72 sol	c"ek, c"e7ek //
+2 tu	XXX //
+11 uno	hun //
+66 venir	ul, Suul //
+57 ver	il //
+1 yo	XXX //
+4 this	XXX //
+5 that	XXX //
+6 who	XXX //
+7 what	XXX //
+8 not	mo7 //
+9 all	hunaN //
+10 many	k"ehan, k"ihan //
+13 big	man, maq //
+14 long	man //
+15 small	capa //
+16 woman	iSoq //
+17 man	winaq, Sib" //
+20 bird	XXX //
+24 seed	iNat, iNt //
+26 root	iNtil, lok" //
+27 bark	XXX //
+29 flesh	baq"eC, uS //
+32 grease	XXX //
+33 egg	k"olk"oC //
+35 tail	Neh //
+36 feather	Sik //
+37 hair	Si7, wi7 //
+38 head	XXX //
+42 mouth	ti7 //
+45 claw	isk"aq //
+46 foot	oq //
+49 belly	k"u7ul //
+50 neck	nuq" //
+55 eat	lo7, k"uS //
+56 bite	XXX //
+59 know	ic"a, ic"be //
+60 sleep	waC //
+62 kill	kamsa, poC" //
+63 swim	XXX //
+64 fly	lop //
+65 walk	behi //
+67 lie	XXX //
+68 sit	moc", tuC" //
+69 stand	wa7, yaN //
+70 give	aq" //
+71 say	ut //
+73 moon	ahw, ahaw //
+76 rain	Nab"al //
+78 sand	puquq //
+79 earth	q"aC //
+80 cloud	XXX //
+81 smoke	Nub" //
+83 ash	loh //
+84 burn	c"a7 //
+87 red	kaq //
+88 green	CeS //
+89 yellow	q"an //
+90 white	saq //
+91 black	q"eq //
+93 hot	c"a7ik //
+94 cold	sik //
+97 good	XXX //
+98 round	set, woloS //
+99 dry	XXX //
+JACALTEC{May.MAYAN|Mayan,Kanjobalan-Chujean,Kanjobalan,Kanjobal-Jacaltec@Mayan,Kanjobalan-Chujean,Kanjobalan,Kanjobal-Jacaltec}
+ 1   15.67  -91.67       88000   jak   jai
+1 I	haninan //
+2 you	haC, heS //
+3 we	haNoNaN //
+4 this	ti7 //
+5 that	tu7 //
+6 who	mak //
+7 what	cet //
+8 not	mat //
+9 all	sunil //
+10 many	cetk"a //
+11 one	hun //
+12 two	kap //
+13 big	nim //
+14 long	nahata //
+15 small	niStex //
+16 woman	iS //
+17 man	nax //
+18 person	anma //
+19 fish	kay //
+20 bird	C"ik //
+21 dog	meC c"i7 //
+22 louse	uk" //
+23 tree	k"eptax //
+24 seed	iNat //
+25 leaf	Sax //
+26 root	Se7 //
+27 bark	c"umal //
+28 skin	c"umal //
+29 flesh	Cibe //
+30 blood	Cikil //
+31 bone	b"ax //
+32 grease	%manteka //  Spanish loan
+33 egg	hos //
+34 horn	yuk"a //
+35 tail	Ne //
+36 feather	Sil //
+37 hair	Sil //
+38 head	wi7 //
+39 ear	Cikin //
+40 eye	baq sat //
+41 nose	Cam //
+42 mouth	ti //
+43 tooth	XXX //
+44 tongue	aq //
+45 claw	yisqaxe //
+46 foot	ox //
+47 knee	wic"i7 //
+48 hand	q"ab //
+49 belly	k"ul //
+50 neck	nuq //
+51 breasts	im //
+52 heart	anma //
+53 liver	sasip //
+54 drink	uq //
+55 eat	wa7 //
+56 bite	CiCiwa //
+57 see	il //
+58 hear	wabe //
+59 know	wohtaxox //
+60 sleep	way //
+61 die	kam //
+62 kill	bica //
+63 swim	in maqnihan ha7 //
+64 fly	pur //
+65 walk	bel //
+66 come	ul //
+67 lie	hil //
+68 sit	pis //
+69 stand	liN //
+70 give	aq //
+71 say	al //
+72 sun	c"ayik //
+73 moon	iS ahaw //
+74 star	C"umel //
+75 water	ha7 //
+76 rain	Nap //
+77 stone	C"en //
+78 sand	%arena //  Spanish loan
+79 earth	C"oC" //
+80 cloud	moyan //
+81 smoke	Nup //
+82 fire	q"a7 //
+83 ash	taN //
+84 burn	c"ay //
+85 path	be //
+86 mountain	wic //
+87 red	kax //
+88 green	yaS //
+89 yellow	q"an //
+90 white	sax //
+91 black	k"ex //
+92 night	aq"balil //
+93 hot	q"aS //
+94 cold	Cew //
+95 full	nohnax //
+96 new	ak" //
+97 good	k"ul //
+98 round	pet //
+99 dry	tax //
+100 name	bi //
+QANJOBAL_SANTA_EULALIA{May.MAYAN|Mayan,Kanjobalan-Chujean,Kanjobalan,Kanjobal-Jacaltec@Mayan,Kanjobalan-Chujean,Kanjobalan,Kanjobal-Jacaltec}
+ 1   15.83  -91.83       77700   kwe   kjb
+6 who	makTel, maqTel //
+1 I	ayinti //
+2 you	aCti //
+3 we	aonti, ayonti //
+7 what	cet yetal //
+4 this	xunti //
+5 that	xuntu //
+92 night	aq"b"alil //
+11 one	xun //
+12 two	kab" //
+9 all	masanil //
+10 many	Siwil //
+77 stone	C"en //
+78 sand	poq, ikab" //
+79 earth	T"oT" //
+86 mountain	wic //
+75 water	a7, a //
+72 sun	k"u //
+73 moon	Saxaw //
+74 star	waykan //
+80 cloud	asun //
+76 rain	nab" //
+82 fire	q"aq" //
+81 smoke	mub" //
+83 ash	tiq"aq"il tan //
+35 tail	ne //
+34 horn	uk"a7 //
+21 dog	T"i7 //
+20 bird	c"ikin, saxb"en //
+36 feather	c"up //
+33 egg	xos //
+19 fish	Tay //
+22 louse	uk" //
+43 tooth	e7, e //
+39 ear	Tikin //
+40 eye	sat //
+37 hair	Sil //
+38 head	xolom //
+41 nose	Tam //
+42 mouth	ti7 //
+44 tongue	aq" //
+50 neck	nuq" //
+48 hand	q"ab" //
+45 claw	isq"aq //
+46 foot	aqan //
+47 knee	penek //
+31 bone	b"aq //
+49 belly	k"ul //
+53 liver	t"iS //
+51 breast	im //
+52 heart	piSan //
+30 blood	Cik" //
+28 skin	c"umal //
+23 tree	te7 //
+25 leaf	Saq //
+27 bark	T"umal te7 //
+26 root	Se7 //
+24 seed	inat //
+32 grease	%manteka // borrowed from Spanish
+29 flesh	Cib"ex //
+16 woman	iS //
+17 man	winaq //
+18 person	%anima // borrowed from Spanish
+100 name	b"i //
+85 path	b"e //
+56 bite	Ci7 //
+54 drink	uk"eS //
+71 say	al //
+70 give	aq" //
+58 hear	ab"eS //
+57 see	il //
+59 know	oStaq //
+55 eat	lo7 //
+60 sleep	way //
+61 die	kam //
+62 kill	maq" kamoq //
+84 burn	Caw //
+95 full	noSnaq //
+63 swim	maq" a7 //
+64 fly	Supup //
+65 walk	b"ey //
+66 come	ul, Say //
+87 red	kaq //
+88 green	yaS //
+89 yellow	q"an //
+91 black	q"eq //
+90 white	saq //
+94 cold	sik //
+93 hot	kaq //
+13 big	miman //
+15 small	yaliS //
+14 long	Soqan //
+97 good	waT" //
+98 round	k"olan //
+96 new	ak" //
+68 sit	Cotan //
+69 stand	lekan //
+67 lie	telan //
+99 dry	taqin //
+8 not	man, k"am //
+ACATECO_SAN_MIGUEL_ACATAN{May.MAYAN|Mayan,Kanjobalan-Chujean,Kanjobalan,Kanjobal-Jacaltec@Mayan,Kanjobalan-Chujean,Kanjobalan,Kanjobal-Jacaltec}
+ 1   15.83  -91.83       58600   kwe   knj
+6 who	maSTekel //
+1 I	hain //
+2 you	haCti7 //
+3 we	heonti7, haonti7 //
+7 what	Tetal //
+4 this	hunti7 //
+5 that	hu7untu7 //
+92 night	ab"al //
+11 one	hun //
+12 two	kab" //
+9 all	smasanil //
+10 many	miman taS //
+77 stone	C"en //
+78 sand	k"a Cen //
+79 earth	T"oT" //
+86 mountain	wonan //
+75 water	ha7 //
+72 sun	k"u //
+73 moon	S7~aw //
+74 star	weykan //
+80 cloud	asun //
+76 rain	nab" //
+82 fire	q"a7 //
+81 smoke	muk" //
+83 ash	stiq"a7il tan //
+35 tail	ne //
+34 horn	uk"a7 //
+21 dog	T"i7 //
+20 bird	c"ikin //
+36 feather	Sil //
+33 egg	hos //
+19 fish	Tay //
+22 louse	uk" //
+43 tooth	e //
+39 ear	Tikin //
+40 eye	sat //
+37 hair	Sil //
+38 head	holom //
+41 nose	Tam //
+42 mouth	ti7 //
+44 tongue	a7 //
+50 neck	nu7 //
+48 hand	q"ab" //
+45 claw	isq"ax //
+46 foot	axan //
+47 knee	penek //
+31 bone	b"ax //
+49 belly	k"ul //
+53 liver	q"ex //
+51 breast	im //
+52 heart	piSan //
+30 blood	Cik" //
+28 skin	T"um //
+23 tree	te7 //
+25 leaf	Sax te7 //
+27 bark	yin //
+26 root	Se7 te7 //
+24 seed	sb"aq" te7 //
+32 grease	%manteka // borrowed from Spanish
+29 flesh	Cib"e //
+16 woman	iS //
+17 man	winax //
+18 person	%anima // borrowed from Spanish
+100 name	b"i //
+85 path	b"e //
+56 bite	Ci7 //
+54 drink	uk"e //
+71 say	al //
+70 give	a7 //
+58 hear	ab"e //
+57 see	il //
+59 know	otax //
+55 eat	lo7 //
+60 sleep	wey //
+61 die	kam //
+62 kill	ma7 kamox //
+84 burn	T"a //
+95 full	nonax //
+63 swim	ma7 a7 //
+64 fly	ek" hururox //
+65 walk	b"ey //
+66 come	hul //
+87 red	kax //
+88 green	yaS //
+89 yellow	q"an //
+91 black	q"ex //
+90 white	sax //
+94 cold	sik //
+93 hot	kax //
+13 big	miman //
+15 small	yaliS //
+14 long	hoxan //
+97 good	waT" //
+98 round	k"olan, Soyan  //
+96 new	ak" //
+68 sit	Cotan, woxan //
+69 stand	linan //
+67 lie	telan //
+99 dry	taxin //
+8 not	man, k"am //
+IXIL_CHAJUL{May.MAYAN|Mayan,Quichean-Mamean,GreaterMamean,Ixilan@Mayan,Quichean-Mamean,GreaterMamean,Ixilan}
+ 1   15.50  -91.00       18000         ixj
+6 who	xal //
+1 I	in //
+2 you	ah //
+3 we	o7 //
+7 what	kame //
+4 this	uwa7 //
+5 that	uwa7e //
+92 night	aq"b"al //
+11 one	wal //
+12 two	kawal //
+9 all	kaqayil //
+10 many	nim //
+77 stone	siwan //
+78 sand	poq //
+79 earth	T"awa7 //
+86 mountain	wic //
+75 water	a7 //
+72 sun	q"ih //
+73 moon	iT" //
+74 star	T"umil //
+80 cloud	suc" //
+76 rain	xab"al //
+82 fire	Samal //
+81 smoke	sib" //
+83 ash	ca7 //
+35 tail	xe7 //
+34 horn	tuk" //
+21 dog	T"i7 //
+20 bird	c"iTin //
+36 feather	Sil //
+33 egg	k"olob" //
+19 fish	Tay //
+22 louse	uk" //
+43 tooth	eh //
+39 ear	SiTin //
+40 eye	b"aq" wac //
+37 hair	Sil wi7 //
+38 head	wi7 //
+41 nose	xu7 //
+42 mouth	ci7 //
+44 tongue	aq" //
+50 neck	qul //
+48 hand	q"ab" //
+45 claw	iSk"aq //
+46 foot	oq //
+47 knee	wi7 aqan //
+31 bone	b"aq //
+49 belly	ul //
+53 liver	con //
+51 breast	C"u7 //
+52 heart	%anima // borrowed from Spanish
+30 blood	kaq //
+28 skin	c"umal //
+23 tree	ce7 //
+25 leaf	Saq //
+27 bark	ti7 //
+26 root	taq"il //
+24 seed	iya //
+32 grease	%manteka // borrowed from Spanish
+29 flesh	Cib" //
+16 woman	iSoq //
+17 man	winaq //
+18 person	xal //
+100 name	b"ih //
+85 path	b"ey //
+56 bite	Ci7 //
+54 drink	uk"a //
+71 say	al //
+70 give	aq" //
+58 hear	ab"i //
+57 see	il //
+59 know	ocaq //
+55 eat	T"a7on //
+60 sleep	wat //
+61 die	kam //
+62 kill	yac" //
+84 burn	oyb" //
+95 full	nonaq //
+63 swim	nuS //
+64 fly	SiC"an //
+65 walk	Saon //
+66 come	ul //
+87 red	kaq //
+88 green	CaS //
+89 yellow	q"an //
+91 black	q"eq //
+90 white	saq //
+94 cold	Cew //
+93 hot	c"a7 //
+13 big	nim //
+15 small	uSkin //
+14 long	nim toq //
+97 good	b"an //
+98 round	uTkin //
+96 new	ak" //
+68 sit	Sonlel //
+69 stand	Taklel //
+67 lie	Xoklel //
+99 dry	caqa //
+8 not	ye7 //
+AGUACATEC{May.MAYAN|Mayan,Quichean-Mamean,GreaterMamean,Ixilan@Mayan,Quichean-Mamean,GreaterMamean,Ixilan}
+ 1   15.42  -91.33       18000   agu   agu
+1 I	in //
+2 you	aS, e7u7 //
+3 we	o7 //
+4 this	e7x //
+5 that	ac //
+6 who	na7x //
+7 what	mb"i //
+8 not	kil //
+9 all	tirkun //
+10 many	ala7 //
+11 one	xun //
+12 two	kob //
+13 big	nim //
+14 long	nim tqanil //
+15 small	talkoCk //
+16 woman	Snan //
+17 man	yax //
+18 person	wunak //
+19 fish	k3y //
+20 bird	C"ul //
+21 dog	C"i7 //
+22 louse	k"uS //
+23 tree	ce7 //
+24 seed	ix //
+25 leaf	Saq //
+26 root	takl //
+27 bark	xalk"ok"il //
+28 skin	c"uml //
+29 flesh	Cibax //
+30 blood	aSC"el //
+31 bone	baq //
+32 grease	%manteka7 //  Spanish loan
+33 egg	xox //
+34 horn	tuk" //
+35 tail	xe7 //
+36 feather	Si7il //
+37 hair	Si7il //
+38 head	wi7 //
+39 ear	SCin //
+40 eye	Ciwucu7 //
+41 nose	xu7 //
+42 mouth	ci7 //
+43 tooth	e7 //
+44 tongue	aq" //
+45 claw	pak" //
+46 foot	q3n //
+47 knee	C"ek //
+48 hand	q"ab //
+49 belly	k"ul //
+50 neck	qul //
+51 breasts	im //
+52 heart	%alma7 //  Spanish loan
+53 liver	C"oC" //
+54 drink	tk"axlen //
+55 eat	wan //
+56 bite	Ci7on //
+57 see	il //
+58 hear	wit //
+59 know	Cum //
+60 sleep	witen //
+61 die	kim //
+62 kill	kimse7 //
+63 swim	xiCin //
+64 fly	Siky~7in //
+65 walk	Son //
+66 come	kul //
+67 lie	koy //
+68 sit	k"ol //
+69 stand	Cik //
+70 give	sawaq"e7 cac //
+71 say	al //
+72 sun	q"ex //
+73 moon	Saw //
+74 star	C"uml //
+75 water	a7 //
+76 rain	abal //
+77 stone	k"ub //
+78 sand	camlik"
+79 earth	C"oC" //
+80 cloud	sbaq" //
+81 smoke	sib //
+82 fire	q"aq" //
+83 ash	cax //
+84 burn	na can //
+85 path	q"ab be7 //
+86 mountain	wuc //
+87 red	ky~3q //
+88 green	CaS //
+89 yellow	q"an //
+90 white	saq //
+91 black	q"eq //
+92 night	laq"bal //
+93 hot	cala7 //
+94 cold	Cew //
+95 full	nox //
+96 new	ak"ax //
+97 good	balax e7 //
+98 round	toloS //
+99 dry	sqex //
+100 name	bi7 //
+TECO_TECTITAN{May.MAYAN|Mayan,Quichean-Mamean,GreaterMamean,Mamean@Mayan,Quichean-Mamean,GreaterMamean,Mamean}
+ 1   15.42  -92.08        5900   tec   ttc
+6 who	ab"l //
+1 I	a7in //
+2 you	a7iC //
+3 we	a7o7 //
+7 what	tidi7 //
+4 this	axa ncani //
+5 that	axnini //
+92 night	aq"b"il //
+11 one	xun //
+12 two	kab"e //
+9 all	tky~aqil //
+10 many	nim //
+77 stone	ab"x //
+78 sand	kuq //
+79 earth	T"oT" //
+86 mountain	tw~i7 wic //
+75 water	a7 //
+72 sun	q"ix //
+73 moon	qy~a7 //
+74 star	c"ew //
+80 cloud	mux //
+76 rain	xab" //
+82 fire	q"aq" //
+81 smoke	sib" //
+83 ash	cax //
+35 tail	xe7 //
+34 horn	uk"a7 //
+21 dog	T"iyan //
+20 bird	pic" //
+36 feather	camal //
+33 egg	xos //
+19 fish	moy //
+22 louse	uk" //
+43 tooth	e7 //
+39 ear	Sky~in //
+40 eye	wic //
+37 hair	camal //
+38 head	wi7 //
+41 nose	soq" //
+42 mouth	ci7 //
+44 tongue	aq" //
+50 neck	alq //
+48 hand	q"ab" //
+45 claw	Sk"y~aq //
+46 foot	oq //
+47 knee	c"eky~ //
+31 bone	b"aq //
+49 belly	k"ux //
+53 liver	STanseb" //
+51 breast	im //
+52 heart	%anim // borrowed from Spanish
+30 blood	ky~ik" //
+28 skin	c"umal //
+23 tree	ce7 //
+25 leaf	Taq k"ul //
+27 bark	Sx~olmisal ce7 //
+26 root	tlok" //
+24 seed	ixax //
+32 grease	%mantek // borrowed from Spanish
+29 flesh	Cib"x //
+16 woman	Sux //
+17 man	iCan //
+18 person	Sxal //
+100 name	b"i //
+85 path	b"ey //
+56 bite	c"a7 //
+54 drink	uk"a //
+71 say	q"oma //
+70 give	sewa //
+58 hear	Ca7o //
+57 see	e //
+59 know	Ca7o //
+55 eat	wan //
+60 sleep	witan //
+61 die	kam //
+62 kill	kansa //
+84 burn	tilun, c"e7 //
+95 full	nonaq //
+63 swim	iCin //
+64 fly	lipan //
+65 walk	b"et //
+66 come	ul //
+87 red	ky~aq //
+88 green	TaS //
+89 yellow	q"an //
+91 black	q"eq //
+90 white	saq //
+94 cold	Cew //
+93 hot	ky~aq, c"ek //
+13 big	nim //
+15 small	nekit, nek //
+14 long	nim toq //
+97 good	b"an //
+98 round	Stolo7 //
+96 new	ak"ax //
+68 sit	wit"lik //
+69 stand	walk //
+67 lie	Silk //
+99 dry	k"ik"ox //
+8 not	ny~aT //
+MAM_NORTHERN{May.MAYAN|Mayan,Quichean-Mamean,GreaterMamean,Mamean@Mayan,Quichean-Mamean,GreaterMamean,Mamean}
+ 1   15.00  -91.83      201279   mam   mam
+1 I	ayine //
+2 you	aya, aqye //
+3 we	qo7 //
+4 this	lu7 //
+5 that	CiS //
+6 who	alky~e //
+7 what	ti //
+8 not	mi //
+9 all	ky~ky~aqil //
+10 many	nimku //
+11 one	xun //
+12 two	kab //
+13 big	ma7 //
+14 long	Sy~ukbi //
+15 small	ko7 //
+16 woman	Sux //
+17 man	Sinaq //
+18 person	Sxal //
+19 fish	ky~iS //
+20 bird	C"it //
+21 dog	C"y~an //
+22 louse	Squk" //
+23 tree	ce7 //
+24 seed	iyax //
+25 leaf	Saq //
+26 root	tlok" //
+27 bark	komal //
+28 skin	c"umile //
+29 flesh	Cib //
+30 blood	Ck"e //
+31 bone	baq //
+32 grease	%mantek //  Spanish loan
+33 egg	xos //
+34 horn	tkaC //
+35 tail	txe7 //
+36 feather	tsmal //
+37 hair	smal //
+38 head	nwi7ye //
+39 ear	Sky~in //
+40 eye	baq" ky~wice //
+41 nose	tCana //
+42 mouth	ci7 //
+43 tooth	twic qe7 //
+44 tongue	waq"e //
+45 claw	tSk"y~aq //
+46 foot	qqan //
+47 knee	nC"eky~e //
+48 hand	nq"abe //
+49 belly	tk"ux //
+50 neck	qul //
+51 breasts	ke7imx //
+52 heart	tanmiya //
+53 liver	tC"oC" //
+54 drink	k"ana //
+55 eat	wan //
+56 bite	C"y~an //
+57 see	C"y~an //
+58 hear	olt //
+59 know	tbiya //
+60 sleep	tanSa //
+61 die	ky~im //
+62 kill	tby~on //
+63 swim	Snu7ine //
+64 fly	lipan //
+65 walk	bet //
+66 come	ul //
+67 lie	koSl //
+68 sit	q"uql //
+69 stand	wal //
+70 give	q"one //
+71 say	tman //
+72 sun	q"ix //
+73 moon	Sx~aw //
+74 star	Cew //
+75 water	a7 //
+76 rain	xbal //
+77 stone	Saq //
+78 sand	poqlax //
+79 earth	C"oC" //
+80 cloud	mux //
+81 smoke	sib //
+82 fire	q"aq" //
+83 ash	cax //
+84 burn	k"ant //
+85 path	tq"abbe //
+86 mountain	wic //
+87 red	ky~aq //
+88 green	CaS //
+89 yellow	Sq"an //
+90 white	saq //
+91 black	q"aq u7x //
+92 night	aq"balil //
+93 hot	ky~qa7 //
+94 cold	Cew //
+95 full	noxn //
+96 new	ak"ax //
+97 good	ban ke //
+98 round	tulin tix //
+99 dry	cqix //
+100 name	tbi //
+SIPAKAPENSE{May.MAYAN|Mayan,Quichean-Mamean,GreaterQuichean,Sipacapeno@Mayan,Quichean-Mamean,GreaterQuichean,Sipacapeno}
+ 1   15.20  -91.56        8000         qum
+6 who	Cinaq //
+1 I	in //
+2 you	at //
+3 we	ox //
+7 what	Ce //
+4 this	wa7 //
+5 that	la7 //
+92 night	aq"ab" //
+11 one	xun //
+12 two	k"y~eb" //
+9 all	nxel //
+10 many	k"iy //
+77 stone	ab"ax //
+78 sand	sanyab" //
+79 earth	ulew //
+86 mountain	xyib" //
+75 water	ya7 //
+72 sun	q"ix //
+73 moon	ik" //
+74 star	C"mil //
+80 cloud	muc" //
+76 rain	xab" //
+82 fire	q"aq" //
+81 smoke	sib" //
+83 ash	Cax //
+35 tail	xey //
+34 horn	uk"a //
+21 dog	c"i7 //
+20 bird	k"y~eq Ckop //
+36 feather	Sik" //
+33 egg	mlob" //
+19 fish	kar //
+22 louse	squk" //
+43 tooth	ru ey //
+39 ear	Skin //
+40 eye	b"aq" waC //
+37 hair	wi7 //
+38 head	xlom, wi7 //
+41 nose	cam //
+42 mouth	Ci7 //
+44 tongue	aq" //
+50 neck	qul //
+48 hand	q"ab" //
+45 claw	Sk"y~aq //
+46 foot	qan //
+47 knee	C"ek //
+31 bone	b"aq //
+49 belly	son //
+53 liver	XXX //
+51 breast	im //
+52 heart	%anma7 // borrowed from Spanish
+30 blood	kik" //
+28 skin	ty~oxil //
+23 tree	Ce7 //
+25 leaf	Saq //
+27 bark	ix //
+26 root	Se7 //
+24 seed	ixa7 //
+32 grease	%manteka7 // borrowed from Spanish
+29 flesh	ty~ax //
+16 woman	iSaq //
+17 man	aCi //
+18 person	wnaq //
+100 name	b"i7 //
+85 path	b"ey //
+56 bite	ti7 //
+54 drink	qum //
+71 say	b"ix //
+70 give	ya7 //
+58 hear	ta7 //
+57 see	il //
+59 know	tamax //
+55 eat	wa7 //
+60 sleep	wor //
+61 die	kom //
+62 kill	witax //
+84 burn	k"at //
+95 full	nonaq //
+63 swim	rwi ya7 //
+64 fly	Sik"in //
+65 walk	b"in //
+66 come	pet //
+87 red	ky~aq //
+88 green	raS //
+89 yellow	q"en //
+91 black	q"eq //
+90 white	saq //
+94 cold	tew //
+93 hot	kt"an, mq"en //
+13 big	nim //
+15 small	nuC" //
+14 long	nim raqan //
+97 good	uc, wen //
+98 round	b"olb"ik //
+96 new	k"ak" //
+68 sit	k"uqlik //
+69 stand	walik //
+67 lie	koc"lik //
+99 dry	Cqix //
+8 not	qa //
+SACAPULTECO_SACAPULAS_CENTRO{May.MAYAN|Mayan,Quichean-Mamean,GreaterQuichean,Sacapulteco@Mayan,Quichean-Mamean,GreaterQuichean,Sacapulteco}
+ 1   15.27  -91.08       15000         quv
+6 who	na //
+1 I	ra7in //
+2 you	ra7at //
+3 we	ra7ox //
+7 what	Ce //
+4 this	ri7 //
+5 that	la7 //
+92 night	aq"ab" //
+11 one	xun //
+12 two	ki7ab" //
+9 all	ranaxel //
+10 many	k"iy //
+77 stone	ab"ax //
+78 sand	saneb" //
+79 earth	ulew //
+86 mountain	xayub" //
+75 water	ya7 //
+72 sun	q"ix //
+73 moon	qatet //
+74 star	C"imil //
+80 cloud	suc" //
+76 rain	xab"al //
+82 fire	q"aq" //
+81 smoke	seb" //
+83 ash	Cax //
+35 tail	xey //
+34 horn	uk"a7 //
+21 dog	c"e7 //
+20 bird	c"ikin //
+36 feather	rismal //
+33 egg	saqmalob" //
+19 fish	kar //
+22 louse	ok" //
+43 tooth	wa ey //
+39 ear	Sikin //
+40 eye	b"a7 waC //
+37 hair	we7 //
+38 head	xalom //
+41 nose	cam //
+42 mouth	Ci7 //
+44 tongue	aq" //
+50 neck	paqul //
+48 hand	q"ab" //
+45 claw	iSk"aS //
+46 foot	aqan //
+47 knee	wi7 C"ek //
+31 bone	b"aq //
+49 belly	k"oS //
+53 liver	saseb" //
+51 breast	tu7 //
+52 heart	%anima7 // borrowed from Spanish
+30 blood	kik" //
+28 skin	c"umal //
+23 tree	Ce7 //
+25 leaf	raSaq //
+27 bark	ix //
+26 root	rak"amal //
+24 seed	ixa7 //
+32 grease	%manteka7 // borrowed from Spanish
+29 flesh	ti7ex //
+16 woman	iSaq //
+17 man	aCiN //
+18 person	wanaq //
+100 name	b"e7 //
+85 path	b"ey //
+56 bite	kayix, qapux //
+54 drink	qamux //
+71 say	b"ax //
+70 give	ya7 //
+58 hear	t //
+57 see	il //
+59 know	eta7am //
+55 eat	wa7 //
+60 sleep	war //
+61 die	kam //
+62 kill	kamasax //
+84 burn	k"at //
+95 full	naxanaq //
+63 swim	itin //
+64 fly	rapap //
+65 walk	b"in //
+66 come	pet //
+87 red	ky~aq //
+88 green	raS //
+89 yellow	q"an //
+91 black	q"aq //
+90 white	saq //
+94 cold	tew //
+93 hot	kat"an, maq"an //
+13 big	nim //
+15 small	C"aten //
+14 long	yoqayik //
+97 good	oc //
+98 round	b"alab"ek //
+96 new	k"a7ak" //
+68 sit	k"uqulek //
+69 stand	walek //
+67 lie	kac"alek //
+99 dry	Caqex //
+8 not	tax //
+CENTRAL_QUICHE{May.MAYAN|Mayan,Quichean-Mamean,GreaterQuichean,Quichean,Quiche-Achi@Mayan,Quichean-Mamean,GreaterQuichean,Quichean,Quiche-Achi}
+ 1   15.00  -91.42     1900000   qch   quc
+1 I	in
+2 you	at
+3 we	ux
+4 this	we ri7
+5 that	le7
+6 who	xaCin
+7 what	xas
+8 not	man tax
+9 all	konoxel
+10 many	k"i
+11 one	xun
+12 two	kieb"
+13 big	nim
+14 long	nim
+15 small	C"utin
+16 woman	iSoq
+17 man	aCi
+18 person	winaq
+19 fish	k3r
+20 bird	c"ikin
+21 dog	c"i7
+22 louse	uk"
+23 tree	Ce7
+24 seed	ixa7
+25 leaf	uSaq
+26 root	sera7
+27 bark	ix
+28 skin	c"um
+29 flesh	tix
+30 blood	kik"el
+31 bone	b"aq
+32 grease	%manteka7 // Spanish loan
+33 egg	saqmol
+34 horn	ruk"a7
+35 tail	xe7
+36 feather	kiS
+37 hair	wi7
+38 head	xolom
+39 ear	Sikin
+40 eye	b"aq"oC
+41 nose	cam
+42 mouth	Ci7
+43 tooth	ware
+44 tongue	aq"
+45 claw	iSk"i3q
+46 foot	aq3n
+47 knee	uxolom C"ekax
+48 hand	q"3b"
+49 belly	pam
+50 neck	qul
+51 breasts	tu7
+52 heart	%wanima7 // loan from Spanish
+53 liver	seseb"
+54 drink	tix
+55 eat	wik
+56 bite	ti7
+57 see	il
+58 hear	ta
+59 know	etam
+60 sleep	war
+61 die	k3m
+62 kill	kamisa
+63 swim	muSa
+64 fly	rapap
+65 walk	b"in
+66 come	opan
+67 lie	q"oy
+68 sit	t"uy
+69 stand	tak"
+70 give	ya
+71 say	b"i
+72 sun	q"ix
+73 moon	ik"
+74 star	C"imil
+75 water	xa7
+76 rain	xab"
+77 stone	ab"3x
+78 sand	suni3b"
+79 earth	ulew
+80 cloud	suc"
+81 smoke	sib"
+82 fire	q"aq"
+83 ash	Cax
+84 burn	k"at
+85 path	alax b"e
+86 mountain	k"aCelax
+87 red	ki3q
+88 green	r3S
+89 yellow	q"3n
+90 white	saq
+91 black	q"ek
+92 night	Caq"3b"
+93 hot	k"at3n
+94 cold	tew
+95 full	noxinaq
+96 new	k"ak"
+97 good	uc
+98 round	k"olok"ik
+99 dry	C3qix
+100 name	b"i7
+SOUTHERN_CAKCHIQUEL_SAN_ANDRES_ITZAPA{May.MAYAN|Mayan,Quichean-Mamean,GreaterQuichean,Quichean,Cakchiquel@Mayan,Quichean-Mamean,GreaterQuichean,Quichean,Cakchiquel}
+ 1   14.62  -90.84       43000   cak   ckf
+6 who	aCike //
+1 I	yin //
+2 you	rat //
+3 we	rox //
+7 what	aCike //
+4 this	re7 //
+5 that	la7 //
+92 night	aq"a7 //
+11 one	xun //
+12 two	ka7i7 //
+9 all	noxel //
+10 many	k"iy //
+77 stone	ab"ax //
+78 sand	sanayil //
+79 earth	ulew //
+86 mountain	xuyu7 //
+75 water	ya7 //
+72 sun	q"ix //
+73 moon	ik" //
+74 star	C"umil //
+80 cloud	suc" //
+76 rain	xob" //
+82 fire	q"aq" //
+81 smoke	sib" //
+83 ash	Cax //
+35 tail	xey //
+34 horn	uk"a7 //
+21 dog	c"e7 //
+20 bird	c"kin //
+36 feather	rusmal //
+33 egg	saqmolo7 //
+19 fish	kar //
+22 louse	uk" //
+43 tooth	ey //
+39 ear	xikin //
+40 eye	naq" waC //
+37 hair	rusmal wi7 //
+38 head	xolon //
+41 nose	can //
+42 mouth	Ci7 //
+44 tongue	aq" //
+50 neck	qul //
+48 hand	q"a7 //
+45 claw	iSk"y~aq //
+46 foot	aqan //
+47 knee	C"ek //
+31 bone	b"aq //
+49 belly	pam //
+53 liver	sase7 //
+51 breast	c"um //
+52 heart	%anima // borrowed from Spanish
+30 blood	kik" //
+28 skin	c"umal //
+23 tree	Ce7 //
+25 leaf	ruSaq //
+27 bark	rix //
+26 root	ruSe7 //
+24 seed	ixac //
+32 grease	%manteka // borrowed from Spanish
+29 flesh	ti7 //
+16 woman	iSoq //
+17 man	aCin //
+18 person	winaq //
+100 name	b"i7 //
+85 path	b"ey //
+56 bite	purix //
+54 drink	tix //
+71 say	b"ix //
+70 give	ya7 //
+58 hear	k"oSax //
+57 see	cu7 //
+59 know	etaman //
+55 eat	wa7 //
+60 sleep	war //
+61 die	kom //
+62 kill	komisax //
+84 burn	k"at //
+95 full	noxnaq //
+63 swim	muSin //
+64 fly	ropin //
+65 walk	b"in //
+66 come	pe //
+87 red	ky~aq //
+88 green	raS //
+89 yellow	q"an //
+91 black	Saq //
+90 white	saq //
+94 cold	tew //
+93 hot	k"atan, maq"an //
+13 big	tix //
+15 small	ko7ol //
+14 long	tix raqan //
+97 good	uc //
+98 round	k"olk"ik, sirisik //
+96 new	XXX //
+68 sit	c"uyul //
+69 stand	pa7al //
+67 lie	koc"ol //
+99 dry	Caqix //
+8 not	manta //
+TZUTUJIL_SAN_JUAN_LA_LAGUNA{May.MAYAN|Mayan,Quichean-Mamean,GreaterQuichean,Quichean,Tzutujil@Mayan,Quichean-Mamean,GreaterQuichean,Quichean,Tzutujil}
+ 1   14.70  -91.28       50000   tzu   tzj
+6 who	naq k"ari7 //
+1 I	inin //
+2 you	atet //
+3 we	oxox //
+7 what	naq //
+4 this	xawari7 //
+5 that	xa7 //
+92 night	aq"a7 //
+11 one	xun //
+12 two	ka7i7 //
+9 all	ronoxel //
+10 many	k"iy //
+77 stone	ab"ax //
+78 sand	sanayi7 //
+79 earth	ulew, ulep //
+86 mountain	xuyu7 //
+75 water	xa7 //
+72 sun	q"ix //
+73 moon	ik" //
+74 star	C"umil //
+80 cloud	suc" //
+76 rain	xab" //
+82 fire	q"aq" //
+81 smoke	sib" //
+83 ash	Cax //
+35 tail	xey //
+34 horn	uk"a7 //
+21 dog	c"i7 //
+20 bird	c"ikin //
+36 feather	ismal //
+33 egg	saqmol //
+19 fish	Cu7 //
+22 louse	uk" //
+43 tooth	eyax, ey //
+39 ear	ixkin //
+40 eye	waC //
+37 hair	smal wi7 //
+38 head	wi7, wi7ax //
+41 nose	cam //
+42 mouth	Ci7ax //
+44 tongue	aq" //
+50 neck	qul //
+48 hand	q"a7, q"ab"ax //
+45 claw	iSk"aq //
+46 foot	ruSaq aqan //
+47 knee	C"ekax //
+31 bone	b"aq //
+49 belly	pan //
+53 liver	sase7 //
+51 breast	c"um, c"umax //
+52 heart	%animo // borrowed from Spanish
+30 blood	kik" //
+28 skin	c"umal //
+23 tree	Ce7 //
+25 leaf	ruSaq //
+27 bark	rix //
+26 root	ruSe7 //
+24 seed	ixac //
+32 grease	%manteka7 // borrowed from Spanish
+29 flesh	ti7ix //
+16 woman	iSoq //
+17 man	aCi //
+18 person	winaq //
+100 name	b"i7, b"i7ax //
+85 path	b"ey //
+56 bite	ti7 //
+54 drink	tix //
+71 say	b"ix //
+70 give	ya7 //
+58 hear	k"aSax //
+57 see	cu7, c"et //
+59 know	otaqin //
+55 eat	wa7 //
+60 sleep	war //
+61 die	kam //
+62 kill	kamsax //
+84 burn	k"at //
+95 full	noxnaq //
+63 swim	mux //
+64 fly	Sk"an //
+65 walk	b"in //
+66 come	pet //
+87 red	kaq //
+88 green	reS //
+89 yellow	q"en //
+91 black	q"eq //
+90 white	saq //
+94 cold	tew, tep //
+93 hot	k"atan, maq"en  //
+13 big	nim //
+15 small	koli, tinoy //
+14 long	nim raqan //
+97 good	uc //
+98 round	k"olk"ik //
+96 new	k"ak"a //
+68 sit	t"ubuli //
+69 stand	pali //
+67 lie	k"ocoli, punuli //
+99 dry	Caqix //
+8 not	mata //
+POQOMCHI_WESTERN{May.MAYAN|Mayan,Quichean-Mamean,GreaterQuichean,Pocom@Mayan,Quichean-Mamean,GreaterQuichean,Pocom}
+ 1   15.42  -90.50       50000   pkm   pob
+1 I	hin //
+2 you	hat //
+3 we	hox //
+11 one	xinax //
+12 two	kib" //
+18 person	%kristyana // Spanish loan
+19 fish	kar //
+21 dog	c"i7 //
+22 louse	uk" //
+23 tree	Ce7 //
+28 skin	c"umal //
+30 blood	kik" //
+31 bone	b"aq //
+34 horn	uk"a7 //
+39 ear	Sikin //
+40 eye	naq"waCis //
+41 nose	xu7 //
+43 tooth	ehis //
+44 tongue	aq" //
+47 knee	nahC"ek //
+48 hand	q"ab" //
+51 breast	C"uC" //
+53 liver	tamat //
+54 drink	uk"ex //
+57 see	ilow //
+58 hear	b"irax //
+61 die	kim //
+66 come	Cal //
+72 sun	q"ix //
+74 star	C"umil, C"imil //
+75 water	ha7 //
+77 stone	ab"ax //
+82 fire	q"aq" //
+85 path	b"e //
+86 mountain	yuq" //
+92 night	aq"ab" //
+95 full	nuxunaq //
+96 new	ak" //
+100 name	b"inal //
+4 this	re7wili //
+5 that	re7re7re7,re7wulu7 //
+6 who	hanwaC //
+7 what	Caxb"i //
+8 not	ma7 //
+9 all	CinCel //
+10 many	k"ih //
+13 big	nim //
+14 long	nimroq //
+15 small	t"uC //
+16 woman	Soq //
+17 man	winaq //
+20 bird	c"ikin //
+24 seed	ixa7, xa7 //
+25 leaf	Saq //
+26 root	ra7 //
+27 bark	ix //
+29 flesh	tiwik //
+32 grease	%manteka // Spanish loan
+33 egg	milox //
+35 tail	xe //
+36 feather	rix //
+37 hair	rismal na //
+38 head	na //
+42 mouth	Ci7 //
+45 claw	iSk"aq //
+46 foot	oq //
+49 belly	pam //
+50 neck	alaq //
+55 eat	wi7 //
+56 bite	tiw //
+59 know	nab"ex //
+60 sleep	wir //
+62 kill	kansax //
+63 swim	muSun //
+64 fly	Sik"in //
+65 walk	b"eh //
+67 lie	yoklik //
+68 sit	c"uqlik //
+69 stand	palik //
+70 give	yew //
+71 say	q"or //
+73 moon	poh //
+76 rain	xab" //
+78 sand	sanib" //
+79 earth	ak"al //
+80 cloud	suc" //
+81 smoke	sib" //
+83 ash	Cax //
+84 burn	k"at //
+87 red	kaq //
+88 green	reS //
+89 yellow	q"an //
+90 white	saq //
+91 black	q"eq //
+93 hot	c"a7 //
+94 cold	k"uSik //
+97 good	atob" //
+98 round	tolotik //
+99 dry	Ciqix //
+POCOMAM_EASTERN{May.MAYAN|Mayan,Quichean-Mamean,GreaterQuichean,Pocom@Mayan,Quichean-Mamean,GreaterQuichean,Pocom}
+ 1   14.67  -90.50       12500   pcm   poa
+1 I	hin //
+2 you	hat //
+3 we	qox //
+4 this	riyu7 //
+5 that	rere7, loho7 //
+6 who	ha7 waC //
+7 what	hila7 //
+8 not	ma //
+9 all	intier //
+10 many	kongan //
+11 one	xanax //
+12 two	ki7im7 //
+13 big	nim //
+14 long	nim ruaq //
+15 small	piy7 //
+16 woman	iSoq //
+17 man	imas //
+18 person	winaq //
+19 fish	kar //
+20 bird	Cikop //
+21 dog	c"i //
+22 louse	uk" //
+23 tree	Cie7 //
+24 seed	naq"aC //
+25 leaf	Saq //
+26 root	k"ahamil Cie7 //
+27 bark	rix Cie7 //
+28 skin	ix //
+29 flesh	ti7 //
+30 blood	kik" //
+31 bone	w"aq //
+32 grease	q"ene7 //
+33 egg	malox //
+34 horn	uk"a7 //
+35 tail	xieh //
+36 feather	rix Cikop //
+37 hair	nah //
+38 head	xaluam //
+39 ear	Sikin //
+40 eye	naq", waC //
+41 nose	xu7 //
+42 mouth	Ci7 //
+43 tooth	ieh //
+44 tongue	aq" //
+45 claw	iSk"aq //
+46 foot	tuq //
+47 knee	nah, C"ek //
+48 hand	q"am" //
+49 belly	pam //
+50 neck	alaq" //
+51 breasts	C"uC" //
+52 heart	alm //
+53 liver	igad //
+54 drink	uk"ex //
+55 eat	wi7 //
+56 bite	haC" //
+57 see	ila7 //
+58 hear	w"arex //
+59 know	w"arem //
+60 sleep	wir //
+61 die	kim //
+62 kill	kanasah //
+63 swim	muSin //
+64 fly	pur //
+65 walk	w"eh //
+66 come	k"uw //
+67 lie	yokil //
+68 sit	C"ikli //
+69 stand	pali //
+70 give	yie7 //
+71 say	q"or //
+72 sun	q"ix //
+73 moon	poh //
+74 star	C"imin //
+75 water	ha7 //
+76 rain	xam" //
+77 stone	aw"ox //
+78 sand	sanim" //
+79 earth	ak"al //
+80 cloud	suc" //
+81 smoke	sim" //
+82 fire	q"aq" //
+83 ash	sa7 Cax //
+84 burn	qop //
+85 path	w"ieh //
+86 mountain	yuq" //
+87 red	kaq //
+88 green	raS //
+89 yellow	q"an //
+90 white	saq //
+91 black	q"eq" //
+92 night	aq"em7 //
+93 hot	C"a7 //
+94 cold	q"atik //
+95 full	nuaxinaq //
+96 new	ok" //
+97 good	no waxal //
+98 round	k"olok"i //
+99 dry	Ciqix //
+100 name	w"ih //
+USPANTEKO{May.MAYAN|Mayan,Quichean-Mamean,GreaterQuichean,Uspantec@Mayan,Quichean-Mamean,GreaterQuichean,Uspantec}
+ 1   15.45  -90.75        3000         usp
+1 I	in //
+2 you	at //
+3 we	ox //
+4 this	ri //
+5 that	re //
+6 who	nen //
+7 what	nen //
+8 not	ma, ma7 //
+9 all	ronoxel //
+10 many	k"i, k"iy //
+11 one	xun //
+12 two	kib" //
+13 big	nim //
+14 long	nim raqan //
+15 small	q"un //
+16 woman	%anim // borrowed from Spanish
+17 man	wanaq //
+18 person	%kristy~ano // borrowed from Spanish
+19 fish	kar //
+20 bird	c"ikin //
+21 dog	T"i7 //
+22 louse	suq"uk" //
+23 tree	Ce7 //
+24 seed	fxax //
+25 leaf	Saq //
+26 root	ra7 //
+27 bark	rex Ce7 //
+28 skin	c"umal //
+29 flesh	tinik //
+30 blood	kik" //
+31 bone	b"aq //
+32 grease	%mantega7 // borrowed from Spanish
+33 egg	saqmolob" //
+34 horn	%kaCo // borrowed from Spanish
+35 tail	xe //
+36 feather	Sik" //
+37 hair	risimal b"a //
+38 head	b"a //
+39 ear	Sikin //
+40 eye	b"aq" wiC //
+41 nose	cam //
+42 mouth	ci7 //
+43 tooth	e //
+44 tongue	aq" //
+45 claw	iS"eq //
+46 foot	aqan //
+47 knee	C"ek //
+48 hand	q"ab" //
+49 belly	C"ol //
+50 neck	qul //
+51 breast	tu7 //
+52 heart	%anim // borrowed from Spanish
+53 liver	ulew, ulewal //
+54 drink	uk"ax //
+55 eat	win //
+56 bite	ti7 //
+57 see	XXX //
+58 hear	ta //
+59 know	etam //
+60 sleep	war //
+61 die	kam //
+62 kill	kamsax //
+63 swim	atin //
+64 fly	Sik"an, rupupun //
+65 walk	b"en //
+66 come	pet //
+67 lie	celik //
+68 sit	kub"ulik //
+69 stand	walik //
+70 give	ya7, ye7 //
+71 say	XXX //
+72 sun	q"ix //
+73 moon	ik" //
+74 star	C"umil //
+75 water	xa7 //
+76 rain	xab" //
+77 stone	ab"ax //
+78 sand	saneb", poq //
+79 earth	ulew //
+80 cloud	suc" //
+81 smoke	sib" //
+82 fire	q"aq" //
+83 ash	Cax //
+84 burn	k"at //
+85 path	b"e //
+86 mountain	wic //
+87 red	keq //
+88 green	raS //
+89 yellow	q"an //
+90 white	saq //
+91 black	q"eq //
+92 night	laq"ab" //
+93 hot	miq"in //
+94 cold	tew, Soron //
+95 full	nosalik //
+96 new	ak" //
+97 good	ci //
+98 round	k"olk"ik, ketkik //
+99 dry	Caqex //
+100 name	b"ix //
+EASTERN_KEKCHI_CAHABON{May.MAYAN|Mayan,Quichean-Mamean,GreaterQuichean,Kekchi@Mayan,Quichean-Mamean,GreaterQuichean,Kekchi}
+ 1   15.56  -89.82      423500   kek   kek
+6 who	anih //
+1 I	ha7in //
+2 you	ha7at //
+3 we	ha7o //
+7 what	k"aruh //
+4 this	ha7in //
+5 that	ha7an //
+92 night	q"oxin //
+11 one	xun //
+12 two	ka7ib" //
+9 all	Cixunil //
+10 many	nab"al //
+77 stone	pek //
+78 sand	samahi7 //
+79 earth	C"oC" //
+86 mountain	cul //
+75 water	ha7 //
+72 sun	saq"en //
+73 moon	poh //
+74 star	Cahim //
+80 cloud	Coql //
+76 rain	hab" //
+82 fire	Sam //
+81 smoke	sib" //
+83 ash	Cah //
+35 tail	heh //
+34 horn	Sukub" //
+21 dog	C"i7 //
+20 bird	c"ik //
+36 feather	rismal //
+33 egg	molb" //
+19 fish	kar //
+22 louse	uk" //
+43 tooth	ruh eh //
+39 ear	Sik //
+40 eye	naq" uh //
+37 hair	rismal //
+38 head	xolom //
+41 nose	ux //
+42 mouth	eh //
+44 tongue	rux aq" //
+50 neck	xax //
+48 hand	uq" //
+45 claw	iSix //
+46 foot	oq //
+47 knee	b"en aq //
+31 bone	b"aq //
+49 belly	sa7 //
+53 liver	saseb" //
+51 breast	tu7 //
+52 heart	%anima // borrowed from Spanish
+30 blood	kik" //
+28 skin	c"umal //
+23 tree	Ce7 //
+25 leaf	Saq //
+27 bark	rix //
+26 root	Se7 //
+24 seed	iyax //
+32 grease	%mantek // borrowed from Spanish
+29 flesh	tib" //
+16 woman	iSq //
+17 man	winq //
+18 person	%kristy~an // borrowed from Spanish
+100 name	k"ab"a7 //
+85 path	b"e //
+56 bite	tiw //
+54 drink	uk" //
+71 say	yeh //
+70 give	k"eh //
+58 hear	ab"ih //
+57 see	il //
+59 know	naw //
+55 eat	wa7 //
+60 sleep	war //
+61 die	kam //
+62 kill	kamsih //
+84 burn	leC //
+95 full	nuxinaq //
+63 swim	numS //
+64 fly	Sik"ab" //
+65 walk	b"eh //
+66 come	Cal //
+87 red	kaq //
+88 green	raS //
+89 yellow	q"an //
+91 black	eq //
+90 white	saq //
+94 cold	keh //
+93 hot	teq //
+13 big	nim //
+15 small	kaC"in //
+14 long	nim roq //
+97 good	us //
+98 round	t"ort"oh //
+96 new	ak" //
+68 sit	woq"w~oh //
+69 stand	SakSoh //
+67 lie	sotsoh //
+99 dry	Caqih //
+8 not	ma //
+ZINACANTAN_TZOTZIL{May.MAYAN|Mayan,Cholan-Tzeltalan,Tzeltalan@Mayan,Cholan-Tzeltalan,Tzeltalan}
+ 1   16.83  -92.83       25000   tzz   tzz
+1 I	XXX //
+2 you	vot, voSuk //
+3 we	votikotik //
+4 this	li7 //
+5 that	ti, tah //
+6 who	buC"u, k"u Cal //
+7 what	k"u //
+8 not	mu //
+9 all	kotol, labal //
+10 many	ep //
+11 one	hun //
+12 two	Ca7 //
+13 big	muk" //
+14 long	bicbic, c"upul //
+15 small	bik"it //
+16 woman	anc //
+17 man	vinik, mol //
+18 person	%kriSCnano //  Spanish loan
+19 fish	Coy //
+20 bird	mut //
+21 dog	c"i7 //
+22 louse	uC" //
+23 tree	te7 //
+24 seed	bek" //
+25 leaf	anal //
+26 root	ibel, isimil //
+27 bark	patil //
+28 skin	nukulal //
+29 flesh	bek"tal //
+30 blood	C"iC"elil //
+31 bone	bak //
+32 grease	hup"el //
+33 egg	tanal, ton //
+34 horn	Sulub //
+35 tail	neil //
+36 feather	k"uk"umal //
+37 hair	coc, cacal //
+38 head	holol //
+39 ear	Cikinil //
+40 eye	satil, yaSavo7 //
+41 nose	ni7 //
+42 mouth	eal //
+43 tooth	eal, tan //
+44 tongue	ok" //
+45 claw	iC"akil //
+46 foot	okol //
+47 knee	holov akan, k"uhav //
+48 hand	k"abal, k"obol //
+49 belly	cukut //
+50 neck	nuk"il //
+51 breasts	Cu7il //
+52 heart	onil //
+53 liver	sekub //
+54 drink	uC" //
+55 eat	oCan, lahes //
+56 bite	ti7, cak //
+57 see	il, ilbe sat //
+58 hear	a7i //
+59 know	na7, c"ak //
+60 sleep	bat C"ulel, vay //
+61 die	Cam //
+62 kill	milvan, Cames //
+63 swim	nuSih //
+64 fly	vil //
+65 walk	Sanav //
+66 come	tal //
+67 lie	puC"etah //
+68 sit	cuni //
+69 stand	XXX //
+70 give	ak" //
+71 say	al //
+72 sun	k"ak"al //
+73 moon	u //
+74 star	k"anal //
+75 water	vo7, al //
+76 rain	vo7 //
+77 stone	ton //
+78 sand	yi7 //
+79 earth	XXX //
+80 cloud	tok //
+81 smoke	C"ail //
+82 fire	k"ok" //
+83 ash	tan //
+84 burn	Cik", k"ak" //
+85 path	be, ileb //
+86 mountain	vic //
+87 red	Cak, coh //
+88 green	yoS //
+89 yellow	kon //
+90 white	sak //
+91 black	ik" //
+92 night	ak"ubal, ik" osil //
+93 hot	k"ok" //
+94 cold	sik //
+95 full	noh //
+96 new	aC" //
+97 good	uc, lek //
+98 round	XXX //
+99 dry	takin //
+100 name	bil //
+TZELTAL_BACHAJON{May.MAYAN|Mayan,Cholan-Tzeltalan,Tzeltalan@Mayan,Cholan-Tzeltalan,Tzeltalan}
+ 1   16.83  -92.25      100000   tze   tzb
+1 I	ho7on //
+2 you	ha7at //
+3 we	ho7otik, htukeltik //
+4 this	ha7 ini, ini //
+5 that	ha7 me ine //
+6 who	maC"a //
+7 what	bin a, binti a //
+8 not	ma7uk, manCuk //
+9 all	spisil //
+10 many	bayel, ipal //
+11 one	xun //
+12 two	Ceb //
+13 big	niwak, muk" //
+14 long	nat //
+15 small	bik"it, xwic" //
+16 woman	anc //
+17 man	winik //
+18 person	%kristiano //  Spanish loan
+19 fish	Cay //
+20 bird	mut //
+21 dog	c"i7 //
+22 louse	uC" //
+23 tree	te7 //
+24 seed	XXX //
+25 leaf	yabinal //
+26 root	lop" //
+27 bark	pat //
+28 skin	nukul //
+29 flesh	bak"et //
+30 blood	C"iC" //
+31 bone	bak //
+32 grease	%unto //  Spanish loan
+33 egg	tomut //
+34 horn	Sulub //
+35 tail	ne //
+36 feather	k"uk"um //
+37 hair	coc //
+38 head	xol //
+39 ear	Cikin //
+40 eye	sit //
+41 nose	ni7 //
+42 mouth	eh //
+43 tooth	ehal //
+44 tongue	ak" //
+45 claw	eC"ak //
+46 foot	ok //
+47 knee	hol kakan //
+48 hand	k"ab //
+49 belly	C"ut Cambalam //
+50 neck	tenuk" //
+51 breasts	Cu7 //
+52 heart	otan //
+53 liver	sekub //
+54 drink	uC" //
+55 eat	we7, k"uS //
+56 bite	ti7 //
+57 see	il //
+58 hear	aiy //
+59 know	nab //
+60 sleep	way //
+61 die	Cam //
+62 kill	mil //
+63 swim	nuS //
+64 fly	wil //
+65 walk	beh //
+66 come	tal //
+67 lie	way, eC //
+68 sit	huk, huc //
+69 stand	tek" //
+70 give	ak" //
+71 say	hal, ut //
+72 sun	k"ak"al //
+73 moon	XXX //
+74 star	ek" //
+75 water	ha7 //
+76 rain	ha7al //
+77 stone	ton //
+78 sand	hi7 //
+79 earth	lum //
+80 cloud	tokal //
+81 smoke	C"ahil //
+82 fire	k"ak" //
+83 ash	tan //
+84 burn	Cik" //
+85 path	XXX //
+86 mountain	wic, cel //
+87 red	cax //
+88 green	xaS //
+89 yellow	k"an //
+90 white	sak //
+91 black	ik" //
+92 night	ak"abal //
+93 hot	k"iSin //
+94 cold	sik //
+95 full	but"ul, noxel //
+96 new	aC" //
+97 good	lek //
+98 round	nolol, sepel //
+99 dry	takin //
+100 name	bihilil //
+CHOL_TUMBALA{May.MAYAN|Mayan,Cholan-Tzeltalan,Cholan,Chol-Chontal@Mayan,Cholan-Tzeltalan,Cholan,Chol-Chontal}
+ 1   17.75  -92.50       90000   col   ctu
+1 I	ho5on //
+2 you	hatet //
+3 we	lohon //
+4 this	hini //
+5 that	iSiyi
+6 who	maki, maCki //s
+7 what	Cuki //
+8 not	ma7an //
+9 all	XXX //
+10 many	bak"3l //
+11 one	xum //
+12 two	Ca7 //
+13 big	5oh, kolem //
+14 long	tam //
+15 small	al3 to, p"ip"it3l
+16 woman	SiSik //
+17 man	winik //
+18 person	kiSta5u //
+19 fish	C3y //
+20 bird	mut //
+21 dog	c"i7 //
+22 louse	uC" //
+23 tree	te7 //
+24 seed	b3k", pak" //
+25 leaf	yopom //
+26 root	wi7, tomel //
+27 bark	XXX //
+28 skin	p3C3l //
+29 flesh	we7el //
+30 blood	C"iC" //
+31 bone	bak //
+32 grease	XXX //
+33 egg	tumut, tun //
+34 horn	XXX //
+35 tail	5eh //
+36 feather	cuc //
+37 hair	cuc //
+38 head	hol //
+39 ear	Cikin //
+40 eye	wut //
+41 nose	ni7 //
+42 mouth	eh //
+43 tooth	bak eh //
+44 tongue	ak" //
+45 claw	XXX //
+46 foot	ok //
+47 knee	piS //
+48 hand	k"3b //
+49 belly	XXX //
+50 neck	XXX //
+51 breasts	Cu7, tan //
+52 heart	pusik"al //
+53 liver	olmal //
+54 drink	hap //
+55 eat	k"uS //
+56 bite	k"uS //
+57 see	ila, k"el //
+58 hear	ubi //
+59 know	ubint //
+60 sleep	w3y //
+61 die	C3m, sat //
+62 kill	his, c3ns //
+63 swim	5uSih //
+64 fly	wel //
+65 walk	S3n //
+66 come	til, t3l //
+67 lie	C"a7, p3k //
+68 sit	buC, 5ak //
+69 stand	wa7 //
+70 give	ak" //
+71 say	al, sub //
+72 sun	Cuhutat //
+73 moon	uw, C"uhu5a7 //
+74 star	ek" //
+75 water	ha7 //
+76 rain	ha7al //
+77 stone	tun, Salel //
+78 sand	hi7 //
+79 earth	lumal //
+80 cloud	tokal //
+81 smoke	buc" //
+82 fire	k"ak //
+83 ash	t3nil k"ak //
+84 burn	pul //
+85 path	al3 bih //
+86 mountain	wic //
+87 red	C3C3k //
+88 green	y3hy3S //
+89 yellow	k"3nk"3n //
+90 white	s3s3k //
+91 black	i7ik" //
+92 night	ak3lel, ab3lel //
+93 hot	tik3w //
+94 cold	c35al //
+95 full	but"ul, pamak5a //
+96 new	cihib //
+97 good	uc //
+98 round	pecel, Sotol
+99 dry	t3kin, Cilaw //
+100 name	k"aba7 //
+CHONTAL_TABASCO{May.MAYAN|Mayan,Cholan-Tzeltalan,Cholan,Chol-Chontal@Mayan,Cholan-Tzeltalan,Cholan,Chol-Chontal}
+ 1   18.17  -92.58       38000   cmy   chf
+75 agua	ha7 //
+23 arbol	te7 //
+54 beber	uC"en, u buk"a //
+85 camino	bih //
+86 cerro	c"ik //
+34 cuerno	Sukub, hub //
+43 diente	eh //
+12 dos	Ca7 //
+74 estrella	iS"ek", %ahlusero //  Spanish loan
+82 fuego	k"ak" //
+53 higado	yolma //
+25 hoja	u yopo //
+31 hueso	bak //
+44 lengua	ak" //
+95 lleno	tulu //
+48 mano	k"3b //
+61 morir	u C3amo //
+41 nariz	ni7 //
+92 noche	ak"3b //
+100 nombre	k"aba7 //
+3 nosotros	no7onla //
+96 nuevo	cihib //
+58 oir	ubin //
+40 ojo	hut //
+39 oreja	Cikin //
+21 perro	wiCu7 //
+18 persona	winik //
+19 pez	buC" //
+77 piedra	hitun //
+28 piel	p3Ci //
+22 piojo	uC" //
+47 rodilla	piS, p3mpiS //
+30 sangre	C"iC" //
+51 seno	Cu7 //
+72 sol	k"in //
+2 tu	ane //
+11 uno	un //
+66 venir	u te //
+57 ver	C3nen //
+4 this	hindi, ni //
+5 that	hini //
+6 who	maCka, kaSka //
+7 what	kw~a7, ke //
+8 not	maC //
+9 all	upete //
+10 many	k"en //
+13 big	noh //
+14 long	tam //
+15 small	p"i7 //
+16 woman	iSik //
+17 man	winik, alo7 //
+20 bird	mut //
+24 seed	bek", p3k"3bi //
+26 root	wi7 //
+27 bark	u pat te7 //
+29 flesh	u bek"ta, we7e //
+32 grease	pok"ma //
+33 egg	s3ktok" //
+35 tail	neh //
+36 feather	muk"u //
+37 hair	u cuce, cuk //
+38 head	pam //
+42 mouth	ti7 //
+45 claw	iC"3k
+46 foot	ok //
+49 belly	n3k" //
+50 neck	luk"ub, p"iSte7 //
+55 eat	k"uSe7 //
+56 bite	k"uSe7 //
+59 know	winatan //
+60 sleep	w3ye //
+62 kill	c3msen //
+63 swim	nuSe //
+64 fly	wile //
+65 walk	S3mba //
+67 lie	C"a7a //
+68 sit	Cumu //
+69 stand	wa7t3 //
+70 give	3k"e7 //
+71 say	3le7 //
+73 moon	uh //
+76 rain	ha7 //
+78 sand	hi7 //
+79 earth	kab //
+80 cloud	bukla //
+81 smoke	buc" //
+83 ash	c"itan //
+84 burn	pule7, tile //
+87 red	C3k //
+88 green	y3S //
+89 yellow	k"3n //
+90 white	s3k //
+91 black	ik" //
+93 hot	tik3w //
+94 cold	sis //
+97 good	uc //
+98 round	wolo //
+99 dry	tikin //
+CHORTI{May.MAYAN|Mayan,Cholan-Tzeltalan,Cholan,Chorti@Mayan,Cholan-Tzeltalan,Cholan,Chorti}
+ 1   14.83  -89.25       30010   coi   caa
+1 I	en //
+2 you	et, noS //
+3 we	oN //
+4 this	ira //
+5 that	yaxa7 //
+6 who	Ci //
+7 what	tuk"a //
+8 not	ma7Ci //
+9 all	tunor //
+10 many	imp"on //
+11 one	in //
+12 two	Ca7 //
+13 big	nota //
+14 long	innat //
+15 small	CuCu7 ko7e //
+16 woman	iSik //
+17 man	winik //
+18 person	winikop //
+19 fish	Cay //
+20 bird	mut //
+21 dog	c"i7 //
+22 louse	u7C //
+23 tree	te7 //
+24 seed	hinah //
+25 leaf	uyopor //
+26 root	wir //
+27 bark	pat //
+28 skin	pat //
+29 flesh	wer //
+30 blood	C"iC" //
+31 bone	bak //
+32 grease	C"iCmar //
+33 egg	kum //
+34 horn	%kaCu //  Spanish loan
+35 tail	neh //
+36 feather	cuc //
+37 hair	cuc //
+38 head	hor //
+39 ear	Cikin //
+40 eye	nak"iut //
+41 nose	ni7 //
+42 mouth	ti7 //
+43 tooth	eh //
+44 tongue	a7k //
+45 claw	or uyok //
+46 foot	ok //
+47 knee	piS //
+48 hand	k"ap //
+49 belly	nak //
+50 neck	nuk //
+51 breasts	uCu7 //
+52 heart	%alma //  Spanish loan
+53 liver	Semem //
+54 drink	C"i //
+55 eat	we7 //
+56 bite	ak"uhSop //
+57 see	wira //
+58 hear	oyp"ika //
+59 know	nat //
+60 sleep	way //
+61 die	Cam //
+62 kill	Camse //
+63 swim	nuS //
+64 fly	top //
+65 walk	aSanop //
+66 come	yop //
+67 lie	C"a //
+68 sit	turu //
+69 stand	war //
+70 give	ahk" //
+71 say	a7r //
+72 sun	k"in //
+73 moon	uh //
+74 star	e7k //
+75 water	ha7 //
+76 rain	hahar //
+77 stone	tun //
+78 sand	hi7 //
+79 earth	rum //
+80 cloud	tokar //
+81 smoke	buc //
+82 fire	k"ak //
+83 ash	tan //
+84 burn	pur //
+85 path	bir //
+86 mountain	wicir //
+87 red	CakCakop //
+88 green	yaSaS //
+89 yellow	k"an //
+90 white	saksak //
+91 black	%negru u7t //  mixed Spanish-Chorti: black its-surface
+92 night	akbare //
+93 hot	ink"in //
+94 cold	insis //
+95 full	but"ur //
+96 new	tapop //
+97 good	imbucop //
+98 round	gororoh //
+99 dry	takin //
+100 name	uk"aba //
+ITZAJ{May.MAYAN|Mayan,Yucatecan,Mopan-Itza@Mayan,Yucatecan,Mopan-Itza}
+ 1   17.00  -89.83          12   itz   itz
+1 I	ten //
+2 you	teC //
+3 we	into7on //
+4 this	ahelah //
+5 that	aheloh //
+6 who	maS //
+7 what	ba7aS //
+8 not	ma, miS //
+9 all	lah //
+10 many	yab //
+11 one	hun, hum //
+12 two	ka //
+13 big	noh, nohoC //
+14 long	Cawak //
+15 small	CinCan //
+16 woman	iSC"up //
+17 man	winik //
+18 person	mak //
+19 fish	k3y, licil //
+20 bird	C"iC" //
+21 dog	pek" //
+22 louse	uk" //
+23 tree	Ce7 //
+24 seed	nek" //
+25 leaf	le7 //
+26 root	moc //
+27 bark	paC Ce7 //
+28 skin	k"ew, p"e7es //
+29 flesh	b3k" //
+30 blood	k"ik" //
+31 bone	bak //
+32 grease	polok //
+33 egg	he7 //
+34 horn	bak //
+35 tail	neh //
+36 feather	k"uk"um //
+37 hair	XXX //
+38 head	ho7ol, pol //
+39 ear	Sikin //
+40 eye	iC //
+41 nose	ni7 //
+42 mouth	Ci7 //
+43 tooth	koh //
+44 tongue	ak" //
+45 claw	iC"ak //
+46 foot	ok, Cun //
+47 knee	Sontal //
+48 hand	k"ab, k37 //
+49 belly	n3k" //
+50 neck	kal //
+51 breasts	im, Cu7uC //
+52 heart	pusik"al, c"u7 //
+53 liver	tamen //
+54 drink	uk" //
+55 eat	han, mak" //
+56 bite	Ci7ik, Cibal //
+57 see	il //
+58 hear	uybah, uyah //
+59 know	k"a7ol, ohel //
+60 sleep	wenel //
+61 die	kimil //
+62 kill	kinsah //
+63 swim	Sotha7 //
+64 fly	popokSik" //
+65 walk	man, Simal //
+66 come	tal, ul //
+67 lie	tuc" //
+68 sit	kul, n3k //
+69 stand	wa7 //
+70 give	siy //
+71 say	al, cikbal //
+72 sun	K"in, hayk"intik //
+73 moon	uh, ixuh //
+74 star	ek" //
+75 water	ha7 //
+76 rain	ha7 //
+77 stone	C"intuniC //
+78 sand	sa7am, sus //
+79 earth	lu7um, ka7 //
+80 cloud	muyal //
+81 smoke	buc" //
+82 fire	k"ak", elalil //
+83 ash	ta7an //
+84 burn	Cuh, el //
+85 path	beh //
+86 mountain	wic //
+87 red	C3k //
+88 green	ya7aS //
+89 yellow	k"3n, k"3m //
+90 white	s3k //
+91 black	ek", boS //
+92 night	ak"ab //
+93 hot	Cokoh //
+94 cold	ke7el, se7en //
+95 full	C"e7eh, p"o7os //
+96 new	kuSul, mum //
+97 good	ki, ma7alo7 //
+98 round	wol //
+99 dry	tikin //
+100 name	k"aba7 //
+MOPAN{May.MAYAN|Mayan,Yucatecan,Mopan-Itza@Mayan,Yucatecan,Mopan-Itza}
+ 1   16.58  -88.67       11800   mop   mop
+1 I	innen //
+2 you	inCeC //
+3 we	inno7on //
+4 this	le7ek ad"a7a //
+5 that	le7ek, le7ek ad"o7o //
+6 who	maki //
+7 what	k"u7i //
+8 not	ma7 //
+9 all	tulakal //
+10 many	yab //
+11 one	xuntul //
+12 two	ka7tul //
+13 big	noC //
+14 long	Cawak //
+15 small	nene7 //
+16 woman	iSC"up //
+17 man	winik //
+18 person	%kristy~3nox //  Spanish loan
+19 fish	C"ilam //
+20 bird	C"iC" //
+21 dog	pek" //
+22 louse	uk" //
+23 tree	Ce7 //
+24 seed	semiya //
+25 leaf	le7 Ce7 //
+26 root	kan Ce7 //
+27 bark	paC Ce7 //
+28 skin	k"ewel //
+29 flesh	b3k" //
+30 blood	k"ik" //
+31 bone	bak //
+32 grease	%manteka //  Spanish loan
+33 egg	xe7 //
+34 horn	Sulub //
+35 tail	nex //
+36 feather	co7oc //
+37 hair	co7oc //
+38 head	pol //
+39 ear	Sikin //
+40 eye	nek" iC //
+41 nose	ni7 //
+42 mouth	Ci7 //
+43 tooth	kox //
+44 tongue	ak" //
+45 claw	iC"ak //
+46 foot	ok //
+47 knee	piS //
+48 hand	k"37 //
+49 belly	n3k" //
+50 neck	kal //
+51 breasts	Cu7 //
+52 heart	p3s3k"al //
+53 liver	tamen //
+54 drink	uk" //
+55 eat	xan //
+56 bite	Ci7 //
+57 see	il //
+58 hear	ub, u7y //
+59 know	el //
+60 sleep	w3yn //
+61 die	kim //
+62 kill	kimes //
+63 swim	baS3l xa7 //
+64 fly	Sik" //
+65 walk	Simbal //
+66 come	ud" //
+67 lie	koya7an //
+68 sit	tina7an //
+69 stand	wa7an //
+70 give	c"a //
+71 say	ad" //
+72 sun	k"in //
+73 moon	ux //
+74 star	Silab //
+75 water	xa7 //
+76 rain	xa7 //
+77 stone	tuniC //
+78 sand	C"iC" //
+79 earth	lu7um //
+80 cloud	muyal //
+81 smoke	buc" //
+82 fire	k"ak" //
+83 ash	ta7an //
+84 burn	tab //
+85 path	bex //
+86 mountain	wic //
+87 red	C3k //
+88 green	ya7ax //
+89 yellow	k"3n //
+90 white	s3k //
+91 black	boS //
+92 night	xunbel ak"37 //
+93 hot	C3k3x //
+94 cold	sis //
+95 full	tud"a7an //
+96 new	tumulben //
+97 good	ki7 //
+98 round	kulul //
+99 dry	tikin //
+100 name	k"ab"a7 //
+MAYA_YUCATAN{May.MAYAN|Mayan,Yucatecan,Yucatec-Lacandon@Mayan,Yucatecan,Yucatec-Lacandon}
+ 1   20.00  -89.00      706000   yct   yua
+75 agua	ha7 //
+23 arbol	Ce7 //
+54 beber	uk" //
+85 camino	b"e, b"eh //
+86 cerro	wic, mul //
+34 cuerno	XXX //
+43 diente	koh //
+12 dos	ka7a //
+74 estrella	ek" //
+82 fuego	k"ak" //
+53 higado	taman //
+25 hoja	le7 //
+31 hueso	b"ak //
+44 lengua	ak" //
+95 lleno	Cup //
+48 mano	k"ab" //
+61 morir	kimil //
+41 nariz	ni7 //
+92 noche	ak"ab" //
+100 nombre	k"ab"a7 //
+3 nosotros	o7on //
+96 nuevo	tumb"en //
+58 oir	u7ub"ah, u7uyah //
+40 ojo	iC //
+39 oreja	Sikin //
+21 perro	pek" //
+18 persona	winik, mak //
+19 pez	kay //
+77 piedra	tuniC //
+28 piel	k"ewel //
+22 piojo	uk" //
+47 rodilla	piS //
+30 sangre	k"i7ik" //
+51 seno	XXX //
+72 sol	k"in //
+2 tu	eC, aw //
+11 uno	hun //
+66 venir	tal //
+57 ver	ila7al, pakat //
+1 yo	en //
+4 this	lela7 //
+5 that	lelo7 //
+6 who	maS //
+7 what	b"a7aS, b"a7an //
+8 not	ma7 //
+9 all	lah, tulakal //
+10 many	ya7ab" //
+13 big	nohoC //
+14 long	Cowak //
+15 small	Can //
+16 woman	SC"up //
+17 man	Sib" //
+20 bird	C"iC" //
+24 seed	nek", i7inah //
+26 root	moc //
+27 bark	XXX //
+29 flesh	b"ak" //
+32 grease	cac //
+33 egg	he7 //
+35 tail	neh //
+36 feather	k"uk"um //
+37 hair	co7ocel //
+38 head	pol //
+42 mouth	Ci7 //
+45 claw	iC"ak //
+46 foot	ok //
+49 belly	nak" //
+50 neck	kal //
+52 heart	puksi7ik"al //
+55 eat	hanal //
+56 bite	Ci7ah //
+59 know	k"ahol, ohel //
+60 sleep	wenel //
+62 kill	kinsah //
+63 swim	b"ab" //
+64 fly	Sik"nalil //
+65 walk	Simb"al //
+67 lie	Ciltal //
+68 sit	kutal //
+69 stand	wa7al //
+70 give	c"a //
+71 say	t"an //
+73 moon	uh //
+76 rain	Cak, ha7 //
+78 sand	sa7an //
+79 earth	lu7um //
+80 cloud	muyal //
+81 smoke	b"uc" //
+83 ash	ta7an //
+84 burn	tokah //
+87 red	Cak //
+88 green	ya7aS //
+89 yellow	k"ank"an //
+90 white	sak //
+91 black	b"oS //
+93 hot	Coko //
+94 cold	ke7el, ke7elCahal //
+97 good	uc //
+98 round	wolis //
+99 dry	tikin, tihin //
+LACANDON{May.MAYAN|Mayan,Yucatecan,Yucatec-Lacandon@Mayan,Yucatecan,Yucatec-Lacandon}
+ 1   17.00  -91.50        1000   lac   lac
+1 I	XXX //
+2 you	XXX //
+3 we	XXX //
+11 one	turi7 //
+12 two	ka7 //
+18 person	winik //
+19 fish	k3y //
+21 dog	pek" //
+22 louse	uk" //
+23 tree	Ce7 //
+25 leaf	re7, Siw //
+28 skin	ot" //
+30 blood	k"ik" //
+31 bone	bak //
+34 horn	XXX //
+39 ear	Sikin //
+40 eye	iC //
+41 nose	ni7 //
+43 tooth	koh //
+44 tongue	ak" //
+47 knee	piS //
+48 hand	k"3b //
+51 breast	im //
+53 liver	tamen, yohom //
+54 drink	hap //
+57 see	ir //
+58 hear	uy //
+61 die	kan //
+66 come	tar, ur //
+72 sun	k"in //
+74 star	sab //
+75 water	ha7 //
+77 stone	tuniC, tok" //
+82 fire	k"ak" //
+85 path	beh //
+86 mountain	wic //
+92 night	ak"bir //
+95 full	nah //
+96 new	rik"ben //
+100 name	k"aba7 //
+4 this	te7ra7, he7 //
+5 that	rah //
+6 who	mak //
+7 what	ba7 //
+8 not	m3na7 //
+9 all	puri7, ukotor //
+10 many	yab, neh //
+13 big	kaem //
+14 long	Cuwak //
+15 small	CiCan //
+16 woman	Skik //
+17 man	Sib, ton //
+20 bird	C"iC //
+24 seed	nek" //
+26 root	XXX //
+27 bark	sor, soCe7 //
+29 flesh	b3k" //
+32 grease	CaC //
+33 egg	XXX //
+35 tail	neh //
+36 feather	CoCer //
+37 hair	CoCer, hor //
+38 head	hor //
+42 mouth	Ci7 //
+45 claw	XXX //
+46 foot	ok //
+49 belly	n3k", Cuk //
+50 neck	kar //
+52 heart	piSam //
+55 eat	han3n //
+56 bite	kuCuh //
+59 know	k"3h7ot, oh //
+60 sleep	wenan //
+62 kill	kins //
+63 swim	XXX //
+64 fly	XXX //
+65 walk	Sim //
+67 lie	ak //
+68 sit	uk //
+69 stand	C3n3k, C"ikik //
+70 give	XXX //
+71 say	ar //
+73 moon	XXX //
+76 rain	XXX //
+78 sand	sam //
+79 earth	rum //
+80 cloud	muyar //
+81 smoke	buC" //
+83 ash	tan //
+84 burn	Cuh, hop //
+87 red	C3k //
+88 green	yaS //
+89 yellow	k"3n //
+90 white	s3k //
+91 black	wo7, ek" //
+93 hot	XXX //
+94 cold	sis, ke7er //
+97 good	Coy //
+98 round	rekan //
+99 dry	tikin, tih //
+                                          

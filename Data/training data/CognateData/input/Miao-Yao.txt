@@ -1,0 +1,509 @@
+     1    20  1700     3     1
+(I3)     
+  0  all
+  0  ashes
+  0  bark
+  0  belly
+  0  big
+  0  bird
+  0  bite
+  0  black
+ 30  blood
+ 31  bone
+ 51  breast 
+  0  burn
+  0  cloud
+  0  cold
+ 66  come
+ 61  die
+ 21  dog
+ 54  drink
+  0  dry
+ 39  ear
+  0  earth
+  0  eat
+  0  egg
+ 40  eye
+  0  fat
+  0  feather
+ 82  fire
+ 19  fish
+  0  fly
+  0  foot
+ 95  full
+  0  give
+  0  good
+  0  green
+  0  hair
+ 48  hand
+  0  head
+ 58  hear
+  0  heart
+ 34  horn
+  1  I
+  0  kill
+ 47  knee
+  0  know
+ 25  leaf
+  0  lie
+ 53  liver
+  0  long
+ 22  louse
+  0  man
+  0  many
+  0  meat
+  0  moon
+ 86  mountain
+  0  mouth
+  0  nail (claw)
+100  name
+  0  neck
+ 96  new
+ 92  night
+  0  no
+ 41  nose
+ 11  one
+ 18  person
+  0  rain
+  0  red
+ 85  road (path)
+  0  root
+  0  round
+  0  sand
+ 57  see
+  0  seed
+  0  sit
+ 28  skin
+  0  sleep
+  0  small
+  0  smoke
+  0  speak
+  0  stand
+ 74  star
+ 77  stone
+ 72  sun
+  0  swim
+  0  tail
+  0  that
+  0  this
+ 44  tongue
+ 43  tooth
+ 23  tree
+ 12  two
+  0  walk
+  0  warm
+ 75  water
+  3  we
+  0  what
+  0  white
+  0  who
+  0  woman
+  0  yellow
+  2  you
+ -1
+HMU
+XIANGXI_HMONG
+HMONG_NJUA
+BUNU
+SHE_CHINA
+YAO
+              
+Miao-Yao (Peiros)
+(A1,1X,36I2)
+   1 1-1 2 1 1
+   1 1 1 1 1 1
+   0 0 0 0 0 0
+   1 1 2 2 3 1
+   1 1 1 1 2 1
+  -1-1-1-1-1-1
+   1 2 2 2 2 4
+   1 1 1 1 1 2
+ 2 1 1 1 1 1 1 
+ 2 1 1 1 1 1 1
+ 2 1 2 3 3 0 0
+   1 2 3 4 0 0
+   1 1 2 3-1 5
+  -1-2-3 0 0 0
+ 2 1 1 1 1 1 2
+ 2-1-1-1-1-1-1
+ 2 1 1 1 1 1 1
+ 2 1 1 1 1 0 1
+   1 1 1 1 1 1
+ 2 1 1 1 1 2 1
+   1 1 2 1 1 3
+   1 1 1 1 0 1
+   1 2 1 1 1 1
+ 2 1 2 1 1 3 1
+   1 1 1 1 1 1
+   1 2 0 1 0 0
+ 2 1 1 1 1 1 1
+ 2 1 1 1 1 1 1
+   1 1 1 1 2 3
+   1 1 2 2 2 0
+ 2 1 1 1 2 1 1
+   1 2 0 0 0 0
+   1 1 1 1 1 1 
+   1 1 1 2 1-1
+   1 1 1 1 1 1
+ 2 1 1 1 1 1 1
+   1 2 3 4 5 6
+ 2 1 2 3 2 4 5
+   1 2 1 3-1 4
+ 2 1 1 1 1 1 1
+ 2 1 1 2 3 1 4
+   1-1-1-1-1-1
+ 2 1 1 1 1 1 2
+   1 2 1 1 1 1
+ 2 1 1 1 1 1 1
+   1 1 1 1 0 0
+ 2 1 2 2 3 2 2
+   1 1 1 1 1 1
+ 2 1 1 1 1 1 1
+   1 2 3 1 1 4
+   1 2 3 3 4 5
+   1 1 1 1 1 2
+   1 1 1 1 1 1
+ 2 1 2 3 4 5 6
+   1 1-1-1-1-1
+   1 2 2-1 2 3
+ 2 1 1 1 1 2 1
+   1 1 2 2 2 2
+ 2-1-1-1-1-1-1
+ 2 1 1 1 1 2 1
+   1 2 2 3 4 5
+ 2 1 1 1 1 1 1
+ 2 1 1 1 1 1-1
+ 2 1 1 1 1 1 1
+   1 1 1 1 1 1
+   1 2 3 3 1 1
+ 2 1 1 1 1 1 1
+   1 1 1 1 1 1
+   1 2-1 3-1 4
+  -1-1-1-1-1-1
+ 2 1 1 2 3 2 2
+   1 1 1 1 2 3
+   1 1 1 1 1 2
+ 2 1 2 1 3 3 4
+   1 1 1 1 1 1
+   1 1 2 3 2 4
+   1 2 2 3 4 5
+   1 2 3 4 5 5
+   1 1 1 1 1 1
+ 2 1 1 1 1 1 2
+ 2 1 1 1 1 1 2
+ 2 1 1 1 1 1 1
+   0 0 0 0 0 0
+   1 1 1 1 1 1
+   1 2 3 4 0 5
+   1 1 1 1 0 1
+ 2 1 1 1 1 1 1
+ 2 1 2-1 1 1-1
+ 2 1 1 1 1 1 1
+ 2 1 1 1 1 1 1
+   1 2 3 4 5 6
+   0 0 0 0 0 0
+ 2 1 1 2 1 1 1
+ 2 1 1 1 1 1 2
+   1 2 1 4 3 3
+   1 1 1 1 1-1
+   1 2 1 1 3 4
+   1 2 3 2 4 2
+  -1-1-1-1-1-1
+ 2 1 1 2 2 1 1	
+X                                            
+i   
+e
+E
+a
+3
+o
+u
+p
+b
+m
+w
+v       
+f       
+8       
+t
+d
+s
+z
+c
+n
+4       
+S
+Z       
+C
+j       
+5
+y
+T       
+l
+L       
+k
+g
+N
+x
+q
+G       
+X
+7
+h
+r
+!       
+     
+        
+HMU{HM.HMONG-MIEN|Hmong-Mien,Hmongic,Qiandong}
+ 3   26.50  108.00      900000         hea
+30 blood	Th~n //
+31 bone	sh~on //
+51 breast	XXX //
+66 come	lo //
+61 die	ta //
+21 dog	lh~a //
+54 drink	h3 //
+39 ear	qazE //
+40 eye	5h~umE //
+82 fire	tu //
+19 fish	zE //
+95 full	pe //
+48 hand	pi //
+58 hear	nh~an //
+34 horn	ki //
+1 I	vi //
+47 knee	qh~anv3t3 //
+25 leaf	nu //
+53 liver	fh~u zE Ton //
+22 louse	kantE //
+86 mountain	qapo //
+100 name	zanpi //
+96 new	xh~i //
+92 night	Th~imh~am //
+41 nose	pozE //
+11 one	XXX //
+85 path	ki //
+18 person	nE //
+57 see	Th~i //
+28 skin	qatu //
+74 star	tEqE //
+77 stone	xi //
+72 sun	nh~E //
+44 tongue	qani //
+43 tooth	mh~i //
+23 tree	t3 //
+12 two	XXX //
+75 water	XXX //
+3 we	pi //
+2 you	mon //
+XIANGXI_HMONG{HM.HMONG-MIEN|Hmong-Mien,Hmongic,Xiangxi}
+ 1   27.00  105.00      700000         mmr
+30 blood	nt~ch~i //
+31 bone	qoson //
+51 breast	ma //
+66 come	lo //
+61 die	to //
+21 dog	taqw~3 //
+54 drink	hu //
+39 ear	tonmz3 //
+40 eye	l3qe //
+82 fire	py~it3 //
+19 fish	tamz3 //
+95 full	pe //
+48 hand	qot3 //
+58 hear	ton //
+34 horn	qoTe //
+1 I	we //
+47 knee	qh~utT~o //
+25 leaf	n3 //
+53 liver	sE //
+22 louse	tate //
+86 mountain	qozei //
+100 name	mp~u //
+96 new	TE //
+92 night	tTh~mh~an //
+41 nose	pamzE //
+11 one	XXX //
+85 path	k3 //
+18 person	ne //
+57 see	tTinqh$e //
+28 skin	qoTo //
+74 star	teteqelh~a //
+77 stone	qoz3 //
+72 sun	nh~e //
+44 tongue	qomy~a //
+43 tooth	qoTE //
+23 tree	qont~u //
+12 two	XXX //
+75 water	XXX //
+3 we	p3 //
+2 you	m3 //
+HMONG_NJUA{HM.HMONG-MIEN|Hmong-Mien,Hmongic,Chuanqiandian}
+ 1   28.00  105.00      310000   hmo   hnj   blu
+30 blood	nch$an //
+31 bone	ch~an //
+51 breast	kua //
+66 come	lo //
+61 die	tua //
+21 dog	tle //
+54 drink	hou //
+39 ear	5tT$ou //
+40 eye	mua //
+82 fire	teu //
+19 fish	nc~e //
+95 full	po //
+48 hand	te //
+58 hear	non //
+34 horn	ko //
+1 I	ko //
+47 knee	qh~auco //
+25 leaf	mpl$on //
+53 liver	sa //
+22 louse	to //
+86 mountain	ton //
+100 name	mp~e //
+96 new	ch~a //
+92 night	mh~au //
+41 nose	nc~u //
+11 one	XXX //
+85 path	ke //
+18 person	nen //
+57 see	ma //
+28 skin	teu //
+74 star	hn~oqo //
+77 stone	ze //
+72 sun	nh~o //
+44 tongue	mp~lai //
+43 tooth	nh~a //
+23 tree	nt~on //
+12 two	XXX //
+75 water	tle //
+3 we	pe //
+2 you	kau //
+BUNU{HM.HMONG-MIEN|Hmong-Mien,Hmongic,Bunu}
+ 1   24.00  107.00      258000   pnu   bwx
+30 blood	nch$3n //
+31 bone	ka8ona //
+51 breast	kon //
+66 come	lo, to //
+61 die	to //
+21 dog	tle //
+54 drink	h3u //
+39 ear	kanc~ea //
+40 eye	kh~i mon //
+82 fire	katu //
+19 fish	nc~e //
+95 full	Ten //
+48 hand	tape //
+58 hear	T3n //
+34 horn	Tun //
+1 I	Tun //
+47 knee	kuNaTo //
+25 leaf	nt~Lan //
+53 liver	nT~au //
+22 louse	katuna //
+86 mountain	8au //
+100 name	mp~e83 //
+96 new	Tin //
+92 night	nt~onmun //
+41 nose	pinc~au //
+11 one	XXX //
+85 path	Te //
+18 person	nu //
+57 see	nk~on, nt~a //
+28 skin	katlau //
+74 star	takuna //
+77 stone	faxe //
+72 sun	minh~on //
+44 tongue	kant~la //
+43 tooth	famh~in //
+23 tree	nt~an  
+12 two	XXX //
+75 water	an //
+3 we	pe //
+2 you	kau //
+SHE_CHINA{HM.HMONG-MIEN|Hmong-Mien,HoNte}
+ 1   23.00  114.50         911         shx
+30 blood	sy~i //
+31 bone	suNko //
+51 breast	XXX //
+66 come	n3 //
+61 die	th~a //
+21 dog	ky~a //
+54 drink	XXX //
+39 ear	kakh~uN //
+40 eye	kakh~o //
+82 fire	th~o //
+19 fish	py~a //
+95 full	paN //
+48 hand	khw$a //
+58 hear	kuN //
+34 horn	kaN //
+1 I	vaN //
+47 knee	nakch~akkh~un //
+25 leaf	pyoN //
+53 liver	hin //
+22 louse	taN //
+86 mountain	ky~e, ho //
+100 name	mui //
+96 new	t3hin //
+92 night	mokaNch~i //
+41 nose	kh~uNpiu //
+11 one	XXX //
+85 path	ka //
+18 person	ne //
+57 see	mo //
+28 skin	kh~3 //
+74 star	neitaN //
+77 stone	Nako //
+72 sun	noko //
+44 tongue	pi //
+43 tooth	mun //
+23 tree	toN //
+12 two	XXX //
+75 water	oN //
+3 we	pa //
+2 you	muN //
+YAO{HM.HMONG-MIEN|Hmong-Mien,Mienic,Mian-Jin}
+ 1   25.00  111.00      818685   mie   ium
+30 blood	cy~am //
+31 bone	buN //
+51 breast	XXX //
+66 come	tai //
+61 die	tai //
+21 dog	tTu //
+54 drink	hop //
+39 ear	n3nom //
+40 eye	mw~ciN //
+82 fire	tou //
+19 fish	by~au //
+95 full	pw~aN //
+48 hand	pw~o //
+58 hear	mw~aN //
+34 horn	tT~oN //
+1 I	ye //
+47 knee	pw~oseidy~e //
+25 leaf	nom //
+53 liver	Lan //
+22 louse	tam //
+86 mountain	tTim //
+100 name	meNbw~o //
+96 new	sy~an //
+92 night	luNmw~ancan //
+41 nose	by~ut //
+11 one	yet //
+85 path	tTau //
+18 person	my~en //
+57 see	maN //
+28 skin	dop //
+74 star	Lei //
+77 stone	laipy~ei, bEN //
+72 sun	punh~oi //
+44 tongue	by~et //
+43 tooth	mun //
+23 tree	dy~aN  
+12 two	XXX //
+75 water	wam //
+3 we	yebw~o //
+2 you	mw~ei //
+                                     

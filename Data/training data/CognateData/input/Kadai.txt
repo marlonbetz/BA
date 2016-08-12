@@ -1,0 +1,767 @@
+     1    20  1700     3     1
+(I3)     
+  0  all
+  0  ashes
+  0  bark
+  0  belly
+  0  big
+  0  bird
+  0  bite
+  0  black
+ 30  blood
+ 31  bone
+ 51  breast 
+  0  burn
+  0  cloud
+  0  cold
+ 66  come
+ 61  die
+ 21  dog
+ 54  drink
+  0  dry
+ 39  ear
+  0  earth
+  0  eat
+  0  egg
+ 40  eye
+  0  fat
+  0  feather
+ 82  fire
+ 19  fish
+  0  fly
+  0  foot
+ 95  full
+  0  give
+  0  good
+  0  green
+  0  hair
+ 48  hand
+  0  head
+ 58  hear
+  0  heart
+ 34  horn
+  1  I
+  0  kill
+ 47  knee
+  0  know
+ 25  leaf
+  0  lie
+ 53  liver
+  0  long
+ 22  louse
+  0  man
+  0  many
+  0  meat
+  0  moon
+ 86  mountain
+  0  mouth
+  0  nail (claw)
+100  name
+  0  neck
+ 96  new
+ 92  night
+  0  no
+ 41  nose
+ 11  one
+ 18  person
+  0  rain
+  0  red
+ 85  road (path)
+  0  root
+  0  round
+  0  sand
+ 57  see
+  0  seed
+  0  sit
+ 28  skin
+  0  sleep
+  0  small
+  0  smoke
+  0  speak
+  0  stand
+ 74  star
+ 77  stone
+ 72  sun
+  0  swim
+  0  tail
+  0  that
+  0  this
+ 44  tongue
+ 43  tooth
+ 23  tree
+ 12  two
+  0  walk
+  0  warm
+ 75  water
+  3  we
+  0  what
+  0  white
+  0  who
+  0  woman
+  0  yellow
+  2  you
+ -1
+SIAMESE
+ZHUANG_SOUTHERN
+ZHUANG_NORTHERN
+SAEK
+SUI
+MULAO
+KAM_ZHANGLU
+MAONAN
+ONG_BE
+LAKKJA
+LI_TONGSHI
+LI_BAODING
+             
+Kadai (Peiros)
+(A1,1X,36I2)
+   1-1 2 0 3 4 5 6 7 8 9 9
+   1 1 1 1 2 3 2 2 1 1 4 1
+   1 0 0 2 0 0 0 0 0 0 0 0
+   1 2 1 1 1 1 1 1 3 4 2 2
+   1 2-1 4 3 3 3 3 1 4-1-1
+   1 1 1 1 1 1 1 1 1 1 2 2
+  -1-1-1 1-2-2-2-2-1 1-2-2
+   1 1 1 1 1 1 1 1 1 1 1 1
+ 2 1 1 1 1 1 1 1 1 1 1 1 1
+ 2 1 1 1 1 1 1 1 1 2 2 1 1
+ 2 1 0 0 2 0 0 0 0 0 0 0 0 
+   1 0 0 1 0 0 0 0 0 0 0 0 
+  -1 1 1 1 1 1 1 1 1 1 1 1 
+   0 0 0 2 0 0 0 3 4 0 0 0
+ 2 1 1-1 1-2-2 1-2 1-2-3-3
+ 2 1 1 1 1 1 1 1 1 1 1 2 3
+ 2 1 1 1 1 1 1 1 1 1 1 1 1
+ 2 1 2 3 0 4 5 2-1 2 5 5 5
+   1-2-2-2 2-2-2 2 3 3-3-3
+ 2 1 1 1 1 2 2 2 2 2 2-1-1
+   1 2 2 3 2 2 2 2 3 2 4 4
+   1 1 1 1 1 1 1 1 1 1 2 3
+  -1-1-1-2-1-1-1-1 1 2 1 1
+ 2 1 1 1 1 1 1 1 1 1 1 1 1
+   1-1-1 0 1-1-1-1 0-1 2 2
+   1 0 0 2 0 0 0 0 0 0 0 0
+ 2 1 1 1 1 1 1 1 1 1 1 1 1
+ 2 1 1 1 1 2 2-1-2 1 1 1 1
+   1 1 1 0 2 2 2 2 1 2 1 1
+   1 3 2-1 2 2 2 2 0 4 5 5
+ 2 1 1 1 0 2 2 2 2 2 3 2 2
+   1 1 1 0 1 2 3 4 5 0 6 7
+   1 1 1 1 1 2 1 1 3 1 4 4
+  -1-1-1-1-1-1-1-1 2-1-1-1
+   1 1 1 1 1 1 1 1 2 1 3 3
+ 2 1 1 1 1 1 1 1 2 1 1 1 1
+   1 1 2 2 3 2 2 2-1 2 2 2
+ 2 1-1-1-2 3-1-1 3 0-1 4 4
+   1-1-1 1-1-1-1-1 0-1 2 2
+ 2 1-1 1 1 1 1 1 1 1 1 1 1
+ 2 1 2 2 2 2 3 2 2 2 4 2 2
+   1 1 1 1 1 2 1 1 1 1 1 1
+ 2 1 1 1 0 1 1 1 1 1 0 3 3
+   1 1 1 1 3 1 1 1 1 1 2 2
+ 2 1 1 1 1 2 2 2 2 1 1 1 1
+   1 0 0 1 0 0 0 0 0 0 0 0 
+ 2 1 1 1 1 1 1 1 1 1 1-1-1
+  -1 1 1 1 1 1 1 1 1 1 2 2
+ 2 1 1 1 1 1 1 1 1 2 2 1 1
+  -1 1 1-1 2 4 2 2 4 3 3 2
+   2 1 1 1-1-1-1-1 3-1 1 1
+   1 1 1 1 1-1 1 1 1 2 2 2
+   1 1 1 1 1 1 1 1-1-1 1 1
+ 2 1 3-1-1 4 5 6 5 7 7 8 8
+   1 1 1 1 1 1 1 1 1 2-1-1
+   1 1 1 1 1 1 1 1 1 1 1 1
+ 2-1-2-2-1 1 1 1 1 2 1 3 3
+  -1-1-1-1-1 1 1 1-1 2-2-2
+ 2-1-1-1-1-1-1-1-1 1-1 1-2
+ 2 1 1 1 1 1 2 1 3 1 5 6 6
+   1 1-2 0 1 3 4 5 1 3 6 7
+ 2-1 1 1 1 1 1 1 1 1 1 2 2
+ 2 1 1 2-1 4 3 3 4 0 6 5 7
+ 2 1 1 1 1-1-1-1-1 1-1 2 2
+   1 1 1 1 1 1 1 1 1 1 1 1
+   1 1 1 1 2 2 3 2-1-1 1 1
+ 2-1-2 1-1 1 1 1 1 1-1 1 1
+   1 1 1 1 2 2 2 2 3-1 4 5
+  -1-2 3-2 4 5-1-1 6 3 3 3
+  -1-1 1 0 2-1-1-1 3-1 4 4
+ 2 1 2 3-1 4 4 5 4 6 7 8 8
+   0 1-1 0 1 2 1 1 1-2 1 1
+   1 1 1 1 2 2 2 2 1 1 3 3
+ 2 1 1 1 2-1 3-1-1 1-1 1 1
+   1 1 1 1 1 1 1 1 0 2 3 3
+   1 2 2 0 3 4 5 5 6 7 6 8
+   1 1 1 1 1 1 1 1 2 3 1 1
+   1 2 2-2 3 2 2 2 0 2-2-2
+   1 1 1 1 1-2 1-1 0 1 1 1
+ 2 1 1 1 1 2 2 2 2 1 1 1 1
+ 2 1 1 1 1 1 2 1 2 1 3 1 1
+ 2 1 1 1 1 1 1 1 1 1 1 1 1
+  -1 0 0 1 0 0 0 0 0 0 0 0
+   1 1 1 1 2 2 2 2 3 1 3 3
+   1 1 1 1-1 2-1-1 1 1 2 2
+   1 1 1 1 1 1 1 1 1 1 1 1
+ 2 1 1 1 1 2 2 2 2 1 2 1 1
+ 2 1 2 1-1 1 1 1 2 3 1 1 1
+ 2 1 1 1 1 1 1 1 1 2 3 3 3
+ 2-1-2-2-1 1 1 1 1 2 3 3 3
+   1 2 2 3 2 2 2 2 0 2 1 1
+   0 0 0 1 0 0 0 0 0 0 0 0
+ 2 1 1 1 1 1 1 1 1 1 1 1 1
+ 2 1 1 2 2 1 1 1 1 3 2 4 4
+   1 2 3 4 5 5 5 6 2 2 8 8
+   1 1 1 1-1 2-1 2-1-1 1 1
+   1-1 1-2-1-1-1-1-1-1 3 3
+  -1 1 1-2-2 2-2-2 1 3 3 3
+   1 1 2-1 3 3 3 3 1 4 1 1
+ 2 1 3 3 3-1-1-1-1 3 3 3 3
+X                                                  
+i   
+e
+E
+a
+3
+o
+u
+p
+b
+m
+w
+v       
+f       
+8       
+t
+d
+s
+z
+c
+n
+4       
+S
+Z       
+C
+j       
+5
+y
+T       
+l
+L       
+k
+g
+N
+x
+q
+G       
+X
+7
+h
+r
+!       
+     
+       
+SIAMESE{TK.KAM-TAI|Tai-Kadai,Kam-Tai,Be-Tai,Tai-Sek,Tai,Southwestern,EastCentral,ChiangSaeng}                                                                           
+ 3   16.00  101.00    20362390   tha   tha
+30  blood	luat //  
+31  bone	duk, kaduk //    
+51  breast	nom //  
+66  come	ma //  
+61  die	tay //  
+21  dog	ma //  
+54  drink	XXX //  
+39  ear	hu //  
+40  eye	ta //  
+82  fire	fay //  
+19  fish	pla //  
+95  full	tem //  
+48  hand	mu //  
+58  hear	yin //  
+34  horn	kh~aw //  
+1   I	ku //  
+47  knee	kh~aw //  
+25  leaf	bay //  
+53  liver	tap //  
+22  louse	haw, len // 1.'headlouse' 2. body louse
+86  mountain	ph~u, doy //  
+100 name	ch~u //  
+96  new	may //  
+92  night	kh~am, khun //  
+41  nose	XXX //  
+11  one	nuN //  
+85  path	th~aN, hon //  
+18  person	kh~on, ph~u //  
+57  see	hen //  
+28  skin	naN //  
+74  star	daw //  
+77  stone	hin, ph~a //  2. 'cliff, rock'
+72  sun	dEt //  'sunshine'
+44  tongue	lin //  
+43  tooth	fan // 
+23  tree	ton //  'tree; beginning'
+12  two	soN, yi //  
+75  water	nam //  
+3   we	raw //  dual, inclusive
+2   you	muN //  
+ZHUANG_SOUTHERN{TK.KAM-TAI|Tai-Kadai,Kam-Tai,Be-Tai,Tai-Sek,Tai,Central}
+ 1   22.37  106.87     1840000         zzj   ccy
+30 blood	l3t //
+31 bone	duk //
+51 breast	XXX //
+66 come	ma //
+61 die	hai //
+21 dog	ma //
+54 drink	kin //
+39 ear	pihu //
+40 eye	makha //
+82 fire	fai //
+19 fish	py~a //
+95 full	tim //
+48 hand	m3 //
+58 hear	tiN //
+34 horn	kok //
+1 I	kau //
+47 knee	hukh~au //
+25 leaf	ba3 //
+53 liver	tap //
+22 louse	hau //
+86 mountain	doN //
+100 name	miN //
+96 new	ma3 //
+92 night	ky~aNk3n //
+41 nose	makdaN //
+11 one	n3N //
+85 path	lo //
+18 person	k3n //
+57 see	yom //
+28 skin	naN //
+74 star	daudi //
+77 stone	hin //
+72 sun	havan //
+44 tongue	lin //
+43 tooth	kh~eu //
+23 tree	mai //
+12 two	yi //
+75 water	nam //
+3 we	huNlau //
+2 you	ma3 //
+ZHUANG_NORTHERN{TK.KAM-TAI|Tai-Kadai,Kam-Tai,Be-Tai,Tai-Sek,Tai,Northern}
+ 1   24.00  108.00     1000000   zhn   zgn   ccx
+30 blood	l3t //
+31 bone	dok //
+51 breast	XXX //
+66 come	tau //
+61 die	tai //
+21 dog	ma //
+54 drink	dot //
+39 ear	x3 //
+40 eye	ta //
+82 fire	fei //
+19 fish	py~a //
+95 full	xim //
+48 hand	f3N //
+58 hear	tiN //
+34 horn	kau //
+1 I	kou //
+47 knee	ky~auho //
+25 leaf	ba3 //
+53 liver	tap //
+22 louse	xau //
+86 mountain	doi //
+100 name	miNsi //
+96 new	moi //
+92 night	ky~aNh3n //
+41 nose	daN //
+11 one	deu //
+85 path	xon //
+18 person	vun //
+57 see	ya3 //
+28 skin	naN //
+74 star	daudei //
+77 stone	xin //
+72 sun	taNNon //
+44 tongue	lin //
+43 tooth	fan //
+23 tree	fai //
+12 two	Nei //
+75 water	xam //
+3 we	tou //
+2 you	m3N //
+SAEK{TK.KAM-TAI|Tai-Kadai,Kam-Tai,Be-Tai,Tai-Sek,Sek}
+ 1   17.42  104.75       25000   sae   skb
+30 blood	luat //
+31 bone	rok //
+51 breast	cu //
+66 come	ma //
+61 die	pray //
+21 dog	ma //
+54 drink	XXX //
+39 ear	gy~a, rua //
+40 eye	pra //
+82 fire	vi //
+19 fish	pla //
+95 full	XXX //
+48 hand	m3 //
+58 hear	Nia //
+34 horn	gaw //
+1 I	ku //
+47 knee	XXX //
+25 leaf	b3 //
+53 liver	tap //
+22 louse	raw //
+86 mountain	roy //
+100 name	so //
+96 new	mo //
+92 night	g3n //
+41 nose	daN //
+11 one	muN //
+85 path	th~aN //
+18 person	gun, hun //
+57 see	nEN //
+28 skin	th~rap //
+74 star	traw //
+77 stone	ril //
+72 sun	ta53n //
+44 tongue	lin //
+43 tooth	nEN //
+23 tree	may //
+12 two	%soN //  probably loan from Middle Chinese
+75 water	nam //
+3 we	tu //
+2 you	m3N //
+SUI{TK.KAM-TAI|Tai-Kadai,Kam-Tai,Kam-Sui}
+ 1   26.00  107.50      200120   sui   swi
+30 blood	phy$at //
+31 bone	lak //
+51 breast	XXX //
+66 come	taN //
+61 die	tai //
+21 dog	hma //
+54 drink	xum //
+39 ear	qh~a //
+40 eye	nd~a //
+82 fire	vi //
+19 fish	mom //
+95 full	tik //
+48 hand	my~a //
+58 hear	di //
+34 horn	pau //
+1 I	yu //
+47 knee	qamqu //
+25 leaf	va //
+53 liver	tap //
+22 louse	tu //
+86 mountain	nu //
+100 name	dan //
+96 new	hmai //
+92 night	san //
+41 nose	naN //
+11 one	to //
+85 path	khw$3n //
+18 person	z3n //
+57 see	gau //
+28 skin	pi //
+74 star	z3t //
+77 stone	tin //
+72 sun	nd~avan //
+44 tongue	ma //
+43 tooth	vy~an //
+23 tree	mai //
+12 two	xa //
+75 water	nam //
+3 we	nd~iu //
+2 you	5a //
+MULAO{TK.KAM-TAI|Tai-Kadai,Kam-Tai,Kam-Sui}
+ 1   25.00  108.00       55000   mul   mlm
+30 blood	phx$at //
+31 bone	hx~ak //
+51 breast	XXX //
+66 come	taN //
+61 die	tai //
+21 dog	hNwa //
+54 drink	hx~op //
+39 ear	khx$a //
+40 eye	hla //
+82 fire	fi //
+19 fish	m3m //
+95 full	pik //
+48 hand	ny~a //
+58 hear	th~eN //
+34 horn	ku //
+1 I	h3i //
+47 knee	kuko //
+25 leaf	fa //
+53 liver	tap //
+22 louse	khx$o //
+86 mountain	px~a //
+100 name	xan //
+96 new	hmai //
+92 night	th~3umu //
+41 nose	k3naN //
+11 one	hnau //
+85 path	khw$3n //
+18 person	s3n //
+57 see	kau //
+28 skin	Nx~a //
+74 star	lakhm3t //
+77 stone	tui //
+72 sun	th~3ufan //
+44 tongue	ma //
+43 tooth	fan //
+23 tree	mai //
+12 two	xa //
+75 water	n3m //
+3 we	niu //
+2 you	5a //
+KAM_ZHANGLU{TK.KAM-TAI|Tai-Kadai,Kam-Tai,Kam-Sui}
+ 1   26.00  108.50      463000   kzh   doc
+30 blood	ph~at //
+31 bone	lak //
+51 breast	XXX //
+66 come	ma //
+61 die	t3i //
+21 dog	Nw~a //
+54 drink	ti //
+39 ear	kh~a //
+40 eye	ta //
+82 fire	pui //
+19 fish	pa //
+95 full	tik //
+48 hand	my~a //
+58 hear	th~iN //
+34 horn	pau //
+1 I	yau //
+47 knee	3mkw~au //
+25 leaf	pa //
+53 liver	tap //
+22 louse	tau //
+86 mountain	t3n //
+100 name	kw~an //
+96 new	m3i //
+92 night	antan, an5am //
+41 nose	naN //
+11 one	lau //
+85 path	khw$3n //
+18 person	53n //
+57 see	nu //
+28 skin	pi //
+74 star	s3t //
+77 stone	tin //
+72 sun	taman //
+44 tongue	ma //
+43 tooth	py~an //
+23 tree	m3i //
+12 two	ya //
+75 water	nam //
+3 we	tiu //
+2 you	5a //
+MAONAN{TK.KAM-TAI|Tai-Kadai,Kam-Tai,Kam-Sui}
+ 1   24.00  111.00       20000         mmd
+30 blood	phy$at //
+31 bone	dak //
+51 breast	XXX //
+66 come	taN //
+61 die	tai //
+21 dog	ma //
+54 drink	na //
+39 ear	kh~a //
+40 eye	nd~a //
+82 fire	vi //
+19 fish	mby$ai //
+95 full	tik //
+48 hand	sim //
+58 hear	ni //
+34 horn	5au //
+1 I	h"e //
+47 knee	kamku //
+25 leaf	va //
+53 liver	tap //
+22 louse	tu //
+86 mountain	koNpy~a //
+100 name	dan //
+96 new	mai //
+92 night	5am //
+41 nose	naN //
+11 one	dEu //
+85 path	kh~un //
+18 person	z3n //
+57 see	kau //
+28 skin	pi //
+74 star	z3t //
+77 stone	tui //
+72 sun	lakvan //
+44 tongue	ma //
+43 tooth	hiu //
+23 tree	mai //
+12 two	ya //
+75 water	nam //
+3 we	nd~e //
+2 you	XXX //
+ONG_BE{TK.KAM-TAI|Tai-Kadai,Kam-Tai,Be-Tai,Be}
+ 1   19.00  110.00      600000         onb
+30 blood	ba7 //
+31 bone	ua7 //
+51 breast	XXX //
+66 come	nia //
+61 die	dai //
+21 dog	ma //
+54 drink	kon //
+39 ear	sa //
+40 eye	da //
+82 fire	v3i //
+19 fish	ba //
+95 full	dik //
+48 hand	mo //
+58 hear	XXX //
+34 horn	vau //
+1 I	hau //
+47 knee	kau //
+25 leaf	bo //
+53 liver	dop //
+22 louse	don //
+86 mountain	tia //
+100 name	noi //
+96 new	nau //
+92 night	kx~3n //
+41 nose	loN //
+11 one	XXX //
+85 path	sun //
+18 person	leNhun //
+57 see	dek //
+28 skin	naN //
+74 star	tiN //
+77 stone	din //
+72 sun	dav3n //
+44 tongue	lim //
+43 tooth	wan //
+23 tree	dun //
+12 two	von //
+75 water	nam //
+3 we	hau lo //
+2 you	m3 //
+LAKKJA{TK.KADAI|Tai-Kadai,Kam-Tai,Lakkja}
+ 2   24.08  110.10       12000   lkk   lbc
+30 blood	liet //
+31 bone	kw~ot //
+51 breast	XXX //
+66 come	taN //
+61 die	plei //
+21 dog	khw$o* //
+54 drink	hop //
+39 ear	kanya //
+40 eye	pui //
+82 fire	ph~la //
+19 fish	mot //
+95 full	mot //
+48 hand	mie //
+58 hear	th~EN //
+34 horn	kou //
+1 I	ci //
+47 knee	XXX //
+25 leaf	wa //
+53 liver	tap //
+22 louse	Nw~an //
+86 mountain	ky~a //
+100 name	yan //
+96 new	wa*i //
+92 night	bonblau //
+41 nose	naN //
+11 one	in //
+85 path	caN //
+18 person	ny~un //
+57 see	lom //
+28 skin	pei //
+74 star	taublet //
+77 stone	faN //
+72 sun	tauwan //
+44 tongue	5w~a //
+43 tooth	wan //
+23 tree	cei //
+12 two	hou //
+75 water	num //
+3 we	ta //
+2 you	ma //
+LI_TONGSHI{TK.HLAI|Tai-Kadai,Hlai}
+ 2   18.75  109.33      667000         lic
+30 blood	Lat //
+31 bone	f37 //
+51 breast	XXX //
+66 come	p3n //
+61 die	Lui //
+21 dog	pa //
+54 drink	ch~3p //
+39 ear	Lai //
+40 eye	ch~uch~a //
+82 fire	fei //
+19 fish	La //
+95 full	th~ia7 //
+48 hand	3me3 //
+58 hear	ple3 //
+34 horn	hau //
+1 I	hou //
+47 knee	gorou //
+25 leaf	be3 //
+53 liver	Nan //
+22 louse	fou //
+86 mountain	hw~ou //
+100 name	ph~eN //
+96 new	no //
+92 night	paich~op //
+41 nose	kh~at //
+11 one	37 //
+85 path	kun //
+18 person	hau //
+57 see	Lui //
+28 skin	noN //
+74 star	rau //
+77 stone	ch~in //
+72 sun	ch~avan //
+44 tongue	Lin //
+43 tooth	fan //
+23 tree	ch~ai //
+12 two	Lau //
+75 water	nam //
+3 we	fau //
+2 you	me3 //
+LI_BAODING{TK.HLAI|Tai-Kadai,Hlai}
+ 1   18.75  109.33      667000         lic
+30 blood	Laty~ //
+31 bone	v3k //
+51 breast	XXX //
+66 come	p3n //
+61 die	Lau //
+21 dog	pa //
+54 drink	ch~3p //
+39 ear	zai //
+40 eye	ch~a //
+82 fire	fei //
+19 fish	La //
+95 full	th~ik //
+48 hand	me3 //
+58 hear	ple3, hiNzai //
+34 horn	hau //
+1 I	hou //
+47 knee	gw~ourou //
+25 leaf	be3 //
+53 liver	Nan //
+22 louse	fou //
+86 mountain	go //
+100 name	ph~eN //
+96 new	pan //
+92 night	paich~op //
+41 nose	kh~at //
+11 one	ch~e3 //
+85 path	kun //
+18 person	XXX //
+57 see	zui //
+28 skin	noN //
+74 star	rau //
+77 stone	ch~in //
+72 sun	ch~ahw~an //
+44 tongue	Lin //
+43 tooth	fan //
+23 tree	ch~ai //
+12 two	Lau //
+75 water	nom //
+3 we	fa //
+2 you	me3 //
+            

@@ -1,0 +1,1901 @@
+     1    50  1700     3     1
+(I3)     
+  9  all
+ 83  ashes
+ 27  bark
+ 49  belly
+ 13  big
+ 20  bird
+ 56  bite
+ 91  black
+ 30  blood
+ 31  bone
+ 51  breast 
+ 84  burn
+ 80  cloud
+ 94  cold
+ 66  come
+ 61  die
+ 21  dog
+ 54  drink
+ 99  dry
+ 39  ear
+ 79  earth
+ 55  eat
+ 33  egg
+ 40  eye
+ 32  fat
+ 36  feather
+ 82  fire
+ 19  fish
+ 64  fly
+ 46  foot
+ 95  full
+ 70  give
+ 97  good
+ 88  green
+ 37  hair
+ 48  hand
+ 38  head
+ 58  hear
+ 52  heart
+ 34  horn
+  1  I
+ 62  kill
+ 47  knee
+ 59  know
+ 25  leaf
+ 67  lie
+ 53  liver
+ 14  long
+ 22  louse
+ 17  man
+ 10  many
+ 29  meat
+ 73  moon
+ 86  mountain
+ 42  mouth
+ 45  nail (claw)
+100  name
+ 50  neck
+ 96  new
+ 92  night
+  8  no
+ 41  nose
+ 11  one
+ 18  person
+ 76  rain
+ 87  red
+ 85  road (path)
+ 26  root
+ 98  round
+ 78  sand
+ 57  see
+ 24  seed
+ 68  sit
+ 28  skin
+ 60  sleep
+ 15  small
+ 81  smoke
+ 71  speak
+ 69  stand
+ 74  star
+ 77  stone
+ 72  sun
+ 63  swim
+ 35  tail
+  5  that
+  4  this
+ 44  tongue
+ 43  tooth
+ 23  tree
+ 12  two
+ 65  walk
+ 93  warm
+ 75  water
+  3  we
+  7  what
+ 90  white
+  6  who
+ 16  woman
+ 89  yellow
+  2  you
+ -1
+JEH
+BAHNAR
+CHRAU
+VIETNAMESE
+RUC
+MON
+NYAKUR
+KHMER
+KUI_THAILAND
+SEMAI
+WA
+DEANG
+KHMU
+KSINMUL
+KHASI
+MUNDARI
+ 
+Mon-Khmer (Peiros)
+(A1,1X,36I2)
+   0 0 0 2 0 3-1 1 4 5-2 6 7 8 9-3
+   1 9 310 3 2 2 3 411 5 6 3 3 3 8
+   1 2 2 3 1 4 4 2 2 5 610 2 7 8 9
+   1 0 3 4 3 4 4 5 4 6 7 7 4 8 5 2
+   1 1 2 3 412 5 6 7 5 813 9 51011
+   1 1 1 1 1 1 1 2 1 1 1 1 1 1 1-1
+   1 1 0 8 2 3 3 2 1 1 3 4 5 6 7 1
+   1 2 3 4 4 5 6 7 8 910 8 1 91011
+ 2 1 1 1 2 1 1 1 1 1 1 1 1 1 1 1 1
+ 2 1 1 1 1 1 2 2 1 1 1 1 1 1 1 1 1
+ 2 1 1 1 2 3 1 1 1 1 1 1 2 2 4 5 6
+   0 0 1-2 3 4 5 2 9 010 0 6 0 7 8
+   1 2 3 2 2 4 5 5 6-1 7 8 8 5 9 2
+   1 2 3-1 4 5 3 6 2 2 3 3 7 3 8 9
+ 2 0 0 0 1 1 2 2 3 4 5 6 7 8 91011
+ 2 1 7 1 1 1 1 1 2 3 4 5 5 6 6 2 1
+ 2 1 2 1 1 1 3 3 2 1 1 1 5 1 1 1 4
+ 2 1 2 1 3 2 5 5 6 4 4 7 7 8 8 9 2
+   1 1 1-1-1 4 4 5 6 7 2 0 2 0 8 2
+ 2 1 2 4 3 3 4 4 5 4 6 5 5 7 4 4 4
+   2 1 1 1-1 1 1 1 1 1 1 1 1 1 1 1
+   1 1 1 2 2 1 1 3 1 1 4 4 6 1 7 4
+   1 0 1 2 8 3-4 4 8 2 5 6 7 2 2 9
+ 2 1 1 1 1 0 1 1 2 1 1 3 3 1 1 1 1
+   1-1 0 2 3 3 3 3 4 5 6 0 0 0 0 7
+   1 1 1 2 1 7 1 3 1 4 0 0 5 1 6 5
+ 2 1 1 1 2 3 4 4 5 1 1 7 7 2 8 910
+ 2 1 1 1 1 1 1 1 2 1 1 1 1 1 1 1 1
+   1 1 1 1 1 1 1 2 1 3 1 5 6 1 2 1
+   0 1 1 1 1 1 1 1 1 1 1 1 1 1 2 3
+ 2 1 1 1 2 3 1 1 1 0 1 5 5 6 6 7-1
+   1 2 2 3 0 4 410 2 5 6 9 2 710 8
+   1 1 2 314 4 5 6 6 7 8 910111213
+   1 2 0-1-1 2 3 4 0 0 5 6 6 5 0 8
+   1 1 1 1 1 1 1 1 1 1 1 1 2 1 1 3
+ 2 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 1
+   1 1 2-1 3 4 4-2 5 9 6 6 7 511 8
+ 2 1 2 3 4 5 5 5 6 7 2 5 81011 912
+   1 1 1-1-2 2 3-2 3 1 3 1 3 4 5-1
+ 2 1 5 0 2 2 2 2 3 1 0 2 6 2 4 2 2
+ 2 1 2 2 3-1 2 2 4 0 2 1 1 1 2-2 2
+   7 2 1 1 1 1 1 3 1 4 8 5 6 6 3 1
+ 2 1 0 1 2 2 3 3 4 2 5 410 9 6 7-8
+   1 2 3 2 4 5 5 6 6-112 7 8 91011
+ 2 1 1 1 1 1 1 1 4 1 1 1 1 1 2 1 3
+   1 2 3 4 5 312 6 7 8 9 0101011 7
+ 2 1 1 1-1 1 2 2 1 1 4 1 1 1 1 1 1
+   1 2 2 3 3 2 2 4 2 2 2 2 5 2 2 2
+ 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+   0 1 1 2 0 3 3-1 4 5 6 6-2-3 3 7
+   1 2 3 4 4 5 5 6 7 8 9 1101011-1
+   1 2 3 1 1 4 5 1 1 1 6 7 8 91011
+   1 1 1 2-1 3 3 1 2 1 1 2 5 6 7-2
+ 2 1 2 2 3 4 310 5 6 7 2 811 2 9 6
+   1 2-112 4 3 3 5 6 3 7 8 6 91011
+   1 1 1 2 3 4 4 5 6 6 4 4 7 7 4 9
+ 2 1-1 2 3-3-2 0 4 4 4 5-6-6 0 3 7
+  -1 1 1 1-1 1 1 1 2 3 4 5 6 9 7 8
+ 2 1 2 3 3 4 3 3 3 3 4 5 3 3 3 3-6
+ 2 1 1 1 2-3 2 2 4 5 2 6 7 6 8 8-9
+   0 1 1 2 3 410 5 0 6 7 1 0 0 8 9
+ 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 2 1 1 1 1 1 1 1 1 1 2-1 3 1-2 4 1
+ 2 1 1 2 1 1-1-1-1 3 1 4 5 6 7 8 9
+   1 2 2 2 2 1 1 3 2 4 5 6 2 2 7 2
+   1 1 3 4 4 5 6 7 8 910 61112 813
+ 2 1 1 1 1-1 2 2 2 4 5 6 3 6 8 9 5
+   1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+   0 1 0 2 2 1 1 3 4 0 5 0 3 3 2-6
+   1 1 1 2 2 3 3 2-1-2 2 2 4-3 5 3
+ 2 1 213 3 4 5 6 7 811121214 3 615
+   0 0 0 1 1 0-2 2 3 4 5 6 7 0 8 9
+   1 0 2 3 3 4 5 3 0 3 6 3 7 8 910
+ 2 1 2 3 4-1 5 5 6 0 3 7 8 8 910 8
+   1 2 3 4 5 6 7 6 8 3 9 911121314
+   1 2 3 4 5 4 6 6 7 8 9 6 4101112
+   1 1 2 1 1 2 2 3 4 5 6 6 6 6 7 8
+   1 2 3 1 4 5 7 6 0 1 8 8 9101112
+   0 1 0 1 1 2 3 4 3 3 5 3 1 6 3 1
+ 2 1 1 2-1 2 2-3 3 4 5 2 2 2 2 5 6
+ 2 1 1 1 2 2 1 1 1 1-1 1 1 3 3 1 4
+ 2 1 2 2 3 3 1 1 1 4 5 1 1 3 1 1 1
+   1 1 0 2 3 4 4 5 1 1 1 8 5 1 6 7
+   1 1 1 2 2 3 3 2 4 3 3 3 3 3 1 5
+   0 1 1 2 3 4 4 5 2 6 7 8 1 7 910
+   1 1 2 3 3 4 5 3 0 3 7 7 8 7 3 3
+ 2 1 1 1 2 2 3 3 3 3 3 3 3 3 3 2 4
+ 2 1 1 2 3 3 4 4 5 1 5 3 3 3 6 7-1
+ 2 1 1 2 3 3 2 2 2 0 2 2 5 6 6 7 8
+ 2 1 1 1 1 1 1 1 1 1 1 1 1 1-1 1 1
+   1 2 3 4 4 5 5 6 7 8 9 910101112
+   0 0 0 1 2 3 4 5 0 0 6 6 3 3 0 7
+ 2 1 1 1 1 1 1 1 1 1 2 3 3 3 4 3 1
+ 2 1 110 2 3 4 4 5 6 7 7 7 7 7-8 9
+ 2 1 2 3 2 4 5 4 6 5 4 8 4 4 4 910
+   1 9 1 2 310 4 5 1 611 6 6 6 7-8
+   1 1 0 2 2 0 3 4 4 1 6 7 6 3 2 8
+   0 110 2 0 3 3-2 4 5 6 6 1-3 3 9
+   1 1 2 8 8 2 3 9 0 4 9 5 9 9 6 7
+ 2 1 2 1 1 1 3 3 4 1 2 1 1 1 1 1 1
+X     
+i   
+e
+E
+a
+3
+o
+u
+p
+b
+m
+w
+v       
+f       
+8       
+t
+d
+s
+z
+c
+n
+4       
+S
+Z       
+C
+j       
+5
+y
+T       
+l
+L       
+k
+g
+N
+x
+q
+G       
+X
+7
+h
+r
+!       
+     
+       
+JEH{AuA.BAHNARIC|Austro-Asiatic,Mon-Khmer,EasternMon-Khmer,Bahnaric,NorthBahnaric,West,Jeh-Halang}
+ 3   15.17  107.83       23256   jeh   jeh
+1 I	aut //
+2 you	mi //
+3 we	yuan //
+4 this	mou //
+5 that	XXX //
+6 who	bau //
+7 what	5ai //
+8 not	XXX //
+9 all	XXX //
+10 many	k3dram //
+11 one	mui //
+12 two	bal //
+13 big	tih //
+14 long	proih //
+15 small	t3si //
+16 woman	XXX //
+17 man	XXX //
+18 person	m3Nai //
+19 fish	ka //
+20 bird	Cim //
+21 dog	Co //
+22 louse	k3Cay //
+23 tree	loN //
+24 seed	XXX //
+25 leaf	la //
+26 root	riah //
+27 bark	k3duh //
+28 skin	pal //
+29 flesh	sinek //
+30 blood	ph~am //
+31 bone	k3siaN //
+32 grease	p3dreN //
+33 egg	t3tap //
+34 horn	t3koy //
+35 tail	teN //
+36 feather	suk //
+37 hair	suk //
+38 head	kal //
+39 ear	pat //
+40 eye	mat //
+41 nose	muh //
+42 mouth	t3mun //
+43 tooth	sineN //
+44 tongue	r3piat //
+45 claw	k3nialh~ //
+46 foot	XXX //
+47 knee	kroN //
+48 hand	ti //
+49 belly	p3dok //
+50 neck	t3kuai //
+51 breasts	tuh //
+52 heart	noyh~ //
+53 liver	klem //
+54 drink	hut //
+55 eat	Ca //
+56 bite	kap //
+57 see	tau //
+58 hear	5aN //
+59 know	lo //
+60 sleep	kat //
+61 die	k3Ch~iat //
+62 kill	Zah //
+63 swim	p3loi //
+64 fly	t3pal //
+65 walk	Ciu //
+66 come	XXX //
+67 lie	kat //
+68 sit	sinan //
+69 stand	XXX //
+70 give	doh //
+71 say	t3tah //
+72 sun	matNay //
+73 moon	kh~ei //
+74 star	hloN //
+75 water	dak //
+76 rain	mriah //
+77 stone	t3mou //
+78 sand	Coih //
+79 earth	neh //
+80 cloud	k3sok //
+81 smoke	hnuai //
+82 fire	on //
+83 ash	luN lok //
+84 burn	XXX //
+85 path	traN //
+86 mountain	Nuk //
+87 red	dum //
+88 green	drih //
+89 yellow	driN //
+90 white	t3bok //
+91 black	5uN //
+92 night	maN //
+93 hot	XXX //
+94 cold	r3teh //
+95 full	biN //
+96 new	nao //
+97 good	liam //
+98 round	XXX //
+99 dry	raN //
+100 name	t3li7 //
+BAHNAR{AuA.BAHNARIC|Austro-Asiatic,Mon-Khmer,EasternMon-Khmer,Bahnaric,CentralBahnaric}
+ 1   13.83  108.33      158456   bpb   bdq
+1 I	i5 //
+2 you	XXX //
+3 we	5on //
+4 this	nou //
+5 that	ni //
+6 who	bu //
+7 what	ki3 //
+8 not	3h //
+9 all	XXX //
+10 many	th~3r //
+11 one	mo5 //
+12 two	bar //
+13 big	tih //
+14 long	keZuN //
+15 small	XXX //
+16 woman	drakan //
+17 man	droNlo //
+18 person	b3Nai //
+19 fish	ka //
+20 bird	s3m //
+21 dog	ko //
+22 louse	si //
+23 tree	loN //
+24 seed	XXX //
+25 leaf	hla //
+26 root	r3h //
+27 bark	hmok //
+28 skin	3kar //
+29 flesh	5em //
+30 blood	ph~am //
+31 bone	k3tiN //
+32 grease	r3ma //
+33 egg	XXX //
+34 horn	ake //
+35 tail	kieN //
+36 feather	sok //
+37 hair	sok //
+38 head	k3l //
+39 ear	don //
+40 eye	mat //
+41 nose	muh //
+42 mouth	b3r //
+43 tooth	s3ne5 //
+44 tongue	r3piet //
+45 claw	teNi3h //
+46 foot	t3paNZ3N //
+47 knee	XXX //
+48 hand	ti //
+49 belly	XXX //
+50 neck	ako //
+51 breasts	toh //
+52 heart	nuih //
+53 liver	kl3m //
+54 drink	5a //
+55 eat	sa //
+56 bite	kap //
+57 see	boh //
+58 hear	k3teN //
+59 know	bat //
+60 sleep	tep //
+61 die	k3teC //
+62 kill	p3loC //
+63 swim	gl3i //
+64 fly	par //
+65 walk	ano //
+66 come	XXX //
+67 lie	p3som //
+68 sit	XXX //
+69 stand	doN //
+70 give	an //
+71 say	p3ma //
+72 sun	nar //
+73 moon	kh~ei //
+74 star	s3NloN //
+75 water	dak //
+76 rain	mi //
+77 stone	t3mo //
+78 sand	Cu3h //
+79 earth	tEh //
+80 cloud	h3m3l //
+81 smoke	5ui //
+82 fire	u5 //
+83 ash	h3yok //
+84 burn	XXX //
+85 path	troN //
+86 mountain	koN //
+87 red	bre //
+88 green	Z3k //
+89 yellow	dreN //
+90 white	kok //
+91 black	gam //
+92 night	maN //
+93 hot	XXX //
+94 cold	t3Niet //
+95 full	be4 //
+96 new	hlE //
+97 good	liEm //
+98 round	h3pom //
+99 dry	hreN //
+100 name	anan //
+CHRAU{AuA.BAHNARIC|Austro-Asiatic,Mon-Khmer,EasternMon-Khmer,Bahnaric,SouthBahnaric,Stieng-Chrau}
+ 1   10.75  107.50       22567   chr   crw
+1 I	a5, i5 //
+2 you	mai, ai //
+3 we	von, kh~ana5 //
+4 this	XXX //
+5 that	XXX //
+6 who	kamvu //
+7 what	paC n7hy~a, mo7 //
+8 not	sun, daN //
+9 all	XXX //
+10 many	go7 //
+11 one	muoi, du //
+12 two	var //
+13 big	ma7 //
+14 long	joN //
+15 small	ken //
+16 woman	XXX //
+17 man	XXX //
+18 person	tamun //
+19 fish	ka //
+20 bird	sum //
+21 dog	so //
+22 louse	si //
+23 tree	Ch~o //
+24 seed	Ngrap //
+25 leaf	la //
+26 root	diyieh //
+27 bark	mo7 //
+28 skin	nto //
+29 flesh	goN //
+30 blood	n7ham //
+31 bone	ntiN //
+32 grease	XXX //
+33 egg	Cap //
+34 horn	XXX //
+35 tail	tieN //
+36 feather	sino7 sum //
+37 hair	so7  
+38 head	vo7, kamvo7 //
+39 ear	tor //
+40 eye	mat //
+41 nose	muh //
+42 mouth	mi5 //
+43 tooth	seC //
+44 tongue	lapiet //
+45 claw	can7hyeih //
+46 foot	jaN //
+47 knee	ko7 kruN //
+48 hand	ti //
+49 belly	XXX //
+50 neck	nko //
+51 breasts	gatoh //
+52 heart	play nuih //
+53 liver	kh~lom //
+54 drink	huC //
+55 eat	sa //
+56 bite	XXX //
+57 see	say //
+58 hear	CaN //
+59 know	gut //
+60 sleep	XXX //
+61 die	Cut //
+62 kill	taCut //
+63 swim	XXX //
+64 fly	par //
+65 walk	sa7, han //
+66 come	XXX //
+67 lie	vi7 //
+68 sit	gu7 //
+69 stand	tao ya7 //
+70 give	an, iun //
+71 say	pa5 //
+72 sun	mat nar //
+73 moon	kh~ay //
+74 star	sima5 //
+75 water	da7 //
+76 rain	mi //
+77 stone	tamo //
+78 sand	Cw~oh //
+79 earth	nteh //
+80 cloud	tu7 //
+81 smoke	5u7 //
+82 fire	u5 //
+83 ash	vuh //
+84 burn	Nit //
+85 path	tr~oN //
+86 mountain	guN //
+87 red	prho //
+88 green	XXX //
+89 yellow	ramut //
+90 white	vo7, kanaN //
+91 black	ju7, sindoC //
+92 night	maN, naN //
+93 hot	duh //
+94 cold	takat //
+95 full	ve5 //
+96 new	me //
+97 good	yah //
+98 round	XXX //
+99 dry	sah, ra5 //
+100 name	sa7 //
+VIETNAMESE{AuA.VIET-MUONG|Austro-Asiatic,Mon-Khmer,Viet-Muong,Vietnamese}
+ 2   10.50  106.50    67439139   vie   vie
+1 I	toi //
+2 you	may, ti //
+3 we	ta, mi5 //
+4 this	XXX //
+5 that	XXX //
+6 who	XXX //
+7 what	kai gi //
+8 not	kx~oN //
+9 all	XXX //
+10 many	5ieu //
+11 one	mot //
+12 two	hai //
+13 big	lon //
+14 long	Zai //
+15 small	5o //
+16 woman	XXX //
+17 man	XXX //
+18 person	Nuoi //
+19 fish	ka //
+20 bird	tim //
+21 dog	to //
+22 louse	ti //
+23 tree	kay //
+24 seed	hot //
+25 leaf	la //
+26 root	re //
+27 bark	vo kay //
+28 skin	Za //
+29 flesh	8it //
+30 blood	mau //
+31 bone	SuoN //
+32 grease	XXX //
+33 egg	CuN //
+34 horn	XXX //
+35 tail	Zuoi //
+36 feather	loN tim //
+37 hair	tok //
+38 head	dau //
+39 ear	tai //
+40 eye	mat //
+41 nose	mui //
+42 mouth	mieN //
+43 tooth	raN //
+44 tongue	luoi //
+45 claw	moN //
+46 foot	tan //
+47 knee	dau goi //
+48 hand	tay //
+49 belly	XXX //
+50 neck	ko //
+51 breasts	Nuk //
+52 heart	Cai tim //
+53 liver	%gan //  probably borrowed from Old Chinese (LWT)
+54 drink	uoN //
+55 eat	an //
+56 bite	XXX //
+57 see	%8ay //  probably borrowed from Old Chinese
+58 hear	Nhe //
+59 know	biet //
+60 sleep	XXX //
+61 die	tet //
+62 kill	giet //
+63 swim	XXX //
+64 fly	bay //
+65 walk	di //
+66 come	XXX //
+67 lie	Nu, nam //
+68 sit	Noi //
+69 stand	duN Zay //
+70 give	to //
+71 say	raN //
+72 sun	mat Coi //
+73 moon	CaN //
+74 star	Noi sao //
+75 water	nuok //
+76 rain	mua //
+77 stone	da //
+78 sand	kat //
+79 earth	dat //
+80 cloud	maj //
+81 smoke	kx~oi //
+82 fire	lua //
+83 ash	Co //
+84 burn	tay //
+85 path	duoN //
+86 mountain	nui //
+87 red	do //
+88 green	XXX //
+89 yellow	vaN //
+90 white	CaN //
+91 black	den //
+92 night	dem //
+93 hot	noN //
+94 cold	la5 //
+95 full	day //
+96 new	moi //
+97 good	tot //
+98 round	XXX //
+99 dry	kx~o //
+100 name	ten //
+RUC{AuA.VIET-MUONG|Austro-Asiatic,Mon-Khmer,Viet-Muong,Chut}
+ 1   17.90  105.85        4279         scb
+1 I	ho //
+2 you	mi //
+3 we	Cupa //
+4 this	ni //
+5 that	he //
+6 who	ay //
+7 what	Cam3 //
+8 not	vaN //
+9 all	XXX //
+10 many	5iw //
+11 one	moiC //
+12 two	hal //
+13 big	m3am //
+14 long	yal //
+15 small	dEdE //
+16 woman	XXX //
+17 man	XXX //
+18 person	Nay //
+19 fish	aka //
+20 bird	iCim //
+21 dog	aCo //
+22 louse	Ci //
+23 tree	k3y //
+24 seed	kayaN //
+25 leaf	ula //
+26 root	liErih //
+27 bark	k3duh //
+28 skin	karot //
+29 flesh	sit //
+30 blood	asam //
+31 bone	saN //
+32 grease	kluN //
+33 egg	t3lul //
+34 horn	kr3N //
+35 tail	tuoy //
+36 feather	usuk //
+37 hair	usuk //
+38 head	kuluok //
+39 ear	say //
+40 eye	XXX //
+41 nose	mu3h //
+42 mouth	kaN //
+43 tooth	kasaN //
+44 tongue	l3arh~ //
+45 claw	k3ntoN //
+46 foot	CiN //
+47 knee	kuluok tukul //
+48 hand	si //
+49 belly	kd3l //
+50 neck	teke //
+51 breasts	n3y //
+52 heart	toN //
+53 liver	lo3m //
+54 drink	5u //
+55 eat	an //
+56 bite	kom //
+57 see	C3N //
+58 hear	CamaN //
+59 know	hi //
+60 sleep	53p //
+61 die	kuCit //
+62 kill	kaCit //
+63 swim	aya //
+64 fly	p3l //
+65 walk	ti //
+66 come	ti //
+67 lie	n3p //
+68 sit	Noy //
+69 stand	taN //
+70 give	XXX //
+71 say	Col //
+72 sun	m3tpl3y //
+73 moon	pulean //
+74 star	kumi5 //
+75 water	da7 //
+76 rain	kum3a //
+77 stone	lata //
+78 sand	t3kaC //
+79 earth	b3n //
+80 cloud	m3l //
+81 smoke	kahoy //
+82 fire	kurh~ //
+83 ash	t3pEh //
+84 burn	takat //
+85 path	t3aNti //
+86 mountain	C3t //
+87 red	to //
+88 green	seN //
+89 yellow	vaN //
+90 white	t3kal //
+91 black	tEntEn //
+92 night	l3m //
+93 hot	t3l //
+94 cold	lubat //
+95 full	blam //
+96 new	b3y //
+97 good	yah //
+98 round	klon //
+99 dry	kh~o //
+100 name	ten //
+MON{AuA.MONIC|Austro-Asiatic,Mon-Khmer,Monic}
+ 2   14.83  100.50      850530   mon   mnw
+1 I	ay //
+2 you	beh //
+3 we	puiy //
+4 this	na7 //
+5 that	te7 //
+6 who	XXX //
+7 what	nu //
+8 not	ha, hw~a //
+9 all	pa7uit //
+10 many	gluiN //
+11 one	mw~ay //
+12 two	ba //
+13 big	Znok //
+14 long	ZliN //
+15 small	5i //
+16 woman	brau //
+17 man	tru7 //
+18 person	mnih //
+19 fish	ka //
+20 bird	gaCem  
+21 dog	kluiw //
+22 louse	Cay //
+23 tree	Ch~u //
+24 seed	XXX //
+25 leaf	sla //
+26 root	ruih //
+27 bark	sakow //
+28 skin	snam //
+29 flesh	Cun //
+30 blood	Ch~im //
+31 bone	Zut //
+32 grease	kleN //
+33 egg	kh~amhay //
+34 horn	draN //
+35 tail	bata //
+36 feather	s3neN //
+37 hair	sok //
+38 head	kaduip //
+39 ear	katow //
+40 eye	mat //
+41 nose	muh //
+42 mouth	paN //
+43 tooth	Nek //
+44 tongue	katak //
+45 claw	sanem //
+46 foot	ZoN //
+47 knee	kboaN //
+48 hand	tay //
+49 belly	buN //
+50 neck	ka7 //
+51 breasts	tah //
+52 heart	gruih //
+53 liver	gruih //
+54 drink	suN //
+55 eat	Ca //
+56 bite	kit //
+57 see	5at //
+58 hear	miN //
+59 know	tim //
+60 sleep	stik //
+61 die	khy$uit //
+62 kill	gaCuit //
+63 swim	biN //
+64 fly	paw //
+65 walk	XXX //
+66 come	kluN //
+67 lie	wat //
+68 sit	gaZa7 //
+69 stand	tuiw //
+70 give	kuiw //
+71 say	huim //
+72 sun	tNay //
+73 moon	gatu //
+74 star	saman //
+75 water	dak //
+76 rain	bray //
+77 stone	tmo7 //
+78 sand	bti //
+79 earth	ti //
+80 cloud	matbrai //
+81 smoke	yak //
+82 fire	pamat //
+83 ash	pateN //
+84 burn	tau //
+85 path	traw //
+86 mountain	duiw //
+87 red	bkat //
+88 green	saNeak //
+89 yellow	damit //
+90 white	bu //
+91 black	l3mCok //
+92 night	btam //
+93 hot	guim //
+94 cold	goak //
+95 full	peN //
+96 new	tami //
+97 good	kh~uih //
+98 round	kh~dom //
+99 dry	s3mkah //
+100 name	imu, yamu //
+NYAKUR{AuA.MONIC|Austro-Asiatic,Mon-Khmer,SouthernMonic}
+ 1   15.67  101.67       10000   nkt   cbn
+1 I	e5 //
+2 you	ph~eh //
+3 we	pEy //
+4 this	o7 //
+5 that	te7 //
+6 who	35ah //
+7 what	mo7 //
+8 not	ku //
+9 all	th~aN //
+10 many	kh~l3N //
+11 one	mu3y //
+12 two	bar //
+13 big	3tol //
+14 long	kh~li5 //
+15 small	nd~iC //
+16 woman	ph~3ph~raw //
+17 man	tuytruZ  
+18 person	m3nih //
+19 fish	ka7 //
+20 bird	5Ci3m //
+21 dog	Ch~ur //
+22 louse	Cay //
+23 tree	Ch~u7  
+24 seed	kh~rap //
+25 leaf	hla7 //
+26 root	rihrak //
+27 bark	Nku3r //
+28 skin	hnam //
+29 flesh	hw~a7 //
+30 blood	Ch~im //
+31 bone	Ch~3lut //
+32 grease	k3li5 //
+33 egg	ph~oN //
+34 horn	th~raN //
+35 tail	p3ta7 //
+36 feather	Ch~okCh~ok //
+37 hair	Ch~ok //
+38 head	k3d3p //
+39 ear	k3tuer //
+40 eye	mat //
+41 nose	hmok //
+42 mouth	paN //
+43 tooth	Ni3k //
+44 tongue	ntak //
+45 claw	Nh~li3m //
+46 foot	Ch~uN //
+47 knee	k3boN //
+48 hand	tEy //
+49 belly	ph~uN //
+50 neck	ko7 //
+51 breasts	toh //
+52 heart	5y~um //
+53 liver	kh~rih //
+54 drink	Ch~oN //
+55 eat	Ca7 //
+56 bite	k3t //
+57 see	ma3l //
+58 hear	kh~3m35 //
+59 know	C3d3m //
+60 sleep	pu5Nkuy //
+61 die	k3CEt //
+62 kill	k3CEt //
+63 swim	bi5 //
+64 fly	ph~ar //
+65 walk	ar //
+66 come	loN //
+67 lie	pu5 //
+68 sit	th~oN //
+69 stand	y3n //
+70 give	kul //
+71 say	ph~ut //
+72 sun	ha*y //
+73 moon	ntu7 //
+74 star	p3kay //
+75 water	dak //
+76 rain	ph~rEy //
+77 stone	hmo7 //
+78 sand	nt3l //
+79 earth	ti7 //
+80 cloud	mok //
+81 smoke	yak //
+82 fire	k3mat //
+83 ash	p3ti5 //
+84 burn	kh~lak //
+85 path	trew //
+86 mountain	kur //
+87 red	ph~3l35 //
+88 green	l3Cok //
+89 yellow	p3Cu5 //
+90 white	Ch~uN //
+91 black	ph~li3t //
+92 night	p3tam //
+93 hot	r37u5 //
+94 cold	t3kat //
+95 full	pi4 //
+96 new	t3mi7 //
+97 good	hnap //
+98 round	k3lpum //
+99 dry	C3kas //
+100 name	XXX //
+KHMER{AuA.KHMER|Austro-Asiatic,Mon-Khmer,EasternMon-Khmer,Khmer}
+ 2   12.50  105.00    13276639   khm   khm
+1 I	kh~3nom //
+2 you	EN //
+3 we	ya3N //
+4 this	n3h //
+5 that	noh //
+6 who	kh~3nao //
+7 what	evi //
+8 not	min //
+9 all	tamN //
+10 many	Cr~a3n //
+11 one	muey //
+12 two	bir //
+13 big	dh~om //
+14 long	vEN //
+15 small	tuC //
+16 woman	stri //
+17 man	purah //
+18 person	manus //
+19 fish	tr~i //
+20 bird	sat slap //
+21 dog	Ch~3kE //
+22 louse	Cay //
+23 tree	ta3m Zh~a3 //
+24 seed	grap //
+25 leaf	s3l3k //
+26 root	r3k //
+27 bark	s3mbak //
+28 skin	s3pEk //
+29 flesh	saC //
+30 blood	Zh~am //
+31 bone	Ch7$3N //
+32 grease	kh~la5 //
+33 egg	boN //
+34 horn	s3nEN //
+35 tail	k3nd~uy //
+36 feather	slap //
+37 hair	sok //
+38 head	k3pal //
+39 ear	tr~3Ch~i3k //
+40 eye	bh~3n3k //
+41 nose	Cr~3muh //
+42 mouth	mat //
+43 tooth	dh~3m3n //
+44 tongue	3ntak //
+45 claw	kr3Cok //
+46 foot	Za3N //
+47 knee	Z3NgaN //
+48 hand	tay //
+49 belly	boh //
+50 neck	ko //
+51 breasts	toh //
+52 heart	p3ht~uN //
+53 liver	th~la3m //
+54 drink	ph~3k //
+55 eat	5am //
+56 bite	kh~am //
+57 see	ma3l //
+58 hear	l3 //
+59 know	t3N //
+60 sleep	t3k //
+61 die	slap //
+62 kill	s3mlap //
+63 swim	hel //
+64 fly	ha3r //
+65 walk	ta3r //
+66 come	mok //
+67 lie	g3N //
+68 sit	3Nguy //
+69 stand	Zh~ar //
+70 give	oy //
+71 say	sr3ti //
+72 sun	th~3Nay //
+73 moon	kh~E //
+74 star	ph~3kay //
+75 water	d3k //
+76 rain	bh~li3N //
+77 stone	th~3mo //
+78 sand	kh~3saC //
+79 earth	ti //
+80 cloud	b3bok //
+81 smoke	ph~3sEN //
+82 fire	bh~la3N //
+83 ash	ph~Eh //
+84 burn	tut //
+85 path	Z3luw th~3nal //
+86 mountain	bh~3nom //
+87 red	kr3ham //
+88 green	paytaN //
+89 yellow	l3N //
+90 white	so //
+91 black	kh~3maw //
+92 night	yop //
+93 hot	k3daw //
+94 cold	tr~3Zak //
+95 full	b3n //
+96 new	th~mi //
+97 good	l37o //
+98 round	mul //
+99 dry	sNu3t //
+100 name	Zh~3maoh //
+KUI_THAILAND{AuA.KATUIC|Austro-Asiatic,Mon-Khmer,EasternMon-Khmer,Katuic,WestKatuic,Kuay-Nheu}
+ 2   14.50  104.00      366675         kdt
+1 I	XXX //
+2 you	muaN //
+3 we	mh~ai //
+4 this	XXX //
+5 that	k3i //
+6 who	naw //
+7 what	na //
+8 not	XXX //
+9 all	ai th~e //
+10 many	dal //
+11 one	mui //
+12 two	bia //
+13 big	ph~3t //
+14 long	nth$r3N //
+15 small	kEt //
+16 woman	kuik3pai //
+17 man	kui th~ol //
+18 person	kui //
+19 fish	ka //
+20 bird	CEml //
+21 dog	Ca //
+22 louse	5CE7 //
+23 tree	XXX //
+24 seed	klaN //
+25 leaf	sla //
+26 root	rEh //
+27 bark	mph~ua7 //
+28 skin	XXX //
+29 flesh	saC //
+30 blood	3ham //
+31 bone	Nh~aN //
+32 grease	5Ch~EN //
+33 egg	nth$rEl //
+34 horn	t3kai //
+35 tail	sal //
+36 feather	so7 //
+37 hair	so7 //
+38 head	pla //
+39 ear	k3tor //
+40 eye	mat //
+41 nose	muh //
+42 mouth	noh //
+43 tooth	k3nE5 //
+44 tongue	nta7 //
+45 claw	nth$rEh //
+46 foot	Z3N //
+47 knee	plat3kol //
+48 hand	te //
+49 belly	ph~uN //
+50 neck	kaN //
+51 breasts	toh //
+52 heart	ph~am //
+53 liver	luam //
+54 drink	NuaC //
+55 eat	Ca //
+56 bite	kap //
+57 see	sir //
+58 hear	saN //
+59 know	di5 //
+60 sleep	NEt //
+61 die	lah //
+62 kill	k3CEt //
+63 swim	loi //
+64 fly	par //
+65 walk	huC //
+66 come	Cau //
+67 lie	tiC //
+68 sit	XXX //
+69 stand	tey3N //
+70 give	an //
+71 say	XXX //
+72 sun	m3niaN //
+73 moon	mph$riaNsai //
+74 star	ntar //
+75 water	dia7 //
+76 rain	m3mia //
+77 stone	t3mau //
+78 sand	skaC //
+79 earth	k3tE7 //
+80 cloud	hl3t //
+81 smoke	mp~i7 //
+82 fire	uh //
+83 ash	ph~a7 //
+84 burn	CaN //
+85 path	k3na //
+86 mountain	bru //
+87 red	ksaw //
+88 green	XXX //
+89 yellow	XXX //
+90 white	bua7 //
+91 black	tw~E5 //
+92 night	kh~riau //
+93 hot	XXX //
+94 cold	CNEt //
+95 full	XXX //
+96 new	tmai //
+97 good	XXX //
+98 round	dul //
+99 dry	s7at //
+100 name	m3h //
+SEMAI{AuA.ASLIAN|Austro-Asiatic,Mon-Khmer,Aslian,Senoic}
+ 2    4.33  101.67       18327   smj   sea
+1 I	E5 //
+2 you	hE7 //
+3 we	Zi7 //
+4 this	adEh //
+5 that	aZeh //
+6 who	bo7 //
+7 what	mah //
+8 not	pE7 //
+9 all	diC //
+10 many	Z7~oy //
+11 one	nan37 //
+12 two	nar //
+13 big	nt~oy //
+14 long	Cr3kN //
+15 small	maCo*t //
+16 woman	krdor //
+17 man	kral //
+18 person	sn7~oy //
+19 fish	ka7 //
+20 bird	CEpm~  
+21 dog	Co7 //
+22 louse	CE7 //
+23 tree	Zh~u7 //
+24 seed	sip //
+25 leaf	sla7 //
+26 root	r7~es //
+27 bark	Ckop //
+28 skin	gt37 //
+29 flesh	sEC //
+30 blood	bh~ipm~ //
+31 bone	Z7~akN~ //
+32 grease	l7~us //
+33 egg	pNl3kN~ //
+34 horn	XXX //
+35 tail	snta7 //
+36 feather	sntol //
+37 hair	sok //
+38 head	kuy //
+39 ear	ntakN //
+40 eye	mat //
+41 nose	muh //
+42 mouth	mp~akN //
+43 tooth	lmu5 //
+44 tongue	lntak //
+45 claw	C3nros //
+46 foot	ZukN //
+47 knee	kurol //
+48 hand	t3kN //
+49 belly	k3t //
+50 neck	taN3n //
+51 breasts	nt~3h //
+52 heart	nus //
+53 liver	ris //
+54 drink	Nut //
+55 eat	Ca7 //
+56 bite	kap //
+57 see	nEN //
+58 hear	g3rtek //
+59 know	panEy //
+60 sleep	bEt //
+61 die	dat //
+62 kill	p3rdat //
+63 swim	loy //
+64 fly	hEkN //
+65 walk	Cip //
+66 come	bEy //
+67 lie	da7 //
+68 sit	g3y //
+69 stand	Zi5Z3k //
+70 give	ok //
+71 say	pder //
+72 sun	matZis //
+73 moon	gCE7 //
+74 star	prloy //
+75 water	tew //
+76 rain	mani7 //
+77 stone	batu7 //
+78 sand	pasir //
+79 earth	te7 //
+80 cloud	sagup //
+81 smoke	Cul //
+82 fire	os //
+83 ash	gNh3l //
+84 burn	XXX //
+85 path	nuN //
+86 mountain	lot //
+87 red	rNa5 //
+88 green	XXX //
+89 yellow	ph~ok //
+90 white	by~Ek //
+91 black	bl7$ak //
+92 night	t3pm~ //
+93 hot	XXX //
+94 cold	sNEC //
+95 full	t3bek //
+96 new	pay //
+97 good	bor //
+98 round	XXX //
+99 dry	hoC //
+100 name	muh //
+WA{AuA.PALAUNG-KHMUIC|Austro-Asiatic,Mon-Khmer,NorthernMon-Khmer,Palaungic,EasternPalaungic,Waic,Wa}
+ 2   23.00   98.00      838000         wbm
+1 I	37 //
+2 you	mai7 //
+3 we	yi7 //
+4 this	in //
+5 that	an //
+6 who	mo7 //
+7 what	pati7 //
+8 not	aN //
+9 all	to //
+10 many	hun //
+11 one	ti7 //
+12 two	ra //
+13 big	tiN //
+14 long	laN //
+15 small	iak //
+16 woman	bun //
+17 man	sime7 //
+18 person	pui //
+19 fish	ka7 //
+20 bird	sim //
+21 dog	so7 //
+22 louse	si7 //
+23 tree	kh~au7 //
+24 seed	sok //
+25 leaf	hla7 //
+26 root	riah //
+27 bark	hlo7 //
+28 skin	hak //
+29 flesh	ne7 //
+30 blood	nh~am //
+31 bone	sisaN //
+32 grease	b3 //
+33 egg	tom //
+34 horn	ruN //
+35 tail	sida7  
+36 feather	XXX //
+37 hair	hauk //
+38 head	kaiN //
+39 ear	yh~auk //
+40 eye	Nai //
+41 nose	m3ih //
+42 mouth	yh~3ih //
+43 tooth	rh~aN //
+44 tongue	dak //
+45 claw	Nh~im //
+46 foot	CauN //
+47 knee	p3m NoN //
+48 hand	tai7 //
+49 belly	vaik //
+50 neck	Nok //
+51 breasts	t3ih //
+52 heart	rh~om //
+53 liver	tom //
+54 drink	rh~3p //
+55 eat	som //
+56 bite	kiat //
+57 see	yau7 //
+58 hear	mh~oN //
+59 know	yuN //
+60 sleep	it //
+61 die	yum //
+62 kill	pa3h //
+63 swim	loi //
+64 fly	pu //
+65 walk	hu //
+66 come	hoik //
+67 lie	noi //
+68 sit	Nom //
+69 stand	CuN //
+70 give	to7 //
+71 say	krai //
+72 sun	siNai7 //
+73 moon	kh~i7 //
+74 star	sim7~uiN //
+75 water	rom //
+76 rain	lh~E7 //
+77 stone	si mau7 //
+78 sand	mh~aik //
+79 earth	tE7 //
+80 cloud	pai7om //
+81 smoke	tau7 //
+82 fire	Nu //
+83 ash	5au7 //
+84 burn	k3ik //
+85 path	kra7 //
+86 mountain	goN //
+87 red	rauh //
+88 green	klai //
+89 yellow	lh~3N //
+90 white	paiN //
+91 black	luN //
+92 night	pomsom //
+93 hot	XXX //
+94 cold	kuat //
+95 full	nauk //
+96 new	kh~rau7 //
+97 good	mh~3m //
+98 round	lomle //
+99 dry	kroh //
+100 name	ka37 //
+DEANG{AuA.PALAUNG-KHMUIC|Austro-Asiatic,Mon-Khmer,NorthernMon-Khmer,Palaungic,WesternPalaungic,Palaung}
+ 2   22.67   96.67      267539   plg   pce
+1 I	XXX //
+2 you	moi //
+3 we	y3i //
+4 this	XXX //
+5 that	d3 //
+6 who	se //
+7 what	se muh //
+8 not	XXX //
+9 all	dvi7 //
+10 many	mh~blam //
+11 one	XXX //
+12 two	XXX //
+13 big	daN //
+14 long	doN //
+15 small	diat //
+16 woman	i pon //
+17 man	mai //
+18 person	to i //
+19 fish	ka //
+20 bird	siN //
+21 dog	a7o7 //
+22 louse	sai //
+23 tree	he //
+24 seed	kau //
+25 leaf	hla //
+26 root	riaih //
+27 bark	go7 //
+28 skin	hur //
+29 flesh	yoN //
+30 blood	nh~am //
+31 bone	k"7~aN //
+32 grease	XXX //
+33 egg	krau //
+34 horn	nuN //
+35 tail	sta //
+36 feather	XXX //
+37 hair	hu7 //
+38 head	kiN //
+39 ear	yo7  
+40 eye	Nai //
+41 nose	muih //
+42 mouth	sop //
+43 tooth	rh~aN //
+44 tongue	kta7 //
+45 claw	arh~im //
+46 foot	Z3N //
+47 knee	kir kEr //
+48 hand	tai //
+49 belly	vE7 //
+50 neck	amoN //
+51 breasts	bu //
+52 heart	noih //
+53 liver	ktom //
+54 drink	rh~3p //
+55 eat	hom //
+56 bite	ga7 //
+57 see	y3 //
+58 hear	sNauy3 //
+59 know	nap //
+60 sleep	it //
+61 die	yam //
+62 kill	Nah //
+63 swim	lam Na //
+64 fly	ph~ru //
+65 walk	hau //
+66 come	rot //
+67 lie	XXX //
+68 sit	Noi //
+69 stand	ZaN //
+70 give	don //
+71 say	grai //
+72 sun	sNoi //
+73 moon	plaN kiar //
+74 star	sman //
+75 water	om //
+76 rain	klai //
+77 stone	mau //
+78 sand	kh~ai7  
+79 earth	k"tai //
+80 cloud	nh7$ut //
+81 smoke	to7 //
+82 fire	Nar //
+83 ash	k"faN //
+84 burn	XXX //
+85 path	ndEN //
+86 mountain	svr //
+87 red	r3N //
+88 green	5iar //
+89 yellow	t3N //
+90 white	blo7 //
+91 black	vaN //
+92 night	s3m //
+93 hot	un //
+94 cold	kat //
+95 full	no7 //
+96 new	kmai //
+97 good	mh~3m //
+98 round	XXX //
+99 dry	XXX //
+100 name	C3 //
+KHMU{AuA.PALAUNG-KHMUIC|Austro-Asiatic,Mon-Khmer,NorthernMon-Khmer,Khmuic,Mal-Khmu,Khmu}
+ 1   21.00  102.00      479739   kmu   kjg
+1 I	XXX //
+2 you	me //
+3 we	XXX //
+4 this	k3 ki //
+5 that	k3 ni //
+6 who	m3 //
+7 what	m3h //
+8 not	XXX //
+9 all	ku //
+10 many	k3 //
+11 one	moy //
+12 two	par //
+13 big	nam //
+14 long	waN //
+15 small	nE //
+16 woman	C3mk3n //
+17 man	C3mpro //
+18 person	k3mmu //
+19 fish	ka //
+20 bird	sim //
+21 dog	so //
+22 louse	se //
+23 tree	s37oN //
+24 seed	p3liar //
+25 leaf	la //
+26 root	rias //
+27 bark	h3mpok //
+28 skin	h3mpur //
+29 flesh	ah //
+30 blood	mam //
+31 bone	C37aN //
+32 grease	XXX //
+33 egg	k3toN //
+34 horn	Centr~3N //
+35 tail	h3nta //
+36 feather	kh~ul //
+37 hair	kl3  
+38 head	k3mpoN //
+39 ear	hermey //
+40 eye	mat //
+41 nose	muh //
+42 mouth	t3noh //
+43 tooth	raN //
+44 tongue	h3ntak //
+45 claw	t3mmoN //
+46 foot	C3aN //
+47 knee	k3nun //
+48 hand	k3takti //
+49 belly	poN //
+50 neck	k3ntuar //
+51 breasts	pu //
+52 heart	h3rn3am //
+53 liver	t3lom //
+54 drink	uak //
+55 eat	p3 //
+56 bite	pok //
+57 see	kun //
+58 hear	meC //
+59 know	n3N //
+60 sleep	sis //
+61 die	han //
+62 kill	ph~an //
+63 swim	way //
+64 fly	tir //
+65 walk	yoh //
+66 come	kay //
+67 lie	Nim //
+68 sit	ten, tan //
+69 stand	t3n //
+70 give	un //
+71 say	lo //
+72 sun	matpri //
+73 moon	moN //
+74 star	s3rmin //
+75 water	om //
+76 rain	k3ma //
+77 stone	klaN //
+78 sand	Cr~es //
+79 earth	p3te //
+80 cloud	put //
+81 smoke	p3t3 //
+82 fire	p3rl3a //
+83 ash	poh //
+84 burn	pok //
+85 path	Nor //
+86 mountain	mok //
+87 red	yim //
+88 green	C3Nar //
+89 yellow	si l3N //
+90 white	klok //
+91 black	h3aN //
+92 night	p3s3am //
+93 hot	N3k3m //
+94 cold	Nar //
+95 full	kin //
+96 new	h3nme //
+97 good	l3 //
+98 round	mon //
+99 dry	ras //
+100 name	C3 //
+KSINMUL{AuA.PALAUNG-KHMUIC|Austro-Asiatic,Mon-Khmer,NorthernMon-Khmer,Khmuic,XinhMul}
+ 1   21.08  104.00       20182   ksi   puo
+1 I	a5 //
+2 you	mih //
+3 we	zi //
+4 this	XXX //
+5 that	p37ow //
+6 who	noh //
+7 what	h3lmoh //
+8 not	XXX //
+9 all	XXX //
+10 many	gay //
+11 one	met //
+12 two	soN //
+13 big	do //
+14 long	3loN //
+15 small	nek //
+16 woman	kh~on5i5 //
+17 man	kh~onsay //
+18 person	ksiN //
+19 fish	ka //
+20 bird	Cem //
+21 dog	ksew //
+22 louse	cey //
+23 tree	C37u3N //
+24 seed	XXX //
+25 leaf	b3w //
+26 root	geh //
+27 bark	b3N //
+28 skin	b3N //
+29 flesh	ksoN //
+30 blood	mi3m //
+31 bone	laN //
+32 grease	XXX //
+33 egg	kloN //
+34 horn	C3lgan //
+35 tail	h3lta //
+36 feather	sok //
+37 hair	sok //
+38 head	3lu //
+39 ear	h3ltol //
+40 eye	mat //
+41 nose	moh //
+42 mouth	5uk //
+43 tooth	h3gi3N //
+44 tongue	h3ltak //
+45 claw	moNsu3N //
+46 foot	zuN //
+47 knee	3lum3ldil //
+48 hand	k3sap //
+49 belly	ku //
+50 neck	kok //
+51 breasts	um //
+52 heart	en //
+53 liver	t3lom //
+54 drink	uk //
+55 eat	Ca //
+56 bite	ak //
+57 see	di3 //
+58 hear	al //
+59 know	zu3 //
+60 sleep	em //
+61 die	si3n //
+62 kill	p3si3n //
+63 swim	loy //
+64 fly	pal //
+65 walk	zu //
+66 come	pleh //
+67 lie	em //
+68 sit	kli3n //
+69 stand	Cal //
+70 give	mah //
+71 say	waw //
+72 sun	C3lNe //
+73 moon	blah //
+74 star	m35 //
+75 water	hot //
+76 rain	3m3 //
+77 stone	3li3N //
+78 sand	diNsay //
+79 earth	k3te //
+80 cloud	mok //
+81 smoke	p3tow //
+82 fire	h3goN //
+83 ash	3boh //
+84 burn	iN //
+85 path	tum //
+86 mountain	kh~egaN //
+87 red	k37et //
+88 green	le //
+89 yellow	l3N //
+90 white	lu3k //
+91 black	oC //
+92 night	p3t //
+93 hot	g3m //
+94 cold	kh~reat //
+95 full	ki5 //
+96 new	h3me //
+97 good	tuh //
+98 round	mon //
+99 dry	XXX //
+100 name	XXX //
+KHASI{AuA.KHASIAN|Austro-Asiatic,Mon-Khmer,NorthernMon-Khmer,Khasian}
+ 2   25.50   92.00      865000   khs   kha
+1 I	Na //
+2 you	me //
+3 we	Ni //
+4 this	ne //
+5 that	ba //
+6 who	XXX //
+7 what	XXX //
+8 not	em //
+9 all	baroh //
+10 many	bun //
+11 one	wei //
+12 two	ar //
+13 big	kh~raw //
+14 long	ZeroN //
+15 small	rit //
+16 woman	briw //
+17 man	ai briw //
+18 person	briw //
+19 fish	dohkh~a //
+20 bird	sim //
+21 dog	ksew //
+22 louse	ksi //
+23 tree	dieN //
+24 seed	sinai //
+25 leaf	sla //
+26 root	tinrai //
+27 bark	snep //
+28 skin	kh~oh //
+29 flesh	doh //
+30 blood	snam //
+31 bone	sh"~ieN //
+32 grease	XXX //
+33 egg	pilleN //
+34 horn	reN //
+35 tail	tidoN //
+36 feather	sner //
+37 hair	sh~niuh //
+38 head	kh~lih //
+39 ear	lutur //
+40 eye	kh~imat //
+41 nose	kh~mut //
+42 mouth	sh~intur //
+43 tooth	biniat //
+44 tongue	th~illied //
+45 claw	tirsim //
+46 foot	kinZat //
+47 knee	kh~osiw //
+48 hand	kti //
+49 belly	kipoh //
+50 neck	rindaN //
+51 breasts	sh~adem //
+52 heart	kloN snam //
+53 liver	ba im //
+54 drink	dih //
+55 eat	Zom //
+56 bite	dait //
+57 see	kh~imih //
+58 hear	sNow //
+59 know	tip //
+60 sleep	th~iah //
+61 die	iap noh //
+62 kill	piniap //
+63 swim	ZiNi //
+64 fly	her //
+65 walk	iaid //
+66 come	wan //
+67 lie	sh~aniah //
+68 sit	sh~oN //
+69 stand	ieN //
+70 give	XXX //
+71 say	oN //
+72 sun	sNi //
+73 moon	binai //
+74 star	kh~lur //
+75 water	um //
+76 rain	slap //
+77 stone	maw //
+78 sand	sh~iap //
+79 earth	pirth~ei //
+80 cloud	ly"~oh //
+81 smoke	nd~em //
+82 fire	diN //
+83 ash	dipei //
+84 burn	iN //
+85 path	surok //
+86 mountain	limbah //
+87 red	saw //
+88 green	XXX //
+89 yellow	stem //
+90 white	lih //
+91 black	ioN //
+92 night	miet //
+93 hot	XXX //
+94 cold	khr$eat //
+95 full	dap //
+96 new	th~immai //
+97 good	babha //
+98 round	pillun //
+99 dry	rikh~iaN //
+100 name	kirteN //
+MUNDARI{AuA.MUNDA|Austro-Asiatic,Munda,NorthMunda,Kherwari,Mundari}
+ 2   23.00   84.67     1560280   mun   unr   muw
+1 I	ain //
+2 you	am //
+3 we	ale //
+4 this	ni i7 //
+5 that	han i7 //
+6 who	okoy //
+7 what	Ca na //
+8 not	ka //
+9 all	soben //
+10 many	bese //
+11 one	miyod //
+12 two	bar //
+13 big	maraN //
+14 long	ZiliN //
+15 small	kuniN //
+16 woman	kuri //
+17 man	kora //
+18 person	horo //
+19 fish	hai //
+20 bird	Cene //
+21 dog	seta //
+22 louse	si ku //
+23 tree	daru //
+24 seed	hita //
+25 leaf	sakam //
+26 root	red //
+27 bark	harta //
+28 skin	ur //
+29 flesh	Zilu //
+30 blood	mayam //
+31 bone	ZaN //
+32 grease	itil //
+33 egg	Zarom //
+34 horn	diriN //
+35 tail	Cadlom //
+36 feather	il //
+37 hair	up //
+38 head	bo7 //
+39 ear	lutur //
+40 eye	med //
+41 nose	mu* //
+42 mouth	moCa //
+43 tooth	data //
+44 tongue	le7 //
+45 claw	rama //
+46 foot	kata //
+47 knee	mukuri //
+48 hand	ti //
+49 belly	laZ //
+50 neck	hoto7 //
+51 breasts	nunu //
+52 heart	Zi kuram //
+53 liver	im //
+54 drink	nu //
+55 eat	Zom //
+56 bite	hua //
+57 see	lel //
+58 hear	ayum //
+59 know	itu //
+60 sleep	durum //
+61 die	goZu7  
+62 kill	gie7 //
+63 swim	oyar //
+64 fly	apir //
+65 walk	sen //
+66 come	hiZu7 //
+67 lie	giti7 //
+68 sit	dub //
+69 stand	tiNgu //
+70 give	om //
+71 say	men //
+72 sun	siNgi //
+73 moon	Cand~u7 //
+74 star	ipil //
+75 water	da7 //
+76 rain	gama //
+77 stone	diri //
+78 sand	gitil //
+79 earth	ote //
+80 cloud	rimil //
+81 smoke	sukul //
+82 fire	seNgel //
+83 ash	toroe7 //
+84 burn	ro //
+85 path	hora //
+86 mountain	buru //
+87 red	ara7 //
+88 green	gaded //
+89 yellow	sa saN //
+90 white	pund~i //
+91 black	hend~e //
+92 night	nida //
+93 hot	lolo //
+94 cold	tutukan //
+95 full	pura //
+96 new	nawa //
+97 good	bugi //
+98 round	gol //
+99 dry	roro //
+100 name	nutum, num //
+    
+
+                                     

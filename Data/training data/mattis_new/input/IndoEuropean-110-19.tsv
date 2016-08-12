@@ -1,0 +1,2173 @@
+ID	DOCULECT	CONCEPT	IPA	TOKENS	COGID	CLPA_TOKENS	CLPA_IDS	CONCEPTICON_ID	GLOTTOLOG
+810	Dutch	I	ɪk	ɪ k	240	ɪ k	v219 c831	1209	dutc1256
+811	Swedish	I	jaːg	j aː g	240	j aː g	c564 v137 c824	1209	swed1254
+812	English	I	aɪ	aɪ	240	aɪ	d032	1209	stan1293
+813	German	I	ɪx	ɪ x	240	ɪ x	v219 c772	1209	stan1295
+814	Spanish	I	ʝo	ʝ o	240	ʝ o	c574 v042	1209	stan1288
+815	Danish	I	jɑj	j ɑ j	240	j ɑ j	c564 v089 c564	1209	dani1285
+816	Bulgarian	I	as	a s	240	a s	v130 c087	1209	bulg1262
+817	Greek	I	eɣo	e ɣ o	240	e ɣ o	v200 c774 v042	1209	mode1248
+818	Armenian	I	jɛs	j ɛ s	240	j ɛ s	c564 v229 c087	1209	nucl1235
+819	Romanian	I	jo	j o	240	j o	c564 v042	1209	roma1327
+820	Russian	I	ja	j a	240	j a	c564 v130	1209	russ1263
+821	Polish	I	ja	j a	240	j a	c564 v130	1209	poli1260
+822	Norwegian	I	jæj	j æ j	240	j æ j	c564 v198 c564	1209	norw1258
+823	French	I	ʒə	ʒ ə	240	ʒ ə	c679 v155	1209	stan1290
+824	Czech	I	jaː	j aː	240	j aː	c564 v137	1209	czec1258
+825	Icelandic	I	jɛɣ	j ɛ ɣ	240	j ɛ ɣ	c564 v229 c774	1209	icel1247
+826	Italian	I	io	j o	240	j o	c564 v042	1209	ital1282
+827	Hindi	I	mɛ̃ː	m ɛ̃ː	239	m ɛ̃ː	c239 v226	1209	hind1269
+828	Portuguese	I	ew	e w	240	e w	v200 c457	1209	port1283
+1	Dutch	all	ɑlə	ɑ l ə	5	ɑ l ə	v089 c548 v155	98	dutc1256
+2	Swedish	all	alː	a lː	5	a lː	v130 c539	98	swed1254
+3	English	all	ɔːl	ɔː l	5	ɔː l	v065 c548	98	stan1293
+4	German	all	al	a l	5	a l	v130 c548	98	stan1295
+5	Spanish	all	entero	e n t e r o	2	e n t e r o	v200 c105 c118 v200 c151 v042	98	stan1288
+6	Danish	all	æˀl	æˀ l	5	æˀ l	v245 c548	98	dani1285
+7	Bulgarian	all	vsiʧki	v s i ʧ k i	3	v s i tʃ k i	c446 c087 v191 c645 c831 v191	98	bulg1262
+8	Greek	all	kaθe	k a θ e	7	k a θ e	c831 v130 c413 v200	98	mode1248
+9	Romanian	all	tot	t o t	6	t o t	c118 v042 c118	98	roma1327
+10	Russian	all	fsʲe	f sʲ e	3	f sʲ e	c447 c088 v200	98	russ1263
+11	Polish	all	fʃɨsʦɨ	f ʃ ɨ s ʦ ɨ	3	f ʃ ɨ s ts ɨ	c447 c677 v116 c087 c015 v116	98	poli1260
+12	Norwegian	all	ɑlə	ɑ l ə	5	ɑ l ə	v089 c548 v155	98	norw1258
+13	French	all	tu	t u	6	t u	c118 v027	98	stan1290
+14	Czech	all	fʃɪxnʲɪ	f ʃ ɪ x nʲ ɪ	3	f ʃ ɪ x nʲ ɪ	c447 c677 v219 c772 c099 v219	98	czec1258
+15	Icelandic	all	at͡lir	a t͡l i r	5	a tl i r	v130 c559 v191 c151	98	icel1247
+16	Italian	all	intɛro	i n t ɛ r o	2	i n t ɛ r o	v191 c105 c118 v229 c151 v042	98	ital1282
+17	Hindi	all	səb	s ə b	4	s ə b	c087 v155 c254	98	hind1269
+18	Portuguese	all	todu	t o d u	6	t o d u	c118 v042 c143 v027	98	port1283
+19	Spanish	all	toðo	t o ð o	6	t o ð o	c118 v042 c415 v042	98	stan1288
+20	Romanian	all	ɨntreg	ɨ n t r e g	2	ɨ n t r e g	v116 c105 c118 c151 v200 c824	98	roma1327
+21	French	all	ɑ̃tje	ɑ̃ t j e	2	ɑ̃ t j e	v088 c118 c564 v200	98	stan1290
+22	Italian	all	tutto	t u tː o	6	t u tː o	c118 v027 c128 v042	98	ital1282
+23	Hindi	all	saːraː	s aː r aː	1	s aː r aː	c087 v137 c151 v137	98	hind1269
+24	Dutch	ashes	ɑs	ɑ s	10	ɑ s	v089 c087	646	dutc1256
+25	Swedish	ashes	asːka	a sː k a	10	a sː k a	v130 c070 c831 v130	646	swed1254
+26	English	ashes	æʃ	æ ʃ	10	æ ʃ	v198 c677	646	stan1293
+27	German	ashes	aʃə	a ʃ ə	10	a ʃ ə	v130 c677 v155	646	stan1295
+28	Spanish	ashes	θeniθa	θ e n i θ a	12	θ e n i θ a	c413 v200 c105 v191 c413 v130	646	stan1288
+29	Danish	ashes	asg	a s g	10	a s g	v130 c087 c824	646	dani1285
+30	Bulgarian	ashes	pɛpɛl	p ɛ p ɛ l	8	p ɛ p ɛ l	c288 v229 c288 v229 c548	646	bulg1262
+31	Greek	ashes	staxti	s t a x t i	14	s t a x t i	c087 c118 v130 c772 c118 v191	646	mode1248
+32	Armenian	ashes	moχiɾ	m o χ i ɾ	9	m o χ i ɾ	c239 v042 c742 v191 c064	646	nucl1235
+33	Romanian	ashes	ʧenuʃə	ʧ e n u ʃ ə	12	tʃ e n u ʃ ə	c645 v200 c105 v027 c677 v155	646	roma1327
+34	Russian	ashes	zɐla	z ɐ l a	11	z ɐ l a	c078 v119 c548 v130	646	russ1263
+35	Polish	ashes	pɔpʲuw	p ɔ pʲ u w	8	p ɔ pʲ u w	c288 v067 c270 v027 c457	646	poli1260
+36	Norwegian	ashes	ɑsk	ɑ s k	-10	ɑ s k	v089 c087 c831	646	norw1258
+37	French	ashes	sɑ̃dʁ	s ɑ̃ d ʁ	12	s ɑ̃ d ʁ	c087 v088 c143 c733	646	stan1290
+38	Czech	ashes	popɛl	p o p ɛ l	8	p o p ɛ l	c288 v042 c288 v229 c548	646	czec1258
+39	Icelandic	ashes	aska	a s k a	10	a s k a	v130 c087 c831 v130	646	icel1247
+40	Italian	ashes	ʧenere	ʧ e n e r e	12	tʃ e n e r e	c645 v200 c105 v200 c151 v200	646	ital1282
+41	Hindi	ashes	raːkʰ	r aː kʰ	13	r aː kʰ	c151 v137 c813	646	hind1269
+42	Portuguese	ashes	sĩzɐ	s ĩ z ɐ	12	s ĩ z ɐ	c087 v193 c078 v119	646	port1283
+43	Russian	ashes	pʲepɪlʲ	pʲ e p ɪ lʲ	8	pʲ e p ɪ lʲ	c270 v200 c288 v219 c540	646	russ1263
+44	Dutch	bark	bɑst	b ɑ s t	19	b ɑ s t	c254 v089 c087 c118	1204	dutc1256
+45	Swedish	bark	barːk	b a rː k	15	b a rː k	c254 v130 c160 c831	1204	swed1254
+46	English	bark	bɑːrk	b ɑː r k	-15	b ɑː r k	c254 v091 c151 c831	1204	stan1293
+47	German	bark	rɪndə	r ɪ n d ə	20	r ɪ n d ə	c151 v219 c105 c143 v155	1204	stan1295
+48	Spanish	bark	koɾteθa	k o ɾ t e θ a	18	k o ɾ t e θ a	c831 v042 c064 c118 v200 c413 v130	1204	stan1288
+49	Danish	bark	bɑːg	b ɑː g	15	b ɑː g	c254 v091 c824	1204	dani1285
+50	Bulgarian	bark	kora	k o r a	23	k o r a	c831 v042 c151 v130	1204	bulg1262
+51	Greek	bark	flios	f l j o s	16	f l j o s	c447 c548 c564 v042 c087	1204	mode1248
+52	Armenian	bark	kɛʁɛv	k ɛ ʁ ɛ v	22	k ɛ ʁ ɛ v	c831 v229 c733 v229 c446	1204	nucl1235
+53	Romanian	bark	skwarʦə	s k w a r ʦ ə	23	s k w a r ts ə	c087 c831 c457 v130 c151 c015 v155	1204	roma1327
+54	Russian	bark	kɐra	k ɐ r a	23	k ɐ r a	c831 v119 c151 v130	1204	russ1263
+55	Polish	bark	kɔra	k ɔ r a	23	k ɔ r a	c831 v067 c151 v130	1204	poli1260
+56	Norwegian	bark	bɑɾk	b ɑ ɾ k	-15	b ɑ ɾ k	c254 v089 c064 c831	1204	norw1258
+57	French	bark	ekɔʁs	e k ɔ ʁ s	23	e k ɔ ʁ s	v200 c831 v067 c733 c087	1204	stan1290
+58	Czech	bark	kuːra	k uː r a	23	k uː r a	c831 v019 c151 v130	1204	czec1258
+59	Icelandic	bark	bœrkʏr	b œ r k ʏ r	15	b œ r k ʏ r	c254 v178 c151 c831 v173 c151	1204	icel1247
+60	Italian	bark	korteʧʧa	k o r t e tːʃ a	18	k o r t e tːʃ a	c831 v042 c151 c118 v200 c196 v130	1204	ital1282
+61	Hindi	bark	ʧʰaːl	ʧʰ aː l	21	tʃʰ aː l	c655 v137 c548	1204	hind1269
+62	Portuguese	bark	kaʃkɐ	k a ʃ k ɐ	17	k a ʃ k ɐ	c831 v130 c677 c831 v119	1204	port1283
+63	Dutch	belly	bœyk	b œi k	27	b œi k	c254 d042 c831	1251	dutc1256
+64	Swedish	belly	maːge	m aː g e	32	m aː g e	c239 v137 c824 v200	1251	swed1254
+65	English	belly	bɛlɪ	b ɛ l ɪ	28	b ɛ l ɪ	c254 v229 c548 v219	1251	stan1293
+66	German	belly	baux	b au x	27	b au x	c254 d026 c772	1251	stan1295
+67	Spanish	belly	bjentre	b j e n t r e	26	b j e n t r e	c254 c564 v200 c105 c118 c151 v200	1251	stan1288
+68	Danish	belly	ɔnʌliwˀ	ɔ n ʌ l i wˀ	34	ɔ n ʌ l i wˀ	v067 c105 v097 c548 v191 c463	1251	dani1285
+69	Bulgarian	belly	korɛm	k o r ɛ m	-30	k o r ɛ m	c831 v042 c151 v229 c239	1251	bulg1262
+70	Greek	belly	ciʎa	c i ʎ a	24	c i ʎ a	c600 v191 c582 v130	1251	mode1248
+71	Romanian	belly	pənteʦe	p ə n t e ʦ e	33	p ə n t e ts e	c288 v155 c105 c118 v200 c015 v200	1251	roma1327
+72	Russian	belly	ʒɨvot	ʒ ɨ v o t	31	ʒ ɨ v o t	c679 v116 c446 v042 c118	1251	russ1263
+73	Polish	belly	bʒux	b ʒ u x	35	b ʒ u x	c254 c679 v027 c772	1251	poli1260
+74	Norwegian	belly	mɑːgə	m ɑː g ə	32	m ɑː g ə	c239 v091 c824 v155	1251	norw1258
+75	French	belly	vɑ̃tʁ	v ɑ̃ t ʁ	26	v ɑ̃ t ʁ	c446 v088 c118 c733	1251	stan1290
+76	Czech	belly	brɪxo	b r ɪ x o	35	b r ɪ x o	c254 c151 v219 c772 v042	1251	czec1258
+77	Icelandic	belly	kʰvɪːðʏr	kʰ v ɪː ð ʏ r	36	kʰ v ɪː ð ʏ r	c813 c446 v221 c415 v173 c151	1251	icel1247
+78	Italian	belly	panʧa	p a n ʧ a	33	p a n tʃ a	c288 v130 c105 c645 v130	1251	ital1282
+79	Hindi	belly	peːʈ	p eː ʈ	-25	p eː ʈ	c288 v202 c711	1251	hind1269
+80	Portuguese	belly	vẽtrə	v ẽ t r ə	26	v ẽ t r ə	c446 v201 c118 c151 v155	1251	port1283
+81	Swedish	belly	buk	b u k	27	b u k	c254 v027 c831	1251	swed1254
+82	Danish	belly	mæːvə	m æː v ə	32	m æː v ə	c239 v199 c446 v155	1251	dani1285
+83	Norwegian	belly	bʉːk	b ʉː k	27	b ʉː k	c254 v100 c831	1251	norw1258
+84	Italian	belly	vɛntre	v ɛ n t r e	26	v ɛ n t r e	c446 v229 c105 c118 c151 v200	1251	ital1282
+85	Portuguese	belly	bɐʀigɐ	b ɐ ʀ i g ɐ	29	b ɐ ʀ i g ɐ	c254 v119 c761 v191 c824 v119	1251	port1283
+86	Dutch	big	xroːt	x r oː t	46	x r oː t	c772 c151 v035 c118	1202	dutc1256
+87	Swedish	big	stoːr	s t oː r	43	s t oː r	c087 c118 v035 c151	1202	swed1254
+88	English	big	bɪɡ	b ɪ ɡ	40	b ɪ g	c254 v219 c824	1202	stan1293
+89	German	big	ɡroːs	ɡ r oː s	46	g r oː s	c824 c151 v035 c087	1202	stan1295
+90	Spanish	big	ɡɾande	ɡ ɾ a n d e	47	g ɾ a n d e	c824 c064 v130 c105 c143 v200	1202	stan1288
+91	Danish	big	sdoˀʁ	s d oˀ ʁ	43	s d oˀ ʁ	c087 c143 v048 c733	1202	dani1285
+92	Bulgarian	big	golʲam	g o lʲ a m	38	g o lʲ a m	c824 v042 c540 v130 c239	1202	bulg1262
+93	Greek	big	meɣalos	m e ɣ a l o s	37	m e ɣ a l o s	c239 v200 c774 v130 c548 v042 c087	1202	mode1248
+94	Armenian	big	mɛʦ	m ɛ ʦ	37	m ɛ ts	c239 v229 c015	1202	nucl1235
+95	Romanian	big	mare	m a r e	42	m a r e	c239 v130 c151 v200	1202	roma1327
+96	Russian	big	bɐlʲʃoj	b ɐ lʲ ʃ o j	44	b ɐ lʲ ʃ o j	c254 v119 c540 c677 v042 c564	1202	russ1263
+97	Polish	big	vʲɛlki	vʲ ɛ l k i	41	vʲ ɛ l k i	c429 v229 c548 c831 v191	1202	poli1260
+98	Norwegian	big	stuːɾ	s t uː ɾ	-43	s t uː ɾ	c087 c118 v019 c064	1202	norw1258
+99	French	big	ɡʁã	ɡ ʁ ã	47	g ʁ ã	c824 c733 v147	1202	stan1290
+100	Czech	big	vɛlkiː	v ɛ l k iː	41	v ɛ l k iː	c446 v229 c548 c831 v183	1202	czec1258
+101	Icelandic	big	stouːr	s t o uː r	43	s t o uː r	c087 c118 v042 v019 c151	1202	icel1247
+102	Italian	big	ɡrande	ɡ r a n d e	47	g r a n d e	c824 c151 v130 c105 c143 v200	1202	ital1282
+103	Hindi	big	bəɽaː	b ə ɽ aː	39	b ə ɽ aː	c254 v155 c697 v137	1202	hind1269
+104	Portuguese	big	grɐ̃də	g r ɐ̃ d ə	47	g r ɐ̃ d ə	c824 c151 v120 c143 v155	1202	port1283
+105	English	big	ɡreɪt	ɡ r eɪ t	46	g r eɪ t	c824 c151 d048 c118	1202	stan1293
+106	Polish	big	duʒɨ	d u ʒ ɨ	45	d u ʒ ɨ	c143 v027 c679 v116	1202	poli1260
+107	Icelandic	big	mɪːcɪt͡l	m ɪː c ɪ t͡l	37	m ɪː c ɪ tl	c239 v221 c600 v219 c559	1202	icel1247
+108	Dutch	bird	voːɣəl	v oː ɣ ə l	51	v oː ɣ ə l	c446 v035 c774 v155 c548	937	dutc1256
+109	Swedish	bird	foːgel	f oː g e l	51	f oː g e l	c447 v035 c824 v200 c548	937	swed1254
+110	English	bird	bɜːrd	b ɜː r d	53	b ɜː r d	c254 v150 c151 c143	937	stan1293
+111	German	bird	foːɡəl	f oː ɡ ə l	51	f oː g ə l	c447 v035 c824 v155 c548	937	stan1295
+112	Spanish	bird	paxaro	p a x a r o	48	p a x a r o	c288 v130 c772 v130 c151 v042	937	stan1288
+113	Danish	bird	fuˀl	f uˀ l	51	f uˀ l	c447 v013 c548	937	dani1285
+114	Bulgarian	bird	ptiʦə	p t i ʦ ə	51	p t i ts ə	c288 c118 v191 c015 v155	937	bulg1262
+115	Greek	bird	puli	p u l i	-50	p u l i	c288 v027 c548 v191	937	mode1248
+116	Armenian	bird	tʰərʧʰun	tʰ ə r ʧʰ u n	48	tʰ ə r tʃʰ u n	c136 v155 c151 c655 v027 c105	937	nucl1235
+117	Romanian	bird	pasəre	p a s ə r e	48	p a s ə r e	c288 v130 c087 v155 c151 v200	937	roma1327
+118	Russian	bird	ptʲiʦə	p tʲ i ʦ ə	51	p tʲ i ts ə	c288 c113 v191 c015 v155	937	russ1263
+119	Polish	bird	ptak	p t a k	51	p t a k	c288 c118 v130 c831	937	poli1260
+120	Norwegian	bird	fʉːl	f ʉː l	51	f ʉː l	c447 v100 c548	937	norw1258
+121	French	bird	wazo	w a z o	52	w a z o	c457 v130 c078 v042	937	stan1290
+122	Czech	bird	ptaːk	p t aː k	51	p t aː k	c288 c118 v137 c831	937	czec1258
+123	Icelandic	bird	fʏkl	f ʏ k l	51	f ʏ k l	c447 v173 c831 c548	937	icel1247
+124	Italian	bird	uʧːɛllo	u tːʃ ɛ lː o	52	u tːʃ ɛ lː o	v027 c196 v229 c539 v042	937	ital1282
+125	Hindi	bird	ʧɪɽɪyaː	ʧ ɪ ɽ i y a:	-49	tʃ ɪ ɽ i y aː	c645 v219 c697 v191 v166 v137	937	hind1269
+126	Portuguese	bird	avə	a v ə	52	a v ə	v130 c446 v155	937	port1283
+127	Spanish	bird	ave	a v e	52	a v e	v130 c446 v200	937	stan1288
+128	Portuguese	bird	pasɐru	p a s ɐ r u	48	p a s ɐ r u	c288 v130 c087 v119 c151 v027	937	port1283
+129	Dutch	bite	bɛɪtə	b ɛɪ t ə	54	b ɛi t ə	c254 d059 c118 v155	1403	dutc1256
+130	Swedish	bite	biːta	b iː t a	54	b iː t a	c254 v183 c118 v130	1403	swed1254
+131	English	bite	baɪt	b aɪ t	54	b aɪ t	c254 d032 c118	1403	stan1293
+132	German	bite	baisən	b ai s ə n	54	b ai s ə n	c254 d030 c087 v155 c105	1403	stan1295
+133	Spanish	bite	moɾðeɾ	m o ɾ ð e ɾ	56	m o ɾ ð e ɾ	c239 v042 c064 c415 v200 c064	1403	stan1288
+134	Danish	bite	biːðə	b iː ð ə	54	b iː ð ə	c254 v183 c415 v155	1403	dani1285
+135	Bulgarian	bite	xəpa	x ə p a	58	x ə p a	c772 v155 c288 v130	1403	bulg1262
+136	Greek	bite	ðaŋɡono	ð a ŋ ɡ o n o	59	ð a ŋ g o n o	c415 v130 c795 c824 v042 c105 v042	1403	mode1248
+137	Armenian	bite	kəʦɛl	k ə ʦ ɛ l	57	k ə ts ɛ l	c831 v155 c015 v229 c548	1403	nucl1235
+138	Romanian	bite	muʃka	m u ʃ k a	56	m u ʃ k a	c239 v027 c677 c831 v130	1403	roma1327
+139	Russian	bite	kusatʲ	k u s a tʲ	57	k u s a tʲ	c831 v027 c087 v130 c113	1403	russ1263
+140	Polish	bite	ssaʨ	sː a ʨ	57	sː a tɕ	c070 v130 c198	1403	poli1260
+141	Norwegian	bite	biːtə	b iː t ə	54	b iː t ə	c254 v183 c118 v155	1403	norw1258
+142	French	bite	mɔʁdʁ	m ɔ ʁ d ʁ	56	m ɔ ʁ d ʁ	c239 v067 c733 c143 c733	1403	stan1290
+143	Czech	bite	kowsat	k o w s a t	57	k o w s a t	c831 v042 c457 c087 v130 c118	1403	czec1258
+144	Icelandic	bite	piːta	p iː t a	54	p iː t a	c288 v183 c118 v130	1403	icel1247
+145	Italian	bite	mɔrdere	m ɔ r d e r e	56	m ɔ r d e r e	c239 v067 c151 c143 v200 c151 v200	1403	ital1282
+146	Hindi	bite	kaːʈnaː	k aː ʈ n aː	55	k aː ʈ n aː	c831 v137 c711 c105 v137	1403	hind1269
+147	Portuguese	bite	murder	m u r d e r	56	m u r d e r	c239 v027 c151 c143 v200 c151	1403	port1283
+148	Dutch	black	zʋɑrt	z ʋ ɑ r t	60	z ʋ ɑ r t	c078 c424 v089 c151 c118	163	dutc1256
+149	Swedish	black	svartː	s v a r tː	60	s v a r tː	c087 c446 v130 c151 c128	163	swed1254
+150	English	black	blæk	b l æ k	61	b l æ k	c254 c548 v198 c831	163	stan1293
+151	German	black	ʃvart͡s	ʃ v a r t͡s	60	ʃ v a r ts	c677 c446 v130 c151 c015	163	stan1295
+152	Spanish	black	neɣɾo	n e ɣ ɾ o	63	n e ɣ ɾ o	c105 v200 c774 c064 v042	163	stan1288
+153	Danish	black	sɒːd	s ɒː d	60	s ɒː d	c087 v053 c143	163	dani1285
+154	Bulgarian	black	ʧɛrɛn	ʧ ɛ r ɛ n	66	tʃ ɛ r ɛ n	c645 v229 c151 v229 c105	163	bulg1262
+155	Greek	black	mavros	m a v r o s	64	m a v r o s	c239 v130 c446 c151 v042 c087	163	mode1248
+156	Armenian	black	sɛv	s ɛ v	62	s ɛ v	c087 v229 c446	163	nucl1235
+157	Romanian	black	neɡru	n e ɡ r u	63	n e g r u	c105 v200 c824 c151 v027	163	roma1327
+158	Russian	black	ʧornɨj	ʧ o r n ɨ j	66	tʃ o r n ɨ j	c645 v042 c151 c105 v116 c564	163	russ1263
+159	Polish	black	ʧarnɨ	ʧ a r n ɨ	66	tʃ a r n ɨ	c645 v130 c151 c105 v116	163	poli1260
+160	Norwegian	black	sɔʈ	s ɔ ʈ	60	s ɔ ʈ	c087 v067 c711	163	norw1258
+161	French	black	nwaʁ	n w a ʁ	63	n w a ʁ	c105 c457 v130 c733	163	stan1290
+162	Czech	black	ʧɛrniː	ʧ ɛ r n iː	66	tʃ ɛ r n iː	c645 v229 c151 c105 v183	163	czec1258
+163	Icelandic	black	svar̥tʏr	s v a r̥ t ʏ r	60	s v a r̥ t ʏ r	c087 c446 v130 c153 c118 v173 c151	163	icel1247
+164	Italian	black	nero	n e r o	63	n e r o	c105 v200 c151 v042	163	ital1282
+165	Hindi	black	kaːlaː	k aː l aː	65	k aː l aː	c831 v137 c548 v137	163	hind1269
+166	Portuguese	black	pretu	p r e t u	67	p r e t u	c288 c151 v200 c118 v027	163	port1283
+167	Dutch	blood	bluːt	b l uː t	71	b l uː t	c254 c548 v019 c118	946	dutc1256
+168	Swedish	blood	bloːd	b l oː d	71	b l oː d	c254 c548 v035 c143	946	swed1254
+169	English	blood	blʌd	b l ʌ d	71	b l ʌ d	c254 c548 v097 c143	946	stan1293
+170	German	blood	bluːt	b l uː t	71	b l uː t	c254 c548 v019 c118	946	stan1295
+171	Spanish	blood	saŋɡɾe	s a ŋ ɡ ɾ e	69	s a ŋ g ɾ e	c087 v130 c795 c824 c064 v200	946	stan1288
+172	Danish	blood	bloˀð	b l oˀ ð	71	b l oˀ ð	c254 c548 v048 c415	946	dani1285
+173	Bulgarian	blood	krɤf	k r ɤ f	68	k r ɤ f	c831 c151 v084 c447	946	bulg1262
+174	Greek	blood	ema	e m a	70	e m a	v200 c239 v130	946	mode1248
+175	Armenian	blood	ɑɾɪun	ɑ ɾ ɪ u n	69	ɑ ɾ ɪ u n	v089 c064 v219 v027 c105	946	nucl1235
+176	Romanian	blood	sɨnʤe	s ɨ n ʤ e	69	s ɨ n dʒ e	c087 v116 c105 c649 v200	946	roma1327
+177	Russian	blood	krofʲ	k r o fʲ	68	k r o fʲ	c831 c151 v042 c430	946	russ1263
+178	Polish	blood	krɛf	k r ɛ f	68	k r ɛ f	c831 c151 v229 c447	946	poli1260
+179	Norwegian	blood	bluː	b l uː	71	b l uː	c254 c548 v019	946	norw1258
+180	French	blood	sɑ̃	s ɑ̃	69	s ɑ̃	c087 v088	946	stan1290
+181	Czech	blood	krɛf	k r ɛ f	68	k r ɛ f	c831 c151 v229 c447	946	czec1258
+182	Icelandic	blood	plouːθ	p l o uː θ	71	p l o uː θ	c288 c548 v042 v019 c413	946	icel1247
+183	Italian	blood	saŋɡwe	s a ŋ ɡ w e	69	s a ŋ g w e	c087 v130 c795 c824 c457 v200	946	ital1282
+184	Portuguese	blood	sɐ̃gə	s ɐ̃ g ə	69	s ɐ̃ g ə	c087 v120 c824 v155	946	port1283
+185	Dutch	bone	beːn	b eː n	76	b eː n	c254 v202 c105	1394	dutc1256
+186	Swedish	bone	beːn	b eː n	76	b eː n	c254 v202 c105	1394	swed1254
+187	English	bone	bəʊn	b əʊ n	76	b əu n	c254 d029 c105	1394	stan1293
+188	German	bone	knɔxən	k n ɔ x ə n	77	k n ɔ x ə n	c831 c105 v067 c772 v155 c105	1394	stan1295
+189	Spanish	bone	weso	w e s o	73	w e s o	c457 v200 c087 v042	1394	stan1288
+190	Danish	bone	beˀn	b eˀ n	76	b eˀ n	c254 v205 c105	1394	dani1285
+191	Bulgarian	bone	kɔst	k ɔ s t	75	k ɔ s t	c831 v067 c087 c118	1394	bulg1262
+192	Greek	bone	kokalo	k o k a l o	-72	k o k a l o	c831 v042 c831 v130 c548 v042	1394	mode1248
+193	Armenian	bone	voskoɾ	v o s k o ɾ	73	v o s k o ɾ	c446 v042 c087 c831 v042 c064	1394	nucl1235
+194	Romanian	bone	os	o s	73	o s	v042 c087	1394	roma1327
+195	Russian	bone	kosʲtʲ	k o sʲ tʲ	75	k o sʲ tʲ	c831 v042 c088 c113	1394	russ1263
+196	Polish	bone	kɔɕʨ	k ɔ ɕ ʨ	75	k ɔ ɕ tɕ	c831 v067 c202 c198	1394	poli1260
+197	Norwegian	bone	beːn	b eː n	76	b eː n	c254 v202 c105	1394	norw1258
+198	French	bone	ɔs	ɔ s	73	ɔ s	v067 c087	1394	stan1290
+199	Czech	bone	kost	k o s t	75	k o s t	c831 v042 c087 c118	1394	czec1258
+200	Icelandic	bone	peiːn	p e iː n	76	p e iː n	c288 v200 v183 c105	1394	icel1247
+201	Italian	bone	ɔsso	ɔ sː o	73	ɔ sː o	v067 c070 v042	1394	ital1282
+202	Hindi	bone	həɖɖiː	h ə ɖː iː	74	h ə ɖː iː	c401 v155 c707 v183	1394	hind1269
+203	Portuguese	bone	osu	o s u	73	o s u	v042 c087 v027	1394	port1283
+204	Dutch	breast	bɔrst	b ɔ r s t	79	b ɔ r s t	c254 v067 c151 c087 c118	1402	dutc1256
+205	Swedish	breast	brøst	b r ø s t	79	b r ø s t	c254 c151 v171 c087 c118	1402	swed1254
+206	English	breast	brɛst	b r ɛ s t	79	b r ɛ s t	c254 c151 v229 c087 c118	1402	stan1293
+207	German	breast	brʊst	b r ʊ s t	79	b r ʊ s t	c254 c151 v056 c087 c118	1402	stan1295
+208	Spanish	breast	seno	s e n o	78	s e n o	c087 v200 c105 v042	1402	stan1288
+209	Danish	breast	bʁœsd	b ʁ œ s d	79	b ʁ œ s d	c254 c733 v178 c087 c143	1402	dani1285
+210	Bulgarian	breast	ɡrɤt	ɡ r ɤ t	83	g r ɤ t	c824 c151 v084 c118	1402	bulg1262
+211	Greek	breast	stiθos	s t i θ o s	78	s t i θ o s	c087 c118 v191 c413 v042 c087	1402	mode1248
+212	Armenian	breast	kuɾʦkʰ	k u ɾ ʦ kʰ	83	k u ɾ ts kʰ	c831 v027 c064 c015 c813	1402	nucl1235
+213	Romanian	breast	pjept	p j e p t	82	p j e p t	c288 c564 v200 c288 c118	1402	roma1327
+214	Russian	breast	ɡrutʲ	ɡ r u tʲ	83	g r u tʲ	c824 c151 v027 c113	1402	russ1263
+215	Polish	breast	pʲɛrɕ	pʲ ɛ r ɕ	80	pʲ ɛ r ɕ	c270 v229 c151 c202	1402	poli1260
+216	Norwegian	breast	bɾyst	b ɾ y s t	-79	b ɾ y s t	c254 c064 v166 c087 c118	1402	norw1258
+217	French	breast	pwatʁin	p w a t ʁ i n	82	p w a t ʁ i n	c288 c457 v130 c118 c733 v191 c105	1402	stan1290
+218	Czech	breast	pr̩sa	p r̩ s a	80	p r̩ s a	c288 c152 c087 v130	1402	czec1258
+219	Icelandic	breast	b̥rjousd̥	b̥ r j ou s d̥	79	b̥ r j ou s d̥	c280 c151 c564 d006 c087 c107	1402	icel1247
+220	Italian	breast	seno	s e n o	78	s e n o	c087 v200 c105 v042	1402	ital1282
+221	Hindi	breast	ʧaːtiː	ʧ aː t iː	81	tʃ aː t iː	c645 v137 c118 v183	1402	hind1269
+222	Portuguese	breast	pɐjtu	p ɐ j t u	82	p ɐ j t u	c288 v119 c564 c118 v027	1402	port1283
+223	Spanish	breast	peʧo	p e ʧ o	82	p e tʃ o	c288 v200 c645 v042	1402	stan1288
+224	Romanian	breast	sɨn	s ɨ n	78	s ɨ n	c087 v116 c105	1402	roma1327
+225	French	breast	sɛ̃	s ɛ̃	78	s ɛ̃	c087 v231	1402	stan1290
+226	Italian	breast	pɛtto	p ɛ tː o	82	p ɛ tː o	c288 v229 c128 v042	1402	ital1282
+227	Portuguese	breast	sɐju	s ɐ j u	78	s ɐ j u	c087 v119 c564 v027	1402	port1283
+228	Dutch	burn	brɑndə	b r ɑ n d ə	89	b r ɑ n d ə	c254 c151 v089 c105 c143 v155	141	dutc1256
+229	Swedish	burn	brɛnːa	b r ɛ nː a	89	b r ɛ nː a	c254 c151 v229 c104 v130	141	swed1254
+230	English	burn	bɜːrn	b ɜː r n	89	b ɜː r n	c254 v150 c151 c105	141	stan1293
+231	German	burn	brɛnən	b r ɛ n ə n	89	b r ɛ n ə n	c254 c151 v229 c105 v155 c105	141	stan1295
+232	Spanish	burn	kemaɾ	k e m a ɾ	90	k e m a ɾ	c831 v200 c239 v130 c064	141	stan1288
+233	Danish	burn	bʁanə	b ʁ a n ə	89	b ʁ a n ə	c254 c733 v130 c105 v155	141	dani1285
+234	Bulgarian	burn	ɡɔra	ɡ ɔ r a	84	g ɔ r a	c824 v067 c151 v130	141	bulg1262
+235	Greek	burn	ceo	c e o	87	c e o	c600 v200 v042	141	mode1248
+236	Armenian	burn	ɑɪɾvɛl	ɑɪ ɾ v ɛ l	85	ɑɪ ɾ v ɛ l	d065 c064 c446 v229 c548	141	nucl1235
+237	Romanian	burn	arde	a r d e	88	a r d e	v130 c151 c143 v200	141	roma1327
+238	Russian	burn	ʒetʲ	ʒ e tʲ	91	ʒ e tʲ	c679 v200 c113	141	russ1263
+239	Polish	burn	paliʨ	p a l i ʨ	92	p a l i tɕ	c288 v130 c548 v191 c198	141	poli1260
+240	Norwegian	burn	bɾenə	b ɾ e n ə	89	b ɾ e n ə	c254 c064 v200 c105 v155	141	norw1258
+241	French	burn	bʁyle	b ʁ y l e	93	b ʁ y l e	c254 c733 v166 c548 v200	141	stan1290
+242	Czech	burn	paːlit	p aː l i t	92	p aː l i t	c288 v137 c548 v191 c118	141	czec1258
+243	Icelandic	burn	b̥rɛtna	b̥ r ɛ t n a	89	b̥ r ɛ t n a	c280 c151 v229 c118 c105 v130	141	icel1247
+244	Italian	burn	bruʧːare	b r u tːʃ a r e	93	b r u tːʃ a r e	c254 c151 v027 c196 v130 c151 v200	141	ital1282
+245	Hindi	burn	ʤəlnaː	ʤ ə l n aː	86	dʒ ə l n aː	c649 v155 c548 c105 v137	141	hind1269
+246	Portuguese	burn	kɐjmar	k ɐ j m a r	90	k ɐ j m a r	c831 v119 c564 c239 v130 c151	141	port1283
+247	Dutch	claw (nail)	naːɣəl	n aː ɣ ə l	94	n aː ɣ ə l	c105 v137 c774 v155 c548	2128	dutc1256
+248	Swedish	claw (nail)	naːgel	n aː g e l	94	n aː g e l	c105 v137 c824 v200 c548	2128	swed1254
+249	English	claw (nail)	neɪl	n eɪ l	94	n eɪ l	c105 d048 c548	2128	stan1293
+250	German	claw (nail)	naːɡəl	n aː ɡ ə l	94	n aː g ə l	c105 v137 c824 v155 c548	2128	stan1295
+251	Spanish	claw (nail)	uɲa	u ɲ a	94	u ɲ a	v027 c589 v130	2128	stan1288
+252	Danish	claw (nail)	nɑjˀl	n ɑ jˀ l	94	n ɑ jˀ l	c105 v089 c566 c548	2128	dani1285
+253	Bulgarian	claw (nail)	nɔkət	n ɔ k ə t	94	n ɔ k ə t	c105 v067 c831 v155 c118	2128	bulg1262
+254	Greek	claw (nail)	niçi	n i ç i	94	n i ç i	c105 v191 c577 v191	2128	mode1248
+255	Armenian	claw (nail)	jɛʁung	j ɛ ʁ u n g	94	j ɛ ʁ u n g	c564 v229 c733 v027 c105 c824	2128	nucl1235
+256	Romanian	claw (nail)	ungje	u n g j e	94	u n g j e	v027 c105 c824 c564 v200	2128	roma1327
+257	Russian	claw (nail)	noɡətʲ	n o ɡ ə tʲ	94	n o g ə tʲ	c105 v042 c824 v155 c113	2128	russ1263
+258	Polish	claw (nail)	paznɔkʲɛʨ	p a z n ɔ kʲ ɛ ʨ	94	p a z n ɔ kʲ ɛ tɕ	c288 v130 c078 c105 v067 c830 v229 c198	2128	poli1260
+259	Norwegian	claw (nail)	næjl	n æ j l	94	n æ j l	c105 v198 c564 c548	2128	norw1258
+260	French	claw (nail)	ɔ̃ɡl	ɔ̃ ɡ l	94	ɔ̃ g l	v066 c824 c548	2128	stan1290
+261	Czech	claw (nail)	nɛɦɛt	n ɛ ɦ ɛ t	94	n ɛ ɦ ɛ t	c105 v229 c397 v229 c118	2128	czec1258
+262	Icelandic	claw (nail)	nakl	n a k l	94	n a k l	c105 v130 c831 c548	2128	icel1247
+263	Italian	claw (nail)	unɡja	u n ɡ j a	94	u n g j a	v027 c105 c824 c564 v130	2128	ital1282
+264	Hindi	claw (nail)	naːkʰ	n aː kʰ	94	n aː kʰ	c105 v137 c813	2128	hind1269
+265	Portuguese	claw (nail)	uɲɐ	u ɲ ɐ	94	u ɲ ɐ	v027 c589 v119	2128	port1283
+266	Dutch	cloud	ʋɔlk	ʋ ɔ l k	102	ʋ ɔ l k	c424 v067 c548 c831	1489	dutc1256
+267	Swedish	cloud	ɧyː	ɧ yː	96	ɧ yː	c613 v168	1489	swed1254
+268	English	cloud	klaʊd	k l aʊ d	101	k l aʊ d	c831 c548 d028 c143	1489	stan1293
+269	German	cloud	vɔlkə	v ɔ l k ə	102	v ɔ l k ə	c446 v067 c548 c831 v155	1489	stan1295
+270	Spanish	cloud	nuβe	n u β e	100	n u β e	c105 v027 c225 v200	1489	stan1288
+271	Danish	cloud	sgyˀ	s g yˀ	96	s g yˀ	c087 c824 v244	1489	dani1285
+272	Bulgarian	cloud	ɔblək	ɔ b l ə k	103	ɔ b l ə k	v067 c254 c548 v155 c831	1489	bulg1262
+273	Greek	cloud	sinefo	s i n e f o	98	s i n e f o	c087 v191 c105 v200 c447 v042	1489	mode1248
+274	Armenian	cloud	ɑmp	ɑ m p	99	ɑ m p	v089 c239 c288	1489	nucl1235
+275	Romanian	cloud	nor	n o r	100	n o r	c105 v042 c151	1489	roma1327
+276	Russian	cloud	obləkə	o b l ə k ə	103	o b l ə k ə	v042 c254 c548 v155 c831 v155	1489	russ1263
+277	Polish	cloud	ɔbwɔk	ɔ b w ɔ k	103	ɔ b w ɔ k	v067 c254 c457 v067 c831	1489	poli1260
+278	Norwegian	cloud	ʃyː	ʃ yː	-96	ʃ yː	c677 v168	1489	norw1258
+279	French	cloud	nɥaj	n ɥ a j	100	n ɥ a j	c105 c453 v130 c564	1489	stan1290
+280	Czech	cloud	oblak	o b l a k	103	o b l a k	v042 c254 c548 v130 c831	1489	czec1258
+281	Icelandic	cloud	sciː	s c iː	96	s c iː	c087 c600 v183	1489	icel1247
+282	Italian	cloud	nuvola	n u v o l a	100	n u v o l a	c105 v027 c446 v042 c548 v130	1489	ital1282
+283	Hindi	cloud	baːdəl	b aː d ə l	95	b aː d ə l	c254 v137 c143 v155 c548	1489	hind1269
+284	Portuguese	cloud	nuvɐ̃j	n u v ɐ̃ j	100	n u v ɐ̃ j	c105 v027 c446 v120 c564	1489	port1283
+285	Swedish	cloud	moːln	m oː l n	97	m oː l n	c239 v035 c548 c105	1489	swed1254
+286	Dutch	cold	kɑut	k ɑu t	105	k ɑu t	c831 d023 c118	1287	dutc1256
+287	Swedish	cold	kalː	k a lː	105	k a lː	c831 v130 c539	1287	swed1254
+288	English	cold	kəʊld	k əʊ l d	105	k əu l d	c831 d029 c548 c143	1287	stan1293
+289	German	cold	kalt	k a l t	105	k a l t	c831 v130 c548 c118	1287	stan1295
+290	Spanish	cold	fri.o	f r i o	107	f r i o	c447 c151 v191 v042	1287	stan1288
+291	Danish	cold	kʌlˀ	k ʌ lˀ	105	k ʌ lˀ	c831 v097 c550	1287	dani1285
+292	Bulgarian	cold	studɛn	s t u d ɛ n	111	s t u d ɛ n	c087 c118 v027 c143 v229 c105	1287	bulg1262
+293	Greek	cold	p͡sixros	p͡s i x r o s	109	ps i x r o s	c291 v191 c772 c151 v042 c087	1287	mode1248
+294	Romanian	cold	reʧe	r e ʧ e	108	r e tʃ e	c151 v200 c645 v200	1287	roma1327
+295	Russian	cold	xɐlodnɨj	x ɐ l o d n ɨ j	106	x ɐ l o d n ɨ j	c772 v119 c548 v042 c143 c105 v116 c564	1287	russ1263
+296	Polish	cold	xwɔdnɨ	x w ɔ d n ɨ	106	x w ɔ d n ɨ	c772 c457 v067 c143 c105 v116	1287	poli1260
+297	Norwegian	cold	kɑl	k ɑ l	-105	k ɑ l	c831 v089 c548	1287	norw1258
+298	French	cold	fʁwa	f ʁ w a	107	f ʁ w a	c447 c733 c457 v130	1287	stan1290
+299	Czech	cold	xladniː	x l a d n iː	106	x l a d n iː	c772 c548 v130 c143 c105 v183	1287	czec1258
+300	Icelandic	cold	kʰaltʏr	kʰ a l t ʏ r	105	kʰ a l t ʏ r	c813 v130 c548 c118 v173 c151	1287	icel1247
+301	Italian	cold	freddo	f r e dː o	107	f r e dː o	c447 c151 v200 c131 v042	1287	ital1282
+302	Hindi	cold	ʈʰəɳɖaː	ʈʰ ə ɳ ɖ aː	104	ʈʰ ə ɳ ɖ aː	c719 v155 c705 c715 v137	1287	hind1269
+303	Portuguese	cold	friw	f r i w	107	f r i w	c447 c151 v191 c457	1287	port1283
+304	Romanian	cold	frig	f r i g	107	f r i g	c447 c151 v191 c824	1287	roma1327
+305	Polish	cold	ʑimnɨ	ʑ i m n ɨ	110	ʑ i m n ɨ	c201 v191 c239 c105 v116	1287	poli1260
+306	Czech	cold	stʊdɛniː	s t ʊ d ɛ n iː	111	s t ʊ d ɛ n iː	c087 c118 v056 c143 v229 c105 v183	1287	czec1258
+307	Dutch	come	aːŋkoːmə	aː ŋ k oː m ə	115	aː ŋ k oː m ə	v137 c795 c831 v035 c239 v155	1446	dutc1256
+308	Swedish	come	komːa	k o mː a	115	k o mː a	c831 v042 c242 v130	1446	swed1254
+309	English	come	kʌm	k ʌ m	115	k ʌ m	c831 v097 c239	1446	stan1293
+310	German	come	kɔmən	k ɔ m ə n	115	k ɔ m ə n	c831 v067 c239 v155 c105	1446	stan1295
+311	Spanish	come	beniɾ	b e n i ɾ	115	b e n i ɾ	c254 v200 c105 v191 c064	1446	stan1288
+312	Danish	come	kʌmə	k ʌ m ə	115	k ʌ m ə	c831 v097 c239 v155	1446	dani1285
+313	Bulgarian	come	idvam	i d v a m	116	i d v a m	v191 c143 c446 v130 c239	1446	bulg1262
+314	Greek	come	erxome	e r x o m e	117	e r x o m e	v200 c151 c772 v042 c239 v200	1446	mode1248
+315	Armenian	come	gɑl	g ɑ l	113	g ɑ l	c824 v089 c548	1446	nucl1235
+316	Romanian	come	veni	v e n i	115	v e n i	c446 v200 c105 v191	1446	roma1327
+317	Russian	come	prʲɪjtʲi	p rʲ ɪ j tʲ i	116	p rʲ ɪ j tʲ i	c288 c162 v219 c564 c113 v191	1446	russ1263
+318	Polish	come	pʃɨjɕʨ	p ʃ ɨ j ɕ ʨ	116	p ʃ ɨ j ɕ tɕ	c288 c677 v116 c564 c202 c198	1446	poli1260
+319	Norwegian	come	kɔmə	k ɔ m ə	115	k ɔ m ə	c831 v067 c239 v155	1446	norw1258
+320	French	come	vəniʁ	v ə n i ʁ	115	v ə n i ʁ	c446 v155 c105 v191 c733	1446	stan1290
+321	Czech	come	prɪjiːt	p r ɪ j iː t	116	p r ɪ j iː t	c288 c151 v219 c564 v183 c118	1446	czec1258
+322	Icelandic	come	kʰɔːma	kʰ ɔː m a	115	kʰ ɔː m a	c813 v065 c239 v130	1446	icel1247
+323	Italian	come	venire	v e n i r e	115	v e n i r e	c446 v200 c105 v191 c151 v200	1446	ital1282
+324	Hindi	come	aːnaː	aː n aː	112	aː n aː	v137 c105 v137	1446	hind1269
+325	Portuguese	come	vir	v i r	115	v i r	c446 v191 c151	1446	port1283
+326	Russian	come	prʲɪxɐdʲitʲ	p rʲ ɪ x ɐ dʲ i tʲ	114	p rʲ ɪ x ɐ dʲ i tʲ	c288 c162 v219 c772 v119 c127 v191 c113	1446	russ1263
+327	Polish	come	pʃɨxɔʥiʨ	p ʃ ɨ x ɔ ʥ i ʨ	114	p ʃ ɨ x ɔ dʑ i tɕ	c288 c677 v116 c772 v067 c195 v191 c198	1446	poli1260
+328	Dutch	die	stɛrvə	s t ɛ r v ə	118	s t ɛ r v ə	c087 c118 v229 c151 c446 v155	1494	dutc1256
+329	Swedish	die	dø	d ø	119	d ø	c143 v171	1494	swed1254
+330	English	die	daɪ	d aɪ	-119	d aɪ	c143 d032	1494	stan1293
+331	German	die	ʃtɛrbən	ʃ t ɛ r b ə n	118	ʃ t ɛ r b ə n	c677 c118 v229 c151 c254 v155 c105	1494	stan1295
+332	Spanish	die	moɾiɾ	m o ɾ i ɾ	121	m o ɾ i ɾ	c239 v042 c064 v191 c064	1494	stan1288
+333	Danish	die	døˀ	d øˀ	119	d øˀ	c143 v243	1494	dani1285
+334	Bulgarian	die	umrɤ	u m r ɤ	121	u m r ɤ	v027 c239 c151 v084	1494	bulg1262
+335	Greek	die	peθeno	p e θ e n o	120	p e θ e n o	c288 v200 c413 v200 c105 v042	1494	mode1248
+336	Armenian	die	mɛrnɛl	m ɛ r n ɛ l	121	m ɛ r n ɛ l	c239 v229 c151 c105 v229 c548	1494	nucl1235
+337	Romanian	die	muri	m u r i	121	m u r i	c239 v027 c151 v191	1494	roma1327
+338	Russian	die	umʲɪrʲetʲ	u mʲ ɪ rʲ e tʲ	121	u mʲ ɪ rʲ e tʲ	v027 c240 v219 c162 v200 c113	1494	russ1263
+339	Polish	die	umʲɛraʨ	u mʲ ɛ r a ʨ	121	u mʲ ɛ r a tɕ	v027 c240 v229 c151 v130 c198	1494	poli1260
+340	Norwegian	die	døː	d øː	119	d øː	c143 v169	1494	norw1258
+341	French	die	muʁiʁ	m u ʁ i ʁ	121	m u ʁ i ʁ	c239 v027 c733 v191 c733	1494	stan1290
+342	Czech	die	ʊmiːrat	ʊ m iː r a t	121	ʊ m iː r a t	v056 c239 v183 c151 v130 c118	1494	czec1258
+343	Icelandic	die	teiːja	t e iː j a	119	t e iː j a	c118 v200 v183 c564 v130	1494	icel1247
+344	Italian	die	morire	m o r i r e	121	m o r i r e	c239 v042 c151 v191 c151 v200	1494	ital1282
+345	Hindi	die	mərnaː	m ə r n aː	121	m ə r n aː	c239 v155 c151 c105 v137	1494	hind1269
+346	Portuguese	die	muʀer	m u ʀ e r	121	m u ʀ e r	c239 v027 c761 v200 c151	1494	port1283
+347	Dutch	dog	hɔnt	h ɔ n t	123	h ɔ n t	c401 v067 c105 c118	2009	dutc1256
+348	Swedish	dog	hunːd	h u nː d	123	h u nː d	c401 v027 c104 c143	2009	swed1254
+349	English	dog	dɔɡ	d ɔ ɡ	129	d ɔ g	c143 v067 c824	2009	stan1293
+350	German	dog	hʊnt	h ʊ n t	123	h ʊ n t	c401 v056 c105 c118	2009	stan1295
+351	Spanish	dog	pero	p e r o	-122	p e r o	c288 v200 c151 v042	2009	stan1288
+352	Danish	dog	hunˀ	h u nˀ	123	h u nˀ	c401 v027 c094	2009	dani1285
+353	Bulgarian	dog	kuʧɛ	k u ʧ ɛ	125	k u tʃ ɛ	c831 v027 c645 v229	2009	bulg1262
+354	Greek	dog	scilos	s c i l o s	127	s c i l o s	c087 c600 v191 c548 v042 c087	2009	mode1248
+355	Armenian	dog	ʃun	ʃ u n	123	ʃ u n	c677 v027 c105	2009	nucl1235
+356	Romanian	dog	kɨjne	k ɨ j n e	124	k ɨ j n e	c831 v116 c564 c105 v200	2009	roma1327
+357	Russian	dog	sɐbakə	s ɐ b a k ə	126	s ɐ b a k ə	c087 v119 c254 v130 c831 v155	2009	russ1263
+358	Polish	dog	pʲɛs	pʲ ɛ s	128	pʲ ɛ s	c270 v229 c087	2009	poli1260
+359	Norwegian	dog	hʉn	h ʉ n	-123	h ʉ n	c401 v102 c105	2009	norw1258
+360	French	dog	ʃjɛ̃	ʃ j ɛ̃	124	ʃ j ɛ̃	c677 c564 v231	2009	stan1290
+361	Czech	dog	pɛs	p ɛ s	128	p ɛ s	c288 v229 c087	2009	czec1258
+362	Icelandic	dog	hʏntʏr	h ʏ n t ʏ r	123	h ʏ n t ʏ r	c401 v173 c105 c118 v173 c151	2009	icel1247
+363	Italian	dog	kane	k a n e	124	k a n e	c831 v130 c105 v200	2009	ital1282
+364	Hindi	dog	kʊttaː	k ʊ tː aː	130	k ʊ tː aː	c831 v056 c128 v137	2009	hind1269
+365	Portuguese	dog	kɐ̃uː	k ɐ̃ uː	124	k ɐ̃ uː	c831 v120 v019	2009	port1283
+366	Russian	dog	pʲos	pʲ o s	128	pʲ o s	c270 v042 c087	2009	russ1263
+367	Dutch	drink	drɪŋkə	d r ɪ ŋ k ə	133	d r ɪ ŋ k ə	c143 c151 v219 c795 c831 v155	1401	dutc1256
+368	Swedish	drink	drikːa	d r i kː a	133	d r i kː a	c143 c151 v191 c825 v130	1401	swed1254
+369	English	drink	drɪŋk	d r ɪ ŋ k	133	d r ɪ ŋ k	c143 c151 v219 c795 c831	1401	stan1293
+370	German	drink	trɪŋkən	t r ɪ ŋ k ə n	133	t r ɪ ŋ k ə n	c118 c151 v219 c795 c831 v155 c105	1401	stan1295
+371	Spanish	drink	beβeɾ	b e β e ɾ	132	b e β e ɾ	c254 v200 c225 v200 c064	1401	stan1288
+372	Danish	drink	dʁɛgə	d ʁ ɛ g ə	133	d ʁ ɛ g ə	c143 c733 v229 c824 v155	1401	dani1285
+373	Bulgarian	drink	pijə	p i j ə	132	p i j ə	c288 v191 c564 v155	1401	bulg1262
+374	Greek	drink	pino	p i n o	132	p i n o	c288 v191 c105 v042	1401	mode1248
+375	Armenian	drink	χəmɛl	χ ə m ɛ l	131	χ ə m ɛ l	c742 v155 c239 v229 c548	1401	nucl1235
+376	Romanian	drink	be.a	b e a	132	b e a	c254 v200 v130	1401	roma1327
+377	Russian	drink	pʲitʲ	pʲ i tʲ	132	pʲ i tʲ	c270 v191 c113	1401	russ1263
+378	Polish	drink	piʨ	p i ʨ	132	p i tɕ	c288 v191 c198	1401	poli1260
+379	Norwegian	drink	dɾikə	d ɾ i k ə	-133	d ɾ i k ə	c143 c064 v191 c831 v155	1401	norw1258
+380	French	drink	bwɑʁ	b w ɑ ʁ	132	b w ɑ ʁ	c254 c457 v089 c733	1401	stan1290
+381	Czech	drink	piːt	p iː t	132	p iː t	c288 v183 c118	1401	czec1258
+382	Icelandic	drink	trɛʰka	t r ɛ ʰk a	133	t r ɛ ʰk a	c118 c151 v229 c837 v130	1401	icel1247
+383	Italian	drink	bere	b e r e	132	b e r e	c254 v200 c151 v200	1401	ital1282
+384	Hindi	drink	piːnaː	p iː n aː	132	p iː n aː	c288 v183 c105 v137	1401	hind1269
+385	Portuguese	drink	bəber	b ə b e r	132	b ə b e r	c254 v155 c254 v200 c151	1401	port1283
+386	Dutch	dry	droːx	d r oː x	134	d r oː x	c143 c151 v035 c772	1398	dutc1256
+387	Swedish	dry	torː	t o rː	135	t o rː	c118 v042 c160	1398	swed1254
+388	English	dry	draɪ	d r aɪ	134	d r aɪ	c143 c151 d032	1398	stan1293
+389	German	dry	trɔkən	t r ɔ k ə n	134	t r ɔ k ə n	c118 c151 v067 c831 v155 c105	1398	stan1295
+390	Spanish	dry	seko	s e k o	137	s e k o	c087 v200 c831 v042	1398	stan1288
+391	Danish	dry	tɶˀʁ	t ɶˀ ʁ	135	t ɶˀ ʁ	c118 v248 c733	1398	dani1285
+392	Bulgarian	dry	sux	s u x	138	s u x	c087 v027 c772	1398	bulg1262
+393	Greek	dry	k͡seros	k͡s e r o s	139	ks e r o s	c844 v200 c151 v042 c087	1398	mode1248
+394	Romanian	dry	sek	s e k	137	s e k	c087 v200 c831	1398	roma1327
+395	Russian	dry	suxoj	s u x o j	138	s u x o j	c087 v027 c772 v042 c564	1398	russ1263
+396	Polish	dry	suxɨ	s u x ɨ	138	s u x ɨ	c087 v027 c772 v116	1398	poli1260
+397	Norwegian	dry	tœɾ	t œ ɾ	135	t œ ɾ	c118 v178 c064	1398	norw1258
+398	French	dry	sɛk	s ɛ k	137	s ɛ k	c087 v229 c831	1398	stan1290
+399	Czech	dry	sʊxiː	s ʊ x iː	138	s ʊ x iː	c087 v056 c772 v183	1398	czec1258
+400	Icelandic	dry	θʏrː	θ ʏ rː	135	θ ʏ rː	c413 v173 c160	1398	icel1247
+401	Italian	dry	sekko	s e kː o	137	s e kː o	c087 v200 c825 v042	1398	ital1282
+402	Hindi	dry	suːkʰaː	s uː kʰ aː	138	s uː kʰ aː	c087 v019 c813 v137	1398	hind1269
+403	Portuguese	dry	seku	s e k u	137	s e k u	c087 v200 c831 v027	1398	port1283
+404	Romanian	dry	uskat	u s k a t	136	u s k a t	v027 c087 c831 v130 c118	1398	roma1327
+405	Italian	dry	aʃʃutto	a ʃː u tː o	136	a ʃː u tː o	v130 c672 v027 c128 v042	1398	ital1282
+406	Portuguese	dry	ẽʃutu	ẽ ʃ u t u	136	ẽ ʃ u t u	v201 c677 v027 c118 v027	1398	port1283
+407	Dutch	ear	oːr	oː r	141	oː r	v035 c151	1247	dutc1256
+408	Swedish	ear	øːra	øː r a	141	øː r a	v169 c151 v130	1247	swed1254
+409	English	ear	ɪər	ɪ ə r	141	ɪ ə r	v219 v155 c151	1247	stan1293
+410	German	ear	oːr	oː r	141	oː r	v035 c151	1247	stan1295
+411	Spanish	ear	oɾexa	o ɾ e x a	141	o ɾ e x a	v042 c064 v200 c772 v130	1247	stan1288
+412	Danish	ear	øːʌ	øː ʌ	141	øː ʌ	v169 v097	1247	dani1285
+413	Bulgarian	ear	uxɔ	u x ɔ	141	u x ɔ	v027 c772 v067	1247	bulg1262
+414	Greek	ear	afti	a f t i	141	a f t i	v130 c447 c118 v191	1247	mode1248
+415	Armenian	ear	ɑkɑnʤ	ɑ k ɑ n ʤ	141	ɑ k ɑ n dʒ	v089 c831 v089 c105 c649	1247	nucl1235
+416	Romanian	ear	ureke	u r e k e	141	u r e k e	v027 c151 v200 c831 v200	1247	roma1327
+417	Russian	ear	uxə	u x ə	141	u x ə	v027 c772 v155	1247	russ1263
+418	Polish	ear	uxɔ	u x ɔ	141	u x ɔ	v027 c772 v067	1247	poli1260
+419	Norwegian	ear	øːɾə	øː ɾ ə	141	øː ɾ ə	v169 c064 v155	1247	norw1258
+420	French	ear	ɔʁɛj	ɔ ʁ ɛ j	141	ɔ ʁ ɛ j	v067 c733 v229 c564	1247	stan1290
+421	Czech	ear	ʊxo	ʊ x o	141	ʊ x o	v056 c772 v042	1247	czec1258
+422	Icelandic	ear	eiːra	e iː r a	141	e iː r a	v200 v183 c151 v130	1247	icel1247
+423	Italian	ear	ɔrekkjo	ɔ r e kː j o	141	ɔ r e kː j o	v067 c151 v200 c825 c564 v042	1247	ital1282
+424	Hindi	ear	kaːn	k aː n	140	k aː n	c831 v137 c105	1247	hind1269
+425	Portuguese	ear	oreʎɐ	o r e ʎ ɐ	141	o r e ʎ ɐ	v042 c151 v200 c582 v119	1247	port1283
+426	Dutch	earth	aːrdə	aː r d ə	146	aː r d ə	v137 c151 c143 v155	1228	dutc1256
+427	Swedish	earth	joːrd	j oː r d	146	j oː r d	c564 v035 c151 c143	1228	swed1254
+428	English	earth	ɜːrθ	ɜː r θ	146	ɜː r θ	v150 c151 c413	1228	stan1293
+429	German	earth	eːrdə	eː r d ə	146	eː r d ə	v202 c151 c143 v155	1228	stan1295
+430	Spanish	earth	tjera	t j e r a	144	t j e r a	c118 c564 v200 c151 v130	1228	stan1288
+431	Danish	earth	joˀʁ	j oˀ ʁ	146	j oˀ ʁ	c564 v048 c733	1228	dani1285
+432	Bulgarian	earth	zɛmʲə	z ɛ mʲ ə	145	z ɛ mʲ ə	c078 v229 c240 v155	1228	bulg1262
+433	Greek	earth	ʝi	ʝ i	142	ʝ i	c574 v191	1228	mode1248
+434	Armenian	earth	hoʁ	h o ʁ	146	h o ʁ	c401 v042 c733	1228	nucl1235
+435	Romanian	earth	pəmɨnt	p ə m ɨ n t	147	p ə m ɨ n t	c288 v155 c239 v116 c105 c118	1228	roma1327
+436	Russian	earth	zʲɪmlʲa	zʲ ɪ m lʲ a	145	zʲ ɪ m lʲ a	c082 v219 c239 c540 v130	1228	russ1263
+437	Polish	earth	ʑɛmʲa	ʑ ɛ mʲ a	145	ʑ ɛ mʲ a	c201 v229 c240 v130	1228	poli1260
+438	Norwegian	earth	juːɾ	j uː ɾ	-146	j uː ɾ	c564 v019 c064	1228	norw1258
+439	French	earth	tɛʁ	t ɛ ʁ	144	t ɛ ʁ	c118 v229 c733	1228	stan1290
+440	Czech	earth	zɛmʲɛ	z ɛ mʲ ɛ	145	z ɛ mʲ ɛ	c078 v229 c240 v229	1228	czec1258
+441	Icelandic	earth	jœrð	j œ r ð	146	j œ r ð	c564 v178 c151 c415	1228	icel1247
+442	Italian	earth	tɛrra	t ɛ rː a	144	t ɛ rː a	c118 v229 c160 v130	1228	ital1282
+443	Hindi	earth	dʱərtiː	d̤ ə r t iː	143	d̤ ə r t iː	c117 v155 c151 c118 v183	1228	hind1269
+444	Portuguese	earth	tɛʀɐ	t ɛ ʀ ɐ	144	t ɛ ʀ ɐ	c118 v229 c761 v119	1228	port1283
+445	Dutch	eat	eːtə	eː t ə	150	eː t ə	v202 c118 v155	1336	dutc1256
+446	Swedish	eat	ɛːta	ɛː t a	150	ɛː t a	v225 c118 v130	1336	swed1254
+447	English	eat	iːt	iː t	150	iː t	v183 c118	1336	stan1293
+448	German	eat	ɛsən	ɛ s ə n	150	ɛ s ə n	v229 c087 v155 c105	1336	stan1295
+449	Spanish	eat	komeɾ	k o m e ɾ	150	k o m e ɾ	c831 v042 c239 v200 c064	1336	stan1288
+450	Danish	eat	sbiːsə	s b iː s ə	-149	s b iː s ə	c087 c254 v183 c087 v155	1336	dani1285
+451	Bulgarian	eat	jam	j a m	150	j a m	c564 v130 c239	1336	bulg1262
+452	Greek	eat	troɣo	t r o ɣ o	153	t r o ɣ o	c118 c151 v042 c774 v042	1336	mode1248
+453	Armenian	eat	utɛl	u t ɛ l	150	u t ɛ l	v027 c118 v229 c548	1336	nucl1235
+454	Romanian	eat	mɨnka	m ɨ n k a	148	m ɨ n k a	c239 v116 c105 c831 v130	1336	roma1327
+455	Russian	eat	jesʲtʲ	j e sʲ tʲ	150	j e sʲ tʲ	c564 v200 c088 c113	1336	russ1263
+456	Polish	eat	jɛɕʨ	j ɛ ɕ ʨ	150	j ɛ ɕ tɕ	c564 v229 c202 c198	1336	poli1260
+457	Norwegian	eat	spiːsə	s p iː s ə	-149	s p iː s ə	c087 c288 v183 c087 v155	1336	norw1258
+458	French	eat	mɑ̃ʒe	m ɑ̃ ʒ e	148	m ɑ̃ ʒ e	c239 v088 c679 v200	1336	stan1290
+459	Czech	eat	jiːst	j iː s t	150	j iː s t	c564 v183 c087 c118	1336	czec1258
+460	Icelandic	eat	pɔrða	p ɔ r ð a	152	p ɔ r ð a	c288 v067 c151 c415 v130	1336	icel1247
+461	Italian	eat	manʤare	m a n ʤ a r e	148	m a n dʒ a r e	c239 v130 c105 c649 v130 c151 v200	1336	ital1282
+462	Hindi	eat	kʰaːnaː	kʰ aː n aː	151	kʰ aː n aː	c813 v137 c105 v137	1336	hind1269
+463	Portuguese	eat	kumer	k u m e r	150	k u m e r	c831 v027 c239 v200 c151	1336	port1283
+464	Dutch	egg	ɛɪ	ɛɪ	154	ɛi	d059	744	dutc1256
+465	Swedish	egg	egː	e gː	154	e gː	v200 c819	744	swed1254
+466	English	egg	ɛɡ	ɛ ɡ	154	ɛ g	v229 c824	744	stan1293
+467	German	egg	ai	ai	154	ai	d030	744	stan1295
+468	Spanish	egg	weβo	w e β o	154	w e β o	c457 v200 c225 v042	744	stan1288
+469	Danish	egg	ɛˀg	ɛˀ g	154	ɛˀ g	v228 c824	744	dani1285
+470	Bulgarian	egg	jəiʦɛ	j əi ʦ ɛ	154	j əi ts ɛ	c564 d035 c015 v229	744	bulg1262
+471	Greek	egg	avɣo	a v ɣ o	154	a v ɣ o	v130 c446 c774 v042	744	mode1248
+472	Armenian	egg	ʣu	ʣ u	155	dz u	c020 v027	744	nucl1235
+473	Romanian	egg	ow	o w	154	o w	v042 c457	744	roma1327
+474	Russian	egg	jɪjʦo	j ɪ j ʦ o	154	j ɪ j ts o	c564 v219 c564 c015 v042	744	russ1263
+475	Polish	egg	jajkɔ	j a j k ɔ	154	j a j k ɔ	c564 v130 c564 c831 v067	744	poli1260
+476	Norwegian	egg	eg	e g	154	e g	v200 c824	744	norw1258
+477	French	egg	œf	œ f	154	œ f	v178 c447	744	stan1290
+478	Czech	egg	vɛjʦɛ	v ɛ j ʦ ɛ	154	v ɛ j ts ɛ	c446 v229 c564 c015 v229	744	czec1258
+479	Icelandic	egg	ɛkː	ɛ kː	154	ɛ kː	v229 c825	744	icel1247
+480	Italian	egg	wɔvo	w ɔ v o	154	w ɔ v o	c457 v067 c446 v042	744	ital1282
+481	Hindi	egg	ə̃ɳɖaː	ə̃ ɳ ɖ aː	156	ə̃ ɳ ɖ aː	v153 c705 c715 v137	744	hind1269
+482	Portuguese	egg	ovu	o v u	154	o v u	v042 c446 v027	744	port1283
+483	Dutch	eye	oːx	oː x	158	oː x	v035 c772	1248	dutc1256
+484	Swedish	eye	øːga	øː g a	158	øː g a	v169 c824 v130	1248	swed1254
+485	English	eye	aɪ	aɪ	158	aɪ	d032	1248	stan1293
+486	German	eye	auɡə	au ɡ ə	158	au g ə	d026 c824 v155	1248	stan1295
+487	Spanish	eye	oxo	o x o	158	o x o	v042 c772 v042	1248	stan1288
+488	Danish	eye	ʌjə	ʌ j ə	158	ʌ j ə	v097 c564 v155	1248	dani1285
+489	Bulgarian	eye	okɔ	o k ɔ	158	o k ɔ	v042 c831 v067	1248	bulg1262
+490	Greek	eye	mati	m a t i	158	m a t i	c239 v130 c118 v191	1248	mode1248
+491	Armenian	eye	ɑʧʰkʰ	ɑ ʧʰ kʰ	158	ɑ tʃʰ kʰ	v089 c655 c813	1248	nucl1235
+492	Romanian	eye	oki	o k i	158	o k i	v042 c831 v191	1248	roma1327
+493	Russian	eye	ɡlas	ɡ l a s	157	g l a s	c824 c548 v130 c087	1248	russ1263
+494	Polish	eye	ɔkɔ	ɔ k ɔ	158	ɔ k ɔ	v067 c831 v067	1248	poli1260
+495	Norwegian	eye	œjə	œ j ə	158	œ j ə	v178 c564 v155	1248	norw1258
+496	French	eye	œj	œ j	158	œ j	v178 c564	1248	stan1290
+497	Czech	eye	oko	o k o	158	o k o	v042 c831 v042	1248	czec1258
+498	Icelandic	eye	øyːɣa	ø yː ɣ a	158	ø yː ɣ a	v171 v168 c774 v130	1248	icel1247
+499	Italian	eye	ɔkkjo	ɔ kː j o	158	ɔ kː j o	v067 c825 c564 v042	1248	ital1282
+500	Hindi	eye	ãːkʰ	ãː kʰ	158	ãː kʰ	v125 c813	1248	hind1269
+501	Portuguese	eye	oʎu	o ʎ u	158	o ʎ u	v042 c582 v027	1248	port1283
+1964	Dutch	far	vɛr	v ɛ r	559	v ɛ r	c446 v229 c151	1406	dutc1256
+1965	Swedish	far	loŋ	l o ŋ	558	l o ŋ	c548 v042 c795	1406	swed1254
+1966	English	far	fɑːr	f ɑː r	559	f ɑː r	c447 v091 c151	1406	stan1293
+1967	German	far	fɛrn	f ɛ r n	559	f ɛ r n	c447 v229 c151 c105	1406	stan1295
+1968	Spanish	far	lexano	l e x a n o	555	l e x a n o	c548 v200 c772 v130 c105 v042	1406	stan1288
+1969	Danish	far	fjæʁˀn	f j æ ʁˀ n	559	f j æ ʁˀ n	c447 c564 v198 c838 c105	1406	dani1285
+1970	Bulgarian	far	dəlɛʧɛn	d ə l ɛ ʧ ɛ n	558	d ə l ɛ tʃ ɛ n	c143 v155 c548 v229 c645 v229 c105	1406	bulg1262
+1971	Greek	far	makran	m a k r a n	557	m a k r a n	c239 v130 c831 c151 v130 c105	1406	mode1248
+1972	Armenian	far	hɛru	h ɛ r u	553	h ɛ r u	c401 v229 c151 v027	1406	nucl1235
+1973	Romanian	far	depərte	d e p ə r t e	554	d e p ə r t e	c143 v200 c288 v155 c151 c118 v200	1406	roma1327
+1974	Russian	far	dɐlʲokʲɪj	d ɐ lʲ o kʲ ɪ j	558	d ɐ lʲ o kʲ ɪ j	c143 v119 c540 v042 c830 v219 c564	1406	russ1263
+1975	Polish	far	dalɛki	d a l ɛ k i	558	d a l ɛ k i	c143 v130 c548 v229 c831 v191	1406	poli1260
+1976	Norwegian	far	buʈ	b u ʈ	558	b u ʈ	c254 v027 c711	1406	norw1258
+1977	French	far	lwɛ̃	l w ɛ̃	558	l w ɛ̃	c548 c457 v231	1406	stan1290
+1978	Czech	far	dalɛkiː	d a l ɛ k iː	558	d a l ɛ k iː	c143 v130 c548 v229 c831 v183	1406	czec1258
+1979	Icelandic	far	laŋ	l a ŋ	558	l a ŋ	c548 v130 c795	1406	icel1247
+1980	Italian	far	lontano	l o n t a n o	558	l o n t a n o	c548 v042 c105 c118 v130 c105 v042	1406	ital1282
+1981	Hindi	far	duːr	d uː r	556	d uː r	c143 v019 c151	1406	hind1269
+1982	Portuguese	far	lõʒə	l õ ʒ ə	558	l õ ʒ ə	c548 v038 c679 v155	1406	port1283
+1983	Swedish	far	fjɛrːan	f j ɛ rː a n	559	f j ɛ rː a n	c447 c564 v229 c160 v130 c105	1406	swed1254
+1984	Danish	far	lɑŋˀ	l ɑ ŋˀ	558	l ɑ ŋˀ	c548 v089 c794	1406	dani1285
+502	Dutch	fat	vɛt	v ɛ t	166	v ɛ t	c446 v229 c118	323	dutc1256
+503	Swedish	fat	fɛt	f ɛ t	166	f ɛ t	c447 v229 c118	323	swed1254
+504	English	fat	fæt	f æ t	166	f æ t	c447 v198 c118	323	stan1293
+505	German	fat	fɛt	f ɛ t	-166	f ɛ t	c447 v229 c118	323	stan1295
+506	Spanish	fat	ɡɾasa	ɡ ɾ a s a	160	g ɾ a s a	c824 c064 v130 c087 v130	323	stan1288
+507	Danish	fat	fed	f e d	166	f e d	c447 v200 c143	323	dani1285
+508	Bulgarian	fat	məznina	m ə z n i n a	164	m ə z n i n a	c239 v155 c078 c105 v191 c105 v130	323	bulg1262
+509	Greek	fat	lipos	l i p o s	168	l i p o s	c548 v191 c288 v042 c087	323	mode1248
+510	Armenian	fat	ʧɑɾp	ʧ ɑ ɾ p	-161	tʃ ɑ ɾ p	c645 v089 c064 c288	323	nucl1235
+511	Romanian	fat	grəsime	g r ə s i m e	160	g r ə s i m e	c824 c151 v155 c087 v191 c239 v200	323	roma1327
+512	Russian	fat	ʒɨr	ʒ ɨ r	165	ʒ ɨ r	c679 v116 c151	323	russ1263
+513	Polish	fat	twuʃʧ	t w u ʃ ʧ	167	t w u ʃ tʃ	c118 c457 v027 c677 c645	323	poli1260
+514	Norwegian	fat	fet	f e t	-166	f e t	c447 v200 c118	323	norw1258
+515	French	fat	ɡʁɛs	ɡ ʁ ɛ s	160	g ʁ ɛ s	c824 c733 v229 c087	323	stan1290
+516	Czech	fat	tʊk	t ʊ k	162	t ʊ k	c118 v056 c831	323	czec1258
+517	Icelandic	fat	fɪːta	f ɪː t a	166	f ɪː t a	c447 v221 c118 v130	323	icel1247
+518	Italian	fat	ɡrasso	ɡ r a sː o	160	g r a sː o	c824 c151 v130 c070 v042	323	ital1282
+519	Hindi	fat	ʧərbiː	ʧ ə r b iː	-169	tʃ ə r b iː	c645 v155 c151 c254 v183	323	hind1269
+520	Portuguese	fat	gurdurɐ	g u r d u r ɐ	163	g u r d u r ɐ	c824 v027 c151 c143 v027 c151 v119	323	port1283
+521	Spanish	fat	ɡoɾðo	ɡ o ɾ ð o	163	g o ɾ ð o	c824 v042 c064 c415 v042	323	stan1288
+522	Czech	fat	saːdlo	s aː d l o	159	s aː d l o	c087 v137 c143 c548 v042	323	czec1258
+523	Dutch	feather	veːr	v eː r	170	v eː r	c446 v202 c151	1201	dutc1256
+524	Swedish	feather	fjɛːder	f j ɛː d e r	170	f j ɛː d e r	c447 c564 v225 c143 v200 c151	1201	swed1254
+525	English	feather	fɛðər	f ɛ ð ə r	170	f ɛ ð ə r	c447 v229 c415 v155 c151	1201	stan1293
+526	German	feather	feːdər	f eː d ə r	170	f eː d ə r	c447 v202 c143 v155 c151	1201	stan1295
+527	Spanish	feather	pluma	p l u m a	172	p l u m a	c288 c548 v027 c239 v130	1201	stan1288
+528	Danish	feather	fjeðˀʌ	f j e ðˀ ʌ	170	f j e ðˀ ʌ	c447 c564 v200 c839 v097	1201	dani1285
+529	Bulgarian	feather	pɛrɔ	p ɛ r ɔ	174	p ɛ r ɔ	c288 v229 c151 v067	1201	bulg1262
+530	Greek	feather	ftero	f t e r o	170	f t e r o	c447 c118 v200 c151 v042	1201	mode1248
+531	Armenian	feather	pʰɛtuɾ	pʰ ɛ t u ɾ	-171	pʰ ɛ t u ɾ	c261 v229 c118 v027 c064	1201	nucl1235
+532	Romanian	feather	panə	p a n ə	170	p a n ə	c288 v130 c105 v155	1201	roma1327
+533	Russian	feather	pʲɪro	pʲ ɪ r o	174	pʲ ɪ r o	c270 v219 c151 v042	1201	russ1263
+534	Polish	feather	pʲurɔ	pʲ u r ɔ	174	pʲ u r ɔ	c270 v027 c151 v067	1201	poli1260
+535	Norwegian	feather	fjæːɾ	f j æː ɾ	170	f j æː ɾ	c447 c564 v199 c064	1201	norw1258
+536	French	feather	plym	p l y m	172	p l y m	c288 c548 v166 c239	1201	stan1290
+537	Czech	feather	pɛːro	p ɛː r o	174	p ɛː r o	c288 v225 c151 v042	1201	czec1258
+538	Icelandic	feather	fjœːðʏr	f j œː ð ʏ r	170	f j œː ð ʏ r	c447 c564 v176 c415 v173 c151	1201	icel1247
+539	Italian	feather	pjuma	p j u m a	172	p j u m a	c288 c564 v027 c239 v130	1201	ital1282
+540	Hindi	feather	pə̃ŋkʰ	p ə̃ ŋ kʰ	173	p ə̃ ŋ kʰ	c288 v153 c795 c813	1201	hind1269
+541	Portuguese	feather	penɐ	p e n ɐ	170	p e n ɐ	c288 v200 c105 v119	1201	port1283
+542	Italian	feather	pɛnna	p ɛ nː a	170	p ɛ nː a	c288 v229 c104 v130	1201	ital1282
+543	Dutch	fire	vyːr	v yː r	181	v yː r	c446 v168 c151	221	dutc1256
+544	Swedish	fire	elːd	e lː d	176	e lː d	v200 c539 c143	221	swed1254
+545	English	fire	faɪər	f a ɪ ə r	181	f a ɪ ə r	c447 v130 v219 v155 c151	221	stan1293
+546	German	fire	fɔyər	f ɔ i ə r	181	f ɔ i ə r	c447 v067 v191 v155 c151	221	stan1295
+547	Spanish	fire	fweɣo	f w e ɣ o	179	f w e ɣ o	c447 c457 v200 c774 v042	221	stan1288
+548	Danish	fire	ilˀ	i lˀ	176	i lˀ	v191 c550	221	dani1285
+549	Bulgarian	fire	ɔɡən	ɔ ɡ ə n	178	ɔ g ə n	v067 c824 v155 c105	221	bulg1262
+550	Greek	fire	fotça	f o t ç a	175	f o t ç a	c447 v042 c118 c577 v130	221	mode1248
+551	Armenian	fire	kəɾɑk	k ə ɾ ɑ k	180	k ə ɾ ɑ k	c831 v155 c064 v089 c831	221	nucl1235
+552	Romanian	fire	fok	f o k	179	f o k	c447 v042 c831	221	roma1327
+553	Russian	fire	ɐɡonʲ	ɐ ɡ o nʲ	178	ɐ g o nʲ	v119 c824 v042 c099	221	russ1263
+554	Polish	fire	ɔɡʲɛnʲ	ɔ ɡʲ ɛ nʲ	178	ɔ gʲ ɛ nʲ	v067 c812 v229 c099	221	poli1260
+555	Norwegian	fire	ʋɑɾmə	ʋ ɑ ɾ m ə	177	ʋ ɑ ɾ m ə	c424 v089 c064 c239 v155	221	norw1258
+556	French	fire	fø	f ø	179	f ø	c447 v171	221	stan1290
+557	Czech	fire	oɦɛnʲ	o ɦ ɛ nʲ	178	o ɦ ɛ nʲ	v042 c397 v229 c099	221	czec1258
+558	Icelandic	fire	ɛltʏr	ɛ l t ʏ r	176	ɛ l t ʏ r	v229 c548 c118 v173 c151	221	icel1247
+559	Italian	fire	fwɔko	f w ɔ k o	179	f w ɔ k o	c447 c457 v067 c831 v042	221	ital1282
+560	Hindi	fire	aːg	aː g	178	aː g	v137 c824	221	hind1269
+561	Portuguese	fire	fogu	f o g u	179	f o g u	c447 v042 c824 v027	221	port1283
+562	Norwegian	fire	il	i l	176	i l	v191 c548	221	norw1258
+563	Dutch	fish	vɪs	v ɪ s	182	v ɪ s	c446 v219 c087	227	dutc1256
+564	Swedish	fish	fisːk	f i sː k	182	f i sː k	c447 v191 c070 c831	227	swed1254
+565	English	fish	fɪʃ	f ɪ ʃ	182	f ɪ ʃ	c447 v219 c677	227	stan1293
+566	German	fish	fɪʃ	f ɪ ʃ	182	f ɪ ʃ	c447 v219 c677	227	stan1295
+567	Spanish	fish	peskaðo	p e s k a ð o	182	p e s k a ð o	c288 v200 c087 c831 v130 c415 v042	227	stan1288
+568	Danish	fish	fesg	f e s g	182	f e s g	c447 v200 c087 c824	227	dani1285
+569	Bulgarian	fish	ribə	r i b ə	184	r i b ə	c151 v191 c254 v155	227	bulg1262
+570	Greek	fish	p͡sari	p͡s a r i	185	ps a r i	c291 v130 c151 v191	227	mode1248
+571	Armenian	fish	ʣuk	ʣ u k	183	dz u k	c020 v027 c831	227	nucl1235
+572	Romanian	fish	peʃte	p e ʃ t e	182	p e ʃ t e	c288 v200 c677 c118 v200	227	roma1327
+573	Russian	fish	rɨbə	r ɨ b ə	184	r ɨ b ə	c151 v116 c254 v155	227	russ1263
+574	Polish	fish	rɨba	r ɨ b a	184	r ɨ b a	c151 v116 c254 v130	227	poli1260
+575	Norwegian	fish	fisk	f i s k	182	f i s k	c447 v191 c087 c831	227	norw1258
+576	French	fish	pwasõ	p w a s õ	182	p w a s õ	c288 c457 v130 c087 v038	227	stan1290
+577	Czech	fish	rɪba	r ɪ b a	184	r ɪ b a	c151 v219 c254 v130	227	czec1258
+578	Icelandic	fish	fɪskʏr	f ɪ s k ʏ r	182	f ɪ s k ʏ r	c447 v219 c087 c831 v173 c151	227	icel1247
+579	Italian	fish	peʃʃe	p e ʃː e	182	p e ʃː e	c288 v200 c672 v200	227	ital1282
+580	Hindi	fish	məʧliː	m ə ʧ l iː	186	m ə tʃ l iː	c239 v155 c645 c548 v183	227	hind1269
+581	Portuguese	fish	pɐjʃə	p ɐ j ʃ ə	182	p ɐ j ʃ ə	c288 v119 c564 c677 v155	227	port1283
+582	Dutch	fly	vliːɣə	v l iː ɣ ə	190	v l iː ɣ ə	c446 c548 v183 c774 v155	1441	dutc1256
+583	Swedish	fly	flʉga	f l ʉ g a	190	f l ʉ g a	c447 c548 v102 c824 v130	1441	swed1254
+584	English	fly	flaɪ	f l aɪ	190	f l aɪ	c447 c548 d032	1441	stan1293
+585	German	fly	fliːɡən	f l iː ɡ ə n	190	f l iː g ə n	c447 c548 v183 c824 v155 c105	1441	stan1295
+586	Spanish	fly	bolaɾ	b o l a ɾ	187	b o l a ɾ	c254 v042 c548 v130 c064	1441	stan1288
+587	Danish	fly	flyːvə	f l yː v ə	190	f l yː v ə	c447 c548 v168 c446 v155	1441	dani1285
+588	Bulgarian	fly	lɛtʲə	l ɛ tʲ ə	188	l ɛ tʲ ə	c548 v229 c113 v155	1441	bulg1262
+589	Greek	fly	peto	p e t o	191	p e t o	c288 v200 c118 v042	1441	mode1248
+590	Armenian	fly	tʰərʧʰɛl	tʰ ə r ʧʰ ɛ l	191	tʰ ə r tʃʰ ɛ l	c136 v155 c151 c655 v229 c548	1441	nucl1235
+591	Romanian	fly	zbura	z b u r a	187	z b u r a	c078 c254 v027 c151 v130	1441	roma1327
+592	Russian	fly	lʲɪtʲetʲ	lʲ ɪ tʲ e tʲ	188	lʲ ɪ tʲ e tʲ	c540 v219 c113 v200 c113	1441	russ1263
+593	Polish	fly	lataʨ	l a t a ʨ	188	l a t a tɕ	c548 v130 c118 v130 c198	1441	poli1260
+594	Norwegian	fly	flyː	f l yː	190	f l yː	c447 c548 v168	1441	norw1258
+595	French	fly	vɔle	v ɔ l e	187	v ɔ l e	c446 v067 c548 v200	1441	stan1290
+596	Czech	fly	lɛːtat	l ɛː t a t	188	l ɛː t a t	c548 v225 c118 v130 c118	1441	czec1258
+597	Icelandic	fly	fljuːa	f l j uː a	190	f l j uː a	c447 c548 c564 v019 v130	1441	icel1247
+598	Italian	fly	volare	v o l a r e	187	v o l a r e	c446 v042 c548 v130 c151 v200	1441	ital1282
+599	Hindi	fly	ʊɽnaː	ʊ ɽ n aː	189	ʊ ɽ n aː	v056 c697 c105 v137	1441	hind1269
+600	Portuguese	fly	vwar	v w a r	187	v w a r	c446 c457 v130 c151	1441	port1283
+601	Dutch	foot	vuːt	v uː t	194	v uː t	c446 v019 c118	1301	dutc1256
+602	Swedish	foot	foːt	f oː t	194	f oː t	c447 v035 c118	1301	swed1254
+603	English	foot	fʊt	f ʊ t	194	f ʊ t	c447 v056 c118	1301	stan1293
+604	German	foot	fuːs	f uː s	194	f uː s	c447 v019 c087	1301	stan1295
+605	Spanish	foot	pje	p j e	194	p j e	c288 c564 v200	1301	stan1288
+606	Danish	foot	foˀð	f oˀ ð	194	f oˀ ð	c447 v048 c415	1301	dani1285
+607	Bulgarian	foot	krak	k r a k	193	k r a k	c831 c151 v130 c831	1301	bulg1262
+608	Greek	foot	poði	p o ð i	194	p o ð i	c288 v042 c415 v191	1301	mode1248
+609	Armenian	foot	votkʰ	v o t kʰ	194	v o t kʰ	c446 v042 c118 c813	1301	nucl1235
+610	Romanian	foot	piʧjor	p i ʧ j o r	194	p i tʃ j o r	c288 v191 c645 c564 v042 c151	1301	roma1327
+611	Russian	foot	nɐɡa	n ɐ ɡ a	192	n ɐ g a	c105 v119 c824 v130	1301	russ1263
+612	Polish	foot	nɔɡa	n ɔ ɡ a	192	n ɔ g a	c105 v067 c824 v130	1301	poli1260
+613	Norwegian	foot	fuːt	f uː t	194	f uː t	c447 v019 c118	1301	norw1258
+614	French	foot	pje	p j e	194	p j e	c288 c564 v200	1301	stan1290
+615	Czech	foot	noɦa	n o ɦ a	192	n o ɦ a	c105 v042 c397 v130	1301	czec1258
+616	Icelandic	foot	fouːtʏr	f o uː t ʏ r	194	f o uː t ʏ r	c447 v042 v019 c118 v173 c151	1301	icel1247
+617	Italian	foot	pjɛde	p j ɛ d e	194	p j ɛ d e	c288 c564 v229 c143 v200	1301	ital1282
+618	Hindi	foot	pɛːr	p ɛː r	194	p ɛː r	c288 v225 c151	1301	hind1269
+619	Portuguese	foot	pɛ	p ɛ	194	p ɛ	c288 v229	1301	port1283
+620	Dutch	full	vɔl	v ɔ l	196	v ɔ l	c446 v067 c548	1429	dutc1256
+621	Swedish	full	fulː	f u lː	196	f u lː	c447 v027 c539	1429	swed1254
+622	English	full	fʊl	f ʊ l	196	f ʊ l	c447 v056 c548	1429	stan1293
+623	German	full	fɔl	f ɔ l	196	f ɔ l	c447 v067 c548	1429	stan1295
+624	Spanish	full	ʎeno	ʎ e n o	196	ʎ e n o	c582 v200 c105 v042	1429	stan1288
+625	Danish	full	fulˀ	f u lˀ	196	f u lˀ	c447 v027 c550	1429	dani1285
+626	Bulgarian	full	pɤlɛn	p ɤ l ɛ n	196	p ɤ l ɛ n	c288 v084 c548 v229 c105	1429	bulg1262
+627	Greek	full	ʝematos	ʝ e m a t o s	195	ʝ e m a t o s	c574 v200 c239 v130 c118 v042 c087	1429	mode1248
+628	Armenian	full	likʰə	l i kʰ ə	196	l i kʰ ə	c548 v191 c813 v155	1429	nucl1235
+629	Romanian	full	plin	p l i n	196	p l i n	c288 c548 v191 c105	1429	roma1327
+630	Russian	full	polnɨj	p o l n ɨ j	196	p o l n ɨ j	c288 v042 c548 c105 v116 c564	1429	russ1263
+631	Polish	full	pɛwnɨ	p ɛ w n ɨ	196	p ɛ w n ɨ	c288 v229 c457 c105 v116	1429	poli1260
+632	Norwegian	full	fʉl	f ʉ l	196	f ʉ l	c447 v102 c548	1429	norw1258
+633	French	full	plɛ̃	p l ɛ̃	196	p l ɛ̃	c288 c548 v231	1429	stan1290
+634	Czech	full	pl̩niː	p l̩ n iː	196	p l̩ n iː	c288 c537 c105 v183	1429	czec1258
+635	Icelandic	full	fʏt͡lʏr	f ʏ t͡l ʏ r	196	f ʏ tl ʏ r	c447 v173 c559 v173 c151	1429	icel1247
+636	Italian	full	pjɛno	p j ɛ n o	196	p j ɛ n o	c288 c564 v229 c105 v042	1429	ital1282
+637	Hindi	full	puːraː	p uː r aː	196	p uː r aː	c288 v019 c151 v137	1429	hind1269
+638	Portuguese	full	ʃɐju	ʃ ɐ j u	196	ʃ ɐ j u	c677 v119 c564 v027	1429	port1283
+639	Dutch	give	xeːvə	x eː v ə	197	x eː v ə	c772 v202 c446 v155	1447	dutc1256
+640	Swedish	give	jiːva	j iː v a	197	j iː v a	c564 v183 c446 v130	1447	swed1254
+641	English	give	ɡɪv	ɡ ɪ v	197	g ɪ v	c824 v219 c446	1447	stan1293
+642	German	give	ɡeːbən	ɡ eː b ə n	197	g eː b ə n	c824 v202 c254 v155 c105	1447	stan1295
+643	Spanish	give	daɾ	d a ɾ	198	d a ɾ	c143 v130 c064	1447	stan1288
+644	Danish	give	giˀ	g iˀ	197	g iˀ	c824 v190	1447	dani1285
+645	Bulgarian	give	davəm	d a v ə m	198	d a v ə m	c143 v130 c446 v155 c239	1447	bulg1262
+646	Greek	give	ðino	ð i n o	198	ð i n o	c415 v191 c105 v042	1447	mode1248
+647	Armenian	give	tɑl	t ɑ l	198	t ɑ l	c118 v089 c548	1447	nucl1235
+648	Romanian	give	da	d a	198	d a	c143 v130	1447	roma1327
+649	Russian	give	datʲ	d a tʲ	198	d a tʲ	c143 v130 c113	1447	russ1263
+650	Polish	give	davaʨ	d a v a ʨ	198	d a v a tɕ	c143 v130 c446 v130 c198	1447	poli1260
+651	Norwegian	give	jiː	j iː	197	j iː	c564 v183	1447	norw1258
+652	French	give	dɔne	d ɔ n e	198	d ɔ n e	c143 v067 c105 v200	1447	stan1290
+653	Czech	give	daːt	d aː t	198	d aː t	c143 v137 c118	1447	czec1258
+654	Icelandic	give	cɛːva	c ɛː v a	197	c ɛː v a	c600 v225 c446 v130	1447	icel1247
+655	Italian	give	dare	d a r e	198	d a r e	c143 v130 c151 v200	1447	ital1282
+656	Hindi	give	deːnaː	d eː n aː	198	d eː n aː	c143 v202 c105 v137	1447	hind1269
+657	Portuguese	give	dar	d a r	198	d a r	c143 v130 c151	1447	port1283
+658	Dutch	good	xuːt	x uː t	205	x uː t	c772 v019 c118	1035	dutc1256
+659	Swedish	good	guːd	g uː d	205	g uː d	c824 v019 c143	1035	swed1254
+660	English	good	ɡʊd	ɡ ʊ d	205	g ʊ d	c824 v056 c143	1035	stan1293
+661	German	good	ɡuːt	ɡ uː t	205	g uː t	c824 v019 c118	1035	stan1295
+662	Spanish	good	bweno	b w e n o	200	b w e n o	c254 c457 v200 c105 v042	1035	stan1288
+663	Danish	good	goˀ	g oˀ	205	g oˀ	c824 v048	1035	dani1285
+664	Bulgarian	good	dobɤr	d o b ɤ r	204	d o b ɤ r	c143 v042 c254 v084 c151	1035	bulg1262
+665	Greek	good	kalos	k a l o s	199	k a l o s	c831 v130 c548 v042 c087	1035	mode1248
+666	Armenian	good	lɑv	l ɑ v	202	l ɑ v	c548 v089 c446	1035	nucl1235
+667	Romanian	good	bun	b u n	200	b u n	c254 v027 c105	1035	roma1327
+668	Russian	good	xɐroʃɨj	x ɐ r o ʃ ɨ j	201	x ɐ r o ʃ ɨ j	c772 v119 c151 v042 c677 v116 c564	1035	russ1263
+669	Polish	good	dɔbrɨ	d ɔ b r ɨ	204	d ɔ b r ɨ	c143 v067 c254 c151 v116	1035	poli1260
+670	Norwegian	good	guː	g uː	205	g uː	c824 v019	1035	norw1258
+671	French	good	bɔ̃	b ɔ̃	200	b ɔ̃	c254 v066	1035	stan1290
+672	Czech	good	dobriː	d o b r iː	204	d o b r iː	c143 v042 c254 c151 v183	1035	czec1258
+673	Icelandic	good	kouːðʏr	k o uː ð ʏ r	205	k o uː ð ʏ r	c831 v042 v019 c415 v173 c151	1035	icel1247
+674	Italian	good	bwɔno	b w ɔ n o	200	b w ɔ n o	c254 c457 v067 c105 v042	1035	ital1282
+675	Hindi	good	əʧʧʰaː	ə ʧːʰ aː	203	ə tʃːʰ aː	v155 c845 v137	1035	hind1269
+676	Portuguese	good	bõ	b õ	200	b õ	c254 v038	1035	port1283
+677	Dutch	green	xruːn	x r uː n	209	x r uː n	c772 c151 v019 c105	1425	dutc1256
+678	Swedish	green	grøːn	g r øː n	209	g r øː n	c824 c151 v169 c105	1425	swed1254
+679	English	green	ɡriːn	ɡ r iː n	209	g r iː n	c824 c151 v183 c105	1425	stan1293
+680	German	green	ɡryːn	ɡ r yː n	209	g r yː n	c824 c151 v168 c105	1425	stan1295
+681	Spanish	green	beɾðe	b e ɾ ð e	208	b e ɾ ð e	c254 v200 c064 c415 v200	1425	stan1288
+682	Danish	green	gʁɶnˀ	g ʁ ɶ nˀ	209	g ʁ ɶ nˀ	c824 c733 v241 c094	1425	dani1285
+683	Bulgarian	green	zɛlɛn	z ɛ l ɛ n	207	z ɛ l ɛ n	c078 v229 c548 v229 c105	1425	bulg1262
+684	Greek	green	prasinos	p r a s i n o s	210	p r a s i n o s	c288 c151 v130 c087 v191 c105 v042 c087	1425	mode1248
+685	Armenian	green	kɑnɑʧʰ	k ɑ n ɑ ʧʰ	-206	k ɑ n ɑ tʃʰ	c831 v089 c105 v089 c655	1425	nucl1235
+686	Romanian	green	verde	v e r d e	208	v e r d e	c446 v200 c151 c143 v200	1425	roma1327
+687	Russian	green	zʲɪlʲonɨj	zʲ ɪ lʲ o n ɨ j	207	zʲ ɪ lʲ o n ɨ j	c082 v219 c540 v042 c105 v116 c564	1425	russ1263
+688	Polish	green	ʑɛlɔnɨ	ʑ ɛ l ɔ n ɨ	207	ʑ ɛ l ɔ n ɨ	c201 v229 c548 v067 c105 v116	1425	poli1260
+689	Norwegian	green	gɾœn	g ɾ œ n	209	g ɾ œ n	c824 c064 v178 c105	1425	norw1258
+690	French	green	vɛʁ	v ɛ ʁ	208	v ɛ ʁ	c446 v229 c733	1425	stan1290
+691	Czech	green	zɛlɛniː	z ɛ l ɛ n iː	207	z ɛ l ɛ n iː	c078 v229 c548 v229 c105 v183	1425	czec1258
+692	Icelandic	green	krait͡n	k r ai t͡n	209	k r ai n̥	c831 c151 d030 c093	1425	icel1247
+693	Italian	green	verde	v e r d e	208	v e r d e	c446 v200 c151 c143 v200	1425	ital1282
+694	Hindi	green	ɦəraː	ɦ ə r aː	207	ɦ ə r aː	c397 v155 c151 v137	1425	hind1269
+695	Portuguese	green	verdə	v e r d ə	208	v e r d ə	c446 v200 c151 c143 v155	1425	port1283
+696	Dutch	hair	haːr	h aː r	217	h aː r	c401 v137 c151	1040	dutc1256
+697	Swedish	hair	hoːr	h oː r	217	h oː r	c401 v035 c151	1040	swed1254
+698	English	hair	hɛər	h ɛ ə r	217	h ɛ ə r	c401 v229 v155 c151	1040	stan1293
+699	German	hair	haːr	h aː r	217	h aː r	c401 v137 c151	1040	stan1295
+700	Spanish	hair	kaβeʎo	k a β e ʎ o	216	k a β e ʎ o	c831 v130 c225 v200 c582 v042	1040	stan1288
+701	Danish	hair	hɒˀ	h ɒˀ	217	h ɒˀ	c401 v249	1040	dani1285
+702	Bulgarian	hair	kɔsəm	k ɔ s ə m	215	k ɔ s ə m	c831 v067 c087 v155 c239	1040	bulg1262
+703	Greek	hair	trixa	t r i x a	214	t r i x a	c118 c151 v191 c772 v130	1040	mode1248
+704	Armenian	hair	mɑz	m ɑ z	-211	m ɑ z	c239 v089 c078	1040	nucl1235
+705	Romanian	hair	pər	p ə r	213	p ə r	c288 v155 c151	1040	roma1327
+706	Russian	hair	voləsɨ	v o l ə s ɨ	212	v o l ə s ɨ	c446 v042 c548 v155 c087 v116	1040	russ1263
+707	Polish	hair	vwɔsɨ	v w ɔ s ɨ	212	v w ɔ s ɨ	c446 c457 v067 c087 v116	1040	poli1260
+708	Norwegian	hair	hoːɾ	h oː ɾ	217	h oː ɾ	c401 v035 c064	1040	norw1258
+709	French	hair	ʃəvø	ʃ ə v ø	216	ʃ ə v ø	c677 v155 c446 v171	1040	stan1290
+710	Czech	hair	vlasɪ	v l a s ɪ	212	v l a s ɪ	c446 c548 v130 c087 v219	1040	czec1258
+711	Icelandic	hair	hauːr	h a uː r	217	h a uː r	c401 v130 v019 c151	1040	icel1247
+712	Italian	hair	kapello	k a p e lː o	216	k a p e lː o	c831 v130 c288 v200 c539 v042	1040	ital1282
+713	Hindi	hair	baːl	b aː l	212	b aː l	c254 v137 c548	1040	hind1269
+714	Portuguese	hair	kɐbelu	k ɐ b e l u	216	k ɐ b e l u	c831 v119 c254 v200 c548 v027	1040	port1283
+715	Dutch	hand	hɑnt	h ɑ n t	218	h ɑ n t	c401 v089 c105 c118	1277	dutc1256
+716	Swedish	hand	hanːd	h a nː d	218	h a nː d	c401 v130 c104 c143	1277	swed1254
+717	English	hand	hænd	h æ n d	218	h æ n d	c401 v198 c105 c143	1277	stan1293
+718	German	hand	hant	h a n t	218	h a n t	c401 v130 c105 c118	1277	stan1295
+719	Spanish	hand	mano	m a n o	221	m a n o	c239 v130 c105 v042	1277	stan1288
+720	Danish	hand	hʌnˀ	h ʌ nˀ	218	h ʌ nˀ	c401 v097 c094	1277	dani1285
+721	Bulgarian	hand	rəka	r ə k a	220	r ə k a	c151 v155 c831 v130	1277	bulg1262
+722	Greek	hand	çeri	ç e r i	219	ç e r i	c577 v200 c151 v191	1277	mode1248
+723	Armenian	hand	ʣɛrkʰ	ʣ ɛ r kʰ	219	dz ɛ r kʰ	c020 v229 c151 c813	1277	nucl1235
+724	Romanian	hand	mɨnə	m ɨ n ə	221	m ɨ n ə	c239 v116 c105 v155	1277	roma1327
+725	Russian	hand	ruka	r u k a	220	r u k a	c151 v027 c831 v130	1277	russ1263
+726	Polish	hand	rɛ̃ka	r ɛ̃ k a	220	r ɛ̃ k a	c151 v231 c831 v130	1277	poli1260
+727	Norwegian	hand	hɔn	h ɔ n	-218	h ɔ n	c401 v067 c105	1277	norw1258
+728	French	hand	mɛ̃	m ɛ̃	221	m ɛ̃	c239 v231	1277	stan1290
+729	Czech	hand	rʊka	r ʊ k a	220	r ʊ k a	c151 v056 c831 v130	1277	czec1258
+730	Icelandic	hand	hœnt	h œ n t	218	h œ n t	c401 v178 c105 c118	1277	icel1247
+731	Italian	hand	mano	m a n o	221	m a n o	c239 v130 c105 v042	1277	ital1282
+732	Hindi	hand	haːtʰ	h aː tʰ	219	h aː tʰ	c401 v137 c136	1277	hind1269
+733	Portuguese	hand	mɐ̃w	m ɐ̃ w	221	m ɐ̃ w	c239 v120 c457	1277	port1283
+734	Dutch	head	hoːft	h oː f t	223	h oː f t	c401 v035 c447 c118	1256	dutc1256
+735	Swedish	head	huːvud	h uː v u d	223	h uː v u d	c401 v019 c446 v027 c143	1256	swed1254
+736	English	head	hɛd	h ɛ d	223	h ɛ d	c401 v229 c143	1256	stan1293
+737	German	head	kɔp͡f	k ɔ p͡f	-224	k ɔ pf	c831 v067 c420	1256	stan1295
+738	Spanish	head	kaβeθa	k a β e θ a	227	k a β e θ a	c831 v130 c225 v200 c413 v130	1256	stan1288
+739	Danish	head	hoːəð	h oː ə ð	223	h oː ə ð	c401 v035 v155 c415	1256	dani1285
+740	Bulgarian	head	ɡləva	ɡ l ə v a	228	g l ə v a	c824 c548 v155 c446 v130	1256	bulg1262
+741	Greek	head	cefali	c e f a l i	225	c e f a l i	c600 v200 c447 v130 c548 v191	1256	mode1248
+742	Armenian	head	gəluχ	g ə l u χ	228	g ə l u χ	c824 v155 c548 v027 c742	1256	nucl1235
+743	Romanian	head	kap	k a p	227	k a p	c831 v130 c288	1256	roma1327
+744	Russian	head	ɡəlɐva	ɡ ə l ɐ v a	228	g ə l ɐ v a	c824 v155 c548 v119 c446 v130	1256	russ1263
+745	Polish	head	ɡwɔva	ɡ w ɔ v a	228	g w ɔ v a	c824 c457 v067 c446 v130	1256	poli1260
+746	Norwegian	head	huːdə	h uː d ə	223	h uː d ə	c401 v019 c143 v155	1256	norw1258
+747	French	head	tɛt	t ɛ t	222	t ɛ t	c118 v229 c118	1256	stan1290
+748	Czech	head	ɦlava	ɦ l a v a	228	ɦ l a v a	c397 c548 v130 c446 v130	1256	czec1258
+749	Icelandic	head	hœvʏð	h œ v ʏ ð	223	h œ v ʏ ð	c401 v178 c446 v173 c415	1256	icel1247
+750	Italian	head	tɛsta	t ɛ s t a	222	t ɛ s t a	c118 v229 c087 c118 v130	1256	ital1282
+751	Hindi	head	sər	s ə r	226	s ə r	c087 v155 c151	1256	hind1269
+752	Portuguese	head	kɐbesɐ	k ɐ b e s ɐ	227	k ɐ b e s ɐ	c831 v119 c254 v200 c087 v119	1256	port1283
+753	Dutch	hear	hoːrə	h oː r ə	230	h oː r ə	c401 v035 c151 v155	1408	dutc1256
+754	Swedish	hear	høːra	h øː r a	230	h øː r a	c401 v169 c151 v130	1408	swed1254
+755	English	hear	hɪər	h ɪ ə r	230	h ɪ ə r	c401 v219 v155 c151	1408	stan1293
+756	German	hear	høːrən	h øː r ə n	230	h øː r ə n	c401 v169 c151 v155 c105	1408	stan1295
+757	Spanish	hear	o.ir	o i r	229	o i r	v042 v191 c151	1408	stan1288
+758	Danish	hear	høːʌ	h øː ʌ	230	h øː ʌ	c401 v169 v097	1408	dani1285
+759	Bulgarian	hear	ʧuvəm	ʧ u v ə m	230	tʃ u v ə m	c645 v027 c446 v155 c239	1408	bulg1262
+760	Greek	hear	akuo	a k uo	230	a k uo	v130 c831 d003	1408	mode1248
+761	Armenian	hear	ləsɛl	l ə s ɛ l	231	l ə s ɛ l	c548 v155 c087 v229 c548	1408	nucl1235
+762	Romanian	hear	awzi	a w z i	229	a w z i	v130 c457 c078 v191	1408	roma1327
+763	Russian	hear	sluʃatʲ	s l u ʃ a tʲ	231	s l u ʃ a tʲ	c087 c548 v027 c677 v130 c113	1408	russ1263
+764	Polish	hear	swɨʃɛʨ	s w ɨ ʃ ɛ ʨ	231	s w ɨ ʃ ɛ tɕ	c087 c457 v116 c677 v229 c198	1408	poli1260
+765	Norwegian	hear	høːɾə	h øː ɾ ə	230	h øː ɾ ə	c401 v169 c064 v155	1408	norw1258
+766	French	hear	ɑ̃tɑ̃dʁ	ɑ̃ t ɑ̃ d ʁ	232	ɑ̃ t ɑ̃ d ʁ	v088 c118 v088 c143 c733	1408	stan1290
+767	Czech	hear	slɪʃɛt	s l ɪ ʃ ɛ t	231	s l ɪ ʃ ɛ t	c087 c548 v219 c677 v229 c118	1408	czec1258
+768	Icelandic	hear	heiːra	h e iː r a	230	h e iː r a	c401 v200 v183 c151 v130	1408	icel1247
+769	Italian	hear	udire	u d i r e	229	u d i r e	v027 c143 v191 c151 v200	1408	ital1282
+770	Hindi	hear	sʊnnaː	s ʊ nː aː	231	s ʊ nː aː	c087 v056 c104 v137	1408	hind1269
+771	Portuguese	hear	ovir	o v i r	229	o v i r	v042 c446 v191 c151	1408	port1283
+772	Dutch	heart	hɑrt	h ɑ r t	235	h ɑ r t	c401 v089 c151 c118	1223	dutc1256
+773	Swedish	heart	jɛrta	j ɛ r t a	235	j ɛ r t a	c564 v229 c151 c118 v130	1223	swed1254
+774	English	heart	hɑːrt	h ɑː r t	235	h ɑː r t	c401 v091 c151 c118	1223	stan1293
+775	German	heart	hɛrt͡s	h ɛ r t͡s	235	h ɛ r ts	c401 v229 c151 c015	1223	stan1295
+776	Spanish	heart	koraθon	k o r a θ o n	235	k o r a θ o n	c831 v042 c151 v130 c413 v042 c105	1223	stan1288
+777	Danish	heart	jæʁdə	j æ ʁ d ə	235	j æ ʁ d ə	c564 v198 c733 c143 v155	1223	dani1285
+778	Bulgarian	heart	sərʦɛ	s ə r ʦ ɛ	235	s ə r ts ɛ	c087 v155 c151 c015 v229	1223	bulg1262
+779	Greek	heart	karðʝa	k a r ð ʝ a	235	k a r ð ʝ a	c831 v130 c151 c415 c574 v130	1223	mode1248
+780	Armenian	heart	siɾt	s i ɾ t	235	s i ɾ t	c087 v191 c064 c118	1223	nucl1235
+781	Romanian	heart	inimə	i n i m ə	234	i n i m ə	v191 c105 v191 c239 v155	1223	roma1327
+782	Russian	heart	sʲɛrʦə	sʲ ɛ r ʦ ə	235	sʲ ɛ r ts ə	c088 v229 c151 c015 v155	1223	russ1263
+783	Polish	heart	sɛrʦɛ	s ɛ r ʦ ɛ	235	s ɛ r ts ɛ	c087 v229 c151 c015 v229	1223	poli1260
+784	Norwegian	heart	jæʈə	j æ ʈ ə	-235	j æ ʈ ə	c564 v198 c711 v155	1223	norw1258
+785	French	heart	kœʁ	k œ ʁ	235	k œ ʁ	c831 v178 c733	1223	stan1290
+786	Czech	heart	sr̩ʦɛ	s r̩ ʦ ɛ	235	s r̩ ts ɛ	c087 c152 c015 v229	1223	czec1258
+787	Icelandic	heart	çar̥ta	ç a r̥ t a	235	ç a r̥ t a	c577 v130 c153 c118 v130	1223	icel1247
+788	Italian	heart	kwɔre	k w ɔ r e	235	k w ɔ r e	c831 c457 v067 c151 v200	1223	ital1282
+789	Hindi	heart	dɪl	d ɪ l	-233	d ɪ l	c143 v219 c548	1223	hind1269
+790	Portuguese	heart	kurɐsõ	k u r ɐ s õ	235	k u r ɐ s õ	c831 v027 c151 v119 c087 v038	1223	port1283
+1985	Dutch	heavy	zʋaːr	z ʋ aː r	564	z ʋ aː r	c078 c424 v137 c151	1210	dutc1256
+1986	Swedish	heavy	svoːr	s v oː r	564	s v oː r	c087 c446 v035 c151	1210	swed1254
+1987	English	heavy	hɛvɪ	h ɛ v ɪ	562	h ɛ v ɪ	c401 v229 c446 v219	1210	stan1293
+1988	German	heavy	ʃveːr	ʃ v eː r	564	ʃ v eː r	c677 c446 v202 c151	1210	stan1295
+1989	Spanish	heavy	pesaðo	p e s a ð o	560	p e s a ð o	c288 v200 c087 v130 c415 v042	1210	stan1288
+1990	Danish	heavy	tɔŋˀ	t ɔ ŋˀ	563	t ɔ ŋˀ	c118 v067 c794	1210	dani1285
+1991	Bulgarian	heavy	tɛʒək	t ɛ ʒ ə k	563	t ɛ ʒ ə k	c118 v229 c679 v155 c831	1210	bulg1262
+1992	Greek	heavy	varis	v a r i s	565	v a r i s	c446 v130 c151 v191 c087	1210	mode1248
+1993	Romanian	heavy	grew	g r e w	565	g r e w	c824 c151 v200 c457	1210	roma1327
+1994	Russian	heavy	tʲɪʒolɨj	tʲ ɪ ʒ o l ɨ j	563	tʲ ɪ ʒ o l ɨ j	c113 v219 c679 v042 c548 v116 c564	1210	russ1263
+1995	Polish	heavy	ʨɛ̃ʃki	ʨ ɛ̃ ʃ k i	563	tɕ ɛ̃ ʃ k i	c198 v231 c677 c831 v191	1210	poli1260
+1996	Norwegian	heavy	tuŋ	t u ŋ	563	t u ŋ	c118 v027 c795	1210	norw1258
+1997	French	heavy	luʁ	l u ʁ	561	l u ʁ	c548 v027 c733	1210	stan1290
+1998	Czech	heavy	tʲɛʃkiː	tʲ ɛ ʃ k iː	563	tʲ ɛ ʃ k iː	c113 v229 c677 c831 v183	1210	czec1258
+1999	Icelandic	heavy	θuŋkʏr	θ u ŋ k ʏ r	563	θ u ŋ k ʏ r	c413 v027 c795 c831 v173 c151	1210	icel1247
+2000	Italian	heavy	pesante	p e s a n t e	560	p e s a n t e	c288 v200 c087 v130 c105 c118 v200	1210	ital1282
+2001	Hindi	heavy	bʱaːriː	b̤ aː r iː	566	b̤ aː r iː	c278 v137 c151 v183	1210	hind1269
+2002	Portuguese	heavy	pəzadu	p ə z a d u	560	p ə z a d u	c288 v155 c078 v130 c143 v027	1210	port1283
+2003	Swedish	heavy	tuŋː	t u ŋː	563	t u ŋː	c118 v027 c798	1210	swed1254
+2004	Danish	heavy	svɛˀʁ	s v ɛˀ ʁ	564	s v ɛˀ ʁ	c087 c446 v228 c733	1210	dani1285
+791	Dutch	horn	hoːrn	h oː r n	238	h oː r n	c401 v035 c151 c105	1393	dutc1256
+792	Swedish	horn	hoːrn	h oː r n	238	h oː r n	c401 v035 c151 c105	1393	swed1254
+793	English	horn	hɔːrn	h ɔː r n	238	h ɔː r n	c401 v065 c151 c105	1393	stan1293
+794	German	horn	hɔrn	h ɔ r n	238	h ɔ r n	c401 v067 c151 c105	1393	stan1295
+795	Spanish	horn	kweɾno	k w e ɾ n o	238	k w e ɾ n o	c831 c457 v200 c064 c105 v042	1393	stan1288
+796	Danish	horn	hoʁˀn	h o ʁˀ n	238	h o ʁˀ n	c401 v042 c838 c105	1393	dani1285
+797	Bulgarian	horn	rok	r o k	237	r o k	c151 v042 c831	1393	bulg1262
+798	Greek	horn	cerato	c e r a t o	238	c e r a t o	c600 v200 c151 v130 c118 v042	1393	mode1248
+799	Armenian	horn	poz	p o z	-236	p o z	c288 v042 c078	1393	nucl1235
+800	Romanian	horn	korn	k o r n	238	k o r n	c831 v042 c151 c105	1393	roma1327
+801	Russian	horn	rok	r o k	237	r o k	c151 v042 c831	1393	russ1263
+802	Polish	horn	ruk	r u k	237	r u k	c151 v027 c831	1393	poli1260
+803	Norwegian	horn	huːɳ	h uː ɳ	238	h uː ɳ	c401 v019 c705	1393	norw1258
+804	French	horn	kɔʁn	k ɔ ʁ n	238	k ɔ ʁ n	c831 v067 c733 c105	1393	stan1290
+805	Czech	horn	rox	r o x	237	r o x	c151 v042 c772	1393	czec1258
+806	Icelandic	horn	hɔrt͡n	h ɔ r t͡n	238	h ɔ r n̥	c401 v067 c151 c093	1393	icel1247
+807	Italian	horn	kɔrno	k ɔ r n o	238	k ɔ r n o	c831 v067 c151 c105 v042	1393	ital1282
+808	Hindi	horn	sĩːg	s ĩː g	238	s ĩː g	c087 v181 c824	1393	hind1269
+809	Portuguese	horn	kornu	k o r n u	238	k o r n u	c831 v042 c151 c105 v027	1393	port1283
+829	Dutch	kill	doːdə	d oː d ə	242	d oː d ə	c143 v035 c143 v155	1417	dutc1256
+830	Swedish	kill	døːda	d øː d a	242	d øː d a	c143 v169 c143 v130	1417	swed1254
+831	English	kill	kɪl	k ɪ l	245	k ɪ l	c831 v219 c548	1417	stan1293
+832	German	kill	tøːtən	t øː t ə n	242	t øː t ə n	c118 v169 c118 v155 c105	1417	stan1295
+833	Spanish	kill	mataɾ	m a t a ɾ	249	m a t a ɾ	c239 v130 c118 v130 c064	1417	stan1288
+834	Danish	kill	dʁɛːbə	d ʁ ɛː b ə	248	d ʁ ɛː b ə	c143 c733 v225 c254 v155	1417	dani1285
+835	Bulgarian	kill	ubivəm	u b i v ə m	246	u b i v ə m	v027 c254 v191 c446 v155 c239	1417	bulg1262
+836	Greek	kill	skotono	s k o t o n o	244	s k o t o n o	c087 c831 v042 c118 v042 c105 v042	1417	mode1248
+837	Armenian	kill	spɑnɛl	s p ɑ n ɛ l	241	s p ɑ n ɛ l	c087 c288 v089 c105 v229 c548	1417	nucl1235
+838	Romanian	kill	uʧide	u ʧ i d e	250	u tʃ i d e	v027 c645 v191 c143 v200	1417	roma1327
+839	Russian	kill	ubʲitʲ	u bʲ i tʲ	246	u bʲ i tʲ	v027 c263 v191 c113	1417	russ1263
+840	Polish	kill	zabijaʨ	z a b i j a ʨ	246	z a b i j a tɕ	c078 v130 c254 v191 c564 v130 c198	1417	poli1260
+841	Norwegian	kill	dɾeːpə	d ɾ eː p ə	248	d ɾ eː p ə	c143 c064 v202 c288 v155	1417	norw1258
+842	French	kill	tɥe	t ɥ e	243	t ɥ e	c118 c453 v200	1417	stan1290
+843	Czech	kill	zabiːjɛt	z a b iː j ɛ t	246	z a b iː j ɛ t	c078 v130 c254 v183 c564 v229 c118	1417	czec1258
+844	Icelandic	kill	trɛːpa	t r ɛː p a	248	t r ɛː p a	c118 c151 v225 c288 v130	1417	icel1247
+845	Italian	kill	uʧːidere	u tːʃ i d e r e	250	u tːʃ i d e r e	v027 c196 v191 c143 v200 c151 v200	1417	ital1282
+846	Hindi	kill	maːrnaː	m aː r n aː	247	m aː r n aː	c239 v137 c151 c105 v137	1417	hind1269
+847	Portuguese	kill	mɐtar	m ɐ t a r	249	m ɐ t a r	c239 v119 c118 v130 c151	1417	port1283
+848	Swedish	kill	drɛpa	d r ɛ p a	248	d r ɛ p a	c143 c151 v229 c288 v130	1417	swed1254
+849	Dutch	knee	kniː	k n iː	254	k n iː	c831 c105 v183	1371	dutc1256
+850	Swedish	knee	knɛː	k n ɛː	254	k n ɛː	c831 c105 v225	1371	swed1254
+851	English	knee	niː	n iː	254	n iː	c105 v183	1371	stan1293
+852	German	knee	kniː	k n iː	254	k n iː	c831 c105 v183	1371	stan1295
+853	Spanish	knee	roðiʎa	r o ð i ʎ a	251	r o ð i ʎ a	c151 v042 c415 v191 c582 v130	1371	stan1288
+854	Danish	knee	knɛˀ	k n ɛˀ	254	k n ɛˀ	c831 c105 v228	1371	dani1285
+855	Bulgarian	knee	kolʲano	k o lʲ a n o	252	k o lʲ a n o	c831 v042 c540 v130 c105 v042	1371	bulg1262
+856	Greek	knee	ɣonato	ɣ o n a t o	254	ɣ o n a t o	c774 v042 c105 v130 c118 v042	1371	mode1248
+857	Armenian	knee	ʦunk	ʦ u n k	254	ts u n k	c015 v027 c105 c831	1371	nucl1235
+858	Romanian	knee	ʤenunkʲ	ʤ e n u n kʲ	254	dʒ e n u n kʲ	c649 v200 c105 v027 c105 c830	1371	roma1327
+859	Russian	knee	kɐlʲenə	k ɐ lʲ e n ə	252	k ɐ lʲ e n ə	c831 v119 c540 v200 c105 v155	1371	russ1263
+860	Polish	knee	kɔlanɔ	k ɔ l a n ɔ	252	k ɔ l a n ɔ	c831 v067 c548 v130 c105 v067	1371	poli1260
+861	Norwegian	knee	kneː	k n eː	254	k n eː	c831 c105 v202	1371	norw1258
+862	French	knee	ʒənu	ʒ ə n u	254	ʒ ə n u	c679 v155 c105 v027	1371	stan1290
+863	Czech	knee	kolɛno	k o l ɛ n o	252	k o l ɛ n o	c831 v042 c548 v229 c105 v042	1371	czec1258
+864	Icelandic	knee	kʰniɛː	kʰ n i ɛː	254	kʰ n i ɛː	c813 c105 v191 v225	1371	icel1247
+865	Italian	knee	ʤinɔkkjo	ʤ i n ɔ kː j o	254	dʒ i n ɔ kː j o	c649 v191 c105 v067 c825 c564 v042	1371	ital1282
+866	Hindi	knee	gʱʊʈnaː	g̤ ʊ ʈ n aː	-253	g̤ ʊ ʈ n aː	c828 v056 c711 c105 v137	1371	hind1269
+867	Portuguese	knee	ʒuɐʎu	ʒ w ɐ ʎ u	254	ʒ w ɐ ʎ u	c679 c457 v119 c582 v027	1371	port1283
+868	Dutch	know	ʋeːtə	ʋ eː t ə	256	ʋ eː t ə	c424 v202 c118 v155	1410	dutc1256
+869	Swedish	know	ɕɛnna	ɕ ɛ nː a	257	ɕ ɛ nː a	c202 v229 c104 v130	1410	swed1254
+870	English	know	nəʊ	n əʊ	257	n əu	c105 d029	1410	stan1293
+871	German	know	vɪsən	v ɪ s ə n	256	v ɪ s ə n	c446 v219 c087 v155 c105	1410	stan1295
+872	Spanish	know	konoθer	k o n o θ e r	257	k o n o θ e r	c831 v042 c105 v042 c413 v200 c151	1410	stan1288
+873	Danish	know	viːðə	v iː ð ə	256	v iː ð ə	c446 v183 c415 v155	1410	dani1285
+874	Bulgarian	know	znajə	z n a j ə	257	z n a j ə	c078 c105 v130 c564 v155	1410	bulg1262
+875	Greek	know	k͡sero	k͡s e r o	258	ks e r o	c844 v200 c151 v042	1410	mode1248
+876	Armenian	know	gitɛnɑl	g i t ɛ n ɑ l	256	g i t ɛ n ɑ l	c824 v191 c118 v229 c105 v089 c548	1410	nucl1235
+877	Romanian	know	ʃti	ʃ t i	259	ʃ t i	c677 c118 v191	1410	roma1327
+878	Russian	know	znatʲ	z n a tʲ	257	z n a tʲ	c078 c105 v130 c113	1410	russ1263
+879	Polish	know	znaʨ	z n a ʨ	257	z n a tɕ	c078 c105 v130 c198	1410	poli1260
+880	Norwegian	know	ʋiːtə	ʋ iː t ə	256	ʋ iː t ə	c424 v183 c118 v155	1410	norw1258
+881	French	know	savwaʁ	s a v w a ʁ	255	s a v w a ʁ	c087 v130 c446 c457 v130 c733	1410	stan1290
+882	Czech	know	znaːt	z n aː t	257	z n aː t	c078 c105 v137 c118	1410	czec1258
+883	Icelandic	know	vɪːta	v ɪː t a	256	v ɪː t a	c446 v221 c118 v130	1410	icel1247
+884	Italian	know	konoʃʃere	k o n o ʃː e r e	257	k o n o ʃː e r e	c831 v042 c105 v042 c672 v200 c151 v200	1410	ital1282
+885	Hindi	know	ʤaːnnaː	ʤ aː nː aː	257	dʒ aː nː aː	c649 v137 c104 v137	1410	hind1269
+886	Portuguese	know	kuɲəser	k u ɲ ə s e r	257	k u ɲ ə s e r	c831 v027 c589 v155 c087 v200 c151	1410	port1283
+887	Dutch	know	kɛnə	k ɛ n ə	257	k ɛ n ə	c831 v229 c105 v155	1410	dutc1256
+888	Swedish	know	veta	v e t a	256	v e t a	c446 v200 c118 v130	1410	swed1254
+889	German	know	kɛnən	k ɛ n ə n	257	k ɛ n ə n	c831 v229 c105 v155 c105	1410	stan1295
+890	Spanish	know	saβeɾ	s a β e ɾ	255	s a β e ɾ	c087 v130 c225 v200 c064	1410	stan1288
+891	Danish	know	kɛnə	k ɛ n ə	257	k ɛ n ə	c831 v229 c105 v155	1410	dani1285
+892	Greek	know	ɣnorizo	ɣ n o r i z o	257	ɣ n o r i z o	c774 c105 v042 c151 v191 c078 v042	1410	mode1248
+893	Romanian	know	kunwaʃte	k u n w a ʃ t e	257	k u n w a ʃ t e	c831 v027 c105 c457 v130 c677 c118 v200	1410	roma1327
+894	Polish	know	vʲɛʥɛʨ	vʲ ɛ ʥ ɛ ʨ	256	vʲ ɛ dʑ ɛ tɕ	c429 v229 c195 v229 c198	1410	poli1260
+895	Norwegian	know	çenə	ç e n ə	257	ç e n ə	c577 v200 c105 v155	1410	norw1258
+896	French	know	kɔnɛtʁ	k ɔ n ɛ t ʁ	257	k ɔ n ɛ t ʁ	c831 v067 c105 v229 c118 c733	1410	stan1290
+897	Czech	know	vʲɛdʲɛt	vʲ ɛ dʲ ɛ t	256	vʲ ɛ dʲ ɛ t	c429 v229 c127 v229 c118	1410	czec1258
+898	Italian	know	sapere	s a p e r e	255	s a p e r e	c087 v130 c288 v200 c151 v200	1410	ital1282
+899	Portuguese	know	sɐber	s ɐ b e r	255	s ɐ b e r	c087 v119 c254 v200 c151	1410	port1283
+900	Dutch	leaf	blɑt	b l ɑ t	262	b l ɑ t	c254 c548 v089 c118	628	dutc1256
+901	Swedish	leaf	blad	b l a d	262	b l a d	c254 c548 v130 c143	628	swed1254
+902	English	leaf	liːf	l iː f	264	l iː f	c548 v183 c447	628	stan1293
+903	German	leaf	blat	b l a t	262	b l a t	c254 c548 v130 c118	628	stan1295
+904	Spanish	leaf	oxa	o x a	262	o x a	v042 c772 v130	628	stan1288
+905	Danish	leaf	blað	b l a ð	262	b l a ð	c254 c548 v130 c415	628	dani1285
+906	Bulgarian	leaf	list	l i s t	263	l i s t	c548 v191 c087 c118	628	bulg1262
+907	Greek	leaf	filo	f i l o	262	f i l o	c447 v191 c548 v042	628	mode1248
+908	Armenian	leaf	tɛɾɛv	t ɛ ɾ ɛ v	260	t ɛ ɾ ɛ v	c118 v229 c064 v229 c446	628	nucl1235
+909	Romanian	leaf	fwaje	f w a j e	262	f w a j e	c447 c457 v130 c564 v200	628	roma1327
+910	Russian	leaf	lʲist	lʲ i s t	263	lʲ i s t	c540 v191 c087 c118	628	russ1263
+911	Polish	leaf	liɕʨ	l i ɕ ʨ	263	l i ɕ tɕ	c548 v191 c202 c198	628	poli1260
+912	Norwegian	leaf	blɑː	b l ɑː	-262	b l ɑː	c254 c548 v091	628	norw1258
+913	French	leaf	fœj	f œ j	262	f œ j	c447 v178 c564	628	stan1290
+914	Czech	leaf	lɪst	l ɪ s t	263	l ɪ s t	c548 v219 c087 c118	628	czec1258
+915	Icelandic	leaf	plaːð	p l aː ð	262	p l aː ð	c288 c548 v137 c415	628	icel1247
+916	Italian	leaf	fɔʎʎa	f ɔ ʎː a	262	f ɔ ʎː a	c447 v067 c581 v130	628	ital1282
+917	Hindi	leaf	pəttaː	p ə tː aː	261	p ə tː aː	c288 v155 c128 v137	628	hind1269
+918	Portuguese	leaf	foʎɐ	f o ʎ ɐ	262	f o ʎ ɐ	c447 v042 c582 v119	628	port1283
+919	Swedish	leaf	blad	b l a d	262	b l a d	c254 c548 v130 c143	628	swed1254
+920	Norwegian	leaf	løːʋ	l øː ʋ	264	l øː ʋ	c548 v169 c424	628	norw1258
+921	Icelandic	leaf	løyːv	l ø yː v	264	l ø yː v	c548 v171 v168 c446	628	icel1247
+922	Dutch	lie	lɪɣə	l ɪ ɣ ə	269	l ɪ ɣ ə	c548 v219 c774 v155	1411	dutc1256
+923	Swedish	lie	ligːa	l i gː a	269	l i gː a	c548 v191 c819 v130	1411	swed1254
+924	English	lie	laɪ	l aɪ	269	l aɪ	c548 d032	1411	stan1293
+925	German	lie	liːɡən	l iː ɡ ə n	269	l iː g ə n	c548 v183 c824 v155 c105	1411	stan1295
+926	Spanish	lie	kostaðo	k o s t a ð o	270	k o s t a ð o	c831 v042 c087 c118 v130 c415 v042	1411	stan1288
+927	Danish	lie	legə	l e g ə	269	l e g ə	c548 v200 c824 v155	1411	dani1285
+928	Bulgarian	lie	lɛʒə	l ɛ ʒ ə	269	l ɛ ʒ ə	c548 v229 c679 v155	1411	bulg1262
+929	Armenian	lie	pɑrkɛl	p ɑ r k ɛ l	-266	p ɑ r k ɛ l	c288 v089 c151 c831 v229 c548	1411	nucl1235
+930	Romanian	lie	kulka	k u l k a	265	k u l k a	c831 v027 c548 c831 v130	1411	roma1327
+931	Russian	lie	lʲɪʒatʲ	lʲ ɪ ʒ a tʲ	269	lʲ ɪ ʒ a tʲ	c540 v219 c679 v130 c113	1411	russ1263
+932	Polish	lie	lɛʒɛʨ	l ɛ ʒ ɛ ʨ	269	l ɛ ʒ ɛ tɕ	c548 v229 c679 v229 c198	1411	poli1260
+933	Norwegian	lie	ligə	l i g ə	269	l i g ə	c548 v191 c824 v155	1411	norw1258
+934	French	lie	kuʃe	k u ʃ e	265	k u ʃ e	c831 v027 c677 v200	1411	stan1290
+935	Czech	lie	lɛʒɛt	l ɛ ʒ ɛ t	269	l ɛ ʒ ɛ t	c548 v229 c679 v229 c118	1411	czec1258
+936	Icelandic	lie	lɪcːa	l ɪ cː a	269	l ɪ cː a	c548 v219 c592 v130	1411	icel1247
+937	Italian	lie	ʤaʧere	ʤ a ʧ e r e	268	dʒ a tʃ e r e	c649 v130 c645 v200 c151 v200	1411	ital1282
+938	Hindi	lie	leʈnaː	l e ʈ n aː	267	l e ʈ n aː	c548 v200 c711 c105 v137	1411	hind1269
+939	Portuguese	lie	dɐjtar	d ɐ j t a r	268	d ɐ j t a r	c143 v119 c564 c118 v130 c151	1411	port1283
+940	Dutch	liver	leːvər	l eː v ə r	273	l eː v ə r	c548 v202 c446 v155 c151	1224	dutc1256
+941	Swedish	liver	leːver	l eː v e r	273	l eː v e r	c548 v202 c446 v200 c151	1224	swed1254
+942	English	liver	lɪvər	l ɪ v ə r	273	l ɪ v ə r	c548 v219 c446 v155 c151	1224	stan1293
+943	German	liver	leːbər	l eː b ə r	273	l eː b ə r	c548 v202 c254 v155 c151	1224	stan1295
+944	Spanish	liver	iɣaðo	i ɣ a ð o	271	i ɣ a ð o	v191 c774 v130 c415 v042	1224	stan1288
+945	Danish	liver	lewˀʌ	l e wˀ ʌ	273	l e wˀ ʌ	c548 v200 c463 v097	1224	dani1285
+946	Bulgarian	liver	drop	d r o p	275	d r o p	c143 c151 v042 c288	1224	bulg1262
+947	Greek	liver	sikoti	s i k o t i	-274	s i k o t i	c087 v191 c831 v042 c118 v191	1224	mode1248
+948	Armenian	liver	lɪɑrtʰ	l ɪ a r tʰ	273	l ɪ a r tʰ	c548 v219 v130 c151 c136	1224	nucl1235
+949	Romanian	liver	fikat	f i k a t	271	f i k a t	c447 v191 c831 v130 c118	1224	roma1327
+950	Russian	liver	pʲeʧʲɪnʲ	pʲ e ʧʲ ɪ nʲ	278	pʲ e tʃʲ ɪ nʲ	c270 v200 c658 v219 c099	1224	russ1263
+951	Polish	liver	vɔ̃trɔba	v ɔ̃ t r ɔ b a	277	v ɔ̃ t r ɔ b a	c446 v066 c118 c151 v067 c254 v130	1224	poli1260
+952	Norwegian	liver	leʋəɾ	l e ʋ ə ɾ	-273	l e ʋ ə ɾ	c548 v200 c424 v155 c064	1224	norw1258
+953	French	liver	fwɑ	f w ɑ	271	f w ɑ	c447 c457 v089	1224	stan1290
+954	Czech	liver	jaːtra	j aː t r a	272	j aː t r a	c564 v137 c118 c151 v130	1224	czec1258
+955	Icelandic	liver	lɪːvʏr	l ɪː v ʏ r	273	l ɪː v ʏ r	c548 v221 c446 v173 c151	1224	icel1247
+956	Italian	liver	feɡato	f e ɡ a t o	271	f e g a t o	c447 v200 c824 v130 c118 v042	1224	ital1282
+957	Hindi	liver	kəleːʤaː	k ə l eː ʤ aː	276	k ə l eː dʒ aː	c831 v155 c548 v202 c649 v137	1224	hind1269
+958	Portuguese	liver	figɐdu	f i g ɐ d u	271	f i g ɐ d u	c447 v191 c824 v119 c143 v027	1224	port1283
+959	Dutch	long	lɑŋ	l ɑ ŋ	281	l ɑ ŋ	c548 v089 c795	1203	dutc1256
+960	Swedish	long	loŋː	l o ŋː	281	l o ŋː	c548 v042 c798	1203	swed1254
+961	English	long	lɔŋ	l ɔ ŋ	281	l ɔ ŋ	c548 v067 c795	1203	stan1293
+962	German	long	laŋ	l a ŋ	281	l a ŋ	c548 v130 c795	1203	stan1295
+963	Spanish	long	laɾɣo	l a ɾ ɣ o	283	l a ɾ ɣ o	c548 v130 c064 c774 v042	1203	stan1288
+964	Danish	long	lɑŋˀ	l ɑ ŋˀ	281	l ɑ ŋˀ	c548 v089 c794	1203	dani1285
+965	Bulgarian	long	dɤlək	d ɤ l ə k	281	d ɤ l ə k	c143 v084 c548 v155 c831	1203	bulg1262
+966	Greek	long	makris	m a k r i s	282	m a k r i s	c239 v130 c831 c151 v191 c087	1203	mode1248
+967	Armenian	long	jɛɾkɑɾ	j ɛ ɾ k ɑ ɾ	280	j ɛ ɾ k ɑ ɾ	c564 v229 c064 c831 v089 c064	1203	nucl1235
+968	Romanian	long	luŋ	l u ŋ	281	l u ŋ	c548 v027 c795	1203	roma1327
+969	Russian	long	dlʲinnɨj	d lʲ i nː ɨ j	281	d lʲ i nː ɨ j	c143 c540 v191 c104 v116 c564	1203	russ1263
+970	Polish	long	dwuɡi	d w u ɡ i	281	d w u g i	c143 c457 v027 c824 v191	1203	poli1260
+971	Norwegian	long	lɑŋ	l ɑ ŋ	281	l ɑ ŋ	c548 v089 c795	1203	norw1258
+972	French	long	lõ	l õ	281	l õ	c548 v038	1203	stan1290
+973	Czech	long	dlowɦiː	d l o w ɦ iː	281	d l o w ɦ iː	c143 c548 v042 c457 c397 v183	1203	czec1258
+974	Icelandic	long	laŋkʏr	l a ŋ k ʏ r	281	l a ŋ k ʏ r	c548 v130 c795 c831 v173 c151	1203	icel1247
+975	Italian	long	lunɡo	l u n ɡ o	281	l u n g o	c548 v027 c105 c824 v042	1203	ital1282
+976	Hindi	long	ləmbaː	l ə m b aː	279	l ə m b aː	c548 v155 c239 c254 v137	1203	hind1269
+977	Portuguese	long	lõgu	l õ g u	281	l õ g u	c548 v038 c824 v027	1203	port1283
+978	Dutch	louse	lœys	l œi s	286	l œi s	c548 d042 c087	1392	dutc1256
+979	Swedish	louse	luːs	l uː s	286	l uː s	c548 v019 c087	1392	swed1254
+980	English	louse	laʊs	l aʊ s	286	l aʊ s	c548 d028 c087	1392	stan1293
+981	German	louse	laus	l au s	286	l au s	c548 d026 c087	1392	stan1295
+982	Spanish	louse	pjoxo	p j o x o	288	p j o x o	c288 c564 v042 c772 v042	1392	stan1288
+983	Danish	louse	luˀs	l uˀ s	286	l uˀ s	c548 v013 c087	1392	dani1285
+984	Bulgarian	louse	vɤʃkə	v ɤ ʃ k ə	284	v ɤ ʃ k ə	c446 v084 c677 c831 v155	1392	bulg1262
+985	Greek	louse	p͡sira	p͡s i r a	285	ps i r a	c291 v191 c151 v130	1392	mode1248
+986	Armenian	louse	voʧʰil	v o ʧʰ i l	287	v o tʃʰ i l	c446 v042 c655 v191 c548	1392	nucl1235
+987	Romanian	louse	pəduke	p ə d u k e	288	p ə d u k e	c288 v155 c143 v027 c831 v200	1392	roma1327
+988	Russian	louse	voʃ	v o ʃ	284	v o ʃ	c446 v042 c677	1392	russ1263
+989	Polish	louse	vɛʃ	v ɛ ʃ	284	v ɛ ʃ	c446 v229 c677	1392	poli1260
+990	Norwegian	louse	lʉːs	l ʉː s	286	l ʉː s	c548 v100 c087	1392	norw1258
+991	French	louse	pu	p u	288	p u	c288 v027	1392	stan1290
+992	Czech	louse	vɛʃ	v ɛ ʃ	284	v ɛ ʃ	c446 v229 c677	1392	czec1258
+993	Icelandic	louse	luːs	l uː s	286	l uː s	c548 v019 c087	1392	icel1247
+994	Italian	louse	pidɔkkjo	p i d ɔ kː j o	288	p i d ɔ kː j o	c288 v191 c143 v067 c825 c564 v042	1392	ital1282
+995	Hindi	louse	ʤuː	ʤ uː	284	dʒ uː	c649 v019	1392	hind1269
+996	Portuguese	louse	pi.oʎu	p i o ʎ u	288	p i o ʎ u	c288 v191 v042 c582 v027	1392	port1283
+997	Dutch	man	mɑn	m ɑ n	293	m ɑ n	c239 v089 c105	1554	dutc1256
+998	Swedish	man	manː	m a nː	293	m a nː	c239 v130 c104	1554	swed1254
+999	English	man	mæn	m æ n	293	m æ n	c239 v198 c105	1554	stan1293
+1000	German	man	man	m a n	293	m a n	c239 v130 c105	1554	stan1295
+1001	Danish	man	manˀ	m a nˀ	293	m a nˀ	c239 v130 c094	1554	dani1285
+1002	Bulgarian	man	mɤʃ	m ɤ ʃ	293	m ɤ ʃ	c239 v084 c677	1554	bulg1262
+1003	Greek	man	anðras	a n ð r a s	292	a n ð r a s	v130 c105 c415 c151 v130 c087	1554	mode1248
+1004	Romanian	man	bərbat	b ə r b a t	289	b ə r b a t	c254 v155 c151 c254 v130 c118	1554	roma1327
+1005	Russian	man	muʃʃinə	m u ʃː i n ə	293	m u ʃː i n ə	c239 v027 c672 v191 c105 v155	1554	russ1263
+1006	Polish	man	mɛ̃ʃʧɨzna	m ɛ̃ ʃ ʧ ɨ z n a	293	m ɛ̃ ʃ tʃ ɨ z n a	c239 v231 c677 c645 v116 c078 c105 v130	1554	poli1260
+1007	Norwegian	man	mɑn	m ɑ n	293	m ɑ n	c239 v089 c105	1554	norw1258
+1008	Czech	man	mʊʃ	m ʊ ʃ	293	m ʊ ʃ	c239 v056 c677	1554	czec1258
+1009	Icelandic	man	maːðʏr	m aː ð ʏ r	293	m aː ð ʏ r	c239 v137 c415 v173 c151	1554	icel1247
+1010	Hindi	man	mərd	m ə r d	-290	m ə r d	c239 v155 c151 c143	1554	hind1269
+1011	Portuguese	man	ɔmɐ̃	ɔ m ɐ̃	291	ɔ m ɐ̃	v067 c239 v120	1554	port1283
+1012	Romanian	man	om	o m	291	o m	v042 c239	1554	roma1327
+1013	Dutch	many	veːl	v eː l	302	v eː l	c446 v202 c548	1198	dutc1256
+1014	Swedish	many	mʏkɛt	m ʏ k ɛ t	295	m ʏ k ɛ t	c239 v173 c831 v229 c118	1198	swed1254
+1015	English	many	mɛnɪ	m ɛ n ɪ	296	m ɛ n ɪ	c239 v229 c105 v219	1198	stan1293
+1016	German	many	fiːl	f iː l	302	f iː l	c447 v183 c548	1198	stan1295
+1017	Spanish	many	muʧo	m u ʧ o	294	m u tʃ o	c239 v027 c645 v042	1198	stan1288
+1018	Danish	many	mɑŋən	m ɑ ŋ ə n	296	m ɑ ŋ ə n	c239 v089 c795 v155 c105	1198	dani1285
+1019	Bulgarian	many	mnɔgo	m n ɔ g o	296	m n ɔ g o	c239 c105 v067 c824 v042	1198	bulg1262
+1020	Greek	many	poliariθmos	p o l ia r i θ m o s	302	p o l ia r i θ m o s	c288 v042 c548 d054 c151 v191 c413 c239 v042 c087	1198	mode1248
+1021	Armenian	many	ʃɑt	ʃ ɑ t	-298	ʃ ɑ t	c677 v089 c118	1198	nucl1235
+1022	Romanian	many	mulʦʲ	m u l ʦʲ	294	m u l tsʲ	c239 v027 c548 c024	1198	roma1327
+1023	Russian	many	mnoɡə	m n o ɡ ə	296	m n o g ə	c239 c105 v042 c824 v155	1198	russ1263
+1024	Polish	many	vʲɛlɛ	vʲ ɛ l ɛ	297	vʲ ɛ l ɛ	c429 v229 c548 v229	1198	poli1260
+1025	Norwegian	many	mɑŋə	m ɑ ŋ ə	296	m ɑ ŋ ə	c239 v089 c795 v155	1198	norw1258
+1026	French	many	boku	b o k u	301	b o k u	c254 v042 c831 v027	1198	stan1290
+1027	Czech	many	mnoɦo	m n o ɦ o	296	m n o ɦ o	c239 c105 v042 c397 v042	1198	czec1258
+1028	Icelandic	many	mɪːcɪð	m ɪː c ɪ ð	295	m ɪː c ɪ ð	c239 v221 c600 v219 c415	1198	icel1247
+1029	Italian	many	molto	m o l t o	294	m o l t o	c239 v042 c548 c118 v042	1198	ital1282
+1030	Hindi	many	bəhʊt	b ə h ʊ t	299	b ə h ʊ t	c254 v155 c401 v056 c118	1198	hind1269
+1031	Portuguese	many	mũj̃tu	m ũ j̃ t u	294	m ũ j̃ t u	c239 v025 c570 c118 v027	1198	port1283
+1032	Swedish	many	moŋːa	m o ŋː a	296	m o ŋː a	c239 v042 c798 v130	1198	swed1254
+1033	English	many	mʌʧ	m ʌ ʧ	295	m ʌ tʃ	c239 v097 c645	1198	stan1293
+1034	Polish	many	duʒɔ	d u ʒ ɔ	300	d u ʒ ɔ	c143 v027 c679 v067	1198	poli1260
+1035	Norwegian	many	meːgət	m eː g ə t	295	m eː g ə t	c239 v202 c824 v155 c118	1198	norw1258
+1036	Dutch	meat	vleːs	v l eː s	303	v l eː s	c446 c548 v202 c087	634	dutc1256
+1037	Swedish	meat	ɕøtː	ɕ ø tː	309	ɕ ø tː	c202 v171 c128	634	swed1254
+1038	English	meat	miːt	m iː t	305	m iː t	c239 v183 c118	634	stan1293
+1039	German	meat	flaiʃ	f l ai ʃ	303	f l ai ʃ	c447 c548 d030 c677	634	stan1295
+1040	Spanish	meat	kaɾne	k a ɾ n e	306	k a ɾ n e	c831 v130 c064 c105 v200	634	stan1288
+1041	Danish	meat	køð	k ø ð	309	k ø ð	c831 v171 c415	634	dani1285
+1042	Bulgarian	meat	mɛsɔ	m ɛ s ɔ	307	m ɛ s ɔ	c239 v229 c087 v067	634	bulg1262
+1043	Greek	meat	kreas	k r e a s	304	k r e a s	c831 c151 v200 v130 c087	634	mode1248
+1044	Armenian	meat	mis	m i s	307	m i s	c239 v191 c087	634	nucl1235
+1045	Romanian	meat	karne	k a r n e	306	k a r n e	c831 v130 c151 c105 v200	634	roma1327
+1046	Russian	meat	mʲasə	mʲ a s ə	307	mʲ a s ə	c240 v130 c087 v155	634	russ1263
+1047	Polish	meat	mʲɛ̃sɔ	mʲ ɛ̃ s ɔ	307	mʲ ɛ̃ s ɔ	c240 v231 c087 v067	634	poli1260
+1048	Norwegian	meat	çœt	ç œ t	309	ç œ t	c577 v178 c118	634	norw1258
+1049	French	meat	ʃɛʁ	ʃ ɛ ʁ	306	ʃ ɛ ʁ	c677 v229 c733	634	stan1290
+1050	Czech	meat	maso	m a s o	307	m a s o	c239 v130 c087 v042	634	czec1258
+1051	Icelandic	meat	kʰjœːt	kʰ j œː t	309	kʰ j œː t	c813 c564 v176 c118	634	icel1247
+1052	Italian	meat	karne	k a r n e	306	k a r n e	c831 v130 c151 c105 v200	634	ital1282
+1053	Hindi	meat	goːʃt	g oː ʃ t	-310	g oː ʃ t	c824 v035 c677 c118	634	hind1269
+1054	Portuguese	meat	karnə	k a r n ə	306	k a r n ə	c831 v130 c151 c105 v155	634	port1283
+1055	French	meat	vjɑ̃d	v j ɑ̃ d	308	v j ɑ̃ d	c446 c564 v088 c143	634	stan1290
+1056	Dutch	moon	maːn	m aː n	315	m aː n	c239 v137 c105	1313	dutc1256
+1057	Swedish	moon	moːne	m oː n e	315	m oː n e	c239 v035 c105 v200	1313	swed1254
+1058	English	moon	muːn	m uː n	315	m uː n	c239 v019 c105	1313	stan1293
+1059	German	moon	moːnt	m oː n t	315	m oː n t	c239 v035 c105 c118	1313	stan1295
+1060	Spanish	moon	luna	l u n a	311	l u n a	c548 v027 c105 v130	1313	stan1288
+1061	Danish	moon	mɔːnə	m ɔː n ə	315	m ɔː n ə	c239 v065 c105 v155	1313	dani1285
+1062	Bulgarian	moon	luna	l u n a	311	l u n a	c548 v027 c105 v130	1313	bulg1262
+1063	Greek	moon	selini	s e l i n i	-316	s e l i n i	c087 v200 c548 v191 c105 v191	1313	mode1248
+1064	Armenian	moon	lusin	l u s i n	311	l u s i n	c548 v027 c087 v191 c105	1313	nucl1235
+1065	Romanian	moon	lunə	l u n ə	311	l u n ə	c548 v027 c105 v155	1313	roma1327
+1066	Russian	moon	luna	l u n a	311	l u n a	c548 v027 c105 v130	1313	russ1263
+1067	Polish	moon	kɕɛ̃ʒɨʦ	k ɕ ɛ̃ ʒ ɨ ʦ	-312	k ɕ ɛ̃ ʒ ɨ ts	c831 c202 v231 c679 v116 c015	1313	poli1260
+1068	Norwegian	moon	mɑːnə	m ɑː n ə	315	m ɑː n ə	c239 v091 c105 v155	1313	norw1258
+1069	French	moon	lyn	l y n	311	l y n	c548 v166 c105	1313	stan1290
+1070	Czech	moon	mʲɛsiːʦ	mʲ ɛ s iː ʦ	315	mʲ ɛ s iː ts	c240 v229 c087 v183 c015	1313	czec1258
+1071	Icelandic	moon	tʰuŋl	tʰ u ŋ l	313	tʰ u ŋ l	c136 v027 c795 c548	1313	icel1247
+1072	Italian	moon	luna	l u n a	311	l u n a	c548 v027 c105 v130	1313	ital1282
+1073	Hindi	moon	ʧãd	ʧ ã d	314	tʃ ã d	c645 v147 c143	1313	hind1269
+1074	Portuguese	moon	luɐ	l w ɐ	311	l w ɐ	c548 c457 v119	1313	port1283
+1075	Icelandic	moon	mauːnɪ	m a uː n ɪ	315	m a uː n ɪ	c239 v130 v019 c105 v219	1313	icel1247
+1076	Dutch	mountain	bɛrx	b ɛ r x	317	b ɛ r x	c254 v229 c151 c772	639	dutc1256
+1077	Swedish	mountain	bɛrːj	b ɛ rː j	317	b ɛ rː j	c254 v229 c160 c564	639	swed1254
+1078	English	mountain	maʊntɪn	m aʊ n t ɪ n	-319	m aʊ n t ɪ n	c239 d028 c105 c118 v219 c105	639	stan1293
+1079	German	mountain	bɛrk	b ɛ r k	317	b ɛ r k	c254 v229 c151 c831	639	stan1295
+1080	Spanish	mountain	montaɲa	m o n t a ɲ a	323	m o n t a ɲ a	c239 v042 c105 c118 v130 c589 v130	639	stan1288
+1081	Danish	mountain	bjæʁˀw	b j æ ʁˀ w	317	b j æ ʁˀ w	c254 c564 v198 c838 c457	639	dani1285
+1082	Bulgarian	mountain	plənina	p l ə n i n a	322	p l ə n i n a	c288 c548 v155 c105 v191 c105 v130	639	bulg1262
+1083	Greek	mountain	oros	o r o s	321	o r o s	v042 c151 v042 c087	639	mode1248
+1084	Armenian	mountain	sɑɾ	s ɑ ɾ	320	s ɑ ɾ	c087 v089 c064	639	nucl1235
+1085	Romanian	mountain	munte	m u n t e	323	m u n t e	c239 v027 c105 c118 v200	639	roma1327
+1086	Russian	mountain	ɡɐra	ɡ ɐ r a	324	g ɐ r a	c824 v119 c151 v130	639	russ1263
+1087	Polish	mountain	ɡura	ɡ u r a	324	g u r a	c824 v027 c151 v130	639	poli1260
+1088	Norwegian	mountain	fjel	f j e l	318	f j e l	c447 c564 v200 c548	639	norw1258
+1089	French	mountain	mɔ̃taɲ	m ɔ̃ t a ɲ	323	m ɔ̃ t a ɲ	c239 v066 c118 v130 c589	639	stan1290
+1090	Czech	mountain	ɦora	ɦ o r a	324	ɦ o r a	c397 v042 c151 v130	639	czec1258
+1091	Icelandic	mountain	fjat͡l	f j a t͡l	318	f j a tl	c447 c564 v130 c559	639	icel1247
+1092	Italian	mountain	montaɲɲa	m o n t a ɲː a	323	m o n t a ɲː a	c239 v042 c105 c118 v130 c587 v130	639	ital1282
+1093	Hindi	mountain	pəɦaːɽ	p ə ɦ aː ɽ	318	p ə ɦ aː ɽ	c288 v155 c397 v137 c697	639	hind1269
+1094	Portuguese	mountain	mõtə	m õ t ə	323	m õ t ə	c239 v038 c118 v155	639	port1283
+1095	Danish	mountain	fjɛlˀ	f j ɛ lˀ	318	f j ɛ lˀ	c447 c564 v229 c550	639	dani1285
+1096	Czech	mountain	vr̩x	v r̩ x	325	v r̩ x	c446 c152 c772	639	czec1258
+1097	Dutch	mouth	mɔnt	m ɔ n t	328	m ɔ n t	c239 v067 c105 c118	674	dutc1256
+1098	Swedish	mouth	munː	m u nː	328	m u nː	c239 v027 c104	674	swed1254
+1099	English	mouth	maʊð	m aʊ ð	328	m aʊ ð	c239 d028 c415	674	stan1293
+1100	German	mouth	mʊnt	m ʊ n t	328	m ʊ n t	c239 v056 c105 c118	674	stan1295
+1101	Spanish	mouth	boka	b o k a	327	b o k a	c254 v042 c831 v130	674	stan1288
+1102	Danish	mouth	mɔnˀ	m ɔ nˀ	328	m ɔ nˀ	c239 v067 c094	674	dani1285
+1103	Bulgarian	mouth	usta	u s t a	329	u s t a	v027 c087 c118 v130	674	bulg1262
+1104	Greek	mouth	stoma	s t o m a	330	s t o m a	c087 c118 v042 c239 v130	674	mode1248
+1105	Armenian	mouth	bɛɾɑn	b ɛ ɾ ɑ n	333	b ɛ ɾ ɑ n	c254 v229 c064 v089 c105	674	nucl1235
+1106	Romanian	mouth	gurə	g u r ə	326	g u r ə	c824 v027 c151 v155	674	roma1327
+1107	Russian	mouth	rot	r o t	332	r o t	c151 v042 c118	674	russ1263
+1108	Polish	mouth	usta	u s t a	329	u s t a	v027 c087 c118 v130	674	poli1260
+1109	Norwegian	mouth	mʉn	m ʉ n	328	m ʉ n	c239 v102 c105	674	norw1258
+1110	French	mouth	buʃ	b u ʃ	327	b u ʃ	c254 v027 c677	674	stan1290
+1111	Czech	mouth	uːsta	uː s t a	329	uː s t a	v019 c087 c118 v130	674	czec1258
+1112	Icelandic	mouth	mʏnːʏr	m ʏ nː ʏ r	328	m ʏ nː ʏ r	c239 v173 c104 v173 c151	674	icel1247
+1113	Italian	mouth	bokka	b o kː a	327	b o kː a	c254 v042 c825 v130	674	ital1282
+1114	Hindi	mouth	mʊ̃ɦ	m ʊ̃ ɦ	331	m ʊ̃ ɦ	c239 v057 c397	674	hind1269
+1115	Portuguese	mouth	bokɐ	b o k ɐ	327	b o k ɐ	c254 v042 c831 v119	674	port1283
+1116	Dutch	name	naːm	n aː m	334	n aː m	c105 v137 c239	1405	dutc1256
+1117	Swedish	name	namːn	n a mː n	334	n a mː n	c105 v130 c242 c105	1405	swed1254
+1118	English	name	neɪm	n eɪ m	334	n eɪ m	c105 d048 c239	1405	stan1293
+1119	German	name	naːmə	n aː m ə	334	n aː m ə	c105 v137 c239 v155	1405	stan1295
+1120	Spanish	name	nombɾe	n o m b ɾ e	334	n o m b ɾ e	c105 v042 c239 c254 c064 v200	1405	stan1288
+1121	Danish	name	nɑwˀn	n ɑ wˀ n	334	n ɑ wˀ n	c105 v089 c463 c105	1405	dani1285
+1122	Bulgarian	name	imɛ	i m ɛ	334	i m ɛ	v191 c239 v229	1405	bulg1262
+1123	Greek	name	onoma	o n o m a	334	o n o m a	v042 c105 v042 c239 v130	1405	mode1248
+1124	Armenian	name	ɑnun	ɑ n u n	334	ɑ n u n	v089 c105 v027 c105	1405	nucl1235
+1125	Romanian	name	nume	n u m e	334	n u m e	c105 v027 c239 v200	1405	roma1327
+1126	Russian	name	imʲə	i mʲ ə	334	i mʲ ə	v191 c240 v155	1405	russ1263
+1127	Polish	name	imʲɛ̃	i mʲ ɛ̃	334	i mʲ ɛ̃	v191 c240 v231	1405	poli1260
+1128	Norwegian	name	nɑʋn	n ɑ ʋ n	-334	n ɑ ʋ n	c105 v089 c424 c105	1405	norw1258
+1129	French	name	nɔ̃	n ɔ̃	334	n ɔ̃	c105 v066	1405	stan1290
+1130	Czech	name	jmɛːno	j m ɛː n o	334	j m ɛː n o	c564 c239 v225 c105 v042	1405	czec1258
+1131	Icelandic	name	napn	n a p n	334	n a p n	c105 v130 c288 c105	1405	icel1247
+1132	Italian	name	nome	n o m e	334	n o m e	c105 v042 c239 v200	1405	ital1282
+1133	Hindi	name	naːm	n aː m	334	n aː m	c105 v137 c239	1405	hind1269
+1134	Portuguese	name	nomə	n o m ə	334	n o m ə	c105 v042 c239 v155	1405	port1283
+2005	Dutch	near	naːbɛɪ	n aː b ɛɪ	574	n aː b ɛi	c105 v137 c254 d059	1942	dutc1256
+2006	Swedish	near	nɛːra	n ɛː r a	574	n ɛː r a	c105 v225 c151 v130	1942	swed1254
+2007	English	near	nɪər	n ɪ ə r	574	n ɪ ə r	c105 v219 v155 c151	1942	stan1293
+2008	German	near	naːə	n aː ə	574	n aː ə	c105 v137 v155	1942	stan1295
+2009	Spanish	near	θerka	θ e r k a	568	θ e r k a	c413 v200 c151 c831 v130	1942	stan1288
+2010	Danish	near	nɛˀʁ	n ɛˀ ʁ	574	n ɛˀ ʁ	c105 v228 c733	1942	dani1285
+2011	Bulgarian	near	blizək	b l i z ə k	570	b l i z ə k	c254 c548 v191 c078 v155 c831	1942	bulg1262
+2012	Greek	near	konda	k o n d a	573	k o n d a	c831 v042 c105 c143 v130	1942	mode1248
+2013	Armenian	near	mot	m o t	-575	m o t	c239 v042 c118	1942	nucl1235
+2014	Romanian	near	apropia	a p r o p ia	567	a p r o p ia	v130 c288 c151 v042 c288 d054	1942	roma1327
+2015	Russian	near	blʲizkʲɪj	b lʲ i z kʲ ɪ j	570	b lʲ i z kʲ ɪ j	c254 c540 v191 c078 c830 v219 c564	1942	russ1263
+2016	Polish	near	bliskɨ	b l i s k ɨ	570	b l i s k ɨ	c254 c548 v191 c087 c831 v116	1942	poli1260
+2017	Norwegian	near	næːɾ	n æː ɾ	574	n æː ɾ	c105 v199 c064	1942	norw1258
+2018	French	near	prɔʃ	p r ɔ ʃ	567	p r ɔ ʃ	c288 c151 v067 c677	1942	stan1290
+2019	Czech	near	bliːskiː	b l iː s k iː	570	b l iː s k iː	c254 c548 v183 c087 c831 v183	1942	czec1258
+2020	Icelandic	near	nauː	n a uː	574	n a uː	c105 v130 v019	1942	icel1247
+2021	Italian	near	prossimo	p r o sː i m o	567	p r o sː i m o	c288 c151 v042 c070 v191 c239 v042	1942	ital1282
+2022	Hindi	near	paːs	p aː s	572	p aː s	c288 v137 c087	1942	hind1269
+2023	Portuguese	near	prɔsimu	p r ɔ s i m u	567	p r ɔ s i m u	c288 c151 v067 c087 v191 c239 v027	1942	port1283
+2024	Dutch	near	dɪɣdbɛɪ	d ɪ ɣ d b ɛɪ	569	d ɪ ɣ d b ɛi	c143 v219 c774 c143 c254 d059	1942	dutc1256
+2025	English	near	kləʊs	k l əʊ s	-571	k l əu s	c831 c548 d029 c087	1942	stan1293
+1135	Dutch	neck	hɑls	h ɑ l s	339	h ɑ l s	c401 v089 c548 c087	1333	dutc1256
+1136	Swedish	neck	halːs	h a lː s	339	h a lː s	c401 v130 c539 c087	1333	swed1254
+1137	English	neck	nɛk	n ɛ k	342	n ɛ k	c105 v229 c831	1333	stan1293
+1138	German	neck	hals	h a l s	339	h a l s	c401 v130 c548 c087	1333	stan1295
+1139	Spanish	neck	kweʎo	k w e ʎ o	339	k w e ʎ o	c831 c457 v200 c582 v042	1333	stan1288
+1140	Danish	neck	halˀs	h a lˀ s	339	h a lˀ s	c401 v130 c550 c087	1333	dani1285
+1141	Bulgarian	neck	ʃijə	ʃ i j ə	340	ʃ i j ə	c677 v191 c564 v155	1333	bulg1262
+1142	Armenian	neck	viz	v i z	341	v i z	c446 v191 c078	1333	nucl1235
+1143	Romanian	neck	gɨt	g ɨ t	-338	g ɨ t	c824 v116 c118	1333	roma1327
+1144	Russian	neck	ʃejə	ʃ e j ə	340	ʃ e j ə	c677 v200 c564 v155	1333	russ1263
+1145	Polish	neck	ʃɨja	ʃ ɨ j a	340	ʃ ɨ j a	c677 v116 c564 v130	1333	poli1260
+1146	Norwegian	neck	hɑls	h ɑ l s	339	h ɑ l s	c401 v089 c548 c087	1333	norw1258
+1147	French	neck	ku	k u	339	k u	c831 v027	1333	stan1290
+1148	Czech	neck	kr̩k	k r̩ k	335	k r̩ k	c831 c152 c831	1333	czec1258
+1149	Icelandic	neck	hauls	h au l s	339	h au l s	c401 d026 c548 c087	1333	icel1247
+1150	Italian	neck	kɔllo	k ɔ lː o	339	k ɔ lː o	c831 v067 c539 v042	1333	ital1282
+1151	Hindi	neck	gəlaː	g ə l aː	336	g ə l aː	c824 v155 c548 v137	1333	hind1269
+1152	Portuguese	neck	kɔlu	k ɔ l u	339	k ɔ l u	c831 v067 c548 v027	1333	port1283
+1153	Dutch	neck	nɛk	n ɛ k	342	n ɛ k	c105 v229 c831	1333	dutc1256
+1154	Bulgarian	neck	vrat	v r a t	337	v r a t	c446 c151 v130 c118	1333	bulg1262
+1155	Dutch	new	niːʋ	n iː ʋ	343	n iː ʋ	c105 v183 c424	1231	dutc1256
+1156	Swedish	new	nyː	n yː	343	n yː	c105 v168	1231	swed1254
+1157	English	new	njuː	n j uː	343	n j uː	c105 c564 v019	1231	stan1293
+1158	German	new	nɔy	n ɔi	343	n ɔi	c105 d018	1231	stan1295
+1159	Spanish	new	nweβo	n w e β o	343	n w e β o	c105 c457 v200 c225 v042	1231	stan1288
+1160	Danish	new	nyˀ	n yˀ	343	n yˀ	c105 v244	1231	dani1285
+1161	Bulgarian	new	nɔf	n ɔ f	343	n ɔ f	c105 v067 c447	1231	bulg1262
+1162	Greek	new	neos	n e o s	343	n e o s	c105 v200 v042 c087	1231	mode1248
+1163	Armenian	new	noɾ	n o ɾ	343	n o ɾ	c105 v042 c064	1231	nucl1235
+1164	Romanian	new	now	n o w	343	n o w	c105 v042 c457	1231	roma1327
+1165	Russian	new	novɨj	n o v ɨ j	343	n o v ɨ j	c105 v042 c446 v116 c564	1231	russ1263
+1166	Polish	new	nɔvɨ	n ɔ v ɨ	343	n ɔ v ɨ	c105 v067 c446 v116	1231	poli1260
+1167	Norwegian	new	nyː	n yː	343	n yː	c105 v168	1231	norw1258
+1168	French	new	nœf	n œ f	343	n œ f	c105 v178 c447	1231	stan1290
+1169	Czech	new	noviː	n o v iː	343	n o v iː	c105 v042 c446 v183	1231	czec1258
+1170	Icelandic	new	niːr	n iː r	343	n iː r	c105 v183 c151	1231	icel1247
+1171	Italian	new	nwɔvo	n w ɔ v o	343	n w ɔ v o	c105 c457 v067 c446 v042	1231	ital1282
+1172	Hindi	new	nəjaː	n ə j aː	343	n ə j aː	c105 v155 c564 v137	1231	hind1269
+1173	Portuguese	new	novu	n o v u	343	n o v u	c105 v042 c446 v027	1231	port1283
+1174	Dutch	night	nɑxt	n ɑ x t	346	n ɑ x t	c105 v089 c772 c118	1233	dutc1256
+1175	Swedish	night	natː	n a tː	346	n a tː	c105 v130 c128	1233	swed1254
+1176	English	night	naɪt	n aɪ t	346	n aɪ t	c105 d032 c118	1233	stan1293
+1177	German	night	naxt	n a x t	346	n a x t	c105 v130 c772 c118	1233	stan1295
+1178	Spanish	night	noʧe	n o ʧ e	346	n o tʃ e	c105 v042 c645 v200	1233	stan1288
+1179	Danish	night	nad	n a d	346	n a d	c105 v130 c143	1233	dani1285
+1180	Bulgarian	night	nɔʃt	n ɔ ʃ t	346	n ɔ ʃ t	c105 v067 c677 c118	1233	bulg1262
+1181	Greek	night	nixta	n i x t a	346	n i x t a	c105 v191 c772 c118 v130	1233	mode1248
+1182	Armenian	night	giʃɛɾ	g i ʃ ɛ ɾ	344	g i ʃ ɛ ɾ	c824 v191 c677 v229 c064	1233	nucl1235
+1183	Romanian	night	nwapte	n w a p t e	346	n w a p t e	c105 c457 v130 c288 c118 v200	1233	roma1327
+1184	Russian	night	noʧ	n o ʧ	346	n o tʃ	c105 v042 c645	1233	russ1263
+1185	Polish	night	nɔʦ	n ɔ ʦ	346	n ɔ ts	c105 v067 c015	1233	poli1260
+1186	Norwegian	night	nɑt	n ɑ t	346	n ɑ t	c105 v089 c118	1233	norw1258
+1187	French	night	nɥi	n ɥ i	346	n ɥ i	c105 c453 v191	1233	stan1290
+1188	Czech	night	noʦ	n o ʦ	346	n o ts	c105 v042 c015	1233	czec1258
+1189	Icelandic	night	nouʰt	n ou ʰt	346	n ou ʰt	c105 d006 c836	1233	icel1247
+1190	Italian	night	nɔtte	n ɔ tː e	346	n ɔ tː e	c105 v067 c128 v200	1233	ital1282
+1191	Hindi	night	raːt	r aː t	345	r aː t	c151 v137 c118	1233	hind1269
+1192	Portuguese	night	nojtə	n o j t ə	346	n o j t ə	c105 v042 c564 c118 v155	1233	port1283
+1193	Dutch	nose	nœːs	n œː s	350	n œː s	c105 v176 c087	1221	dutc1256
+1194	Swedish	nose	nɛːsa	n ɛː s a	350	n ɛː s a	c105 v225 c087 v130	1221	swed1254
+1195	English	nose	nəʊz	n əʊ z	350	n əu z	c105 d029 c078	1221	stan1293
+1196	German	nose	naːzə	n aː z ə	350	n aː z ə	c105 v137 c078 v155	1221	stan1295
+1197	Spanish	nose	naɾiθ	n a ɾ i θ	350	n a ɾ i θ	c105 v130 c064 v191 c413	1221	stan1288
+1198	Danish	nose	nɛːsə	n ɛː s ə	350	n ɛː s ə	c105 v225 c087 v155	1221	dani1285
+1199	Bulgarian	nose	nɔs	n ɔ s	350	n ɔ s	c105 v067 c087	1221	bulg1262
+1200	Greek	nose	miti	m i t i	348	m i t i	c239 v191 c118 v191	1221	mode1248
+1201	Armenian	nose	kʰitʰ	kʰ i tʰ	-349	kʰ i tʰ	c813 v191 c136	1221	nucl1235
+1202	Romanian	nose	nas	n a s	350	n a s	c105 v130 c087	1221	roma1327
+1203	Russian	nose	nos	n o s	350	n o s	c105 v042 c087	1221	russ1263
+1204	Polish	nose	nɔs	n ɔ s	350	n ɔ s	c105 v067 c087	1221	poli1260
+1205	Norwegian	nose	neːsə	n eː s ə	350	n eː s ə	c105 v202 c087 v155	1221	norw1258
+1206	French	nose	ne	n e	350	n e	c105 v200	1221	stan1290
+1207	Czech	nose	nos	n o s	350	n o s	c105 v042 c087	1221	czec1258
+1208	Icelandic	nose	nɛːv	n ɛː v	347	n ɛː v	c105 v225 c446	1221	icel1247
+1209	Italian	nose	naso	n a s o	350	n a s o	c105 v130 c087 v042	1221	ital1282
+1210	Hindi	nose	naːk	n aː k	350	n aː k	c105 v137 c831	1221	hind1269
+1211	Portuguese	nose	nɐriʃ	n ɐ r i ʃ	350	n ɐ r i ʃ	c105 v119 c151 v191 c677	1221	port1283
+1212	Dutch	not	niːt	n iː t	352	n iː t	c105 v183 c118	1240	dutc1256
+1213	Swedish	not	ikːe	i kː e	353	i kː e	v191 c825 v200	1240	swed1254
+1214	English	not	nɔt	n ɔ t	352	n ɔ t	c105 v067 c118	1240	stan1293
+1215	German	not	nɪxt	n ɪ x t	352	n ɪ x t	c105 v219 c772 c118	1240	stan1295
+1216	Spanish	not	no	n o	352	n o	c105 v042	1240	stan1288
+1217	Danish	not	egə	e g ə	353	e g ə	v200 c824 v155	1240	dani1285
+1218	Bulgarian	not	nɛ	n ɛ	352	n ɛ	c105 v229	1240	bulg1262
+1219	Armenian	not	voʧʰ	v o ʧʰ	351	v o tʃʰ	c446 v042 c655	1240	nucl1235
+1220	Romanian	not	nu	n u	352	n u	c105 v027	1240	roma1327
+1221	Russian	not	nʲɛ	nʲ ɛ	352	nʲ ɛ	c099 v229	1240	russ1263
+1222	Polish	not	nʲɛ	nʲ ɛ	352	nʲ ɛ	c099 v229	1240	poli1260
+1223	Norwegian	not	ikə	i k ə	353	i k ə	v191 c831 v155	1240	norw1258
+1224	French	not	nə	n ə	352	n ə	c105 v155	1240	stan1290
+1225	Czech	not	nɛ	n ɛ	352	n ɛ	c105 v229	1240	czec1258
+1226	Icelandic	not	ɛʰcɪ	ɛ ʰc ɪ	353	ɛ ʰc ɪ	v229 c835 v219	1240	icel1247
+1227	Italian	not	non	n o n	352	n o n	c105 v042 c105	1240	ital1282
+1228	Hindi	not	naɦĩ	n a ɦ ĩ	352	n a ɦ ĩ	c105 v130 c397 v193	1240	hind1269
+1229	Portuguese	not	nɐ̃w	n ɐ̃ w	352	n ɐ̃ w	c105 v120 c457	1240	port1283
+1230	Dutch	one	eːn	eː n	354	eː n	v202 c105	1493	dutc1256
+1231	Swedish	one	en	e n	354	e n	v200 c105	1493	swed1254
+1232	English	one	ʋʌn	ʋ ʌ n	354	ʋ ʌ n	c424 v097 c105	1493	stan1293
+1233	German	one	ain	ai n	354	ai n	d030 c105	1493	stan1295
+1234	Spanish	one	uno	u n o	354	u n o	v027 c105 v042	1493	stan1288
+1235	Danish	one	eˀn	eˀ n	354	eˀ n	v205 c105	1493	dani1285
+1236	Bulgarian	one	ɛdnɔ	ɛ d n ɔ	354	ɛ d n ɔ	v229 c143 c105 v067	1493	bulg1262
+1237	Greek	one	ena	e n a	355	e n a	v200 c105 v130	1493	mode1248
+1238	Armenian	one	mɛk	m ɛ k	355	m ɛ k	c239 v229 c831	1493	nucl1235
+1239	Romanian	one	unu	u n u	354	u n u	v027 c105 v027	1493	roma1327
+1240	Russian	one	ɐdʲin	ɐ dʲ i n	354	ɐ dʲ i n	v119 c127 v191 c105	1493	russ1263
+1241	Polish	one	jɛdɛn	j ɛ d ɛ n	354	j ɛ d ɛ n	c564 v229 c143 v229 c105	1493	poli1260
+1242	Norwegian	one	eːn	eː n	354	eː n	v202 c105	1493	norw1258
+1243	French	one	œ̃	œ̃	354	œ̃	v175	1493	stan1290
+1244	Czech	one	jɛdɛn	j ɛ d ɛ n	354	j ɛ d ɛ n	c564 v229 c143 v229 c105	1493	czec1258
+1245	Icelandic	one	eit͡n	ei t͡n	354	ei n̥	d047 c093	1493	icel1247
+1246	Italian	one	uno	u n o	354	u n o	v027 c105 v042	1493	ital1282
+1247	Hindi	one	eːk	eː k	354	eː k	v202 c831	1493	hind1269
+1248	Portuguese	one	ũ	ũ	354	ũ	v025	1493	port1283
+1249	Dutch	person	mɛns	m ɛ n s	361	m ɛ n s	c239 v229 c105 c087	683	dutc1256
+1250	Swedish	person	mɛniʃa	m ɛ n i ʃ a	361	m ɛ n i ʃ a	c239 v229 c105 v191 c677 v130	683	swed1254
+1251	English	person	mæn	m æ n	361	m æ n	c239 v198 c105	683	stan1293
+1252	German	person	mɛnʃ	m ɛ n ʃ	361	m ɛ n ʃ	c239 v229 c105 c677	683	stan1295
+1253	Spanish	person	ombɾe	o m b ɾ e	357	o m b ɾ e	v042 c239 c254 c064 v200	683	stan1288
+1254	Danish	person	mɛnəsgə	m ɛ n ə s g ə	361	m ɛ n ə s g ə	c239 v229 c105 v155 c087 c824 v155	683	dani1285
+1255	Bulgarian	person	ʧovɛk	ʧ o v ɛ k	360	tʃ o v ɛ k	c645 v042 c446 v229 c831	683	bulg1262
+1256	Greek	person	anθropos	a n θ r o p o s	358	a n θ r o p o s	v130 c105 c413 c151 v042 c288 v042 c087	683	mode1248
+1257	Armenian	person	mɑɾtʰ	m ɑ ɾ tʰ	-359	m ɑ ɾ tʰ	c239 v089 c064 c136	683	nucl1235
+1258	Romanian	person	om	o m	357	o m	v042 c239	683	roma1327
+1259	Russian	person	ʧʲɪlɐvʲɛk	ʧʲ ɪ l ɐ vʲ ɛ k	360	tʃʲ ɪ l ɐ vʲ ɛ k	c658 v219 c548 v119 c429 v229 c831	683	russ1263
+1260	Polish	person	ʧwɔvʲɛk	ʧ w ɔ vʲ ɛ k	360	tʃ w ɔ vʲ ɛ k	c645 c457 v067 c429 v229 c831	683	poli1260
+1261	Norwegian	person	menəskə	m e n ə s k ə	361	m e n ə s k ə	c239 v200 c105 v155 c087 c831 v155	683	norw1258
+1262	French	person	ɔm	ɔ m	357	ɔ m	v067 c239	683	stan1290
+1263	Czech	person	ʧlovʲɛk	ʧ l o vʲ ɛ k	360	tʃ l o vʲ ɛ k	c645 c548 v042 c429 v229 c831	683	czec1258
+1264	Icelandic	person	maːðʏr	m aː ð ʏ r	361	m aː ð ʏ r	c239 v137 c415 v173 c151	683	icel1247
+1265	Italian	person	wɔmo	w ɔ m o	357	w ɔ m o	c457 v067 c239 v042	683	ital1282
+1266	Hindi	person	aːdmiː	aː d m iː	-356	aː d m iː	v137 c143 c239 v183	683	hind1269
+1267	Portuguese	person	ɔmɐ̃	ɔ m ɐ̃	357	ɔ m ɐ̃	v067 c239 v120	683	port1283
+1268	Dutch	rain	reːɣə	r eː ɣ ə	362	r eː ɣ ə	c151 v202 c774 v155	658	dutc1256
+1269	Swedish	rain	reŋːn	r e ŋː n	362	r e ŋː n	c151 v200 c798 c105	658	swed1254
+1270	English	rain	reɪn	r eɪ n	362	r eɪ n	c151 d048 c105	658	stan1293
+1271	German	rain	reːɡən	r eː ɡ ə n	362	r eː g ə n	c151 v202 c824 v155 c105	658	stan1295
+1272	Spanish	rain	ʎuβja	ʎ u β j a	363	ʎ u β j a	c582 v027 c225 c564 v130	658	stan1288
+1273	Danish	rain	ʁɑjˀn	ʁ ɑ jˀ n	362	ʁ ɑ jˀ n	c733 v089 c566 c105	658	dani1285
+1274	Bulgarian	rain	dɤʃt	d ɤ ʃ t	365	d ɤ ʃ t	c143 v084 c677 c118	658	bulg1262
+1275	Greek	rain	vroçi	v r o ç i	366	v r o ç i	c446 c151 v042 c577 v191	658	mode1248
+1276	Armenian	rain	ɑnʣɾɛv	ɑ n ʣ ɾ ɛ v	364	ɑ n dz ɾ ɛ v	v089 c105 c020 c064 v229 c446	658	nucl1235
+1277	Romanian	rain	plwaje	p l w a j e	363	p l w a j e	c288 c548 c457 v130 c564 v200	658	roma1327
+1278	Russian	rain	doʃtʲ	d o ʃ tʲ	365	d o ʃ tʲ	c143 v042 c677 c113	658	russ1263
+1279	Polish	rain	dɛʃʧ	d ɛ ʃ ʧ	365	d ɛ ʃ tʃ	c143 v229 c677 c645	658	poli1260
+1280	Norwegian	rain	ɾæjnə	ɾ æ j n ə	362	ɾ æ j n ə	c064 v198 c564 c105 v155	658	norw1258
+1281	French	rain	plɥi	p l ɥ i	363	p l ɥ i	c288 c548 c453 v191	658	stan1290
+1282	Czech	rain	dɛːʃtʲ	d ɛː ʃ tʲ	365	d ɛː ʃ tʲ	c143 v225 c677 c113	658	czec1258
+1283	Icelandic	rain	rɛkn	r ɛ k n	362	r ɛ k n	c151 v229 c831 c105	658	icel1247
+1284	Italian	rain	pjɔʤːa	p j ɔ dːʒ a	363	p j ɔ dːʒ a	c288 c564 v067 c656 v130	658	ital1282
+1285	Portuguese	rain	ʃuvɐ	ʃ u v ɐ	363	ʃ u v ɐ	c677 v027 c446 v119	658	port1283
+1286	Dutch	red	roːt	r oː t	368	r oː t	c151 v035 c118	156	dutc1256
+1287	Swedish	red	røːd	r øː d	368	r øː d	c151 v169 c143	156	swed1254
+1288	English	red	rɛd	r ɛ d	368	r ɛ d	c151 v229 c143	156	stan1293
+1289	German	red	roːt	r oː t	368	r oː t	c151 v035 c118	156	stan1295
+1290	Spanish	red	roxo	r o x o	368	r o x o	c151 v042 c772 v042	156	stan1288
+1291	Danish	red	ʁœðˀ	ʁ œ ðˀ	368	ʁ œ ðˀ	c733 v178 c839	156	dani1285
+1292	Bulgarian	red	ʧɛrvɛn	ʧ ɛ r v ɛ n	367	tʃ ɛ r v ɛ n	c645 v229 c151 c446 v229 c105	156	bulg1262
+1293	Greek	red	kocinos	k o c i n o s	-369	k o c i n o s	c831 v042 c600 v191 c105 v042 c087	156	mode1248
+1294	Armenian	red	kɑɾmiɾ	k ɑ ɾ m i ɾ	-372	k ɑ ɾ m i ɾ	c831 v089 c064 c239 v191 c064	156	nucl1235
+1295	Romanian	red	roʃu	r o ʃ u	-368	r o ʃ u	c151 v042 c677 v027	156	roma1327
+1296	Russian	red	krasnɨj	k r a s n ɨ j	370	k r a s n ɨ j	c831 c151 v130 c087 c105 v116 c564	156	russ1263
+1297	Polish	red	ʧɛrvɔnɨ	ʧ ɛ r v ɔ n ɨ	367	tʃ ɛ r v ɔ n ɨ	c645 v229 c151 c446 v067 c105 v116	156	poli1260
+1298	French	red	ʁuj	ʁ u j	368	ʁ u j	c733 v027 c564	156	stan1290
+1299	Czech	red	ʧɛrvɛniː	ʧ ɛ r v ɛ n iː	367	tʃ ɛ r v ɛ n iː	c645 v229 c151 c446 v229 c105 v183	156	czec1258
+1300	Icelandic	red	røyːðʏr	r ø yː ð ʏ r	368	r ø yː ð ʏ r	c151 v171 v168 c415 v173 c151	156	icel1247
+1301	Italian	red	rosso	r o sː o	368	r o sː o	c151 v042 c070 v042	156	ital1282
+1302	Hindi	red	laːl	l aː l	368	l aː l	c548 v137 c548	156	hind1269
+1303	Portuguese	red	vərmeʎu	v ə r m e ʎ u	371	v ə r m e ʎ u	c446 v155 c151 c239 v200 c582 v027	156	port1283
+1304	Dutch	road	ʋɛx	ʋ ɛ x	376	ʋ ɛ x	c424 v229 c772	667	dutc1256
+1305	Swedish	road	vɛːg	v ɛː g	376	v ɛː g	c446 v225 c824	667	swed1254
+1306	English	road	rəʊd	r əʊ d	381	r əu d	c151 d029 c143	667	stan1293
+1307	German	road	veːk	v eː k	376	v eː k	c446 v202 c831	667	stan1295
+1308	Spanish	road	bia	b ia	380	b ia	c254 d054	667	stan1288
+1309	Danish	road	vɑjˀ	v ɑ jˀ	376	v ɑ jˀ	c446 v089 c566	667	dani1285
+1310	Bulgarian	road	pɤt	p ɤ t	375	p ɤ t	c288 v084 c118	667	bulg1262
+1311	Greek	road	ðromos	ð r o m o s	374	ð r o m o s	c415 c151 v042 c239 v042 c087	667	mode1248
+1312	Armenian	road	ʧɑmpʰɑ	ʧ ɑ m pʰ ɑ	-382	tʃ ɑ m pʰ ɑ	c645 v089 c239 c261 v089	667	nucl1235
+1313	Romanian	road	kale	k a l e	378	k a l e	c831 v130 c548 v200	667	roma1327
+1314	Russian	road	dɐroɡə	d ɐ r o ɡ ə	373	d ɐ r o g ə	c143 v119 c151 v042 c824 v155	667	russ1263
+1315	Polish	road	drɔɡa	d r ɔ ɡ a	373	d r ɔ g a	c143 c151 v067 c824 v130	667	poli1260
+1316	French	road	ʃɛmɛ̃	ʃ ɛ m ɛ̃	-377	ʃ ɛ m ɛ̃	c677 v229 c239 v231	667	stan1290
+1317	Czech	road	ʦɛsta	ʦ ɛ s t a	383	ts ɛ s t a	c015 v229 c087 c118 v130	667	czec1258
+1318	Icelandic	road	vekʏr	v e k ʏ r	376	v e k ʏ r	c446 v200 c831 v173 c151	667	icel1247
+1319	Italian	road	strada	s t r a d a	379	s t r a d a	c087 c118 c151 v130 c143 v130	667	ital1282
+1320	Hindi	road	səɽək	s ə ɽ ə k	384	s ə ɽ ə k	c087 v155 c697 v155 c831	667	hind1269
+1321	Portuguese	road	əʃtradɐ	ə ʃ t r a d ɐ	379	ə ʃ t r a d ɐ	v155 c677 c118 c151 v130 c143 v119	667	port1283
+1322	English	road	ʋeɪ	ʋ eɪ	376	ʋ eɪ	c424 d048	667	stan1293
+1323	Italian	road	via	v ia	380	v ia	c446 d054	667	ital1282
+1324	Portuguese	road	viɐ	v j ɐ	380	v j ɐ	c446 c564 v119	667	port1283
+1325	Dutch	root	ʋɔrtəl	ʋ ɔ r t ə l	386	ʋ ɔ r t ə l	c424 v067 c151 c118 v155 c548	670	dutc1256
+1326	Swedish	root	roːt	r oː t	386	r oː t	c151 v035 c118	670	swed1254
+1327	English	root	ruːt	r uː t	386	r uː t	c151 v019 c118	670	stan1293
+1328	German	root	vʊrt͡səl	v ʊ r t͡s ə l	386	v ʊ r ts ə l	c446 v056 c151 c015 v155 c548	670	stan1295
+1329	Spanish	root	ra.iθ	r a i θ	386	r a i θ	c151 v130 v191 c413	670	stan1288
+1330	Danish	root	ʁoˀð	ʁ oˀ ð	386	ʁ oˀ ð	c733 v048 c415	670	dani1285
+1331	Bulgarian	root	kɔrɛn	k ɔ r ɛ n	385	k ɔ r ɛ n	c831 v067 c151 v229 c105	670	bulg1262
+1332	Greek	root	oðos	o ð o s	388	o ð o s	v042 c415 v042 c087	670	mode1248
+1333	Armenian	root	ɑɾmɑt	ɑ ɾ m ɑ t	387	ɑ ɾ m ɑ t	v089 c064 c239 v089 c118	670	nucl1235
+1334	Romanian	root	rədəʧinə	r ə d ə ʧ i n ə	386	r ə d ə tʃ i n ə	c151 v155 c143 v155 c645 v191 c105 v155	670	roma1327
+1335	Russian	root	korʲɪnʲ	k o rʲ ɪ nʲ	385	k o rʲ ɪ nʲ	c831 v042 c162 v219 c099	670	russ1263
+1336	Polish	root	kɔʒɛɲ	k ɔ ʒ ɛ ɲ	385	k ɔ ʒ ɛ ɲ	c831 v067 c679 v229 c589	670	poli1260
+1337	French	root	ʁasin	ʁ a s i n	386	ʁ a s i n	c733 v130 c087 v191 c105	670	stan1290
+1338	Czech	root	korɛn	k o r ɛ n	385	k o r ɛ n	c831 v042 c151 v229 c105	670	czec1258
+1339	Icelandic	root	rouːt	r o uː t	386	r o uː t	c151 v042 v019 c118	670	icel1247
+1340	Italian	root	radiʧe	r a d i ʧ e	386	r a d i tʃ e	c151 v130 c143 v191 c645 v200	670	ital1282
+1341	Hindi	root	ʤəɽ	ʤ ə ɽ	389	dʒ ə ɽ	c649 v155 c697	670	hind1269
+1342	Portuguese	root	ʀɐ.iʃ	ʀ ɐ i ʃ	386	ʀ ɐ i ʃ	c761 v119 v191 c677	670	port1283
+1343	Greek	root	riza	r i z a	386	r i z a	c151 v191 c078 v130	670	mode1248
+1344	Dutch	round	rɔnt	r ɔ n t	-392	r ɔ n t	c151 v067 c105 c118	1395	dutc1256
+1345	Swedish	round	runːd	r u nː d	-392	r u nː d	c151 v027 c104 c143	1395	swed1254
+1346	English	round	raʊnd	r aʊ n d	-392	r aʊ n d	c151 d028 c105 c143	1395	stan1293
+1347	German	round	rʊnt	r ʊ n t	-392	r ʊ n t	c151 v056 c105 c118	1395	stan1295
+1348	Spanish	round	reðondo	r e ð o n d o	390	r e ð o n d o	c151 v200 c415 v042 c105 c143 v042	1395	stan1288
+1349	Danish	round	ʁɔnˀ	ʁ ɔ nˀ	-392	ʁ ɔ nˀ	c733 v067 c094	1395	dani1285
+1350	Bulgarian	round	krɤgəl	k r ɤ g ə l	391	k r ɤ g ə l	c831 c151 v084 c824 v155 c548	1395	bulg1262
+1351	Greek	round	stroɲɟilos	s t r o ɲ ɟ i l o s	393	s t r o ɲ ɟ i l o s	c087 c118 c151 v042 c589 c603 v191 c548 v042 c087	1395	mode1248
+1352	Armenian	round	kəloɾ	k ə l o ɾ	394	k ə l o ɾ	c831 v155 c548 v042 c064	1395	nucl1235
+1353	Romanian	round	rotund	r o t u n d	390	r o t u n d	c151 v042 c118 v027 c105 c143	1395	roma1327
+1354	Russian	round	kruɡlɨj	k r u ɡ l ɨ j	391	k r u g l ɨ j	c831 c151 v027 c824 c548 v116 c564	1395	russ1263
+1355	Polish	round	ɔkrɔ̃ɡwɨ	ɔ k r ɔ̃ ɡ w ɨ	391	ɔ k r ɔ̃ g w ɨ	v067 c831 c151 v066 c824 c457 v116	1395	poli1260
+1356	French	round	ʁɔ̃	ʁ ɔ̃	390	ʁ ɔ̃	c733 v066	1395	stan1290
+1357	Czech	round	okrowɦliː	o k r o w ɦ l iː	391	o k r o w ɦ l iː	v042 c831 c151 v042 c457 c397 c548 v183	1395	czec1258
+1358	Icelandic	round	kʰriŋlouʰtʏr	kʰ r i ŋ l ou ʰt ʏ r	395	kʰ r i ŋ l ou ʰt ʏ r	c813 c151 v191 c795 c548 d006 c836 v173 c151	1395	icel1247
+1359	Italian	round	rotondo	r o t o n d o	390	r o t o n d o	c151 v042 c118 v042 c105 c143 v042	1395	ital1282
+1360	Hindi	round	gol	g o l	396	g o l	c824 v042 c548	1395	hind1269
+1361	Portuguese	round	ʀədõdu	ʀ ə d õ d u	390	ʀ ə d õ d u	c761 v155 c143 v038 c143 v027	1395	port1283
+2026	Dutch	salt	zɑut	z ɑu t	576	z ɑu t	c078 d023 c118	1274	dutc1256
+2027	Swedish	salt	salːt	s a lː t	576	s a lː t	c087 v130 c539 c118	1274	swed1254
+2028	English	salt	sɔːlt	s ɔː l t	576	s ɔː l t	c087 v065 c548 c118	1274	stan1293
+2029	German	salt	zalt͡s	z a l t͡s	576	z a l ts	c078 v130 c548 c015	1274	stan1295
+2030	Spanish	salt	sal	s a l	576	s a l	c087 v130 c548	1274	stan1288
+2031	Danish	salt	salˀd	s a lˀ d	576	s a lˀ d	c087 v130 c550 c143	1274	dani1285
+2032	Bulgarian	salt	sol	s o l	576	s o l	c087 v042 c548	1274	bulg1262
+2033	Greek	salt	alati	a l a t i	576	a l a t i	v130 c548 v130 c118 v191	1274	mode1248
+2034	Armenian	salt	ɑʁ	ɑ ʁ	576	ɑ ʁ	v089 c733	1274	nucl1235
+2035	Romanian	salt	sare	s a r e	576	s a r e	c087 v130 c151 v200	1274	roma1327
+2036	Russian	salt	solʲ	s o lʲ	576	s o lʲ	c087 v042 c540	1274	russ1263
+2037	Polish	salt	sul	s u l	576	s u l	c087 v027 c548	1274	poli1260
+2038	Norwegian	salt	sɑlt	s ɑ l t	576	s ɑ l t	c087 v089 c548 c118	1274	norw1258
+2039	French	salt	sɛl	s ɛ l	576	s ɛ l	c087 v229 c548	1274	stan1290
+2040	Czech	salt	suːl	s uː l	576	s uː l	c087 v019 c548	1274	czec1258
+2041	Icelandic	salt	sal̥t	s a l̥ t	576	s a l̥ t	c087 v130 c538 c118	1274	icel1247
+2042	Italian	salt	sale	s a l e	576	s a l e	c087 v130 c548 v200	1274	ital1282
+2043	Portuguese	salt	sal	s a l	576	s a l	c087 v130 c548	1274	port1283
+1362	Dutch	sand	zɑnt	z ɑ n t	398	z ɑ n t	c078 v089 c105 c118	671	dutc1256
+1363	Swedish	sand	sanːd	s a nː d	398	s a nː d	c087 v130 c104 c143	671	swed1254
+1364	English	sand	sænd	s æ n d	398	s æ n d	c087 v198 c105 c143	671	stan1293
+1365	German	sand	zant	z a n t	398	z a n t	c078 v130 c105 c118	671	stan1295
+1366	Spanish	sand	aɾena	a ɾ e n a	402	a ɾ e n a	v130 c064 v200 c105 v130	671	stan1288
+1367	Danish	sand	sanˀ	s a nˀ	398	s a nˀ	c087 v130 c094	671	dani1285
+1368	Bulgarian	sand	pʲasək	pʲ a s ə k	400	pʲ a s ə k	c270 v130 c087 v155 c831	671	bulg1262
+1369	Greek	sand	amos	a m o s	398	a m o s	v130 c239 v042 c087	671	mode1248
+1370	Armenian	sand	ɑvɑz	ɑ v ɑ z	397	ɑ v ɑ z	v089 c446 v089 c078	671	nucl1235
+1371	Romanian	sand	nisip	n i s i p	-401	n i s i p	c105 v191 c087 v191 c288	671	roma1327
+1372	Russian	sand	pʲɪsok	pʲ ɪ s o k	400	pʲ ɪ s o k	c270 v219 c087 v042 c831	671	russ1263
+1373	Polish	sand	pʲasɛk	pʲ a s ɛ k	400	pʲ a s ɛ k	c270 v130 c087 v229 c831	671	poli1260
+1374	French	sand	sabl	s a b l	397	s a b l	c087 v130 c254 c548	671	stan1290
+1375	Czech	sand	piːsɛk	p iː s ɛ k	400	p iː s ɛ k	c288 v183 c087 v229 c831	671	czec1258
+1376	Icelandic	sand	santʏr	s a n t ʏ r	398	s a n t ʏ r	c087 v130 c105 c118 v173 c151	671	icel1247
+1377	Italian	sand	sabbja	s a bː j a	397	s a bː j a	c087 v130 c281 c564 v130	671	ital1282
+1378	Hindi	sand	ret	r e t	403	r e t	c151 v200 c118	671	hind1269
+1379	Portuguese	sand	ɐrɐjɐ	ɐ r ɐ j ɐ	402	ɐ r ɐ j ɐ	v119 c151 v119 c564 v119	671	port1283
+1380	Hindi	sand	baːluː	b aː l uː	399	b aː l uː	c254 v137 c548 v019	671	hind1269
+1381	Dutch	say	zɛɣə	z ɛ ɣ ə	405	z ɛ ɣ ə	c078 v229 c774 v155	1458	dutc1256
+1382	Swedish	say	sɛja	s ɛ j a	405	s ɛ j a	c087 v229 c564 v130	1458	swed1254
+1383	English	say	seɪ	s eɪ	405	s eɪ	c087 d048	1458	stan1293
+1384	German	say	zaːɡən	z aː ɡ ə n	405	z aː g ə n	c078 v137 c824 v155 c105	1458	stan1295
+1385	Spanish	say	deθiɾ	d e θ i ɾ	408	d e θ i ɾ	c143 v200 c413 v191 c064	1458	stan1288
+1386	Danish	say	siː	s iː	405	s iː	c087 v183	1458	dani1285
+1387	Bulgarian	say	kaʒə	k a ʒ ə	409	k a ʒ ə	c831 v130 c679 v155	1458	bulg1262
+1388	Greek	say	leɣo	l e ɣ o	410	l e ɣ o	c548 v200 c774 v042	1458	mode1248
+1389	Armenian	say	ɑsɛl	ɑ s ɛ l	406	ɑ s ɛ l	v089 c087 v229 c548	1458	nucl1235
+1390	Romanian	say	ziʧe	z i ʧ e	408	z i tʃ e	c078 v191 c645 v200	1458	roma1327
+1391	Russian	say	skɐzatʲ	s k ɐ z a tʲ	409	s k ɐ z a tʲ	c087 c831 v119 c078 v130 c113	1458	russ1263
+1392	Polish	say	pɔvʲɛʥɛʨ	p ɔ vʲ ɛ ʥ ɛ ʨ	407	p ɔ vʲ ɛ dʑ ɛ tɕ	c288 v067 c429 v229 c195 v229 c198	1458	poli1260
+1393	Norwegian	say	siː	s iː	405	s iː	c087 v183	1458	norw1258
+1394	French	say	diʁ	d i ʁ	408	d i ʁ	c143 v191 c733	1458	stan1290
+1395	Czech	say	riːkat	r iː k a t	412	r iː k a t	c151 v183 c831 v130 c118	1458	czec1258
+1396	Icelandic	say	seiːja	s e iː j a	405	s e iː j a	c087 v200 v183 c564 v130	1458	icel1247
+1397	Italian	say	dire	d i r e	408	d i r e	c143 v191 c151 v200	1458	ital1282
+1398	Hindi	say	kəɦnaː	k ə ɦ n aː	411	k ə ɦ n aː	c831 v155 c397 c105 v137	1458	hind1269
+1399	Portuguese	say	dizer	d i z e r	408	d i z e r	c143 v191 c078 v200 c151	1458	port1283
+1400	Hindi	say	boːlnaː	b oː l n aː	404	b oː l n aː	c254 v035 c548 c105 v137	1458	hind1269
+1401	Dutch	see	ziːn	z iː n	414	z iː n	c078 v183 c105	1409	dutc1256
+1402	Swedish	see	seː	s eː	414	s eː	c087 v202	1409	swed1254
+1403	English	see	siː	s iː	414	s iː	c087 v183	1409	stan1293
+1404	German	see	zeːən	z eː ə n	414	z eː ə n	c078 v202 v155 c105	1409	stan1295
+1405	Spanish	see	beɾ	b e ɾ	413	b e ɾ	c254 v200 c064	1409	stan1288
+1406	Danish	see	seˀ	s eˀ	414	s eˀ	c087 v205	1409	dani1285
+1407	Bulgarian	see	viʒdəm	v i ʒ d ə m	413	v i ʒ d ə m	c446 v191 c679 c143 v155 c239	1409	bulg1262
+1408	Greek	see	vlepo	v l e p o	415	v l e p o	c446 c548 v200 c288 v042	1409	mode1248
+1409	Armenian	see	tɛsnɛl	t ɛ s n ɛ l	416	t ɛ s n ɛ l	c118 v229 c087 c105 v229 c548	1409	nucl1235
+1410	Romanian	see	vedea	v e d e a	413	v e d e a	c446 v200 c143 v200 v130	1409	roma1327
+1411	Russian	see	vʲidʲɪtʲ	vʲ i dʲ ɪ tʲ	413	vʲ i dʲ ɪ tʲ	c429 v191 c127 v219 c113	1409	russ1263
+1412	Polish	see	viʥɛʨ	v i ʥ ɛ ʨ	413	v i dʑ ɛ tɕ	c446 v191 c195 v229 c198	1409	poli1260
+1413	Norwegian	see	seː	s eː	414	s eː	c087 v202	1409	norw1258
+1414	French	see	vwaʁ	v w a ʁ	413	v w a ʁ	c446 c457 v130 c733	1409	stan1290
+1415	Czech	see	vɪdʲɛt	v ɪ dʲ ɛ t	413	v ɪ dʲ ɛ t	c446 v219 c127 v229 c118	1409	czec1258
+1416	Icelandic	see	sjauː	s j a uː	414	s j a uː	c087 c564 v130 v019	1409	icel1247
+1417	Italian	see	vedere	v e d e r e	413	v e d e r e	c446 v200 c143 v200 c151 v200	1409	ital1282
+1418	Hindi	see	deːkʰnaː	d eː kʰ n aː	417	d eː kʰ n aː	c143 v202 c813 c105 v137	1409	hind1269
+1419	Portuguese	see	ver	v e r	413	v e r	c446 v200 c151	1409	port1283
+1420	Dutch	seed	zaːt	z aː t	421	z aː t	c078 v137 c118	714	dutc1256
+1421	Swedish	seed	frøː	f r øː	420	f r øː	c447 c151 v169	714	swed1254
+1422	English	seed	siːd	s iː d	421	s iː d	c087 v183 c143	714	stan1293
+1423	German	seed	zaːmən	z aː m ə n	421	z aː m ə n	c078 v137 c239 v155 c105	714	stan1295
+1424	Spanish	seed	semiʎa	s e m i ʎ a	421	s e m i ʎ a	c087 v200 c239 v191 c582 v130	714	stan1288
+1425	Danish	seed	fʁœˀ	f ʁ œˀ	420	f ʁ œˀ	c447 c733 v246	714	dani1285
+1426	Bulgarian	seed	sɛmɛ	s ɛ m ɛ	421	s ɛ m ɛ	c087 v229 c239 v229	714	bulg1262
+1427	Greek	seed	sporos	s p o r o s	423	s p o r o s	c087 c288 v042 c151 v042 c087	714	mode1248
+1428	Armenian	seed	seɾm	s e ɾ m	-419	s e ɾ m	c087 v200 c064 c239	714	nucl1235
+1429	Romanian	seed	səmɨnʦə	s ə m ɨ n ʦ ə	421	s ə m ɨ n ts ə	c087 v155 c239 v116 c105 c015 v155	714	roma1327
+1430	Russian	seed	sʲemʲə	sʲ e mʲ ə	421	sʲ e mʲ ə	c088 v200 c240 v155	714	russ1263
+1431	Polish	seed	ɕɛmʲɛ̃	ɕ ɛ mʲ ɛ̃	421	ɕ ɛ mʲ ɛ̃	c202 v229 c240 v231	714	poli1260
+1432	Norwegian	seed	fɾøː	f ɾ øː	420	f ɾ øː	c447 c064 v169	714	norw1258
+1433	French	seed	semɑ̃s	s e m ɑ̃ s	421	s e m ɑ̃ s	c087 v200 c239 v088 c087	714	stan1290
+1434	Czech	seed	sɛmɛno	s ɛ m ɛ n o	421	s ɛ m ɛ n o	c087 v229 c239 v229 c105 v042	714	czec1258
+1435	Icelandic	seed	fraiː	f r a iː	420	f r a iː	c447 c151 v130 v183	714	icel1247
+1436	Italian	seed	seme	s e m e	421	s e m e	c087 v200 c239 v200	714	ital1282
+1437	Hindi	seed	biːʤ	b iː ʤ	418	b iː dʒ	c254 v183 c649	714	hind1269
+1438	Portuguese	seed	səmẽtə	s ə m ẽ t ə	421	s ə m ẽ t ə	c087 v155 c239 v201 c118 v155	714	port1283
+1439	French	seed	ɡʁɛn	ɡ ʁ ɛ n	422	g ʁ ɛ n	c824 c733 v229 c105	714	stan1290
+2044	Dutch	short	kɔrt	k ɔ r t	-581	k ɔ r t	c831 v067 c151 c118	1645	dutc1256
+2045	Swedish	short	kɔrt	k ɔ r t	-581	k ɔ r t	c831 v067 c151 c118	1645	swed1254
+2046	English	short	ʃɔːrt	ʃ ɔː r t	581	ʃ ɔː r t	c677 v065 c151 c118	1645	stan1293
+2047	German	short	kʊrt͡s	k ʊ r t͡s	-581	k ʊ r ts	c831 v056 c151 c015	1645	stan1295
+2048	Spanish	short	koɾto	k o ɾ t o	581	k o ɾ t o	c831 v042 c064 c118 v042	1645	stan1288
+2049	Danish	short	kɒːd	k ɒː d	-581	k ɒː d	c831 v053 c143	1645	dani1285
+2050	Bulgarian	short	kratək	k r a t ə k	581	k r a t ə k	c831 c151 v130 c118 v155 c831	1645	bulg1262
+2051	Greek	short	kondos	k o n d o s	582	k o n d o s	c831 v042 c105 c143 v042 c087	1645	mode1248
+2052	Armenian	short	kɑɾʧ	k ɑ ɾ ʧ	581	k ɑ ɾ tʃ	c831 v089 c064 c645	1645	nucl1235
+2053	Romanian	short	skurt	s k u r t	581	s k u r t	c087 c831 v027 c151 c118	1645	roma1327
+2054	Russian	short	kɐrotkʲɪj	k ɐ r o t kʲ ɪ j	581	k ɐ r o t kʲ ɪ j	c831 v119 c151 v042 c118 c830 v219 c564	1645	russ1263
+2055	Polish	short	krutki	k r u t k i	581	k r u t k i	c831 c151 v027 c118 c831 v191	1645	poli1260
+2056	Norwegian	short	kɔʈ	k ɔ ʈ	-581	k ɔ ʈ	c831 v067 c711	1645	norw1258
+2057	French	short	kuʁ	k u ʁ	581	k u ʁ	c831 v027 c733	1645	stan1290
+2058	Czech	short	kraːtkiː	k r aː t k iː	581	k r aː t k iː	c831 c151 v137 c118 c831 v183	1645	czec1258
+2059	Icelandic	short	stʏʰtʏr	s t ʏ ʰt ʏ r	578	s t ʏ ʰt ʏ r	c087 c118 v173 c836 v173 c151	1645	icel1247
+2060	Italian	short	brɛve	b r ɛ v e	577	b r ɛ v e	c254 c151 v229 c446 v200	1645	ital1282
+2061	Hindi	short	ʧʰoʈaː	ʧʰ o ʈ aː	579	tʃʰ o ʈ aː	c655 v042 c711 v137	1645	hind1269
+2062	Portuguese	short	kurtu	k u r t u	581	k u r t u	c831 v027 c151 c118 v027	1645	port1283
+2063	Spanish	short	breve	b r e v e	577	b r e v e	c254 c151 v200 c446 v200	1645	stan1288
+2064	Bulgarian	short	kɤs	k ɤ s	580	k ɤ s	c831 v084 c087	1645	bulg1262
+2065	French	short	bʁɛf	b ʁ ɛ f	577	b ʁ ɛ f	c254 c733 v229 c447	1645	stan1290
+2066	Italian	short	korto	k o r t o	581	k o r t o	c831 v042 c151 c118 v042	1645	ital1282
+2067	Portuguese	short	brɛvə	b r ɛ v ə	577	b r ɛ v ə	c254 c151 v229 c446 v155	1645	port1283
+1440	Dutch	sit	zɪtə	z ɪ t ə	424	z ɪ t ə	c078 v219 c118 v155	1416	dutc1256
+1441	Swedish	sit	sitːa	s i tː a	424	s i tː a	c087 v191 c128 v130	1416	swed1254
+1442	English	sit	sɪt	s ɪ t	424	s ɪ t	c087 v219 c118	1416	stan1293
+1443	German	sit	zɪt͡sən	z ɪ t͡s ə n	424	z ɪ ts ə n	c078 v219 c015 v155 c105	1416	stan1295
+1444	Spanish	sit	sentaðo	s e n t a ð o	424	s e n t a ð o	c087 v200 c105 c118 v130 c415 v042	1416	stan1288
+1445	Danish	sit	seðə	s e ð ə	424	s e ð ə	c087 v200 c415 v155	1416	dani1285
+1446	Bulgarian	sit	sɛdʲɤ	s ɛ dʲ ɤ	424	s ɛ dʲ ɤ	c087 v229 c127 v084	1416	bulg1262
+1447	Greek	sit	kaθome	k a θ o m e	426	k a θ o m e	c831 v130 c413 v042 c239 v200	1416	mode1248
+1448	Armenian	sit	nəstɛl	n ə s t ɛ l	424	n ə s t ɛ l	c105 v155 c087 c118 v229 c548	1416	nucl1235
+1449	Romanian	sit	ʃedea	ʃ e d e a	424	ʃ e d e a	c677 v200 c143 v200 v130	1416	roma1327
+1450	Russian	sit	sʲɪdʲetʲ	sʲ ɪ dʲ e tʲ	424	sʲ ɪ dʲ e tʲ	c088 v219 c127 v200 c113	1416	russ1263
+1451	Polish	sit	ɕɛʥɛʨ	ɕ ɛ ʥ ɛ ʨ	424	ɕ ɛ dʑ ɛ tɕ	c202 v229 c195 v229 c198	1416	poli1260
+1452	Norwegian	sit	sitə	s i t ə	424	s i t ə	c087 v191 c118 v155	1416	norw1258
+1453	French	sit	ɛtʁasi	ɛ t ʁ a s i	424	ɛ t ʁ a s i	v229 c118 c733 v130 c087 v191	1416	stan1290
+1454	Czech	sit	sɛdʲɛt	s ɛ dʲ ɛ t	424	s ɛ dʲ ɛ t	c087 v229 c127 v229 c118	1416	czec1258
+1455	Icelandic	sit	sɪːtja	s ɪː t j a	424	s ɪː t j a	c087 v221 c118 c564 v130	1416	icel1247
+1456	Italian	sit	sedere	s e d e r e	424	s e d e r e	c087 v200 c143 v200 c151 v200	1416	ital1282
+1457	Hindi	sit	bɛːʈʰnaː	b ɛː ʈʰ n aː	425	b ɛː ʈʰ n aː	c254 v225 c719 c105 v137	1416	hind1269
+1458	Portuguese	sit	sẽtar	s ẽ t a r	424	s ẽ t a r	c087 v201 c118 v130 c151	1416	port1283
+1459	Dutch	skin	vɛl	v ɛ l	427	v ɛ l	c446 v229 c548	763	dutc1256
+1460	Swedish	skin	ɧinː	ɧ i nː	433	ɧ i nː	c613 v191 c104	763	swed1254
+1461	English	skin	skɪn	s k ɪ n	-433	s k ɪ n	c087 c831 v219 c105	763	stan1293
+1462	German	skin	haut	h au t	432	h au t	c401 d026 c118	763	stan1295
+1463	Spanish	skin	pjel	p j e l	427	p j e l	c288 c564 v200 c548	763	stan1288
+1464	Danish	skin	huðˀ	h u ðˀ	432	h u ðˀ	c401 v027 c839	763	dani1285
+1465	Bulgarian	skin	kɔʒə	k ɔ ʒ ə	429	k ɔ ʒ ə	c831 v067 c679 v155	763	bulg1262
+1466	Greek	skin	ðerma	ð e r m a	428	ð e r m a	c415 v200 c151 c239 v130	763	mode1248
+1467	Armenian	skin	mɑʃk	m ɑ ʃ k	-431	m ɑ ʃ k	c239 v089 c677 c831	763	nucl1235
+1468	Romanian	skin	pjele	p j e l e	427	p j e l e	c288 c564 v200 c548 v200	763	roma1327
+1469	Russian	skin	koʒə	k o ʒ ə	429	k o ʒ ə	c831 v042 c679 v155	763	russ1263
+1470	Polish	skin	skura	s k u r a	430	s k u r a	c087 c831 v027 c151 v130	763	poli1260
+1471	Norwegian	skin	hʉːd	h ʉː d	432	h ʉː d	c401 v100 c143	763	norw1258
+1472	French	skin	po	p o	427	p o	c288 v042	763	stan1290
+1473	Czech	skin	kuːʒɛ	k uː ʒ ɛ	429	k uː ʒ ɛ	c831 v019 c679 v229	763	czec1258
+1474	Icelandic	skin	huːð	h uː ð	432	h uː ð	c401 v019 c415	763	icel1247
+1475	Italian	skin	pɛlle	p ɛ lː e	427	p ɛ lː e	c288 v229 c539 v200	763	ital1282
+1476	Hindi	skin	ʧəməɽiː	ʧ ə m ə ɽ iː	430	tʃ ə m ə ɽ iː	c645 v155 c239 v155 c697 v183	763	hind1269
+1477	Portuguese	skin	pɛlə	p ɛ l ə	427	p ɛ l ə	c288 v229 c548 v155	763	port1283
+1478	Dutch	skin	hœyt	h œi t	432	h œi t	c401 d042 c118	763	dutc1256
+1479	Swedish	skin	huːd	h uː d	432	h uː d	c401 v019 c143	763	swed1254
+1480	Icelandic	skin	scɪnː	s c ɪ nː	433	s c ɪ nː	c087 c600 v219 c104	763	icel1247
+1481	Portuguese	skin	koru	k o r u	430	k o r u	c831 v042 c151 v027	763	port1283
+1482	Dutch	sleep	slaːpə	s l aː p ə	436	s l aː p ə	c087 c548 v137 c288 v155	1585	dutc1256
+1483	Swedish	sleep	soːva	s oː v a	435	s oː v a	c087 v035 c446 v130	1585	swed1254
+1484	English	sleep	sliːp	s l iː p	436	s l iː p	c087 c548 v183 c288	1585	stan1293
+1485	German	sleep	ʃlaːfən	ʃ l aː f ə n	436	ʃ l aː f ə n	c677 c548 v137 c447 v155 c105	1585	stan1295
+1486	Spanish	sleep	doɾmiɾ	d o ɾ m i ɾ	437	d o ɾ m i ɾ	c143 v042 c064 c239 v191 c064	1585	stan1288
+1487	Danish	sleep	sɒwə	s ɒ w ə	435	s ɒ w ə	c087 v052 c457 v155	1585	dani1285
+1488	Bulgarian	sleep	spa	s p a	435	s p a	c087 c288 v130	1585	bulg1262
+1489	Greek	sleep	cimume	c i m u m e	434	c i m u m e	c600 v191 c239 v027 c239 v200	1585	mode1248
+1490	Armenian	sleep	kʰənɛl	kʰ ə n ɛ l	435	kʰ ə n ɛ l	c813 v155 c105 v229 c548	1585	nucl1235
+1491	Romanian	sleep	dormi	d o r m i	437	d o r m i	c143 v042 c151 c239 v191	1585	roma1327
+1492	Russian	sleep	spatʲ	s p a tʲ	435	s p a tʲ	c087 c288 v130 c113	1585	russ1263
+1493	Polish	sleep	spaʨ	s p a ʨ	435	s p a tɕ	c087 c288 v130 c198	1585	poli1260
+1494	Norwegian	sleep	soːʋə	s oː ʋ ə	435	s oː ʋ ə	c087 v035 c424 v155	1585	norw1258
+1495	French	sleep	dɔʁmiʁ	d ɔ ʁ m i ʁ	437	d ɔ ʁ m i ʁ	c143 v067 c733 c239 v191 c733	1585	stan1290
+1496	Czech	sleep	spaːt	s p aː t	435	s p aː t	c087 c288 v137 c118	1585	czec1258
+1497	Icelandic	sleep	sɔːva	s ɔː v a	435	s ɔː v a	c087 v065 c446 v130	1585	icel1247
+1498	Italian	sleep	dormire	d o r m i r e	437	d o r m i r e	c143 v042 c151 c239 v191 c151 v200	1585	ital1282
+1499	Hindi	sleep	sɔːnaː	s ɔː n aː	435	s ɔː n aː	c087 v065 c105 v137	1585	hind1269
+1500	Portuguese	sleep	durmir	d u r m i r	437	d u r m i r	c143 v027 c151 c239 v191 c151	1585	port1283
+1501	Dutch	small	klɛɪn	k l ɛɪ n	445	k l ɛi n	c831 c548 d059 c105	1246	dutc1256
+1502	Swedish	small	liːten	l iː t e n	439	l iː t e n	c548 v183 c118 v200 c105	1246	swed1254
+1503	English	small	smɔːl	s m ɔː l	441	s m ɔː l	c087 c239 v065 c548	1246	stan1293
+1504	German	small	klain	k l ai n	445	k l ai n	c831 c548 d030 c105	1246	stan1295
+1505	Spanish	small	pekeɲo	p e k e ɲ o	440	p e k e ɲ o	c288 v200 c831 v200 c589 v042	1246	stan1288
+1506	Danish	small	lilə	l i l ə	439	l i l ə	c548 v191 c548 v155	1246	dani1285
+1507	Bulgarian	small	malək	m a l ə k	441	m a l ə k	c239 v130 c548 v155 c831	1246	bulg1262
+1508	Greek	small	mikros	m i k r o s	438	m i k r o s	c239 v191 c831 c151 v042 c087	1246	mode1248
+1509	Armenian	small	pʰokʰəɾ	pʰ o kʰ ə ɾ	440	pʰ o kʰ ə ɾ	c261 v042 c813 v155 c064	1246	nucl1235
+1510	Romanian	small	mik	m i k	-444	m i k	c239 v191 c831	1246	roma1327
+1511	Russian	small	malʲɪnʲkʲɪj	m a lʲ ɪ nʲ kʲ ɪ j	441	m a lʲ ɪ nʲ kʲ ɪ j	c239 v130 c540 v219 c099 c830 v219 c564	1246	russ1263
+1512	Polish	small	mawɨ	m a w ɨ	441	m a w ɨ	c239 v130 c457 v116	1246	poli1260
+1513	Norwegian	small	liːtən	l iː t ə n	439	l iː t ə n	c548 v183 c118 v155 c105	1246	norw1258
+1514	French	small	pəti	p ə t i	442	p ə t i	c288 v155 c118 v191	1246	stan1290
+1515	Czech	small	maliː	m a l iː	441	m a l iː	c239 v130 c548 v183	1246	czec1258
+1516	Icelandic	small	liːtɪt͡l	l iː t ɪ t͡l	439	l iː t ɪ tl	c548 v183 c118 v219 c559	1246	icel1247
+1517	Italian	small	pikkolo	p i kː o l o	440	p i kː o l o	c288 v191 c825 v042 c548 v042	1246	ital1282
+1518	Hindi	small	ʧɔːʈaː	ʧ ɔː ʈ aː	443	tʃ ɔː ʈ aː	c645 v065 c711 v137	1246	hind1269
+1519	Portuguese	small	pəkenu	p ə k e n u	440	p ə k e n u	c288 v155 c831 v200 c105 v027	1246	port1283
+1520	Swedish	small	smoː	s m oː	441	s m oː	c087 c239 v035	1246	swed1254
+1521	English	small	lɪtḷ	l ɪ t ḷ	439	l ɪ t l̩	c548 v219 c118 c537	1246	stan1293
+1522	Danish	small	liːðən	l iː ð ə n	439	l iː ð ə n	c548 v183 c415 v155 c105	1246	dani1285
+1523	Icelandic	small	smauːr	s m a uː r	441	s m a uː r	c087 c239 v130 v019 c151	1246	icel1247
+1524	Dutch	smoke	roːk	r oː k	449	r oː k	c151 v035 c831	778	dutc1256
+1525	Swedish	smoke	røk	r ø k	449	r ø k	c151 v171 c831	778	swed1254
+1526	English	smoke	sməʊk	s m əʊ k	448	s m əu k	c087 c239 d029 c831	778	stan1293
+1527	German	smoke	raux	r au x	449	r au x	c151 d026 c772	778	stan1295
+1528	Spanish	smoke	umo	u m o	446	u m o	v027 c239 v042	778	stan1288
+1529	Danish	smoke	ʁʌjˀ	ʁ ʌ jˀ	449	ʁ ʌ jˀ	c733 v097 c566	778	dani1285
+1530	Bulgarian	smoke	dim	d i m	446	d i m	c143 v191 c239	778	bulg1262
+1531	Greek	smoke	kapnos	k a p n o s	447	k a p n o s	c831 v130 c288 c105 v042 c087	778	mode1248
+1532	Romanian	smoke	fum	f u m	446	f u m	c447 v027 c239	778	roma1327
+1533	Russian	smoke	dɨm	d ɨ m	446	d ɨ m	c143 v116 c239	778	russ1263
+1534	Polish	smoke	dɨm	d ɨ m	446	d ɨ m	c143 v116 c239	778	poli1260
+1535	Norwegian	smoke	ɾœjk	ɾ œ j k	449	ɾ œ j k	c064 v178 c564 c831	778	norw1258
+1536	French	smoke	fyme	f y m e	446	f y m e	c447 v166 c239 v200	778	stan1290
+1537	Czech	smoke	diːm	d iː m	446	d iː m	c143 v183 c239	778	czec1258
+1538	Icelandic	smoke	reiːkʏr	r e iː k ʏ r	449	r e iː k ʏ r	c151 v200 v183 c831 v173 c151	778	icel1247
+1539	Italian	smoke	fumo	f u m o	446	f u m o	c447 v027 c239 v042	778	ital1282
+1540	Hindi	smoke	dʱʊãː	d̤ ʊ ãː	446	d̤ ʊ ãː	c117 v056 v125	778	hind1269
+1541	Portuguese	smoke	fumu	f u m u	446	f u m u	c447 v027 c239 v027	778	port1283
+2068	Dutch	snake	slɑŋ	s l ɑ ŋ	585	s l ɑ ŋ	c087 c548 v089 c795	730	dutc1256
+2069	Swedish	snake	orːm	o rː m	590	o rː m	v042 c160 c239	730	swed1254
+2070	English	snake	sneɪk	s n eɪ k	588	s n eɪ k	c087 c105 d048 c831	730	stan1293
+2071	German	snake	ʃlaŋə	ʃ l a ŋ ə	585	ʃ l a ŋ ə	c677 c548 v130 c795 v155	730	stan1295
+2072	Spanish	snake	kulevra	k u l e v r a	583	k u l e v r a	c831 v027 c548 v200 c446 c151 v130	730	stan1288
+2073	Danish	snake	slɑŋə	s l ɑ ŋ ə	585	s l ɑ ŋ ə	c087 c548 v089 c795 v155	730	dani1285
+2074	Bulgarian	snake	zmija	z m i j a	584	z m i j a	c078 c239 v191 c564 v130	730	bulg1262
+2075	Greek	snake	fiði	f i ð i	586	f i ð i	c447 v191 c415 v191	730	mode1248
+2076	Armenian	snake	oʦʰ	o ʦʰ	586	o tsʰ	v042 c013	730	nucl1235
+2077	Romanian	snake	ʃarpe	ʃ a r p e	589	ʃ a r p e	c677 v130 c151 c288 v200	730	roma1327
+2078	Russian	snake	zmʲɪja	z mʲ ɪ j a	584	z mʲ ɪ j a	c078 c240 v219 c564 v130	730	russ1263
+2079	Polish	snake	ʒmija	ʒ m i j a	584	ʒ m i j a	c679 c239 v191 c564 v130	730	poli1260
+2080	Norwegian	snake	ɔɾm	ɔ ɾ m	590	ɔ ɾ m	v067 c064 c239	730	norw1258
+2081	French	snake	sɛʁpɑ̃	s ɛ ʁ p ɑ̃	589	s ɛ ʁ p ɑ̃	c087 v229 c733 c288 v088	730	stan1290
+2082	Czech	snake	ɦat	ɦ a t	591	ɦ a t	c397 v130 c118	730	czec1258
+2083	Icelandic	snake	st͡lauŋka	s t͡l au ŋ k a	585	s tl au ŋ k a	c087 c559 d026 c795 c831 v130	730	icel1247
+2084	Italian	snake	sɛrpɛnte	s ɛ r p ɛ n t e	589	s ɛ r p ɛ n t e	c087 v229 c151 c288 v229 c105 c118 v200	730	ital1282
+2085	Hindi	snake	sãːp	s ãː p	589	s ãː p	c087 v125 c288	730	hind1269
+2086	Portuguese	snake	sərpẽtə	s ə r p ẽ t ə	589	s ə r p ẽ t ə	c087 v155 c151 c288 v201 c118 v155	730	port1283
+2087	Spanish	snake	seɾpjente	s e ɾ p j e n t e	589	s e ɾ p j e n t e	c087 v200 c064 c288 c564 v200 c105 c118 v200	730	stan1288
+2088	Polish	snake	vɔ̃ʒ	v ɔ̃ ʒ	587	v ɔ̃ ʒ	c446 v066 c679	730	poli1260
+2089	Norwegian	snake	ʃlɑŋə	ʃ l ɑ ŋ ə	585	ʃ l ɑ ŋ ə	c677 c548 v089 c795 v155	730	norw1258
+2090	Portuguese	snake	kɔbrɐ	k ɔ b r ɐ	583	k ɔ b r ɐ	c831 v067 c254 c151 v119	730	port1283
+1542	Dutch	stand	staːn	s t aː n	451	s t aː n	c087 c118 v137 c105	1442	dutc1256
+1543	Swedish	stand	stoː	s t oː	451	s t oː	c087 c118 v035	1442	swed1254
+1544	English	stand	stænd	s t æ n d	451	s t æ n d	c087 c118 v198 c105 c143	1442	stan1293
+1545	German	stand	ʃteːən	ʃ t eː ə n	451	ʃ t eː ə n	c677 c118 v202 v155 c105	1442	stan1295
+1546	Danish	stand	sdɔˀ	s d ɔˀ	451	s d ɔˀ	c087 c143 v064	1442	dani1285
+1547	Bulgarian	stand	stɔjə	s t ɔ j ə	451	s t ɔ j ə	c087 c118 v067 c564 v155	1442	bulg1262
+1548	Greek	stand	stekome	s t e k o m e	451	s t e k o m e	c087 c118 v200 c831 v042 c239 v200	1442	mode1248
+1549	Armenian	stand	kɑngnɛl	k ɑ n g n ɛ l	450	k ɑ n g n ɛ l	c831 v089 c105 c824 c105 v229 c548	1442	nucl1235
+1550	Romanian	stand	sta	s t a	451	s t a	c087 c118 v130	1442	roma1327
+1551	Russian	stand	stɐjatʲ	s t ɐ j a tʲ	451	s t ɐ j a tʲ	c087 c118 v119 c564 v130 c113	1442	russ1263
+1552	Polish	stand	staʨ	s t a ʨ	451	s t a tɕ	c087 c118 v130 c198	1442	poli1260
+1553	Norwegian	stand	stoː	s t oː	451	s t oː	c087 c118 v035	1442	norw1258
+1554	Czech	stand	staːt	s t aː t	451	s t aː t	c087 c118 v137 c118	1442	czec1258
+1555	Icelandic	stand	stanta	s t a n t a	451	s t a n t a	c087 c118 v130 c105 c118 v130	1442	icel1247
+1556	Italian	stand	stare	s t a r e	451	s t a r e	c087 c118 v130 c151 v200	1442	ital1282
+1557	Hindi	stand	kʰaɽaː	kʰ a ɽ aː	452	kʰ a ɽ aː	c813 v130 c697 v137	1442	hind1269
+1558	Dutch	star	stɛr	s t ɛ r	454	s t ɛ r	c087 c118 v229 c151	1430	dutc1256
+1559	Swedish	star	ɧɛːrna	ɧ ɛː r n a	454	ɧ ɛː r n a	c613 v225 c151 c105 v130	1430	swed1254
+1560	English	star	stɑːr	s t ɑː r	454	s t ɑː r	c087 c118 v091 c151	1430	stan1293
+1561	German	star	ʃtɛrn	ʃ t ɛ r n	454	ʃ t ɛ r n	c677 c118 v229 c151 c105	1430	stan1295
+1562	Spanish	star	estɾeʎa	e s t ɾ e ʎ a	454	e s t ɾ e ʎ a	v200 c087 c118 c064 v200 c582 v130	1430	stan1288
+1563	Danish	star	sdjæʁnə	s d j æ ʁ n ə	454	s d j æ ʁ n ə	c087 c143 c564 v198 c733 c105 v155	1430	dani1285
+1564	Bulgarian	star	zvɛzda	z v ɛ z d a	453	z v ɛ z d a	c078 c446 v229 c078 c143 v130	1430	bulg1262
+1565	Greek	star	asteri	a s t e r i	454	a s t e r i	v130 c087 c118 v200 c151 v191	1430	mode1248
+1566	Armenian	star	ɑstəʁ	ɑ s t ə ʁ	454	ɑ s t ə ʁ	v089 c087 c118 v155 c733	1430	nucl1235
+1567	Romanian	star	stea	s t e a	454	s t e a	c087 c118 v200 v130	1430	roma1327
+1568	Russian	star	zvʲɪzda	z vʲ ɪ z d a	453	z vʲ ɪ z d a	c078 c429 v219 c078 c143 v130	1430	russ1263
+1569	Polish	star	ɡvʲazda	ɡ vʲ a z d a	453	g vʲ a z d a	c824 c429 v130 c078 c143 v130	1430	poli1260
+1570	Norwegian	star	stjæːɳə	s t j æː ɳ ə	454	s t j æː ɳ ə	c087 c118 c564 v199 c705 v155	1430	norw1258
+1571	French	star	etwal	e t w a l	454	e t w a l	v200 c118 c457 v130 c548	1430	stan1290
+1572	Czech	star	ɦvʲɛzda	ɦ vʲ ɛ z d a	453	ɦ vʲ ɛ z d a	c397 c429 v229 c078 c143 v130	1430	czec1258
+1573	Icelandic	star	stjart͡na	s t j a r t͡n a	454	s t j a r n̥ a	c087 c118 c564 v130 c151 c093 v130	1430	icel1247
+1574	Italian	star	stella	s t e lː a	454	s t e lː a	c087 c118 v200 c539 v130	1430	ital1282
+1575	Hindi	star	taːraː	t aː r aː	454	t aː r aː	c118 v137 c151 v137	1430	hind1269
+1576	Portuguese	star	əʃtrelɐ	ə ʃ t r e l ɐ	454	ə ʃ t r e l ɐ	v155 c677 c118 c151 v200 c548 v119	1430	port1283
+1577	Dutch	stone	steːn	s t eː n	458	s t eː n	c087 c118 v202 c105	857	dutc1256
+1578	Swedish	stone	steːn	s t eː n	458	s t eː n	c087 c118 v202 c105	857	swed1254
+1579	English	stone	stəʊn	s t əʊ n	458	s t əu n	c087 c118 d029 c105	857	stan1293
+1580	German	stone	ʃtain	ʃ t ai n	458	ʃ t ai n	c677 c118 d030 c105	857	stan1295
+1581	Spanish	stone	pjeðɾa	p j e ð ɾ a	455	p j e ð ɾ a	c288 c564 v200 c415 c064 v130	857	stan1288
+1582	Danish	stone	sdeˀn	s d eˀ n	458	s d eˀ n	c087 c143 v205 c105	857	dani1285
+1583	Bulgarian	stone	kamək	k a m ə k	459	k a m ə k	c831 v130 c239 v155 c831	857	bulg1262
+1584	Greek	stone	petra	p e t r a	460	p e t r a	c288 v200 c118 c151 v130	857	mode1248
+1585	Armenian	stone	kʰɑɾ	kʰ ɑ ɾ	461	kʰ ɑ ɾ	c813 v089 c064	857	nucl1235
+1586	Romanian	stone	pjatrə	p j a t r ə	455	p j a t r ə	c288 c564 v130 c118 c151 v155	857	roma1327
+1587	Russian	stone	kamʲɪnʲ	k a mʲ ɪ nʲ	459	k a mʲ ɪ nʲ	c831 v130 c240 v219 c099	857	russ1263
+1588	Polish	stone	kamʲɛɲ	k a mʲ ɛ ɲ	459	k a mʲ ɛ ɲ	c831 v130 c240 v229 c589	857	poli1260
+1589	Norwegian	stone	stæjn	s t æ j n	458	s t æ j n	c087 c118 v198 c564 c105	857	norw1258
+1590	French	stone	pjɛʁ	p j ɛ ʁ	455	p j ɛ ʁ	c288 c564 v229 c733	857	stan1290
+1591	Czech	stone	kaːmɛn	k aː m ɛ n	459	k aː m ɛ n	c831 v137 c239 v229 c105	857	czec1258
+1592	Icelandic	stone	steit͡n	s t ei t͡n	458	s t ei n̥	c087 c118 d047 c093	857	icel1247
+1593	Italian	stone	sasso	s a sː o	456	s a sː o	c087 v130 c070 v042	857	ital1282
+1594	Hindi	stone	pətʰːər	p ə tʰː ə r	457	p ə tːʰ ə r	c288 v155 c843 v155 c151	857	hind1269
+1595	Portuguese	stone	pɛdrɐ	p ɛ d r ɐ	455	p ɛ d r ɐ	c288 v229 c143 c151 v119	857	port1283
+1596	Dutch	sun	zɔn	z ɔ n	463	z ɔ n	c078 v067 c105	1343	dutc1256
+1597	Swedish	sun	soːl	s oː l	463	s oː l	c087 v035 c548	1343	swed1254
+1598	English	sun	sʌn	s ʌ n	463	s ʌ n	c087 v097 c105	1343	stan1293
+1599	German	sun	zɔnə	z ɔ n ə	463	z ɔ n ə	c078 v067 c105 v155	1343	stan1295
+1600	Spanish	sun	sol	s o l	463	s o l	c087 v042 c548	1343	stan1288
+1601	Danish	sun	soˀl	s oˀ l	463	s oˀ l	c087 v048 c548	1343	dani1285
+1602	Bulgarian	sun	slɤnʦɛ	s l ɤ n ʦ ɛ	463	s l ɤ n ts ɛ	c087 c548 v084 c105 c015 v229	1343	bulg1262
+1603	Greek	sun	iʎos	i ʎ o s	463	i ʎ o s	v191 c582 v042 c087	1343	mode1248
+1604	Armenian	sun	ɑɾɛv	ɑ ɾ ɛ v	462	ɑ ɾ ɛ v	v089 c064 v229 c446	1343	nucl1235
+1605	Romanian	sun	sware	s w a r e	463	s w a r e	c087 c457 v130 c151 v200	1343	roma1327
+1606	Russian	sun	sonʦə	s o n ʦ ə	463	s o n ts ə	c087 v042 c105 c015 v155	1343	russ1263
+1607	Polish	sun	swɔnʲʦɛ	s w ɔ nʲ ʦ ɛ	463	s w ɔ nʲ ts ɛ	c087 c457 v067 c099 c015 v229	1343	poli1260
+1608	Norwegian	sun	suːl	s uː l	463	s uː l	c087 v019 c548	1343	norw1258
+1609	French	sun	sɔlɛj	s ɔ l ɛ j	463	s ɔ l ɛ j	c087 v067 c548 v229 c564	1343	stan1290
+1610	Czech	sun	slʊnʦɛ	s l ʊ n ʦ ɛ	463	s l ʊ n ts ɛ	c087 c548 v056 c105 c015 v229	1343	czec1258
+1611	Icelandic	sun	souːl	s o uː l	463	s o uː l	c087 v042 v019 c548	1343	icel1247
+1612	Italian	sun	sole	s o l e	463	s o l e	c087 v042 c548 v200	1343	ital1282
+1613	Hindi	sun	suːrəʤ	s uː r ə ʤ	463	s uː r ə dʒ	c087 v019 c151 v155 c649	1343	hind1269
+1614	Portuguese	sun	sɔl	s ɔ l	463	s ɔ l	c087 v067 c548	1343	port1283
+1615	Dutch	swim	zʋɛmə	z ʋ ɛ m ə	465	z ʋ ɛ m ə	c078 c424 v229 c239 v155	1439	dutc1256
+1616	Swedish	swim	simːa	s i mː a	465	s i mː a	c087 v191 c242 v130	1439	swed1254
+1617	English	swim	sʋɪm	s ʋ ɪ m	465	s ʋ ɪ m	c087 c424 v219 c239	1439	stan1293
+1618	German	swim	ʃvɪmən	ʃ v ɪ m ə n	465	ʃ v ɪ m ə n	c677 c446 v219 c239 v155 c105	1439	stan1295
+1619	Spanish	swim	naðaɾ	n a ð a ɾ	466	n a ð a ɾ	c105 v130 c415 v130 c064	1439	stan1288
+1620	Danish	swim	svœmə	s v œ m ə	465	s v œ m ə	c087 c446 v178 c239 v155	1439	dani1285
+1621	Bulgarian	swim	pluvəm	p l u v ə m	467	p l u v ə m	c288 c548 v027 c446 v155 c239	1439	bulg1262
+1622	Greek	swim	kolimbo	k o l i m b o	469	k o l i m b o	c831 v042 c548 v191 c239 c254 v042	1439	mode1248
+1623	Armenian	swim	loʁɑl	l o ʁ ɑ l	467	l o ʁ ɑ l	c548 v042 c733 v089 c548	1439	nucl1235
+1624	Romanian	swim	ɨnota	ɨ n o t a	466	ɨ n o t a	v116 c105 v042 c118 v130	1439	roma1327
+1625	Russian	swim	plɨtʲ	p l ɨ tʲ	467	p l ɨ tʲ	c288 c548 v116 c113	1439	russ1263
+1626	Polish	swim	pwɨvaʨ	p w ɨ v a ʨ	467	p w ɨ v a tɕ	c288 c457 v116 c446 v130 c198	1439	poli1260
+1627	Norwegian	swim	sʋœmə	s ʋ œ m ə	465	s ʋ œ m ə	c087 c424 v178 c239 v155	1439	norw1258
+1628	French	swim	naʒe	n a ʒ e	464	n a ʒ e	c105 v130 c679 v200	1439	stan1290
+1629	Czech	swim	plavat	p l a v a t	467	p l a v a t	c288 c548 v130 c446 v130 c118	1439	czec1258
+1630	Icelandic	swim	synta	s y n t a	468	s y n t a	c087 v166 c105 c118 v130	1439	icel1247
+1631	Italian	swim	nwotare	n w o t a r e	466	n w o t a r e	c105 c457 v042 c118 v130 c151 v200	1439	ital1282
+1632	Hindi	swim	tɛːrnaː	t ɛː r n aː	470	t ɛː r n aː	c118 v225 c151 c105 v137	1439	hind1269
+1633	Portuguese	swim	nɐdar	n ɐ d a r	466	n ɐ d a r	c105 v119 c143 v130 c151	1439	port1283
+1634	Dutch	tail	staːrt	s t aː r t	473	s t aː r t	c087 c118 v137 c151 c118	1220	dutc1256
+1635	Swedish	tail	ɧɛrt	ɧ ɛ r t	473	ɧ ɛ r t	c613 v229 c151 c118	1220	swed1254
+1636	English	tail	teɪl	t eɪ l	484	t eɪ l	c118 d048 c548	1220	stan1293
+1637	German	tail	ʃvant͡s	ʃ v a n t͡s	478	ʃ v a n ts	c677 c446 v130 c105 c015	1220	stan1295
+1638	Spanish	tail	kola	k o l a	471	k o l a	c831 v042 c548 v130	1220	stan1288
+1639	Danish	tail	hæːlə	h æː l ə	482	h æː l ə	c401 v199 c548 v155	1220	dani1285
+1640	Bulgarian	tail	opaʃkə	o p a ʃ k ə	476	o p a ʃ k ə	v042 c288 v130 c677 c831 v155	1220	bulg1262
+1641	Greek	tail	ura	u r a	475	u r a	v027 c151 v130	1220	mode1248
+1642	Armenian	tail	poʧʰ	p o ʧʰ	474	p o tʃʰ	c288 v042 c655	1220	nucl1235
+1643	Romanian	tail	kwadə	k w a d ə	471	k w a d ə	c831 c457 v130 c143 v155	1220	roma1327
+1644	Russian	tail	xvost	x v o s t	479	x v o s t	c772 c446 v042 c087 c118	1220	russ1263
+1645	Polish	tail	ɔɡɔn	ɔ ɡ ɔ n	483	ɔ g ɔ n	v067 c824 v067 c105	1220	poli1260
+1646	Norwegian	tail	hɑːlə	h ɑː l ə	482	h ɑː l ə	c401 v091 c548 v155	1220	norw1258
+1647	French	tail	kø	k ø	471	k ø	c831 v171	1220	stan1290
+1648	Czech	tail	oʦas	o ʦ a s	481	o ts a s	v042 c015 v130 c087	1220	czec1258
+1649	Icelandic	tail	haːlɪ	h aː l ɪ	482	h aː l ɪ	c401 v137 c548 v219	1220	icel1247
+1650	Italian	tail	koda	k o d a	471	k o d a	c831 v042 c143 v130	1220	ital1282
+1651	Hindi	tail	puːʧʰ	p uː ʧʰ	472	p uː tʃʰ	c288 v019 c655	1220	hind1269
+1652	Portuguese	tail	kawdɐ	k a w d ɐ	471	k a w d ɐ	c831 v130 c457 c143 v119	1220	port1283
+1653	Spanish	tail	ravo	r a v o	480	r a v o	c151 v130 c446 v042	1220	stan1288
+1654	Icelandic	tail	skɔʰt	s k ɔ ʰt	477	s k ɔ ʰt	c087 c831 v067 c836	1220	icel1247
+1655	Portuguese	tail	ʀabu	ʀ a b u	480	ʀ a b u	c761 v130 c254 v027	1220	port1283
+1656	Dutch	that	diː	d iː	487	d iː	c143 v183	78	dutc1256
+1657	Swedish	that	də	d ə	487	d ə	c143 v155	78	swed1254
+1658	English	that	ðæt	ð æ t	487	ð æ t	c415 v198 c118	78	stan1293
+1659	German	that	jeːnər	j eː n ə r	489	j eː n ə r	c564 v202 c105 v155 c151	78	stan1295
+1660	Spanish	that	akel	a k e l	486	a k e l	v130 c831 v200 c548	78	stan1288
+1661	Danish	that	de	d e	487	d e	c143 v200	78	dani1285
+1662	Bulgarian	that	ɔnzi	ɔ n z i	485	ɔ n z i	v067 c105 c078 v191	78	bulg1262
+1663	Greek	that	ecino	e c i n o	486	e c i n o	v200 c600 v191 c105 v042	78	mode1248
+1664	Armenian	that	ɑɪ̯n	ɑɪ n	485	ɑɪ n	d065 c105	78	nucl1235
+1665	Romanian	that	aʧel	a ʧ e l	486	a tʃ e l	v130 c645 v200 c548	78	roma1327
+1666	Russian	that	to	t o	487	t o	c118 v042	78	russ1263
+1667	Polish	that	tamtɔ	t a m t ɔ	487	t a m t ɔ	c118 v130 c239 c118 v067	78	poli1260
+1668	Norwegian	that	deː	d eː	487	d eː	c143 v202	78	norw1258
+1669	French	that	səla	s ə l a	486	s ə l a	c087 v155 c548 v130	78	stan1290
+1670	Czech	that	tamto	t a m t o	487	t a m t o	c118 v130 c239 c118 v042	78	czec1258
+1671	Icelandic	that	θɛsːɪ	θ ɛ sː ɪ	487	θ ɛ sː ɪ	c413 v229 c070 v219	78	icel1247
+1672	Italian	that	kwello	k w e lː o	486	k w e lː o	c831 c457 v200 c539 v042	78	ital1282
+1673	Hindi	that	və	v ə	490	v ə	c446 v155	78	hind1269
+1674	Portuguese	that	ɐkelə	ɐ k e l ə	486	ɐ k e l ə	v119 c831 v200 c548 v155	78	port1283
+1675	Danish	that	hiˀn	h iˀ n	486	h iˀ n	c401 v190 c105	78	dani1285
+1676	Icelandic	that	sauː	s a uː	488	s a uː	c087 v130 v019	78	icel1247
+2091	Dutch	thin	fɛɪn	f ɛɪ n	-599	f ɛi n	c447 d059 c105	1400	dutc1256
+2092	Swedish	thin	smal	s m a l	596	s m a l	c087 c239 v130 c548	1400	swed1254
+2093	English	thin	θɪn	θ ɪ n	601	θ ɪ n	c413 v219 c105	1400	stan1293
+2094	German	thin	dʏn	d ʏ n	601	d ʏ n	c143 v173 c105	1400	stan1295
+2095	Spanish	thin	delɣaðo	d e l ɣ a ð o	593	d e l ɣ a ð o	c143 v200 c548 c774 v130 c415 v042	1400	stan1288
+2096	Danish	thin	tønˀ	t ø nˀ	601	t ø nˀ	c118 v171 c094	1400	dani1285
+2097	Bulgarian	thin	tɤnək	t ɤ n ə k	601	t ɤ n ə k	c118 v084 c105 v155 c831	1400	bulg1262
+2098	Greek	thin	leptos	l e p t o s	597	l e p t o s	c548 v200 c288 c118 v042 c087	1400	mode1248
+2099	Armenian	thin	bɑɾɑk	b ɑ ɾ ɑ k	-594	b ɑ ɾ ɑ k	c254 v089 c064 v089 c831	1400	nucl1235
+2100	Romanian	thin	subʦire	s u b ʦ i r e	598	s u b ts i r e	c087 v027 c254 c015 v191 c151 v200	1400	roma1327
+2101	Russian	thin	tonkʲɪj	t o n kʲ ɪ j	601	t o n kʲ ɪ j	c118 v042 c105 c830 v219 c564	1400	russ1263
+2102	Polish	thin	ʨɛ̃nki	ʨ ɛ̃ n k i	601	tɕ ɛ̃ n k i	c198 v231 c105 c831 v191	1400	poli1260
+2103	Norwegian	thin	tyn	t y n	601	t y n	c118 v166 c105	1400	norw1258
+2104	French	thin	mɛ̃s	m ɛ̃ s	600	m ɛ̃ s	c239 v231 c087	1400	stan1290
+2105	Czech	thin	tɛŋkiː	t ɛ ŋ k iː	601	t ɛ ŋ k iː	c118 v229 c795 c831 v183	1400	czec1258
+2106	Icelandic	thin	θʏnːʏr	θ ʏ nː ʏ r	601	θ ʏ nː ʏ r	c413 v173 c104 v173 c151	1400	icel1247
+2107	Italian	thin	fine	f i n e	592	f i n e	c447 v191 c105 v200	1400	ital1282
+2108	Hindi	thin	pətlaː	p ə t l aː	595	p ə t l aː	c288 v155 c118 c548 v137	1400	hind1269
+2109	Portuguese	thin	finu	f i n u	592	f i n u	c447 v191 c105 v027	1400	port1283
+2110	Dutch	thin	dʉn	d ʉ n	601	d ʉ n	c143 v102 c105	1400	dutc1256
+2111	Swedish	thin	tunː	t u nː	601	t u nː	c118 v027 c104	1400	swed1254
+2112	Spanish	thin	sutil	s u t i l	598	s u t i l	c087 v027 c118 v191 c548	1400	stan1288
+2113	Danish	thin	smalˀ	s m a lˀ	596	s m a lˀ	c087 c239 v130 c550	1400	dani1285
+2114	Romanian	thin	fin	f i n	592	f i n	c447 v191 c105	1400	roma1327
+2115	Norwegian	thin	smɑːl	s m ɑː l	596	s m ɑː l	c087 c239 v091 c548	1400	norw1258
+2116	Italian	thin	sottile	s o tː i l e	598	s o tː i l e	c087 v042 c128 v191 c548 v200	1400	ital1282
+2117	Portuguese	thin	dɛlgadu	d ɛ l g a d u	593	d ɛ l g a d u	c143 v229 c548 c824 v130 c143 v027	1400	port1283
+1677	Dutch	this	deːzə	d eː z ə	492	d eː z ə	c143 v202 c078 v155	1214	dutc1256
+1678	Swedish	this	dɛta	d ɛ t a	492	d ɛ t a	c143 v229 c118 v130	1214	swed1254
+1679	English	this	ðɪs	ð ɪ s	492	ð ɪ s	c415 v219 c087	1214	stan1293
+1680	German	this	diːzər	d iː z ə r	492	d iː z ə r	c143 v183 c078 v155 c151	1214	stan1295
+1681	Spanish	this	este	e s t e	492	e s t e	v200 c087 c118 v200	1214	stan1288
+1682	Danish	this	dɛnə	d ɛ n ə	492	d ɛ n ə	c143 v229 c105 v155	1214	dani1285
+1683	Bulgarian	this	tɔzi	t ɔ z i	492	t ɔ z i	c118 v067 c078 v191	1214	bulg1262
+1684	Greek	this	afto	a f t o	492	a f t o	v130 c447 c118 v042	1214	mode1248
+1685	Armenian	this	ɑɪs	ɑɪ s	492	ɑɪ s	d065 c087	1214	nucl1235
+1686	Romanian	this	aʧest	a ʧ e s t	493	a tʃ e s t	v130 c645 v200 c087 c118	1214	roma1327
+1687	Russian	this	ɛtə	ɛ t ə	492	ɛ t ə	v229 c118 v155	1214	russ1263
+1688	Polish	this	tɔ	t ɔ	492	t ɔ	c118 v067	1214	poli1260
+1689	Norwegian	this	detə	d e t ə	492	d e t ə	c143 v200 c118 v155	1214	norw1258
+1690	French	this	səsi	s ə s i	493	s ə s i	c087 v155 c087 v191	1214	stan1290
+1691	Czech	this	toto	t o t o	492	t o t o	c118 v042 c118 v042	1214	czec1258
+1692	Icelandic	this	θɛsːɪ	θ ɛ sː ɪ	492	θ ɛ sː ɪ	c413 v229 c070 v219	1214	icel1247
+1693	Italian	this	kwesto	k w e s t o	493	k w e s t o	c831 c457 v200 c087 c118 v042	1214	ital1282
+1694	Hindi	this	jə	j ə	491	j ə	c564 v155	1214	hind1269
+1695	Portuguese	this	əʃtə	ə ʃ t ə	492	ə ʃ t ə	v155 c677 c118 v155	1214	port1283
+1696	Danish	this	dɛnə	d ɛ n ə	492	d ɛ n ə	c143 v229 c105 v155	1214	dani1285
+1697	Dutch	thou	jɛɪ	j ɛɪ	494	j ɛi	c564 d059	1215	dutc1256
+1698	Swedish	thou	dʉ	d ʉ	495	d ʉ	c143 v102	1215	swed1254
+1699	English	thou	juː	j uː	494	j uː	c564 v019	1215	stan1293
+1700	German	thou	duː	d uː	495	d uː	c143 v019	1215	stan1295
+1701	Spanish	thou	tu	t u	495	t u	c118 v027	1215	stan1288
+1702	Danish	thou	duˀ	d uˀ	495	d uˀ	c143 v013	1215	dani1285
+1703	Bulgarian	thou	ti	t i	495	t i	c118 v191	1215	bulg1262
+1704	Greek	thou	esi	e s i	495	e s i	v200 c087 v191	1215	mode1248
+1705	Armenian	thou	du	d u	495	d u	c143 v027	1215	nucl1235
+1706	Romanian	thou	tu	t u	495	t u	c118 v027	1215	roma1327
+1707	Russian	thou	tɨ	t ɨ	495	t ɨ	c118 v116	1215	russ1263
+1708	Polish	thou	tɨ	t ɨ	495	t ɨ	c118 v116	1215	poli1260
+1709	Norwegian	thou	dʉː	d ʉː	495	d ʉː	c143 v100	1215	norw1258
+1710	French	thou	ty	t y	495	t y	c118 v166	1215	stan1290
+1711	Czech	thou	tɪ	t ɪ	495	t ɪ	c118 v219	1215	czec1258
+1712	Icelandic	thou	θuː	θ uː	495	θ uː	c413 v019	1215	icel1247
+1713	Italian	thou	tu	t u	495	t u	c118 v027	1215	ital1282
+1714	Hindi	thou	tuː	t uː	495	t uː	c118 v019	1215	hind1269
+1715	Portuguese	thou	tu	t u	495	t u	c118 v027	1215	port1283
+1716	Dutch	tongue	tɔŋ	t ɔ ŋ	496	t ɔ ŋ	c118 v067 c795	1205	dutc1256
+1717	Swedish	tongue	tuŋːa	t u ŋː a	496	t u ŋː a	c118 v027 c798 v130	1205	swed1254
+1718	English	tongue	tʌŋ	t ʌ ŋ	496	t ʌ ŋ	c118 v097 c795	1205	stan1293
+1719	German	tongue	t͡sʊŋə	t͡s ʊ ŋ ə	496	ts ʊ ŋ ə	c015 v056 c795 v155	1205	stan1295
+1720	Spanish	tongue	leŋɡwa	l e ŋ ɡ w a	496	l e ŋ g w a	c548 v200 c795 c824 c457 v130	1205	stan1288
+1721	Danish	tongue	tɔŋə	t ɔ ŋ ə	496	t ɔ ŋ ə	c118 v067 c795 v155	1205	dani1285
+1722	Bulgarian	tongue	ɛzik	ɛ z i k	496	ɛ z i k	v229 c078 v191 c831	1205	bulg1262
+1723	Greek	tongue	ɣlosa	ɣ l o s a	497	ɣ l o s a	c774 c548 v042 c087 v130	1205	mode1248
+1724	Armenian	tongue	lɛzu	l ɛ z u	496	l ɛ z u	c548 v229 c078 v027	1205	nucl1235
+1725	Romanian	tongue	limbə	l i m b ə	496	l i m b ə	c548 v191 c239 c254 v155	1205	roma1327
+1726	Russian	tongue	jɪzɨk	j ɪ z ɨ k	496	j ɪ z ɨ k	c564 v219 c078 v116 c831	1205	russ1263
+1727	Polish	tongue	jɛ̃zɨk	j ɛ̃ z ɨ k	496	j ɛ̃ z ɨ k	c564 v231 c078 v116 c831	1205	poli1260
+1728	Norwegian	tongue	tuŋə	t u ŋ ə	496	t u ŋ ə	c118 v027 c795 v155	1205	norw1258
+1729	French	tongue	lɑ̃ɡ	l ɑ̃ ɡ	496	l ɑ̃ g	c548 v088 c824	1205	stan1290
+1730	Czech	tongue	jazɪk	j a z ɪ k	496	j a z ɪ k	c564 v130 c078 v219 c831	1205	czec1258
+1731	Icelandic	tongue	tʰuŋka	tʰ u ŋ k a	496	tʰ u ŋ k a	c136 v027 c795 c831 v130	1205	icel1247
+1732	Italian	tongue	liŋɡwa	l i ŋ ɡ w a	496	l i ŋ g w a	c548 v191 c795 c824 c457 v130	1205	ital1282
+1733	Hindi	tongue	ʤiːbʱ	ʤ iː b̤	496	dʒ iː b̤	c649 v183 c278	1205	hind1269
+1734	Portuguese	tongue	lĩgwɐ	l ĩ g w ɐ	496	l ĩ g w ɐ	c548 v193 c824 c457 v119	1205	port1283
+1735	Dutch	tooth	tɑnt	t ɑ n t	499	t ɑ n t	c118 v089 c105 c118	1380	dutc1256
+1736	Swedish	tooth	tanːd	t a nː d	499	t a nː d	c118 v130 c104 c143	1380	swed1254
+1737	English	tooth	tuːθ	t uː θ	499	t uː θ	c118 v019 c413	1380	stan1293
+1738	German	tooth	t͡saːn	t͡s aː n	499	ts aː n	c015 v137 c105	1380	stan1295
+1739	Spanish	tooth	djente	d j e n t e	499	d j e n t e	c143 c564 v200 c105 c118 v200	1380	stan1288
+1740	Danish	tooth	tanˀ	t a nˀ	499	t a nˀ	c118 v130 c094	1380	dani1285
+1741	Bulgarian	tooth	zɤp	z ɤ p	498	z ɤ p	c078 v084 c288	1380	bulg1262
+1742	Greek	tooth	ðondi	ð o n d i	499	ð o n d i	c415 v042 c105 c143 v191	1380	mode1248
+1743	Armenian	tooth	ɑtɑm	ɑ t ɑ m	499	ɑ t ɑ m	v089 c118 v089 c239	1380	nucl1235
+1744	Romanian	tooth	dinte	d i n t e	499	d i n t e	c143 v191 c105 c118 v200	1380	roma1327
+1745	Russian	tooth	zup	z u p	498	z u p	c078 v027 c288	1380	russ1263
+1746	Polish	tooth	zɔ̃p	z ɔ̃ p	498	z ɔ̃ p	c078 v066 c288	1380	poli1260
+1747	Norwegian	tooth	tɑn	t ɑ n	499	t ɑ n	c118 v089 c105	1380	norw1258
+1748	French	tooth	dɑ̃	d ɑ̃	499	d ɑ̃	c143 v088	1380	stan1290
+1749	Czech	tooth	zʊp	z ʊ p	498	z ʊ p	c078 v056 c288	1380	czec1258
+1750	Icelandic	tooth	tʰœnː	tʰ œ nː	499	tʰ œ nː	c136 v178 c104	1380	icel1247
+1751	Italian	tooth	dɛnte	d ɛ n t e	499	d ɛ n t e	c143 v229 c105 c118 v200	1380	ital1282
+1752	Hindi	tooth	dãt	d ã t	499	d ã t	c143 v147 c118	1380	hind1269
+1753	Portuguese	tooth	dẽtə	d ẽ t ə	499	d ẽ t ə	c143 v201 c118 v155	1380	port1283
+1754	Dutch	tree	boːm	b oː m	502	b oː m	c254 v035 c239	906	dutc1256
+1755	Swedish	tree	trɛːd	t r ɛː d	501	t r ɛː d	c118 c151 v225 c143	906	swed1254
+1756	English	tree	triː	t r iː	501	t r iː	c118 c151 v183	906	stan1293
+1757	German	tree	baum	b au m	502	b au m	c254 d026 c239	906	stan1295
+1758	Spanish	tree	arvol	a r v o l	506	a r v o l	v130 c151 c446 v042 c548	906	stan1288
+1759	Danish	tree	tʁɛˀ	t ʁ ɛˀ	501	t ʁ ɛˀ	c118 c733 v228	906	dani1285
+1760	Bulgarian	tree	dərvɔ	d ə r v ɔ	501	d ə r v ɔ	c143 v155 c151 c446 v067	906	bulg1262
+1761	Greek	tree	ðenðro	ð e n ð r o	501	ð e n ð r o	c415 v200 c105 c415 c151 v042	906	mode1248
+1762	Armenian	tree	ʦɑr	ʦ ɑ r	-503	ts ɑ r	c015 v089 c151	906	nucl1235
+1763	Romanian	tree	arbore	a r b o r e	506	a r b o r e	v130 c151 c254 v042 c151 v200	906	roma1327
+1764	Russian	tree	dʲerʲɪvə	dʲ e rʲ ɪ v ə	501	dʲ e rʲ ɪ v ə	c127 v200 c162 v219 c446 v155	906	russ1263
+1765	Polish	tree	dʒɛvɔ	d ʒ ɛ v ɔ	501	d ʒ ɛ v ɔ	c143 c679 v229 c446 v067	906	poli1260
+1766	Norwegian	tree	tɾeː	t ɾ eː	501	t ɾ eː	c118 c064 v202	906	norw1258
+1767	French	tree	aʁbʁ	a ʁ b ʁ	506	a ʁ b ʁ	v130 c733 c254 c733	906	stan1290
+1768	Czech	tree	strom	s t r o m	504	s t r o m	c087 c118 c151 v042 c239	906	czec1258
+1769	Icelandic	tree	tʰrjɛː	tʰ r j ɛː	501	tʰ r j ɛː	c136 c151 c564 v225	906	icel1247
+1770	Italian	tree	albero	a l b e r o	506	a l b e r o	v130 c548 c254 v200 c151 v042	906	ital1282
+1771	Hindi	tree	peɽ	p e ɽ	500	p e ɽ	c288 v200 c697	906	hind1269
+1772	Portuguese	tree	arvurə	a r v u r ə	506	a r v u r ə	v130 c151 c446 v027 c151 v155	906	port1283
+1773	Icelandic	tree	vɪːðʏr	v ɪː ð ʏ r	505	v ɪː ð ʏ r	c446 v221 c415 v173 c151	906	icel1247
+1774	Dutch	two	tʋeː	t ʋ eː	507	t ʋ eː	c118 c424 v202	1498	dutc1256
+1775	Swedish	two	tvoː	t v oː	507	t v oː	c118 c446 v035	1498	swed1254
+1776	English	two	tuː	t uː	507	t uː	c118 v019	1498	stan1293
+1777	German	two	t͡svai	t͡s v ai	507	ts v ai	c015 c446 d030	1498	stan1295
+1778	Spanish	two	dos	d o s	507	d o s	c143 v042 c087	1498	stan1288
+1779	Danish	two	toˀ	t oˀ	507	t oˀ	c118 v048	1498	dani1285
+1780	Bulgarian	two	dva	d v a	507	d v a	c143 c446 v130	1498	bulg1262
+1781	Greek	two	ðʝo	ð ʝ o	507	ð ʝ o	c415 c574 v042	1498	mode1248
+1782	Armenian	two	jɛɾku	j ɛ ɾ k u	507	j ɛ ɾ k u	c564 v229 c064 c831 v027	1498	nucl1235
+1783	Romanian	two	doj	d o j	507	d o j	c143 v042 c564	1498	roma1327
+1784	Russian	two	dva	d v a	507	d v a	c143 c446 v130	1498	russ1263
+1785	Polish	two	dva	d v a	507	d v a	c143 c446 v130	1498	poli1260
+1786	Norwegian	two	tuː	t uː	507	t uː	c118 v019	1498	norw1258
+1787	French	two	dø	d ø	507	d ø	c143 v171	1498	stan1290
+1788	Czech	two	dva	d v a	507	d v a	c143 c446 v130	1498	czec1258
+1789	Icelandic	two	tʰveir	tʰ v ei r	507	tʰ v ei r	c136 c446 d047 c151	1498	icel1247
+1790	Italian	two	due	d w e	507	d w e	c143 c457 v200	1498	ital1282
+1791	Hindi	two	doː	d oː	507	d oː	c143 v035	1498	hind1269
+1792	Portuguese	two	doiʃ	d oi ʃ	507	d oi ʃ	c143 d015 c677	1498	port1283
+1793	Dutch	walk(go)	xaːn	x aː n	509	x aː n	c772 v137 c105	1443	dutc1256
+1794	Swedish	walk(go)	goː	g oː	509	g oː	c824 v035	1443	swed1254
+1795	English	walk(go)	ɡəʊ	ɡ əʊ	509	g əu	c824 d029	1443	stan1293
+1796	German	walk(go)	ɡeːən	ɡ eː ə n	509	g eː ə n	c824 v202 v155 c105	1443	stan1295
+1797	Spanish	walk(go)	andar	a n d a r	513	a n d a r	v130 c105 c143 v130 c151	1443	stan1288
+1798	Danish	walk(go)	gɔˀ	g ɔˀ	509	g ɔˀ	c824 v064	1443	dani1285
+1799	Bulgarian	walk(go)	vɛrvʲə	v ɛ r vʲ ə	515	v ɛ r vʲ ə	c446 v229 c151 c429 v155	1443	bulg1262
+1800	Greek	walk(go)	piʝeno	p i ʝ e n o	516	p i ʝ e n o	c288 v191 c574 v200 c105 v042	1443	mode1248
+1801	Romanian	walk(go)	umbla	u m b l a	508	u m b l a	v027 c239 c254 c548 v130	1443	roma1327
+1802	Russian	walk(go)	ɪtʲi	ɪ tʲ i	514	ɪ tʲ i	v219 c113 v191	1443	russ1263
+1803	Polish	walk(go)	iɕʨ	i ɕ ʨ	514	i ɕ tɕ	v191 c202 c198	1443	poli1260
+1804	Norwegian	walk(go)	goː	g oː	509	g oː	c824 v035	1443	norw1258
+1805	French	walk(go)	vɛ	v ɛ	510	v ɛ	c446 v229	1443	stan1290
+1806	Czech	walk(go)	jiːt	j iː t	514	j iː t	c564 v183 c118	1443	czec1258
+1807	Icelandic	walk(go)	faːra	f aː r a	511	f aː r a	c447 v137 c151 v130	1443	icel1247
+1808	Italian	walk(go)	vo	v o	510	v o	c446 v042	1443	ital1282
+1809	Hindi	walk(go)	ʧəlnaː	ʧ ə l n aː	514	tʃ ə l n aː	c645 v155 c548 c105 v137	1443	hind1269
+1810	Portuguese	walk(go)	ɐ̃dar	ɐ̃ d a r	513	ɐ̃ d a r	v120 c143 v130 c151	1443	port1283
+1811	Spanish	walk(go)	boi	b oi	510	b oi	c254 d015	1443	stan1288
+1812	French	walk(go)	ale	a l e	512	a l e	v130 c548 v200	1443	stan1290
+1813	Italian	walk(go)	andare	a n d a r e	513	a n d a r e	v130 c105 c143 v130 c151 v200	1443	ital1282
+1814	Dutch	warm	ʋɑrm	ʋ ɑ r m	517	ʋ ɑ r m	c424 v089 c151 c239	1232	dutc1256
+1815	Swedish	warm	varːm	v a rː m	517	v a rː m	c446 v130 c160 c239	1232	swed1254
+1816	English	warm	ʋɔːrm	ʋ ɔː r m	517	ʋ ɔː r m	c424 v065 c151 c239	1232	stan1293
+1817	German	warm	varm	v a r m	517	v a r m	c446 v130 c151 c239	1232	stan1295
+1818	Spanish	warm	kaliðo	k a l i ð o	520	k a l i ð o	c831 v130 c548 v191 c415 v042	1232	stan1288
+1819	Danish	warm	vɑˀm	v ɑˀ m	517	v ɑˀ m	c446 v247 c239	1232	dani1285
+1820	Bulgarian	warm	tɔpəl	t ɔ p ə l	519	t ɔ p ə l	c118 v067 c288 v155 c548	1232	bulg1262
+1821	Greek	warm	xliaros	x l ia r o s	521	x l ia r o s	c772 c548 d054 c151 v042 c087	1232	mode1248
+1822	Armenian	warm	tɑkʰ	t ɑ kʰ	522	t ɑ kʰ	c118 v089 c813	1232	nucl1235
+1823	Romanian	warm	kald	k a l d	520	k a l d	c831 v130 c548 c143	1232	roma1327
+1824	Russian	warm	tʲoplɨj	tʲ o p l ɨ j	519	tʲ o p l ɨ j	c113 v042 c288 c548 v116 c564	1232	russ1263
+1825	Polish	warm	ʨɛpwɨ	ʨ ɛ p w ɨ	519	tɕ ɛ p w ɨ	c198 v229 c288 c457 v116	1232	poli1260
+1826	Norwegian	warm	ʋɑɾm	ʋ ɑ ɾ m	517	ʋ ɑ ɾ m	c424 v089 c064 c239	1232	norw1258
+1827	French	warm	ʃo	ʃ o	520	ʃ o	c677 v042	1232	stan1290
+1828	Czech	warm	tɛpliː	t ɛ p l iː	519	t ɛ p l iː	c118 v229 c288 c548 v183	1232	czec1258
+1829	Icelandic	warm	l̥iːr	l̥ iː r	520	l̥ iː r	c538 v183 c151	1232	icel1247
+1830	Italian	warm	tiepido	t ie p i d o	519	t ie p i d o	c118 d044 c288 v191 c143 v042	1232	ital1282
+1831	Hindi	warm	gərm	g ə r m	-518	g ə r m	c824 v155 c151 c239	1232	hind1269
+1832	Portuguese	warm	kẽtə	k ẽ t ə	520	k ẽ t ə	c831 v201 c118 v155	1232	port1283
+1833	Dutch	water	ʋaːtər	ʋ aː t ə r	526	ʋ aː t ə r	c424 v137 c118 v155 c151	948	dutc1256
+1834	Swedish	water	vatːen	v a tː e n	526	v a tː e n	c446 v130 c128 v200 c105	948	swed1254
+1835	English	water	ʋɔːtər	ʋ ɔː t ə r	526	ʋ ɔː t ə r	c424 v065 c118 v155 c151	948	stan1293
+1836	German	water	vasər	v a s ə r	526	v a s ə r	c446 v130 c087 v155 c151	948	stan1295
+1837	Spanish	water	aɣwa	a ɣ w a	523	a ɣ w a	v130 c774 c457 v130	948	stan1288
+1838	Danish	water	vanˀ	v a nˀ	526	v a nˀ	c446 v130 c094	948	dani1285
+1839	Bulgarian	water	voda	v o d a	526	v o d a	c446 v042 c143 v130	948	bulg1262
+1840	Greek	water	nero	n e r o	524	n e r o	c105 v200 c151 v042	948	mode1248
+1841	Armenian	water	ʤuɾ	ʤ u ɾ	527	dʒ u ɾ	c649 v027 c064	948	nucl1235
+1842	Romanian	water	apə	a p ə	523	a p ə	v130 c288 v155	948	roma1327
+1843	Russian	water	vɐda	v ɐ d a	526	v ɐ d a	c446 v119 c143 v130	948	russ1263
+1844	Polish	water	vɔda	v ɔ d a	526	v ɔ d a	c446 v067 c143 v130	948	poli1260
+1845	Norwegian	water	ʋɑn	ʋ ɑ n	526	ʋ ɑ n	c424 v089 c105	948	norw1258
+1846	French	water	o	o	523	o	v042	948	stan1290
+1847	Czech	water	voda	v o d a	526	v o d a	c446 v042 c143 v130	948	czec1258
+1848	Icelandic	water	vaʰtn̥	v a ʰt n̥	526	v a ʰt n̥	c446 v130 c836 c093	948	icel1247
+1849	Italian	water	akkwa	a kː w a	523	a kː w a	v130 c825 c457 v130	948	ital1282
+1850	Hindi	water	paːniː	p aː n iː	525	p aː n iː	c288 v137 c105 v183	948	hind1269
+1851	Portuguese	water	agwɐ	a g w ɐ	523	a g w ɐ	v130 c824 c457 v119	948	port1283
+1852	Dutch	we	ʋɛɪ	ʋ ɛɪ	530	ʋ ɛi	c424 d059	1212	dutc1256
+1853	Swedish	we	viː	v iː	530	v iː	c446 v183	1212	swed1254
+1854	English	we	ʋiː	ʋ iː	530	ʋ iː	c424 v183	1212	stan1293
+1855	German	we	viːr	v iː r	530	v iː r	c446 v183 c151	1212	stan1295
+1856	Spanish	we	nosotɾos	n o s o t ɾ o s	529	n o s o t ɾ o s	c105 v042 c087 v042 c118 c064 v042 c087	1212	stan1288
+1857	Danish	we	viˀ	v iˀ	530	v iˀ	c446 v190	1212	dani1285
+1858	Bulgarian	we	niɛ	n iɛ	529	n iɛ	c105 d046	1212	bulg1262
+1859	Greek	we	emis	e m i s	528	e m i s	v200 c239 v191 c087	1212	mode1248
+1860	Armenian	we	mɛnkʰ	m ɛ n kʰ	528	m ɛ n kʰ	c239 v229 c105 c813	1212	nucl1235
+1861	Romanian	we	noj	n o j	529	n o j	c105 v042 c564	1212	roma1327
+1862	Russian	we	mɨ	m ɨ	528	m ɨ	c239 v116	1212	russ1263
+1863	Polish	we	mɨ	m ɨ	528	m ɨ	c239 v116	1212	poli1260
+1864	Norwegian	we	ʋiː	ʋ iː	530	ʋ iː	c424 v183	1212	norw1258
+1865	French	we	nu	n u	529	n u	c105 v027	1212	stan1290
+1866	Czech	we	mɪ	m ɪ	528	m ɪ	c239 v219	1212	czec1258
+1867	Icelandic	we	vɪːð	v ɪː ð	530	v ɪː ð	c446 v221 c415	1212	icel1247
+1868	Italian	we	noi	n oi	529	n oi	c105 d015	1212	ital1282
+1869	Hindi	we	ɦəm	ɦ ə m	529	ɦ ə m	c397 v155 c239	1212	hind1269
+1870	Portuguese	we	nɔʃ	n ɔ ʃ	529	n ɔ ʃ	c105 v067 c677	1212	port1283
+1871	Dutch	what	ʋɑt	ʋ ɑ t	531	ʋ ɑ t	c424 v089 c118	1236	dutc1256
+1872	Swedish	what	vɑd	v ɑ d	531	v ɑ d	c446 v089 c143	1236	swed1254
+1873	English	what	ʋɔt	ʋ ɔ t	531	ʋ ɔ t	c424 v067 c118	1236	stan1293
+1874	German	what	vas	v a s	531	v a s	c446 v130 c087	1236	stan1295
+1875	Spanish	what	ke	k e	531	k e	c831 v200	1236	stan1288
+1876	Danish	what	va	v a	531	v a	c446 v130	1236	dani1285
+1877	Bulgarian	what	kakvɔ	k a k v ɔ	531	k a k v ɔ	c831 v130 c831 c446 v067	1236	bulg1262
+1878	Greek	what	ti	t i	531	t i	c118 v191	1236	mode1248
+1879	Romanian	what	ʧe	ʧ e	531	tʃ e	c645 v200	1236	roma1327
+1880	Russian	what	ʃto	ʃ t o	531	ʃ t o	c677 c118 v042	1236	russ1263
+1881	Polish	what	ʦɔ	ʦ ɔ	531	ts ɔ	c015 v067	1236	poli1260
+1882	Norwegian	what	ʋɑː	ʋ ɑː	531	ʋ ɑː	c424 v091	1236	norw1258
+1883	French	what	kwa	k w a	531	k w a	c831 c457 v130	1236	stan1290
+1884	Czech	what	ʦo	ʦ o	531	ts o	c015 v042	1236	czec1258
+1885	Icelandic	what	xʷaːð	xʷ aː ð	531	xʷ aː ð	c781 v137 c415	1236	icel1247
+1886	Italian	what	ke	k e	531	k e	c831 v200	1236	ital1282
+1887	Hindi	what	kjaː	k j aː	531	k j aː	c831 c564 v137	1236	hind1269
+1888	Portuguese	what	kə	k ə	531	k ə	c831 v155	1236	port1283
+1889	Dutch	white	ʋɪt	ʋ ɪ t	532	ʋ ɪ t	c424 v219 c118	1335	dutc1256
+1890	Swedish	white	viːt	v iː t	532	v iː t	c446 v183 c118	1335	swed1254
+1891	English	white	ʋaɪt	ʋ aɪ t	532	ʋ aɪ t	c424 d032 c118	1335	stan1293
+1892	German	white	vais	v ai s	532	v ai s	c446 d030 c087	1335	stan1295
+1893	Spanish	white	blaŋko	b l a ŋ k o	533	b l a ŋ k o	c254 c548 v130 c795 c831 v042	1335	stan1288
+1894	Danish	white	viðˀ	v i ðˀ	532	v i ðˀ	c446 v191 c839	1335	dani1285
+1895	Bulgarian	white	bal	b a l	536	b a l	c254 v130 c548	1335	bulg1262
+1896	Greek	white	lefkos	l e f k o s	535	l e f k o s	c548 v200 c447 c831 v042 c087	1335	mode1248
+1897	Armenian	white	spitɑk	s p i t ɑ k	-534	s p i t ɑ k	c087 c288 v191 c118 v089 c831	1335	nucl1235
+1898	Romanian	white	alb	a l b	537	a l b	v130 c548 c254	1335	roma1327
+1899	Russian	white	bʲelɨj	bʲ e l ɨ j	536	bʲ e l ɨ j	c263 v200 c548 v116 c564	1335	russ1263
+1900	Polish	white	bʲawɨ	bʲ a w ɨ	536	bʲ a w ɨ	c263 v130 c457 v116	1335	poli1260
+1901	Norwegian	white	ʋiːt	ʋ iː t	532	ʋ iː t	c424 v183 c118	1335	norw1258
+1902	French	white	blɑ̃	b l ɑ̃	533	b l ɑ̃	c254 c548 v088	1335	stan1290
+1903	Czech	white	biːliː	b iː l iː	536	b iː l iː	c254 v183 c548 v183	1335	czec1258
+1904	Icelandic	white	xʷiːtʏr	xʷ iː t ʏ r	532	xʷ iː t ʏ r	c781 v183 c118 v173 c151	1335	icel1247
+1905	Italian	white	bjanko	b j a n k o	533	b j a n k o	c254 c564 v130 c105 c831 v042	1335	ital1282
+1906	Portuguese	white	alvu	a l v u	537	a l v u	v130 c548 c446 v027	1335	port1283
+1907	Dutch	who	ʋiː	ʋ iː	538	ʋ iː	c424 v183	1235	dutc1256
+1908	Swedish	who	vem	v e m	538	v e m	c446 v200 c239	1235	swed1254
+1909	English	who	huː	h uː	538	h uː	c401 v019	1235	stan1293
+1910	German	who	veːr	v eː r	538	v eː r	c446 v202 c151	1235	stan1295
+1911	Spanish	who	kjen	k j e n	538	k j e n	c831 c564 v200 c105	1235	stan1288
+1912	Danish	who	vɛmˀ	v ɛ mˀ	538	v ɛ mˀ	c446 v229 c247	1235	dani1285
+1913	Bulgarian	who	koj	k o j	538	k o j	c831 v042 c564	1235	bulg1262
+1914	Greek	who	opios	o p j o s	538	o p j o s	v042 c288 c564 v042 c087	1235	mode1248
+1915	Romanian	who	ʧine	ʧ i n e	538	tʃ i n e	c645 v191 c105 v200	1235	roma1327
+1916	Russian	who	kto	k t o	538	k t o	c831 c118 v042	1235	russ1263
+1917	Polish	who	ktɔ	k t ɔ	538	k t ɔ	c831 c118 v067	1235	poli1260
+1918	Norwegian	who	ʋem	ʋ e m	538	ʋ e m	c424 v200 c239	1235	norw1258
+1919	French	who	ki	k i	538	k i	c831 v191	1235	stan1290
+1920	Czech	who	ɡdo	ɡ d o	538	g d o	c824 c143 v042	1235	czec1258
+1921	Icelandic	who	xʷɛːr	xʷ ɛː r	538	xʷ ɛː r	c781 v225 c151	1235	icel1247
+1922	Italian	who	ki	k i	538	k i	c831 v191	1235	ital1282
+1923	Hindi	who	kɔːn	k ɔː n	538	k ɔː n	c831 v065 c105	1235	hind1269
+1924	Portuguese	who	kɐ̃j	k ɐ̃ j	538	k ɐ̃ j	c831 v120 c564	1235	port1283
+2118	Dutch	wind	ʋɪnt	ʋ ɪ n t	602	ʋ ɪ n t	c424 v219 c105 c118	960	dutc1256
+2119	Swedish	wind	vind	v i n d	602	v i n d	c446 v191 c105 c143	960	swed1254
+2120	English	wind	ʋɪnd	ʋ ɪ n d	602	ʋ ɪ n d	c424 v219 c105 c143	960	stan1293
+2121	German	wind	vɪnt	v ɪ n t	602	v ɪ n t	c446 v219 c105 c118	960	stan1295
+2122	Spanish	wind	bjento	b j e n t o	602	b j e n t o	c254 c564 v200 c105 c118 v042	960	stan1288
+2123	Danish	wind	venˀ	v e nˀ	602	v e nˀ	c446 v200 c094	960	dani1285
+2124	Bulgarian	wind	vʲatər	vʲ a t ə r	602	vʲ a t ə r	c429 v130 c118 v155 c151	960	bulg1262
+2125	Greek	wind	anemos	a n e m o s	603	a n e m o s	v130 c105 v200 c239 v042 c087	960	mode1248
+2126	Romanian	wind	vɨnt	v ɨ n t	602	v ɨ n t	c446 v116 c105 c118	960	roma1327
+2127	Russian	wind	vʲetʲɪr	vʲ e tʲ ɪ r	602	vʲ e tʲ ɪ r	c429 v200 c113 v219 c151	960	russ1263
+2128	Polish	wind	vʲatr	vʲ a t r	602	vʲ a t r	c429 v130 c118 c151	960	poli1260
+2129	Norwegian	wind	ʋin	ʋ i n	602	ʋ i n	c424 v191 c105	960	norw1258
+2130	French	wind	vɑ̃	v ɑ̃	602	v ɑ̃	c446 v088	960	stan1290
+2131	Icelandic	wind	vɪntʏr	v ɪ n t ʏ r	602	v ɪ n t ʏ r	c446 v219 c105 c118 v173 c151	960	icel1247
+2132	Italian	wind	vɛnto	v ɛ n t o	602	v ɛ n t o	c446 v229 c105 c118 v042	960	ital1282
+2133	Portuguese	wind	vẽtu	v ẽ t u	602	v ẽ t u	c446 v201 c118 v027	960	port1283
+1925	Dutch	woman	vrɑuʋ	v r ɑu ʋ	541	v r ɑu ʋ	c446 c151 d023 c424	962	dutc1256
+1926	Swedish	woman	kvinːa	k v i nː a	544	k v i nː a	c831 c446 v191 c104 v130	962	swed1254
+1927	English	woman	ʋʊmən	ʋ ʊ m ə n	543	ʋ ʊ m ə n	c424 v056 c239 v155 c105	962	stan1293
+1928	German	woman	frau	f r au	541	f r au	c447 c151 d026	962	stan1295
+1929	Spanish	woman	muxeɾ	m u x e ɾ	545	m u x e ɾ	c239 v027 c772 v200 c064	962	stan1288
+1930	Danish	woman	kvenə	k v e n ə	544	k v e n ə	c831 c446 v200 c105 v155	962	dani1285
+1931	Bulgarian	woman	ʒɛna	ʒ ɛ n a	544	ʒ ɛ n a	c679 v229 c105 v130	962	bulg1262
+1932	Greek	woman	ʝineka	ʝ i n e k a	544	ʝ i n e k a	c574 v191 c105 v200 c831 v130	962	mode1248
+1933	Armenian	woman	kin	k i n	544	k i n	c831 v191 c105	962	nucl1235
+1934	Romanian	woman	femeje	f e m e j e	542	f e m e j e	c447 v200 c239 v200 c564 v200	962	roma1327
+1935	Russian	woman	ʒɛnʃʃʲɪnə	ʒ ɛ n ʃːʲ ɪ n ə	544	ʒ ɛ n ʃːʲ ɪ n ə	c679 v229 c105 c842 v219 c105 v155	962	russ1263
+1936	Polish	woman	kɔbʲɛta	k ɔ bʲ ɛ t a	546	k ɔ bʲ ɛ t a	c831 v067 c263 v229 c118 v130	962	poli1260
+1937	Norwegian	woman	kʋinə	k ʋ i n ə	544	k ʋ i n ə	c831 c424 v191 c105 v155	962	norw1258
+1938	French	woman	fam	f a m	542	f a m	c447 v130 c239	962	stan1290
+1939	Czech	woman	ʒɛna	ʒ ɛ n a	544	ʒ ɛ n a	c679 v229 c105 v130	962	czec1258
+1940	Icelandic	woman	kʰɔːna	kʰ ɔː n a	544	kʰ ɔː n a	c813 v065 c105 v130	962	icel1247
+1941	Italian	woman	dɔnna	d ɔ nː a	540	d ɔ nː a	c143 v067 c104 v130	962	ital1282
+1942	Hindi	woman	ɔːrət	ɔː r ə t	-539	ɔː r ə t	v065 c151 v155 c118	962	hind1269
+1943	Portuguese	woman	muʎɛr	m u ʎ ɛ r	545	m u ʎ ɛ r	c239 v027 c582 v229 c151	962	port1283
+1944	German	woman	vaip	v ai p	543	v ai p	c446 d030 c288	962	stan1295
+2134	Dutch	worm	ʋɔrm	ʋ ɔ r m	607	ʋ ɔ r m	c424 v067 c151 c239	1219	dutc1256
+2135	Swedish	worm	masːk	m a sː k	606	m a sː k	c239 v130 c070 c831	1219	swed1254
+2136	English	worm	ʋɜːrm	ʋ ɜː r m	607	ʋ ɜː r m	c424 v150 c151 c239	1219	stan1293
+2137	German	worm	vʊrm	v ʊ r m	607	v ʊ r m	c446 v056 c151 c239	1219	stan1295
+2138	Spanish	worm	berme	b e r m e	607	b e r m e	c254 v200 c151 c239 v200	1219	stan1288
+2139	Danish	worm	oʁˀm	o ʁˀ m	607	o ʁˀ m	v042 c838 c239	1219	dani1285
+2140	Bulgarian	worm	ʧɛrvɛj	ʧ ɛ r v ɛ j	608	tʃ ɛ r v ɛ j	c645 v229 c151 c446 v229 c564	1219	bulg1262
+2141	Greek	worm	skulici	s k u l i c i	605	s k u l i c i	c087 c831 v027 c548 v191 c600 v191	1219	mode1248
+2142	Romanian	worm	vjerme	v j e r m e	607	v j e r m e	c446 c564 v200 c151 c239 v200	1219	roma1327
+2143	Russian	worm	ʧerfʲ	ʧ e r fʲ	608	tʃ e r fʲ	c645 v200 c151 c430	1219	russ1263
+2144	Polish	worm	ʧɛrf	ʧ ɛ r f	608	tʃ ɛ r f	c645 v229 c151 c447	1219	poli1260
+2145	Norwegian	worm	mɑɾk	m ɑ ɾ k	606	m ɑ ɾ k	c239 v089 c064 c831	1219	norw1258
+2146	French	worm	vɛʁ	v ɛ ʁ	607	v ɛ ʁ	c446 v229 c733	1219	stan1290
+2147	Czech	worm	ʧɛrf	ʧ ɛ r f	608	tʃ ɛ r f	c645 v229 c151 c447	1219	czec1258
+2148	Icelandic	worm	ɔrmʏr	ɔ r m ʏ r	607	ɔ r m ʏ r	v067 c151 c239 v173 c151	1219	icel1247
+2149	Italian	worm	vɛrme	v ɛ r m e	607	v ɛ r m e	c446 v229 c151 c239 v200	1219	ital1282
+2150	Hindi	worm	kiːɽaː	k iː ɽ aː	-604	k iː ɽ aː	c831 v183 c697 v137	1219	hind1269
+2151	Portuguese	worm	vɛrmə	v ɛ r m ə	607	v ɛ r m ə	c446 v229 c151 c239 v155	1219	port1283
+2152	Dutch	worm	maːdə	m aː d ə	606	m aː d ə	c239 v137 c143 v155	1219	dutc1256
+2153	Icelandic	worm	maθkʏr	m a θ k ʏ r	606	m a θ k ʏ r	c239 v130 c413 c831 v173 c151	1219	icel1247
+2154	Dutch	year	jaːr	j aː r	614	j aː r	c564 v137 c151	1226	dutc1256
+2155	Swedish	year	oːr	oː r	614	oː r	v035 c151	1226	swed1254
+2156	English	year	jɪər	j ɪ ə r	614	j ɪ ə r	c564 v219 v155 c151	1226	stan1293
+2157	German	year	jaːr	j aː r	614	j aː r	c564 v137 c151	1226	stan1295
+2158	Spanish	year	aɲo	a ɲ o	611	a ɲ o	v130 c589 v042	1226	stan1288
+2159	Danish	year	ɒˀʁ	ɒˀ ʁ	614	ɒˀ ʁ	v249 c733	1226	dani1285
+2160	Bulgarian	year	ɡodinə	ɡ o d i n ə	615	g o d i n ə	c824 v042 c143 v191 c105 v155	1226	bulg1262
+2161	Greek	year	etos	e t o s	613	e t o s	v200 c118 v042 c087	1226	mode1248
+2162	Armenian	year	tɑɾi	t ɑ ɾ i	-610	t ɑ ɾ i	c118 v089 c064 v191	1226	nucl1235
+2163	Romanian	year	an	a n	611	a n	v130 c105	1226	roma1327
+2164	Russian	year	ɡot	ɡ o t	615	g o t	c824 v042 c118	1226	russ1263
+2165	Polish	year	rɔk	r ɔ k	612	r ɔ k	c151 v067 c831	1226	poli1260
+2166	Norwegian	year	oːɾ	oː ɾ	614	oː ɾ	v035 c064	1226	norw1258
+2167	French	year	ɑ̃	ɑ̃	611	ɑ̃	v088	1226	stan1290
+2168	Czech	year	rok	r o k	612	r o k	c151 v042 c831	1226	czec1258
+2169	Icelandic	year	auːr	a uː r	614	a uː r	v130 v019 c151	1226	icel1247
+2170	Italian	year	anno	a nː o	611	a nː o	v130 c104 v042	1226	ital1282
+2171	Hindi	year	bərəs	b ə r ə s	609	b ə r ə s	c254 v155 c151 v155 c087	1226	hind1269
+2172	Portuguese	year	ɐnu	ɐ n u	611	ɐ n u	v119 c105 v027	1226	port1283
+1945	Dutch	yellow	xeːl	x eː l	550	x eː l	c772 v202 c548	1424	dutc1256
+1946	Swedish	yellow	guːl	g uː l	550	g uː l	c824 v019 c548	1424	swed1254
+1947	English	yellow	jɛləʊ	j ɛ l əʊ	550	j ɛ l əu	c564 v229 c548 d029	1424	stan1293
+1948	German	yellow	ɡɛlp	ɡ ɛ l p	550	g ɛ l p	c824 v229 c548 c288	1424	stan1295
+1949	Spanish	yellow	amaɾiʎo	a m a ɾ i ʎ o	548	a m a ɾ i ʎ o	v130 c239 v130 c064 v191 c582 v042	1424	stan1288
+1950	Danish	yellow	guˀl	g uˀ l	550	g uˀ l	c824 v013 c548	1424	dani1285
+1951	Bulgarian	yellow	ʒɤlt	ʒ ɤ l t	550	ʒ ɤ l t	c679 v084 c548 c118	1424	bulg1262
+1952	Greek	yellow	citrinos	c i t r i n o s	-547	c i t r i n o s	c600 v191 c118 c151 v191 c105 v042 c087	1424	mode1248
+1953	Armenian	yellow	dɛʁin	d ɛ ʁ i n	552	d ɛ ʁ i n	c143 v229 c733 v191 c105	1424	nucl1235
+1954	Romanian	yellow	ɡalben	ɡ a l b e n	551	g a l b e n	c824 v130 c548 c254 v200 c105	1424	roma1327
+1955	Russian	yellow	ʒoltɨj	ʒ o l t ɨ j	550	ʒ o l t ɨ j	c679 v042 c548 c118 v116 c564	1424	russ1263
+1956	Polish	yellow	ʒuwtɨ	ʒ u w t ɨ	550	ʒ u w t ɨ	c679 v027 c457 c118 v116	1424	poli1260
+1957	Norwegian	yellow	gʉːl	g ʉː l	550	g ʉː l	c824 v100 c548	1424	norw1258
+1958	French	yellow	ʒon	ʒ o n	551	ʒ o n	c679 v042 c105	1424	stan1290
+1959	Czech	yellow	ʒlʊtiː	ʒ l ʊ t iː	550	ʒ l ʊ t iː	c679 c548 v056 c118 v183	1424	czec1258
+1960	Icelandic	yellow	kʏːlʏr	k ʏː l ʏ r	550	k ʏː l ʏ r	c831 v174 c548 v173 c151	1424	icel1247
+1961	Italian	yellow	ʤallo	ʤ a lː o	551	dʒ a lː o	c649 v130 c539 v042	1424	ital1282
+1962	Hindi	yellow	piːlaː	p iː l aː	549	p iː l aː	c288 v183 c548 v137	1424	hind1269
+1963	Portuguese	yellow	ɐmɐrɛlu	ɐ m ɐ r ɛ l u	548	ɐ m ɐ r ɛ l u	v119 c239 v119 c151 v229 c548 v027	1424	port1283

@@ -1,0 +1,131 @@
+
+
+import numpy as np 
+from pandas import DataFrame
+from gensim.models import Word2Vec
+import regex  
+import codecs
+from scipy.spatial.distance import cosine
+from sklearn.neighbors import KNeighborsClassifier
+import pickle
+def vectorLinspace(start,stop,num=50):
+    assert len(start) == len(stop)
+    assert num > 0
+    return np.array([np.linspace(start[dim],stop[dim],num) for dim in range(len(start))]).transpose()
+
+def getListofASJPPhonemes(word):
+    phonemes_alone="pbmfv84tdszcnSZCjT5kgxNqGX7hlLwyr!ieaouE3"
+    phonemeSearchRegex = "["+phonemes_alone+"][\"\*]?(?!["+phonemes_alone+"]~|["+phonemes_alone+"]{2}\$)|["+phonemes_alone+"]{2}?~|["+phonemes_alone+"]{3}?\$"
+    return regex.findall(phonemeSearchRegex, word)
+
+def getWordMatrix(word,model,padToMaxLength = None):
+    phonemes_alone="pbmfv84tdszcnSZCjT5kgxNqGX7hlLwyr!ieaouE3"
+    phonemeSearchRegex = "["+phonemes_alone+"][\"\*]?(?!["+phonemes_alone+"]~|["+phonemes_alone+"]{2}\$)|["+phonemes_alone+"]{2}?~|["+phonemes_alone+"]{3}?\$"
+    phonemes = regex.findall(phonemeSearchRegex, word)
+    wordVector = []
+    for phoneme in phonemes:
+        #if phoneme not in model, get single chars as phonemes instead
+        if phoneme not in model:
+            for ph in regex.findall("["+phonemes_alone+"]", phoneme):
+                wordVector.append(model[ph])
+        else:       
+            wordVector.append(model[phoneme])    
+    if padToMaxLength:
+        return np.pad(np.array(wordVector),((0,padToMaxLength - len(wordVector)),(0,0)),mode="constant")
+    return wordVector
+
+# 
+# 
+"""
+TRAIN PHONEME EMBEDDINGS
+"""
+print("TRAIN PHONEME EMBEDDINGS")
+pathToASJPCorpusFile = "Data/ASJP/dataset.tab"
+"""
+READ CORPUS FROM ASJP DUMP
+"""
+print("READ CORPUS FROM ASJP DUMP")
+#pathToASJPCorpusFile = "data/dataset.tab"
+allWords = []
+geo_info = dict()
+for i,line in enumerate(codecs.open(pathToASJPCorpusFile,"r","utf-8")):
+    if i > 0:
+        line = line.split("\t")
+        if "PROTO" not in line[0] and "ARTIFICIAL" not in line[2]:
+            words = line[10:]
+            #remove invalid characters
+            for word in words:
+                word = word.replace("%","")
+            """
+            for cells with more than one corresponding word, add that word as new entry
+            """
+            tba = []
+            for i_w,word in enumerate(words):
+                if "," in word:
+                    for match in  regex.findall("(?<=,).+",word):          
+                        tba.append(match)
+                    #reduce entry to first occurence of seperator
+                    words[i_w] = word[:word.index(",")]
+            words.extend(tba)
+            allWords.extend(words)
+            geo_info[line[0]] = [line[5],line[6]]
+    
+"""
+EXTRACT ALL PHONEMES AND ADD WORD BOUNDARIES AND GET RID OF EMPTY STRINGS
+"""
+print("EXTRACT ALL PHONEMES AND ADD WORD BOUNDARIES AND GET RID OF EMPTY STRINGS")
+allWords = [["<s>"]+getListofASJPPhonemes(word)+["</s>"] for word in allWords if len(word) > 0]
+ 
+"""
+COUNT PHONEMES
+"""
+print("COUNT PHONEMES")
+freq_phonemes = dict()
+for i,word in enumerate(allWords):
+    for phoneme in word:
+        if phoneme not in freq_phonemes:
+            freq_phonemes[phoneme] = 0
+        freq_phonemes[phoneme] += 1
+"""
+REDUCE COMPLEX PHONEMES TO SINGLE PHONEMES IF FREQ SMALLER THAN X
+"""
+ 
+n_ensemble  =10
+sg = 0
+hs = 1
+dim_embedding = 150
+window =1
+negative = 0
+ 
+ 
+print("fitting model")
+w2v_model = Word2Vec(sentences=allWords,
+                     sg = sg,
+                     size=dim_embedding,
+                     window=window,
+                     negative=negative,
+                     hs=hs,
+                     min_count=1
+                     )
+
+pathToWordList = "Data/CognateData/output/Mayan.tsv"
+
+#lists that store info in order of word list file
+languages = []
+global_ids = []
+asjp_words = []
+cognate_classes = []
+for line in codecs.open(pathToWordList,encoding="utf-8",mode="r"):
+    line = line.split("\t")
+    language = line[0]
+    global_id = line[3]
+    asjp_word = line[5]
+    cognate_class = line[6]
+    languages.append(language)
+    global_ids.append(global_id)
+    asjp_words.append(asjp_word)
+    cognate_classes.append(cognate_class)
+
+for language in set(languages):
+    print(language)
+    print(geo_info[language])

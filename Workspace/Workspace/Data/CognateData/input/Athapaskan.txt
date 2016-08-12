@@ -1,0 +1,878 @@
+     1    24  1700     3     1                           
+(i3,2x,10a1)
+  1. I          	Ei //			
+  2. you        	yu //
+  3. we	        	wi //		
+  0. many       	mini //		
+ 11. one        	w3n //		
+ 12. two        	tu //		
+  0. big        	big //		
+  0. long       	loN //		
+  0. small      	smaul, litl //		
+  0. woman      	w3min //		
+  0. man        	mEn //		
+ 19. fish       	fiS //		
+ 21. dog        	dag //		
+ 22. louse      	laus //		
+ 23. tree       	tri //		
+ 25. leaf       	lif //		
+  0. flesh      	flES, mit //		
+ 30. blood      	bl3d //		
+ 31. bone       	bon //		
+  0. grease     	gris //		
+  0. egg        	eg //		
+ 34. horn       	horn //
+  0. tail       	tel //		
+  0. feather    	fe8r //	
+  0. hair       	hEr //		
+  0. head       	hed //		
+ 39. ear        	ir //		
+ 40. eye        	Ei //		
+ 41. nose       	nos //		
+  0. mouth      	mau8 //
+ 43. tooth      	tu8 //		
+ 44. tongue     	t3N //		
+  0. claw       	klau //
+  0. foot       	fut //		
+ 47. knee       	ni //		
+ 48. hand       	hEnd //		
+  0. belly      	beli //	
+  0. neck       	nek //		
+ 51. breasts    	brest //		
+  0. heart      	hart //		
+ 54. drink      	drink //		
+  0. eat        	it //
+  0. bite       	bEit //		
+ 57. see        	si //		
+ 58. hear       	hir //		
+  0. sleep      	slip //		
+ 61. die        	dEi //		
+  0. kill       	kil //		
+  0. swim       	swim //		
+  0. fly        	flEi //		
+  0. lie        	lEi //			
+  0. sit        	sit //
+  0. stand      	stEnd //
+  0. say        	sei //		
+ 72. sun        	s3n //		
+  0. moon       	mun //		
+ 74. star       	star //		
+ 75. water      	wat3r //		
+  0. rain       	rein //		
+ 77. stone      	ston //		
+  0. sand       	sEnd //		
+  0. earth      	3r8 //
+  0. cloud      	klaud //		
+  0. smoke      	smok //		
+ 82. fire       	fEir //		
+  0. ash        	ES //			
+  0. burn       	b3rn //		
+ 85. path       	pE8 //		
+  0. red        	red //		
+  0. green      	grin //		
+  0. yellow     	yelo		
+  0. white      	wh~Eit //		
+  0. black      	blEk //		
+ 92. night      	nEit //		
+  0. hot        	hat //		
+  0. cold       	kold //		
+ 95. full       	ful //		
+100. name       	nem //		
+ -1
+NAVAHO
+CHIRICAHUA
+SAN_CARLOS
+JICARILLA
+LIPAN
+KATO
+MATTOLE
+HUPA_2
+KUTCHIN
+HARE
+CHIPEWYAN
+BEAVER
+CARRIER
+SARCEE
+GALICE
+                                          
+Athapaskan (Hoijer)
+(2x,100i3)
+NC  9 13 32 56 66
+ S 13 15 32 55 56 57 63 66 73
+ J  9 15 20 32 56 63 66
+ L  9 13 15 20 23 32 56 66
+ K 10 11 13 18 27 30 38 41 43 46 47 49 55 56 59 63 70 75 76 78
+ M 10 11 13 17 18 20 30 32 33 39 41 43 47 49 55 56 59 61 63 66 70 73 74 75
+ H 10 11 13 18 20 24 26 30 32 33 39 40 41 46 47 49 55 56 59 61 63 66 67 69 70 75
+ K  9 10 13 18 20 21 33 39 41 42 43 46 47 49 51 53 55 56 59 66 70 74 75 77
+ H  9 10 13 19 20 29 30 32 39 41 43 45 46 47 49 53 55 56 59 66 70 73 74 75 77
+ C 10 13 20 35 39 41 42 46 47 48 49 55 56 59 66 69 74 77
+ B  6 10 13 20 27 29 30 41 43 47 49 55 56 59 66 72 75 78
+ C  3 10 13 20 32 33 39 41 42 46 49 55 56 59 62 66 69 70 72 73 74 75 
+ S  5  6  9 10 13 17 20 30 39 41 42 46 49 55 56 59 61 63 66 69 70 74 75 77
+ G  6  9 10 13 30 39 41 43 46 47 49 55 56 57 59 61 62 63 66 68 75 
+CS  9 13 15 55 57 63 66 73
+ J  9 13 15 20 63
+ L 13 15 20 23
+ K  9 10 11 13 18 27 30 32 38 41 43 46 47 49 55 56 59 63 70 75 76 78
+ M  9 10 11 13 17 18 20 30 32 33 39 41 43 47 49 55 56 59 61 63 66 70 73 74 75
+ H  9 10 11 13 18 20 24 26 30 32 33 39 40 41 46 47 49 55 56 59 61 63 66 67 69 70 75
+ K 10 13 18 20 21 32 33 39 41 42 43 46 47 49 51 53 55 56 59 66 70 74 75 77
+ H 10 13 19 20 29 30 39 41 43 45 46 47 49 53 55 56 59 66 70 73 74 75 77
+ C  9 10 13 20 32 35 39 41 42 46 47 48 49 55 56 59 66 69 74 77
+ B  6 10 13 20 27 29 30 32 41 43 47 49 55 56 59 66 72 75 78
+ C  3  9 10 13 20 32 33 39 41 42 46 49 55 56 59 62 66 69 70 72 73 74 75 
+ S  5  6  9 10 13 17 20 30 32 39 41 42 46 49 55 56 59 61 63 66 69 70 74 75 77
+ G  6  9 10 13 30 39 41 43 46 47 49 55 56 57 59 61 62 63 66 68 75 
+SJ  9 13 15 20 55 57 63 66 73
+ L  9 13 15 20 23 55 57 63 66 73
+ K 10 11 13 15 18 27 30 32 38 41 43 46 47 49 55 56 57 59 63 70 73 75 78
+ M 10 11 13 15 17 18 20 30 32 33 39 41 43 47 49 55 56 57 59 61 63 66 70 73 74 75
+ H 10 11 13 15 18 20 24 26 30 32 33 39 40 41 46 47 49 55 56 57 59 61 63 66 67 69 70 73 75
+ K  9 10 13 15 18 20 21 32 33 39 41 42 43 46 47 49 53 55 56 57 59 63 66 70 73 74 75 77
+ H  9 10 13 15 19 20 29 30 39 41 43 45 46 47 49 53 55 56 57 59 63 66 70 73 74 75 77
+ C 10 13 15 20 32 35 39 41 42 46 47 48 49 55 56 57 59 63 66 69 73 74 77
+ B  6 10 13 15 20 27 29 30 32 41 43 47 49 55 56 57 59 63 66 72 73 75 78
+ C  3 10 13 15 20 32 33 39 41 42 46 49 55 56 57 59 62 63 66 69 70 72 73 74 75 
+ S  5  6  9 10 13 15 17 20 30 32 39 41 42 46 49 55 56 57 59 61 63 66 69 70 74 75 77
+ G  6  9 10 13 15 30 39 41 43 46 47 49 55 56 57 59 61 62 63 66 68 75 
+JL  9 13 15 23 63
+ K  9 10 11 13 15 18 20 27 30 32 38 41 43 46 47 49 55 56 59 63 70 75 76 78
+ M  9 10 11 13 15 17 18 20 30 32 33 39 41 43 47 49 55 56 59 61 63 66 70 73 74 75
+ H  9 10 11 13 15 18 20 24 26 30 32 33 39 40 41 46 47 49 55 56 59 61 63 66 67 69 70 75
+ K  9 10 13 15 18 20 21 32 33 39 41 42 43 46 47 49 53 55 56 59 63 66 70 74 75 77
+ H  9 10 13 15 19 29 30 39 41 43 45 46 47 49 53 55 56 59 63 66 70 73 74 75 77
+ C  9 10 13 15 20 32 35 39 41 42 46 47 48 49 55 56 59 63 66 69 74 77
+ B  6 10 13 15 20 27 29 30 32 41 43 47 49 55 56 59 63 66 72 75 78
+ C  3  9 10 13 15 32 33 39 41 42 46 49 55 56 59 62 63 66 69 70 72 73 74 75 
+ S  5  6  9 10 13 15 17 30 32 39 41 42 46 49 55 56 59 61 63 66 69 70 74 75 77
+ G  6  9 10 13 15 20 30 39 41 43 46 47 49 55 56 57 59 61 62 63 66 68 75 
+LK  9 10 11 13 15 18 20 23 27 30 32 38 41 43 46 47 49 55 56 59 63 70 75 76 78
+ M  9 10 11 13 15 17 18 23 30 32 33 39 41 43 47 49 55 56 59 61 63 66 70 73 74 75
+ H  9 10 11 13 15 18 20 23 24 26 30 32 33 39 40 41 46 47 49 55 56 59 61 63 66 67 69 70 75
+ K 10 13 15 18 20 21 23 32 33 39 41 42 43 46 47 49 51 53 55 56 59 66 70 74 75 77
+ H 10 13 15 19 23 29 30 39 41 43 45 46 47 49 53 55 56 59 66 70 73 74 75 77
+ C  9 10 13 15 20 23 32 35 39 41 42 46 47 48 49 55 56 59 66 69 74 77
+ B  6 10 13 15 20 23 27 29 30 32 41 43 47 49 55 56 59 66 72 75 78
+ C  3  9 10 13 15 23 32 33 39 41 42 46 49 55 56 59 62 66 69 70 72 73 74 75 
+ S  5  6  9 10 13 15 17 23 30 32 39 41 42 46 49 55 56 59 61 63 66 69 70 74 75 77
+ G  6  9 10 13 15 20 23 30 39 41 43 46 47 49 55 56 57 59 61 62 63 66 68 75 
+KM 10 11 13 17 20 27 32 38 46 55 56 59 61 73 74 76 78
+ H 10 11 20 24 26 27 30 32 38 40 43 46 47 56 59 61 67 69 76 78
+ K  9 10 11 18 20 21 27 30 38 41 42 43 46 47 51 53 56 59 63 70 74 75 76 77 78
+ H  9 10 11 18 19 20 27 29 30 32 38 43 45 46 47 53 56 59 63 70 73 74 76 77 78
+ C 11 18 20 27 30 35 38 42 43 47 48 56 59 63 69 70 74 75 76 77 78
+ B  6 11 18 20 27 29 30 38 43 47 56 59 63 72 76
+ C  3 11 18 20 27 30 32 38 42 43 46 47 56 59 62 63 69 70 72 73 74 75 76 78
+ S  5  6  9 11 17 18 20 27 30 38 42 43 46 47 55 56 59 61 63 69 70 74 75 76 77 78
+ G  9 10 11 18 27 38 43 47 49 56 57 59 61 62 68 76 78
+MH 10 11 13 17 20 24 26 30 40 43 46 47 55 56 59 61 66 67 69 73 74
+ K  9 10 11 13 17 18 20 21 30 32 33 39 41 42 43 46 47 51 53 55 56 59 61 63 66 70 73 74 75 77
+ H  9 10 11 13 17 18 19 29 30 32 33 39 43 45 46 47 53 55 56 59 61 63 66 70 73 74 77
+ C 10 11 13 17 18 20 30 32 33 35 42 43 46 47 48 55 56 59 61 63 66 69 70 73 74 75 77
+ B  6 10 11 13 17 18 20 27 29 30 32 33 43 47 55 56 59 63 66 72 73 74 78
+ C  3 10 11 13 17 18 30 32 33 42 43 46 47 55 56 59 61 62 63 66 69 70 72 73 74 75 
+ S  5  6  9 10 11 13 17 18 30 32 33 42 46 47 55 56 59 61 63 66 69 70 73 74 75 77 
+ G  6  9 10 11 13 17 18 20 33 43 46 47 49 55 56 57 59 61 62 66 68 74
+HK  9 10 11 18 20 21 24 26 30 32 33 39 40 41 42 43 46 47 51 53 59 61 63 66 67 69 70 74 75 77
+ H  9 10 11 18 19 20 24 26 29 32 33 39 40 41 43 45 46 47 53 59 61 63 66 67 69 70 73 74 77
+ C 10 11 18 20 24 26 30 32 33 35 40 42 46 47 48 59 61 63 66 67 69 70 74 75 77 
+ B  6 10 11 18 20 24 26 27 29 32 33 40 43 59 63 66 67 72 78
+ C  3 10 11 18 20 24 26 30 32 33 40 42 46 47 59 61 62 63 66 67 69 70 72 73 74 75 
+ S  5  6  9 10 11 17 18 20 24 26 32 33 40 42 46 47 55 56 59 61 63 66 67 69 70 74 75 77
+ G  6  9 10 11 18 20 24 26 30 33 40 43 46 49 56 57 61 62 66 67 68 
+KH 10 18 19 20 21 29 30 32 33 41 42 43 45 46 51 73 75 
+ C  9 10 18 20 21 33 35 39 41 42 43 46 48 51 53 69 70 75 
+ B  6 10 18 20 27 29 30 33 41 42 43 47 51 53 66 72 74 75 78 
+ C  3  9 10 18 20 21 32 39 41 43 46 47 51 53 62 66 69 70 72 73 74 75 77 
+ S  5  6  9 10 17 18 20 21 30 33 39 41 42 43 46 47 51 53 55 56 61 66 69 70 74 75 77 
+ G  6  9 10 18 20 21 30 33 39 41 42 43 46 47 49 51 53 56 57 59 61 62 63 66 74 75 77 
+HC  9 10 19 20 29 30 32 35 39 42 43 45 46 48 53 69 70 73 75 
+ B  6 10 19 20 27 32 42 43 45 47 53 66 72 73 74 78 
+ c  3  9 10 19 29 30 32 33 39 42 43 45 47 53 62 66 69 70 72 73 74 75 77 
+ S  5  6  9 10 17 19 29 32 39 42 43 45 47 53 55 56 61 66 69 70 73 74 75 77 
+ G  6  9 10 19 20 21 29 30 39 43 45 46 47 49 53 56 57 59 61 62 63 66 68 74 77 
+CB  6 27 29 30 42 43 47 48 66 72 74 75 78 
+ C  3 20 32 33 35 42 46 47 48 62 66 69 70 72 73 74 75 77 
+ S  5  6  9 17 20 30 35 42 46 47 48 55 56 61 66 70 74 75 77 
+ G  6  9 20 30 35 42 43 47 48 49 56 57 59 61 62 63 66 68 74 75 77 
+BC  3  6 20 27 29 30 32 33 42 43 47 62 66 72 73 74 75 78 
+ S  5 17 20 27 29 43 47 55 56 66 72 74 75 78 
+ G  6 20 27 29 30 43 49 56 57 59 62 63 66 68 72 78 
+CS  3  5  6  9 17 30 32 33 42 55 56 61 62 66 69 70 72 73 75 77 
+ G  3  6  9 20 30 33 42 43 46 47 49 56 57 59 61 62 63 66 68 72 74 75 
+SG  5  6  9 17 20 30 42 43 46 47 49 55 56 57 59 61 62 63 66 68 74 75 77 
+                                  
+b
+f
+v
+m
+w             
+8       
+t
+d
+s
+z
+c
+n
+r
+l       
+S
+Z       
+C
+j
+T       
+5
+y
+k
+g
+x
+N
+q                     
+X
+h
+7
+L
+4
+G
+!       
+i   
+e
+E
+3
+a
+u
+o
+     
+       
+BEAVER{NDe.ATHAPASKAN|Na-Dene,NuclearNa-Dene,Athapaskan-Eyak,Athapaskan,Canadian,Beaver-Sekani@Eyak-Athapaskan-Tlingit,Athapaskan-Eyak,Athapaskan,Canadian,Beaver-Sekani}
+ 3   57.00 -120.00         300         bea
+1 I	sai //
+2 you	nai //
+3 we	naxa //
+11 one	La //
+12 two	oNki //
+18 person	d3ne // man
+19 fish	Luge //
+21 dog	Li*7 //
+22 louse	ya7 //
+23 tree	daCin //
+25 leaf	t"o //
+28 skin	XXX //
+30 blood	d3l //
+31 bone	c"3ne7 //
+34 horn	de7 //
+39 ear	C3ge7 //
+40 eye	dai7 //
+41 nose	nwo* //
+43 tooth	wo7 //
+44 tongue	cudi //
+47 knee	XXX //
+48 hand	nla7 //
+51 breast	XXX //
+53 liver	XXX //
+54 drink	do* //
+57 see	i* //
+58 hear	c"3k //
+61 die	c"id //
+66 come	XXX //
+72 sun	Sah //
+74 star	sen //
+75 water	tu //
+77 stone	ceh //
+82 fire	ko5 // n'?
+85 path	t3ne //
+86 mountain	XXX //
+92 night	xuLe //
+95 full	XXX //
+96 new	XXX //
+100 name	ye //
+CARRIER{NDe.ATHAPASKAN|Na-Dene,NuclearNa-Dene,Athapaskan-Eyak,Athapaskan,Canadian,Carrier-Chilcotin,Babine-Carrier@Eyak-Athapaskan-Tlingit,Athapaskan-Eyak,Athapaskan,Canadian,Carrier-Chilcotin,Babine-Carrier}
+ 1   53.75 -123.50        2060   crq   crx
+1 I	si //
+2 you	nen //
+3 we	xweni //
+11 one	iLo //
+12 two	nankE //
+18 person	dene // man
+19 fish	Lo //
+21 dog	Li //
+22 louse	ya7 //
+23 tree	Cen //
+25 leaf	t"an //
+28 skin	XXX //
+30 blood	delel //
+31 bone	8"en // "labio-alveolar interdental affricate"
+34 horn	de //
+39 ear	co //
+40 eye	na //
+41 nose	ncis //
+43 tooth	xu //
+44 tongue	ecula //
+47 knee	gwed //
+48 hand	la //
+51 breast	8"u // "labio-alveolar interdental affricate"
+53 liver	XXX //
+54 drink	nai //
+57 see	en //
+58 hear	c"ai //
+61 die	cai //
+66 come	XXX //
+72 sun	sa //
+74 star	s3n //
+75 water	tu //
+77 stone	8e //
+82 fire	kwen //
+85 path	ti //
+86 mountain	XXX //
+92 night	xeL //
+95 full	ben //
+96 new	XXX //
+100 name	uzi //
+CHIPEWYAN{NDe.ATHAPASKAN|Na-Dene,NuclearNa-Dene,Athapaskan-Eyak,Athapaskan,Canadian,Hare-Chipewyan,Chipewyan@Eyak-Athapaskan-Tlingit,Athapaskan-Eyak,Athapaskan,Canadian,Hare-Chipewyan,Chipewyan}
+ 1   59.00 -106.00        9030   chp   chp
+1 I	si //
+2 you	n3n //
+3 we	nuni //
+11 one	La //
+12 two	nakE //
+18 person	d3ne // man
+19 fish	LuwE //
+21 dog	Li* //
+22 louse	ya //
+23 tree	dECin //
+25 leaf	t"a* //
+28 skin	XXX //
+30 blood	dEL //
+31 bone	8"3nE // "labio-alveolar interdental affricate"
+34 horn	dE //
+39 ear	caxa //
+40 eye	naxa //
+41 nose	nci* //
+43 tooth	xu //
+44 tongue	8u // "labio-alveolar interdental affricate"
+47 knee	cagwor //
+48 hand	nla //
+51 breast	8"uwE // "labio-alveolar interdental affricate"
+53 liver	XXX //
+54 drink	da* //
+57 see	i* //
+58 hear	8"ax // "labio-alveolar interdental affricate"
+61 die	8ir //
+66 come	XXX //
+72 sun	sa //
+74 star	83n // "labio-alveolar interdental affricate"
+75 water	tu //
+77 stone	8e //
+82 fire	kwen //
+85 path	ti //
+86 mountain	XXX //
+92 night	xeL //
+95 full	ben //
+96 new	XXX //
+100 name	uzi //
+CHIRICAHUA{NDe.ATHAPASKAN|Na-Dene,NuclearNa-Dene,Athapaskan-Eyak,Athapaskan,Apachean,Navajo-Apache,EasternApache@Eyak-Athapaskan-Tlingit,Athapaskan-Eyak,Athapaskan,Apachean,Navajo-Apache,EasternApache}
+ 1   33.25 -108.00        1800   apc   apm
+1 I	Si // Dialect of "Apache, Mescalero-Chiricahua" in Ethnologue
+2 you	nd~i //
+3 we	nahi //
+11 one	La7 //
+12 two	naki //
+18 person	nnd~e // man
+19 fish	Loi7 //
+21 dog	keCa //
+22 louse	ya //
+23 tree	cin //
+25 leaf	t"a* //
+28 skin	XXX //
+30 blood	diL //
+31 bone	c"i*7 //
+34 horn	de7 //
+39 ear	Ca //
+40 eye	nd~a //
+41 nose	iCi* //
+43 tooth	xo //
+44 tongue	zade //
+47 knee	go7 //
+48 hand	la //
+51 breast	be7 //
+53 liver	XXX //
+54 drink	La* //
+57 see	i* //
+58 hear	c"a7 //
+61 die	ca //
+66 come	XXX //
+72 sun	Ci*gona7ai //
+74 star	so*s //
+75 water	to //
+77 stone	ce //
+82 fire	ko* //
+85 path	intin //
+86 mountain	XXX //
+92 night	L"e //
+95 full	bi*7 //
+96 new	XXX //
+100 name	iZi //
+GALICE{NDe.ATHAPASKAN|Na-Dene,NuclearNa-Dene,Athapaskan-Eyak,Athapaskan,PacificCoast,Oregon,Tolowa-Galice@Eyak-Athapaskan-Tlingit,Athapaskan-Eyak,Athapaskan,PacificCoast,Oregon,Tolowa-Galice}
+ 1   43.00 -121.00       -1963         gce
+1 I	Si // location approximate - "southern Oregon"
+2 you	nan //
+3 we	dawa //
+11 one	La* //
+12 two	nadei //
+18 person	dadei // man
+19 fish	Luk"e //
+21 dog	li*7 //
+22 louse	ya7 //
+23 tree	Can //
+25 leaf	t"a*i* //
+28 skin	XXX //
+30 blood	daL //
+31 bone	c"an //
+34 horn	dei7 //
+39 ear	sai //
+40 eye	dai //
+41 nose	miSaS //
+43 tooth	gu7 //
+44 tongue	XXX //
+47 knee	gwai7 //
+48 hand	la7 //
+51 breast	c"awei7 //
+53 liver	XXX //
+54 drink	na //
+57 see	i* //
+58 hear	c"ei //
+61 die	c"id //
+66 come	XXX //
+72 sun	Sa //
+74 star	yasan //
+75 water	tu //
+77 stone	sei //
+82 fire	kwan //
+85 path	tadei //
+86 mountain	XXX //
+92 night	Le7 //
+95 full	maN //
+96 new	XXX //
+100 name	uSi7 //
+HARE{NDe.ATHAPASKAN|Na-Dene,NuclearNa-Dene,Athapaskan-Eyak,Athapaskan,Canadian,Hare-Chipewyan,Hare-Slavey@Eyak-Athapaskan-Tlingit,Athapaskan-Eyak,Athapaskan,Canadian,Hare-Chipewyan,Hare-Slavey,Slave}
+ 1   67.00 -125.00        1030   sla   scs
+1 I	seni //
+2 you	ne //
+3 we	naxeni //
+11 one	i*Lege //
+12 two	naoke //
+18 person	dEnE // man
+19 fish	Luge //
+21 dog	Li* //
+22 louse	ya //
+23 tree	deCi* //
+25 leaf	i*t"o* //
+28 skin	XXX //
+30 blood	edelE //
+31 bone	ek"wenE //
+34 horn	ede //
+39 ear	ecie //
+40 eye	edy~a //
+41 nose	i*xo* //
+43 tooth	exu //
+44 tongue	ewari //
+47 knee	ego //
+48 hand	la //
+51 breast	t"oy //
+53 liver	XXX //
+54 drink	edo* //
+57 see	i //
+58 hear	k"wey //
+61 die	fwi //
+66 come	XXX //
+72 sun	sa //
+74 star	fwe* //
+75 water	tu //
+77 stone	kfwE //
+82 fire	ko* //
+85 path	nadetene //
+86 mountain	XXX //
+92 night	tEwE //
+95 full	o* //
+96 new	XXX //
+100 name	i*zi //
+HUPA_2{NDe.ATHAPASKAN|Na-Dene,NuclearNa-Dene,Athapaskan-Eyak,Athapaskan,PacificCoast,California,Hupa@Eyak-Athapaskan-Tlingit,Athapaskan-Eyak,Athapaskan,PacificCoast,California,Hupa}
+ 1   41.08 -123.67           8   hup   hup
+1 I	we //
+2 you	niN //
+3 we	nehe //
+11 one	La7 //
+12 two	naxi //
+18 person	xosday // man
+19 fish	Lok" //
+21 dog	LiN //
+22 louse	ya7 //
+23 tree	isky~iN //
+25 leaf	t"aN //
+28 skin	XXX //
+30 blood	celiN //
+31 bone	c"iN //
+34 horn	de7 //
+39 ear	Ciw //
+40 eye	na7 //
+41 nose	nCw~iw //
+43 tooth	gu7 //
+44 tongue	XXX //
+47 knee	got" //
+48 hand	la7 //
+51 breast	c"awei7 //
+53 liver	XXX //
+54 drink	na //
+57 see	i* //
+58 hear	c"ei //
+61 die	c"id //
+66 come	XXX //
+72 sun	Sa //
+74 star	yasan //
+75 water	tu //
+77 stone	sei //
+82 fire	xoN //
+85 path	tin //
+86 mountain	XXX //
+92 night	xaL"e7 //
+95 full	miN //
+96 new	XXX //
+100 name	owe7 //
+JICARILLA{NDe.ATHAPASKAN|Na-Dene,NuclearNa-Dene,Athapaskan-Eyak,Athapaskan,Apachean,Navajo-Apache,EasternApache@Eyak-Athapaskan-Tlingit,Athapaskan-Eyak,Athapaskan,Apachean,Navajo-Apache,EasternApache}
+ 1   36.58 -104.00         680   apj   apj
+1 I	Si //
+2 you	ni //
+3 we	nahi //
+11 one	La7 //
+12 two	naki //
+18 person	di*de // man
+19 fish	Loge //
+21 dog	Li*Ca7a //
+22 louse	ya7 //
+23 tree	noSCi //
+25 leaf	t"a*7 //
+28 skin	XXX //
+30 blood	diL //
+31 bone	c"in //
+34 horn	de7 //
+39 ear	Ca //
+40 eye	na //
+41 nose	Ci*h //
+43 tooth	xo7 //
+44 tongue	zad //
+47 knee	go7 //
+48 hand	la7 //
+51 breast	be7 //
+53 liver	XXX //
+54 drink	La* //
+57 see	i* //
+58 hear	c"ag //
+61 die	ca //
+66 come	XXX //
+72 sun	ya7ai //
+74 star	c"iLso*se //
+75 water	to //
+77 stone	ce //
+82 fire	ko*7 //
+85 path	itin //
+86 mountain	XXX //
+92 night	L"e7 //
+95 full	bi*h //
+96 new	XXX //
+100 name	i*Zi7 //
+KATO{NDe.ATHAPASKAN|Na-Dene,NuclearNa-Dene,Athapaskan-Eyak,Athapaskan,PacificCoast,California,Mattole-Wailaki@Eyak-Athapaskan-Tlingit,Athapaskan-Eyak,Athapaskan,PacificCoast,California,Mattole-Wailaki}
+ 1   39.67 -123.67       -2000   kto   ktw
+1 I	Si //
+2 you	niN //
+3 we	nehiN //
+11 one	Laha7 //
+12 two	naka7 //
+18 person	n3nkad3N // man
+19 fish	Lok" //
+21 dog	Lo //
+22 louse	ya7 //
+23 tree	C3n //
+25 leaf	XXX //
+28 skin	XXX //
+30 blood	selin //
+31 bone	c"3N //
+34 horn	de7 //
+39 ear	C"ge7 //
+40 eye	na7 //
+41 nose	unC //
+43 tooth	wo7 //
+44 tongue	so7 //
+47 knee	qot" //
+48 hand	la7 //
+51 breast	XXX //
+53 liver	XXX //
+54 drink	nan //
+57 see	iN" //
+58 hear	c"eg //
+61 die	d3n //
+66 come	XXX //
+72 sun	Sa //
+74 star	s3n //
+75 water	to //
+77 stone	se //
+82 fire	koN" //
+85 path	t3nni //
+86 mountain	XXX //
+92 night	L"e7 //
+95 full	b3N" //
+96 new	XXX //
+100 name	yi //
+KUTCHIN{NDe.ATHAPASKAN|Na-Dene,NuclearNa-Dene,Athapaskan-Eyak,Athapaskan,Canadian,Han-Kutchin@Eyak-Athapaskan-Tlingit,Athapaskan-Eyak,Athapaskan,Canadian,Han-Kutchin}
+ 1   67.00 -146.00         800   kth   gwi
+1 I	si // "Gwich'in" in Ethnologue
+2 you	Na* //
+3 we	nuxwun //
+11 one	i*Lag3 //
+12 two	nak3* //
+18 person	dinCie // man
+19 fish	Lugu //
+21 dog	Le* //
+22 louse	zy~ie //
+23 tree	d3Can //
+25 leaf	at"an //
+28 skin	XXX //
+30 blood	da //
+31 bone	8"3n // "apico-alveolar interdental affricate"
+34 horn	edy~i //
+39 ear	ecey //
+40 eye	3nde //
+41 nose	3nci* //
+43 tooth	axwo //
+44 tongue	iCa //
+47 knee	gwod //
+48 hand	nle //
+51 breast	t"agu //
+53 liver	XXX //
+54 drink	CiL //
+57 see	in //
+58 hear	8"eg // "apico-alveolar interdental affricate"
+61 die	83d //
+66 come	XXX //
+72 sun	sie //
+74 star	s3n //
+75 water	tio* //
+77 stone	Ci //
+82 fire	kwon //
+85 path	nata*e* //
+86 mountain	XXX //
+92 night	ta8 //
+95 full	e* //
+96 new	XXX //
+100 name	ozy~i //
+LIPAN{NDe.ATHAPASKAN|Na-Dene,NuclearNa-Dene,Athapaskan-Eyak,Athapaskan,Apachean,Navajo-Apache,EasternApache@Eyak-Athapaskan-Tlingit,Athapaskan-Eyak,Athapaskan,Apachean,Navajo-Apache,EasternApache}
+ 1   33.33 -105.50           2         apl
+1 I	Si // "Apache, Lipan" in Ethnologue
+2 you	nd~i //
+3 we	nahi //
+11 one	La7 //
+12 two	naki //
+18 person	di*di // man
+19 fish	Lo*7 //
+21 dog	niLi* //
+22 louse	ya //
+23 tree	CiS //
+25 leaf	t"a*7 //
+28 skin	XXX //
+30 blood	diL //
+31 bone	c"i*h //
+34 horn	di7 //
+39 ear	Ca //
+40 eye	nd~a //
+41 nose	iCi*S //
+43 tooth	xo7 //
+44 tongue	zadi //
+47 knee	goh //
+48 hand	la7 //
+51 breast	bi7 //
+53 liver	XXX //
+54 drink	La* //
+57 see	i* //
+58 hear	c"ah //
+61 die	ca //
+66 come	XXX //
+72 sun	ya7ai //
+74 star	so*s //
+75 water	ko //
+77 stone	ci //
+82 fire	ko*7 //
+85 path	iniki* //
+86 mountain	XXX //
+92 night	L"i7 //
+95 full	bi*h //
+96 new	XXX //
+100 name	iZi7 //
+MATTOLE{NDe.ATHAPASKAN|Na-Dene,NuclearNa-Dene,Athapaskan-Eyak,Athapaskan,PacificCoast,California,Mattole-Wailaki@Eyak-Athapaskan-Tlingit,Athapaskan-Eyak,Athapaskan,PacificCoast,California,Mattole-Wailaki}
+ 1   40.17 -124.17       -1930   mtl   mvb
+1 I	Si //
+2 you	niN //
+3 we	nohniN //
+11 one	laiha7 //
+12 two	nakeh //
+18 person	gaten // man
+19 fish	Lok"eh //
+21 dog	naL"i //
+22 louse	ya7 //
+23 tree	Cy~iN //
+25 leaf	t"aN" //
+28 skin	XXX //
+30 blood	celin //
+31 bone	c"in //
+34 horn	de7 //
+39 ear	Cix //
+40 eye	na7 //
+41 nose	nCi*x //
+43 tooth	xwo7 //
+44 tongue	sastan //
+47 knee	gwoL //
+48 hand	la7 //
+51 breast	c"o7 //
+53 liver	XXX //
+54 drink	nan //
+57 see	iN //
+58 hear	c"a7 //
+61 die	diN //
+66 come	XXX //
+72 sun	CiNxa7 //
+74 star	ciN" //
+75 water	to7 //
+77 stone	ce //
+82 fire	koN" //
+85 path	teniN //
+86 mountain	XXX //
+92 night	Cagwolxin //
+95 full	biN //
+96 new	XXX //
+100 name	xi*7 //
+NAVAHO{NDe.ATHAPASKAN|Na-Dene,NuclearNa-Dene,Athapaskan-Eyak,Athapaskan,Apachean,Navajo-Apache,WesternApache-Navajo@Eyak-Athapaskan-Tlingit,Athapaskan-Eyak,Athapaskan,Apachean,Navajo-Apache,WesternApache-Navajo}
+ 1   36.17 -108.00      148530   nav   nav
+1 I	Si //
+2 you	ni //
+3 we	nihi //
+11 one	La7 //
+12 two	naki //
+18 person	dine // man
+19 fish	Lo7 //
+21 dog	LeCa*7i //
+22 louse	ya7 //
+23 tree	cin //
+25 leaf	t"a*7 //
+28 skin	XXX //
+30 blood	diL //
+31 bone	c"in //
+34 horn	de7 //
+39 ear	Ca7 //
+40 eye	na7 //
+41 nose	iCi*h //
+43 tooth	xo7 //
+44 tongue	co7 //
+47 knee	god //
+48 hand	ila7 //
+51 breast	be7 //
+53 liver	XXX //
+54 drink	La* //
+57 see	i* //
+58 hear	c"i*h //
+61 die	cah //
+66 come	XXX //
+72 sun	Cohona7ai //
+74 star	so*7 //
+75 water	to7 //
+77 stone	ce //
+82 fire	ko*7 //
+85 path	atin //
+86 mountain	XXX //
+92 night	L"e7 //
+95 full	bin //
+96 new	XXX //
+100 name	iZi7 //
+SAN_CARLOS{NDe.ATHAPASKAN|Na-Dene,NuclearNa-Dene,Athapaskan-Eyak,Athapaskan,Apachean,Navajo-Apache,WesternApache-Navajo@Eyak-Athapaskan-Tlingit,Athapaskan-Eyak,Athapaskan,Apachean,Navajo-Apache,WesternApache-Navajo}
+ 1   33.75 -110.00       12693   apw   apw
+1 I	Si // Dialect of "Apache, Western" in Ethnologue
+2 you	nd~i //
+3 we	nohw~i //
+11 one	La7 //
+12 two	naki //
+18 person	nne // man
+19 fish	Log //
+21 dog	Li*Cayane //
+22 louse	ya7 //
+23 tree	C"il //
+25 leaf	t"a* //
+28 skin	XXX //
+30 blood	diL //
+31 bone	c"in //
+34 horn	de7 //
+39 ear	Ca //
+40 eye	na //
+41 nose	Ci*h //
+43 tooth	xo7 //
+44 tongue	zad //
+47 knee	god //
+48 hand	la7 //
+51 breast	be7 //
+53 liver	XXX //
+54 drink	La* //
+57 see	i* //
+58 hear	c"ag //
+61 die	ca //
+66 come	XXX //
+72 sun	ya7ai //
+74 star	c"iLso* //
+75 water	to //
+77 stone	ce //
+82 fire	ko*7 //
+85 path	itin //
+86 mountain	XXX //
+92 night	L"e7 //
+95 full	bi*h //
+96 new	XXX //
+100 name	i*Zi7 //
+SARCEE{NDe.ATHAPASKAN|Na-Dene,NuclearNa-Dene,Athapaskan-Eyak,Athapaskan,Canadian,Sarcee@Eyak-Athapaskan-Tlingit,Athapaskan-Eyak,Athapaskan,Canadian,Sarcee}
+ 1   52.50 -116.00          50   src   srs
+1 I	sini //
+2 you	nini //
+3 we	nani //
+11 one	Lik"aza //
+12 two	aki7 //
+18 person	dina // man
+19 fish	Luk"a //
+21 dog	Li //
+22 louse	ya7 //
+23 tree	iCi //
+25 leaf	it"asi // Greek 'alpha' used in original
+28 skin	XXX //
+30 blood	diL //
+31 bone	c"in //
+34 horn	da7 //
+39 ear	cix //
+40 eye	nax //
+41 nose	ci //
+43 tooth	xo //
+44 tongue	co //
+47 knee	gud //
+48 hand	la7 // Greek 'alpha' used in original
+51 breast	c"ow //
+53 liver	XXX //
+54 drink	na // Greek 'alpha' used in original
+57 see	i //
+58 hear	c"a // Greek 'alpha' used in original
+61 die	ca // Greek 'alpha' used in original
+66 come	XXX //
+72 sun	Cat"axa //
+74 star	soh //
+75 water	tu //
+77 stone	ca //
+82 fire	ko7 //
+85 path	asti //
+86 mountain	XXX //
+92 night	xiL //
+95 full	c"ist //
+96 new	XXX //
+100 name	izi //
+                                              

@@ -1,0 +1,6 @@
+MODULES_MANAGER_V2
+Data.CognateData.script|/Users/marlon/Documents/BA/Workspace/BA/Data/CognateData/script.py
+Data.IELex.script|/Users/marlon/Documents/BA/Workspace/BA/Data/IELex/script.py
+Data.abvd2.script|/Users/marlon/Documents/BA/Workspace/BA/Data/abvd2/script.py
+Data.mattis_new.script|/Users/marlon/Documents/BA/Workspace/BA/Data/mattis_new/script.py
+VAE|/Users/marlon/Documents/BA/Workspace/BA/VAE.py

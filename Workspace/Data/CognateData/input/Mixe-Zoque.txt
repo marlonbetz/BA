@@ -1,0 +1,1284 @@
+     1    50  1700     3     1
+(I3)     
+  9  all
+ 83  ashes
+ 27  bark
+ 49  belly
+ 13  big
+ 20  bird
+ 56  bite
+ 91  black
+ 30  blood
+ 31  bone
+ 51  breast 
+ 84  burn
+ 45  claw (nail)
+ 80  cloud
+ 94  cold
+ 66  come
+ 61  die
+ 21  dog
+ 54  drink
+ 99  dry
+ 39  ear
+ 79  earth
+ 55  eat
+ 33  egg
+ 40  eye
+ 32  fat
+ 36  feather
+ 82  fire
+ 19  fish
+ 64  fly
+ 46  foot
+ 95  full
+ 70  give
+ 97  good
+ 88  green
+ 37  hair
+ 48  hand
+ 38  head
+ 58  hear
+ 52  heart
+ 34  horn
+  1  I
+ 62  kill
+ 47  knee
+ 59  know
+ 25  leaf
+ 67  lie
+ 53  liver
+ 14  long
+ 22  louse
+ 17  man
+ 10  many
+ 29  meat
+ 73  moon
+ 86  mountain
+ 42  mouth
+100  name
+ 50  neck
+ 96  new
+ 92  night
+  8  no
+ 41  nose
+ 11  one
+ 18  person
+ 76  rain
+ 87  red
+ 85  road (path)
+ 26  root
+ 98  round
+ 78  sand
+ 71  say
+ 57  see
+ 24  seed
+ 68  sit
+ 28  skin
+ 60  sleep
+ 15  small
+ 81  smoke
+ 69  stand
+ 74  star
+ 77  stone
+ 72  sun
+ 63  swim
+ 35  tail
+  5  that
+  4  this
+  2  thou
+ 44  tongue
+ 43  tooth
+ 23  tree
+ 12  two
+ 65  walk
+ 93  warm
+ 75  water
+  3  we
+  7  what
+ 90  white
+  6  who
+ 16  woman
+ 89  yellow
+ -1
+NORTH_HIGHLAND_MIXE
+SOUTH_HIGHLAND_MIXE
+LOWLAND_MIXE
+SAYULA_POPOLUCA
+OLUTA_POPOLUCA
+TEXISTEPEC_ZOQUE
+SOTEAPAN_ZOQUE
+MARIA_CHIMALAPA
+MIGUEL_CHIMALAPA
+CHIAPAS_ZOQUE
+  
+Mixe-Zoque (Wichmann)
+(A1,7X,12I2)
+all      1 2 2 3 4 5 6 7 8 5
+ashes    2 2 1 1 2 1 1 1 1 1
+bark     1 1 1 1 0 2 0 2 2 2
+belly    1 5 2 1 3 4 0 4 4 4
+big      1 1 1 1 2 3 1 3 5 1
+bird     1 2 2 2 3 2 2 2 2 4
+bite     1 1 2 3 4 5 6 0 6 5
+black    1 1 1 2 2 1 1 1 1 1
+blood  2 1 1 1 1 1 1 1 1 1 1
+bone   2 1 1 1 1 1 1 1 1 1 1
+breas  2 1 2 2 3 0 4 4 0 5 5
+burn     1 8 2 3 3 5 6 7 4 4
+claw     1 1 1 1 1 2 2 2 2 2
+cloud    1 5 2 1 1 4 4 0 1 3
+cold     1 1 2 3 4 5 5 6 6 5
+come   2 1 2 2 2 2 2 2 2 2 2
+die    2 1 1 1 1 1 2 2 2 2 2
+dog    2 1 1 1 2 3 5 5 6 6 4
+drink  2 1 1 1 1 1 1 1 1 1 1
+dry      1 1 1 1 1 1 1 1 1 1
+ear    2 1 1 1 1 1 1 1 1 1 1
+earth    1 1 1 1 1 1 1 1 1 1
+eat      2 2 2 2 2 3 3 3 3 3
+egg      1 1 1 2 1 4 4 3 3 3
+eye    2 1 1 1 1 1 2 2 3 3 1
+fat      1 1 2 3 1 0 5 6 7 4
+feath    1 1 2 0 1 1 1 1 1 1
+fire   2 1 1 0 1 1 2 2 2 3 2
+fish   2 1 1 1 1 2 3 4 2 2 2
+fly      1 2 2 2 3 2 2 2 2 4
+foot     1 1 1 2 3 5 6 7 7 4
+full   2 1 1 2 3 1 6 6 7 7 5
+give     1 3 1 1 1 2 2 2 2 2
+good     1 1 1 1 1 2 2 0 2 1
+green    1 1 1 1 1 1 1 1 1 1
+hair1    1 1 1 0 0 1 1 1 1 1
+hand   2 1 1 1 1 1 1 1 1 2 1
+head     1 1 1 1 1 1 1 2 1 1
+hear   2 1 1 1 1 1 1 2 1 1 1
+heart    1 4 2 0 2 3 4 3 3 3
+horn   2 1 1 2 1 1 1 0 0 3 1
+I      2 1 1 1 1 1 1 1 1 2 1
+kill     1 1 1 1 1 2 2 2 3 2
+knee   2 1 1 1 1 1 1 1 2 2 3
+know     1 1 2 2 2 3 4 3 3 3
+leaf   2 1 1 1 1 1 1 1 1 1 1
+lie      1 2 2 3 4 5 6 7 7 8
+liver  2 1 1 1 1 1 1 1 1 2 2
+long     1 1 2 3 4 3 3 5 5 5
+louse  2 1 2 1 2 2 2 2 2 2 2
+man      1 1 1 2 3 4 4 4 4 4
+many     1 1 1 1 2 4 5 6 6 3
+meat     1 1 1 2 1 2 3 2 2 2
+moon     1 1 1 1 1 1 1 2 2 1
+mount  2 1 1 1 1 1 2 2 0 2 2
+mouth    1 1 1 1 1 3 3 3 3 2
+name   2 1 1 1 2 1 2 2 2 2 2
+neck     1 1 1 1 0 2 0 0 3 2
+new    2 1 2 2 1 1 2 2 2 2 2
+night  2 2 2 1 1 1 1 1 1 1 1
+nose   2 1 1 1 1 1 2 2 2 2 2
+not      1 1 1 1 2 3 4 1 4 4
+one    2 1 1 1 1 1 2 2 2 2 2
+perso  2 1 1 1 1 1 2 0 0 0 2
+rain     1 1 1 1 1 1 1 1 1 1
+red      1 1 1 1 1 1 1 1 1 1
+road   2 1 1 1 1 1 1 1 1 1 1
+root     1 1 2 2 2 2 2 3 3 3
+round    1 1 1 2 0 3 3 0 0 2
+sand     1 1 1 1 1 1 1 3 1 2
+say      1 5 2 4 4 4 4 4 4 4
+see1   2 1 1 1 1 0 1 1 1 1 1
+seed     1 2 2 3 2 3 2 3 3 3
+sit      1 1 2 1 3 5 5 1 1 4
+skin   2 1 1 1 1 1 2 2 2 2 2
+sleep    1 1 1 1 1 3 3 3 4 2
+small    1 2 2 3 3 4 5 0 6 3
+smoke    1 1 1 2 1 1 1 3 3 1
+stan1    1 1 1 1 1 2 1 0 1 1
+star   2 1 1 1 1 1 1 1 1 1 1
+stone  2 1 1 1 1 1 1 1 1 1 1
+sun    2 1 1 1 1 1 2 2 2 2 2
+swim     1 3 2 3 3 5 5 3 6 4
+tail     1 1 2 1 1 1 1 1 1 1
+that     1 6 2 3 2 0 2 0 5 4
+this     1 1 2 1 3 1 4 1 1 1
+thou   2 1 1 1 1 1 1 1 1 1 1
+tongu  2 1 1 1 1 1 0 1 2 1 1
+tooth  2 1 1 1 1 1 1 1 1 1 1
+tree   2 1 2 1 1 1 1 1 1 1 1
+two    2 1 1 1 1 1 2 2 3 3 1
+walk1    1 1 1 1 2 2 2 0 2 2
+warm     1 1 1 2 3 0 0 5 5 4
+water  2 1 1 1 1 1 1 1 1 1 1
+we     2 1 1 1 1 1 1 0 2 2 3
+what     1 1 1 1 1 1 1 1 1 1
+white    1 1 1 1 1 1 1 1 1 1
+who      1 1 1 1 1 3 4 2 2 2
+woman    1 2 2 2 3 4 4 4 4 4
+yello    1 1 1 1 1 1 1 1 1 1
+X                                     
+p   1
+b   1
+f   1
+v   1
+m   2
+w   1         
+8   3       
+4   2
+t   3
+d   3
+s   4
+z   4
+c   5
+n   2
+r   6
+l   6    
+S   4
+Z   5    
+C   5
+j   5
+T   5    
+5   2
+y   5
+k   7
+g   7
+x   7
+N   2
+q   7
+G   7                 
+X   7
+h   7
+7   7
+L   6
+!   8   
+i   9   
+e  10
+E  11
+3  12
+a  13
+u  14
+o  15
+     
+       
+NORTH_HIGHLAND_MIXE{MZ.MIXE-ZOQUE|Mixe-Zoque,Mixe,WesternMixe}
+ 3   17.25  -96.00        5200   mtp   mto
+1 I	3c //
+2 you	mic //
+3 we	3c //
+4 this	y37e //
+5 that	Si7 //
+6 who	p3n //
+7 what	ti //
+8 not	ka7a //
+9 all	n3hum //
+10 many	may //
+11 one	tuk //
+12 two	meck //
+13 big	m3h //
+14 long	y3n //
+15 small	pik //
+16 woman	t3st3k //
+17 man	yaty3k //
+18 person	hayu //
+19 fish	ahkS //
+20 bird	h3yva //
+21 dog	uk //
+22 louse	37c //
+23 tree	kup //
+24 seed	t3mt //
+25 leaf	ahy //
+26 root	a7c //
+27 bark	k3p ak //
+28 skin	ak //
+29 flesh	cu7uc //
+30 blood	nupun //
+31 bone	pak //
+32 grease	on //
+33 egg	tu7ut //
+34 horn	vah //
+35 tail	tuSta //
+36 feather	pak //
+37 hair	vay //
+38 head	kuvak //
+39 ear	tack //
+40 eye	vin //
+41 nose	h3p //
+42 mouth	ah //
+43 tooth	t3c //
+44 tongue	toc //
+45 claw	S3k //
+46 foot	tek //
+47 knee	koS //
+48 hand	k373 //
+49 belly	tinc //
+50 neck	yokt //
+51 breasts	huta //
+52 heart	havin //
+53 liver	n3 hot //
+54 drink	uk //
+55 eat	kay //
+56 bite	cu7uc //
+57 see	iS //
+58 hear	motu //
+59 know	n3hava //
+60 sleep	ma7a //
+61 die	o7k //
+62 kill	yak 7ok //
+63 swim	n3 vun //
+64 fly	h3y //
+65 walk	yo7oy //
+66 come	mec //
+67 lie	mava //
+68 sit	cuna //
+69 stand	tena //
+70 give	m373 //
+71 say	va7a5 //
+72 sun	S3 //
+73 moon	po7o //
+74 star	maca //
+75 water	n3 //
+76 rain	tu //
+77 stone	ca //
+78 sand	pu7u //
+79 earth	naS //
+80 cloud	vinuc //
+81 smoke	hok //
+82 fire	h3n //
+83 ash	ham //
+84 burn	toy //
+85 path	tu7 //
+86 mountain	kopk //
+87 red	capc //
+88 green	cuSk //
+89 yellow	puc //
+90 white	pop //
+91 black	y3k //
+92 night	cu //
+93 hot	an //
+94 cold	SuS //
+95 full	uc //
+96 new	nam //
+97 good	oy //
+98 round	piguk //
+99 dry	t373c //
+100 name	S3 //
+SOUTH_HIGHLAND_MIXE{MZ.MIXE-ZOQUE|Mixe-Zoque,Mixe,WesternMixe}
+ 1   17.08  -96.17        5000   mth   mxp
+1 I	3c //
+2 you	mec //
+3 we	3c //
+4 this	ya7at //
+5 that	hE7E //
+6 who	p3n //
+7 what	ti //
+8 not	kat //
+9 all	tuk3y //
+10 many	mEy //
+11 one	tu7uk //
+12 two	meck //
+13 big	m3h //
+14 long	yeny //
+15 small	muck //
+16 woman	tiSy~t3k //
+17 man	h3ty3k //
+18 person	ha7ay //
+19 fish	akS //
+20 bird	hon //
+21 dog	uk //
+22 louse	a7at //
+23 tree	Soh //
+24 seed	pak //
+25 leaf	ay //
+26 root	ac //
+27 bark	ak //
+28 skin	n37ak //
+29 flesh	cu7uCy //
+30 blood	n373py //
+31 bone	pak //
+32 grease	on //
+33 egg	tucah //
+34 horn	wah //
+35 tail	tuct //
+36 feather	p3k //
+37 hair	way //
+38 head	k3pak //
+39 ear	tack //
+40 eye	wen //
+41 nose	h3p //
+42 mouth	XXX //
+43 tooth	t3c //
+44 tongue	toc //
+45 claw	Soky //
+46 foot	teky //
+47 knee	koS //
+48 hand	k373 //
+49 belly	mEc //
+50 neck	yokt //
+51 breasts	ceck //
+52 heart	anm3 ha7an //
+53 liver	hot //
+54 drink	uk //
+55 eat	kEy //
+56 bite	cu7uc //
+57 see	eS //
+58 hear	m3to //
+59 know	naw //
+60 sleep	ma7a //
+61 die	ok //
+62 kill	Ek ok //
+63 swim	n3 yum //
+64 fly	kEk373k //
+65 walk	yo7oy //
+66 come	men //
+67 lie	ko7ok //
+68 sit	c3n //
+69 stand	t3nEy //
+70 give	yak //
+71 say	n3 kapS //
+72 sun	S37an //
+73 moon	po7o //
+74 star	maca7a //
+75 water	n3h //
+76 rain	tuh //
+77 stone	cah //
+78 sand	pu7u //
+79 earth	naS wi53t //
+80 cloud	n3ma7a //
+81 smoke	hok //
+82 fire	h3n //
+83 ash	ham //
+84 burn	ca7ay //
+85 path	tu7u //
+86 mountain	kokp //
+87 red	caps //
+88 green	cuSk //
+89 yellow	puc //
+90 white	pop //
+91 black	y3k //
+92 night	koc //
+93 hot	an //
+94 cold	SuS //
+95 full	uhc //
+96 new	hempy //
+97 good	ey //
+98 round	pek //
+99 dry	t373c //
+100 name	S3 //
+LOWLAND_MIXE{MZ.MIXE-ZOQUE|Mixe-Zoque,Mixe,EasternMixe}
+ 1   16.92  -95.67        5000   mco   mco
+1 I	3C //
+2 you	miC //
+3 we	3C aht //
+4 this	hada7 //
+5 that	heh3mb3 //
+6 who	p3n //
+7 what	ti //
+8 not	ka7 //
+9 all	tu7uk ok3y //
+10 many	may //
+11 one	tu7uk //
+12 two	mec //
+13 big	m3h //
+14 long	yony //
+15 small	muc //
+16 woman	to7oSyh~3y //
+17 man	ye7ey d3k //
+18 person	h3y //
+19 fish	akS //
+20 bird	hon //
+21 dog	uk //
+22 louse	ad //
+23 tree	kipy //
+24 seed	pak //
+25 leaf	ay //
+26 root	tikc //
+27 bark	ak //
+28 skin	ak //
+29 flesh	cu7uC //
+30 blood	n3py //
+31 bone	pak //
+32 grease	win omb //
+33 egg	tu7uty //
+34 horn	mun //
+35 tail	pi7iSy //
+36 feather	ce5i7i b3k //
+37 hair	way //
+38 head	kowak //
+39 ear	XXX //
+40 eye	win //
+41 nose	h3p put //
+42 mouth	awak //
+43 tooth	t3c //
+44 tongue	toc //
+45 claw	Soky //
+46 foot	teky //
+47 knee	koSkowak //
+48 hand	k37 //
+49 belly	mo7oSak //
+50 neck	yo7ok pak //
+51 breasts	ci7ic ani7ikS //
+52 heart	huky hot //
+53 liver	hot //
+54 drink	uk //
+55 eat	kay //
+56 bite	noc //
+57 see	iS //
+58 hear	m3dogug37 //
+59 know	new3y //
+60 sleep	ma7 //
+61 die	o7ok //
+62 kill	yah o7ok //
+63 swim	yab //
+64 fly	kek //
+65 walk	yo7oy //
+66 come	min //
+67 lie	ko7ok //
+68 sit	iny3y, iStak //
+69 stand	tenay //
+70 give	mo7 //
+71 say	m3nan //
+72 sun	S3 //
+73 moon	po7 //
+74 star	maca7 //
+75 water	n3 //
+76 rain	tu //
+77 stone	ca //
+78 sand	pu7 //
+79 earth	t3c7ak //
+80 cloud	hok //
+81 smoke	h3n hok //
+82 fire	h3n //
+83 ash	kuy ham //
+84 burn	no7ok //
+85 path	tu7 //
+86 mountain	ko7ogop, kop //
+87 red	capc //
+88 green	cuS //
+89 yellow	puc //
+90 white	pob //
+91 black	yik //
+92 night	acu737 //
+93 hot	an //
+94 cold	t3C //
+95 full	ku7uSy //
+96 new	hemy //
+97 good	oy //
+98 round	pik //
+99 dry	t373c //
+100 name	S3 //
+SAYULA_POPOLUCA{MZ.MIXE-ZOQUE|Mixe-Zoque,Mixe,VeracruzMixe}
+ 1   17.83  -95.00        4000   say   pos
+1 I	3c //
+2 you	mi, miC //
+3 we	3hcat //
+4 this	ay3h //
+5 that	yay3n //
+6 who	p3n //
+7 what	ti //
+8 not	kah //
+9 all	nu p3h3n //
+10 many	may //
+11 one	tuk //
+12 two	meCk //
+13 big	m3h //
+14 long	yagac //
+15 small	CiCik //
+16 woman	toSay //
+17 man	hayaw //
+18 person	hayaw //
+19 fish	akS //
+20 bird	hon //
+21 dog	tak //
+22 louse	awat //
+23 tree	kuy //
+24 seed	puh //
+25 leaf	ahy~ //
+26 root	tikCik //
+27 bark	ak //
+28 skin	ak //
+29 flesh	SiS //
+30 blood	nipin //
+31 bone	pak //
+32 grease	o7c3k //
+33 egg	koy //
+34 horn	wah //
+35 tail	tuhc //
+36 feather	XXX //
+37 hair	p3k //
+38 head	kopak //
+39 ear	tac3k //
+40 eye	win //
+41 nose	h3p //
+42 mouth	ahw~ //
+43 tooth	t3c //
+44 tongue	toc //
+45 claw	Sok //
+46 foot	tan //
+47 knee	koSk //
+48 hand	k37 //
+49 belly	tin Cay //
+50 neck	yok //
+51 breasts	moy //
+52 heart	XXX //
+53 liver	hot //
+54 drink	uk, u7k //
+55 eat	kay //
+56 bite	kuto7 //
+57 see	iS, e7p //
+58 hear	maraw //
+59 know	hawi //
+60 sleep	ma7, ma //
+61 die	o7k //
+62 kill	ag o7k //
+63 swim	yun //
+64 fly	kek //
+65 walk	yoy //
+66 come	min //
+67 lie	k3mna //
+68 sit	c3na //
+69 stand	tena //
+70 give	moy, mo7 //
+71 say	n3m //
+72 sun	S3w //
+73 moon	po7 //
+74 star	mac //
+75 water	n37 //
+76 rain	tu //
+77 stone	ca7 //
+78 sand	poy //
+79 earth	naS //
+80 cloud	win tuk //
+81 smoke	wiSik //
+82 fire	h3n //
+83 ash	kuy ham //
+84 burn	ak toy //
+85 path	tow //
+86 mountain	kopak //
+87 red	cabac //
+88 green	SuSuk //
+89 yellow	puc //
+90 white	pop //
+91 black	y3g3k //
+92 night	cu7 //
+93 hot	powik, toyap //
+94 cold	payik //
+95 full	pacik //
+96 new	namay //
+97 good	oy //
+98 round	hoyoy //
+99 dry	kuyt3c //
+100 name	n3hy //
+OLUTA_POPOLUCA{MZ.MIXE-ZOQUE|Mixe-Zoque,Mixe,VeracruzMixe}
+ 1   17.95  -95.00         102   olu   plo
+1 I	3s //
+2 you	mis //
+3 we	3catek //
+4 this	he7 //
+5 that	hamah //
+6 who	p3n //
+7 what	ti //
+8 not	373 //
+9 all	nitik //
+10 many	pako, tana //
+11 one	tuk //
+12 two	mes ko //
+13 big	tan3k //
+14 long	yonek //
+15 small	CuCu //
+16 woman	mahaw //
+17 man	yo7owa //
+18 person	haykak //
+19 fish	koke //
+20 bird	muSi //
+21 dog	Suni //
+22 louse	avat //
+23 tree	kuy3 //
+24 seed	pak3 //
+25 leaf	ay3 //
+26 root	Cisc3w //
+27 bark	XXX //
+28 skin	ak3 //
+29 flesh	cuCi //
+30 blood	n3pin //
+31 bone	pak3 //
+32 grease	ona //
+33 egg	tutik //
+34 horn	vaha //
+35 tail	tusta //
+36 feather	p3k3 //
+37 hair	p3k3 //
+38 head	kopak //
+39 ear	tac3k //
+40 eye	vin3 //
+41 nose	h3p3 //
+42 mouth	av3 //
+43 tooth	t3c3 //
+44 tongue	toc3 //
+45 claw	Soki //
+46 foot	k3Sta //
+47 knee	koSo //
+48 hand	k37 //
+49 belly	pupu //
+50 neck	XXX //
+51 breasts	XXX //
+52 heart	hutukot3 //
+53 liver	t3shot3 //
+54 drink	uk //
+55 eat	kay //
+56 bite	cuc //
+57 see	ep //
+58 hear	motov //
+59 know	viniy //
+60 sleep	ma, mah //
+61 die	ok //
+62 kill	yak ok //
+63 swim	yun //
+64 fly	napap //
+65 walk	vit //
+66 come	min //
+67 lie	Sok //
+68 sit	huni //
+69 stand	teniy //
+70 give	moy, mo7 //
+71 say	n3m //
+72 sun	S3v3 //
+73 moon	po7a //
+74 star	maca7a7k //
+75 water	n3h3 //
+76 rain	tuh3 //
+77 stone	cah3 //
+78 sand	pu73 //
+79 earth	naS3 //
+80 cloud	vin hoyek //
+81 smoke	hoko //
+82 fire	h3n3 //
+83 ash	ham3 //
+84 burn	yak toy //
+85 path	tu7aw //
+86 mountain	kopak //
+87 red	capas //
+88 green	tuSuk //
+89 yellow	pus //
+90 white	popo7 //
+91 black	y3k3k //
+92 night	cuh3 //
+93 hot	hokoS //
+94 cold	tuS3k //
+95 full	uci //
+96 new	nam3 //
+97 good	nioya, oya //
+98 round	XXX //
+99 dry	t373s //
+100 name	S3v3 //
+TEXISTEPEC_ZOQUE{MZ.MIXE-ZOQUE|Mixe-Zoque,Zoque,VeracruzZoque}
+ 2   17.90  -94.82         427         poq
+1 I	3c37 //
+2 you	biC //
+3 we	3c ta7 //
+4 this	y373h37 //
+5 that	XXX //
+6 who	XXX //
+7 what	Ce7 //
+8 not	e5C //
+9 all	bumbe //
+10 many	daC ke, b3ks ke //
+11 one	tum //
+12 two	w3s na7 //
+13 big	w3Ce7 //
+14 long	ya7akac //
+15 small	h3s3 ba //
+16 woman	yoma7 //
+17 man	p35 //
+18 person	p35 Ca7 //
+19 fish	woN //
+20 bird	hon //
+21 dog	Cempa7 //
+22 louse	awat //
+23 tree	kuy //
+24 seed	puh //
+25 leaf	ay //
+26 root	CeC3k //
+27 bark	kuy dak //
+28 skin	dak //
+29 flesh	SeS //
+30 blood	d373pi5 //
+31 bone	pak //
+32 grease	XXX //
+33 egg	kanpuk //
+34 horn	waNa7 //
+35 tail	tuc //
+36 feather	p3k //
+37 hair	way //
+38 head	kop3k //
+39 ear	tac3k //
+40 eye	eS ku7 //
+41 nose	ke5 kuy //
+42 mouth	h3p //
+43 tooth	t3c //
+44 tongue	XXX //
+45 claw	k37 cuks //
+46 foot	pak //
+47 knee	koso //
+48 hand	k37 //
+49 belly	cek //
+50 neck	k3n k37 //
+51 breasts	dun //
+52 heart	coko7 //
+53 liver	coko7 //
+54 drink	uk //
+55 eat	k373s //
+56 bite	kec //
+57 see	eS //
+58 hear	bat3N //
+59 know	bus //
+60 sleep	boN //
+61 die	ka7 //
+62 kill	yaka7 //
+63 swim	p3n //
+64 fly	kek //
+65 walk	weC //
+66 come	be5 //
+67 lie	kas de7 //
+68 sit	kon //
+69 stand	hop de7 //
+70 give	Ce7 //
+71 say	d3m //
+72 sun	ham //
+73 moon	poy //
+74 star	baca7 //
+75 water	d37 //
+76 rain	tuh //
+77 stone	ca7 //
+78 sand	po7oy //
+79 earth	das //
+80 cloud	u7ksu7 //
+81 smoke	hok //
+82 fire	hukut //
+83 ash	kuyam //
+84 burn	do7 toke5 //
+85 path	tuN //
+86 mountain	koc3k //
+87 red	capac //
+88 green	cus //
+89 yellow	pu7uC e7 //
+90 white	popo7 //
+91 black	y3k //
+92 night	cu7 //
+93 hot	XXX //
+94 cold	pak //
+95 full	kus de7 //
+96 new	hom3 na7 //
+97 good	w3 //
+98 round	woy woy Ce //
+99 dry	t3c ka7 //
+100 name	d3y //
+SOTEAPAN_ZOQUE{MZ.MIXE-ZOQUE|Mixe-Zoque,Zoque,VeracruzZoque}
+ 1   18.33  -95.17       30000   zqs   poi
+1 I	3C //
+2 you	miC //
+3 we	XXX //
+4 this	he7ep3k //
+5 that	heam //
+6 who	iapa7ap //
+7 what	ty~i //
+8 not	dy~a //
+9 all	ikum3h //
+10 many	agi, cam //
+11 one	tum //
+12 two	w3s ten //
+13 big	m3h //
+14 long	yagac //
+15 small	Suty~u //
+16 woman	yomo //
+17 man	p3Si5 //
+18 person	XXX //
+19 fish	t373p3 //
+20 bird	hon //
+21 dog	Cimpa //
+22 louse	a7awat //
+23 tree	kuy //
+24 seed	pak //
+25 leaf	ay //
+26 root	ty~iC3k //
+27 bark	XXX //
+28 skin	naka //
+29 flesh	mayi //
+30 blood	n373pi5 //
+31 bone	pak //
+32 grease	p3hi //
+33 egg	kanpu //
+34 horn	XXX //
+35 tail	tuc //
+36 feather	p3k //
+37 hair	way //
+38 head	kobak //
+39 ear	tacek //
+40 eye	iS kuy //
+41 nose	ki5i //
+42 mouth	h3p //
+43 tooth	t3c //
+44 tongue	toc //
+45 claw	k3c3s //
+46 foot	puy //
+47 knee	koso //
+48 hand	k3 //
+49 belly	XXX //
+50 neck	XXX //
+51 breasts	nunu //
+52 heart	anamah //
+53 liver	cogoy //
+54 drink	uk //
+55 eat	k373s //
+56 bite	was //
+57 see	i7iS //
+58 hear	aN t3n //
+59 know	hodoN //
+60 sleep	moN //
+61 die	ka7 //
+62 kill	ik ka7 //
+63 swim	pun //
+64 fly	kek //
+65 walk	wity~ //
+66 come	mi5 //
+67 lie	wone7e //
+68 sit	ko5 //
+69 stand	te5 //
+70 give	Ci7 //
+71 say	n3m //
+72 sun	hama //
+73 moon	poya //
+74 star	maca //
+75 water	n3 //
+76 rain	tuh //
+77 stone	ca //
+78 sand	po7oy //
+79 earth	nas //
+80 cloud	uks3 //
+81 smoke	hoko //
+82 fire	hukt3 //
+83 ash	kuy ham //
+84 burn	no7 //
+85 path	tuN //
+86 mountain	koc3k //
+87 red	cabac //
+88 green	cus //
+89 yellow	pu7uC //
+90 white	po7obap //
+91 black	y3k //
+92 night	cu7u //
+93 hot	XXX //
+94 cold	pagak //
+95 full	kus ne //
+96 new	homi //
+97 good	w3 //
+98 round	woyo //
+99 dry	ku t3c //
+100 name	n3yi //
+MARIA_CHIMALAPA{MZ.MIXE-ZOQUE|Mixe-Zoque,Zoque,OaxacaZoque}
+ 1   16.90  -94.68        4500   zch   zoh
+1 I	3cci7 //
+2 you	micci7 //
+3 we	newiny~nen //
+4 this	y37 p37 //
+5 that	XXX //
+6 who	iw3 //
+7 what	ti //
+8 not	wat kaha //
+9 all	aNtene //
+10 many	s3h37 //
+11 one	tum3 //
+12 two	mec a7aN //
+13 big	w3ti7 //
+14 long	p3hi //
+15 small	XXX //
+16 woman	yom37 //
+17 man	p3n //
+18 person	XXX //
+19 fish	koke //
+20 bird	hon //
+21 dog	nu7u //
+22 louse	awat //
+23 tree	kuy //
+24 seed	puh //
+25 leaf	ay //
+26 root	wac //
+27 bark	naka //
+28 skin	naka //
+29 flesh	sis //
+30 blood	n3pin //
+31 bone	pak //
+32 grease	grasa //
+33 egg	po7ok //
+34 horn	XXX //
+35 tail	tuc //
+36 feather	p3k //
+37 hair	way //
+38 head	way //
+39 ear	tac3k //
+40 eye	wit3m //
+41 nose	kin3 //
+42 mouth	h3p //
+43 tooth	t3c //
+44 tongue	yen kuy //
+45 claw	k3cus //
+46 foot	maN kuy //
+47 knee	koma //
+48 hand	k37 //
+49 belly	cek //
+50 neck	XXX //
+51 breasts	hon //
+52 heart	cokoy //
+53 liver	cokoy //
+54 drink	uk //
+55 eat	k3s oy //
+56 bite	XXX //
+57 see	is //
+58 hear	matoN //
+59 know	mus //
+60 sleep	moN //
+61 die	kah //
+62 kill	yak kah //
+63 swim	yun //
+64 fly	kek //
+65 walk	tuNah //
+66 come	min //
+67 lie	moN k3take //
+68 sit	c3nay //
+69 stand	maN3y //
+70 give	ci7 //
+71 say	n3m //
+72 sun	hama //
+73 moon	sepe7 //
+74 star	maca7 //
+75 water	n37 //
+76 rain	tuh //
+77 stone	ca7 //
+78 sand	hawe7 //
+79 earth	nas //
+80 cloud	XXX //
+81 smoke	o7ma7 //
+82 fire	hukut3 //
+83 ash	kuy ham //
+84 burn	k3N //
+85 path	tuN //
+86 mountain	XXX //
+87 red	capac //
+88 green	cuhus //
+89 yellow	puci7 //
+90 white	popo7 //
+91 black	y3k //
+92 night	cu7hi //
+93 hot	nuc //
+94 cold	wayay //
+95 full	yag aN tas //
+96 new	home7 //
+97 good	XXX //
+98 round	XXX //
+99 dry	yak y3c //
+100 name	n3hi //
+MIGUEL_CHIMALAPA{MZ.MIXE-ZOQUE|Mixe-Zoque,Zoque,OaxacaZoque}
+ 1   16.71  -94.75        4500   zch   zoh
+1 I	d3S //
+2 you	miS //
+3 we	neywin //
+4 this	y37 //
+5 that	gad3 //
+6 who	iw3 //
+7 what	ti //
+8 not	ya //
+9 all	hemhi7 //
+10 many	S3h37 //
+11 one	tum3 //
+12 two	meca 7aN //
+13 big	komi7 //
+14 long	p3hi7 //
+15 small	wakSiN7 //
+16 woman	yoma7 //
+17 man	p3n //
+18 person	XXX //
+19 fish	koke //
+20 bird	hon //
+21 dog	nu7 //
+22 louse	awat //
+23 tree	kuy //
+24 seed	puh //
+25 leaf	ay7 //
+26 root	wac //
+27 bark	kuy naka //
+28 skin	naka //
+29 flesh	SiS //
+30 blood	n3pin7 //
+31 bone	pak //
+32 grease	yewe7 //
+33 egg	pohok //
+34 horn	weka7 //
+35 tail	tuc //
+36 feather	p3k //
+37 hair	way7 //
+38 head	kopak //
+39 ear	tac3k //
+40 eye	wot3m //
+41 nose	kin3k //
+42 mouth	h3p //
+43 tooth	t3c //
+44 tongue	toc //
+45 claw	k3cuS //
+46 foot	maN kuy7 //
+47 knee	koma7 //
+48 hand	caN kuy7  
+49 belly	cek //
+50 neck	wintu7 //
+51 breasts	cuci7 //
+52 heart	cokoy7 //
+53 liver	pat //
+54 drink	uk //
+55 eat	k3S //
+56 bite	waS //
+57 see	iS //
+58 hear	matoN //
+59 know	muS //
+60 sleep	kap ney //
+61 die	ka7 //
+62 kill	yak 7oy //
+63 swim	yuk //
+64 fly	yuk kek //
+65 walk	wit, tuN 7ah //
+66 come	min //
+67 lie	moN //
+68 sit	c3n //
+69 stand	ten, maN ney //
+70 give	ci7 //
+71 say	n3m //
+72 sun	hama //
+73 moon	Sepe7 //
+74 star	maca7 //
+75 water	n37 //
+76 rain	tuh //
+77 stone	ca7 //
+78 sand	poe7 //
+79 earth	naS //
+80 cloud	in37 //
+81 smoke	oma7 //
+82 fire	a7c37  
+83 ash	kuy ham //
+84 burn	poN //
+85 path	tuN //
+86 mountain	koc3k //
+87 red	capac //
+88 green	cuS //
+89 yellow	puc //
+90 white	popo7 //
+91 black	y3k //
+92 night	cu7 //
+93 hot	yuk nuc //
+94 cold	wayay7 //
+95 full	taS37 //
+96 new	home7 //
+97 good	w3h3 //
+98 round	XXX //
+99 dry	t3ci7 //
+100 name	h3hi //
+CHIAPAS_ZOQUE{MZ.MIXE-ZOQUE|Mixe-Zoque,Zoque,ChiapasZoque}
+ 1   17.00  -93.25       10000   zqc   zoc
+1 I	3h //
+2 you	mih //
+3 we	t3h //
+4 this	y37 w3  
+5 that	37 //
+6 who	i w3 //
+7 what	tiy3 //
+8 not	hane //
+9 all	mumu //
+10 many	w3w3, aN bat e //
+11 one	tum3 //
+12 two	meca //
+13 big	m3ha //
+14 long	p3y //
+15 small	Ciks //
+16 woman	yomo //
+17 man	p3n //
+18 person	p3n dam //
+19 fish	kokeh //
+20 bird	%paloma //  Spanish loan
+21 dog	tuwi //
+22 louse	awat //
+23 tree	kuy //
+24 seed	puh //
+25 leaf	ay //
+26 root	waci //
+27 bark	kuyu naka //
+28 skin	naka //
+29 flesh	sis //
+30 blood	n3pin //
+31 bone	pak //
+32 grease	kin3 //
+33 egg	poka //
+34 horn	wa7 //
+35 tail	tuc //
+36 feather	p3k //
+37 hair	way, p3k //
+38 head	kopak //
+39 ear	tac3k //
+40 eye	win //
+41 nose	kin3 //
+42 mouth	aNnaka //
+43 tooth	t3c //
+44 tongue	toc  
+45 claw	k3Cus //
+46 foot	neN bak //
+47 knee	tuNupyok //
+48 hand	k37 //
+49 belly	cek //
+50 neck	k3n3 //
+51 breasts	cuci //
+52 heart	cokay //
+53 liver	pat //
+54 drink	uhk //
+55 eat	k3s //
+56 bite	kec //
+57 see	is //
+58 hear	matoN //
+59 know	mus //
+60 sleep	3N //
+61 die	ka7 //
+62 kill	yah ka7 //
+63 swim	hemu //
+64 fly	sitit //
+65 walk	wit //
+66 come	min //
+67 lie	3kgek //
+68 sit	poks //
+69 stand	tenay //
+70 give	Ci7 //
+71 say	n3m //
+72 sun	hama //
+73 moon	poyah //
+74 star	maca //
+75 water	n37 //
+76 rain	tuh //
+77 stone	ca7 //
+78 sand	wana //
+79 earth	nas //
+80 cloud	o7na //
+81 smoke	hokoh //
+82 fire	huk3t3k //
+83 ash	kuy ham //
+84 burn	poN //
+85 path	tuN //
+86 mountain	koc3k //
+87 red	capas //
+88 green	cucu //
+89 yellow	puc3 //
+90 white	popo //
+91 black	y3k //
+92 night	cu7 //
+93 hot	pih, yoka //
+94 cold	pakak //
+95 full	ho73yup3 //
+96 new	home //
+97 good	oye //
+98 round	huyuh //
+99 dry	t3c //
+100 name	n3y //
+                        
+         
+                           
+                                

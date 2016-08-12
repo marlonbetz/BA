@@ -1,0 +1,22 @@
+import matplotlib.pyplot as plt
+from pandas import DataFrame
+import codecs
+import pickle
+import numpy as np
+from sklearn.manifold import TSNE
+asjp_words = pickle.load(codecs.open("/Users/marlon/Documents/BA/Workspace/Workspace/embeddings/local_manifold_learning/asjp_words.pkl","rb"))
+concepts_oneHots = pickle.load(codecs.open("/Users/marlon/Documents/BA/Workspace/Workspace/embeddings/local_manifold_learning/concepts_oneHots.pkl","rb"))
+embeddings_concept = pickle.load(codecs.open("/Users/marlon/Documents/BA/Workspace/Workspace/embeddings/local_manifold_learning/embeddings_concept.pkl","rb"))
+embeddings_geo = pickle.load(codecs.open("/Users/marlon/Documents/BA/Workspace/Workspace/embeddings/local_manifold_learning/embeddings_geo.pkl","rb"))
+embeddings = pickle.load(codecs.open("/Users/marlon/Documents/BA/Workspace/Workspace/embeddings/local_manifold_learning/embeddings.pkl","rb"))
+geo_words_normalized = pickle.load(codecs.open("/Users/marlon/Documents/BA/Workspace/Workspace/embeddings/local_manifold_learning/geo_words_normalized.pkl","rb"))
+langs = pickle.load(codecs.open("/Users/marlon/Documents/BA/Workspace/Workspace/embeddings/local_manifold_learning/langs.pkl","rb"))
+
+tsne = TSNE(2)
+embeddings_tsne = tsne.fit_transform(embeddings_geo)
+
+import matplotlib.pyplot as plt
+for lang,emb in zip(langs,embeddings_tsne):
+    plt.annotate(lang,emb)
+
+plt.show()
