@@ -194,7 +194,6 @@ CREATE WORD MATRICES
 print("CREATE WORD MATRICES")
 padToMaxLength = 15
 word_matrices = np.array([getWordMatrix(word, model=w2v_model, padToMaxLength=padToMaxLength).flatten() for word in asjp_words])
-
 """
 CREATE FEEDABLE TRAINING DATA
 """
