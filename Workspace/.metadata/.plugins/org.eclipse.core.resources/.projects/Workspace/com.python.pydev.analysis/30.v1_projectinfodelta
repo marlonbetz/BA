@@ -1,14 +1,1 @@
-INSTUPplotters.vae_phono.plotter
-/Users/marlon/Documents/BA/Workspace/Workspace/plotters/vae_phono/plotter.py
-INFOS:&&3|1|2|0&&3|3|2|0&&3|4|2|0&&3|5|2|0&&3|6|2|0&&3|7|2|0&&3|8|2|0&&3|9|2|0&&3|10|2|0&&3|10|2|0&&3|11|2|0
-embeddings=5
-tsne=9
-embeddings_transformed=10
-concepts=4
-plotters.vae_phono.plotter=2
-cognate_classes=8
-asjp_words=1
-cmap=11
-langs=7
-geo_words_normalized=6
-concepts_oneHots=3
+DELSTRVAE_phono_binary

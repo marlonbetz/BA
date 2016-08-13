@@ -1,1 +1,11 @@
-DELSTRVAE_phono
+INSTUPbinary_phoneme_features
+/Users/marlon/Documents/BA/Workspace/Workspace/binary_phoneme_features.py
+INFOS:&&1|1|2|0&&2|3|2|1&&3|4|2|5&&3|6|2|5&&3|7|2|5&&2|8|2|1
+BinaryPhonemeFeatures.__init__=5
+BinaryPhonemeFeatures=1
+binary_phoneme_features=2
+binary_features=6
+getWordMatrix=8
+__init__=3
+featureDict=7
+phonemes=4

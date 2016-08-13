@@ -1,4 +1,11 @@
 MODULES_MANAGER_V2
 VAE|/Users/marlon/Documents/BA/Workspace/Workspace/VAE.py
 VAE_phono|/Users/marlon/Documents/BA/Workspace/Workspace/VAE_phono.py
+VAE_phono_binary|/Users/marlon/Documents/BA/Workspace/Workspace/VAE_phono_binary.py
+VAE_phono_mse|/Users/marlon/Documents/BA/Workspace/Workspace/VAE_phono_mse.py
+binary_phoneme_features|/Users/marlon/Documents/BA/Workspace/Workspace/binary_phoneme_features.py
 learn_local_manifolds|/Users/marlon/Documents/BA/Workspace/Workspace/learn_local_manifolds.py
+log_pdf|/Users/marlon/Documents/BA/Workspace/Workspace/log_pdf.py
+plotters.learn_local_manifolds.plotter|/Users/marlon/Documents/BA/Workspace/Workspace/plotters/learn_local_manifolds/plotter.py
+plotters.vae_phono.plotter|/Users/marlon/Documents/BA/Workspace/Workspace/plotters/vae_phono/plotter.py
+plotters.vae_phono_binary.plotter|/Users/marlon/Documents/BA/Workspace/Workspace/plotters/vae_phono_binary/plotter.py

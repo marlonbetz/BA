@@ -247,7 +247,7 @@ intermediate_dim_phono = 500
 
 
 epsilon_std = 0.01
-nb_epoch = 100
+nb_epoch = 1000
 #l2_value = 0.01
 l2_value = 0
 

@@ -5,6 +5,7 @@ import pickle
 import numpy as np
 from sklearn.manifold import TSNE
 pathToWorkspace = "/home/marlon/Documents/BA-master/"
+pathToWorkspace = "/Users/marlon/Documents/BA/"
 
 asjp_words = pickle.load(codecs.open(pathToWorkspace+"Workspace/Workspace/embeddings/vae_phono/asjp_words.pkl","rb"))
 concepts_oneHots = pickle.load(codecs.open(pathToWorkspace+"Workspace/Workspace/embeddings/vae_phono/concepts_oneHots.pkl","rb"))

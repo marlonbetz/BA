@@ -1,5 +1,0 @@
-import matplotlib.pyplot as plt
-from pandas import DataFrame
-import codecs
-import pickle
-langs = pickle.load(codecs.open("embeddings/local_manifold_learning/langs.pkl",""))

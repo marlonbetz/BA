@@ -184,7 +184,7 @@ intermediate_dim_phono = 500
 
 
 epsilon_std = 0.01
-nb_epoch = 100
+nb_epoch = 1000
 #l2_value = 0.01
 l2_value = 0
 
@@ -251,16 +251,16 @@ WRITING EMBEDDINGS TO PICKLE FILES
 print("WRITING EMBEDDINGS TO PICKLE FILES")
 
 
-pickle.dump(languages,codecs.open("embeddings/vae_phono/langs.pkl","wb"))
-pickle.dump(asjp_words,codecs.open("embeddings/vae_phono/asjp_words.pkl","wb"))
-pickle.dump(concepts,codecs.open("embeddings/vae_phono/concepts.pkl","wb"))
-pickle.dump(concepts_oneHots,codecs.open("embeddings/vae_phono/concepts_oneHots.pkl","wb"))
-pickle.dump(word_matrices,codecs.open("embeddings/vae_phono/word_matrices.pkl","wb"))
-pickle.dump(cognate_classes,codecs.open("embeddings/vae_phono/cognate_classes.pkl","wb"))
+pickle.dump(languages,codecs.open("embeddings/vae_phono_binary/langs.pkl","wb"))
+pickle.dump(asjp_words,codecs.open("embeddings/vae_phono_binary/asjp_words.pkl","wb"))
+pickle.dump(concepts,codecs.open("embeddings/vae_phono_binary/concepts.pkl","wb"))
+pickle.dump(concepts_oneHots,codecs.open("embeddings/vae_phono_binary/concepts_oneHots.pkl","wb"))
+pickle.dump(word_matrices,codecs.open("embeddings/vae_phono_binary/word_matrices.pkl","wb"))
+pickle.dump(cognate_classes,codecs.open("embeddings/vae_phono_binary/cognate_classes.pkl","wb"))
 
 
 #actual embeddings
-pickle.dump(embeddings,codecs.open("embeddings/vae_phono/embeddings.pkl","wb"))
+pickle.dump(embeddings,codecs.open("embeddings/vae_phono_binary/embeddings.pkl","wb"))
 
 if latent_dim != 2:
     

@@ -1,0 +1,53 @@
+\documentclass[11pt]{article}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+\title{Unsupervised Cognate Identification with Variational Autoencoders}
+\author{Marlon Betz}
+%\date{}                                           % Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+\newpage
+\tableofcontents
+\section{Introduction}
+
+\section{Motivation}
+\subsection{Sound Change as Walk in a Latent Feature Space}
+
+\section{Related Research}
+\section{Architecture}
+Hence, the model should have three major components:
+\begin{enumerate}
+\item The phonemes should be embedded in a feature space, where similar phonemes should cluster in similar subspaces of the feature space. 
+\item The words as sequences of such phoneme embeddings should themselves be embedded in another feature space, where words with similar shape should cluster among each other. 
+\item The word embeddings are then clustered in such a way that words that appear together in a cluster are assigned a common label, which is then predicted cognate class.
+\end{enumerate}
+
+\subsection{Phoneme Vectorization}
+\subsubsection{Hand-crafted Vectorization Models}
+\subsubsection{Data-driven Embeddings}
+
+\subsection{Word Embeddings}
+\subsubsection{Autoencoders}
+\subsubsection{Variational Autoencoders}
+\subsection{Clustering}
+\subsubsection{Affinity Propagation}
+\section{Evaluation}
+\subsection{Data}
+\subsection{Results}
+\section{Resume}
+\section{Acknowledgements}
+For training the phoneme embeddings, I used the word2vec implementations provided by the gensim package \cite{rehurek_lrec}. The Autoencoder was implemented with Keras \cite{chollet2015keras} and Tensorflow \cite{tensorflow2015-whitepaper}. The clustering algorithms used here were provided by scikit-learn \cite{scikit-learn}. All code connected to this thesis can be found on my github \footnote{https://github.com/marlonbetz/BA}
+%\subsection{}
+
+
+\bibliographystyle{apa}
+\bibliography{references}
+\end{document}  
