@@ -16,6 +16,13 @@ Chollet, F. (2015).
 \newblock Keras.
 \newblock \url{https://github.com/fchollet/keras}.
 
+\bibitem[\protect\astroncite{Mikolov et~al.}{2013}]{mikolov2013distributed}
+Mikolov, T., Sutskever, I., Chen, K., Corrado, G.~S., and Dean, J. (2013).
+\newblock Distributed representations of words and phrases and their
+  compositionality.
+\newblock In {\em Advances in neural information processing systems}, pages
+  3111--3119.
+
 \bibitem[\protect\astroncite{Pedregosa et~al.}{2011}]{scikit-learn}
 Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel,
   O., Blondel, M., Prettenhofer, P., Weiss, R., Dubourg, V., Vanderplas, J.,

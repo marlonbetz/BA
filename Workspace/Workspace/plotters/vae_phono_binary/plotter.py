@@ -21,6 +21,9 @@ if embeddings.shape[1] != 2:
     embeddings_transformed = tsne.fit_transform(embeddings)
 else:
     embeddings_transformed = embeddings
+    #tsne = TSNE(2)
+    #embeddings_transformed = tsne.fit_transform(embeddings)
+
 print("clustering")
 c2c = [5,6,7,8]
 labels = dict()

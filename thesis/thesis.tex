@@ -1,4 +1,4 @@
-\documentclass[11pt]{article}
+\documentclass[8pt]{article}
 \usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
 \geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
 %\geometry{landscape}                % Activate for for rotated page geometry
@@ -19,7 +19,50 @@
 \section{Introduction}
 
 \section{Motivation}
-\subsection{Sound Change as Walk in a Latent Feature Space}
+
+\subsection{Sound Change as a Walk in Feature Space}
+Sound change is usually described as a change of distinctive phonological features.
+Accordingly, a sound change such as final devoicing as in 
+
+\begin{equation}
+MHG /hund/ \rightarrow NHG /hunt/
+\end{equation}
+
+ would be captured by a rule like
+\begin{equation}
+\textsc{[+voice]} \rightarrow \textsc{[-voice]} / \_ \#
+\label{eq:final_devoicing}
+\end{equation}
+which describes the loss of voice at the end of a word. 
+
+If we use 
+
+If we have established such a latent feature space $\mathbb{R}^n$, a sound change $sc$ that derives a recent form of word $w_{recent}$ from an ancient form  $w_{ancient}$ should then correspond to a vector $v_{sc}$ in such a way that 
+\begin{equation}
+v_{w_{ancient}}+v_{sc} = v_{w_{recent}}
+\end{equation}
+From this follows that 
+
+\begin{equation}
+v_{sc} =  v_{w_{recent}} - v_{w_{ancient}} 
+\end{equation}
+
+That is, we can formulate sound changes such as \ref{eq:final_devoicing} without neither the actual sound change nor the conditioning specifying where the sound change should apply, but only the respective words involved.
+If we further assume that that sound change affects another word $w'$, we have
+
+\begin{equation}
+v_{w_{recent}} - v_{w_{ancient}}  =  v_{w'_{recent}} - v_{w'_{ancient}} 
+\end{equation}
+which is equivalent to
+\begin{equation}
+v_{w_{recent}}  =   v_{w_{ancient}}  + (v_{w'_{recent}} - v_{w'_{ancient}}) 
+\end{equation}
+If we want to evaluate that latent feature space, we investigate in how far that compositional structure is preserved in our latent space. In fact, such analogy tasks can be used as an evaluation method to test whether the learned embedding space encodes the structure expected to be inherently contained in the data \cite{mikolov2013distributed}.
+
+As we usually do not know the ancient version of a word but only recent ones, we expect the cognates to have spread in the feature space from the origin to some directions.
+\begin{equation}
+v_{w_{recent}} \sim \mathcal{N}(\mu = v_{w_{ancient}},\sigma ^2 I)
+\end{equation}
 
 \section{Related Research}
 \section{Architecture}
