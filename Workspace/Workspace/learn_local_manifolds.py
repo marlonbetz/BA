@@ -106,7 +106,7 @@ FIT PHONEME EMBEDDING MODEL
 n_ensemble  =10
 sg = 0
 hs = 1
-dim_embedding = 150
+dim_phoneme_embeddings = 150
 window =1
 negative = 0
  
@@ -114,7 +114,7 @@ negative = 0
 print("FIT PHONEME EMBEDDING MODEL")
 w2v_model = Word2Vec(sentences=allWords,
                      sg = sg,
-                     size=dim_embedding,
+                     size=dim_phoneme_embeddings,
                      window=window,
                      negative=negative,
                      hs=hs,
@@ -237,7 +237,7 @@ from keras.regularizers import l2
 
 
 batch_size = 41
-original_dim_phono = dim_embedding * padToMaxLength
+original_dim_phono = dim_phoneme_embeddings * padToMaxLength
 original_dim_concept = len(global_id_id.keys())
 original_dim_geo = 2
 latent_dim = 2

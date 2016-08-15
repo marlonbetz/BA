@@ -3,44 +3,46 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 The style file: apa.bst
 Database file #1: references.bib
-You've used 5 entries,
+Warning--empty journal in dellert2015uralic
+You've used 10 entries,
             1940 wiz_defined-function locations,
-            505 strings with 5514 characters,
-and the built_in function-call counts, 3734 in all, are:
-= -- 325
-> -- 334
-< -- 4
-+ -- 128
-- -- 128
-* -- 374
-:= -- 666
-add.period$ -- 17
-call.type$ -- 5
-change.case$ -- 89
-chr.to.int$ -- 5
-cite$ -- 5
-duplicate$ -- 88
-empty$ -- 146
-format.name$ -- 135
-if$ -- 690
+            538 strings with 6598 characters,
+and the built_in function-call counts, 5805 in all, are:
+= -- 520
+> -- 437
+< -- 6
++ -- 164
+- -- 164
+* -- 572
+:= -- 1034
+add.period$ -- 31
+call.type$ -- 10
+change.case$ -- 132
+chr.to.int$ -- 10
+cite$ -- 11
+duplicate$ -- 156
+empty$ -- 278
+format.name$ -- 176
+if$ -- 1075
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 3
-newline$ -- 29
-num.names$ -- 15
-pop$ -- 86
+missing$ -- 8
+newline$ -- 53
+num.names$ -- 30
+pop$ -- 123
 preamble$ -- 1
-purify$ -- 89
+purify$ -- 132
 quote$ -- 0
-skip$ -- 71
+skip$ -- 123
 stack$ -- 0
-substring$ -- 155
-swap$ -- 26
+substring$ -- 296
+swap$ -- 35
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 30
-warning$ -- 0
-while$ -- 18
+type$ -- 60
+warning$ -- 1
+while$ -- 34
 width$ -- 0
-write$ -- 69
+write$ -- 130
+(There was 1 warning)

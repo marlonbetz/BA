@@ -11,10 +11,36 @@ Abadi, M., Agarwal, A., Barham, P., Brevdo, E., Chen, Z., Citro, C., Corrado,
 \newblock {TensorFlow}: Large-scale machine learning on heterogeneous systems.
 \newblock Software available from tensorflow.org.
 
+\bibitem[\protect\astroncite{Bouchard-C{\^o}t{\'e}
+  et~al.}{2013}]{bouchard2013automated}
+Bouchard-C{\^o}t{\'e}, A., Hall, D., Griffiths, T.~L., and Klein, D. (2013).
+\newblock Automated reconstruction of ancient languages using probabilistic
+  models of sound change.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  110(11):4224--4229.
+
+\bibitem[\protect\astroncite{Bouckaert et~al.}{2012}]{bouckaert2012mapping}
+Bouckaert, R., Lemey, P., Dunn, M., Greenhill, S.~J., Alekseyenko, A.~V.,
+  Drummond, A.~J., Gray, R.~D., Suchard, M.~A., and Atkinson, Q.~D. (2012).
+\newblock Mapping the origins and expansion of the indo-european language
+  family.
+\newblock {\em Science}, 337(6097):957--960.
+
 \bibitem[\protect\astroncite{Chollet}{2015}]{chollet2015keras}
 Chollet, F. (2015).
 \newblock Keras.
 \newblock \url{https://github.com/fchollet/keras}.
+
+\bibitem[\protect\astroncite{Dellert}{2015}]{dellert2015uralic}
+Dellert, J. (2015).
+\newblock Uralic and its neighbors as a test case for a lexical flow model of
+  language contact.
+
+\bibitem[\protect\astroncite{Gray et~al.}{2009}]{gray2009language}
+Gray, R.~D., Drummond, A.~J., and Greenhill, S.~J. (2009).
+\newblock Language phylogenies reveal expansion pulses and pauses in pacific
+  settlement.
+\newblock {\em science}, 323(5913):479--483.
 
 \bibitem[\protect\astroncite{Mikolov et~al.}{2013}]{mikolov2013distributed}
 Mikolov, T., Sutskever, I., Chen, K., Corrado, G.~S., and Dean, J. (2013).
@@ -30,6 +56,12 @@ Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel,
   (2011).
 \newblock Scikit-learn: Machine learning in {P}ython.
 \newblock {\em Journal of Machine Learning Research}, 12:2825--2830.
+
+\bibitem[\protect\astroncite{Rama}{2016}]{rama2016siamese}
+Rama, T. (2016).
+\newblock Siamese convolutional networks based on phonetic features for cognate
+  identification.
+\newblock {\em arXiv preprint arXiv:1605.05172}.
 
 \bibitem[\protect\astroncite{{\v R}eh{\r u}{\v r}ek and
   Sojka}{2010}]{rehurek_lrec}

@@ -177,8 +177,8 @@ from keras.regularizers import l2
 
 
 batch_size = 107
-dim_embedding = 16
-original_dim_phono = dim_embedding * padToMaxLength
+dim_phoneme_embeddings = 16
+original_dim_phono = dim_phoneme_embeddings * padToMaxLength
 latent_dim = 2
 intermediate_dim_phono = 500
 

@@ -18,9 +18,31 @@
 \tableofcontents
 \section{Introduction}
 
+Historical Linguistics investigates language from a diachronic perspective, i.e. it seeks to uncover the history of languages and the structure of the hidden forces that drive language change.  Computational Historical Linguistics accordingly deals with computational methods to explore the history of languages and topics closely related to it, such as phylogenetic inferences of language families \cite{bouckaert2012mapping}, migration of language speakers \cite{gray2009language}, inferring lexical flows between languages \cite{dellert2015uralic} or modeling sound change \cite{bouchard2013automated}.  
+
+On the other hand, deep neural networks have been proven to uncover latent features of data and use them for a variety of tasks. However, Computation Historical Linguistics has hardly been touched yet by the current Deep Learning boom (a notable exception is \cite{rama2016siamese}). 
+The aim of this thesis is hence 
+\begin{enumerate}
+\item to propose a model of modeling sound change as a walk in latent space, which is suitable for deep neural networks
+\item to use variational autoencoders as a means to uncover the the latent structure that describes the connection between the phonological shape and  the meaning of a given word as well as the geographical location of the speakers of the language the word belongs to, and to investigate it
+\item to show how this uncovered structure can be used to identify cognates in an unsupervised way
+\end{enumerate}
+
+I will first start by giving an overview of the problem of cognate identification and related fields of research. I will give a background on why cognate identification is important to discuss the historical connections between languages and further provide an overview on several established methods to detect cognates.  
+
+Then I will proceed to introduce the concept of sound change as a walk in latent space, which serves as a background for the actual inference model. Here I will talk about the main motivations for this approach as well as its major drawbacks. 
+
+
+I will then discuss the actual architecture of the inference model. This first covers a general overview on the components included in the model. I will then in detail look over all components in particular. That will first cover a discussion of different methods of phoneme vectorizations. This is followed by a general overview on autoencoders as non-linear dimensionality reduction architectures first and then a description of variational autoencoders in particular, which build the backbone of the model described here. I then come to the discussion of possible ways to cluster the words, i.e. to assign the actual inferred cognacy labels.
+
+Then I will document how well those methods can be used to infer cognacy between words. I will compare the inferred labels with expert judgements first and then see how the inferred labels can infer language phylogenies, using established bayesian models of cognate evolution.
+
+Finally, I will give a resume on the model described here.
+
 \section{Motivation}
 
-\subsection{Sound Change as a Walk in Feature Space}
+\section{Sound Change as a Walk in Latent Space}
+\label{Sound Change as a Walk in Latent Space}
 Sound change is usually described as a change of distinctive phonological features.
 Accordingly, a sound change such as final devoicing as in 
 
@@ -34,6 +56,7 @@ MHG /hund/ \rightarrow NHG /hunt/
 \label{eq:final_devoicing}
 \end{equation}
 which describes the loss of voice at the end of a word. 
+
 
 If we use 
 
@@ -80,6 +103,15 @@ Hence, the model should have three major components:
 \subsection{Word Embeddings}
 \subsubsection{Autoencoders}
 \subsubsection{Variational Autoencoders}
+
+Following this, 4 different models are investigated here:
+\begin{enumerate}
+\item A model that tries to maximize $p(W=w|z;W)$, i.e. that learns the manifold creating the words as such
+\item A model that tries to maximize $p(W=w,C=c|z;W,C)$, i.e. that learns the manifold creating the words and the respective concepts
+\item A model that tries to maximize $p(W=w,C=c,G=g|z;W,C,G)$, i.e. that learns the manifold creating the words, the respective concepts and the geographical location
+\item A model that tries to maximize $p(W=w|z,C=c;W)$, i.e that learns the manifold creating words given the respective concept.
+\end{enumerate}
+
 \subsection{Clustering}
 \subsubsection{Affinity Propagation}
 \section{Evaluation}

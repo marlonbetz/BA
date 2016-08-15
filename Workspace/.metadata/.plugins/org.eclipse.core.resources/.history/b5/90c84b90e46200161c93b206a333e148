@@ -1,0 +1,70 @@
+import regex 
+import numpy as np
+class BinaryPhonemeFeatures(object):
+    def __init__(self):
+        
+
+        self.phonemes = ["p","b","f","v","m","8","4","t","d","s","z","c","n","S","Z","C","j","T","5","k","g","x","N","q","G","X","7","h","l","L","w","y","r","!","V"]
+        
+        self.binary_features = [
+        [False,True,False,False,False,False,False,False,True,True,False,False,False,False,False,False],
+        [True,True,False,False,False,False,False,False,True,True,False,False,False,False,False,False],
+        [False,True,True,False,False,False,False,False,False,True,False,False,False,False,False,False],
+        [True,True,True,False,False,False,False,False,False,True,False,False,False,False,False,False],
+        [True,True,False,False,False,False,False,False,False,False,False,True,False,False,False,False],
+        [True,False,True,False,False,False,False,False,False,True,False,False,False,False,False,False],
+        [True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False],
+        [False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False],
+        [True,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False],
+        [False,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False],
+        [True,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False],
+        [True,False,False,True,False,False,False,False,False,False,True,False,False,False,False,False],
+        [True,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False],
+        [False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False],
+        [True,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False],
+        [False,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False],
+        [True,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False],
+        [True,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False],
+        [False,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False],
+        [False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False],
+        [True,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False],
+        [True,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False],
+        [True,False,False,False,False,True,False,False,False,False,False,True,False,False,False,False],
+        [False,False,False,False,False,False,True,False,True,False,False,False,False,False,False,False],
+        [True,False,False,False,False,False,True,False,True,False,False,False,False,False,False,False],
+        [True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False],
+        [False,False,False,False,False,False,False,True,True,False,False,False,False,False,False,False],
+        [True,False,False,False,False,False,False,True,False,True,False,False,False,False,False,False],
+        [True,False,False,False,False,False,False,False,False,False,False,False,False,True,True,False],
+        [True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False],
+        [True,True,False,False,False,True,False,False,False,False,False,False,False,True,False,False],
+        [True,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False],
+        [True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True],
+        [True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False],
+        [True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False]
+        ]
+        self.featureDict = dict((phoneme,features) 
+                                for phoneme,features in zip(self.phonemes,self.binary_features))
+    def getWordMatrix(self,word,padToMaxLength=None):
+        #turn every vowel into generic "V"
+        v = "[aeiouE3]"
+        word = regex.sub(v,"V",word)
+        phonemes_alone="pbmfv84tdszcnSZCjT5kgxNqGX7hlLwyr!V"
+        phonemeSearchRegex = "["+phonemes_alone+"][\"\*]?(?!["+phonemes_alone+"]~|["+phonemes_alone+"]{2}\$)|["+phonemes_alone+"]{2}?~|["+phonemes_alone+"]{3}?\$"
+        phonemes = regex.findall(phonemeSearchRegex, word)
+        wordMatrix = []
+        for phoneme in phonemes:
+            #if phoneme not in model, get single chars as phonemes instead
+            if phoneme not in self.featureDict:
+                for ph in regex.findall("["+phonemes_alone+"]", phoneme):
+                    wordMatrix.append(self.featureDict[ph])
+            else:       
+                wordMatrix.append(self.featureDict[phoneme])    
+        if padToMaxLength:
+            print(word)
+            wordMatrix = wordMatrix[:padToMaxLength]
+            return np.pad(np.array(wordMatrix),((0,padToMaxLength - len(wordMatrix)),(0,0)),mode="constant")
+        return wordMatrix
+
+
+

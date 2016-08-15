@@ -46,6 +46,7 @@ class BinaryPhonemeFeatures(object):
         self.featureDict = dict((phoneme,features) 
                                 for phoneme,features in zip(self.phonemes,self.binary_features))
     def getWordMatrix(self,word,padToMaxLength=None):
+
         #turn every vowel into generic "V"
         v = "[aeiouE3]"
         word = regex.sub(v,"V",word)
@@ -61,7 +62,6 @@ class BinaryPhonemeFeatures(object):
             else:       
                 wordMatrix.append(self.featureDict[phoneme])    
         if padToMaxLength:
-            
             wordMatrix = wordMatrix[:padToMaxLength]
             return np.pad(np.array(wordMatrix),((0,padToMaxLength - len(wordMatrix)),(0,0)),mode="constant")
         return wordMatrix
