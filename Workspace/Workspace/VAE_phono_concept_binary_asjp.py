@@ -158,7 +158,7 @@ intermediate_dim = 500
 
 
 epsilon_std = 0.01
-nb_epoch = 10
+nb_epoch = 1000
 
 vae = VAE(latent_dim=latent_dim,
           original_dim=original_dim,

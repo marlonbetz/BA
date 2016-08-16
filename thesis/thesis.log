@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  15 AUG 2016 20:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  16 AUG 2016 16:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -148,18 +148,18 @@ LaTeX Warning: Unused global option(s):
 (./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -209,11 +209,11 @@ LaTeX Font Info:    ... okay on input line 15.
 \makeMPintoPDFobject=\count96
 \everyMPtoPDFconversion=\toks18
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 16.
+LaTeX Font Info:    Try loading font information for U+msa on input line 17.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 16.
+LaTeX Font Info:    Try loading font information for U+msb on input line 17.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -225,18 +225,18 @@ is.toc)
 \openout3 = `thesis.toc'.
 
 
-./thesis.tex:21: Undefined control sequence.
+./thesis.tex:22: Undefined control sequence.
 \b@bouckaert2012mapping ->\astroncite 
                                       {Bouckaert et\nobreakspace {}al.}{2012}
-l.21 ...guage families \cite{bouckaert2012mapping}
+l.22 ...guage families \cite{bouckaert2012mapping}
                                                   , migration of language sp...
 
 ? r
 OK, entering \nonstopmode...
-./thesis.tex:21: Undefined control sequence.
+./thesis.tex:22: Undefined control sequence.
 \b@gray2009language ->\astroncite 
                                   {Gray et\nobreakspace {}al.}{2009}
-l.21 ... language speakers \cite{gray2009language}
+l.22 ... language speakers \cite{gray2009language}
                                                   , inferring lexical flows ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -244,10 +244,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.tex:21: Undefined control sequence.
+./thesis.tex:22: Undefined control sequence.
 \b@dellert2015uralic ->\astroncite 
                                    {Dellert}{2015}
-l.21 ...between languages \cite{dellert2015uralic}
+l.22 ...between languages \cite{dellert2015uralic}
                                                    or modeling sound change ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -255,10 +255,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.tex:21: Undefined control sequence.
+./thesis.tex:22: Undefined control sequence.
 \b@bouchard2013automated ->\astroncite 
                                        {Bouchard-C{\^o}t{\'e} et\nobreakspac...
-l.21 ... sound change \cite{bouchard2013automated}
+l.22 ... sound change \cite{bouchard2013automated}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -266,10 +266,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.tex:23: Undefined control sequence.
+./thesis.tex:24: Undefined control sequence.
 \b@rama2016siamese ->\astroncite 
                                  {Rama}{2016}
-l.23 ...otable exception is \cite{rama2016siamese}
+l.24 ...otable exception is \cite{rama2016siamese}
                                                   ).
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -278,10 +278,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [2] [3]
-./thesis.tex:83: Undefined control sequence.
+./thesis.tex:84: Undefined control sequence.
 \b@mikolov2013distributed ->\astroncite 
                                         {Mikolov et\nobreakspace {}al.}{2013}
-l.83 ... in the data \cite{mikolov2013distributed}
+l.84 ... in the data \cite{mikolov2013distributed}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -289,11 +289,23 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[4]
-./thesis.tex:122: Undefined control sequence.
+
+</Users/marlon/Documents/BA/thesis/pictures/phoneme_embeddings_overview_ap.png,
+ id=24, 1033.8625pt x 657.45625pt>
+File: /Users/marlon/Documents/BA/thesis/pictures/phoneme_embeddings_overview_ap
+.png Graphic file (type png)
+
+<use /Users/marlon/Documents/BA/thesis/pictures/phoneme_embeddings_overview_ap.
+png>
+Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/phoneme_emb
+eddings_overview_ap.png used on input line 106.
+(pdftex.def)             Requested size: 430.00462pt x 273.4512pt.
+ [4] [5 </Users/marlon/Documents/BA/thesis/pictures/phoneme_embeddings_overview
+_ap.png>]
+./thesis.tex:137: Undefined control sequence.
 \b@rehurek_lrec ->\astroncite 
                               {{\v R}eh{\r u}{\v r}ek and Sojka}{2010}
-l.122 ...by the gensim package \cite{rehurek_lrec}
+l.137 ...by the gensim package \cite{rehurek_lrec}
                                                   . The Autoencoder was impl...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -301,10 +313,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.tex:122: Undefined control sequence.
+./thesis.tex:137: Undefined control sequence.
 \b@chollet2015keras ->\astroncite 
                                   {Chollet}{2015}
-l.122 ...mented with Keras \cite{chollet2015keras}
+l.137 ...mented with Keras \cite{chollet2015keras}
                                                    and Tensorflow \cite{tens...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -312,10 +324,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.tex:122: Undefined control sequence.
+./thesis.tex:137: Undefined control sequence.
 \b@tensorflow2015-whitepaper ->\astroncite 
                                            {Abadi et\nobreakspace {}al.}{2015}
-l.122 ...nsorflow \cite{tensorflow2015-whitepaper}
+l.137 ...nsorflow \cite{tensorflow2015-whitepaper}
                                                   . The clustering algorithm...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -323,10 +335,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.tex:122: Undefined control sequence.
+./thesis.tex:137: Undefined control sequence.
 \b@scikit-learn ->\astroncite 
                               {Pedregosa et\nobreakspace {}al.}{2011}
-l.122 ...vided by scikit-learn \cite{scikit-learn}
+l.137 ...vided by scikit-learn \cite{scikit-learn}
                                                   . All code connected to th...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -368,6 +380,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[6]
 ./thesis.bbl:29: Undefined control sequence.
 <argument> \protect \astroncite 
                                 {Chollet}{2015}
@@ -410,7 +423,6 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[5]
 ./thesis.bbl:45: Undefined control sequence.
 <argument> \protect \astroncite 
                                 {Mikolov et~al.}{2013}
@@ -482,40 +494,36 @@ Underfull \hbox (badness 1888) in paragraph at lines 68--73
 ages 45--50, Val-letta, Malta. ELRA.
  []
 
-) [6] (./thesis.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+) [7] (./thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 2299 strings out of 493089
- 32398 string characters out of 6134842
- 97001 words of memory out of 5000000
- 5755 multiletter control sequences out of 15000+600000
+ 2308 strings out of 493089
+ 32821 string characters out of 6134842
+ 97064 words of memory out of 5000000
+ 5761 multiletter control sequences out of 15000+600000
  12150 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,8n,26p,657b,199s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
-/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
-015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/t
-exmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on thesis.pdf (6 pages, 198451 bytes).
+ 42i,8n,26p,657b,263s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmcsc10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.p
+fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on thesis.pdf (7 pages, 370419 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
+ 99 PDF objects out of 1000 (max. 8388607)
+ 70 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

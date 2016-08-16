@@ -7,6 +7,7 @@
 \usepackage{amssymb}
 \usepackage{epstopdf}
 \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+\graphicspath{{/Users/marlon/Documents/BA/thesis/pictures/}}
 
 \title{Unsupervised Cognate Identification with Variational Autoencoders}
 \author{Marlon Betz}
@@ -100,7 +101,21 @@ Hence, the model should have three major components:
 \subsubsection{Hand-crafted Vectorization Models}
 \subsubsection{Data-driven Embeddings}
 
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=\textwidth]{phoneme_embeddings_overview_ap} 
+\caption{T-SNE visualization of the embeddings of all 720 phonemes contained in ASJP, trained with word2vec. The colors represent clusters inferred by Affinity Propagation. The model can clearly separate vowels and various forms of special articulation types. Pulmonic consonants can also be separated clearly from other coarticulation variants, as can uvular or pre-nasalized sounds. Less frequent phonemes, however, cannot be clearly differentiated. }
+\label{default}
+\end{center}
+\end{figure}
+
+
+
+If we assume that phonemes do not change unconditionally nor randomly, but instead only change distinctive features given the context the phonemes to change appear in, it should be able to embed phonemes in a latent space where local subspaces contain clusters of phonemes that appear in similar environments. 
+
+That is, we train a model that either predicts the phoneme given its context or vice versa.  
 \subsection{Word Embeddings}
+
 \subsubsection{Autoencoders}
 \subsubsection{Variational Autoencoders}
 

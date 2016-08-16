@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Workspace/plotters/vae_phono_binary_asjp/length_plotter_voiced.py.py&apos; to &apos;length_plotter_voiced.py&apos;" description="Rename resource &apos;length_plotter_voiced.py.py&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="plotters/vae_phono_binary_asjp/length_plotter_voiced.py.py" name="length_plotter_voiced.py" stamp="1471348003851" updateReferences="true"/>
+</session>

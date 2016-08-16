@@ -9,10 +9,10 @@
 \contentsline {subsection}{\numberline {5.2}Word Embeddings}{4}
 \contentsline {subsubsection}{\numberline {5.2.1}Autoencoders}{4}
 \contentsline {subsubsection}{\numberline {5.2.2}Variational Autoencoders}{4}
-\contentsline {subsection}{\numberline {5.3}Clustering}{5}
-\contentsline {subsubsection}{\numberline {5.3.1}Affinity Propagation}{5}
-\contentsline {section}{\numberline {6}Evaluation}{5}
-\contentsline {subsection}{\numberline {6.1}Data}{5}
-\contentsline {subsection}{\numberline {6.2}Results}{5}
-\contentsline {section}{\numberline {7}Resume}{5}
-\contentsline {section}{\numberline {8}Acknowledgements}{5}
+\contentsline {subsection}{\numberline {5.3}Clustering}{6}
+\contentsline {subsubsection}{\numberline {5.3.1}Affinity Propagation}{6}
+\contentsline {section}{\numberline {6}Evaluation}{6}
+\contentsline {subsection}{\numberline {6.1}Data}{6}
+\contentsline {subsection}{\numberline {6.2}Results}{6}
+\contentsline {section}{\numberline {7}Resume}{6}
+\contentsline {section}{\numberline {8}Acknowledgements}{6}
