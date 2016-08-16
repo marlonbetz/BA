@@ -47,27 +47,6 @@ lang_names_IELex_to_ASJP = {
 
 
 
-
-"""
-TRAIN PHONEME EMBEDDINGS
-"""
-print("TRAIN PHONEME EMBEDDINGS")
-pathToASJPCorpusFile = "Data/ASJP/dataset.tab"
-"""
-READ CORPUS FROM ASJP DUMP
-"""
-print("READ CORPUS FROM ASJP DUMP")
-#pathToASJPCorpusFile = "data/dataset.tab"
-allWords = []
-geo_info = dict()
-for i,line in enumerate(codecs.open(pathToASJPCorpusFile,"r","utf-8")):
-    if i > 0:
-        line = line.split("\t")
-        if "PROTO" not in line[0] and "ARTIFICIAL" not in line[2] and "FAKE" not in line[2]:
-            words = line[10:]
-            geo_info[line[0]] = [float(line[5]),float(line[6])]
-    
-
 """
 READ WORD LIST
 """
@@ -93,13 +72,6 @@ for line in codecs.open(pathToWordList,encoding="utf-8",mode="r"):
     #check if language is proto
     if "PROTO"  in language or "ANCIENT"  in language:
         continue
-    #check that language has geo data
-    if language not in geo_info:
-        if language not in lang_names_IELex_to_ASJP:
-            languages_not_in_asjp.add(language)
-            continue
-        else :
-            language = lang_names_IELex_to_ASJP[language]
     global_id = int(line[3])
     #check that concept is in c2t, if c2t is empty ignore c2t
     if global_id not in c2t and len(c2t) != 0:
@@ -115,8 +87,7 @@ for line in codecs.open(pathToWordList,encoding="utf-8",mode="r"):
     global_ids.append(global_id)
     asjp_words.append(asjp_word)
     cognate_classes.append(cognate_class)
-print("languages not contained in asjp")
-print(languages_not_in_asjp)
+
 """
 CREATE LANGUAGE ONE HOTS
 """
@@ -157,94 +128,49 @@ for concept in concepts:
     tmp[concept] = True
     concepts_oneHots.append(tmp)
 concepts_oneHots = np.array(concepts_oneHots)
-print("languages not contained in asjp")
-print([lang for lang in languages if lang not in geo_info.keys()])
-geo_words = np.array([geo_info[lang] for lang in languages])
 
-
-
+X = word_matrices
 
 """
 CREATING NETWORK
 """
 print("CREATING NETWORK")
 
-from keras.layers import Input, Dense, Lambda,merge,Convolution2D,Reshape,MaxPooling2D,UpSampling2D
-from keras.layers.noise import GaussianNoise
-from keras.models import Model
-from keras import backend as K, objectives
-from keras.regularizers import l2
 
+from models import VAE
 
-batch_size = 107
-dim_phoneme_embeddings = 16
+batch_size = 421
+dim_phoneme_embeddings = 16 
 original_dim_phono = dim_phoneme_embeddings * padToMaxLength
 latent_dim = 2
-intermediate_dim_phono = 500
+intermediate_dim = 500
 
 
 epsilon_std = 0.01
-nb_epoch = 1000
-#l2_value = 0.01
-l2_value = 0
+nb_epoch = 100
 
-#encoder concepts
+vae = VAE(latent_dim=latent_dim,
+          original_dim=X.shape[1],
+          intermediate_dim=intermediate_dim,
+          batch_size=batch_size,
+          epsilon_std=epsilon_std)
 
-input_phono = Input(batch_shape=(batch_size, original_dim_phono))
-#input_phono_corrupted = GaussianNoise(sigma=0.01)(input_phono)
-h_phono = Dense(intermediate_dim_phono,activation="relu",name="layer_h_concept")(input_phono)
-
-z_mean = Dense(latent_dim,name="z_mean")(h_phono)
-z_log_std = Dense(latent_dim,name="z_log_std")(h_phono)
-
-def sampling(args):
-    z_mean, z_log_std = args
-    epsilon = K.random_normal(shape=(batch_size, latent_dim),
-                              mean=0., std=epsilon_std)
-    return z_mean + K.exp(z_log_std) * epsilon
-
-z = Lambda(sampling, output_shape=(latent_dim,),name="layer_z")([z_mean, z_log_std])
-
-#decoder phono
-# we instantiate these layers separately so as to reuse them later
-phono_decoding_layer_intermediate = Dense(intermediate_dim_phono,activation="relu",name="phono_decoding_layer_intermediate")
-phono_decoding_intermediate = phono_decoding_layer_intermediate(z)
-
-phono_decoding_layer_decoded = Dense(original_dim_phono,activation="sigmoid",name="phono_decoding_layer_decoded")
-phono_decoded = phono_decoding_layer_decoded(phono_decoding_intermediate)
-
-
-def vae_loss(input_phono,phono_decoded):
-    xent_loss_phono = objectives.binary_crossentropy(input_phono, phono_decoded)
-
-    kl_loss = - 0.5 * K.mean(1 + z_log_std - K.square(z_mean) - K.exp(z_log_std), axis=-1)
-    return (
-             xent_loss_phono 
-             + kl_loss
-             )
-
-vae = Model([input_phono], [phono_decoded])
-
-"""
-COMPILING MODELS
-"""
-print("COMPILING MODEL")
-vae.compile(optimizer='Adam', loss=vae_loss)
 
 
 """
 FITTING MODELS
 """
 print("FITTING MODELS")
-print(word_matrices.shape,concepts_oneHots.shape,geo_words.shape)
-vae.fit(x=[word_matrices],
-         y=[word_matrices],
-      batch_size=batch_size, nb_epoch=nb_epoch)
-encoder = Model([input_phono], z_mean)
-embeddings = encoder.predict(x=[word_matrices],batch_size=batch_size)
+print(word_matrices.shape,
+      #concepts_oneHots.shape,geo_words.shape
+      )
+vae.fit(X,
+      nb_epoch=nb_epoch)
+embeddings = vae.embed(X=X)
 
 print(embeddings.shape)
 
+print(embeddings.shape)
 """
 WRITING EMBEDDINGS TO PICKLE FILES
 """

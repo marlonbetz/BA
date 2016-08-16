@@ -21,11 +21,15 @@
 
 Historical Linguistics investigates language from a diachronic perspective, i.e. it seeks to uncover the history of languages and the structure of the hidden forces that drive language change.  Computational Historical Linguistics accordingly deals with computational methods to explore the history of languages and topics closely related to it, such as phylogenetic inferences of language families \cite{bouckaert2012mapping}, migration of language speakers \cite{gray2009language}, inferring lexical flows between languages \cite{dellert2015uralic} or modeling sound change \cite{bouchard2013automated}.  
 
-On the other hand, deep neural networks have been proven to uncover latent features of data and use them for a variety of tasks. However, Computation Historical Linguistics has hardly been touched yet by the current Deep Learning boom (a notable exception is \cite{rama2016siamese}). 
+On the other hand, deep neural networks have been proven to uncover latent features of data and use them for a variety of tasks. Deep Autoencoders perform well on information retrieval tasks.
+
+
+ However, Computation Historical Linguistics has hardly been touched yet by the current Deep Learning boom (a notable exception is \cite{rama2016siamese}). 
 The aim of this thesis is hence 
 \begin{enumerate}
-\item to propose a model of modeling sound change as a walk in latent space, which is suitable for deep neural networks
-\item to use variational autoencoders as a means to uncover the the latent structure that describes the connection between the phonological shape and  the meaning of a given word as well as the geographical location of the speakers of the language the word belongs to, and to investigate it
+\item to combine methods from both Computational Historical Linguistics and the emerging field of Deep Learning
+\item to propose a model of modeling sound change as a walk in latent space, which is suitable for neural networks
+\item to use variational autoencoders as a means to uncover the the latent structure that describes the connection between the phonological shape and the meaning of a given word, as well as the geographical location of the speakers of the language the word belongs to, and to investigate it
 \item to show how this uncovered structure can be used to identify cognates in an unsupervised way
 \end{enumerate}
 
@@ -101,19 +105,45 @@ Hence, the model should have three major components:
 \subsubsection{Hand-crafted Vectorization Models}
 \subsubsection{Data-driven Embeddings}
 
+
+
+
+If we assume that phonemes do not change unconditionally nor randomly, but instead only change distinctive features given the context, it should be able to embed phonemes in a latent space where local subspaces contain clusters of phonemes that appear in similar environments. 
+
+There are several families of algorithms that perform such an embedding. Earlier models are based on factorized co-occurrence matrices, such as Latent Semantic Analysis \cite{landauer2013handbook}. This approach is inherently intuitive, as the factorized context of a given phoneme would then be taken as point in latent space, so similar contexts than inherently lead to proximity in latent space. However, over the past few years, more recent neural embedding models such as word2vec \cite{mikolov2013efficient,mikolov2013distributed,goldberg2014word2vec}  have been shown to outperform those count-based models, although GloVe \cite{pennington2014glove}, as more recent count-based model, seems to achieve similar performance.
+
+
+That is, we train a model that either predicts the phoneme given its context or vice versa.  
+
+
+To evaluate if such data driven phoneme embeddings are able to capture the natural distinction between phoneme classes, an test set over 108 analogy tests was used to conduct a grid search over several word2vec architectures and their parameters. Each such analogy test was of the form
+
+\begin{equation}
+v(phoneme_1) + v(phoneme_2) -  v(phoneme_3) \approx v(phoneme_4)
+\end{equation} 
+
+where $v(phoneme_1)$ is the vector corresponding to $phoneme_1$ and $v(phoneme_2) - v(phoneme_3)$ can be seen as the latent phonological information available in $phoneme_2$ but not in $phoneme_3$,  while $v(phoneme_1) + v(phoneme_2) -  v(phoneme_3) $ is then this latent phonological information added to $phoneme_1$, which should be close to the vector corresponding to $phoneme_4$. For example, in
+
+\begin{equation}
+v(\textbf{/i/} ) + v(\textbf{/u*/} ) -  v(\textbf{/u/} ) \approx v(\textbf{/i*/} )
+\end{equation}
+$v(\textbf{/u*/} ) -  v(\textbf{/u/} )$ describes a latent feature that should correspond to \textsc{[+nasalized]}, which is then added to the phoneme \textbf{/i/} to yield a nasalized \textbf{/i*/}.
+
 \begin{figure}[htbp]
 \begin{center}
 \includegraphics[width=\textwidth]{phoneme_embeddings_overview_ap} 
-\caption{T-SNE visualization of the embeddings of all 720 phonemes contained in ASJP, trained with word2vec. The colors represent clusters inferred by Affinity Propagation. The model can clearly separate vowels and various forms of special articulation types. Pulmonic consonants can also be separated clearly from other coarticulation variants, as can uvular or pre-nasalized sounds. Less frequent phonemes, however, cannot be clearly differentiated. }
+\caption{t-SNE visualization of the embeddings of all 720 phonemes contained in ASJP, trained with word2vec. The colors represent clusters inferred by Affinity Propagation. The model can clearly separate vowels and various forms of special articulation types. Pulmonic consonants can also be separated clearly from other coarticulation variants, as can uvular or pre-nasalized sounds. Less frequent phonemes, however, cannot be clearly differentiated. }
 \label{default}
 \end{center}
 \end{figure}
 
+\begin{figure}[htbp] %  figure placement: here, top, bottom, or page
+   \centering
+   \includegraphics[width=\textwidth]{phoneme_embeddings_word2vec_all.png} 
+   \caption{Other t-SNE visualizations of the embeddings created by word2vec. (top left) The model learns to clearly separate natural classes such as vowels, plain pulmonic or glottalized consonants, while other articulations seem to spread over the feature space. The colors indicate membership of a natural phonological class.  (top right) A more detailed view on plain pulmonic consonants. Note the linear dependencies between voiced and unvoiced plosives and their respective nasal variant. (bottom left) Another detailed view. Note how the labialized uvular sounds cluster among glottalized consonants. (top right) The model seems to capture different manners of articulations across articulation type boundaries, as the linear dependency shows here.}
+   \label{fig:word2vec_all}
+\end{figure}
 
-
-If we assume that phonemes do not change unconditionally nor randomly, but instead only change distinctive features given the context the phonemes to change appear in, it should be able to embed phonemes in a latent space where local subspaces contain clusters of phonemes that appear in similar environments. 
-
-That is, we train a model that either predicts the phoneme given its context or vice versa.  
 \subsection{Word Embeddings}
 
 \subsubsection{Autoencoders}

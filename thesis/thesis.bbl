@@ -36,14 +36,30 @@ Dellert, J. (2015).
 \newblock Uralic and its neighbors as a test case for a lexical flow model of
   language contact.
 
+\bibitem[\protect\astroncite{Goldberg and Levy}{2014}]{goldberg2014word2vec}
+Goldberg, Y. and Levy, O. (2014).
+\newblock word2vec explained: deriving mikolov et al.'s negative-sampling
+  word-embedding method.
+\newblock {\em arXiv preprint arXiv:1402.3722}.
+
 \bibitem[\protect\astroncite{Gray et~al.}{2009}]{gray2009language}
 Gray, R.~D., Drummond, A.~J., and Greenhill, S.~J. (2009).
 \newblock Language phylogenies reveal expansion pulses and pauses in pacific
   settlement.
 \newblock {\em science}, 323(5913):479--483.
 
-\bibitem[\protect\astroncite{Mikolov et~al.}{2013}]{mikolov2013distributed}
-Mikolov, T., Sutskever, I., Chen, K., Corrado, G.~S., and Dean, J. (2013).
+\bibitem[\protect\astroncite{Landauer et~al.}{2013}]{landauer2013handbook}
+Landauer, T.~K., McNamara, D.~S., Dennis, S., and Kintsch, W. (2013).
+\newblock {\em Handbook of latent semantic analysis}.
+\newblock Psychology Press.
+
+\bibitem[\protect\astroncite{Mikolov et~al.}{2013a}]{mikolov2013efficient}
+Mikolov, T., Chen, K., Corrado, G., and Dean, J. (2013a).
+\newblock Efficient estimation of word representations in vector space.
+\newblock {\em arXiv preprint arXiv:1301.3781}.
+
+\bibitem[\protect\astroncite{Mikolov et~al.}{2013b}]{mikolov2013distributed}
+Mikolov, T., Sutskever, I., Chen, K., Corrado, G.~S., and Dean, J. (2013b).
 \newblock Distributed representations of words and phrases and their
   compositionality.
 \newblock In {\em Advances in neural information processing systems}, pages
@@ -56,6 +72,11 @@ Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel,
   (2011).
 \newblock Scikit-learn: Machine learning in {P}ython.
 \newblock {\em Journal of Machine Learning Research}, 12:2825--2830.
+
+\bibitem[\protect\astroncite{Pennington et~al.}{2014}]{pennington2014glove}
+Pennington, J., Socher, R., and Manning, C.~D. (2014).
+\newblock Glove: Global vectors for word representation.
+\newblock In {\em EMNLP}, volume~14, pages 1532--43.
 
 \bibitem[\protect\astroncite{Rama}{2016}]{rama2016siamese}
 Rama, T. (2016).

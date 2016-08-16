@@ -33,33 +33,37 @@ import seaborn as sns
 sns.set_style("white")
 
 from binary_phoneme_features import BinaryPhonemeFeatures
+from string_distances import *
 
+source_word = "trVNkVn"
 bpf = BinaryPhonemeFeatures()
 
-cmap = sns.color_palette("hls", 2)
 
 
 n = len(embeddings_transformed)
 #n = 4000
 bins = dict()
-label = "palatalized".lower()
-for i,word in enumerate(allWords[:n]):     
-    if "y~" in word:
-        if label not in bins:
-            bins[label] = []
-        bins[label].append(i)
-#    else
-    elif "y~" not in word and "y" in word:
-        if "no "+label not in bins:
-                bins["no "+label] = []
-        bins["no "+label].append(i)
-        
+max_d = 0
+for i,word in enumerate(allWords[:n]): 
+    d =  np.min([levenshtein(bpf.getString(word), source_word),15])
+    if d not in bins:
+        bins[d] = []
+    bins[d].append(i)
+    if d > max_d:
+        max_d = d
     
 
+cmap = sns.color_palette("hls", max_d)
 
-plt.scatter(embeddings_transformed[bins["no "+label],0],embeddings_transformed[bins["no "+label],1],color=cmap[0],alpha=0.1,label="plain /y/")
-plt.scatter(embeddings_transformed[bins[label],0],embeddings_transformed[bins[label],1],color=cmap[1],alpha=0.1,label=label)
 
+for d in bins:
+
+    if d > 0:
+        alpha = 0.1
+        plt.scatter(embeddings_transformed[bins[d],0],embeddings_transformed[bins[d],1],color=cmap[d-1],alpha=alpha,label=str(d))
+
+plt.scatter(embeddings_transformed[bins[0],0],embeddings_transformed[bins[0],1],color="red",alpha=1,label=str(0))
+#plt.scatter(embeddings_transformed[bins[],0],embeddings_transformed[bins[label],1],color=cmap[1],alpha=0.1,label=label)
 plt.legend(frameon=True)
 
 #for word, emb in zip(allWords[:n],embeddings_transformed):
