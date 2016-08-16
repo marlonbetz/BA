@@ -12,7 +12,7 @@ def getListofASJPPhonemes(word):
 
 
 pathToWorkspace = "/home/marlon/Documents/BA-master/"
-pathToWorkspace = "/Users/marlon/Documents/BA/"
+#pathToWorkspace = "/Users/marlon/Documents/BA/"
 
 
 allWords = pickle.load(codecs.open(pathToWorkspace+"Workspace/Workspace/embeddings/vae_phono_concept_binary/asjp_words.pkl","rb"))
