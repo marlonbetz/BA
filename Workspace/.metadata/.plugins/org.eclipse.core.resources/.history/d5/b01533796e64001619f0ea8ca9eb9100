@@ -1,0 +1,82 @@
+import numpy as np
+import regex
+import codecs
+from binary_phoneme_features import BinaryPhonemeFeatures
+from models import VAE
+def getListofASJPPhonemes(word):
+    phonemes_alone="pbmfv84tdszcnSZCjT5kgxNqGX7hlLwyr!ieaouE3"
+    phonemeSearchRegex = "["+phonemes_alone+"][\"\*]?(?!["+phonemes_alone+"]~|["+phonemes_alone+"]{2}\$)|["+phonemes_alone+"]{2}?~|["+phonemes_alone+"]{3}?\$"
+    return regex.findall(phonemeSearchRegex, word)
+
+def loadASJP(pathToASJPCorpusFile):
+    allWords = []
+    geo_info = []
+    concepts = []
+    languages = []
+    for i,line in enumerate(codecs.open(pathToASJPCorpusFile,"r","utf-8")):
+        if i > 0:
+            line = line.split("\t")
+            if "PROTO" not in line[0] and "ARTIFICIAL" not in line[2] and "FAKE" not in line[2]:
+                words_tmp = line[10:]
+                #remove invalid characters
+                for i,word in enumerate(words_tmp):
+                    words_tmp[i] = words_tmp[i].replace("%","")
+                    words_tmp[i] = words_tmp[i].replace(" ","")              
+                    words_tmp[i] = words_tmp[i].replace("\r","")
+                    words_tmp[i] = words_tmp[i].replace("\n","")
+    
+                for i_w,word in enumerate(words_tmp):
+                    if len(getListofASJPPhonemes(word)) > 0:
+                        
+                                    
+                        """
+                        for cells with more than one corresponding word, only take first one
+                        """
+                        if "," in word:
+                            word_splitted = word.split(",")
+                            if len(getListofASJPPhonemes(word_splitted[0])) > 0:
+                                
+                                allWords.append(word_splitted[0])
+                            else:
+                                allWords.append(word_splitted[1])
+                        else:
+                            allWords.append(word)
+                        
+                        concepts.append(i_w)
+                        geo_info.append([float(line[5]),float(line[6])])
+                        languages.append(line[0])
+    return languages,allWords,concepts,geo_info
+
+
+
+print("READ CORPUS FROM ASJP DUMP")            
+pathToASJPCorpusFile = "Data/ASJP/dataset.tab"
+languages,asjp_wordList,concepts,geo_info = loadASJP(pathToASJPCorpusFile)
+
+print("VECTORIZE WORDS")
+padToMaxLength = 15
+bpf = BinaryPhonemeFeatures()
+X = np.array([bpf.encodeWord(word, padToMaxLength=padToMaxLength).flatten() for word in asjp_wordList])
+
+print("shape of X:",X.shape)
+
+print("FIT VAE")
+
+batch_size = 271
+dim_phoneme_embeddings = 16
+original_dim = dim_phoneme_embeddings * padToMaxLength
+latent_dim = 2
+intermediate_dim = 500
+
+
+epsilon_std = 0.01
+nb_epoch = 100
+
+vae = VAE(latent_dim=latent_dim,
+          original_dim=original_dim,
+          intermediate_dim=intermediate_dim,
+          batch_size=batch_size,
+          epsilon_std=epsilon_std)
+
+vae.fit(X,
+      nb_epoch=nb_epoch)

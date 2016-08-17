@@ -19,7 +19,7 @@ def getListofASJPPhonemes(word):
     phonemeSearchRegex = "["+phonemes_alone+"][\"\*]?(?!["+phonemes_alone+"]~|["+phonemes_alone+"]{2}\$)|["+phonemes_alone+"]{2}?~|["+phonemes_alone+"]{3}?\$"
     return regex.findall(phonemeSearchRegex, word)
 
-def getWordMatrix(word,model,padToMaxLength = None):
+def encodeWord(word,model,padToMaxLength = None):
     phonemes_alone="pbmfv84tdszcnSZCjT5kgxNqGX7hlLwyr!ieaouE3"
     phonemeSearchRegex = "["+phonemes_alone+"][\"\*]?(?!["+phonemes_alone+"]~|["+phonemes_alone+"]{2}\$)|["+phonemes_alone+"]{2}?~|["+phonemes_alone+"]{3}?\$"
     phonemes = regex.findall(phonemeSearchRegex, word)
@@ -178,7 +178,7 @@ padToMaxLength = 15
 from binary_phoneme_features import BinaryPhonemeFeatures
 bpf  =BinaryPhonemeFeatures()
 
-word_matrices = np.array([bpf.getWordMatrix(word, padToMaxLength=padToMaxLength).flatten() for word in allWords])
+word_matrices = np.array([bpf.encodeWord(word, padToMaxLength=padToMaxLength).flatten() for word in allWords])
 """
 CREATE FEEDABLE TRAINING DATA
 """

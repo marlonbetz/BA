@@ -65,7 +65,7 @@ which describes the loss of voice at the end of a word.
 
 If we use 
 
-If we have established such a latent feature space $\mathbb{R}^n$, a sound change $sc$ that derives a recent form of word $w_{recent}$ from an ancient form  $w_{ancient}$ should then correspond to a vector $v_{sc}$ in such a way that 
+If we have established such a latent feature space $\mathcal{Z}$ over $\mathbb{R}^n$, a sound change $sc$ that derives a recent form of word $w_{recent}$ from an ancient form  $w_{ancient}$ should then correspond to a vector $v_{sc}$ in such a way that 
 \begin{equation}
 v_{w_{ancient}}+v_{sc} = v_{w_{recent}}
 \end{equation}
@@ -86,6 +86,33 @@ which is equivalent to
 v_{w_{recent}}  =   v_{w_{ancient}}  + (v_{w'_{recent}} - v_{w'_{ancient}}) 
 \end{equation}
 If we want to evaluate that latent feature space, we investigate in how far that compositional structure is preserved in our latent space. In fact, such analogy tasks can be used as an evaluation method to test whether the learned embedding space encodes the structure expected to be inherently contained in the data \cite{mikolov2013distributed}.
+
+The task is then to construct such a latent space $\mathcal{Z}$. If we know that all words share a common structure, such as syllables and their respective internal structure, we can assume that it should be possible to model that structure by a latent variable $z$ embedded in our latent space. As $z$ walks through $\mathcal{Z}$, we assume that the resulting word $x$ changes in a \textit{meaningful} way - for instance it should change certain phonological features of some phonemes in  $x$ or add whole new affixes, but it should not inherit implausible phoneme sequences. Given that we have a decoder function $f_{decode}:\mathcal{Z} \rightarrow \mathcal{Z}$, we except that  We further assume that similar points in $\mathcal{Z}$ should produce  similar points in our data space $\mathcal{X}$, given that . Such a decoder function $f_{decode}:\mathcal{Z} \rightarrow \mathcal{Z}$ is probably highly non linear, but  If we have a word list $X$, we can use Bayes' theorem to model the probability of our word list given $z$:
+
+\begin{equation}
+P(X|z) = \frac{P(z)P(X|z)}{\int P(z)P(X|z))dz}
+\end{equation}
+
+Here, $P(z)$ is the prior probability of $z$ and $P(X|z)$ the likelihood of our data given our latent variable. The term in the denominator is the marginal probability $P(X)$ of our Data under the given model.
+If we want to model $z$ with the help of $X$, our objective is to maximize that marginal probability of our word list $P(X):
+
+\begin{equation}
+P(X) = \int P(z)P(X|z)dz
+\end{equation}
+
+We further assume that $P(X|z)$ can be modeled by some output distribution and its parameters $\theta$.  This output distribution can be any distribution with continuous parameters, as they should be differentiable to allow for the backpropagation of error gradients through the model. We further need a family of functions $f : \mathcal{Z} \times  \Theta \rightarrow \mathcal{X}$ that maps points in $\mathcal{Z}$ to points in our parameter space $\Theta$. The probability of our data given $z$ then becomes
+
+\begin{equation}
+P(X|z;\theta) = P_{out}(X|f(z,\theta))
+\end{equation}
+
+As we expect that the words in our word list follow the central limit theorem and ind the long run should be captured by a normal distribution, our latent variable $z$ is sampled from a isotropic multivariate normal prior:
+\begin{equation}
+z \sim \mathcal{N}(0,I)
+\end{equation}
+where $I$ is the identity matrix. 
+
+
 
 As we usually do not know the ancient version of a word but only recent ones, we expect the cognates to have spread in the feature space from the origin to some directions.
 \begin{equation}

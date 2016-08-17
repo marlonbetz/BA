@@ -11,9 +11,6 @@ binary_phoneme_features|/Users/marlon/Documents/BA/Workspace/Workspace/binary_ph
 learn_local_manifolds|/Users/marlon/Documents/BA/Workspace/Workspace/learn_local_manifolds.py
 log_pdf|/Users/marlon/Documents/BA/Workspace/Workspace/log_pdf.py
 models|/Users/marlon/Documents/BA/Workspace/Workspace/models.py
-plotters.vae_phono_binary_asjp.plotter_allBinaryFeatures|/Users/marlon/Documents/BA/Workspace/Workspace/plotters/vae_phono_binary_asjp/plotter_allBinaryFeatures.py
-plotters.vae_phono_binary_asjp.plotter_clicks|/Users/marlon/Documents/BA/Workspace/Workspace/plotters/vae_phono_binary_asjp/plotter_clicks.py
-plotters.vae_phono_binary_asjp.plotter_hasFeature|/Users/marlon/Documents/BA/Workspace/Workspace/plotters/vae_phono_binary_asjp/plotter_hasFeature.py
-plotters.vae_phono_binary_asjp.plotter_hasOrthographicFeature|/Users/marlon/Documents/BA/Workspace/Workspace/plotters/vae_phono_binary_asjp/plotter_hasOrthographicFeature.py
-plotters.vae_phono_binary_asjp.plotter_levenshtainDistance|/Users/marlon/Documents/BA/Workspace/Workspace/plotters/vae_phono_binary_asjp/plotter_levenshtainDistance.py
+pipeline|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline.py
+plotters.vae_phono_concept_binary.plotter_hasFeature|/Users/marlon/Documents/BA/Workspace/Workspace/plotters/vae_phono_concept_binary/plotter_hasFeature.py
 string_distances|/Users/marlon/Documents/BA/Workspace/Workspace/string_distances.py
