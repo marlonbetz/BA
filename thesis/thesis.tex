@@ -6,6 +6,8 @@
 \usepackage{graphicx}
 \usepackage{amssymb}
 \usepackage{epstopdf}
+\usepackage{tipa}
+
 \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
 \graphicspath{{/Users/marlon/Documents/BA/thesis/pictures/}}
 
@@ -48,6 +50,14 @@ Finally, I will give a resume on the model described here.
 
 \section{Sound Change as a Walk in Latent Space}
 \label{Sound Change as a Walk in Latent Space}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{sc_fake_example} 
+\caption{Visualization of the concept of sound change as a walk in latent space. Here, sound changes are vectors from one word to another, where both word forms are given as points in latent space. The vector from /lob/ to /lop/ would be the same as from /tag/ to /tak/, as both vectors would describe the loss of voice in the word-final phoneme. This linear dependence means that if we fit a regression model from /tag/ to /tak/, we could generalize well to predict /lop/ from /lob/.}
+\label{default}
+\end{center}
+\end{figure}
 Sound change is usually described as a change of distinctive phonological features.
 Accordingly, a sound change such as final devoicing as in 
 
@@ -87,10 +97,11 @@ v_{w_{recent}}  =   v_{w_{ancient}}  + (v_{w'_{recent}} - v_{w'_{ancient}})
 \end{equation}
 If we want to evaluate that latent feature space, we investigate in how far that compositional structure is preserved in our latent space. In fact, such analogy tasks can be used as an evaluation method to test whether the learned embedding space encodes the structure expected to be inherently contained in the data \cite{mikolov2013distributed}.
 
-The task is then to construct such a latent space $\mathcal{Z}$. If we know that all words share a common structure, such as syllables and their respective internal structure, we can assume that it should be possible to model that structure by a latent variable $z$ embedded in our latent space. As $z$ walks through $\mathcal{Z}$, we assume that the resulting word $x$ changes in a \textit{meaningful} way - for instance it should change certain phonological features of some phonemes in  $x$ or add whole new affixes, but it should not inherit implausible phoneme sequences. Given that we have a decoder function $f_{decode}:\mathcal{Z} \rightarrow \mathcal{Z}$, we except that  We further assume that similar points in $\mathcal{Z}$ should produce  similar points in our data space $\mathcal{X}$, given that . Such a decoder function $f_{decode}:\mathcal{Z} \rightarrow \mathcal{Z}$ is probably highly non linear, but  If we have a word list $X$, we can use Bayes' theorem to model the probability of our word list given $z$:
+The question is then how to construct such a latent space $\mathcal{Z}$. If we know that all words share a common structure, such as syllables and their respective internal structure, we can assume that it should be possible to model that structure by a latent variable $z$ embedded in our latent space. As $z$ walks through $\mathcal{Z}$, we assume that the resulting word $x$ changes in a \textit{meaningful} way - for instance it should change certain phonological features of some phonemes in $x$ given that such changes are plausible given the context of the other phonemes in the words. It should also be possible to add whole new affixes, but it should not inherit implausible phoneme sequences or change phoneme features in some random way. Given that we have a decoder function $f_{decode}:\mathcal{Z} \rightarrow \mathcal{X}$, we hence except that $f_{decode}$ is non-linear, as a linear decoder function should not allow for those desired properties. This non-linearity than leads to the situation that similar points in $\mathcal{Z}$ should not necessarily coincide with similar points in our data space $\mathcal{X}$. For instance, a fictional word such as /aban/ should be closer to /ov\textipa{\~a}/ than to /a\textipa{\textdoublebarpipe}an/ in $\mathcal{Z}$ but not necessarily in $\mathcal{X}$, as it should be more probable that intervocalic voiced plosives lenite to fricatives and syllable-final nasals drop but leave some compensatory nasalization - here even at the same time - but there should be hardly any evidence of a direct sound change from /b/ to a palatal click.
+That is, we are interested in the posterior distribution of $z$ - $P(z|X)$, i.e. the probability of $z$ given our data $X$. We expect the posterior to be highly multimodal, as we expect e.g. that certain syllable structures attract more probability density than less frequent ones, independently of the actual phonemes contained in those words. To model the posterior $P(z|X)$, we can use Bayes' theorem:
 
 \begin{equation}
-P(X|z) = \frac{P(z)P(X|z)}{\int P(z)P(X|z))dz}
+P(z|X) = \frac{P(z)P(X|z)}{\int P(z)P(X|z)dz}
 \end{equation}
 
 Here, $P(z)$ is the prior probability of $z$ and $P(X|z)$ the likelihood of our data given our latent variable. The term in the denominator is the marginal probability $P(X)$ of our Data under the given model.
@@ -156,7 +167,7 @@ v(\textbf{/i/} ) + v(\textbf{/u*/} ) -  v(\textbf{/u/} ) \approx v(\textbf{/i*/}
 \end{equation}
 $v(\textbf{/u*/} ) -  v(\textbf{/u/} )$ describes a latent feature that should correspond to \textsc{[+nasalized]}, which is then added to the phoneme \textbf{/i/} to yield a nasalized \textbf{/i*/}.
 
-\begin{figure}[htbp]
+\begin{figure}[h]
 \begin{center}
 \includegraphics[width=\textwidth]{phoneme_embeddings_overview_ap} 
 \caption{t-SNE visualization of the embeddings of all 720 phonemes contained in ASJP, trained with word2vec. The colors represent clusters inferred by Affinity Propagation. The model can clearly separate vowels and various forms of special articulation types. Pulmonic consonants can also be separated clearly from other coarticulation variants, as can uvular or pre-nasalized sounds. Less frequent phonemes, however, cannot be clearly differentiated. }
