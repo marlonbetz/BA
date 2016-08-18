@@ -19,6 +19,12 @@ Bouchard-C{\^o}t{\'e}, A., Hall, D., Griffiths, T.~L., and Klein, D. (2013).
 \newblock {\em Proceedings of the National Academy of Sciences},
   110(11):4224--4229.
 
+\bibitem[\protect\astroncite{Bouchard-C{\^o}t{\'e}
+  et~al.}{2007}]{bouchard2007probabilistic}
+Bouchard-C{\^o}t{\'e}, A., Liang, P., Griffiths, T.~L., and Klein, D. (2007).
+\newblock A probabilistic approach to diachronic phonology.
+\newblock In {\em EMNLP-CoNLL}, pages 887--896. Citeseer.
+
 \bibitem[\protect\astroncite{Bouckaert et~al.}{2012}]{bouckaert2012mapping}
 Bouckaert, R., Lemey, P., Dunn, M., Greenhill, S.~J., Alekseyenko, A.~V.,
   Drummond, A.~J., Gray, R.~D., Suchard, M.~A., and Atkinson, Q.~D. (2012).
@@ -48,10 +54,23 @@ Gray, R.~D., Drummond, A.~J., and Greenhill, S.~J. (2009).
   settlement.
 \newblock {\em science}, 323(5913):479--483.
 
+\bibitem[\protect\astroncite{Kondrak}{2000}]{kondrak2000new}
+Kondrak, G. (2000).
+\newblock A new algorithm for the alignment of phonetic sequences.
+\newblock In {\em Proceedings of the 1st North American chapter of the
+  Association for Computational Linguistics conference}, pages 288--295.
+  Association for Computational Linguistics.
+
 \bibitem[\protect\astroncite{Landauer et~al.}{2013}]{landauer2013handbook}
 Landauer, T.~K., McNamara, D.~S., Dennis, S., and Kintsch, W. (2013).
 \newblock {\em Handbook of latent semantic analysis}.
 \newblock Psychology Press.
+
+\bibitem[\protect\astroncite{List}{2012}]{list2012sca}
+List, J.-M. (2012).
+\newblock Sca: phonetic alignment based on sound classes.
+\newblock In {\em New Directions in Logic, Language and Computation}, pages
+  32--51. Springer.
 
 \bibitem[\protect\astroncite{Mikolov et~al.}{2013a}]{mikolov2013efficient}
 Mikolov, T., Chen, K., Corrado, G., and Dean, J. (2013a).

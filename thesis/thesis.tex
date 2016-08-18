@@ -54,29 +54,39 @@ Finally, I will give a resume on the model described here.
 \begin{figure}[h]
 \begin{center}
 \includegraphics[width=0.5\textwidth]{sc_fake_example} 
-\caption{Visualization of the concept of sound change as a walk in latent space. Here, sound changes are vectors from one word to another, where both word forms are given as points in latent space. The vector from /lob/ to /lop/ would be the same as from /tag/ to /tak/, as both vectors would describe the loss of voice in the word-final phoneme. This linear dependence means that if we fit a regression model from /tag/ to /tak/, we could generalize well to predict /lop/ from /lob/.}
+\caption{Visualization of the concept of sound change as a walk in latent space. Here, sound changes are vectors from one word to another, where both word forms are given as points in latent space. The vector from /lob/ to /lop/ would be the same as from /tag/ to /tak/, as both vectors would describe the loss of voice in the word-final phoneme. This linear dependence means that if we fit a regression model from /tag/ to /tak/, we could generalize well to predict /lop/ from /lob/. The different lengths of the vectors are than proportional to probabilities of such as sound change to appear. Here, final devoicing should be more probable than a change from /lop/ to /tak/. }
 \label{default}
 \end{center}
 \end{figure}
-Sound change is usually described as a change of distinctive phonological features.
-Accordingly, a sound change such as final devoicing as in 
+In linguistic literature, sound change is usually described as a change of distinctive phonological features over phonological symbols. For instance, a sound change such as final devoicing as in 
 
 \begin{equation}
 MHG /hund/ \rightarrow NHG /hunt/
 \end{equation}
 
- would be captured by a rule like
+ would be captured by an string edit rule like
+\begin{equation}
+/d/ \rightarrow /t/ / \_ \#
+\end{equation}
+
+that says that /d/ becomes /t/ before the end of a word. Such sound changes are shown not to appear randomly, but to co-occur according to some latent features. E.g. a sound change like above should leave the language without final /d/, while final /b/ and /g/ would be allowed. Such situations are evolutionary highly unstable, so we would expect the other voiced plosives to change to /p/ and /k/ accordingly. This is due to latent phonological features such as \textsc{[voice]}, \textsc{[labial]} or \textsc{[ATR]}, which are usually described to appear either in a binary or privative feature space. Accordingly, our rule from above could be generalized to
+
 \begin{equation}
 \textsc{[+voice]} \rightarrow \textsc{[-voice]} / \_ \#
 \label{eq:final_devoicing}
 \end{equation}
 which describes the loss of voice at the end of a word. 
 
+Computational models of sound change usually treat words as string of symbols and sound change as substitution of substrings.\cite{bouchard2007probabilistic,bouchard2013automated} use a generative model that learns to substitute substrings in some latent order and achieve good performances on the reconstruction of ancient forms of words as well as on cognate identification. However, such a method has two major drawbacks: On the one hand, it needs the topology of the languages phylogeny to be known beforehand. This problem does not exist for certain language families with established tree topologies, but can be problematic if language relationships are not totally clear. On the other hand, such purely symbolic models need lot of data to generalize well. \cite{bouchard2007probabilistic} for example underline that their model cannot model chain shifts as such.
 
-If we use 
+
+
+Coming from rules that use distinctive phonological features as in Eq. \ref{eq:final_devoicing}, we can encode every word as a sequence of phonemes that are points in some phonological feature space $\mathcal{F}$, where each dimension corresponds to phonological features such as \textsc{[velar]} or \textsc{[approximant]}. 
+
 
 If we have established such a latent feature space $\mathcal{Z}$ over $\mathbb{R}^n$, a sound change $sc$ that derives a recent form of word $w_{recent}$ from an ancient form  $w_{ancient}$ should then correspond to a vector $v_{sc}$ in such a way that 
 \begin{equation}
+\label{eq:sound_change_linear_dependency}
 v_{w_{ancient}}+v_{sc} = v_{w_{recent}}
 \end{equation}
 From this follows that 
@@ -98,7 +108,10 @@ v_{w_{recent}}  =   v_{w_{ancient}}  + (v_{w'_{recent}} - v_{w'_{ancient}})
 If we want to evaluate that latent feature space, we investigate in how far that compositional structure is preserved in our latent space. In fact, such analogy tasks can be used as an evaluation method to test whether the learned embedding space encodes the structure expected to be inherently contained in the data \cite{mikolov2013distributed}.
 
 The question is then how to construct such a latent space $\mathcal{Z}$. If we know that all words share a common structure, such as syllables and their respective internal structure, we can assume that it should be possible to model that structure by a latent variable $z$ embedded in our latent space. As $z$ walks through $\mathcal{Z}$, we assume that the resulting word $x$ changes in a \textit{meaningful} way - for instance it should change certain phonological features of some phonemes in $x$ given that such changes are plausible given the context of the other phonemes in the words. It should also be possible to add whole new affixes, but it should not inherit implausible phoneme sequences or change phoneme features in some random way. Given that we have a decoder function $f_{decode}:\mathcal{Z} \rightarrow \mathcal{X}$, we hence except that $f_{decode}$ is non-linear, as a linear decoder function should not allow for those desired properties. This non-linearity than leads to the situation that similar points in $\mathcal{Z}$ should not necessarily coincide with similar points in our data space $\mathcal{X}$. For instance, a fictional word such as /aban/ should be closer to /ov\textipa{\~a}/ than to /a\textipa{\textdoublebarpipe}an/ in $\mathcal{Z}$ but not necessarily in $\mathcal{X}$, as it should be more probable that intervocalic voiced plosives lenite to fricatives and syllable-final nasals drop but leave some compensatory nasalization - here even at the same time - but there should be hardly any evidence of a direct sound change from /b/ to a palatal click.
-That is, we are interested in the posterior distribution of $z$ - $P(z|X)$, i.e. the probability of $z$ given our data $X$. We expect the posterior to be highly multimodal, as we expect e.g. that certain syllable structures attract more probability density than less frequent ones, independently of the actual phonemes contained in those words. To model the posterior $P(z|X)$, we can use Bayes' theorem:
+
+That is, we are interested in the posterior distribution of $z$ - $P(z|X)$, i.e. the probability of $z$ given our data $X$. We expect the posterior to be highly multimodal, as we expect e.g. that certain phoneme sequences that appear more often attract more probability density than less frequent ones. That is, we want to cluster words under the assumption that certain words are \textit{inherently evolutionary stable sequences of phonemes} and hence appear more often, independently of their respective history. It is well known, for example, that syllables without codas are much more frequent than syllables without onsets. 
+
+To model the posterior $P(z|X)$, we can use Bayes' theorem:
 
 \begin{equation}
 P(z|X) = \frac{P(z)P(X|z)}{\int P(z)P(X|z)dz}
@@ -111,24 +124,36 @@ If we want to model $z$ with the help of $X$, our objective is to maximize that 
 P(X) = \int P(z)P(X|z)dz
 \end{equation}
 
-We further assume that $P(X|z)$ can be modeled by some output distribution and its parameters $\theta$.  This output distribution can be any distribution with continuous parameters, as they should be differentiable to allow for the backpropagation of error gradients through the model. We further need a family of functions $f : \mathcal{Z} \times  \Theta \rightarrow \mathcal{X}$ that maps points in $\mathcal{Z}$ to points in our parameter space $\Theta$. The probability of our data given $z$ then becomes
+
+
+We further assume that $P(X|z)$ can be modeled by some output distribution and its parameters $\theta$.  This output distribution can be any distribution with continuous parameters, as they should be differentiable to allow for the backpropagation of error gradients through the model. 
+However, if our aim is to arrive with local modes in our posterior where evolutionary stable word forms that are similar to each other cluster among each other, we can assume that a given word $w$ in $\mathcal{Z}$ can be seen as some noisy version of another word $w'$ that is close to $w$ in $\mathcal{Z}$ - that is, we assume that $z$ can be modeled by a multivariate normal distribution. Mean and covariance of that distribution are than inferred by the model. Hence we further need a family of functions $f : \mathcal{Z} \times  \Theta \rightarrow \mathcal{X}$ that maps points in $\mathcal{Z}$ to points in the parameter space $\Theta$ of that normal distribution. The probability of our data given $z$ then becomes
 
 \begin{equation}
-P(X|z;\theta) = P_{out}(X|f(z,\theta))
+P(X|z;\theta) = \mathcal{N}(X|f(z,\theta))
 \end{equation}
 
-As we expect that the words in our word list follow the central limit theorem and ind the long run should be captured by a normal distribution, our latent variable $z$ is sampled from a isotropic multivariate normal prior:
+As we expect that the words in our word list follow the central limit theorem and in the long run should be captured by a normal distribution, our latent variable $z$ is sampled from a isotropic multivariate normal prior:
 \begin{equation}
 z \sim \mathcal{N}(0,I)
 \end{equation}
-where $I$ is the identity matrix. 
+
+where $I$ is the identity matrix.
+To arrive at such linear dependencies as in Eq. \ref{eq:sound_change_linear_dependency}, we then just have to expect them in our data $X$ in some way - e.g in form of predefined phoneme features as in \cite{kondrak2000new,list2012sca,rama2016siamese}, pre-trained phoneme embeddings or as simple phoneme unigrams, in which case we would have the system learn latent phoneme features on its own. As $X$ in our model would be conditioned on $z$, we expect the same linear dependencies over words in $z$ as we find them in $X$.
 
 
+As we usually do not know the ancient version of a word but only recent ones, we expect the cognates to have spread through the latent space from the original ancient word form to some directions. Since we assume that bigger jumps from one point in $\mathcal{Z}$ are less likely than small ones, we can expect that recent versions of an ancient word form should still be in the vicinity of the ancient word. Under the simplifying assumption that words in our word list did not jump from one semantic concept to another, this allows us embed all words of a given semantic concept into $\mathcal{Z}$ and to cluster them. This is then what this thesis focusses on - we embed words in $\mathcal{Z}$ and cluster the embeddings, as we expect cognates to appear close to each other.
 
-As we usually do not know the ancient version of a word but only recent ones, we expect the cognates to have spread in the feature space from the origin to some directions.
+ However, there are some problems with this approach: as not all sound changes are equiprobable, we expect that distribution to be distorted in a non-linearly way by the multi-modal characteristics of the posterior $p(z|X)$. That is, we have to assume 
+
 \begin{equation}
-v_{w_{recent}} \sim \mathcal{N}(\mu = v_{w_{ancient}},\sigma ^2 I)
+v_{w_{recent}} \sim f(\mathcal{N}(\mu = v_{w_{ancient}},\theta))
 \end{equation}
+
+where $f$ is some non-linear function that maps points in $\mathcal{Z}$ with low probability density to to more probable regions. $f$ here then acts as the actual driving force of sound change, as it defines the actual shift through $\mathcal{Z}$. Unfortunately for us, that means that the simple assumption of cognates following some plain multivariate distribution cannot hold, as we expect complex, highly non-linear intercorrelations between the dimensions of $\mathcal{Z}$ to affect the shape of a word as it wanders around space, which should not be able to model with plain covariance.
+
+Another critical point is that if we have to ancient words $w_{ancient}$ and $w'_{ancient}$, the distributions that model their respective  child words can show large overlaps. That is, only because two word look the same, they do not have to be related. This is the major challenge of any cognate identification system. However, as we assume that 
+
 
 \section{Related Research}
 \section{Architecture}

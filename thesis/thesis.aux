@@ -8,48 +8,58 @@
 \@writefile{toc}{\contentsline {section}{\numberline {2}Motivation}{3}}
 \@writefile{toc}{\contentsline {section}{\numberline {3}Sound Change as a Walk in Latent Space}{3}}
 \newlabel{Sound Change as a Walk in Latent Space}{{3}{3}}
-\newlabel{eq:final_devoicing}{{2}{3}}
-\citation{mikolov2013distributed}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Visualization of the concept of sound change as a walk in latent space. Here, sound changes are vectors from one word to another, where both word forms are given as points in latent space. The vector from /lob/ to /lop/ would be the same as from /tag/ to /tak/, as both vectors would describe the loss of voice in the word-final phoneme. This linear dependence means that if we fit a regression model from /tag/ to /tak/, we could generalize well to predict /lop/ from /lob/.}}{4}}
+\citation{bouchard2007probabilistic}
+\citation{bouchard2013automated}
+\citation{bouchard2007probabilistic}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Visualization of the concept of sound change as a walk in latent space. Here, sound changes are vectors from one word to another, where both word forms are given as points in latent space. The vector from /lob/ to /lop/ would be the same as from /tag/ to /tak/, as both vectors would describe the loss of voice in the word-final phoneme. This linear dependence means that if we fit a regression model from /tag/ to /tak/, we could generalize well to predict /lop/ from /lob/. The different lengths of the vectors are than proportional to probabilities of such as sound change to appear. Here, final devoicing should be more probable than a change from /lop/ to /tak/. }}{4}}
 \newlabel{default}{{1}{4}}
-\@writefile{toc}{\contentsline {section}{\numberline {4}Related Research}{5}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Architecture}{5}}
+\newlabel{eq:final_devoicing}{{3}{4}}
+\citation{mikolov2013distributed}
+\newlabel{eq:sound_change_linear_dependency}{{4}{5}}
+\citation{kondrak2000new}
+\citation{list2012sca}
+\citation{rama2016siamese}
 \citation{landauer2013handbook}
 \citation{mikolov2013efficient}
 \citation{mikolov2013distributed}
 \citation{goldberg2014word2vec}
 \citation{pennington2014glove}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Phoneme Vectorization}{6}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.1}Hand-crafted Vectorization Models}{6}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.2}Data-driven Embeddings}{6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Word Embeddings}{6}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.1}Autoencoders}{6}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.2}Variational Autoencoders}{6}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Related Research}{7}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Architecture}{7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Phoneme Vectorization}{7}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.1}Hand-crafted Vectorization Models}{7}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.2}Data-driven Embeddings}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces t-SNE visualization of the embeddings of all 720 phonemes contained in ASJP, trained with word2vec. The colors represent clusters inferred by Affinity Propagation. The model can clearly separate vowels and various forms of special articulation types. Pulmonic consonants can also be separated clearly from other coarticulation variants, as can uvular or pre-nasalized sounds. Less frequent phonemes, however, cannot be clearly differentiated. }}{8}}
+\newlabel{default}{{2}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Word Embeddings}{8}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.1}Autoencoders}{8}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.2}Variational Autoencoders}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Other t-SNE visualizations of the embeddings created by word2vec. (top left) The model learns to clearly separate natural classes such as vowels, plain pulmonic or glottalized consonants, while other articulations seem to spread over the feature space. The colors indicate membership of a natural phonological class. (top right) A more detailed view on plain pulmonic consonants. Note the linear dependencies between voiced and unvoiced plosives and their respective nasal variant. (bottom left) Another detailed view. Note how the labialized uvular sounds cluster among glottalized consonants. (top right) The model seems to capture different manners of articulations across articulation type boundaries, as the linear dependency shows here.}}{9}}
+\newlabel{fig:word2vec_all}{{3}{9}}
 \citation{rehurek_lrec}
 \citation{chollet2015keras}
 \citation{tensorflow2015-whitepaper}
 \citation{scikit-learn}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces t-SNE visualization of the embeddings of all 720 phonemes contained in ASJP, trained with word2vec. The colors represent clusters inferred by Affinity Propagation. The model can clearly separate vowels and various forms of special articulation types. Pulmonic consonants can also be separated clearly from other coarticulation variants, as can uvular or pre-nasalized sounds. Less frequent phonemes, however, cannot be clearly differentiated. }}{7}}
-\newlabel{default}{{2}{7}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Other t-SNE visualizations of the embeddings created by word2vec. (top left) The model learns to clearly separate natural classes such as vowels, plain pulmonic or glottalized consonants, while other articulations seem to spread over the feature space. The colors indicate membership of a natural phonological class. (top right) A more detailed view on plain pulmonic consonants. Note the linear dependencies between voiced and unvoiced plosives and their respective nasal variant. (bottom left) Another detailed view. Note how the labialized uvular sounds cluster among glottalized consonants. (top right) The model seems to capture different manners of articulations across articulation type boundaries, as the linear dependency shows here.}}{8}}
-\newlabel{fig:word2vec_all}{{3}{8}}
 \bibstyle{apa}
 \bibdata{references}
 \bibcite{tensorflow2015-whitepaper}{\astroncite {Abadi et\nobreakspace  {}al.}{2015}}
 \bibcite{bouchard2013automated}{\astroncite {Bouchard-C{\^o}t{\'e} et\nobreakspace  {}al.}{2013}}
+\bibcite{bouchard2007probabilistic}{\astroncite {Bouchard-C{\^o}t{\'e} et\nobreakspace  {}al.}{2007}}
 \bibcite{bouckaert2012mapping}{\astroncite {Bouckaert et\nobreakspace  {}al.}{2012}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Clustering}{10}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.1}Affinity Propagation}{10}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Evaluation}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Data}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Results}{10}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Resume}{10}}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Acknowledgements}{10}}
 \bibcite{chollet2015keras}{\astroncite {Chollet}{2015}}
 \bibcite{dellert2015uralic}{\astroncite {Dellert}{2015}}
 \bibcite{goldberg2014word2vec}{\astroncite {Goldberg and Levy}{2014}}
 \bibcite{gray2009language}{\astroncite {Gray et\nobreakspace  {}al.}{2009}}
+\bibcite{kondrak2000new}{\astroncite {Kondrak}{2000}}
 \bibcite{landauer2013handbook}{\astroncite {Landauer et\nobreakspace  {}al.}{2013}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Clustering}{9}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.1}Affinity Propagation}{9}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Evaluation}{9}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Data}{9}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Results}{9}}
-\@writefile{toc}{\contentsline {section}{\numberline {7}Resume}{9}}
-\@writefile{toc}{\contentsline {section}{\numberline {8}Acknowledgements}{9}}
+\bibcite{list2012sca}{\astroncite {List}{2012}}
 \bibcite{mikolov2013efficient}{\astroncite {Mikolov et\nobreakspace  {}al.}{2013a}}
 \bibcite{mikolov2013distributed}{\astroncite {Mikolov et\nobreakspace  {}al.}{2013b}}
 \bibcite{scikit-learn}{\astroncite {Pedregosa et\nobreakspace  {}al.}{2011}}

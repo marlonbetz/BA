@@ -109,11 +109,11 @@ batch_size = 271
 dim_phoneme_embeddings = 16
 original_dim = dim_phoneme_embeddings * padToMaxLength
 latent_dim = 2
-intermediate_dim = 500
+intermediate_dim = 100
 
 
 epsilon_std = 0.01
-nb_epoch =50
+nb_epoch = 0
 
 vae = VAE(latent_dim=latent_dim,
           original_dim=original_dim,
