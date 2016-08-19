@@ -6,9 +6,9 @@
 \contentsline {subsection}{\numberline {5.1}Phoneme Vectorization}{7}
 \contentsline {subsubsection}{\numberline {5.1.1}Hand-crafted Vectorization Models}{7}
 \contentsline {subsubsection}{\numberline {5.1.2}Data-driven Embeddings}{7}
-\contentsline {subsection}{\numberline {5.2}Word Embeddings}{8}
-\contentsline {subsubsection}{\numberline {5.2.1}Autoencoders}{8}
-\contentsline {subsubsection}{\numberline {5.2.2}Variational Autoencoders}{8}
+\contentsline {subsection}{\numberline {5.2}Word Embeddings}{10}
+\contentsline {subsubsection}{\numberline {5.2.1}Autoencoders}{10}
+\contentsline {subsubsection}{\numberline {5.2.2}Variational Autoencoders}{10}
 \contentsline {subsection}{\numberline {5.3}Clustering}{10}
 \contentsline {subsubsection}{\numberline {5.3.1}Affinity Propagation}{10}
 \contentsline {section}{\numberline {6}Evaluation}{10}

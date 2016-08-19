@@ -127,11 +127,11 @@ P(X) = \int P(z)P(X|z)dz
 
 
 We further assume that $P(X|z)$ can be modeled by some output distribution and its parameters $\theta$.  This output distribution can be any distribution with continuous parameters, as they should be differentiable to allow for the backpropagation of error gradients through the model. 
-However, if our aim is to arrive with local modes in our posterior where evolutionary stable word forms that are similar to each other cluster among each other, we can assume that a given word $w$ in $\mathcal{Z}$ can be seen as some noisy version of another word $w'$ that is close to $w$ in $\mathcal{Z}$ - that is, we assume that $z$ can be modeled by a multivariate normal distribution. Mean and covariance of that distribution are than inferred by the model. Hence we further need a family of functions $f : \mathcal{Z} \times  \Theta \rightarrow \mathcal{X}$ that maps points in $\mathcal{Z}$ to points in the parameter space $\Theta$ of that normal distribution. The probability of our data given $z$ then becomes
-
-\begin{equation}
-P(X|z;\theta) = \mathcal{N}(X|f(z,\theta))
-\end{equation}
+%However, if our aim is to arrive with local modes in our posterior where evolutionary stable word forms that are similar to each other cluster among each other, we can assume that a given word $w$ in $\mathcal{Z}$ can be seen as some noisy version of another word $w'$ that is close to $w$ in $\mathcal{Z}$ - that is, we assume that $z$ can be modeled by a multivariate normal distribution. Mean and covariance of that distribution are than inferred by the model. Hence we further need a family of functions $f : \mathcal{Z} \times  \Theta \rightarrow \mathcal{X}$ that maps points in $\mathcal{Z}$ to points in the parameter space $\Theta$ of that normal distribution. The probability of our data given $z$ then becomes
+%
+%\begin{equation}
+%P(X|z;\theta) = \mathcal{N}(X|f(z,\theta))
+%\end{equation}
 
 As we expect that the words in our word list follow the central limit theorem and in the long run should be captured by a normal distribution, our latent variable $z$ is sampled from a isotropic multivariate normal prior:
 \begin{equation}
@@ -144,13 +144,36 @@ To arrive at such linear dependencies as in Eq. \ref{eq:sound_change_linear_depe
 
 As we usually do not know the ancient version of a word but only recent ones, we expect the cognates to have spread through the latent space from the original ancient word form to some directions. Since we assume that bigger jumps from one point in $\mathcal{Z}$ are less likely than small ones, we can expect that recent versions of an ancient word form should still be in the vicinity of the ancient word. Under the simplifying assumption that words in our word list did not jump from one semantic concept to another, this allows us embed all words of a given semantic concept into $\mathcal{Z}$ and to cluster them. This is then what this thesis focusses on - we embed words in $\mathcal{Z}$ and cluster the embeddings, as we expect cognates to appear close to each other.
 
- However, there are some problems with this approach: as not all sound changes are equiprobable, we expect that distribution to be distorted in a non-linearly way by the multi-modal characteristics of the posterior $p(z|X)$. That is, we have to assume 
+However, there are some problems with this approach.
+The actual distribution of recent word forms in $\mathcal{Z}$ given the ancient forms would be given by the posterior
 
 \begin{equation}
-v_{w_{recent}} \sim f(\mathcal{N}(\mu = v_{w_{ancient}},\theta))
+P(w_{recent}|w_{ancient},z) = \frac{P(w_{recent}|z)P(w_{ancient}|w_{recent},z)}{\int P(w_{recent}|z)P(w_{ancient}|w_{recent},z) dw_{ancient}}
 \end{equation}
 
-where $f$ is some non-linear function that maps points in $\mathcal{Z}$ with low probability density to to more probable regions. $f$ here then acts as the actual driving force of sound change, as it defines the actual shift through $\mathcal{Z}$. Unfortunately for us, that means that the simple assumption of cognates following some plain multivariate distribution cannot hold, as we expect complex, highly non-linear intercorrelations between the dimensions of $\mathcal{Z}$ to affect the shape of a word as it wanders around space, which should not be able to model with plain covariance.
+Unfortunately, we only know $P(w_{recent}|z)$, while we do not know $P(w_{ancient}|w_{recent},z)$ directly, i.e. we cannot say anything specific about the likelihood of an ancient word given the recent words, that is the distribution of probabilities over points in $\mathcal{Z}$ where an ancient word form could be, given the distribution of its own child words.
+However, if we only consider those two terms and ignore the normalizing constant in the denominator, we have
+\begin{equation}
+P(w_{recent}|w_{ancient},z) \propto P(w_{recent}|z)P(w_{ancient}|w_{recent},z)
+\end{equation}
+
+%As we again do not directly know $P(w_{ancient}|w_{recent},z)$ nor $P(w_{ancient}|z)$ unless we have language-specific diachronic data to model that likelihood, we cannot directly infer $P(w_{recent}|w_{ancient},z)$. However, we can say that 
+%\begin{equation}
+%P(w_{ancient}|w_{recent},z) \propto P(w_{recent}|z) P(w_{recent}|w_{ancient},z)
+%\end{equation}
+
+This means that if our prior $P(w_{recent}|z)$, which is known to us, has low probability density for the area around $w_{recent}$, we know that $P(w_{recent}|w_{ancient},z)$ should also be in such a low probability density area. As we except that the likelihood  $P(w_{ancient}|w_{recent},z)$ itself prefers points in $\mathcal{Z}$ that are close to $w_{recent}$ over points that are far away from it, we can say that $w_{recent}$ should be close to $w_{ancient}$. 
+However, if our prior $P(w_{recent}|z)$ is in an area with high probability density, the likelihood does not have such a regulating effect, as the high prior probability would allow for many points in Z to a possible point for $w_{ancient}$. If we image that we have a word such as French /o/ "water", we can hardly make any claims about how some ancient form would like like - it could come from a contracted hypothetical /au/, from /ag/ with loss of final /g/ and compensatory backing of preceding vowels, just /o/ itself or the actual Latin form /ak\textipa{\super w}a/. This is because /o/ as such receives high prior probability $P(w_{recent}|z)$ and hence gives high posterior probabilities over many possible ancient forms. However, if we have a word such as Polish /\textipa{swuxa\t{tC}}/ "listen", the remarkable structure of that word allows us to make much more detailed assumptions about the underlying ancient form, as we except more complex structures to be less frequent in our data.
+
+
+%As not all sound changes are equiprobable,though, we expect that distribution to be distorted in a non-linearly way by the multi-modal characteristics of the posterior $p(z|X)$. That is, we have to assume that that posterior can be approximated by
+% 
+%
+%\begin{equation}
+%v_{w_{recent}} \sim f(\mathcal{N}(\mu = v_{w_{ancient}},\theta))
+%\end{equation}
+%
+%where $f$ is some non-linear function that maps points in $\mathcal{Z}$ with low probability density to to more probable regions. $f$ here then acts as the actual driving force of sound change, as it defines the actual shift through $\mathcal{Z}$. Unfortunately for us, that means that the simple assumption of cognates following some plain multivariate distribution cannot hold, as we expect complex, highly non-linear intercorrelations between the dimensions of $\mathcal{Z}$ to affect the shape of a word as it wanders around space, which should not be able to model with plain covariance.
 
 Another critical point is that if we have to ancient words $w_{ancient}$ and $w'_{ancient}$, the distributions that model their respective  child words can show large overlaps. That is, only because two word look the same, they do not have to be related. This is the major challenge of any cognate identification system. However, as we assume that 
 
