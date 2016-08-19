@@ -5,6 +5,8 @@ from keras.layers.noise import GaussianNoise
 from keras.models import Model
 from keras import backend as K, objectives
 from keras.regularizers import l2
+from keras.models import load_model
+
 
 class VAE(object):
     def __init__(self,latent_dim,original_dim,intermediate_dim,batch_size,epsilon_std):
@@ -73,3 +75,11 @@ class VAE(object):
               batch_size=self.batch_size, nb_epoch=nb_epoch)
     def embed(self,X):
         return self.encoder.predict(x=[X],batch_size=self.batch_size)
+    
+    def save_weights(self,pathToWeights):
+        self.vae.save_weights(pathToWeights)
+        
+        
+    def load_weights(self,pathToWeights):
+        self.vae.load_weights(pathToWeights)
+        
