@@ -7,6 +7,7 @@
 \usepackage{amssymb}
 \usepackage{epstopdf}
 \usepackage{tipa}
+\usepackage{amsmath}
 
 \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
 \graphicspath{{/Users/marlon/Documents/BA/thesis/pictures/}}
@@ -19,6 +20,8 @@
 \maketitle
 \newpage
 \tableofcontents
+\newpage
+
 \section{Introduction}
 
 Historical Linguistics investigates language from a diachronic perspective, i.e. it seeks to uncover the history of languages and the structure of the hidden forces that drive language change.  Computational Historical Linguistics accordingly deals with computational methods to explore the history of languages and topics closely related to it, such as phylogenetic inferences of language families \cite{bouckaert2012mapping}, migration of language speakers \cite{gray2009language}, inferring lexical flows between languages \cite{dellert2015uralic} or modeling sound change \cite{bouchard2013automated}.  
@@ -46,10 +49,10 @@ Then I will document how well those methods can be used to infer cognacy between
 
 Finally, I will give a resume on the model described here.
 
-\section{Motivation}
 
 \section{Sound Change as a Walk in Latent Space}
 \label{Sound Change as a Walk in Latent Space}
+\subsection{Motivation}
 
 \begin{figure}[h]
 \begin{center}
@@ -107,6 +110,8 @@ v_{w_{recent}}  =   v_{w_{ancient}}  + (v_{w'_{recent}} - v_{w'_{ancient}})
 \end{equation}
 If we want to evaluate that latent feature space, we investigate in how far that compositional structure is preserved in our latent space. In fact, such analogy tasks can be used as an evaluation method to test whether the learned embedding space encodes the structure expected to be inherently contained in the data \cite{mikolov2013distributed}.
 
+\subsection{$P(z|X)$ as Prior for Evolutionary Stable Word Forms}
+
 The question is then how to construct such a latent space $\mathcal{Z}$. If we know that all words share a common structure, such as syllables and their respective internal structure, we can assume that it should be possible to model that structure by a latent variable $z$ embedded in our latent space. As $z$ walks through $\mathcal{Z}$, we assume that the resulting word $x$ changes in a \textit{meaningful} way - for instance it should change certain phonological features of some phonemes in $x$ given that such changes are plausible given the context of the other phonemes in the words. It should also be possible to add whole new affixes, but it should not inherit implausible phoneme sequences or change phoneme features in some random way. Given that we have a decoder function $f_{decode}:\mathcal{Z} \rightarrow \mathcal{X}$, we hence except that $f_{decode}$ is non-linear, as a linear decoder function should not allow for those desired properties. This non-linearity than leads to the situation that similar points in $\mathcal{Z}$ should not necessarily coincide with similar points in our data space $\mathcal{X}$. For instance, a fictional word such as /aban/ should be closer to /ov\textipa{\~a}/ than to /a\textipa{\textdoublebarpipe}an/ in $\mathcal{Z}$ but not necessarily in $\mathcal{X}$, as it should be more probable that intervocalic voiced plosives lenite to fricatives and syllable-final nasals drop but leave some compensatory nasalization - here even at the same time - but there should be hardly any evidence of a direct sound change from /b/ to a palatal click.
 
 That is, we are interested in the posterior distribution of $z$ - $P(z|X)$, i.e. the probability of $z$ given our data $X$. We expect the posterior to be highly multimodal, as we expect e.g. that certain phoneme sequences that appear more often attract more probability density than less frequent ones. That is, we want to cluster words under the assumption that certain words are \textit{inherently evolutionary stable sequences of phonemes} and hence appear more often, independently of their respective history. It is well known, for example, that syllables without codas are much more frequent than syllables without onsets. 
@@ -141,6 +146,8 @@ z \sim \mathcal{N}(0,I)
 where $I$ is the identity matrix.
 To arrive at such linear dependencies as in Eq. \ref{eq:sound_change_linear_dependency}, we then just have to expect them in our data $X$ in some way - e.g in form of predefined phoneme features as in \cite{kondrak2000new,list2012sca,rama2016siamese}, pre-trained phoneme embeddings or as simple phoneme unigrams, in which case we would have the system learn latent phoneme features on its own. As $X$ in our model would be conditioned on $z$, we expect the same linear dependencies over words in $z$ as we find them in $X$.
 
+\subsection{Sound Change as Posterior $P(w_{recent}|w_{ancient},z)$ }
+
 
 As we usually do not know the ancient version of a word but only recent ones, we expect the cognates to have spread through the latent space from the original ancient word form to some directions. Since we assume that bigger jumps from one point in $\mathcal{Z}$ are less likely than small ones, we can expect that recent versions of an ancient word form should still be in the vicinity of the ancient word. Under the simplifying assumption that words in our word list did not jump from one semantic concept to another, this allows us embed all words of a given semantic concept into $\mathcal{Z}$ and to cluster them. This is then what this thesis focusses on - we embed words in $\mathcal{Z}$ and cluster the embeddings, as we expect cognates to appear close to each other.
 
@@ -163,7 +170,44 @@ P(w_{recent}|w_{ancient},z) \propto P(w_{recent}|z)P(w_{ancient}|w_{recent},z)
 %\end{equation}
 
 This means that if our prior $P(w_{recent}|z)$, which is known to us, has low probability density for the area around $w_{recent}$, we know that $P(w_{recent}|w_{ancient},z)$ should also be in such a low probability density area. As we except that the likelihood  $P(w_{ancient}|w_{recent},z)$ itself prefers points in $\mathcal{Z}$ that are close to $w_{recent}$ over points that are far away from it, we can say that $w_{recent}$ should be close to $w_{ancient}$. 
-However, if our prior $P(w_{recent}|z)$ is in an area with high probability density, the likelihood does not have such a regulating effect, as the high prior probability would allow for many points in Z to a possible point for $w_{ancient}$. If we image that we have a word such as French /o/ "water", we can hardly make any claims about how some ancient form would like like - it could come from a contracted hypothetical /au/, from /ag/ with loss of final /g/ and compensatory backing of preceding vowels, just /o/ itself or the actual Latin form /ak\textipa{\super w}a/. This is because /o/ as such receives high prior probability $P(w_{recent}|z)$ and hence gives high posterior probabilities over many possible ancient forms. However, if we have a word such as Polish /\textipa{swuxa\t{tC}}/ "listen", the remarkable structure of that word allows us to make much more detailed assumptions about the underlying ancient form, as we except more complex structures to be less frequent in our data.
+However, if our prior $P(w_{recent}|z)$ is in an area with high probability density, the likelihood does not have such a regulating effect, as the high prior probability would allow for many points in Z to a possible point for $w_{ancient}$. 
+
+If we image that we have a word such as  /o/ , we can hardly make any claims about how some ancient form would look like - it could come from /a\textipa{\textsubarch{U}}t/ (Latin to Italian), /ok/ (Old Norse to Bokm\r{a}l), /ob/ (Proto-Slavic to Slovak) or /ak\textipa{\super w}a/ (Latin to French). This is because /o/ as such receives high prior probability $P(w_{recent}|z)$ and hence gives high posterior probabilities over many possible ancient forms. However, if we have a word such as Polish /\textipa{swuxa\t{tC}}/ "listen", the remarkable structure of that word allows us to make much more detailed assumptions about the underlying ancient form, as we except more complex structures to be less frequent in our data and hence attract less probability density.
+%\begin{equation}
+%\frac{P(w_{ancient}=w'_{ancient}|w_{recent},w'_{recent},z,X)}{P(w_{ancient}\neq w'_{ancient}|w_{recent},w'_{recent},z,X)} \\
+%\end{equation}
+%\begin{equation}
+%= \frac{P(w_{ancient}=w'_{ancient}|z,X)P(w_{recent},w'_{recent}|w_{ancient}=w'_{ancient},z,X)}{P(w_{ancient}\neq w'_{ancient}|z,X)P(w_{recent},w'_{recent}|w_{ancient}\neq w'_{ancient},z,X)}
+%\end{equation}
+%\begin{equation}
+%= \frac{P(w_{ancient}=w'_{ancient})P(z,X|w_{ancient}=w'_{ancient})P(w_{recent},w'_{recent}|w_{ancient}=w'_{ancient},z,X)}{P(w_{ancient}\neq w'_{ancient})P(z,X|w_{ancient}=w'_{ancient})P(w_{recent},w'_{recent}|w_{ancient}\neq w'_{ancient},z,X)}
+%\end{equation}
+
+If we want to compare the two hypotheses directly and compute the Bayes Factor, we have
+
+\begin{equation}
+\frac{P(w_{ancient}=w'_{ancient}|w_{recent},w'_{recent})}{P(w_{ancient}\neq w'_{ancient}|w_{recent},w'_{recent})} \\
+\end{equation}
+\begin{equation}
+= \frac{P(w_{ancient}=w'_{ancient})P(w_{recent},w'_{recent}|w_{ancient}=w'_{ancient})}{P(w_{ancient}\neq w'_{ancient})P(w_{recent},w'_{recent}|w_{ancient}\neq w'_{ancient})}
+\end{equation}
+
+That is, we would have to define priors for both hypotheses. We cannot simply assume that both hypotheses are equally likely and share a flat prior, as we expect $P(w_{recent},w'_{recent}|w_{ancient}=w'_{ancient}) $ to be different to $ P(w_{recent},w'_{recent}|w_{ancient}\neq w'_{ancient})$.
+
+
+ %& \frac{P(w_{ancient}=w'_{ancient}|w_{recent},w'_{recent},z,X)}{P(w_{ancient}\neq w'_{ancient}|w_{recent},w'_{recent},z,X)} \\
+%& = \frac{P(w_{ancient}=w'_{ancient}|z,X)P(w_{recent},w'_{recent}|w_{ancient}=w'_{ancient},z,X)}{P(w_{ancient}\neq w'_{ancient}|z,X)P(w_{recent},w'_{recent}|w_{ancient}\neq w'_{ancient},z,X)} 
+
+%& = \frac{P(z,X)P(z,X|w_{ancient}=w'_{ancient})P(w_{recent},w'_{recent}|w_{ancient}=w'_{ancient},z,X)}{P(z,X)P(z,X|w_{ancient}\neq w'_{ancient})P(w_{recent},w'_{recent}|w_{ancient}\neq w'_{ancient},z,X)} \\
+
+
+%& = \frac{P(z,X)P(z,X|w_{ancient}=w'_{ancient})P(w_{recent},w'_{recent}|w_{ancient}=w'_{ancient},z,X)}{P(z,X)P(z,X|w_{ancient}\neq w'_{ancient})P(w_{recent},w'_{recent}|w_{ancient}\neq w'_{ancient},z,X)} 
+
+
+%& = \frac{P(z|X)P(z|w_{ancient}=w'_{ancient},X)P(w_{recent},w'_{recent}|w_{ancient}=w'_{ancient},z,X)}{P(z|X)P(z|w_{ancient}\neq w'_{ancient},X)P(w_{recent},w'_{recent}|w_{ancient}\neq w'_{ancient},z,X)} \\
+%& = \frac{P(z|w_{ancient}=w'_{ancient},X)P(w_{recent},w'_{recent}|w_{ancient}=w'_{ancient},z,X)}{P(z|w_{ancient}\neq w'_{ancient},X)P(w_{recent},w'_{recent}|w_{ancient}\neq w'_{ancient},z,X)}\\
+%& =  \frac{P(z)P(w_{ancient}=w'_{ancient},X)P(w_{recent},w'_{recent}|w_{ancient}=w'_{ancient},z,X)}{P(z)P(w_{ancient}\neq w'_{ancient},X)P(w_{recent},w'_{recent}|w_{ancient}\neq w'_{ancient},z,X)} \\
+%& =  \frac{P(w_{ancient}=w'_{ancient},X)P(w_{recent},w'_{recent}|w_{ancient}=w'_{ancient},z,X)}{P(w_{ancient}\neq w'_{ancient},X)P(w_{recent},w'_{recent}|w_{ancient}\neq w'_{ancient},z,X)}
 
 
 %As not all sound changes are equiprobable,though, we expect that distribution to be distorted in a non-linearly way by the multi-modal characteristics of the posterior $p(z|X)$. That is, we have to assume that that posterior can be approximated by
