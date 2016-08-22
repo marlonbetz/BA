@@ -146,6 +146,8 @@ z \sim \mathcal{N}(0,I)
 where $I$ is the identity matrix.
 To arrive at such linear dependencies as in Eq. \ref{eq:sound_change_linear_dependency}, we then just have to expect them in our data $X$ in some way - e.g in form of predefined phoneme features as in \cite{kondrak2000new,list2012sca,rama2016siamese}, pre-trained phoneme embeddings or as simple phoneme unigrams, in which case we would have the system learn latent phoneme features on its own. As $X$ in our model would be conditioned on $z$, we expect the same linear dependencies over words in $z$ as we find them in $X$.
 
+\subsection{$P(w_{ancient}|w_{recent},z,X)}$ as Likelihood of }
+
 \subsection{Sound Change as Posterior $P(w_{recent}|w_{ancient},z)$ }
 
 
@@ -182,6 +184,8 @@ If we image that we have a word such as  /o/ , we can hardly make any claims abo
 %\begin{equation}
 %= \frac{P(w_{ancient}=w'_{ancient})P(z,X|w_{ancient}=w'_{ancient})P(w_{recent},w'_{recent}|w_{ancient}=w'_{ancient},z,X)}{P(w_{ancient}\neq w'_{ancient})P(z,X|w_{ancient}=w'_{ancient})P(w_{recent},w'_{recent}|w_{ancient}\neq w'_{ancient},z,X)}
 %\end{equation}
+
+\subsection{Cognate Identification as Hypothesis Comparison}
 
 If we want to compare the two hypotheses directly and compute the Bayes Factor, we have
 

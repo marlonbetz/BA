@@ -8,9 +8,11 @@ VAE_phono_concept_geo_binary_asjp|/Users/marlon/Documents/BA/Workspace/Workspace
 VAE_phono_concept_geo_mixed|/Users/marlon/Documents/BA/Workspace/Workspace/VAE_phono_concept_geo_mixed.py
 VAE_phono_mse|/Users/marlon/Documents/BA/Workspace/Workspace/VAE_phono_mse.py
 binary_phoneme_features|/Users/marlon/Documents/BA/Workspace/Workspace/binary_phoneme_features.py
+kld|/Users/marlon/Documents/BA/Workspace/Workspace/kld.py
 learn_local_manifolds|/Users/marlon/Documents/BA/Workspace/Workspace/learn_local_manifolds.py
-log_pdf|/Users/marlon/Documents/BA/Workspace/Workspace/log_pdf.py
 models|/Users/marlon/Documents/BA/Workspace/Workspace/models.py
 pipeline|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline.py
+pipeline_trainOnASJP|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline_trainOnASJP.py
+pipeline_trainOnConcept|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline_trainOnConcept.py
 plotters.vae_phono_concept_binary.plotter_hasFeature|/Users/marlon/Documents/BA/Workspace/Workspace/plotters/vae_phono_concept_binary/plotter_hasFeature.py
 string_distances|/Users/marlon/Documents/BA/Workspace/Workspace/string_distances.py

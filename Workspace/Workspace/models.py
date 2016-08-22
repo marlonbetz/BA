@@ -63,6 +63,7 @@ class VAE(object):
         print("COMPILING MODEL")
         self.vae.compile(optimizer='Adam', loss=vae_loss)
         self.encoder = Model([self.input], self.z_mean)
+        self.z_posterior_sampler = Model([self.input], self.z)
 
         
     def fit(self,X,nb_epoch):
@@ -75,6 +76,8 @@ class VAE(object):
               batch_size=self.batch_size, nb_epoch=nb_epoch)
     def embed(self,X):
         return self.encoder.predict(x=[X],batch_size=self.batch_size)
+    def sample_z_posterior(self,X):
+        return self.z_posterior_sampler.predict(x=[X],batch_size=self.batch_size)
     
     def save_weights(self,pathToWeights):
         self.vae.save_weights(pathToWeights)
