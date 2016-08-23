@@ -32,7 +32,7 @@ On the other hand, deep neural networks have been proven to uncover latent featu
  However, Computation Historical Linguistics has hardly been touched yet by the current Deep Learning boom (a notable exception is \cite{rama2016siamese}). 
 The aim of this thesis is hence 
 \begin{enumerate}
-\item to combine methods from both Computational Historical Linguistics and the emerging field of Deep Learning
+\item to combine methods from both Computational Historical Linguistics, Bayesian Hierarchical models and the emerging field of Deep Learning
 \item to propose a model of modeling sound change as a walk in latent space, which is suitable for neural networks
 \item to use variational autoencoders as a means to uncover the the latent structure that describes the connection between the phonological shape and the meaning of a given word, as well as the geographical location of the speakers of the language the word belongs to, and to investigate it
 \item to show how this uncovered structure can be used to identify cognates in an unsupervised way
@@ -146,7 +146,6 @@ z \sim \mathcal{N}(0,I)
 where $I$ is the identity matrix.
 To arrive at such linear dependencies as in Eq. \ref{eq:sound_change_linear_dependency}, we then just have to expect them in our data $X$ in some way - e.g in form of predefined phoneme features as in \cite{kondrak2000new,list2012sca,rama2016siamese}, pre-trained phoneme embeddings or as simple phoneme unigrams, in which case we would have the system learn latent phoneme features on its own. As $X$ in our model would be conditioned on $z$, we expect the same linear dependencies over words in $z$ as we find them in $X$.
 
-\subsection{$P(w_{ancient}|w_{recent},z,X)}$ as Likelihood of }
 
 \subsection{Sound Change as Posterior $P(w_{recent}|w_{ancient},z)$ }
 
@@ -157,13 +156,13 @@ However, there are some problems with this approach.
 The actual distribution of recent word forms in $\mathcal{Z}$ given the ancient forms would be given by the posterior
 
 \begin{equation}
-P(w_{recent}|w_{ancient},z) = \frac{P(w_{recent}|z)P(w_{ancient}|w_{recent},z)}{\int P(w_{recent}|z)P(w_{ancient}|w_{recent},z) dw_{ancient}}
+P(w_{recent}|w_{ancient},z,X) = \frac{P(w_{recent}|z,X)P(w_{ancient}|w_{recent},z,X)}{\int P(w_{recent}|z,X)P(w_{ancient}|w_{recent},z,X) dw_{ancient}}
 \end{equation}
 
-Unfortunately, we only know $P(w_{recent}|z)$, while we do not know $P(w_{ancient}|w_{recent},z)$ directly, i.e. we cannot say anything specific about the likelihood of an ancient word given the recent words, that is the distribution of probabilities over points in $\mathcal{Z}$ where an ancient word form could be, given the distribution of its own child words.
+Unfortunately, we only know $P(w_{recent}|z,X)$, while we do not know $P(w_{ancient}|w_{recent},z,X)$ directly, i.e. we cannot say anything specific about the likelihood of an ancient word given the recent words, that is the distribution of probabilities over points in $\mathcal{Z}$ where an ancient word form could be, given the distribution of its own child words.
 However, if we only consider those two terms and ignore the normalizing constant in the denominator, we have
 \begin{equation}
-P(w_{recent}|w_{ancient},z) \propto P(w_{recent}|z)P(w_{ancient}|w_{recent},z)
+P(w_{recent}|w_{ancient},z,X) \propto P(w_{recent}|z,X)P(w_{ancient}|w_{recent},z,X)
 \end{equation}
 
 %As we again do not directly know $P(w_{ancient}|w_{recent},z)$ nor $P(w_{ancient}|z)$ unless we have language-specific diachronic data to model that likelihood, we cannot directly infer $P(w_{recent}|w_{ancient},z)$. However, we can say that 
@@ -171,10 +170,12 @@ P(w_{recent}|w_{ancient},z) \propto P(w_{recent}|z)P(w_{ancient}|w_{recent},z)
 %P(w_{ancient}|w_{recent},z) \propto P(w_{recent}|z) P(w_{recent}|w_{ancient},z)
 %\end{equation}
 
-This means that if our prior $P(w_{recent}|z)$, which is known to us, has low probability density for the area around $w_{recent}$, we know that $P(w_{recent}|w_{ancient},z)$ should also be in such a low probability density area. As we except that the likelihood  $P(w_{ancient}|w_{recent},z)$ itself prefers points in $\mathcal{Z}$ that are close to $w_{recent}$ over points that are far away from it, we can say that $w_{recent}$ should be close to $w_{ancient}$. 
-However, if our prior $P(w_{recent}|z)$ is in an area with high probability density, the likelihood does not have such a regulating effect, as the high prior probability would allow for many points in Z to a possible point for $w_{ancient}$. 
+This means that if our prior $P(w_{recent}|z,X)$, which is known to us, has low probability density for the area around $w_{recent}$, we can be quite certain that $P(w_{recent}|w_{ancient},z,X)$ should also be in such a low probability density area. As we except that the likelihood  $P(w_{ancient}|w_{recent},z)$ itself prefers points in $\mathcal{Z}$ that are close to $w_{recent}$ over points that are far away from it, we can say that $w_{recent}$ should be close to $w_{ancient}$. 
+However, if our prior $P(w_{recent}|z,X)$ is in an area with high probability density, the likelihood does not have such a regulating effect, as the high prior probability would allow for many points in Z to a possible point for $w_{ancient}$. 
 
-If we image that we have a word such as  /o/ , we can hardly make any claims about how some ancient form would look like - it could come from /a\textipa{\textsubarch{U}}t/ (Latin to Italian), /ok/ (Old Norse to Bokm\r{a}l), /ob/ (Proto-Slavic to Slovak) or /ak\textipa{\super w}a/ (Latin to French). This is because /o/ as such receives high prior probability $P(w_{recent}|z)$ and hence gives high posterior probabilities over many possible ancient forms. However, if we have a word such as Polish /\textipa{swuxa\t{tC}}/ "listen", the remarkable structure of that word allows us to make much more detailed assumptions about the underlying ancient form, as we except more complex structures to be less frequent in our data and hence attract less probability density.
+For example, if we image that we have a word such as  /o/, we can hardly make any claims about how some ancient form would look like - it could come from /a\textipa{\textsubarch{U}}t/ (Latin to Italian), /ok/ (Old Norse to Bokm\r{a}l), /ob/ (Proto-Slavic to Slovak) or /ak\textipa{\super w}a/ (Latin to French). This is because /o/ as such receives high prior probability $P(w_{recent}|z)$ and hence gives high posterior probabilities over many possible ancient forms. However, if we have a word such as Polish /\textipa{swuxa\t{tC}}/ "listen", the remarkable structure of that word allows us to make much more detailed assumptions about the underlying ancient form, as we except more complex structures to be less frequent in our data and hence attract less probability density.
+
+
 %\begin{equation}
 %\frac{P(w_{ancient}=w'_{ancient}|w_{recent},w'_{recent},z,X)}{P(w_{ancient}\neq w'_{ancient}|w_{recent},w'_{recent},z,X)} \\
 %\end{equation}
@@ -223,7 +224,7 @@ That is, we would have to define priors for both hypotheses. We cannot simply as
 %
 %where $f$ is some non-linear function that maps points in $\mathcal{Z}$ with low probability density to to more probable regions. $f$ here then acts as the actual driving force of sound change, as it defines the actual shift through $\mathcal{Z}$. Unfortunately for us, that means that the simple assumption of cognates following some plain multivariate distribution cannot hold, as we expect complex, highly non-linear intercorrelations between the dimensions of $\mathcal{Z}$ to affect the shape of a word as it wanders around space, which should not be able to model with plain covariance.
 
-Another critical point is that if we have to ancient words $w_{ancient}$ and $w'_{ancient}$, the distributions that model their respective  child words can show large overlaps. That is, only because two word look the same, they do not have to be related. This is the major challenge of any cognate identification system. However, as we assume that 
+%Another critical point is that if we have to ancient words $w_{ancient}$ and $w'_{ancient}$, the distributions that model their respective  child words can show large overlaps. That is, only because two word look the same, they do not have to be related. This is the major challenge of any cognate identification system. However, as we assume that 
 
 
 \section{Related Research}
@@ -282,6 +283,79 @@ $v(\textbf{/u*/} ) -  v(\textbf{/u/} )$ describes a latent feature that should c
 
 \subsubsection{Autoencoders}
 \subsubsection{Variational Autoencoders}
+
+Variational Autoencoders (VAEs) were first described in \cite{kingma2013auto}. Instead of just using a lower-dimensional layer as a bottle neck for non-linear dimensionality reduction, VAEs assume that the code can be modeled by a latent variable $z$ with some prior $p(z)$. This allows for the incorporation of bayesian inference tasks where the marginalization of variables is important, including maximum a posteriori estimates of $\theta$ and an approximation of the posterior $P(z|X)$. 
+
+As variational models, VAEs do not attempt to sample from the true posterior distribution $P(z|X)$ directly. Markov Chain Monte Carlo methods such as Gibbs sampling or Hamiltonian Monte Carlo rely on whole batches during training, which is not suitable for bigger data sets. Instead, variational method assume that the true posterior can be approximated by another parametric distribution $Q(z)$ whose parameters can be estimated analytically. 
+
+If we define the Kullback-Leibler divergence from the true posterior to the approximation as 
+
+
+\begin{equation}
+D_{KL}(Q(z)|P(z|X)) = E_{z\sim Q}[\log Q(z) - \log P(z|X)]
+\end{equation}
+
+we can use Bayes' rule to yield 
+
+\begin{equation}
+D_{KL}(Q(z)|P(z|X)) = E_{z\sim Q}[\log Q(z) - \log P(X|z)-\log P(z)] + \log P(X)
+\end{equation}
+
+where $\log P(X)$ is outside the expectation since it is not dependent on $z$. We can rearrange that to 
+
+\begin{equation}
+\log P(X) - D_{KL}(Q(z)|P(z|X)) = E_{z\sim Q}[\log P(X|z) - D_{KL}(Q(z)||P(z))] 
+\end{equation}
+
+As we want to infer $P(X)$, it makes sense to use a distribution $Q$ that depends on $z$:
+\begin{equation}
+\log P(x) - D_{KL}(Q(z|X)|P(z|X)) = E_{z\sim Q}[\log P(X|z) - D_{KL}(Q(z|X)||P(z))] 
+\end{equation}
+
+Here, the left hand side is to be maximized, as it maximizes the probability of $X$ and minimizes the divergence from the true to the approximated posterior. We further have $Q(z|X)$ as an \textit{encoder} that maps data points into the latent space $\mathcal{Z}$ and $P(X|z)$ as a \textit{decoder} that reconstructs a data point, given a sample $z$. As the universal approximation theorem states that networks with at least one hidden layer can approximate any continuous functions, we can reduce $D_{KL}(Q(z|X)|P(z|X)$ to zero and optimize $P(x)$.
+
+VAEs first draw a sample from $p(z)$. That code than runs through a differentiable generator network $g(z)$. $x$ is then finally sampled from the likelihood $p(x;g(z)) = p(x|z)$ (cf. \cite[p. 698]{Goodfellow-et-al-2016-Book}) 
+
+The model learns to maximize the variational lower bound $\mathcal{L}(\theta,\phi,x^{(i)})$.
+
+\begin{equation}
+\log p_\theta(x^{(i)}) = D_{KL}(q_{\phi}(z|x^{(i)})||p_\theta(z|x^{(i)}))+\mathcal{L}(\theta,\phi,x^{(i)})
+\end{equation}
+
+where the first term on the right is the Kullback Leibler Divergence of the approximated posterior to the true posterior, while the second therm is the variational lower bound on the marginal likelihood of the datapoint i.
+
+
+Given the probabilistic encoder $q_{\phi}(z|x)$, which serves as the approximation to the posterior of the model $p_{\theta}(z,x)$, we have a prior
+
+\begin{equation}
+p_{\theta}(z) = \mathcal{z;0,I} 
+\end{equation}
+
+The probabilistic decoder $p_{\theta}(x|z)$ can be a multivariate Gaussian or a Bernoulli distribution, depending on the data. The respective distribution parameters are inferred from z with a Multilayer Perceptron (MLP). The variational approximate posterior is then given by  
+
+
+\begin{equation}
+\log q_{\phi}(z|x^{(i)}) = \log \mathcal{N}(z;\mu ^{(i)},\sigma ^{2(i)}I)
+\end{equation}
+
+where $\mu$ and $\sigma^2$ are inferred by the encoding MLP. 
+
+%\begin{equation}
+%\mathcal{L}(\theta,\phi,x^{(i)}) \simeq \frac{1}{2} \sum_{j=1}^{J}(1+\log((\sigma_j^{(i)})^2 )-(\mu_j^{(i)})^2 -(\sigma_j^{(i)})^2)
+%+ \frac{1}{L}\sum_{l=1}^L \log p_{\theta}(x^{(i)}|z^{(i,l)})
+%\end{equation}
+%
+%where 
+%
+%\begin{equation}
+%z^{(i,l)} = \mu(i) + \sigma^{(i)} \odot \epsilon^{(l)}
+%\end{equation}
+%
+%and 
+%
+%\begin{equation}
+%\epsilon^{(l)} \sim \mathcal{N}(0,I)
+%\end{equation}
 
 Following this, 4 different models are investigated here:
 \begin{enumerate}

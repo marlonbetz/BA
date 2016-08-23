@@ -14,5 +14,6 @@ models|/Users/marlon/Documents/BA/Workspace/Workspace/models.py
 pipeline|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline.py
 pipeline_trainOnASJP|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline_trainOnASJP.py
 pipeline_trainOnConcept|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline_trainOnConcept.py
+pipeline_trainOnEachConcept|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline_trainOnEachConcept.py
 plotters.vae_phono_concept_binary.plotter_hasFeature|/Users/marlon/Documents/BA/Workspace/Workspace/plotters/vae_phono_concept_binary/plotter_hasFeature.py
 string_distances|/Users/marlon/Documents/BA/Workspace/Workspace/string_distances.py

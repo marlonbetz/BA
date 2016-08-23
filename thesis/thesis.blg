@@ -4,45 +4,45 @@ The top-level auxiliary file: thesis.aux
 The style file: apa.bst
 Database file #1: references.bib
 Warning--empty journal in dellert2015uralic
-You've used 17 entries,
+You've used 19 entries,
             1940 wiz_defined-function locations,
-            577 strings with 7815 characters,
-and the built_in function-call counts, 8999 in all, are:
-= -- 843
-> -- 551
-< -- 14
-+ -- 207
-- -- 202
-* -- 815
-:= -- 1543
-add.period$ -- 55
-call.type$ -- 17
-change.case$ -- 185
-chr.to.int$ -- 16
-cite$ -- 18
-duplicate$ -- 304
-empty$ -- 509
-format.name$ -- 223
-if$ -- 1743
+            586 strings with 8071 characters,
+and the built_in function-call counts, 9598 in all, are:
+= -- 902
+> -- 577
+< -- 16
++ -- 215
+- -- 210
+* -- 863
+:= -- 1658
+add.period$ -- 61
+call.type$ -- 19
+change.case$ -- 199
+chr.to.int$ -- 18
+cite$ -- 20
+duplicate$ -- 326
+empty$ -- 543
+format.name$ -- 237
+if$ -- 1853
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 16
-newline$ -- 88
-num.names$ -- 51
-pop$ -- 189
+missing$ -- 17
+newline$ -- 98
+num.names$ -- 57
+pop$ -- 198
 preamble$ -- 1
-purify$ -- 186
+purify$ -- 200
 quote$ -- 0
-skip$ -- 239
+skip$ -- 259
 stack$ -- 0
-substring$ -- 506
-swap$ -- 86
+substring$ -- 530
+swap$ -- 89
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 100
+type$ -- 112
 warning$ -- 1
-while$ -- 60
+while$ -- 64
 width$ -- 0
-write$ -- 222
+write$ -- 246
 (There was 1 warning)

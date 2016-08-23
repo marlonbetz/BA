@@ -11,6 +11,12 @@ Abadi, M., Agarwal, A., Barham, P., Brevdo, E., Chen, Z., Citro, C., Corrado,
 \newblock {TensorFlow}: Large-scale machine learning on heterogeneous systems.
 \newblock Software available from tensorflow.org.
 
+\bibitem[\protect\astroncite{Bengio and
+  Courville}{2016}]{Goodfellow-et-al-2016-Book}
+Bengio, I. G.~Y. and Courville, A. (2016).
+\newblock Deep learning.
+\newblock Book in preparation for MIT Press.
+
 \bibitem[\protect\astroncite{Bouchard-C{\^o}t{\'e}
   et~al.}{2013}]{bouchard2013automated}
 Bouchard-C{\^o}t{\'e}, A., Hall, D., Griffiths, T.~L., and Klein, D. (2013).
@@ -53,6 +59,11 @@ Gray, R.~D., Drummond, A.~J., and Greenhill, S.~J. (2009).
 \newblock Language phylogenies reveal expansion pulses and pauses in pacific
   settlement.
 \newblock {\em science}, 323(5913):479--483.
+
+\bibitem[\protect\astroncite{Kingma and Welling}{2013}]{kingma2013auto}
+Kingma, D.~P. and Welling, M. (2013).
+\newblock Auto-encoding variational bayes.
+\newblock {\em arXiv preprint arXiv:1312.6114}.
 
 \bibitem[\protect\astroncite{Kondrak}{2000}]{kondrak2000new}
 Kondrak, G. (2000).

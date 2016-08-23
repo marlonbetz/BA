@@ -3,7 +3,7 @@ from pipeline import *
 print("LOAD TEST WORDLIST")
 pathToAnnotatedWordList = "Data/IELex/output/IELex-2016.tsv.asjp"
 
-languages,words,global_ids,cognate_classes = loadAnnotatedWordList(pathToAnnotatedWordList, {1228})
+languages,words,global_ids,cognate_classes = loadAnnotatedWordList(pathToAnnotatedWordList, {730})
 
 print("VECTORIZE TEST WORDS")
 padToMaxLength=15
@@ -21,7 +21,7 @@ intermediate_dim = 100
 
 
 epsilon_std = 0.1
-nb_epoch =20000
+nb_epoch =10000
 
 vae = VAE(latent_dim=latent_dim,
           original_dim=original_dim,
