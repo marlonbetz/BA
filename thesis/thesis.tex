@@ -288,7 +288,7 @@ Variational Autoencoders (VAEs) were first described in \cite{kingma2013auto}. I
 
 As variational models, VAEs do not attempt to sample from the true posterior distribution $P(z|X)$ directly. Markov Chain Monte Carlo methods such as Gibbs sampling or Hamiltonian Monte Carlo rely on whole batches during training, which is not suitable for bigger data sets. Instead, variational method assume that the true posterior can be approximated by another parametric distribution $Q(z)$ whose parameters can be estimated analytically. 
 
-If we define the Kullback-Leibler divergence from the true posterior to the approximation as 
+If we define the Kullback-Leibler divergence from the true posterior to its approximation as 
 
 
 \begin{equation}
@@ -309,36 +309,59 @@ where $\log P(X)$ is outside the expectation since it is not dependent on $z$. W
 
 As we want to infer $P(X)$, it makes sense to use a distribution $Q$ that depends on $z$:
 \begin{equation}
+\label{eq:vae_loss_original}
 \log P(x) - D_{KL}(Q(z|X)|P(z|X)) = E_{z\sim Q}[\log P(X|z) - D_{KL}(Q(z|X)||P(z))] 
 \end{equation}
 
-Here, the left hand side is to be maximized, as it maximizes the probability of $X$ and minimizes the divergence from the true to the approximated posterior. We further have $Q(z|X)$ as an \textit{encoder} that maps data points into the latent space $\mathcal{Z}$ and $P(X|z)$ as a \textit{decoder} that reconstructs a data point, given a sample $z$. As the universal approximation theorem states that networks with at least one hidden layer can approximate any continuous functions, we can reduce $D_{KL}(Q(z|X)|P(z|X)$ to zero and optimize $P(x)$.
+Here, the left hand side makes it clear why Eq. \ref{eq:vae_loss_original} is to be maximized, as it increases the probability of $X$ and minimizes the divergence from the true to the approximated posterior. We further have $Q(z|X)$ as an \textit{encoder} that maps data points into the latent space $\mathcal{Z}$ and $P(X|z)$ as a \textit{decoder} that reconstructs a data point, given a sample $z$. As the universal approximation theorem states that networks with at least one hidden layer can approximate any continuous functions, we can reduce $D_{KL}(Q(z|X)||P(z|X))$ to zero and optimize $P(x)$ directly. The right hand side is the variational lower bound.
 
-VAEs first draw a sample from $p(z)$. That code than runs through a differentiable generator network $g(z)$. $x$ is then finally sampled from the likelihood $p(x;g(z)) = p(x|z)$ (cf. \cite[p. 698]{Goodfellow-et-al-2016-Book}) 
-
-The model learns to maximize the variational lower bound $\mathcal{L}(\theta,\phi,x^{(i)})$.
+However, given that we use neural networks, we have to make sure that all gradients can be backpropagated through the network. In Eq. \ref{eq:vae_loss_original}, moving the gradient symbol into the expectation on the right hand side would yield gradients that would be independent of the parameters of $Q$. This is due to the location of the sampler as a unit inside the network - since sampling from $Q(z|X)$ is a non-continuous operation, it cannot have gradients and hence would block the backpropagation of errors to the encoder network. \cite{kingma2013auto} instead propose another objective that treats the sampling as an input to the network: Here, an auxiliary noise variable $\epsilon$ is sampled from some distribution $p(\epsilon)$:
 
 \begin{equation}
-\log p_\theta(x^{(i)}) = D_{KL}(q_{\phi}(z|x^{(i)})||p_\theta(z|x^{(i)}))+\mathcal{L}(\theta,\phi,x^{(i)})
+\epsilon \sim p(\epsilon)
 \end{equation}
 
-where the first term on the right is the Kullback Leibler Divergence of the approximated posterior to the true posterior, while the second therm is the variational lower bound on the marginal likelihood of the datapoint i.
-
-
-Given the probabilistic encoder $q_{\phi}(z|x)$, which serves as the approximation to the posterior of the model $p_{\theta}(z,x)$, we have a prior
-
+\cite{kingma2013auto} mention that  $p(\epsilon)$ can be any continuous distribution or compositions of such distributions, but propose to use a standard normal distribution if $z$ is model by a normal distribution:
 \begin{equation}
-p_{\theta}(z) = \mathcal{z;0,I} 
+\epsilon \sim \mathcal{N}(0,1)
 \end{equation}
 
-The probabilistic decoder $p_{\theta}(x|z)$ can be a multivariate Gaussian or a Bernoulli distribution, depending on the data. The respective distribution parameters are inferred from z with a Multilayer Perceptron (MLP). The variational approximate posterior is then given by  
-
-
+With $\epsilon$ at hand, we can reformulate $z$ as a deterministic variable:
 \begin{equation}
-\log q_{\phi}(z|x^{(i)}) = \log \mathcal{N}(z;\mu ^{(i)},\sigma ^{2(i)}I)
+z = \mu + \sigma \odot \epsilon
 \end{equation}
 
-where $\mu$ and $\sigma^2$ are inferred by the encoding MLP. 
+The right hand side of Eq. \ref{eq:vae_loss_original} then becomes
+\begin{equation}
+\label{eq:vae_loss_reparameterized}
+E_{\epsilon \sim \mathcal(0,1)}[\log P(X|z= \mu + \sigma \odot \epsilon) - D_{KL}(Q(z|X)||P(z))] 
+\end{equation}
+
+%VAEs first draw a sample from $p(z)$. That code than runs through a differentiable generator network $g(z)$. $x$ is then finally sampled from the likelihood $p(x;g(z)) = p(x|z)$ (cf. \cite[p. 698]{Goodfellow-et-al-2016-Book}) 
+%
+%The model learns to maximize the variational lower bound $\mathcal{L}(\theta,\phi,x^{(i)})$.
+%
+%\begin{equation}
+%\log p_\theta(x^{(i)}) = D_{KL}(q_{\phi}(z|x^{(i)})||p_\theta(z|x^{(i)}))+\mathcal{L}(\theta,\phi,x^{(i)})
+%\end{equation}
+%
+%where the first term on the right is the Kullback Leibler Divergence of the approximated posterior to the true posterior, while the second therm is the variational lower bound on the marginal likelihood of the datapoint i.
+%
+%
+%Given the probabilistic encoder $q_{\phi}(z|x)$, which serves as the approximation to the posterior of the model $p_{\theta}(z,x)$, we have a prior
+%
+%\begin{equation}
+%p_{\theta}(z) = \mathcal{z;0,I} 
+%\end{equation}
+%
+%The probabilistic decoder $p_{\theta}(x|z)$ can be a multivariate Gaussian or a Bernoulli distribution, depending on the data. The respective distribution parameters are inferred from z with a Multilayer Perceptron (MLP). The variational approximate posterior is then given by  
+%
+%
+%\begin{equation}
+%\log q_{\phi}(z|x^{(i)}) = \log \mathcal{N}(z;\mu ^{(i)},\sigma ^{2(i)}I)
+%\end{equation}
+%
+%where $\mu$ and $\sigma^2$ are inferred by the encoding MLP. 
 
 %\begin{equation}
 %\mathcal{L}(\theta,\phi,x^{(i)}) \simeq \frac{1}{2} \sum_{j=1}^{J}(1+\log((\sigma_j^{(i)})^2 )-(\mu_j^{(i)})^2 -(\sigma_j^{(i)})^2)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  23 AUG 2016 16:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  23 AUG 2016 18:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -554,32 +554,33 @@ and I'll forget about whatever was undefined.
 [8] [9 </Users/marlon/Documents/BA/thesis/pictures/phoneme_embeddings_overview_
 ap.png>] [10 </Users/marlon/Documents/BA/thesis/pictures/phoneme_embeddings_wor
 d2vec_all.png>]
-./thesis.tex:317: Undefined control sequence.
-\b@Goodfellow-et-al-2016-Book ->\astroncite 
-                                            {Bengio and Courville}{2016}
-l.317 ...\cite[p. 698]{Goodfellow-et-al-2016-Book}
-                                                  )
+./thesis.tex:318: Undefined control sequence.
+\b@kingma2013auto ->\astroncite 
+                                {Kingma and Welling}{2013}
+l.318 ...he encoder network. \cite{kingma2013auto}
+                                                   instead propose another o...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-Overfull \hbox (25.93593pt too wide) in paragraph at lines 317--318
-\OT1/cmr/m/n/10 work $\OML/cmm/m/it/10 g\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 z\OT1
-/cmr/m/n/10 )$. $\OML/cmm/m/it/10 x$ \OT1/cmr/m/n/10 is then fi-nally sam-pled 
-from the like-li-hood $\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT
-1/cmr/m/n/10 ; \OML/cmm/m/it/10 g\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 z\OT1/cmr/m/
-n/10 )) = \OML/cmm/m/it/10 p\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OMS/cmsy/m/n/10
- j\OML/cmm/m/it/10 z\OT1/cmr/m/n/10 )$ (cf. [[],
- []
+./thesis.tex:324: Undefined control sequence.
+\b@kingma2013auto ->\astroncite 
+                                {Kingma and Welling}{2013}
+l.324 \cite{kingma2013auto}
+                            mention that  $p(\epsilon)$ can be any continuou...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 [11]
-./thesis.tex:375: Undefined control sequence.
+./thesis.tex:398: Undefined control sequence.
 \b@rehurek_lrec ->\astroncite 
                               {{\v R}eh{\r u}{\v r}ek and Sojka}{2010}
-l.375 ...by the gensim package \cite{rehurek_lrec}
+l.398 ...by the gensim package \cite{rehurek_lrec}
                                                   . The Autoencoder was impl...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -587,10 +588,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.tex:375: Undefined control sequence.
+./thesis.tex:398: Undefined control sequence.
 \b@chollet2015keras ->\astroncite 
                                   {Chollet}{2015}
-l.375 ...mented with Keras \cite{chollet2015keras}
+l.398 ...mented with Keras \cite{chollet2015keras}
                                                    and Tensorflow \cite{tens...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -598,10 +599,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.tex:375: Undefined control sequence.
+./thesis.tex:398: Undefined control sequence.
 \b@tensorflow2015-whitepaper ->\astroncite 
                                            {Abadi et\nobreakspace {}al.}{2015}
-l.375 ...nsorflow \cite{tensorflow2015-whitepaper}
+l.398 ...nsorflow \cite{tensorflow2015-whitepaper}
                                                   . The clustering algorithm...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -609,10 +610,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.tex:375: Undefined control sequence.
+./thesis.tex:398: Undefined control sequence.
 \b@scikit-learn ->\astroncite 
                               {Pedregosa et\nobreakspace {}al.}{2011}
-l.375 ...vided by scikit-learn \cite{scikit-learn}
+l.398 ...vided by scikit-learn \cite{scikit-learn}
                                                   . All code connected to th...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -665,6 +666,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[12]
 ./thesis.bbl:34: Undefined control sequence.
 <argument> \protect \astroncite 
                                 {Bouckaert et~al.}{2012}
@@ -676,7 +678,6 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[12]
 ./thesis.bbl:41: Undefined control sequence.
 <argument> \protect \astroncite 
                                 {Chollet}{2015}
@@ -873,10 +874,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3956 strings out of 493089
- 52283 string characters out of 6134842
- 116584 words of memory out of 5000000
- 7370 multiletter control sequences out of 15000+600000
+ 3958 strings out of 493089
+ 52334 string characters out of 6134842
+ 116604 words of memory out of 5000000
+ 7372 multiletter control sequences out of 15000+600000
  14938 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,8n,26p,1627b,274s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -902,7 +903,7 @@ f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf
 -dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2015/t
 exmf-dist/fonts/type1/public/tipa/tipa10.pfb></usr/local/texlive/2015/texmf-dis
 t/fonts/type1/public/tipa/tipa8.pfb>
-Output written on thesis.pdf (13 pages, 536733 bytes).
+Output written on thesis.pdf (13 pages, 535739 bytes).
 PDF statistics:
  142 PDF objects out of 1000 (max. 8388607)
  98 compressed objects within 1 object stream
