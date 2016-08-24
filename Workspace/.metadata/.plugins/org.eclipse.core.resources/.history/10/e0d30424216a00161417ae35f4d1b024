@@ -1,0 +1,16 @@
+import numpy as np 
+import pickle
+import codecs
+
+ars = pickle.load(codecs.open("adjusted_rand_scores.pkl","rb"))
+ami = pickle.load(codecs.open("adjusted_mutual_info_scores.pkl","rb"))
+hvc = pickle.load(codecs.open("homogeneity_completeness_v_measures_scores.pkl","rb"))
+n_true = pickle.load(codecs.open("n_cognate_classes_true_perDataPoint.pkl","rb"))
+
+from scipy.stats import pearsonr,spearmanr
+
+print(pearsonr(ars, n_true),spearmanr(ars, n_true))
+print(pearsonr(ami, n_true),spearmanr(ami, n_true))
+print(pearsonr(hvc[:,0], n_true),spearmanr(hvc[:,0], n_true))
+print(pearsonr(hvc[:,1], n_true),spearmanr(hvc[:,1], n_true))
+print(pearsonr(hvc[:,2], n_true),spearmanr(hvc[:,2], n_true))

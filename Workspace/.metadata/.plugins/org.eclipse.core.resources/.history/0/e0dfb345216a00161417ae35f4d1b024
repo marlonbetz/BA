@@ -1,0 +1,11 @@
+import numpy as np 
+import pickle
+import codecs
+
+ars = pickle.load(codecs.open("adjusted_rand_scores.pkl","rb"))
+ami = pickle.load(codecs.open("adjusted_mutual_info_scores.pkl","rb"))
+hvc = pickle.load(codecs.open("homogeneity_completeness_v_measures_scores.pkl","rb"))
+n_true = pickle.load(codecs.open("n_cognate_classes_true_perDataPoint.pkl","rb"))
+import matplotlib.pyplot as plt
+plt.plot(n_true)
+plt.ars

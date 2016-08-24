@@ -7,10 +7,12 @@ VAE_phono_concept_binary_asjp|/Users/marlon/Documents/BA/Workspace/Workspace/VAE
 VAE_phono_concept_geo_binary_asjp|/Users/marlon/Documents/BA/Workspace/Workspace/VAE_phono_concept_geo_binary_asjp.py
 VAE_phono_concept_geo_mixed|/Users/marlon/Documents/BA/Workspace/Workspace/VAE_phono_concept_geo_mixed.py
 VAE_phono_mse|/Users/marlon/Documents/BA/Workspace/Workspace/VAE_phono_mse.py
+affinity_propagation_sandbox|/Users/marlon/Documents/BA/Workspace/Workspace/affinity_propagation_sandbox.py
 binary_phoneme_features|/Users/marlon/Documents/BA/Workspace/Workspace/binary_phoneme_features.py
 kld|/Users/marlon/Documents/BA/Workspace/Workspace/kld.py
 learn_local_manifolds|/Users/marlon/Documents/BA/Workspace/Workspace/learn_local_manifolds.py
 models|/Users/marlon/Documents/BA/Workspace/Workspace/models.py
+pickled_stuff.pipeline_trainOnEachConcept.plotter|/Users/marlon/Documents/BA/Workspace/Workspace/pickled_stuff/pipeline_trainOnEachConcept/plotter.py
 pipeline|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline.py
 pipeline_trainOnASJP|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline_trainOnASJP.py
 pipeline_trainOnConcept|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline_trainOnConcept.py

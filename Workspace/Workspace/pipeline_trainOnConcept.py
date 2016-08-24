@@ -3,7 +3,7 @@ from pipeline import *
 print("LOAD TEST WORDLIST")
 pathToAnnotatedWordList = "Data/IELex/output/IELex-2016.tsv.asjp"
 
-languages,words,global_ids,cognate_classes = loadAnnotatedWordList(pathToAnnotatedWordList, {1405})
+languages,words,global_ids,cognate_classes = loadAnnotatedWordList(pathToAnnotatedWordList, {730})
 
 print("VECTORIZE TEST WORDS")
 padToMaxLength=15
@@ -36,16 +36,35 @@ vae.fit(X,
 print("EMBED TEST WORDS")
 embeddings = vae.embed(X)
 
+print("SAMPLING POSTERIOR")
+n_posterior_samples = 1000
+posterior = np.array([vae.sample_z_posterior(X) for i in range(n_posterior_samples)]).reshape(-1,latent_dim)
+print("KDE OF POSTERIOR")
+from scipy.stats import gaussian_kde 
+
+kernel_posterior = gaussian_kde(posterior.T)
+pref = [-1/kernel_posterior.pdf(x) for x in embeddings]
+
 print("CLUSTER WORDS")
+from scipy.spatial.distance import cosine
 concepts2embeddings = dict((concept,[emb for i,emb in enumerate(embeddings) if global_ids[i] == concept]) for concept in set(sorted(global_ids)))
 concepts2cognate_classes = dict((concept,[cog for i,cog in enumerate(cognate_classes) if global_ids[i] == concept]) for concept in set(sorted(global_ids)))
 #for damping_factor in np.arange(0.5,1,0.05):
 damping_factor = 0.5
-ap = AffinityPropagation(damping=damping_factor)
+
+affinity = "euclidean"
+ap = AffinityPropagation(damping=damping_factor,
+                         #preference=pref
+                         affinity=affinity
+                         )
+
+if affinity == "precomputed":
+    y_pred = ap.fit_predict(np.array([-cosine(u, v) for u in embeddings for v in embeddings]).reshape((len(embeddings),len(embeddings))))
+else:
+    y_pred = ap.fit_predict(embeddings)
 n_cognate_classes = len(set(cognate_classes))
 n_concepts = len(set(global_ids))
 y_true = cognate_classes
-y_pred = ap.fit_predict(embeddings)
 y_random = np.random.randint(0,int(n_cognate_classes/n_concepts),y_pred.shape)
 
 print(metrics.adjusted_rand_score(y_true, y_pred))
@@ -62,22 +81,18 @@ print("PLOTTING")
 import matplotlib.pyplot as plt
 import seaborn as sns
 from  scipy.stats import multivariate_normal as mvn
-from scipy.stats import gaussian_kde 
 
 
-#prior = np.random.multivariate_normal(np.zeros(2),np.identity(2),(1000,X.shape[1]))
-print("SAMPLING POSTERIOR")
-n_posterior_samples = 1000
-posterior = np.array([vae.sample_z_posterior(X) for i in range(n_posterior_samples)]).reshape(-1,latent_dim)
+
 #posterior = embeddings
-print("KERNEL DENSITY ESTIMATOR OF POSTERIOR")
-prior_pdf  = lambda x : mvn.pdf(x,np.zeros(latent_dim),np.identity(latent_dim))
-posterior_kernel  = gaussian_kde(posterior.transpose())
-posterior_kernel_pdf = lambda x : posterior_kernel.pdf(x)
-kld = lambda x : (posterior_kernel_pdf(x)*(np.log(prior_pdf(x))+np.log(posterior_kernel_pdf(x))))[0]
-
-for word,emb in zip(words,embeddings):
-    print(word,kld(emb))
+# print("KERNEL DENSITY ESTIMATOR OF POSTERIOR")
+# prior_pdf  = lambda x : mvn.pdf(x,np.zeros(latent_dim),np.identity(latent_dim))
+# posterior_kernel  = gaussian_kde(posterior.transpose())
+# posterior_kernel_pdf = lambda x : posterior_kernel.pdf(x)
+# kld = lambda x : (posterior_kernel_pdf(x)*(np.log(prior_pdf(x))+np.log(posterior_kernel_pdf(x))))[0]
+# 
+# for word,emb in zip(words,embeddings):
+#     print(word,kld(emb))
 # words_kld_dict = dict((word,kld(emb)) for word,emb in zip(words,embeddings))
 # kld_words_dict = dict((kld(emb),word) for word,emb in zip(words,embeddings))
 # words_sorted_kld = sorted(words,key=lambda x: words_kld_dict[x])

@@ -15,7 +15,12 @@ concepts2cognate_classes = dict((concept,[cog for i,cog in enumerate(cognate_cla
 adjusted_rand_scores = []
 adjusted_mutual_info_scores  =[]
 homogeneity_completeness_v_measures_scores = []
-for concept,X in X_dict.items():
+n_cognate_classes_true_perDataPoint = []
+n_cognate_classes_pred_perDataPoint = []
+n_concepts = len(X_dict.keys())
+for i,item in enumerate(X_dict.items()):
+    print(i,"/",n_concepts)
+    concept,X  = item
     print("FIT VAE")
     
     batch_size = X.shape[0]
@@ -25,8 +30,8 @@ for concept,X in X_dict.items():
     intermediate_dim = 100
     
     
-    epsilon_std = 0.01
-    nb_epoch =1000
+    epsilon_std = 0.1
+    nb_epoch =10000
     
     vae = VAE(latent_dim=latent_dim,
               original_dim=original_dim,
@@ -58,6 +63,14 @@ for concept,X in X_dict.items():
     adjusted_rand_scores.append(ars)
     adjusted_mutual_info_scores.append(ami)
     homogeneity_completeness_v_measures_scores.append(hcv)
+    
+    n_cognate_classes_true_tmp =  len(set(concepts2cognate_classes[concept]))
+    n_cognate_classes_pred_tmp =  len(set(y_pred))
+    print("estimated number of cognate classes",n_cognate_classes_pred_tmp)
+    print("true number of cognate classes",n_cognate_classes_true_tmp)
+    n_cognate_classes_true_perDataPoint.append(n_cognate_classes_true_tmp)
+    n_cognate_classes_pred_perDataPoint.append(n_cognate_classes_pred_tmp)
+    
     print(ars)
     print(ami)
     print(hcv)
@@ -69,6 +82,13 @@ for concept,X in X_dict.items():
 print("adjusted_rand_scores",np.mean(adjusted_rand_scores))
 print("adjusted_mutual_info_scores",np.mean(adjusted_mutual_info_scores))
 print("homogeneity_completeness_v_measures_scores",np.mean(np.array(homogeneity_completeness_v_measures_scores),axis=0))
+import pickle 
+import codecs
+pickle.dump(adjusted_rand_scores,codecs.open("adjusted_rand_scores.pkl","wb"))
+pickle.dump(adjusted_mutual_info_scores,codecs.open("adjusted_mutual_info_scores.pkl","wb"))
+pickle.dump(homogeneity_completeness_v_measures_scores,codecs.open("homogeneity_completeness_v_measures_scores.pkl","wb"))
+pickle.dump(n_cognate_classes_true_perDataPoint,codecs.open("n_cognate_classes_true_perDataPoint.pkl","wb"))
+pickle.dump(n_cognate_classes_pred_perDataPoint,codecs.open("n_cognate_classes_pred_perDataPoint.pkl","wb"))
 #   
 # print("PLOTTING")
 # import matplotlib.pyplot as plt

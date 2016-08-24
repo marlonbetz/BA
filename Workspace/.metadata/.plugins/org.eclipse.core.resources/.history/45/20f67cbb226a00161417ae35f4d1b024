@@ -1,0 +1,17 @@
+import numpy as np 
+import pickle
+import codecs
+
+ars = pickle.load(codecs.open("adjusted_rand_scores.pkl","rb"))
+ami = pickle.load(codecs.open("adjusted_mutual_info_scores.pkl","rb"))
+hvc =  np.array(pickle.load(codecs.open("homogeneity_completeness_v_measures_scores.pkl","rb")))
+n_true =np.array(pickle.load(codecs.open("n_cognate_classes_true_perDataPoint.pkl","rb")))
+import matplotlib.pyplot as plt
+
+n_ars_map = dict(
+                (n,[ars_ for i,ars_ in enumerate(ars) if n_true[i] == n])
+                 for n in n_true
+                  )
+import seaborn as sns
+sns.barplot(n_ars_map.keys(),[np.mean(n_ars_map[key]) for key in n_ars_map.keys()])
+print(n_ars_map)

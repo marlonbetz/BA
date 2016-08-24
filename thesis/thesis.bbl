@@ -11,12 +11,6 @@ Abadi, M., Agarwal, A., Barham, P., Brevdo, E., Chen, Z., Citro, C., Corrado,
 \newblock {TensorFlow}: Large-scale machine learning on heterogeneous systems.
 \newblock Software available from tensorflow.org.
 
-\bibitem[\protect\astroncite{Bengio and
-  Courville}{2016}]{Goodfellow-et-al-2016-Book}
-Bengio, I. G.~Y. and Courville, A. (2016).
-\newblock Deep learning.
-\newblock Book in preparation for MIT Press.
-
 \bibitem[\protect\astroncite{Bouchard-C{\^o}t{\'e}
   et~al.}{2013}]{bouchard2013automated}
 Bouchard-C{\^o}t{\'e}, A., Hall, D., Griffiths, T.~L., and Klein, D. (2013).
@@ -48,6 +42,11 @@ Dellert, J. (2015).
 \newblock Uralic and its neighbors as a test case for a lexical flow model of
   language contact.
 
+\bibitem[\protect\astroncite{Doersch}{2016}]{doersch2016tutorial}
+Doersch, C. (2016).
+\newblock Tutorial on variational autoencoders.
+\newblock {\em arXiv preprint arXiv:1606.05908}.
+
 \bibitem[\protect\astroncite{Goldberg and Levy}{2014}]{goldberg2014word2vec}
 Goldberg, Y. and Levy, O. (2014).
 \newblock word2vec explained: deriving mikolov et al.'s negative-sampling
@@ -59,6 +58,19 @@ Gray, R.~D., Drummond, A.~J., and Greenhill, S.~J. (2009).
 \newblock Language phylogenies reveal expansion pulses and pauses in pacific
   settlement.
 \newblock {\em science}, 323(5913):479--483.
+
+\bibitem[\protect\astroncite{Gutmann and
+  Hyv{\"a}rinen}{2010}]{gutmann2010noise}
+Gutmann, M. and Hyv{\"a}rinen, A. (2010).
+\newblock Noise-contrastive estimation: A new estimation principle for
+  unnormalized statistical models.
+\newblock In {\em AISTATS}, volume~1, page~6.
+
+\bibitem[\protect\astroncite{J{\"a}ger}{2014}]{jager2014phylogenetic}
+J{\"a}ger, G. (2014).
+\newblock Phylogenetic inference from word lists using weighted alignment with
+  empirically determined weights.
+\newblock In {\em Quantifying Language Dynamics}, pages 155--204. Brill.
 
 \bibitem[\protect\astroncite{Kingma and Welling}{2013}]{kingma2013auto}
 Kingma, D.~P. and Welling, M. (2013).
@@ -94,6 +106,17 @@ Mikolov, T., Sutskever, I., Chen, K., Corrado, G.~S., and Dean, J. (2013b).
   compositionality.
 \newblock In {\em Advances in neural information processing systems}, pages
   3111--3119.
+
+\bibitem[\protect\astroncite{Mnih and Teh}{2012}]{mnih2012fast}
+Mnih, A. and Teh, Y.~W. (2012).
+\newblock A fast and simple algorithm for training neural probabilistic
+  language models.
+\newblock {\em arXiv preprint arXiv:1206.6426}.
+
+\bibitem[\protect\astroncite{Morin and Bengio}{2005}]{morin2005hierarchical}
+Morin, F. and Bengio, Y. (2005).
+\newblock Hierarchical probabilistic neural network language model.
+\newblock In {\em Aistats}, volume~5, pages 246--252. Citeseer.
 
 \bibitem[\protect\astroncite{Pedregosa et~al.}{2011}]{scikit-learn}
 Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel,
