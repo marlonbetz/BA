@@ -7,7 +7,7 @@ kld|1471874124000000000|/Users/marlon/Documents/BA/Workspace/Workspace/kld.py
 VAE_phono_binary|1471432693000000000|/Users/marlon/Documents/BA/Workspace/Workspace/VAE_phono_binary.py
 VAE_phono_concept_binary|1471432693000000000|/Users/marlon/Documents/BA/Workspace/Workspace/VAE_phono_concept_binary.py
 VAE_phono_concept_geo_binary_asjp|1471432693000000000|/Users/marlon/Documents/BA/Workspace/Workspace/VAE_phono_concept_geo_binary_asjp.py
-pipeline_trainOnEachConcept|1472058701000000000|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline_trainOnEachConcept.py
+pipeline_trainOnEachConcept|1472126566000000000|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline_trainOnEachConcept.py
 learn_local_manifolds|1471432693000000000|/Users/marlon/Documents/BA/Workspace/Workspace/learn_local_manifolds.py
 VAE_phono_concept_binary_asjp|1471432693000000000|/Users/marlon/Documents/BA/Workspace/Workspace/VAE_phono_concept_binary_asjp.py
 pipeline|1471778916000000000|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline.py
@@ -63,7 +63,7 @@ bpf|9|bpf!43@bpf!51@bpf!35@bpf!99@bpf!123@bpf!59@bpf!27@bpf!115@bpf!67@
 c2t|4|c2t!107@c2t!83@c2t!51@c2t!27@
 c_l|6|c_l!83@c_l!51@c_l!75@c_l!27@c_l!91@c_l!107@
 cma|9|cmap_cognateClasses!83@cmap_cognateClasses!27@cmap_cognateClasses!75@cmap_cognateClasses!91@cmap_y_true!59@cmap_cognateClasses!51@cmap!19@cmap_cognateClasses!107@cmap_y_pred!59@
-cog|12|cognate_classes!83@cognate_class!27@cognate_classes!75@cognate_class!107@cognate_classes!91@cognate_class!75@cognate_class!83@cognate_classes!27@cognate_classes!51@cognate_class!51@cognate_classes!107@cognate_class!91@
+cog|12|cognate_classes!83@cognate_classes!27@cognate_class!27@cognate_classes!75@cognate_class!107@cognate_classes!91@cognate_classes!51@cognate_class!75@cognate_class!51@cognate_classes!107@cognate_class!91@cognate_class!83@
 con|28|concepts_oneHots!27@concepts!75@concepts!43@concepts_oneHots!107@concepts2embeddings!59@concepts!99@concepts!35@concepts_oneHots!83@concept_decoded!91@concepts_oneHots!43@concepts2cognate_classes!67@concepts_oneHots!51@concept_decoding_layer_decoded!91@concept_id!35@concepts!91@concept_decoding_layer_intermediate!91@concepts!51@concepts!107@concepts!83@concepts2cognate_classes_test!115@concepts_oneHots!35@concept_id!43@concept_decoding_intermediate!91@concepts!27@concepts_oneHots!75@concepts_oneHots!91@concepts2embeddings_test!115@concepts2cognate_classes!59@
 cou|0|
 cus|0|

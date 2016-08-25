@@ -11,6 +11,12 @@ Abadi, M., Agarwal, A., Barham, P., Brevdo, E., Chen, Z., Citro, C., Corrado,
 \newblock {TensorFlow}: Large-scale machine learning on heterogeneous systems.
 \newblock Software available from tensorflow.org.
 
+\bibitem[\protect\astroncite{Bengio and
+  Courville}{2016}]{Goodfellow-et-al-2016-Book}
+Bengio, I. G.~Y. and Courville, A. (2016).
+\newblock Deep learning.
+\newblock Book in preparation for MIT Press.
+
 \bibitem[\protect\astroncite{Bouchard-C{\^o}t{\'e}
   et~al.}{2013}]{bouchard2013automated}
 Bouchard-C{\^o}t{\'e}, A., Hall, D., Griffiths, T.~L., and Klein, D. (2013).
@@ -36,6 +42,10 @@ Bouckaert, R., Lemey, P., Dunn, M., Greenhill, S.~J., Alekseyenko, A.~V.,
 Chollet, F. (2015).
 \newblock Keras.
 \newblock \url{https://github.com/fchollet/keras}.
+
+\bibitem[\protect\astroncite{Chomsky and Halle}{1968}]{chomsky1968sound}
+Chomsky, N. and Halle, M. (1968).
+\newblock The sound pattern of english.
 
 \bibitem[\protect\astroncite{Dellert}{2015}]{dellert2015uralic}
 Dellert, J. (2015).

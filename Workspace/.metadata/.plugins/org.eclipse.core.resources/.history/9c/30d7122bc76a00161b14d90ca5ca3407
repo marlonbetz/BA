@@ -17,7 +17,6 @@ n_ami_map = dict(
                  for n in n_true
                   )
 import seaborn as sns
-#sns.barplot(list(n_ami_map.keys()),[np.mean(n_ami_map[key]) for key in n_ami_map])
+sns.barplot(list(n_ami_map.keys()),[np.mean(n_ami_map[key]) for key in n_ami_map])
 #sns.barplot(list(set(n_true)),[n_true.count(n) for n in list(set(n_true))])
-plt.plot(ars)
 plt.show()

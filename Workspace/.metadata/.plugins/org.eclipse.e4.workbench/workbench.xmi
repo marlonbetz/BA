@@ -142,7 +142,7 @@
               <tags>noFocus</tags>
               <children xsi:type="advanced:Placeholder" xmi:id="_aRyqQGPcEeaCW7VE22gDQg" elementId="org.python.pydev.navigator.view" ref="_aRzRY2PcEeaCW7VE22gDQg"/>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_aRyqQWPcEeaCW7VE22gDQg" containerData="7400" selectedElement="_aRyqQmPcEeaCW7VE22gDQg">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_aRyqQWPcEeaCW7VE22gDQg" containerData="7400" selectedElement="_aRyqQ2PcEeaCW7VE22gDQg">
               <children xsi:type="advanced:Placeholder" xmi:id="_aRyqQmPcEeaCW7VE22gDQg" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_aRyrm2PcEeaCW7VE22gDQg"/>
               <children xsi:type="basic:PartStack" xmi:id="_aRyqQ2PcEeaCW7VE22gDQg" elementId="bottom" containerData="2500" selectedElement="_aRyqRWPcEeaCW7VE22gDQg">
                 <tags>PyDev</tags>
@@ -203,13 +203,13 @@
           <tags>removeOnHide</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_OQv1cGoDEeaV-41uWXMUOQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="pipeline_trainOnEachConcept" iconURI="platform:/plugin/org.python.pydev/icons/python_file.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot; name=&quot;pipeline_trainOnEachConcept.py&quot; partName=&quot;pipeline_trainOnEachConcept&quot; title=&quot;pipeline_trainOnEachConcept&quot; tooltip=&quot;Workspace/pipeline_trainOnEachConcept.py&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Workspace/pipeline_trainOnEachConcept.py&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;35&quot; selectionOffset=&quot;3546&quot; selectionTopPixel=&quot;1328&quot;/>&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot; name=&quot;pipeline_trainOnEachConcept.py&quot; partName=&quot;pipeline_trainOnEachConcept&quot; title=&quot;pipeline_trainOnEachConcept&quot; tooltip=&quot;Workspace/pipeline_trainOnEachConcept.py&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Workspace/pipeline_trainOnEachConcept.py&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1520&quot; selectionTopPixel=&quot;500&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.python.pydev.editor.PythonEditor</tags>
           <tags>removeOnHide</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_KRzNcGogEeaV-41uWXMUOQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="plotter" iconURI="platform:/plugin/org.python.pydev/icons/python_file.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot; name=&quot;plotter.py&quot; partName=&quot;plotter&quot; title=&quot;plotter&quot; tooltip=&quot;Workspace/pickled_stuff/pipeline_trainOnEachConcept/plotter.py&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Workspace/pickled_stuff/pipeline_trainOnEachConcept/plotter.py&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;394&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot; name=&quot;plotter.py&quot; partName=&quot;plotter&quot; title=&quot;plotter&quot; tooltip=&quot;Workspace/pickled_stuff/pipeline_trainOnEachConcept/plotter.py&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Workspace/pickled_stuff/pipeline_trainOnEachConcept/plotter.py&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;880&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.python.pydev.editor.PythonEditor</tags>
           <tags>removeOnHide</tags>
@@ -319,7 +319,7 @@
       <tags>categoryTag:Mylyn</tags>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_aRzRY2PcEeaCW7VE22gDQg" elementId="org.python.pydev.navigator.view" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="PyDev Package Explorer" iconURI="platform:/plugin/org.python.pydev/icons/pydev_package_explorer.gif" tooltip="" closeable="true">
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; currentWorkingSetName=&quot;Aggregate for window 1470318266823&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;>&#xA;&lt;expanded IMemento.internal.id=&quot;/Users/marlon/Documents/BA/Workspace/Workspace&quot;/>&#xA;&lt;expanded IMemento.internal.id=&quot;/Users/marlon/Documents/BA/Workspace/Workspace/pickled_stuff&quot;/>&#xA;&lt;expanded IMemento.internal.id=&quot;/Users/marlon/Documents/BA/Workspace/Workspace/pickled_stuff/pipeline_trainOnEachConcept&quot;/>&#xA;&lt;selected IMemento.internal.id=&quot;/Users/marlon/Documents/BA/Workspace/Workspace/pickled_stuff/pipeline_trainOnEachConcept/plotter.py&quot;/>&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; currentWorkingSetName=&quot;Aggregate for window 1470318266823&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;>&#xA;&lt;expanded IMemento.internal.id=&quot;/Users/marlon/Documents/BA/Workspace/Workspace&quot;/>&#xA;&lt;expanded IMemento.internal.id=&quot;/Users/marlon/Documents/BA/Workspace/Workspace/pickled_stuff&quot;/>&#xA;&lt;expanded IMemento.internal.id=&quot;/Users/marlon/Documents/BA/Workspace/Workspace/pickled_stuff/pipeline_trainOnEachConcept&quot;/>&#xA;&lt;expanded IMemento.internal.id=&quot;/Users/marlon/Documents/BA/Workspace/Workspace/pickled_stuff/pipeline_trainOnEachConcept/plotter.py&quot;/>&#xA;&lt;selected IMemento.internal.id=&quot;/Users/marlon/Documents/BA/Workspace/Workspace/pickled_stuff/pipeline_trainOnEachConcept/plotter.py&quot;/>&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:PyDev</tags>
       <menus xmi:id="_aRzRZGPcEeaCW7VE22gDQg" elementId="org.python.pydev.navigator.view">
@@ -353,7 +353,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_aRzRu2PcEeaCW7VE22gDQg" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_YDqmMGnxEeaV-41uWXMUOQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_aR1uCmPcEeaCW7VE22gDQg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_HPv30GrHEea9bP2Qip4W4g" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_aR1uCmPcEeaCW7VE22gDQg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_aRzRyGPcEeaCW7VE22gDQg" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -386,7 +386,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_aRzSEGPcEeaCW7VE22gDQg" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_YDzJEGnxEeaV-41uWXMUOQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_aR1tnGPcEeaCW7VE22gDQg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_HP1XYGrHEea9bP2Qip4W4g" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_aR1tnGPcEeaCW7VE22gDQg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_aRzSG2PcEeaCW7VE22gDQg" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -994,7 +994,7 @@
       <tags>platform:cocoa</tags>
       <parameters xmi:id="_aRzTjWPcEeaCW7VE22gDQg" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.debug.ui.VariableView"/>
     </bindings>
-    <bindings xmi:id="_W_-7oWnxEeaV-41uWXMUOQ" keySequence="COMMAND+CTRL+F" command="_aR1u42PcEeaCW7VE22gDQg"/>
+    <bindings xmi:id="_GnQ7gGrHEea9bP2Qip4W4g" keySequence="COMMAND+CTRL+F" command="_aR1u42PcEeaCW7VE22gDQg"/>
   </bindingTables>
   <bindingTables xmi:id="_aRzTj2PcEeaCW7VE22gDQg" elementId="org.eclipse.tm.terminal.TerminalContext" bindingContext="_aRz5OmPcEeaCW7VE22gDQg">
     <bindings xmi:id="_aRzTkGPcEeaCW7VE22gDQg" keySequence="ALT+D" command="_aR1IoGPcEeaCW7VE22gDQg"/>
@@ -1271,7 +1271,7 @@
     <bindings xmi:id="_aRz4wGPcEeaCW7VE22gDQg" keySequence="COMMAND+O" command="_aR1Gh2PcEeaCW7VE22gDQg"/>
   </bindingTables>
   <bindingTables xmi:id="_aRz4wWPcEeaCW7VE22gDQg" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_aRz5PWPcEeaCW7VE22gDQg">
-    <bindings xmi:id="_XABX4GnxEeaV-41uWXMUOQ" keySequence="M1+W" command="_aR1u5WPcEeaCW7VE22gDQg"/>
+    <bindings xmi:id="_GnRikGrHEea9bP2Qip4W4g" keySequence="M1+W" command="_aR1u5WPcEeaCW7VE22gDQg"/>
   </bindingTables>
   <bindingTables xmi:id="_aRz4w2PcEeaCW7VE22gDQg" bindingContext="_aRz5RWPcEeaCW7VE22gDQg"/>
   <bindingTables xmi:id="_aRz4xGPcEeaCW7VE22gDQg" bindingContext="_aRz5RmPcEeaCW7VE22gDQg"/>

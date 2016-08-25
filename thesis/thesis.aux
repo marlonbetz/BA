@@ -13,69 +13,81 @@
 \citation{bouchard2007probabilistic}
 \citation{bouchard2013automated}
 \citation{bouchard2007probabilistic}
-\citation{mikolov2013distributed}
 \newlabel{eq:final_devoicing}{{3}{5}}
 \newlabel{eq:sound_change_linear_dependency}{{4}{5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}$P(z|X)$ as Prior for Evolutionary Stable Phoneme sequences}{5}}
+\citation{mikolov2013distributed}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}$P(z|X)$ as Prior for Evolutionary Stable Phoneme sequences}{6}}
 \citation{kondrak2000new}
 \citation{list2012sca}
 \citation{rama2016siamese}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Sound Change as Posterior $P(w_{recent}|w_{ancient},z)$ }{6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Cognate Identification as Hypothesis Comparison}{7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Sound Change as Posterior $P(w_{recent}|w_{ancient},z)$ }{7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Cognate Identification as Hypothesis Comparison}{8}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Related Research}{8}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Architecture}{8}}
+\citation{bouchard2007probabilistic}
+\citation{bouchard2013automated}
+\citation{Goodfellow-et-al-2016-Book}
+\citation{chomsky1968sound}
+\citation{kondrak2000new}
+\citation{rama2016siamese}
+\citation{rama2016siamese}
+\citation{rama2016siamese}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Phoneme Vectorization}{9}}
+\newlabel{Phoneme Vectorization}{{4.1}{9}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.1}Hand-crafted Vectorization Models}{9}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.2}Data-driven Embeddings}{9}}
 \citation{landauer2013handbook}
 \citation{mikolov2013efficient}
 \citation{mikolov2013distributed}
 \citation{goldberg2014word2vec}
 \citation{pennington2014glove}
 \citation{morin2005hierarchical}
-\@writefile{toc}{\contentsline {section}{\numberline {3}Related Research}{8}}
-\@writefile{toc}{\contentsline {section}{\numberline {4}Architecture}{8}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Phoneme Vectorization}{8}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.1}Hand-crafted Vectorization Models}{8}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.2}Data-driven Embeddings}{8}}
 \citation{goldberg2014word2vec}
 \citation{gutmann2010noise}
 \citation{mnih2012fast}
-\newlabel{eq:hierarchicalsoftmax_nodeprob}{{15}{9}}
-\newlabel{eq:neg_sampling_3}{{16}{9}}
+\newlabel{eq:hierarchicalsoftmax_nodeprob}{{16}{10}}
 \citation{jager2014phylogenetic}
 \citation{rama2016siamese}
 \citation{mikolov2013efficient}
 \citation{mikolov2013efficient}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces The two common architectures of word2vec. The Continuous Bag-of-Words (CBOW) model predicts the current word based on the context, and the Skip-gram predicts surrounding words given the current word. From \cite  {mikolov2013efficient}.}}{10}}
-\newlabel{fig:word2vec}{{2}{10}}
+\newlabel{eq:neg_sampling_3}{{17}{11}}
 \citation{doersch2016tutorial}
 \citation{doersch2016tutorial}
 \citation{kingma2013auto}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces t-SNE visualization of the embeddings of all 720 phonemes contained in ASJP, trained with word2vec. The colors represent clusters inferred by Affinity Propagation. The model can clearly separate vowels and various forms of special articulation types. Pulmonic consonants can also be separated clearly from other coarticulation variants, as can uvular or pre-nasalized sounds. Less frequent phonemes, however, cannot be clearly differentiated. }}{11}}
-\newlabel{fig:phoneme_embeddings_overview_ap}{{3}{11}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Word Embeddings}{11}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.1}Autoencoders}{11}}
-\citation{kingma2013auto}
-\citation{kingma2013auto}
-\citation{kingma2013auto}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces The two common architectures of word2vec. The Continuous Bag-of-Words (CBOW) model predicts the current word based on the context, and the Skip-gram predicts surrounding words given the current word. From \cite  {mikolov2013efficient}.}}{12}}
+\newlabel{fig:word2vec}{{2}{12}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Word Embeddings}{12}}
+\newlabel{Word Embeddings}{{4.2}{12}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.1}Autoencoders}{12}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.2}Variational Autoencoders}{12}}
-\newlabel{eq:vae_loss_original}{{22}{12}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces t-SNE visualization of the embeddings of all 720 phonemes contained in ASJP, trained with word2vec. The colors represent clusters inferred by Affinity Propagation. The model can clearly separate vowels and various forms of special articulation types. Pulmonic consonants can also be separated clearly from other coarticulation variants, as can uvular or pre-nasalized sounds. Less frequent phonemes, however, cannot be clearly differentiated. }}{13}}
+\newlabel{fig:phoneme_embeddings_overview_ap}{{3}{13}}
+\newlabel{eq:vae_loss_original}{{23}{13}}
+\citation{kingma2013auto}
+\citation{kingma2013auto}
+\citation{kingma2013auto}
 \citation{rehurek_lrec}
 \citation{chollet2015keras}
 \citation{tensorflow2015-whitepaper}
 \citation{scikit-learn}
+\newlabel{eq:vae_loss_reparameterized}{{27}{14}}
 \bibstyle{apa}
 \bibdata{references}
 \bibcite{tensorflow2015-whitepaper}{\astroncite {Abadi et\nobreakspace  {}al.}{2015}}
-\newlabel{eq:vae_loss_reparameterized}{{26}{13}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Clustering}{13}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.1}Affinity Propagation}{13}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Evaluation}{13}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Data}{13}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Results}{13}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Resume}{13}}
-\@writefile{toc}{\contentsline {section}{\numberline {7}Acknowledgements}{13}}
+\bibcite{Goodfellow-et-al-2016-Book}{\astroncite {Bengio and Courville}{2016}}
 \bibcite{bouchard2013automated}{\astroncite {Bouchard-C{\^o}t{\'e} et\nobreakspace  {}al.}{2013}}
 \bibcite{bouchard2007probabilistic}{\astroncite {Bouchard-C{\^o}t{\'e} et\nobreakspace  {}al.}{2007}}
 \bibcite{bouckaert2012mapping}{\astroncite {Bouckaert et\nobreakspace  {}al.}{2012}}
 \bibcite{chollet2015keras}{\astroncite {Chollet}{2015}}
+\bibcite{chomsky1968sound}{\astroncite {Chomsky and Halle}{1968}}
 \bibcite{dellert2015uralic}{\astroncite {Dellert}{2015}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Clustering}{15}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.1}Affinity Propagation}{15}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Evaluation}{15}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Data}{15}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Results}{15}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Resume}{15}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Acknowledgements}{15}}
 \bibcite{doersch2016tutorial}{\astroncite {Doersch}{2016}}
 \bibcite{goldberg2014word2vec}{\astroncite {Goldberg and Levy}{2014}}
 \bibcite{gray2009language}{\astroncite {Gray et\nobreakspace  {}al.}{2009}}
@@ -93,13 +105,13 @@
 \bibcite{pennington2014glove}{\astroncite {Pennington et\nobreakspace  {}al.}{2014}}
 \bibcite{rama2016siamese}{\astroncite {Rama}{2016}}
 \bibcite{rehurek_lrec}{\astroncite {{\v R}eh{\r u}{\v r}ek and Sojka}{2010}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Other t-SNE visualizations of the embeddings created by word2vec. (top left) The model learns to clearly separate natural classes such as vowels, plain pulmonic or glottalized consonants, while other articulations seem to spread over the feature space. The colors indicate membership of a natural phonological class. (top right) A more detailed view on plain pulmonic consonants. Note the linear dependencies between voiced and unvoiced plosives and their respective nasal variant. (bottom left) Another detailed view. Note how the labialized uvular sounds cluster among glottalized consonants. (top right) The model seems to capture different manners of articulations across articulation type boundaries, as the linear dependency shows here.}}{16}}
-\newlabel{fig:phoneme_embeddings_word2vec_all}{{4}{16}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Comparison of the four word2vec models evaluated. (top left) Both CBOW Models perform better than the skip-gram models over all numbers of embedding dimension. (bottom left) Mean distance between the predicted vector and the target with regard to embedding dimensions. Here, negative sampling yields less error than hierarchical softmax. (top right) Mean accuracy for the models with regard to the context window size. The models perform worse the bigger the context is. (bottom right) Mean distance between the predicted vector and the target with regard to context window size. Again, bigger contexts lead to worse predictions. }}{17}}
-\newlabel{fig:phoneme_embeddings_4models_comparison_meanAccLossTopn1}{{5}{17}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Mean accuracies for analogies. The model does not seem to be able to capture the compositionality of the latent features too well. (top left) Accuracy is best for plosives across plain pulmonic as well as more complex articulations, while fricatives perform worse. (top right) Glottalized and Plain pulmonic consonant phonemes yield best performance. Among complex articulations, which all perform bad, labialized phonemes yield best results, while aspirated and palatalized phonemes perform even worse. (bottom left) Adding voice works better than removing it or adding nasality. (bottom right) Vowel analogies work far better than consonant analogies. This should be due to the small number of possible vowel phonemes.}}{18}}
-\newlabel{fig:phoneme_embeddings_detailed_evaluation_topn1}{{6}{18}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Mean accuracies for analogies over the pooled consonant phonemes. Here, the model is expected to yield better results, as the number of latent features should have been reduced. (left) Accuracy is doubled compared with the unpooled phonemes. (middle) Adding voice works quite well, while removing it still yields acceptable performance. Applying nasality again works quite bad. (right) Vowel analogy tasks seem to work reasonably well, but worse than with unpooled consonants.}}{18}}
-\newlabel{fig:phoneme_embeddings_detailed_evaluation_topn1_poooled}{{7}{18}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Visualization of the Variational autoencoder architecture. (left) The model with original objective as in Eq. 22\hbox {}. The stochastic unit is inside the network and would not allow for the backpropagation of error gradients through the network. (right) The model after the reparameterization with the objective as in Eq. 26\hbox {}. Here, the sampling is interpreted as an input variable, so error gradients can be backpropagated through the whole model. From \cite  {doersch2016tutorial}.}}{19}}
-\newlabel{fig:vae_model_visualization}{{8}{19}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Other t-SNE visualizations of the embeddings created by word2vec. (top left) The model learns to clearly separate natural classes such as vowels, plain pulmonic or glottalized consonants, while other articulations seem to spread over the feature space. The colors indicate membership of a natural phonological class. (top right) A more detailed view on plain pulmonic consonants. Note the linear dependencies between voiced and unvoiced plosives and their respective nasal variant. (bottom left) Another detailed view. Note how the labialized uvular sounds cluster among glottalized consonants. (top right) The model seems to capture different manners of articulations across articulation type boundaries, as the linear dependency shows here.}}{18}}
+\newlabel{fig:phoneme_embeddings_word2vec_all}{{4}{18}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Comparison of the four word2vec models evaluated. (top left) Both CBOW Models perform better than the skip-gram models over all numbers of embedding dimension. (bottom left) Mean distance between the predicted vector and the target with regard to embedding dimensions. Here, negative sampling yields less error than hierarchical softmax. (top right) Mean accuracy for the models with regard to the context window size. The models perform worse the bigger the context is. (bottom right) Mean distance between the predicted vector and the target with regard to context window size. Again, bigger contexts lead to worse predictions. }}{19}}
+\newlabel{fig:phoneme_embeddings_4models_comparison_meanAccLossTopn1}{{5}{19}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Mean accuracies for analogies. The model does not seem to be able to capture the compositionality of the latent features too well. (top left) Accuracy is best for plosives across plain pulmonic as well as more complex articulations, while fricatives perform worse. (top right) Glottalized and Plain pulmonic consonant phonemes yield best performance. Among complex articulations, which all perform bad, labialized phonemes yield best results, while aspirated and palatalized phonemes perform even worse. (bottom left) Adding voice works better than removing it or adding nasality. (bottom right) Vowel analogies work far better than consonant analogies. This should be due to the small number of possible vowel phonemes.}}{20}}
+\newlabel{fig:phoneme_embeddings_detailed_evaluation_topn1}{{6}{20}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Mean accuracies for analogies over the pooled consonant phonemes. Here, the model is expected to yield better results, as the number of latent features should have been reduced. (left) Accuracy is doubled compared with the unpooled phonemes. (middle) Adding voice works quite well, while removing it still yields acceptable performance. Applying nasality again works quite bad. (right) Vowel analogy tasks seem to work reasonably well, but worse than with unpooled consonants.}}{20}}
+\newlabel{fig:phoneme_embeddings_detailed_evaluation_topn1_poooled}{{7}{20}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Visualization of the Variational autoencoder architecture. (left) The model with original objective as in Eq. 23\hbox {}. The stochastic unit is inside the network and would not allow for the backpropagation of error gradients through the network. (right) The model after the reparameterization with the objective as in Eq. 27\hbox {}. Here, the sampling is interpreted as an input variable, so error gradients can be backpropagated through the whole model. From \cite  {doersch2016tutorial}.}}{21}}
+\newlabel{fig:vae_model_visualization}{{8}{21}}

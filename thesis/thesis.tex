@@ -26,15 +26,19 @@
 
 Historical Linguistics investigates language from a diachronic perspective, i.e. it seeks to uncover the history of languages and the structure of the hidden forces that drive language change.  Computational Historical Linguistics accordingly deals with computational methods to explore the history of languages and topics closely related to it, such as phylogenetic inferences of language families \cite{bouckaert2012mapping}, migration of language speakers \cite{gray2009language}, inferring lexical flows between languages \cite{dellert2015uralic} or modeling sound change \cite{bouchard2013automated}.  
 
-On the other hand, deep neural networks have been proven to uncover latent features of data and use them for a variety of tasks. Deep Autoencoders perform well on information retrieval tasks.
+On the other hand, deep neural networks have been proven to uncover latent features of data and use them for a variety of tasks, such as computer vision or various NLP tasks, e.g. Document classification, Sentiment Analysis or Speech synthesis. 
 
+Bayesian Hierarchical models have been proven to allow for a detailed analysis of data and testing hypotheses in the fields of Psycholinguistics. In fact, Bayesian models build the backbone for most phylogenetic surveys.
 
- However, Computation Historical Linguistics has hardly been touched yet by the current Deep Learning boom (a notable exception is \cite{rama2016siamese}). 
+Over the past few years, deep neural networks have been interconnected with Bayesian methods in the form of Deep Generative Models. They combine the strength of deep networks to uncover latent features with the power of bayesian inference. Today, deep generative models are the main object of current AI research. 
+
+ However, Computational Historical Linguistics has hardly been touched yet by the current Deep Learning boom (a notable exception is \cite{rama2016siamese}). 
+ In fact, most computational models here are either adaptations or direct copies of those used for the description of biological data.
 The aim of this thesis is hence 
 \begin{enumerate}
-\item to combine methods from both Computational Historical Linguistics, Bayesian Hierarchical models and the emerging field of Deep Learning
-\item to propose a model of modeling sound change as a walk in latent space, which is suitable for neural networks
-\item to use variational autoencoders as a means to uncover the the latent structure that describes the connection between the phonological shape and the meaning of a given word, as well as the geographical location of the speakers of the language the word belongs to, and to investigate it
+\item to combine methods from both Computational Historical Linguistics, Bayesian Models and the emerging field of Deep Learning
+\item to propose a model of modeling sound change as a walk in latent space, which is suitable for neural networksand builds the basis for this thesis
+\item to use variational autoencoders as a means to build such a latent space, and to investigate it
 \item to show how this uncovered structure can be used to identify cognates in an unsupervised way
 \end{enumerate}
 
@@ -43,9 +47,9 @@ I will first start by giving an overview of the problem of cognate identificatio
 Then I will proceed to introduce the concept of sound change as a walk in latent space, which serves as a background for the actual inference model. Here I will talk about the main motivations for this approach as well as its major drawbacks. 
 
 
-I will then discuss the actual architecture of the inference model. This first covers a general overview on the components included in the model. I will then in detail look over all components in particular. That will first cover a discussion of different methods of phoneme vectorizations. This is followed by a general overview on autoencoders as non-linear dimensionality reduction architectures first and then a description of variational autoencoders in particular, which build the backbone of the model described here. I then come to the discussion of possible ways to cluster the words, i.e. to assign the actual inferred cognacy labels.
+I will then discuss the actual architecture of the inference model. This first covers a general overview on the components included in the model. I will then in detail look over all components in particular. That will first cover a discussion of different methods of phoneme vectorizations. This is followed by a general overview on autoencoders as non-linear dimensionality reduction architectures first and then a description of variational autoencoders in particular, which build the basis for the model described here. I then come to the discussion of possible ways to cluster the words, i.e. to assign the actual inferred cognacy labels.
 
-Then I will document how well those methods can be used to infer cognacy between words. I will compare the inferred labels with expert judgements first and then see how the inferred labels can infer language phylogenies, using established bayesian models of cognate evolution.
+Then I will document how well those methods can be used to infer cognacy between words. I will compare the inferred labels with expert judgements first and then see how the inferred labels can infer language phylogenies, using both neighbor joining and established bayesian models of cognate evolution.
 
 Finally, I will give a resume on the model described here.
 
@@ -82,16 +86,27 @@ which describes the loss of voice at the end of a word.
 
 Computational models of sound change usually treat words as string of symbols and sound change as substitution of substrings.\cite{bouchard2007probabilistic,bouchard2013automated} use a generative model that learns to substitute substrings in some latent order and achieve good performances on the reconstruction of ancient forms of words as well as on cognate identification. However, such a method has two major drawbacks: On the one hand, it needs the topology of the languages phylogeny to be known beforehand. This problem does not exist for certain language families with established tree topologies, but can be problematic if language relationships are not totally clear. On the other hand, such purely symbolic models need lot of data to generalize well. \cite{bouchard2007probabilistic} for example underline that their model cannot model chain shifts as such.
 
+This thesis proposes model that t
+\begin{enumerate}
+\item The functions connecting our data with some latent space should be smooth. This allows the model to generalize from training examples to nearby points in input space, even if they were not trained on.
+\item The relationships between the data can be explained by some linear function, i.e. the data is linearly dependent. This should allow for good predictions even when the test data is far away from the training data.
+\item The underlying factors that produce the data are to complex to model directly. 
+\item The model should treat factors that change some latent representation as causes for variation of the actual data, not vice versa.
+\end{enumerate}
+
+To address the smoothness assumption, we have to make sure that such a model treats phonemes and words not as symbols, but as points or distributions in some latent space. This allows for some tokens to be inherently closer to each other. \ref{Phoneme Vectorization} will discuss several such embedding methods for phonemes and \ref{Word Embeddings} will explore several embedding algorithms for words.  
 
 
-Coming from rules that use distinctive phonological features as in Eq. \ref{eq:final_devoicing}, we can encode every word as a sequence of phonemes that are points in some phonological feature space $\mathcal{F}$, where each dimension corresponds to phonological features such as \textsc{[velar]} or \textsc{[approximant]}. 
 
 
-If we have established such a latent feature space $\mathcal{Z}$ over $\mathbb{R}^n$, a sound change $sc$ that derives a recent form of word $w_{recent}$ from an ancient form  $w_{ancient}$ should then correspond to a vector $v_{sc}$ in such a way that 
+%Coming from rules that use distinctive phonological features as in Eq. \ref{eq:final_devoicing}, we can encode every word as a sequence of phonemes that are points in some phonological feature space $\mathcal{F}$, where each dimension corresponds to phonological features such as \textsc{[velar]} or \textsc{[approximant]}. 
+
+The linearity assumption allows for the generalization over the compositional character of latent features over phonemes and words. For instance, in such a latent feature space $\mathcal{Z}$ over $\mathbb{R}^n$, a sound change $sc$ that derives a recent form of word $w_{recent}$ from an ancient form  $w_{ancient}$ should then correspond to a vector $v_{sc}$ in such a way that 
 \begin{equation}
 \label{eq:sound_change_linear_dependency}
 v_{w_{ancient}}+v_{sc} = v_{w_{recent}}
 \end{equation}
+
 From this follows that 
 
 \begin{equation}
@@ -108,11 +123,15 @@ which is equivalent to
 \begin{equation}
 v_{w_{recent}}  =   v_{w_{ancient}}  + (v_{w'_{recent}} - v_{w'_{ancient}}) 
 \end{equation}
-If we want to evaluate that latent feature space, we investigate in how far that compositional structure is preserved in our latent space. In fact, such analogy tasks can be used as an evaluation method to test whether the learned embedding space encodes the structure expected to be inherently contained in the data \cite{mikolov2013distributed}.
+If we want to evaluate that latent feature space, we investigate in how far that compositional structure is preserved in our latent space. In fact, such analogy tasks can be used as an evaluation method to test whether the learned embedding space encodes the structure expected to be inherently contained in the data (cf. \cite{mikolov2013distributed}).
 
 \subsection{$P(z|X)$ as Prior for Evolutionary Stable Phoneme sequences}
 
-The question is then how to construct such a latent space $\mathcal{Z}$. If we know that all words share a common structure, such as syllables and their respective internal structure, we can assume that it should be possible to model that structure by a latent variable $z$ embedded in our latent space. As $z$ walks through $\mathcal{Z}$, we assume that the resulting word $x$ changes in a \textit{meaningful} way - for instance it should change certain phonological features of some phonemes in $x$ given that such changes are plausible given the context of the other phonemes in the words. It should also be possible to add whole new affixes, but it should not inherit implausible phoneme sequences or change phoneme features in some random way. Given that we have a decoder function $f_{decode}:\mathcal{Z} \rightarrow \mathcal{X}$, we hence except that $f_{decode}$ is non-linear, as a linear decoder function should not allow for those desired properties. This non-linearity than leads to the situation that similar points in $\mathcal{Z}$ should not necessarily coincide with similar points in our data space $\mathcal{X}$. For instance, a fictional word such as /aban/ should be closer to /ov\textipa{\~a}/ than to /a\textipa{\textdoublebarpipe}an/ in $\mathcal{Z}$ but not necessarily in $\mathcal{X}$, as it should be more probable that intervocalic voiced plosives lenite to fricatives and syllable-final nasals drop but leave some compensatory nasalization - here even at the same time - but there should be hardly any evidence of a direct sound change from /b/ to a palatal click.
+The question is then how to construct such a latent space $\mathcal{Z}$. If we follow the assumption from above that the model should treat factors in latent space as causes for variation of the actual data and not vice versa and if we further know that all words share a common structure, such as syllables and their respective internal structure, we can assume that it should be possible to model that structure by a latent variable $z$ embedded in our latent space. As $z$ walks through $\mathcal{Z}$, we assume that the resulting word $x$ changes in a \textit{meaningful} way - for instance it should change certain phonological features of some phonemes in $x$ given that such changes are plausible given the context of the other phonemes in the words. It should also be possible to add whole new affixes, but it should not inherit implausible phoneme sequences or change phoneme features in some random way. 
+
+As we expect that it is not possible to model the underlying factors that create the data directly, a decoder function such as $f_{decode}:\mathcal{Z} \rightarrow \mathcal{X}$ cannot be linear. However, we assume $f_{decode}$ can be approximated by some universal function approximator.
+%Given that we have a decoder function $f_{decode}:\mathcal{Z} \rightarrow \mathcal{X}$, we hence except that $f_{decode}$ is non-linear, as a linear decoder function should not allow for those desired properties. 
+This non-linearity than leads to the situation that similar points in $\mathcal{Z}$ should not necessarily coincide with similar points in our data space $\mathcal{X}$. For instance, a fictional word such as /aban/ should be closer to /ov\textipa{\~a}/ than to /a\textipa{\textdoublebarpipe}an/ in $\mathcal{Z}$ but not necessarily in $\mathcal{X}$, as it should be more probable that intervocalic voiced plosives lenite to fricatives and syllable-final nasals drop but leave some compensatory nasalization - here even at the same time - but there should be hardly any evidence of a direct sound change from /b/ to a palatal click.
 
 That is, we are interested in the posterior distribution of $z$ - $P(z|X)$, i.e. the probability of $z$ given our data $X$. We expect the posterior to be highly multimodal, as we expect e.g. that certain phoneme sequences that appear more often attract more probability density than less frequent ones. That is, we want to cluster words under the assumption that certain words are \textit{inherently evolutionary stable sequences of phonemes} and hence appear more often, independently of their respective history. It is well known, for example, that syllables without codas are much more frequent than syllables without onsets. 
 
@@ -172,8 +191,25 @@ P(w_{recent}|w_{ancient},z,X) \propto P(w_{recent}|z,X)P(w_{ancient}|w_{recent},
 
 This means that if our prior $P(w_{recent}|z,X)$, which is known to us, has low probability density for the area around $w_{recent}$, we can be quite certain that $P(w_{recent}|w_{ancient},z,X)$ should also be in such a low probability density area. As we except that the likelihood  $P(w_{ancient}|w_{recent},z)$ itself prefers points in $\mathcal{Z}$ that are close to $w_{recent}$ over points that are far away from it, we can say that $w_{recent}$ should be close to $w_{ancient}$. 
 However, if our prior $P(w_{recent}|z,X)$ is in an area with high probability density, the likelihood does not have such a regulating effect, as the high prior probability would allow for many points in Z to a possible point for $w_{ancient}$. 
+That has two major implications:
 
+
+\begin{itemize}
+\item  If we unpack our known prior $P(w_{recent}|z,X)$, we have
+\begin{equation}
+\begin{split}
+P(w_{recent}|z,X)  & = \frac{P(w_{recent})P(z,X|w_{recent})}{P(z,X)} \\
+P(w_{recent}|z,X) & \propto P(w_{recent})P(z,X|w_{recent})\\
+P(w_{recent}|z,X) & \propto P(w_{recent})\frac{P(z,X)P(w_{recent}|X,z)}{P(w_{recent})}\\
+P(w_{recent}|z,X) & \propto P(z,X)P(w_{recent}|z,X)\\
+P(w_{recent}|z,X) & \propto P(X)P(z|X)P(w_{recent}|z,X)\\
+\end{split}
+\end{equation}
+which involves the marginal probability of our data $P(X)$. We expect that prior to sample unrelated words more often than related ones.
 For example, if we image that we have a word such as  /o/, we can hardly make any claims about how some ancient form would look like - it could come from /a\textipa{\textsubarch{U}}t/ (Latin to Italian), /ok/ (Old Norse to Bokm\r{a}l), /ob/ (Proto-Slavic to Slovak) or /ak\textipa{\super w}a/ (Latin to French). This is because /o/ as such receives high prior probability $P(w_{recent}|z)$ and hence gives high posterior probabilities over many possible ancient forms. However, if we have a word such as Polish /\textipa{swuxa\t{tC}}/ "listen", the remarkable structure of that word allows us to make much more detailed assumptions about the underlying ancient form, as we except more complex structures to be less frequent in our data and hence attract less probability density. 
+
+\end{itemize}
+
 
 
 
@@ -238,9 +274,19 @@ Hence, the model should have three major components:
 \end{enumerate}
 
 \subsection{Phoneme Vectorization}
+\label{Phoneme Vectorization}
+Various computational models of sound change treat phonemes as purely symbolic, which means they are treated as equidistant to each other. While such models can achieve good performance on the task of modeling sound change (cf. \cite{bouchard2007probabilistic,bouchard2013automated}), they cannot generalize to process data they have not seen during training. Such an ability only comes from the \textit{smoothness assumption} that $f(x + \epsilon d) \approx f(x)$ for unit $d$ and some small error $\epsilon$ (cf.\cite[p. 555]{Goodfellow-et-al-2016-Book}). This assumption allows a model to generalize from training data to close poinst in input space.  However, as long as phonemes are treated purely as equidistant symbols, any given trainable model should not be able to generalize to process unseen data.
+Moreover, it is established knowledge that certain phonemes share binary features such as \textit{[velar]}, \textit{[voice]}  or\textit{[ATR]} (cf. \cite{chomsky1968sound}). Such latent features regulate how certain phonemes are distributed among each other - e.g. unvoiced consonants occur in word-final positions more often than voiced consonants. Hence they also influence the diachronic evolution of the phonological shape of a word - if a sound appears in a context that is not typical for its actual distribution, it either makes the context change or it changes itself to adapt to the context. For instance, palatal consonants often palatalize other surrounding consonants, while voiced consonants often devoice word-finally.
+Following that observation, there are a few models that use such features to differentiate between phonemes. 
+
 \subsubsection{Hand-crafted Vectorization Models}
 
 
+
+\cite{kondrak2000new} uses 12 real-valued features bounded between zero and one to allow for a weighted alignment of phoneme sequences. Here it is argued that binary features cannot capture the actual continuum e.g. between velar and uvular sounds. Each feature can moreover be weighted to allow for modeling the relative importance of a given feature.
+
+
+\cite{rama2016siamese} uses binary features that are adapted to the ASJP phonemic alphabet. ASJP does not always distinguish certain features for all phonemes. For instance, voice is distinguished for labial fricatives, but not for dental ones. ASJP further merges all clicks. Vowels are differentiated, but only for 5 prototypes. The whole ASJP phoneme set can be found in the appendix. \cite{rama2016siamese} further merges all coarticulations and vowels, as they tend to be diachronically unstable, and yields phonemes with 16 binary features each. \cite{rama2016siamese} reports superior performance using those features as a basis for word vectorizations to find cognates in a supervised way.
 \subsubsection{Data-driven Embeddings}
 
 
@@ -349,7 +395,7 @@ context, and the Skip-gram predicts surrounding words given the current word. Fr
 
 
 \subsection{Word Embeddings}
-
+\label{Word Embeddings}
 \subsubsection{Autoencoders}
 
 Autoencoders are a family of neural network architectures that are trained to construct a code of some given data. Given an encoder function $f: \mathcal{X} \rightarrow \mathcal{Z}$ and a decoder (i.e. generator) function $g: \mathcal{Z} \rightarrow \mathcal{X}$, they are trained on encoding and reconstructing the data, yielding a loss function
@@ -413,7 +459,7 @@ z = \mu + \sigma \odot \epsilon
 The right hand side of Eq. \ref{eq:vae_loss_original} then becomes
 \begin{equation}
 \label{eq:vae_loss_reparameterized}
-E_{\epsilon \sim \mathcal(0,1)}[\log P(X|z= \mu + \sigma \odot \epsilon) - D_{KL}(Q(z|X)||P(z))] 
+E_{\epsilon \sim \mathcal{N}(0,1)}[\log P(X|z= \mu + \sigma \odot \epsilon) - D_{KL}(Q(z|X)||P(z))] 
 \end{equation}
 
 The model architecture is visualized in Fig. \ref{fig:vae_model_visualization}. 
