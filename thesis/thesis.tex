@@ -8,6 +8,9 @@
 \usepackage{epstopdf}
 \usepackage{tipa}
 \usepackage{amsmath}
+\usepackage{floatrow}
+\usepackage{subcaption}
+
 
 \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
 \graphicspath{{/Users/marlon/Documents/BA/thesis/pictures/}}
@@ -205,7 +208,7 @@ P(w_{recent}|z,X) & \propto P(z,X)P(w_{recent}|z,X)\\
 P(w_{recent}|z,X) & \propto P(X)P(z|X)P(w_{recent}|z,X)\\
 \end{split}
 \end{equation}
-which involves the marginal probability of our data $P(X)$. We expect that prior to sample unrelated words more often than related ones.
+which involves the marginal probability of our data $P(X)$. If our data is small,  we assume that most words do not look similar. 
 For example, if we image that we have a word such as  /o/, we can hardly make any claims about how some ancient form would look like - it could come from /a\textipa{\textsubarch{U}}t/ (Latin to Italian), /ok/ (Old Norse to Bokm\r{a}l), /ob/ (Proto-Slavic to Slovak) or /ak\textipa{\super w}a/ (Latin to French). This is because /o/ as such receives high prior probability $P(w_{recent}|z)$ and hence gives high posterior probabilities over many possible ancient forms. However, if we have a word such as Polish /\textipa{swuxa\t{tC}}/ "listen", the remarkable structure of that word allows us to make much more detailed assumptions about the underlying ancient form, as we except more complex structures to be less frequent in our data and hence attract less probability density. 
 
 \end{itemize}
@@ -519,6 +522,98 @@ Following this, 4 different models are investigated here:
 \subsubsection{Affinity Propagation}
 \section{Evaluation}
 \subsection{Data}
+\subsection{Evaluation of $Q(z|X)$}
+
+
+\begin{figure}[h] %  figure placement: here, top, bottom, or page
+   \centering
+   \includegraphics[width=\textwidth]{vae_phono_binary_asjp_subsample_words} 
+   \caption{A detailed view on a subsample of ASJP embedded into $\mathcal{Z}$ after trained on the whole ASJP data set for 100 iterations. As can be seen, words accumulate in local subspaces with higher probability mass. Here, all words are contained in an area with shorter words that show simple CV syllable structures. Words that only differ in one distinctive feature are very close to each other, while linear dependencies over longer distances signify relationships over whole syllables that are exchanged.}
+   \label{fig:vae_phono_binary_asjp_subsample_words}
+\end{figure}
+
+    
+    \begin{figure}[ht] 
+  \begin{subfigure}[b]{0.5\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{vae_phono_binary_wordLength} 
+    \label{fig:vae_phono_binary_wordLength0} 
+    \vspace{4ex}
+  \end{subfigure}%% 
+  \begin{subfigure}[b]{0.5\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{vae_phono_binary_wordLength_detail1} 
+    \label{fig:vae_phono_binary_wordLength1} 
+    \vspace{4ex}
+  \end{subfigure} 
+  \begin{subfigure}[b]{0.5\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{vae_phono_binary_wordLength_detail2} 
+    \label{fig:vae_phono_binary_wordLength2} 
+  \end{subfigure}%%
+  \begin{subfigure}[b]{0.5\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{vae_phono_binary_wordLength_detail3} 
+    \label{fig:vae_phono_binary_wordLength3} 
+  \end{subfigure} 
+  \caption{The ASJP data set embedded into $\mathcal{Z}$ after trained on it for 100 iterations, colored by word length. The model learns to cluster words according to their respective length, with more frequent word lengths located in subspaces with higher probability mass.}
+  \label{fig:vae_phono_binary_wordLength} 
+\end{figure}
+
+    \begin{figure}[ht] 
+  \begin{subfigure}[b]{0.5\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{vae_phono_binary_clicks} 
+    \label{fig:vae_phono_binary_features0} 
+    \vspace{4ex}
+  \end{subfigure}%% 
+  \begin{subfigure}[b]{0.5\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{vae_phono_binary_dental} 
+    \label{fig:vae_phono_binary_features1} 
+    \vspace{4ex}
+  \end{subfigure} 
+  \begin{subfigure}[b]{0.5\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{vae_phono_binary_fricative} 
+    \label{fig:vae_phono_binary_features2} 
+  \end{subfigure}%%
+  \begin{subfigure}[b]{0.5\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{vae_phono_binary_fricative_detail1} 
+    \label{fig:vae_phono_binary_feature3} 
+  \end{subfigure} 
+  \caption{The ASJP data set embedded into $\mathcal{Z}$ after trained on it for 100 iterations, colored by whether a given word has a phoneme with some specific distinctive feature. (top left) The model learns that clicks are highly unlikely to emerge evolutionary and hence assigns low probability mass to their respective subspace. (top right) The distribution of words with and without dentals. The linear dependencies are clearly visible. (bottom left) The distribution of words with and without fricatives. Again, it can be seen how they are linearly dependent of each other. (bottom right) A detailed view on the words with and without fricatives.}
+  \label{fig:vae_phono_binary_features} 
+\end{figure}
+
+    \begin{figure}[ht] 
+  \begin{subfigure}[b]{0.5\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{vae_phono_binary_orthofeature_labialized} 
+    \label{fig:vae_phono_orthofeatures0} 
+    \vspace{4ex}
+  \end{subfigure}%% 
+  \begin{subfigure}[b]{0.5\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{vae_phono_binary_orthofeature_palatalized} 
+    \label{fig:vae_phono_orthofeatures1} 
+    \vspace{4ex}
+  \end{subfigure} 
+  \begin{subfigure}[b]{0.5\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{vae_phono_binary_orthofeature_aspirated} 
+    \label{fig:vae_phono_orthofeatures2} 
+  \end{subfigure}%%
+  \begin{subfigure}[b]{0.5\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{vae_phono_binary_orthofeature_glottalized} 
+    \label{fig:vae_phono_orthofeatures3} 
+  \end{subfigure} 
+  \caption{The ASJP data set embedded into $\mathcal{Z}$ after trained on it for 100 iterations. Since the binary features ignore coarticulations as such and encode them as independent phonemes instead, the model might learn to distinguish them, given some underlying latent features. (top left) The distribution of words that contain plain /w/ versus words with proper labialization. If the model did not learn the difference, we would expect some uniform distributions over all words that contain /w/ in the input. However, we can clearly see that words with proper labialization are located in other subspaces than words with proper /w/. Moreover, we see that words with labialized phonemes show linear dependence. (top right) The distribution of words that contain plain /y/ versus words with proper palatalization. Again, we see a clear distinction between the two. (bottom left) The distribution of words that contain plain /h/ versus words with proper aspiration. Again, we see a clear distinction between the two. (bottom right) The distribution of words that contain glottalized sounds versus that of words without. As glottalization can cover both vowels and consonants, the distributions are spread over the whole population. However, we can see that glottalized sounds cluster at the bottom right, a subspace containing mostly mostly words with velar and uvular consonants.}
+  \label{fig:vae_phono_orthofeatures} 
+\end{figure}
+
 \subsection{Results}
 \section{Resume}
 \section{Acknowledgements}

@@ -1,0 +1,80 @@
+import regex 
+import numpy as np
+from gensim.models import Word2Vec
+import codecs
+class PhonemeEmbeddings(object):
+    def __init__(self):
+        pass
+    def fit(self,pathToASJPCorpusFile,sg,size,window,negative,hs,min_count):
+        """
+        FIT PHONEME EMBEDDING MODEL
+        """
+         
+         
+         
+        print("FIT PHONEME EMBEDDING MODEL")
+        w2v_model = Word2Vec(sentences=self.extractPhonemes(self.collectWords(pathToASJPCorpusFile)),
+                             sg = sg,
+                             size=size,
+                             window=window,
+                             negative=negative,
+                             hs=hs,
+                             min_count=1
+                             )
+    def extractPhonemes(self,words):
+        print("EXTRACT ALL PHONEMES AND ADD WORD BOUNDARIES AND GET RID OF EMPTY STRINGS")
+        return [["<s>"]+self.getListofASJPPhonemes(word)+["</s>"] for word in words if len(word) > 0]
+ 
+    def collectWords(self,pathToASJPCorpusFile):
+        allWords = []
+        for i,line in enumerate(codecs.open(pathToASJPCorpusFile,"r","utf-8")):
+            if i > 0:
+                line = line.split("\t")
+                if "PROTO" not in line[0] and "ARTIFICIAL" not in line[2] and "FAKE" not in line[2]:
+                    words_tmp = line[10:]
+                    #remove invalid characters
+                    for i,word in enumerate(words_tmp):
+                        words_tmp[i] = words_tmp[i].replace("%","")
+                        words_tmp[i] = words_tmp[i].replace(" ","")              
+                        words_tmp[i] = words_tmp[i].replace("\r","")
+                        words_tmp[i] = words_tmp[i].replace("\n","")
+        
+                    for i_w,word in enumerate(words_tmp):
+                        if len(self.getListofASJPPhonemes(word)) > 0:
+                            
+                                        
+                            """
+                            for cells with more than one corresponding word, only take first one
+                            """
+                            if "," in word:
+                                word_splitted = word.split(",")
+                                if len(self.getListofASJPPhonemes(word_splitted[0])) > 0:
+                                    
+                                    allWords.append(word_splitted[0])
+                                else:
+                                    allWords.append(word_splitted[1])
+                            else:
+                                allWords.append(word)
+        return allWords
+                            
+    def getListofASJPPhonemes(self,word):
+        phonemes_alone="pbmfv84tdszcnSZCjT5kgxNqGX7hlLwyr!ieaouE3"
+        phonemeSearchRegex = "["+phonemes_alone+"][\"\*]?(?!["+phonemes_alone+"]~|["+phonemes_alone+"]{2}\$)|["+phonemes_alone+"]{2}?~|["+phonemes_alone+"]{3}?\$"
+        return regex.findall(phonemeSearchRegex, word)
+    
+    def encodeWord(self,word,model,padToMaxLength = None):
+        phonemes_alone="pbmfv84tdszcnSZCjT5kgxNqGX7hlLwyr!ieaouE3"
+        phonemeSearchRegex = "["+phonemes_alone+"][\"\*]?(?!["+phonemes_alone+"]~|["+phonemes_alone+"]{2}\$)|["+phonemes_alone+"]{2}?~|["+phonemes_alone+"]{3}?\$"
+        phonemes = regex.findall(phonemeSearchRegex, word)
+        wordVector = []
+        for phoneme in phonemes:
+            #if phoneme not in model, get single chars as phonemes instead
+            if phoneme not in model:
+                for ph in regex.findall("["+phonemes_alone+"]", phoneme):
+                    wordVector.append(model[ph])
+            else:       
+                wordVector.append(model[phoneme])    
+        if padToMaxLength:
+            wordVector = wordVector[:padToMaxLength]
+            return np.pad(np.array(wordVector),((0,padToMaxLength - len(wordVector)),(0,0)),mode="constant")
+        return wordVector                            

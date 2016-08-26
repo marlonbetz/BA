@@ -2,6 +2,7 @@ import numpy as np
 import regex
 import codecs
 from binary_phoneme_features import BinaryPhonemeFeatures
+from phoneme_embeddings import PhonemeEmbeddings
 from models import VAE
 from sklearn.cluster import AffinityPropagation
 from sklearn import metrics

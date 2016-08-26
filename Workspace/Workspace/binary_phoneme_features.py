@@ -95,4 +95,3 @@ class BinaryPhonemeFeatures(object):
     def decodeWord(self,feature_seq):
         return "".join([self.feature_phoneme_dict[tuple(feature)] for feature in feature_seq if True in feature]).strip()
         
-bpf = BinaryPhonemeFeatures()

@@ -21,7 +21,7 @@ intermediate_dim = 100
 
 
 epsilon_std = 0.1
-nb_epoch =10000
+nb_epoch =20000
 
 vae = VAE(latent_dim=latent_dim,
           original_dim=original_dim,
