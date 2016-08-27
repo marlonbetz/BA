@@ -1,4 +1,4 @@
-\documentclass[8pt]{article}
+\documentclass[6pt]{article}
 \usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
 \geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
 %\geometry{landscape}                % Activate for for rotated page geometry
@@ -522,8 +522,12 @@ Following this, 4 different models are investigated here:
 \subsubsection{Affinity Propagation}
 \section{Evaluation}
 \subsection{Data}
-\subsection{Evaluation of $Q(z|X)$}
+\subsection{Evaluation of $P(X)$}
 
+A first visual inspection shows that the model learns to cluster similar strings close to each other (Fig. \ref{fig:vae_phono_binary_asjp_subsample_words}). Words with similar syllable structures are located in specific subspaces of $\mathcal{Z}$. It further connects strings beyond local clusters through linear dependencies, which can interchange whole syllables of a word. 
+On a more global perspective, words are embedded into a high-level feature continuum that encodes word lengths (Fig. \ref{fig:vae_phono_binary_wordLength}), with smooth transitions between the respective subspaces. This is remarkable, given that there are no word boundary tokens involved during training. The model itself learns to recognize the transition from the binary code of the actual phonemes of the word to the zero-padding following it.
+Moreover, the linear dependencies are not simple renderings of the binary input code. The model learns high-level latent features, such as if a word has a phoneme with a certain distinctive feature or not (Fig. \ref{fig:vae_phono_binary_features}). If so, linear dependencies connect such words, even over very long distances. In fact, some of those linear dependencies form bigger clusters that can span the entire posterior distribution. 
+Even more remarkable is that the model learns to cluster words with similar coarticulation features \textit{even though they were excluded during training}, but only existent on some latent level (Fig. \ref{fig:vae_phono_orthofeatures}). Here, the model learns to distinguish plain /w j h/ from true labialization, palatalization and aspiration, although they were merged in the input code. If the model treated them as equal, we would expect a uniform distribution over the respective words. However, we see that the words accumulate in different subspaces. Since the model learns to cluster words according to their phonological structure, it recognizes that the context plain /w j h/ occur in differs from the context of coarticulated phonemes and hence locates the respective words in different subspaces of $\mathcal{Z}$.
 
 \begin{figure}[h] %  figure placement: here, top, bottom, or page
    \centering
