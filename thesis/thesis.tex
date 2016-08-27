@@ -89,15 +89,15 @@ which describes the loss of voice at the end of a word.
 
 Computational models of sound change usually treat words as string of symbols and sound change as substitution of substrings.\cite{bouchard2007probabilistic,bouchard2013automated} use a generative model that learns to substitute substrings in some latent order and achieve good performances on the reconstruction of ancient forms of words as well as on cognate identification. However, such a method has two major drawbacks: On the one hand, it needs the topology of the languages phylogeny to be known beforehand. This problem does not exist for certain language families with established tree topologies, but can be problematic if language relationships are not totally clear. On the other hand, such purely symbolic models need lot of data to generalize well. \cite{bouchard2007probabilistic} for example underline that their model cannot model chain shifts as such.
 
-This thesis proposes model that has the following goals:
+This thesis proposes a model that tries to solve the task of cognate identification (and sound change as such) under the following assumptions:
 \begin{enumerate}
 \item The functions connecting our data with some latent space should be smooth. This allows the model to generalize from training examples to nearby points in input space, even if they were not trained on.
 \item The relationships between the data can be explained by some linear function, i.e. the data is linearly dependent. This should allow for good predictions even when the test data is far away from the training data.
-\item The underlying factors that produce the data are to complex to model directly. 
+\item The underlying linear factors that produce the data are to complex to model directly, but only exist in some latent space that is not directly visible. 
 \item The model should treat factors that change some latent representation as causes for variation of the actual data, not vice versa.
 \end{enumerate}
 
-To address the smoothness assumption, we have to make sure that such a model treats phonemes and words not as symbols, but as points or distributions in some latent space. This allows for some tokens to be inherently closer to each other. \ref{Phoneme Vectorization} will discuss several such embedding methods for phonemes and \ref{Word Embeddings} will explore several embedding algorithms for words.  
+To address the smoothness assumption, we have to make sure that such a model treats phonemes and words not as symbols, but as points or distributions in some latent space. This allows for some tokens to be inherently closer to each other. \ref{Phoneme Vectorization} will discuss several such embedding methods for phonemes and \ref{Word Embeddings} will explore variational autoencoders as the preferred embedding algorithms for words.  
 
 
 
@@ -128,32 +128,34 @@ v_{w_{recent}}  =   v_{w_{ancient}}  + (v_{w'_{recent}} - v_{w'_{ancient}})
 \end{equation}
 If we want to evaluate that latent feature space, we investigate in how far that compositional structure is preserved in our latent space. In fact, such analogy tasks can be used as an evaluation method to test whether the learned embedding space encodes the structure expected to be inherently contained in the data (cf. \cite{mikolov2013distributed}).
 
-\subsection{$P(z|X)$ as Prior for Evolutionary Stable Phoneme sequences}
+\subsection{$P(z)$ as Prior for Evolutionary Stable Phoneme sequences}
 
-The question is then how to construct such a latent space $\mathcal{Z}$. If we follow the assumption from above that the model should treat factors in latent space as causes for variation of the actual data and not vice versa and if we further know that all words share a common structure, such as syllables and their respective internal structure, we can assume that it should be possible to model that structure by a latent variable $z$ embedded in our latent space. As $z$ walks through $\mathcal{Z}$, we assume that the resulting word $x$ changes in a \textit{meaningful} way - for instance it should change certain phonological features of some phonemes in $x$ given that such changes are plausible given the context of the other phonemes in the words. It should also be possible to add whole new affixes, but it should not inherit implausible phoneme sequences or change phoneme features in some random way. 
-
-As we expect that it is not possible to model the underlying factors that create the data directly, a decoder function such as $f_{decode}:\mathcal{Z} \rightarrow \mathcal{X}$ cannot be linear. However, we assume $f_{decode}$ can be approximated by some universal function approximator.
-%Given that we have a decoder function $f_{decode}:\mathcal{Z} \rightarrow \mathcal{X}$, we hence except that $f_{decode}$ is non-linear, as a linear decoder function should not allow for those desired properties. 
-This non-linearity than leads to the situation that similar points in $\mathcal{Z}$ should not necessarily coincide with similar points in our data space $\mathcal{X}$. For instance, a fictional word such as /aban/ should be closer to /ov\textipa{\~a}/ than to /a\textipa{\textdoublebarpipe}an/ in $\mathcal{Z}$ but not necessarily in $\mathcal{X}$, as it should be more probable that intervocalic voiced plosives lenite to fricatives and syllable-final nasals drop but leave some compensatory nasalization - here even at the same time - but there should be hardly any evidence of a direct sound change from /b/ to a palatal click.
-
-That is, we are interested in the posterior distribution of $z$ - $P(z|X)$, i.e. the probability of $z$ given our data $X$. We expect the posterior to be highly multimodal, as we expect e.g. that certain phoneme sequences that appear more often attract more probability density than less frequent ones. That is, we want to cluster words under the assumption that certain words are \textit{inherently evolutionary stable sequences of phonemes} and hence appear more often, independently of their respective history. It is well known, for example, that syllables without codas are much more frequent than syllables without onsets. 
-
-To model the posterior $P(z|X)$, we can use Bayes' theorem:
-
-\begin{equation}
-P(z|X) = \frac{P(z)P(X|z)}{\int P(z)P(X|z)dz}
-\end{equation}
-
-Here, $P(z)$ is the prior probability of $z$ and $P(X|z)$ the likelihood of our data given our latent variable. The term in the denominator is the marginal probability $P(X)$ of our Data under the given model.
-If we want to model $z$ with the help of $X$, our objective is to maximize that marginal probability of our word list $P(X):
-
-\begin{equation}
-P(X) = \int P(z)P(X|z)dz
-\end{equation}
+The question is then how to construct such a latent space $\mathcal{Z}$. If we follow the assumption from above that the model should treat factors in latent space as causes for variation of the actual data and not vice versa and if we further know that all words share a common structure, such as syllables and their respective internal structure, we can assume that it should be possible to model that structure by a latent variable $z$ embedded in latent space. As $z$ walks through $\mathcal{Z}$, we assume that the resulting word $x$ changes in a \textit{meaningful} way - for instance it should change certain phonological features of some phonemes in $x$ given that such changes are plausible, given the context of the other phonemes in the words. It should also be possible to add whole new affixes, but it should not inherit implausible phoneme sequences or change phoneme features in some random way. 
 
 
+As we expect that it is not possible to model the underlying factors that create the data directly, a decoder distribution $Q(z|X)$ cannot be mono-modal. However, we assume $Q(z|X)$ can be approximated by some universal function approximator that is combined with a stochastic unit. This multi-modality leads to the situation that similar points in $\mathcal{Z}$ should not necessarily coincide with similar points in our data space $\mathcal{X}$. For instance, a fictional word such as /aban/ should be closer to /ov\textipa{\~a}/ than to /a\textipa{\textdoublebarpipe}an/ in $\mathcal{Z}$ but not necessarily in $\mathcal{X}$, as it should be more probable that intervocalic voiced plosives lenite to fricatives and syllable-final nasals drop but leave some compensatory nasalization - here even at the same time - but there should be hardly any evidence of a direct sound change from /b/ to a palatal click.
 
-We further assume that $P(X|z)$ can be modeled by some output distribution and its parameters $\theta$.  This output distribution can be any distribution with continuous parameters, as they should be differentiable to allow for the backpropagation of error gradients through the model. 
+%As we expect that it is not possible to model the underlying factors that create the data directly, a decoder function such as $f_{decode}:\mathcal{Z} \rightarrow \mathcal{X}$ cannot be linear. However, we assume $f_{decode}$ can be approximated by some universal function approximator.
+%This non-linearity leads to the situation that similar points in $\mathcal{Z}$ should not necessarily coincide with similar points in our data space $\mathcal{X}$. For instance, a fictional word such as /aban/ should be closer to /ov\textipa{\~a}/ than to /a\textipa{\textdoublebarpipe}an/ in $\mathcal{Z}$ but not necessarily in $\mathcal{X}$, as it should be more probable that intervocalic voiced plosives lenite to fricatives and syllable-final nasals drop but leave some compensatory nasalization - here even at the same time - but there should be hardly any evidence of a direct sound change from /b/ to a palatal click.
+%Moreover, as we are interested in modeling our latent features as as probabilistic variable, we are interested in an encoder distribution $Q(z|X)$ that models the probability of $z$ given our data $X$. For the reasons given above, we expect that distribution to be highly multimodal.
+
+%
+%To model the posterior $P(z|X)$, we can use Bayes' theorem:
+%
+%\begin{equation}
+%P(z|X) = \frac{P(z)P(X|z)}{\int P(z)P(X|z)dz}
+%\end{equation}
+%
+%Here, $P(z)$ is the prior probability of $z$ and $P(X|z)$ the likelihood of our data given our latent variable. The term in the denominator is the marginal probability $P(X)$ of our Data under the given model.
+%If we want to model $z$ with the help of $X$, our objective is to maximize that marginal probability of our word list $P(X):
+%
+%\begin{equation}
+%P(X) = \int P(z)P(X|z)dz
+%\end{equation}
+%
+%
+
+We further assume that a corresponding decoder distribution $P(X|z)$ can be modeled with the same means as $Q(z|X)$.  Both can consist of any distribution with continuous parameters, as they should be differentiable to allow for the backpropagation of error gradients through the model. 
 %However, if our aim is to arrive with local modes in our posterior where evolutionary stable word forms that are similar to each other cluster among each other, we can assume that a given word $w$ in $\mathcal{Z}$ can be seen as some noisy version of another word $w'$ that is close to $w$ in $\mathcal{Z}$ - that is, we assume that $z$ can be modeled by a multivariate normal distribution. Mean and covariance of that distribution are than inferred by the model. Hence we further need a family of functions $f : \mathcal{Z} \times  \Theta \rightarrow \mathcal{X}$ that maps points in $\mathcal{Z}$ to points in the parameter space $\Theta$ of that normal distribution. The probability of our data given $z$ then becomes
 %
 %\begin{equation}
@@ -166,8 +168,34 @@ z \sim \mathcal{N}(0,I)
 \end{equation}
 
 where $I$ is the identity matrix.
-To arrive at such linear dependencies as in Eq. \ref{eq:sound_change_linear_dependency}, we then just have to expect them in our data $X$ in some way - e.g in form of predefined phoneme features as in \cite{kondrak2000new,list2012sca,rama2016siamese}, pre-trained phoneme embeddings or as simple phoneme unigrams, in which case we would have the system learn latent phoneme features on its own. As $X$ in our model would be conditioned on $z$, we expect the same linear dependencies over words in $z$ as we find them in $X$.
 
+If we train a deep probabilistic model such as variational autoencoders to approximate $Q(z|X)$ to $P(X)$ and maximize $P(X|z)$ (see \ref{Variational Autoencoders}), we can construct $\mathcal{Z}$ with the desired features. To arrive at such linear dependencies as in Eq. \ref{eq:sound_change_linear_dependency}, we then just have to expect them in our data $X$ in some way - e.g in form of predefined phoneme features as in \cite{kondrak2000new,list2012sca,rama2016siamese} that directly encode distinctive phonological features, pre-trained phoneme embeddings that capture the latent information of phonemes found in a corpus or as simple phoneme unigrams, in which case we would have the system learn latent phoneme features on its own. As $X$ in the decoder distribution $P(X|z)$ would be conditioned on $z$, we expect the same linear dependencies over words in $z$ as we find them in $X$.
+
+
+
+%As we again do not directly know $P(w_{ancient}|w_{recent},z)$ nor $P(w_{ancient}|z)$ unless we have language-specific diachronic data to model that likelihood, we cannot directly infer $P(w_{recent}|w_{ancient},z)$. However, we can say that 
+%\begin{equation}
+%P(w_{ancient}|w_{recent},z) \propto P(w_{recent}|z) P(w_{recent}|w_{ancient},z)
+%\end{equation}
+
+
+
+
+During training, we expect the model to learn underlying features and exploit them. As a consequence, those features should be stored in $\mathcal{Z}$. As we expect that certain features are more salient than others and further apply a gaussian prior over $z$, this finally means that certain subspaces in $\mathcal{Z}$ also contain more encoded information than others. We can define that self-information $I(z)$ as
+\begin{equation}
+I(z) = - \log P(z)
+\end{equation}
+If we have a variable $C$ that defines the belief that a given sample of $z$ shares latent features with other samples and hence might be etymologically related, we expect this belief into $C$ to be \textit{logarithmically} proportional to the self-information of $z$, as $I(z)$ is also defined in log-space:
+\begin{equation}
+\begin{split}
+\log P(C|z) & \propto  I(z) \\
+\log P(C|z) & \propto  - \log P(z) \\
+P(C|z) & \propto  - P(z) 
+\end{split}
+\end{equation}
+
+This means that as the belief into $z$ \textit{decreases}, the belief that the given word is related to other words \textit{increases}. This negative proportionality is of great help: If we have two words $z_1$ and $z_2$ and both words share similar latent features and hence are located close to each other in $\mathcal{Z}$, but are both located in a subspace with high probability mass, our belief into a hypothetic common predecessor is much lower than if they were located in a subspace with low probability mass. Since we have a normal prior, this means inferred cognate clusters are pushed farer away from the center of $\mathcal{Z}$ the more evidence for their grouping exists. 
+Hence, this information-based interpretation of $P(Z)$ also means that we cannot assume that latent features that appear often during training also have a high probability in $\mathcal{Z}$. 
 
 \subsection{Sound Change as Posterior $P(w_{recent}|w_{ancient},z)$ }
 
@@ -186,26 +214,6 @@ However, if we only consider those two terms and ignore the normalizing constant
 \begin{equation}
 P(w_{recent}|w_{ancient},z,X) \propto P(w_{recent}|z,X)P(w_{ancient}|w_{recent},z,X)
 \end{equation}
-
-%As we again do not directly know $P(w_{ancient}|w_{recent},z)$ nor $P(w_{ancient}|z)$ unless we have language-specific diachronic data to model that likelihood, we cannot directly infer $P(w_{recent}|w_{ancient},z)$. However, we can say that 
-%\begin{equation}
-%P(w_{ancient}|w_{recent},z) \propto P(w_{recent}|z) P(w_{recent}|w_{ancient},z)
-%\end{equation}
-
-During training, we expect the model to learn underlying features and exploit them. As a consequence, those features should be stored in $\mathcal{Z}$. As we expect that certain features are more salient than others and further apply a gaussian prior over $z$, this finally means that certain subspaces in $\mathcal{Z}$ also contain more encoded information than others. We can define that self-information $I(z)$ as
-\begin{equation}
-I(z) = - \log P(z)
-\end{equation}
-If we have a variable $C$ that defines the belief that a given sample of $z$ shares latent features with other samples and hence might be etymologically related, we expect this belief into $C$ to be \textit{logarithmically} proportional to the self-information of $z$, as $I(z)$ is also defined in log-space:
-\begin{equation}
-\begin{split}
-\log P(C|z) & \propto  I(z) \\
-\log P(C|z) & \propto  - \log P(z) \\
-P(C|z) & \propto  - P(z) 
-\end{split}
-\end{equation}
-
-This means that as the belief into $z$ \textit{decreases}, the belief that the given word is related to other words \textit{increases}. This negative proportionality is of great help: If we have two words $z_1$ and $z_2$ and both words share similar latent features and hence are located close to each other in $\mathcal{Z}$, but are both located in a subspace with high probability mass, our belief into a hypothetic common predecessor is much lower than if they were located in a subspace with low probability mass.
 
 This means that if our prior $P(w_{recent}|z,X)$, which is known to us, has low probability density for the area around $w_{recent}$, we can be quite certain that $P(w_{recent}|w_{ancient},z,X)$ should also be in such a low probability density area. As we except that the likelihood  $P(w_{ancient}|w_{recent},z)$ itself prefers points in $\mathcal{Z}$ that are close to $w_{recent}$ over points that are far away from it, we can say that $w_{recent}$ should be close to $w_{ancient}$. 
 However, if our prior $P(w_{recent}|z,X)$ is in an area with high probability density, the likelihood does not have such a regulating effect, as the high prior probability would allow for many points in Z to a possible point for $w_{ancient}$. 
@@ -423,7 +431,7 @@ L(x,g(f(x)))
  
 where $L$ describes some loss function that penalizes the reconstruction error. The dimensionality of $\mathcal{Z}$ is usually assumed to be lower-dimensional, so that autoencoders can be used to reduce the dimensionality of the data. If $f$ and $g$ are linear functions, autoencoders are proven to be equal to PCA. If they are non-linear, they should allow for the detection of latent features.
 \subsubsection{Variational Autoencoders}
-
+\label{Variational Autoencoders}
 \begin{figure}[h] %  figure placement: here, top, bottom, or page
    \centering
    \includegraphics[width=\textwidth]{vae_model_visualization} 
