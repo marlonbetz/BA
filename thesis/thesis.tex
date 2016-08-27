@@ -89,7 +89,7 @@ which describes the loss of voice at the end of a word.
 
 Computational models of sound change usually treat words as string of symbols and sound change as substitution of substrings.\cite{bouchard2007probabilistic,bouchard2013automated} use a generative model that learns to substitute substrings in some latent order and achieve good performances on the reconstruction of ancient forms of words as well as on cognate identification. However, such a method has two major drawbacks: On the one hand, it needs the topology of the languages phylogeny to be known beforehand. This problem does not exist for certain language families with established tree topologies, but can be problematic if language relationships are not totally clear. On the other hand, such purely symbolic models need lot of data to generalize well. \cite{bouchard2007probabilistic} for example underline that their model cannot model chain shifts as such.
 
-This thesis proposes model that t
+This thesis proposes model that has the following goals:
 \begin{enumerate}
 \item The functions connecting our data with some latent space should be smooth. This allows the model to generalize from training examples to nearby points in input space, even if they were not trained on.
 \item The relationships between the data can be explained by some linear function, i.e. the data is linearly dependent. This should allow for good predictions even when the test data is far away from the training data.
@@ -172,13 +172,13 @@ To arrive at such linear dependencies as in Eq. \ref{eq:sound_change_linear_depe
 \subsection{Sound Change as Posterior $P(w_{recent}|w_{ancient},z)$ }
 
 
-As we usually do not know the ancient version of a word but only recent ones, we expect the cognates to have spread through the latent space from the original ancient word form to some directions. Since we assume that bigger jumps from one point in $\mathcal{Z}$ are less likely than small ones, we can expect that recent versions of an ancient word form should still be in the vicinity of the ancient word. Under the simplifying assumption that words in our word list did not jump from one semantic concept to another, this allows us embed all words of a given semantic concept into $\mathcal{Z}$ and to cluster them. This is then what this thesis focusses on - we embed words in $\mathcal{Z}$ and cluster the embeddings, as we expect cognates to appear close to each other.
+As we usually do not know the ancient version of a word but only recent ones, we expect the cognates to have spread through the latent space from the original ancient word form to some directions. Since we assume that bigger jumps from one point in $\mathcal{Z}$ are less likely than small ones, we can expect that recent versions of an ancient word form should still be in the vicinity of the ancient word. Under the simplifying assumption that words in our word list did not jump from one semantic concept to another, this allows us embed all words of a given semantic concept into $\mathcal{Z}$ and to cluster them.
 
 However, there are some problems with this approach.
 The actual distribution of recent word forms in $\mathcal{Z}$ given the ancient forms would be given by the posterior
 
 \begin{equation}
-P(w_{recent}|w_{ancient},z,X) = \frac{P(w_{recent}|z,X)P(w_{ancient}|w_{recent},z,X)}{\int P(w_{recent}|z,X)P(w_{ancient}|w_{recent},z,X) dw_{ancient}}
+P(w_{recent}|w_{ancient},z,X) = \frac{P(w_{recent})P(w_{ancient},z,X|w_{recent})}{\int P(w_{recent})P(w_{ancient},z,X|w_{recent})dw_{recent}}
 \end{equation}
 
 Unfortunately, we only know $P(w_{recent}|z,X)$, while we do not know $P(w_{ancient}|w_{recent},z,X)$ directly, i.e. we cannot say anything specific about the likelihood of an ancient word given the recent words, that is the distribution of probabilities over points in $\mathcal{Z}$ where an ancient word form could be, given the distribution of its own child words.
@@ -191,6 +191,21 @@ P(w_{recent}|w_{ancient},z,X) \propto P(w_{recent}|z,X)P(w_{ancient}|w_{recent},
 %\begin{equation}
 %P(w_{ancient}|w_{recent},z) \propto P(w_{recent}|z) P(w_{recent}|w_{ancient},z)
 %\end{equation}
+
+During training, we expect the model to learn underlying features and exploit them. As a consequence, those features should be stored in $\mathcal{Z}$. As we expect that certain features are more salient than others and further apply a gaussian prior over $z$, this finally means that certain subspaces in $\mathcal{Z}$ also contain more encoded information than others. We can define that self-information $I(z)$ as
+\begin{equation}
+I(z) = - \log P(z)
+\end{equation}
+If we have a variable $C$ that defines the belief that a given sample of $z$ shares latent features with other samples and hence might be etymologically related, we expect this belief into $C$ to be \textit{logarithmically} proportional to the self-information of $z$, as $I(z)$ is also defined in log-space:
+\begin{equation}
+\begin{split}
+\log P(C|z) & \propto  I(z) \\
+\log P(C|z) & \propto  - \log P(z) \\
+P(C|z) & \propto  - P(z) 
+\end{split}
+\end{equation}
+
+This means that as the belief into $z$ \textit{decreases}, the belief that the given word is related to other words \textit{increases}. This negative proportionality is of great help: If we have two words $z_1$ and $z_2$ and both words share similar latent features and hence are located close to each other in $\mathcal{Z}$, but are both located in a subspace with high probability mass, our belief into a hypothetic common predecessor is much lower than if they were located in a subspace with low probability mass.
 
 This means that if our prior $P(w_{recent}|z,X)$, which is known to us, has low probability density for the area around $w_{recent}$, we can be quite certain that $P(w_{recent}|w_{ancient},z,X)$ should also be in such a low probability density area. As we except that the likelihood  $P(w_{ancient}|w_{recent},z)$ itself prefers points in $\mathcal{Z}$ that are close to $w_{recent}$ over points that are far away from it, we can say that $w_{recent}$ should be close to $w_{ancient}$. 
 However, if our prior $P(w_{recent}|z,X)$ is in an area with high probability density, the likelihood does not have such a regulating effect, as the high prior probability would allow for many points in Z to a possible point for $w_{ancient}$. 
