@@ -185,7 +185,7 @@ During training, we expect the model to learn underlying features and exploit th
 \begin{equation}
 I(z) = - \log P(z)
 \end{equation}
-If we have a variable $C$ that defines the belief that a given sample of $z$ shares latent features with other samples and hence might be etymologically related, we expect this belief into $C$ to be \textit{logarithmically} proportional to the self-information of $z$, as $I(z)$ is also defined in log-space:
+If we have a variable $C$ that defines the belief that a given sample of $z$ is a cognate to other words and hence shares latent features with other samples, we expect this belief into $C$ to be logarithmically proportional to the self-information of $z$, as $I(z)$ is also defined in log-space:
 \begin{equation}
 \begin{split}
 \log P(C|z) & \propto  I(z) \\
@@ -194,8 +194,11 @@ P(C|z) & \propto  - P(z)
 \end{split}
 \end{equation}
 
-This means that as the belief into $z$ \textit{decreases}, the belief that the given word is related to other words \textit{increases}. This negative proportionality is of great help: If we have two words $z_1$ and $z_2$ and both words share similar latent features and hence are located close to each other in $\mathcal{Z}$, but are both located in a subspace with high probability mass, our belief into a hypothetic common predecessor is much lower than if they were located in a subspace with low probability mass. Since we have a normal prior, this means inferred cognate clusters are pushed farer away from the center of $\mathcal{Z}$ the more evidence for their grouping exists. 
-Hence, this information-based interpretation of $P(Z)$ also means that we cannot assume that latent features that appear often during training also have a high probability in $\mathcal{Z}$. 
+This means that as the belief into $z$ \textit{decreases}, the belief that the given word is related to other words \textit{increases}. This negative proportionality is of great help: If we have two words $z_1$ and $z_2$ and both words share similar latent features and hence are located close to each other in $\mathcal{Z}$, but are both located in a subspace with high probability mass under our prior $P(X)$, our belief into a hypothetic common predecessor is much lower than if they were located in a subspace with low probability mass. Since we have a normal prior, this means inferred cognate clusters are pushed farer away from the center of $\mathcal{Z}$ the more evidence for their grouping exists. From this follows that words that have a low self-information are hence kept close to the center of $\mathcal{Z}$ and form a cluster on their own. If we recognize such a cluster in a subspace with high probability mass, we can be sure that the members of that cluster are words that do not have any cognates.
+ 
+%However, this information-based interpretation of $P(Z)$ also means that we cannot assume that latent features that appear often during training also have a high probability in $\mathcal{Z}$.  
+
+
 
 \subsection{Sound Change as Posterior $P(w_{recent}|w_{ancient},z)$ }
 
@@ -292,12 +295,15 @@ That is, we would have to define priors for both hypotheses. We cannot simply as
 
 \section{Related Research}
 \section{Architecture}
+
 Hence, the model should have three major components:
 \begin{enumerate}
 \item The phonemes should be embedded in a latent space, where similar phonemes should cluster in similar subspaces of the latent space.
 \item The words as sequences of such phoneme embeddings should themselves be embedded in another latent space, where words with similar shape should cluster among each other. 
 \item The word embeddings are then clustered in such a way that words that appear together in a cluster are assigned a common label, which is then predicted cognate class.
 \end{enumerate}
+
+
 
 \subsection{Phoneme Vectorization}
 \label{Phoneme Vectorization}
@@ -533,18 +539,37 @@ The model architecture is visualized in Fig. \ref{fig:vae_model_visualization}.
 %\epsilon^{(l)} \sim \mathcal{N}(0,I)
 %\end{equation}
 
-Following this, 4 different models are investigated here:
+For practical purposes, such a model should not take too much time to learn the relationships between the words in our wordlist. 
+
+Following this, 2 different models are investigated here:
 \begin{enumerate}
-\item A model that tries to maximize $p(W=w|z;W)$, i.e. that learns the manifold creating the words as such
-\item A model that tries to maximize $p(W=w,C=c|z;W,C)$, i.e. that learns the manifold creating the words and the respective concepts
-\item A model that tries to maximize $p(W=w,C=c,G=g|z;W,C,G)$, i.e. that learns the manifold creating the words, the respective concepts and the geographical location
-\item A model that tries to maximize $p(W=w|z,C=c;W)$, i.e that learns the manifold creating words given the respective concept.
+\item A model that tries to maximize $P(X|z)$, i.e. that learns the manifold creating the words as such. Such as model is pre-trained on a big corpus of phonologically annotated words. Here, the assumption is that if we embed our word list, we can use the maximum likelihood assumption that states that if the training data is representative for the data as such, it should be able to generalize well for similar, but unseen data. This model will be referred to as VAE-PT.
+\item A model that tries to maximize $P(X|z,C)$, i.e that learns the manifold creating words given the respective concept. Such a model is useful as we are only interested to cluster words given a concept class. Also, this means that we only look for latent features in a given semantic concept, which should allow for finer-grained latent features. This model will be referred to as VAE-C.
 \end{enumerate}
 
 \subsection{Clustering}
-\subsubsection{Affinity Propagation}
+
+To cluster the embeddings, we have to make sure that the number of clusters can vary, as can the number of members for each cluster. For instance, if our word list consists of languages where the majority of languages are closely related and should show similar words, but the remaining languages are not related at all, we assume that the resulting clusters of words are not of the same size. If we do not know at all if the respective languages are related, we cannot really say what size the clusters should have either. Hence, both are variables which we do not know beforehand. 
+
+This thesis proposes Affinity propagation (cf. \cite{frey2007clustering}) to solve that task. Here the algorithm exchanges real-valued messages between the data points until a high-quality set of exemplars and corresponding clusters
+gradually emerges. This allows for the number of clusters and individual cluster size to be left undefined.
+
+As we know that  certain subspaces in $\mathcal{Z}$ accumulate more probability mass than others, we can assume that this should affect the similarity between points in $\mathcal{Z}$. In fact, the group of words with low self-information cluster among each other and are probably even closer to each other than members of actual cognate classes. Hence we have to weight the distances between the embeddings according to their respective self-information.
+
+We can define this distances as 
+
+\begin{equation}
+d_{weighted}(z_1,z_2) = d_{euclidean}(\frac{z_1}{I(z_1)}),\frac{z_2}{I(z_2)}))
+\end{equation}
+
+This means that the lower the self-information for a given word is, the farer its position is shifted away from its current position. If two embeddings are close to each other but have low self-information, the weighted distance between them is correspondingly larger than the actual euclidean distance. However, if the self-information is bigger, the words can reside in a cluster with higher variance, but the weighted distance between them would be smaller than if that cluster would be situated in an area with high probability mass.
+
+
 \section{Evaluation}
 \subsection{Data}
+To pre-train VAE-PT,  the data provided by the Automatic Similarity Judgement Program (ASJP, \cite{wichmann2010asjp} will serve as a training corpus. ASJP provides wordlists of roughly 7200 languages, where each word is given as a string of phonemes. This vast amount of different phoneme inventories will allow for the unbiased comparison of phonemes over language boundaries. However, ASJP does not make use of IPA, but a simplified phonemic alphabet that is based on ASCII-characters. This makes it possible to incorporate data where no detailed IPA description is given, but might also reduce the quality of the resulting embedding space, as latent features that might be encoded in more specific IPA descriptions are merged. For all other data, respective conversions into the ASJP system are used.  An overview of the ASJP phonemes and their IPA counterparts are given in the appendix.
+
+Both models are tested on IELex (cf. \cite{dunn2012indo}) and the 
 \subsection{Evaluation of $P(X)$}
 
 A first visual inspection shows that the model learns to cluster similar strings close to each other (Fig. \ref{fig:vae_phono_binary_asjp_subsample_words}). Words with similar syllable structures are located in specific subspaces of $\mathcal{Z}$. It further connects strings beyond local clusters through linear dependencies, which can interchange whole syllables of a word. 

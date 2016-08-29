@@ -57,6 +57,15 @@ Doersch, C. (2016).
 \newblock Tutorial on variational autoencoders.
 \newblock {\em arXiv preprint arXiv:1606.05908}.
 
+\bibitem[\protect\astroncite{Dunn}{2012}]{dunn2012indo}
+Dunn, M. (2012).
+\newblock Indo-european lexical cognacy database (ielex).
+
+\bibitem[\protect\astroncite{Frey and Dueck}{2007}]{frey2007clustering}
+Frey, B.~J. and Dueck, D. (2007).
+\newblock Clustering by passing messages between data points.
+\newblock {\em science}, 315(5814):972--976.
+
 \bibitem[\protect\astroncite{Goldberg and Levy}{2014}]{goldberg2014word2vec}
 Goldberg, Y. and Levy, O. (2014).
 \newblock word2vec explained: deriving mikolov et al.'s negative-sampling
@@ -154,5 +163,11 @@ Rama, T. (2016).
 \newblock In {\em {Proceedings of the LREC 2010 Workshop on New Challenges for
   NLP Frameworks}}, pages 45--50, Valletta, Malta. ELRA.
 \newblock \url{http://is.muni.cz/publication/884893/en}.
+
+\bibitem[\protect\astroncite{Wichmann et~al.}{2010}]{wichmann2010asjp}
+Wichmann, S., M{\"u}ller, A., Velupillai, V., Brown, C.~H., Holman, E.~W.,
+  Brown, P., Sauppe, S., Belyaev, O., Urban, M., Molochieva, Z., et~al. (2010).
+\newblock The asjp database (version 13).
+\newblock {\em See http://email. eva. mpg. de/wichmann/languages. htm}.
 
 \end{thebibliography}

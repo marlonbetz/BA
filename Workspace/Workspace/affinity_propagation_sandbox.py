@@ -1,23 +1,38 @@
 import numpy as np
 from sklearn.cluster import AffinityPropagation
 from scipy.stats import gaussian_kde
-from scipy.spatial.distance import cosine
+from scipy.stats import multivariate_normal as mvn
+from scipy.spatial.distance import cosine,euclidean
 import sys
-X = np.random.normal(0,1,(200,2))
-# X = np.append(X,np.random.normal(1,0.3,(50,2)),axis=0)
-# X = np.append(X,np.random.normal(4,1.5,(20,2)),axis=0)
+X = np.random.normal(0,.1,(20,2))
+X = np.append(X,np.random.normal(0.5,0.06,(15,2)),axis=0)
+X = np.append(X,np.random.normal(-.7,0.06,(15,2)),axis=0)
 
-X_p = np.random.normal(0,1,(10000,2))
+
+#X_p = np.random.normal(0,1,(10000,2))
 # X_p = np.append(X,np.random.normal(1,0.3,(500,2)),axis=0)
 # X_p = np.append(X,np.random.normal(4,1.5,(2000,2)),axis=0)
 
 
 print("size X",len(X))
-kernel = gaussian_kde(X_p.T)
+#kernel = gaussian_kde(X_p.T)
 
-pref = [-(kernel.pdf(x)) for x in X]
+pref = [(-(mvn.pdf(x,[0,0],[[1,0],[0,.1]])))*100 for x in X]
 
-dists = np.array([-cosine(u, v) for u in X for v in X]).reshape((len(X),len(X)))
+alpha = 1
+dists = np.array([
+                  -(
+                    euclidean(
+                            u/(alpha*-np.log(mvn.pdf(u,[0,0],[[.01,0],[0,.01]]))),
+                             v/(alpha*-np.log(mvn.pdf(v,[0,0],[[.01,0],[0,.01]])))
+                              )
+                    
+#                     (
+#                       (-np.log(mvn.pdf(u,[0,0],[[1,0],[0,1]]))
+#                       +(-np.log(mvn.pdf(v,[0,0],[[1,0],[0,1]])))
+#                       )
+#                     )
+                ) for u in X for v in X]).reshape((len(X),len(X)))
 
 ap = AffinityPropagation(affinity = "precomputed",
                             #preference=pref

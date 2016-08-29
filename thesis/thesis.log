@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  27 AUG 2016 23:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  29 AUG 2016 19:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -519,18 +519,18 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [6] [7]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 224.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 227.
 
  (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 224.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 227.
  [8]
-./thesis.tex:304: Undefined control sequence.
+./thesis.tex:310: Undefined control sequence.
 \b@bouchard2007probabilistic ->\astroncite 
                                            {Bouchard-C{\^o}t{\'e} et\nobreak...
-l.304 ...d2007probabilistic,bouchard2013automated}
+l.310 ...d2007probabilistic,bouchard2013automated}
                                                   ), they cannot generalize ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -538,10 +538,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.tex:304: Undefined control sequence.
+./thesis.tex:310: Undefined control sequence.
 \b@bouchard2013automated ->\astroncite 
                                        {Bouchard-C{\^o}t{\'e} et\nobreakspac...
-l.304 ...d2007probabilistic,bouchard2013automated}
+l.310 ...d2007probabilistic,bouchard2013automated}
                                                   ), they cannot generalize ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -549,10 +549,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.tex:304: Undefined control sequence.
+./thesis.tex:310: Undefined control sequence.
 \b@Goodfellow-et-al-2016-Book ->\astroncite 
                                             {Bengio and Courville}{2016}
-l.304 ...\cite[p. 555]{Goodfellow-et-al-2016-Book}
+l.310 ...\cite[p. 555]{Goodfellow-et-al-2016-Book}
                                                   ). This assumption allows ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -560,10 +560,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.tex:305: Undefined control sequence.
+./thesis.tex:311: Undefined control sequence.
 \b@chomsky1968sound ->\astroncite 
                                   {Chomsky and Halle}{1968}
-l.305 ...extit{[ATR]} (cf. \cite{chomsky1968sound}
+l.311 ...extit{[ATR]} (cf. \cite{chomsky1968sound}
                                                   ). Such latent features re...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -571,10 +571,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.tex:312: Undefined control sequence.
+./thesis.tex:318: Undefined control sequence.
 \b@kondrak2000new ->\astroncite 
                                 {Kondrak}{2000}
-l.312 \cite{kondrak2000new}
+l.318 \cite{kondrak2000new}
                             uses 12 real-valued features bounded between zer...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -582,10 +582,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.tex:315: Undefined control sequence.
+./thesis.tex:321: Undefined control sequence.
 \b@rama2016siamese ->\astroncite 
                                  {Rama}{2016}
-l.315 \cite{rama2016siamese}
+l.321 \cite{rama2016siamese}
                              uses binary features that are adapted to the AS...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -593,10 +593,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.tex:315: Undefined control sequence.
+./thesis.tex:321: Undefined control sequence.
 \b@rama2016siamese ->\astroncite 
                                  {Rama}{2016}
-l.315 ...d in the appendix. \cite{rama2016siamese}
+l.321 ...d in the appendix. \cite{rama2016siamese}
                                                    further merges all coarti...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -604,10 +604,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.tex:315: Undefined control sequence.
+./thesis.tex:321: Undefined control sequence.
 \b@rama2016siamese ->\astroncite 
                                  {Rama}{2016}
-l.315 ...ary features each. \cite{rama2016siamese}
+l.321 ...ary features each. \cite{rama2016siamese}
                                                    reports superior performa...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -616,10 +616,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [9]
-./thesis.tex:325: Undefined control sequence.
+./thesis.tex:331: Undefined control sequence.
 \b@landauer2013handbook ->\astroncite 
                                       {Landauer et\nobreakspace {}al.}{2013}
-l.325 ...ntic Analysis \cite{landauer2013handbook}
+l.331 ...ntic Analysis \cite{landauer2013handbook}
                                                   . This approach is inheren...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -627,10 +627,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.tex:325: Undefined control sequence.
+./thesis.tex:331: Undefined control sequence.
 \b@mikolov2013efficient ->\astroncite 
                                       {Mikolov et\nobreakspace {}al.}{2013a}
-l.325 ...olov2013distributed,goldberg2014word2vec}
+l.331 ...olov2013distributed,goldberg2014word2vec}
                                                     have been shown to outpe...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -638,10 +638,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.tex:325: Undefined control sequence.
+./thesis.tex:331: Undefined control sequence.
 \b@mikolov2013distributed ->\astroncite 
                                         {Mikolov et\nobreakspace {}al.}{2013b}
-l.325 ...olov2013distributed,goldberg2014word2vec}
+l.331 ...olov2013distributed,goldberg2014word2vec}
                                                     have been shown to outpe...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -649,10 +649,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.tex:325: Undefined control sequence.
+./thesis.tex:331: Undefined control sequence.
 \b@goldberg2014word2vec ->\astroncite 
                                       {Goldberg and Levy}{2014}
-l.325 ...olov2013distributed,goldberg2014word2vec}
+l.331 ...olov2013distributed,goldberg2014word2vec}
                                                     have been shown to outpe...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -660,10 +660,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.tex:325: Undefined control sequence.
+./thesis.tex:331: Undefined control sequence.
 \b@pennington2014glove ->\astroncite 
                                      {Pennington et\nobreakspace {}al.}{2014}
-l.325 ...although GloVe \cite{pennington2014glove}
+l.331 ...although GloVe \cite{pennington2014glove}
                                                   , as more recent count-bas...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -671,10 +671,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.tex:329: Undefined control sequence.
+./thesis.tex:335: Undefined control sequence.
 \b@morin2005hierarchical ->\astroncite 
                                        {Morin and Bengio}{2005}
-l.329 ...ax (HS, cf. {\cite{morin2005hierarchical}
+l.335 ...ax (HS, cf. {\cite{morin2005hierarchical}
                                                   ). Here, the classifier la...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -684,13 +684,13 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `eq:skipgram_softmax_prob' on page 10 undefined on inp
-ut line 329.
+ut line 335.
 
 [10]
-./thesis.tex:338: Undefined control sequence.
+./thesis.tex:344: Undefined control sequence.
 \b@goldberg2014word2vec ->\astroncite 
                                       {Goldberg and Levy}{2014}
-l.338 ...ing (NEG; cf. \cite{goldberg2014word2vec}
+l.344 ...ing (NEG; cf. \cite{goldberg2014word2vec}
                                                   ) is the most popular. NEG...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -698,10 +698,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.tex:338: Undefined control sequence.
+./thesis.tex:344: Undefined control sequence.
 \b@gutmann2010noise ->\astroncite 
                                   {Gutmann and Hyv{\"a}rinen}{2010}
-l.338 ...(cf. \cite{gutmann2010noise,mnih2012fast}
+l.344 ...(cf. \cite{gutmann2010noise,mnih2012fast}
                                                   ). Instead of a classifier...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -709,10 +709,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.tex:338: Undefined control sequence.
+./thesis.tex:344: Undefined control sequence.
 \b@mnih2012fast ->\astroncite 
                               {Mnih and Teh}{2012}
-l.338 ...(cf. \cite{gutmann2010noise,mnih2012fast}
+l.344 ...(cf. \cite{gutmann2010noise,mnih2012fast}
                                                   ). Instead of a classifier...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -720,10 +720,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.tex:373: Undefined control sequence.
+./thesis.tex:379: Undefined control sequence.
 \b@jager2014phylogenetic ->\astroncite 
                                        {J{\"a}ger}{2014}
-l.373 ...te{jager2014phylogenetic,rama2016siamese}
+l.379 ...te{jager2014phylogenetic,rama2016siamese}
                                                    and pooling coarticulatio...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -731,10 +731,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.tex:373: Undefined control sequence.
+./thesis.tex:379: Undefined control sequence.
 \b@rama2016siamese ->\astroncite 
                                  {Rama}{2016}
-l.373 ...te{jager2014phylogenetic,rama2016siamese}
+l.379 ...te{jager2014phylogenetic,rama2016siamese}
                                                    and pooling coarticulatio...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -749,13 +749,13 @@ File: /Users/marlon/Documents/BA/thesis/pictures/word2vec.png Graphic file (typ
 e png)
  <use /Users/marlon/Documents/BA/thesis/pictures/word2vec.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/word2vec.pn
-g used on input line 377.
+g used on input line 383.
 (pdftex.def)             Requested size: 322.50346pt x 193.7811pt.
 
-./thesis.tex:379: Undefined control sequence.
+./thesis.tex:385: Undefined control sequence.
 \b@mikolov2013efficient ->\astroncite 
                                       {Mikolov et\nobreakspace {}al.}{2013a}
-l.379 ... word. From \cite{mikolov2013efficient}.}
+l.385 ... word. From \cite{mikolov2013efficient}.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -763,10 +763,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.tex:379: Undefined control sequence.
+./thesis.tex:385: Undefined control sequence.
 \b@mikolov2013efficient ->\astroncite 
                                       {Mikolov et\nobreakspace {}al.}{2013a}
-l.379 ... word. From \cite{mikolov2013efficient}.}
+l.385 ... word. From \cite{mikolov2013efficient}.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -783,7 +783,7 @@ File: /Users/marlon/Documents/BA/thesis/pictures/phoneme_embeddings_overview_ap
 <use /Users/marlon/Documents/BA/thesis/pictures/phoneme_embeddings_overview_ap.
 png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/phoneme_emb
-eddings_overview_ap.png used on input line 388.
+eddings_overview_ap.png used on input line 394.
 (pdftex.def)             Requested size: 430.00462pt x 273.4512pt.
 
 
@@ -798,7 +798,7 @@ l.png Graphic file (type png)
 <use /Users/marlon/Documents/BA/thesis/pictures/phoneme_embeddings_word2vec_all
 .png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/phoneme_emb
-eddings_word2vec_all.png used on input line 396.
+eddings_word2vec_all.png used on input line 402.
 (pdftex.def)             Requested size: 430.00462pt x 312.18846pt.
 
 
@@ -813,7 +813,7 @@ parison_meanAccLossTopn1.png Graphic file (type png)
 <use /Users/marlon/Documents/BA/thesis/pictures/phoneme_embeddings_4models_comp
 arison_meanAccLossTopn1.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/phoneme_emb
-eddings_4models_comparison_meanAccLossTopn1.png used on input line 403.
+eddings_4models_comparison_meanAccLossTopn1.png used on input line 409.
 (pdftex.def)             Requested size: 430.00462pt x 308.76079pt.
 
 
@@ -828,7 +828,7 @@ aluation_topn1.png Graphic file (type png)
 <use /Users/marlon/Documents/BA/thesis/pictures/phoneme_embeddings_detailed_eva
 luation_topn1.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/phoneme_emb
-eddings_detailed_evaluation_topn1.png used on input line 410.
+eddings_detailed_evaluation_topn1.png used on input line 416.
 (pdftex.def)             Requested size: 322.50346pt x 231.95277pt.
 
 
@@ -843,7 +843,7 @@ aluation_consonants_topn1_poooled.png Graphic file (type png)
 <use /Users/marlon/Documents/BA/thesis/pictures/phoneme_embeddings_detailed_eva
 luation_consonants_topn1_poooled.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/phoneme_emb
-eddings_detailed_evaluation_consonants_topn1_poooled.png used on input line 417
+eddings_detailed_evaluation_consonants_topn1_poooled.png used on input line 423
 .
 (pdftex.def)             Requested size: 430.00462pt x 96.9107pt.
 
@@ -858,13 +858,13 @@ aphic file (type png)
 
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_model_visualization.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_model_v
-isualization.png used on input line 437.
+isualization.png used on input line 443.
 (pdftex.def)             Requested size: 430.00462pt x 231.92393pt.
 
-./thesis.tex:438: Undefined control sequence.
+./thesis.tex:444: Undefined control sequence.
 \b@doersch2016tutorial ->\astroncite 
                                      {Doersch}{2016}
-l.438 ... model. From \cite{doersch2016tutorial}.}
+l.444 ... model. From \cite{doersch2016tutorial}.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -872,10 +872,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.tex:438: Undefined control sequence.
+./thesis.tex:444: Undefined control sequence.
 \b@doersch2016tutorial ->\astroncite 
                                      {Doersch}{2016}
-l.438 ... model. From \cite{doersch2016tutorial}.}
+l.444 ... model. From \cite{doersch2016tutorial}.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -886,10 +886,10 @@ and I'll forget about whatever was undefined.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-./thesis.tex:442: Undefined control sequence.
+./thesis.tex:448: Undefined control sequence.
 \b@kingma2013auto ->\astroncite 
                                 {Kingma and Welling}{2013}
-l.442 ... first described in \cite{kingma2013auto}
+l.448 ... first described in \cite{kingma2013auto}
                                                   . Instead of just using a ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -899,22 +899,11 @@ and I'll forget about whatever was undefined.
 
 [12 </Users/marlon/Documents/BA/thesis/pictures/word2vec.png>] [13 </Users/marl
 on/Documents/BA/thesis/pictures/phoneme_embeddings_overview_ap.png>]
-./thesis.tex:467: Undefined control sequence.
+./thesis.tex:473: Undefined control sequence.
 \b@kingma2013auto ->\astroncite 
                                 {Kingma and Welling}{2013}
-l.467 ...parameters of $Q$,  \cite{kingma2013auto}
+l.473 ...parameters of $Q$,  \cite{kingma2013auto}
                                                    propose Multilayer Percep...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./thesis.tex:469: Undefined control sequence.
-\b@kingma2013auto ->\astroncite 
-                                {Kingma and Welling}{2013}
-l.469 ...he encoder network. \cite{kingma2013auto}
-                                                   instead propose another o...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -924,7 +913,18 @@ and I'll forget about whatever was undefined.
 ./thesis.tex:475: Undefined control sequence.
 \b@kingma2013auto ->\astroncite 
                                 {Kingma and Welling}{2013}
-l.475 \cite{kingma2013auto}
+l.475 ...he encoder network. \cite{kingma2013auto}
+                                                   instead propose another o...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./thesis.tex:481: Undefined control sequence.
+\b@kingma2013auto ->\astroncite 
+                                {Kingma and Welling}{2013}
+l.481 \cite{kingma2013auto}
                             mention that  $p(\epsilon)$ can be any continuou...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -933,15 +933,50 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [14]
+./thesis.tex:554: Undefined control sequence.
+\b@frey2007clustering ->\astroncite 
+                                    {Frey and Dueck}{2007}
+l.554 ...ropagation (cf. \cite{frey2007clustering}
+                                                  ) to solve that task. Here...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./thesis.tex:570: Undefined control sequence.
+\b@wichmann2010asjp ->\astroncite 
+                                  {Wichmann et\nobreakspace {}al.}{2010}
+l.570 ...nt Program (ASJP, \cite{wichmann2010asjp}
+                                                   will serve as a training ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[15]
+./thesis.tex:572: Undefined control sequence.
+\b@dunn2012indo ->\astroncite 
+                              {Dunn}{2012}
+l.572 ... tested on IELex (cf. \cite{dunn2012indo}
+                                                  ) and the
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_asjp_subsample_wor
-ds.png, id=79, 1300.86pt x 780.516pt>
+ds.png, id=82, 1300.86pt x 780.516pt>
 File: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_asjp_subsampl
 e_words.png Graphic file (type png)
 
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_asjp_subsample
 _words.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_asjp_subsample_words.png used on input line 557.
+inary_asjp_subsample_words.png used on input line 582.
 (pdftex.def)             Requested size: 430.00462pt x 257.99982pt.
 
 
@@ -949,138 +984,138 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_wordLength.png, id
-=80, 578.16pt x 397.485pt>
+=83, 578.16pt x 397.485pt>
 File: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_wordLength.pn
 g Graphic file (type png)
 
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_wordLength.png
 >
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_wordLength.png used on input line 566.
+inary_wordLength.png used on input line 591.
 (pdftex.def)             Requested size: 215.0023pt x 147.81316pt.
 
 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_wordLength_detail1
-.png, id=81, 578.16pt x 397.485pt>
+.png, id=84, 578.16pt x 397.485pt>
 File: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_wordLength_de
 tail1.png Graphic file (type png)
 
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_wordLength_det
 ail1.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_wordLength_detail1.png used on input line 572.
+inary_wordLength_detail1.png used on input line 597.
 (pdftex.def)             Requested size: 215.0023pt x 147.81316pt.
 
 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_wordLength_detail2
-.png, id=82, 578.16pt x 397.485pt>
+.png, id=85, 578.16pt x 397.485pt>
 File: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_wordLength_de
 tail2.png Graphic file (type png)
 
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_wordLength_det
 ail2.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_wordLength_detail2.png used on input line 578.
+inary_wordLength_detail2.png used on input line 603.
 (pdftex.def)             Requested size: 215.0023pt x 147.81316pt.
 
 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_wordLength_detail3
-.png, id=83, 578.16pt x 397.485pt>
+.png, id=86, 578.16pt x 397.485pt>
 File: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_wordLength_de
 tail3.png Graphic file (type png)
 
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_wordLength_det
 ail3.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_wordLength_detail3.png used on input line 583.
+inary_wordLength_detail3.png used on input line 608.
 (pdftex.def)             Requested size: 215.0023pt x 147.81316pt.
 
-</Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_clicks.png, id=84,
+</Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_clicks.png, id=87,
  578.16pt x 397.485pt>
 File: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_clicks.png Gr
 aphic file (type png)
 
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_clicks.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_clicks.png used on input line 593.
+inary_clicks.png used on input line 618.
 (pdftex.def)             Requested size: 215.0023pt x 147.81316pt.
 
-</Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_dental.png, id=85,
+</Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_dental.png, id=88,
  578.16pt x 397.485pt>
 File: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_dental.png Gr
 aphic file (type png)
 
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_dental.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_dental.png used on input line 599.
+inary_dental.png used on input line 624.
 (pdftex.def)             Requested size: 215.0023pt x 147.81316pt.
 
 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_fricative.png, id=
-86, 578.16pt x 397.485pt>
+89, 578.16pt x 397.485pt>
 File: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_fricative.png
  Graphic file (type png)
 
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_fricative.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_fricative.png used on input line 605.
+inary_fricative.png used on input line 630.
 (pdftex.def)             Requested size: 215.0023pt x 147.81316pt.
 
 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_fricative_detail1.
-png, id=87, 578.16pt x 397.485pt>
+png, id=90, 578.16pt x 397.485pt>
 File: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_fricative_det
 ail1.png Graphic file (type png)
 
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_fricative_deta
 il1.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_fricative_detail1.png used on input line 610.
+inary_fricative_detail1.png used on input line 635.
 (pdftex.def)             Requested size: 215.0023pt x 147.81316pt.
 
 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_orthofeature_labia
-lized.png, id=88, 578.16pt x 397.485pt>
+lized.png, id=91, 578.16pt x 397.485pt>
 File: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_orthofeature_
 labialized.png Graphic file (type png)
 
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_orthofeature_l
 abialized.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_orthofeature_labialized.png used on input line 620.
+inary_orthofeature_labialized.png used on input line 645.
 (pdftex.def)             Requested size: 215.0023pt x 147.81316pt.
 
 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_orthofeature_palat
-alized.png, id=89, 578.16pt x 397.485pt>
+alized.png, id=92, 578.16pt x 397.485pt>
 File: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_orthofeature_
 palatalized.png Graphic file (type png)
 
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_orthofeature_p
 alatalized.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_orthofeature_palatalized.png used on input line 626.
+inary_orthofeature_palatalized.png used on input line 651.
 (pdftex.def)             Requested size: 215.0023pt x 147.81316pt.
 
 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_orthofeature_aspir
-ated.png, id=90, 578.16pt x 397.485pt>
+ated.png, id=93, 578.16pt x 397.485pt>
 File: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_orthofeature_
 aspirated.png Graphic file (type png)
 
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_orthofeature_a
 spirated.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_orthofeature_aspirated.png used on input line 632.
+inary_orthofeature_aspirated.png used on input line 657.
 (pdftex.def)             Requested size: 215.0023pt x 147.81316pt.
 
 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_orthofeature_glott
-alized.png, id=91, 578.16pt x 397.485pt>
+alized.png, id=94, 578.16pt x 397.485pt>
 File: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_orthofeature_
 glottalized.png Graphic file (type png)
 
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_orthofeature_g
 lottalized.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_orthofeature_glottalized.png used on input line 637.
+inary_orthofeature_glottalized.png used on input line 662.
 (pdftex.def)             Requested size: 215.0023pt x 147.81316pt.
 
-./thesis.tex:647: Undefined control sequence.
+./thesis.tex:672: Undefined control sequence.
 \b@rehurek_lrec ->\astroncite 
                               {{\v R}eh{\r u}{\v r}ek and Sojka}{2010}
-l.647 ...by the gensim package \cite{rehurek_lrec}
+l.672 ...by the gensim package \cite{rehurek_lrec}
                                                   . The Autoencoder was impl...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1088,10 +1123,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.tex:647: Undefined control sequence.
+./thesis.tex:672: Undefined control sequence.
 \b@chollet2015keras ->\astroncite 
                                   {Chollet}{2015}
-l.647 ...mented with Keras \cite{chollet2015keras}
+l.672 ...mented with Keras \cite{chollet2015keras}
                                                    and Tensorflow \cite{tens...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1099,10 +1134,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.tex:647: Undefined control sequence.
+./thesis.tex:672: Undefined control sequence.
 \b@tensorflow2015-whitepaper ->\astroncite 
                                            {Abadi et\nobreakspace {}al.}{2015}
-l.647 ...nsorflow \cite{tensorflow2015-whitepaper}
+l.672 ...nsorflow \cite{tensorflow2015-whitepaper}
                                                   . The clustering algorithm...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1110,10 +1145,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.tex:647: Undefined control sequence.
+./thesis.tex:672: Undefined control sequence.
 \b@scikit-learn ->\astroncite 
                               {Pedregosa et\nobreakspace {}al.}{2011}
-l.647 ...vided by scikit-learn \cite{scikit-learn}
+l.672 ...vided by scikit-learn \cite{scikit-learn}
                                                   . All code connected to th...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1121,7 +1156,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[15] (./thesis.bbl
+(./thesis.bbl
 ./thesis.bbl:3: Undefined control sequence.
 <argument> \protect \astroncite 
                                 {Abadi et~al.}{2015}
@@ -1133,6 +1168,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[16]
 ./thesis.bbl:15: Undefined control sequence.
 <argument> \protect \astroncite 
                                 {Bengio and Courville}{2016}
@@ -1238,8 +1274,8 @@ rs.  \OT1/cmr/m/it/10 arXiv preprint
 
 ./thesis.bbl:60: Undefined control sequence.
 <argument> \protect \astroncite 
-                                {Goldberg and Levy}{2014}
-l.60 ...erg and Levy}{2014}]{goldberg2014word2vec}
+                                {Dunn}{2012}
+l.60 ...tect\astroncite{Dunn}{2012}]{dunn2012indo}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1247,10 +1283,32 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.bbl:66: Undefined control sequence.
+./thesis.bbl:64: Undefined control sequence.
+<argument> \protect \astroncite 
+                                {Frey and Dueck}{2007}
+l.64 ...Frey and Dueck}{2007}]{frey2007clustering}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./thesis.bbl:69: Undefined control sequence.
+<argument> \protect \astroncite 
+                                {Goldberg and Levy}{2014}
+l.69 ...erg and Levy}{2014}]{goldberg2014word2vec}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./thesis.bbl:75: Undefined control sequence.
 <argument> \protect \astroncite 
                                 {Gray et~al.}{2009}
-l.66 ...cite{Gray et~al.}{2009}]{gray2009language}
+l.75 ...cite{Gray et~al.}{2009}]{gray2009language}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1258,11 +1316,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[16]
-./thesis.bbl:73: Undefined control sequence.
+./thesis.bbl:82: Undefined control sequence.
 <argument> \protect \astroncite 
                                 {Gutmann and Hyv{\"a}rinen}{2010}
-l.73   Hyv{\"a}rinen}{2010}]{gutmann2010noise}
+l.82   Hyv{\"a}rinen}{2010}]{gutmann2010noise}
                                               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1270,10 +1327,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.bbl:79: Undefined control sequence.
+./thesis.bbl:88: Undefined control sequence.
 <argument> \protect \astroncite 
                                 {J{\"a}ger}{2014}
-l.79 ...e{J{\"a}ger}{2014}]{jager2014phylogenetic}
+l.88 ...e{J{\"a}ger}{2014}]{jager2014phylogenetic}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1281,10 +1338,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.bbl:85: Undefined control sequence.
+./thesis.bbl:94: Undefined control sequence.
 <argument> \protect \astroncite 
                                 {Kingma and Welling}{2013}
-l.85 ...Kingma and Welling}{2013}]{kingma2013auto}
+l.94 ...Kingma and Welling}{2013}]{kingma2013auto}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1292,10 +1349,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.bbl:90: Undefined control sequence.
+./thesis.bbl:99: Undefined control sequence.
 <argument> \protect \astroncite 
                                 {Kondrak}{2000}
-l.90 ...astroncite{Kondrak}{2000}]{kondrak2000new}
+l.99 ...astroncite{Kondrak}{2000}]{kondrak2000new}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1303,10 +1360,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.bbl:97: Undefined control sequence.
+[17]
+./thesis.bbl:106: Undefined control sequence.
 <argument> \protect \astroncite 
                                 {Landauer et~al.}{2013}
-l.97 ...dauer et~al.}{2013}]{landauer2013handbook}
+l.106 ...auer et~al.}{2013}]{landauer2013handbook}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1314,10 +1372,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.bbl:102: Undefined control sequence.
+./thesis.bbl:111: Undefined control sequence.
 <argument> \protect \astroncite 
                                 {List}{2012}
-l.102 ...tect\astroncite{List}{2012}]{list2012sca}
+l.111 ...tect\astroncite{List}{2012}]{list2012sca}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1325,10 +1383,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.bbl:108: Undefined control sequence.
+./thesis.bbl:117: Undefined control sequence.
 <argument> \protect \astroncite 
                                 {Mikolov et~al.}{2013a}
-l.108 ...lov et~al.}{2013a}]{mikolov2013efficient}
+l.117 ...lov et~al.}{2013a}]{mikolov2013efficient}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1336,10 +1394,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.bbl:113: Undefined control sequence.
+./thesis.bbl:122: Undefined control sequence.
 <argument> \protect \astroncite 
                                 {Mikolov et~al.}{2013b}
-l.113 ...v et~al.}{2013b}]{mikolov2013distributed}
+l.122 ...v et~al.}{2013b}]{mikolov2013distributed}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1347,10 +1405,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.bbl:120: Undefined control sequence.
+./thesis.bbl:129: Undefined control sequence.
 <argument> \protect \astroncite 
                                 {Mnih and Teh}{2012}
-l.120 ...oncite{Mnih and Teh}{2012}]{mnih2012fast}
+l.129 ...oncite{Mnih and Teh}{2012}]{mnih2012fast}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1358,10 +1416,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.bbl:126: Undefined control sequence.
+./thesis.bbl:135: Undefined control sequence.
 <argument> \protect \astroncite 
                                 {Morin and Bengio}{2005}
-l.126 ...and Bengio}{2005}]{morin2005hierarchical}
+l.135 ...and Bengio}{2005}]{morin2005hierarchical}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1369,10 +1427,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.bbl:131: Undefined control sequence.
+./thesis.bbl:140: Undefined control sequence.
 <argument> \protect \astroncite 
                                 {Pedregosa et~al.}{2011}
-l.131 ...te{Pedregosa et~al.}{2011}]{scikit-learn}
+l.140 ...te{Pedregosa et~al.}{2011}]{scikit-learn}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1380,10 +1438,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.bbl:139: Undefined control sequence.
+./thesis.bbl:148: Undefined control sequence.
 <argument> \protect \astroncite 
                                 {Pennington et~al.}{2014}
-l.139 ...ngton et~al.}{2014}]{pennington2014glove}
+l.148 ...ngton et~al.}{2014}]{pennington2014glove}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1391,10 +1449,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.bbl:144: Undefined control sequence.
+./thesis.bbl:153: Undefined control sequence.
 <argument> \protect \astroncite 
                                 {Rama}{2016}
-l.144 ...\astroncite{Rama}{2016}]{rama2016siamese}
+l.153 ...\astroncite{Rama}{2016}]{rama2016siamese}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1402,10 +1460,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.bbl:151: Undefined control sequence.
+./thesis.bbl:160: Undefined control sequence.
 <argument> \protect \astroncite 
                                 {{\v R}eh{\r u}{\v r}ek and Sojka}{2010}
-l.151   Sojka}{2010}]{rehurek_lrec}
+l.160   Sojka}{2010}]{rehurek_lrec}
                                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1413,8 +1471,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.bbl:156: Undefined control sequence.
-l.156 \newblock \url
+./thesis.bbl:165: Undefined control sequence.
+l.165 \newblock \url
                     {http://is.muni.cz/publication/884893/en}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1423,39 +1481,50 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 3826) in paragraph at lines 152--157
+Underfull \hbox (badness 3826) in paragraph at lines 161--166
 [][]\OT1/cmr/m/n/10 Reh^^Wu^^Trek, R. and So-jka, P. (2010).  Soft-ware Frame-w
 ork for
  []
 
 
-Underfull \hbox (badness 4492) in paragraph at lines 152--157
+Underfull \hbox (badness 4492) in paragraph at lines 161--166
 \OT1/cmr/m/n/10 Topic Mod-elling with Large Cor-pora.  In \OT1/cmr/m/it/10 Pro-
 ceed-ings of the LREC 2010 Work-
  []
 
 
-Underfull \hbox (badness 1888) in paragraph at lines 152--157
+Underfull \hbox (badness 1888) in paragraph at lines 161--166
 \OT1/cmr/m/it/10 shop on New Chal-lenges for NLP Frame-works\OT1/cmr/m/n/10 , p
 ages 45--50, Val-letta, Malta. ELRA.
  []
 
-) [17] [18 </Users/marlon/Documents/BA/thesis/pictures/phoneme_embeddings_word2
-vec_all.png>] [19 </Users/marlon/Documents/BA/thesis/pictures/phoneme_embedding
-s_4models_comparison_meanAccLossTopn1.png>] [20 </Users/marlon/Documents/BA/the
+./thesis.bbl:167: Undefined control sequence.
+<argument> \protect \astroncite 
+                                {Wichmann et~al.}{2010}
+l.167 ...Wichmann et~al.}{2010}]{wichmann2010asjp}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+) [18] [19 </Users/marlon/Documents/BA/thesis/pictures/phoneme_embeddings_word2
+vec_all.png>] [20 </Users/marlon/Documents/BA/thesis/pictures/phoneme_embedding
+s_4models_comparison_meanAccLossTopn1.png>] [21 </Users/marlon/Documents/BA/the
 sis/pictures/phoneme_embeddings_detailed_evaluation_topn1.png> </Users/marlon/D
 ocuments/BA/thesis/pictures/phoneme_embeddings_detailed_evaluation_consonants_t
-opn1_poooled.png>] [21 </Users/marlon/Documents/BA/thesis/pictures/vae_model_vi
-sualization.png>] [22 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_bin
-ary_asjp_subsample_words.png>] [23 </Users/marlon/Documents/BA/thesis/pictures/
+opn1_poooled.png>] [22 </Users/marlon/Documents/BA/thesis/pictures/vae_model_vi
+sualization.png>] [23 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_bin
+ary_asjp_subsample_words.png>] [24 </Users/marlon/Documents/BA/thesis/pictures/
 vae_phono_binary_wordLength.png> </Users/marlon/Documents/BA/thesis/pictures/va
 e_phono_binary_wordLength_detail1.png> </Users/marlon/Documents/BA/thesis/pictu
 res/vae_phono_binary_wordLength_detail2.png> </Users/marlon/Documents/BA/thesis
-/pictures/vae_phono_binary_wordLength_detail3.png>] [24 </Users/marlon/Document
+/pictures/vae_phono_binary_wordLength_detail3.png>] [25 </Users/marlon/Document
 s/BA/thesis/pictures/vae_phono_binary_clicks.png> </Users/marlon/Documents/BA/t
 hesis/pictures/vae_phono_binary_dental.png> </Users/marlon/Documents/BA/thesis/
 pictures/vae_phono_binary_fricative.png> </Users/marlon/Documents/BA/thesis/pic
-tures/vae_phono_binary_fricative_detail1.png>] [25 </Users/marlon/Documents/BA/
+tures/vae_phono_binary_fricative_detail1.png>] [26 </Users/marlon/Documents/BA/
 thesis/pictures/vae_phono_binary_orthofeature_labialized.png> </Users/marlon/Do
 cuments/BA/thesis/pictures/vae_phono_binary_orthofeature_palatalized.png> </Use
 rs/marlon/Documents/BA/thesis/pictures/vae_phono_binary_orthofeature_aspirated.
@@ -1467,13 +1536,13 @@ LaTeX Warning: There were undefined references.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 329 ({)
+### simple group (level 1) entered at line 335 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 5768 strings out of 493089
- 89085 string characters out of 6134842
- 175331 words of memory out of 5000000
- 9143 multiletter control sequences out of 15000+600000
+ 5772 strings out of 493089
+ 89145 string characters out of 6134842
+ 176285 words of memory out of 5000000
+ 9147 multiletter control sequences out of 15000+600000
  14938 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,16n,39p,1496b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1499,10 +1568,10 @@ live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/
 texlive/2015/texmf-dist/fonts/type1/public/tipa/tipa10.pfb></usr/local/texlive/
 2015/texmf-dist/fonts/type1/public/tipa/tipa8.pfb>
-Output written on thesis.pdf (25 pages, 3126115 bytes).
+Output written on thesis.pdf (26 pages, 3129696 bytes).
 PDF statistics:
- 217 PDF objects out of 1000 (max. 8388607)
- 124 compressed objects within 2 object streams
+ 220 PDF objects out of 1000 (max. 8388607)
+ 126 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  106 words of extra memory for PDF output out of 10000 (max. 10000000)
 

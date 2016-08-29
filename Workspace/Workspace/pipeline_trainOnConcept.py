@@ -16,8 +16,8 @@ print("FIT VAE")
 batch_size = X.shape[0]
 dim_phoneme_embeddings = 16
 original_dim = dim_phoneme_embeddings * padToMaxLength
-latent_dim = 20
-intermediate_dim = 100
+latent_dim = 10
+intermediate_dim = 200
 
 
 epsilon_std = 0.1
@@ -37,29 +37,46 @@ print("EMBED TEST WORDS")
 embeddings = vae.embed(X)
 
 print("SAMPLING POSTERIOR")
-n_posterior_samples = 1000
+n_posterior_samples = 4000
 posterior = np.array([vae.sample_z_posterior(X) for i in range(n_posterior_samples)]).reshape(-1,latent_dim)
 print("KDE OF POSTERIOR")
 from scipy.stats import gaussian_kde 
-
+ 
 kernel_posterior = gaussian_kde(posterior.T)
-pref = [-1/kernel_posterior.pdf(x) for x in embeddings]
+#pref = [-1/kernel_posterior.pdf(x) for x in embeddings]
 
 print("CLUSTER WORDS")
-from scipy.spatial.distance import cosine
+from scipy.spatial.distance import cosine,euclidean
+from sklearn.preprocessing import minmax_scale
 concepts2embeddings = dict((concept,[emb for i,emb in enumerate(embeddings) if global_ids[i] == concept]) for concept in set(sorted(global_ids)))
 concepts2cognate_classes = dict((concept,[cog for i,cog in enumerate(cognate_classes) if global_ids[i] == concept]) for concept in set(sorted(global_ids)))
 #for damping_factor in np.arange(0.5,1,0.05):
 damping_factor = 0.5
 
-affinity = "euclidean"
+affinity = "precomputed"
 ap = AffinityPropagation(damping=damping_factor,
                          #preference=pref
                          affinity=affinity
                          )
 
 if affinity == "precomputed":
-    y_pred = ap.fit_predict(np.array([-cosine(u, v) for u in embeddings for v in embeddings]).reshape((len(embeddings),len(embeddings))))
+    alpha = 1
+    dists = np.zeros((len(embeddings),len(embeddings)))
+    for u,emb_u in enumerate(embeddings):
+        print(u,"/",len(embeddings))
+        for v,emb_v in enumerate(embeddings):
+            print(u,"/",len(embeddings)," - ",v,"/",len(embeddings))
+
+            dists[u,v] = -(
+                    euclidean(
+                            emb_u/(alpha*-np.log(kernel_posterior.pdf(emb_u))),
+                             emb_v/(alpha*-np.log(kernel_posterior.pdf(emb_v)))
+                              )
+                ) 
+    print("dists\n",dists)
+    #dists = (minmax_scale(dists)-np.max(minmax_scale(dists)))
+    #y_pred = ap.fit_predict((minmax_scale(dists)-np.max(minmax_scale(dists))).reshape((len(embeddings),len(embeddings))))
+    y_pred = ap.fit_predict(dists)
 else:
     y_pred = ap.fit_predict(embeddings)
 n_cognate_classes = len(set(cognate_classes))
