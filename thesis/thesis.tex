@@ -554,7 +554,7 @@ To cluster the embeddings, we have to make sure that the number of clusters can 
 This thesis proposes Affinity propagation (cf. \cite{frey2007clustering}) to solve that task. Here the algorithm exchanges real-valued messages between the data points until a high-quality set of exemplars and corresponding clusters
 gradually emerges. This allows for the number of clusters and individual cluster size to be left undefined.
 
-As we know that  certain subspaces in $\mathcal{Z}$ accumulate more probability mass than others, we can assume that this should affect the similarity between points in $\mathcal{Z}$. In fact, the group of words with low self-information cluster among each other and are probably even closer to each other than members of actual cognate classes. Hence we have to weight the distances between the embeddings according to their respective self-information.
+However, as we know that  certain subspaces in $\mathcal{Z}$ accumulate more probability mass than others, we can assume that this should affect the similarity between points in $\mathcal{Z}$. In fact, the group of words with low self-information cluster among each other and are probably even closer to each other than members of actual cognate classes. Hence we have to weight the distances between the embeddings according to their respective self-information.
 
 We can define this distances as 
 
@@ -576,6 +576,8 @@ A first visual inspection shows that the model learns to cluster similar strings
 On a more global perspective, words are embedded into a high-level feature continuum that encodes word lengths (Fig. \ref{fig:vae_phono_binary_wordLength}), with smooth transitions between the respective subspaces. This is remarkable, given that there are no word boundary tokens involved during training. The model itself learns to recognize the transition from the binary code of the actual phonemes of the word to the zero-padding following it.
 Moreover, the linear dependencies are not simple renderings of the binary input code. The model learns high-level latent features, such as if a word has a phoneme with a certain distinctive feature or not (Fig. \ref{fig:vae_phono_binary_features}). If so, linear dependencies connect such words, even over very long distances. In fact, some of those linear dependencies form bigger clusters that can span the entire posterior distribution. 
 Even more remarkable is that the model learns to cluster words with similar coarticulation features \textit{even though they were excluded during training}, but only existent on some latent level (Fig. \ref{fig:vae_phono_orthofeatures}). Here, the model learns to distinguish plain /w j h/ from true labialization, palatalization and aspiration, although they were merged in the input code. If the model treated them as equal, we would expect a uniform distribution over the respective words. However, we see that the words accumulate in different subspaces. Since the model learns to cluster words according to their phonological structure, it recognizes that the context plain /w j h/ occur in differs from the context of coarticulated phonemes and hence locates the respective words in different subspaces of $\mathcal{Z}$.
+
+The posterior distributions for several IELex concepts show linear dependencies for members of the same cognate class (Fig. \ref{fig:asjp_2000_binary_singleIELEXConcepts_posteriors}). Hence, if the given semantic concept only consists of members of a single cognate class, the whole posterior shows strong linear dependencies (Fig. \ref{fig:asjp_2000_binary_singleIELEXConcepts_posteriors} top left). However, this focus on linear dependencies as a means to encode latent information makes it hard to cluster cognates. 
 
 \begin{figure}[h] %  figure placement: here, top, bottom, or page
    \centering
@@ -665,6 +667,35 @@ Even more remarkable is that the model learns to cluster words with similar coar
   \caption{The ASJP data set embedded into $\mathcal{Z}$ after trained on it for 100 iterations. Since the binary features ignore coarticulations as such and encode them as independent phonemes instead, the model might learn to distinguish them, given some underlying latent features. (top left) The distribution of words that contain plain /w/ versus words with proper labialization. If the model did not learn the difference, we would expect some uniform distributions over all words that contain /w/ in the input. However, we can clearly see that words with proper labialization are located in other subspaces than words with proper /w/. Moreover, we see that words with labialized phonemes show linear dependence. (top right) The distribution of words that contain plain /y/ versus words with proper palatalization. Again, we see a clear distinction between the two. (bottom left) The distribution of words that contain plain /h/ versus words with proper aspiration. Again, we see a clear distinction between the two. (bottom right) The distribution of words that contain glottalized sounds versus that of words without. As glottalization can cover both vowels and consonants, the distributions are spread over the whole population. However, we can see that glottalized sounds cluster at the bottom right, a subspace containing mostly mostly words with velar and uvular consonants.}
   \label{fig:vae_phono_orthofeatures} 
 \end{figure}
+
+
+ \begin{figure}[ht] 
+  \begin{subfigure}[b]{0.5\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{asjp_200_binary_singleConcept_posterior_name.png} 
+    \label{fig:vae_phono_orthofeatures0} 
+    \vspace{4ex}
+  \end{subfigure}%% 
+  \begin{subfigure}[b]{0.5\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{asjp_200_binary_singleConcept_posterior_sing.png} 
+    \label{fig:vae_phono_orthofeatures1} 
+    \vspace{4ex}
+  \end{subfigure} 
+  \begin{subfigure}[b]{0.5\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{asjp_200_binary_singleConcept_posterior_snake.png} 
+    \label{fig:vae_phono_orthofeatures2} 
+  \end{subfigure}%%
+  \begin{subfigure}[b]{0.5\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{asjp_200_binary_singleConcept_posterior_snake_detail2.png} 
+    \label{fig:vae_phono_orthofeatures3} 
+  \end{subfigure} 
+  \caption{The posterior distribution $P(z|X)$ with X being the IELex data with regards to the single semantic concepts. The model was trained on ASJP for 2000 iterations. Colors indicate the respective true cognate class. (top left) The posterior for the concept "name". As all words are cognates to each other, we see strong linear dependencies over the distribution. Also note that the embeddings are embedded into a latent continuum of word lengths, from the the top left to the bottom right. Moreover, the members of the left hand side clusters all start with consonants, while the members of the clusters on right hand side all start with vowels or approximants. (top right) The posterior for "sing". Again, cognates show stronger linear dependencies among each other. (bottom left) The posterior for "snake". The romance words (pink samples) show linear dependencies. (bottom right) A closer look on some words for "snake". As VAE-PT concentrates on clustering words with similar syllable structures, it tends to cluster words that share such similarities close to each other. Here, it overestimates the similarity between Slovak /had/ and Upper Sorbian /huZ/ on the one side and the words /sap/ (Bihari,Magahi,Urdu,Marathi) and /xap/ (Assamese) on the other.  }
+  \label{fig:asjp_2000_binary_singleIELEXConcepts_posteriors} 
+\end{figure}
+
 
 \subsection{Results}
 \section{Resume}

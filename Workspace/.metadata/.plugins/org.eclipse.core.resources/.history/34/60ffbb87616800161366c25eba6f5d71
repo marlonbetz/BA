@@ -1,5 +1,0 @@
-import numpy as np
-from scipy.stats import multivariate_normal as mvn
-from scipy.stats import gaussian_kde
-
-prior_pdf = lambda x: mvn.pdf(x, np.zeros(2), np.identity(2))

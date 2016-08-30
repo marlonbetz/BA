@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  29 AUG 2016 19:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  30 AUG 2016 14:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -278,7 +278,32 @@ Package caption Info: floatrow package is loaded.
 LaTeX Warning: Unused global option(s):
     [6pt].
 
-(./thesis.aux)
+(./thesis.aux
+
+LaTeX Warning: Label `fig:vae_phono_orthofeatures0' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:vae_phono_orthofeatures0' multiply defined.
+
+
+LaTeX Warning: Label `fig:vae_phono_orthofeatures1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:vae_phono_orthofeatures1' multiply defined.
+
+
+LaTeX Warning: Label `fig:vae_phono_orthofeatures2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:vae_phono_orthofeatures2' multiply defined.
+
+
+LaTeX Warning: Label `fig:vae_phono_orthofeatures3' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:vae_phono_orthofeatures3' multiply defined.
+
+)
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
@@ -976,7 +1001,7 @@ e_words.png Graphic file (type png)
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_asjp_subsample
 _words.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_asjp_subsample_words.png used on input line 582.
+inary_asjp_subsample_words.png used on input line 584.
 (pdftex.def)             Requested size: 430.00462pt x 257.99982pt.
 
 
@@ -991,7 +1016,7 @@ g Graphic file (type png)
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_wordLength.png
 >
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_wordLength.png used on input line 591.
+inary_wordLength.png used on input line 593.
 (pdftex.def)             Requested size: 215.0023pt x 147.81316pt.
 
 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_wordLength_detail1
@@ -1002,7 +1027,7 @@ tail1.png Graphic file (type png)
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_wordLength_det
 ail1.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_wordLength_detail1.png used on input line 597.
+inary_wordLength_detail1.png used on input line 599.
 (pdftex.def)             Requested size: 215.0023pt x 147.81316pt.
 
 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_wordLength_detail2
@@ -1013,7 +1038,7 @@ tail2.png Graphic file (type png)
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_wordLength_det
 ail2.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_wordLength_detail2.png used on input line 603.
+inary_wordLength_detail2.png used on input line 605.
 (pdftex.def)             Requested size: 215.0023pt x 147.81316pt.
 
 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_wordLength_detail3
@@ -1024,7 +1049,7 @@ tail3.png Graphic file (type png)
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_wordLength_det
 ail3.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_wordLength_detail3.png used on input line 608.
+inary_wordLength_detail3.png used on input line 610.
 (pdftex.def)             Requested size: 215.0023pt x 147.81316pt.
 
 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_clicks.png, id=87,
@@ -1034,7 +1059,7 @@ aphic file (type png)
 
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_clicks.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_clicks.png used on input line 618.
+inary_clicks.png used on input line 620.
 (pdftex.def)             Requested size: 215.0023pt x 147.81316pt.
 
 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_dental.png, id=88,
@@ -1044,7 +1069,7 @@ aphic file (type png)
 
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_dental.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_dental.png used on input line 624.
+inary_dental.png used on input line 626.
 (pdftex.def)             Requested size: 215.0023pt x 147.81316pt.
 
 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_fricative.png, id=
@@ -1054,7 +1079,7 @@ File: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_fricative.png
 
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_fricative.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_fricative.png used on input line 630.
+inary_fricative.png used on input line 632.
 (pdftex.def)             Requested size: 215.0023pt x 147.81316pt.
 
 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_fricative_detail1.
@@ -1065,7 +1090,7 @@ ail1.png Graphic file (type png)
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_fricative_deta
 il1.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_fricative_detail1.png used on input line 635.
+inary_fricative_detail1.png used on input line 637.
 (pdftex.def)             Requested size: 215.0023pt x 147.81316pt.
 
 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_orthofeature_labia
@@ -1076,7 +1101,7 @@ labialized.png Graphic file (type png)
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_orthofeature_l
 abialized.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_orthofeature_labialized.png used on input line 645.
+inary_orthofeature_labialized.png used on input line 647.
 (pdftex.def)             Requested size: 215.0023pt x 147.81316pt.
 
 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_orthofeature_palat
@@ -1087,7 +1112,7 @@ palatalized.png Graphic file (type png)
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_orthofeature_p
 alatalized.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_orthofeature_palatalized.png used on input line 651.
+inary_orthofeature_palatalized.png used on input line 653.
 (pdftex.def)             Requested size: 215.0023pt x 147.81316pt.
 
 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_orthofeature_aspir
@@ -1098,7 +1123,7 @@ aspirated.png Graphic file (type png)
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_orthofeature_a
 spirated.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_orthofeature_aspirated.png used on input line 657.
+inary_orthofeature_aspirated.png used on input line 659.
 (pdftex.def)             Requested size: 215.0023pt x 147.81316pt.
 
 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_orthofeature_glott
@@ -1109,13 +1134,57 @@ glottalized.png Graphic file (type png)
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_orthofeature_g
 lottalized.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_orthofeature_glottalized.png used on input line 662.
+inary_orthofeature_glottalized.png used on input line 664.
 (pdftex.def)             Requested size: 215.0023pt x 147.81316pt.
 
-./thesis.tex:672: Undefined control sequence.
+</Users/marlon/Documents/BA/thesis/pictures/asjp_200_binary_singleConcept_poste
+rior_name.png, id=95, 578.16pt x 433.62pt>
+File: /Users/marlon/Documents/BA/thesis/pictures/asjp_200_binary_singleConcept_
+posterior_name.png Graphic file (type png)
+
+<use /Users/marlon/Documents/BA/thesis/pictures/asjp_200_binary_singleConcept_p
+osterior_name.png>
+Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/asjp_200_bi
+nary_singleConcept_posterior_name.png used on input line 675.
+(pdftex.def)             Requested size: 215.0023pt x 161.25072pt.
+
+</Users/marlon/Documents/BA/thesis/pictures/asjp_200_binary_singleConcept_poste
+rior_sing.png, id=96, 578.16pt x 433.62pt>
+File: /Users/marlon/Documents/BA/thesis/pictures/asjp_200_binary_singleConcept_
+posterior_sing.png Graphic file (type png)
+
+<use /Users/marlon/Documents/BA/thesis/pictures/asjp_200_binary_singleConcept_p
+osterior_sing.png>
+Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/asjp_200_bi
+nary_singleConcept_posterior_sing.png used on input line 681.
+(pdftex.def)             Requested size: 215.0023pt x 161.25072pt.
+
+</Users/marlon/Documents/BA/thesis/pictures/asjp_200_binary_singleConcept_poste
+rior_snake.png, id=97, 578.16pt x 433.62pt>
+File: /Users/marlon/Documents/BA/thesis/pictures/asjp_200_binary_singleConcept_
+posterior_snake.png Graphic file (type png)
+
+<use /Users/marlon/Documents/BA/thesis/pictures/asjp_200_binary_singleConcept_p
+osterior_snake.png>
+Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/asjp_200_bi
+nary_singleConcept_posterior_snake.png used on input line 687.
+(pdftex.def)             Requested size: 215.0023pt x 161.25072pt.
+
+</Users/marlon/Documents/BA/thesis/pictures/asjp_200_binary_singleConcept_poste
+rior_snake_detail2.png, id=98, 578.16pt x 433.62pt>
+File: /Users/marlon/Documents/BA/thesis/pictures/asjp_200_binary_singleConcept_
+posterior_snake_detail2.png Graphic file (type png)
+
+<use /Users/marlon/Documents/BA/thesis/pictures/asjp_200_binary_singleConcept_p
+osterior_snake_detail2.png>
+Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/asjp_200_bi
+nary_singleConcept_posterior_snake_detail2.png used on input line 692.
+(pdftex.def)             Requested size: 215.0023pt x 161.25072pt.
+
+./thesis.tex:703: Undefined control sequence.
 \b@rehurek_lrec ->\astroncite 
                               {{\v R}eh{\r u}{\v r}ek and Sojka}{2010}
-l.672 ...by the gensim package \cite{rehurek_lrec}
+l.703 ...by the gensim package \cite{rehurek_lrec}
                                                   . The Autoencoder was impl...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1123,10 +1192,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.tex:672: Undefined control sequence.
+./thesis.tex:703: Undefined control sequence.
 \b@chollet2015keras ->\astroncite 
                                   {Chollet}{2015}
-l.672 ...mented with Keras \cite{chollet2015keras}
+l.703 ...mented with Keras \cite{chollet2015keras}
                                                    and Tensorflow \cite{tens...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1134,10 +1203,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.tex:672: Undefined control sequence.
+./thesis.tex:703: Undefined control sequence.
 \b@tensorflow2015-whitepaper ->\astroncite 
                                            {Abadi et\nobreakspace {}al.}{2015}
-l.672 ...nsorflow \cite{tensorflow2015-whitepaper}
+l.703 ...nsorflow \cite{tensorflow2015-whitepaper}
                                                   . The clustering algorithm...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1145,10 +1214,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.tex:672: Undefined control sequence.
+./thesis.tex:703: Undefined control sequence.
 \b@scikit-learn ->\astroncite 
                               {Pedregosa et\nobreakspace {}al.}{2011}
-l.672 ...vided by scikit-learn \cite{scikit-learn}
+l.703 ...vided by scikit-learn \cite{scikit-learn}
                                                   . All code connected to th...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1156,7 +1225,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-(./thesis.bbl
+(./thesis.bbl [16]
 ./thesis.bbl:3: Undefined control sequence.
 <argument> \protect \astroncite 
                                 {Abadi et~al.}{2015}
@@ -1168,7 +1237,6 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[16]
 ./thesis.bbl:15: Undefined control sequence.
 <argument> \protect \astroncite 
                                 {Bengio and Courville}{2016}
@@ -1338,6 +1406,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[17]
 ./thesis.bbl:94: Undefined control sequence.
 <argument> \protect \astroncite 
                                 {Kingma and Welling}{2013}
@@ -1360,7 +1429,6 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[17]
 ./thesis.bbl:106: Undefined control sequence.
 <argument> \protect \astroncite 
                                 {Landauer et~al.}{2013}
@@ -1529,9 +1597,17 @@ thesis/pictures/vae_phono_binary_orthofeature_labialized.png> </Users/marlon/Do
 cuments/BA/thesis/pictures/vae_phono_binary_orthofeature_palatalized.png> </Use
 rs/marlon/Documents/BA/thesis/pictures/vae_phono_binary_orthofeature_aspirated.
 png> </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_orthofeature_
-glottalized.png>] (./thesis.aux)
+glottalized.png>] [27 </Users/marlon/Documents/BA/thesis/pictures/asjp_200_bina
+ry_singleConcept_posterior_name.png> </Users/marlon/Documents/BA/thesis/picture
+s/asjp_200_binary_singleConcept_posterior_sing.png> </Users/marlon/Documents/BA
+/thesis/pictures/asjp_200_binary_singleConcept_posterior_snake.png> </Users/mar
+lon/Documents/BA/thesis/pictures/asjp_200_binary_singleConcept_posterior_snake_
+detail2.png>] (./thesis.aux)
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
  )
 (\end occurred inside a group at level 1)
@@ -1539,10 +1615,10 @@ LaTeX Warning: There were undefined references.
 ### simple group (level 1) entered at line 335 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 5772 strings out of 493089
- 89145 string characters out of 6134842
- 176285 words of memory out of 5000000
- 9147 multiletter control sequences out of 15000+600000
+ 5793 strings out of 493089
+ 90972 string characters out of 6134842
+ 178560 words of memory out of 5000000
+ 9164 multiletter control sequences out of 15000+600000
  14938 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,16n,39p,1496b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1568,10 +1644,10 @@ live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/
 texlive/2015/texmf-dist/fonts/type1/public/tipa/tipa10.pfb></usr/local/texlive/
 2015/texmf-dist/fonts/type1/public/tipa/tipa8.pfb>
-Output written on thesis.pdf (26 pages, 3129696 bytes).
+Output written on thesis.pdf (27 pages, 3543923 bytes).
 PDF statistics:
- 220 PDF objects out of 1000 (max. 8388607)
- 126 compressed objects within 2 object streams
+ 231 PDF objects out of 1000 (max. 8388607)
+ 128 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
 

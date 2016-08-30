@@ -2,12 +2,13 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="vow" key="selection"/>
+		<item value="weighted" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="euclidean"/>
 			<item value="vow"/>
 			<item value="_test"/>
 			<item value="phoneme"/>
@@ -15,9 +16,9 @@
 			<item value="phono"/>
 			<item value="1"/>
 			<item value="0"/>
-			<item value="words"/>
 		</list>
 		<list key="replacehistory">
+			<item value="weighted"/>
 			<item value=""/>
 			<item value="True"/>
 			<item value="False"/>

@@ -1,4 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;Workspace/pipeline.h5&apos;" deleteContents="false" description="Delete resource &apos;Workspace/pipeline.h5&apos;" element1="/Workspace/pipeline.h5" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1472467364583"/>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;Workspace/pipeline.h5&apos;" deleteContents="false" description="Delete resource &apos;Workspace/pipeline.h5&apos;" element1="/Workspace/pipeline.h5" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1472467364583"/>&#x0A;<refactoring comment="Delete resource &apos;Workspace/homogeneity_completeness_v_measures_scores.pkl&apos;" deleteContents="false" description="Delete resource &apos;Workspace/homogeneity_completeness_v_measures_scores.pkl&apos;" element1="/Workspace/homogeneity_completeness_v_measures_scores.pkl" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1472495516003"/>
 </session>
