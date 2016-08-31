@@ -1,0 +1,16 @@
+import numpy as np
+from scipy.stats import gaussian_kde
+
+class ClusterWeighting(object):
+    def __init__(self,distr):
+        self.distr = distr
+        self.kernel = gaussian_kde(distr.T)
+        
+    
+    def getClusterLogLikelihood(self,cluster_members):
+        return np.sum(np.array([np.log2(self.kernel.pdf(x)) for x in cluster_members]))
+    def getClusterSelfInformation(self,cluster_members):
+        return - self.getClusterLogLikelihood(cluster_members)
+cw = ClusterWeighting(np.random.normal(0,1,(4000,2)))
+print(cw.getClusterSelfInformation(np.random.normal(0,.1,(20,2))))
+print(cw.getClusterSelfInformation(np.random.normal(1,.01,(10,2))))

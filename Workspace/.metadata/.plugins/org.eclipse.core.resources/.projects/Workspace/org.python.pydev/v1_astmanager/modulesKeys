@@ -11,6 +11,7 @@ affinity_propagation_sandbox|/Users/marlon/Documents/BA/Workspace/Workspace/affi
 asjp_2000_binary_sandbox|/Users/marlon/Documents/BA/Workspace/Workspace/asjp_2000_binary_sandbox.py
 binary_phoneme_features|/Users/marlon/Documents/BA/Workspace/Workspace/binary_phoneme_features.py
 cluster_singleConcept_asjp_2000_binary_PCA|/Users/marlon/Documents/BA/Workspace/Workspace/cluster_singleConcept_asjp_2000_binary_PCA.py
+cluster_weighting|/Users/marlon/Documents/BA/Workspace/Workspace/cluster_weighting.py
 kld|/Users/marlon/Documents/BA/Workspace/Workspace/kld.py
 learn_local_manifolds|/Users/marlon/Documents/BA/Workspace/Workspace/learn_local_manifolds.py
 models|/Users/marlon/Documents/BA/Workspace/Workspace/models.py
@@ -23,6 +24,7 @@ pipeline_trainOnConcept|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline_
 pipeline_trainOnConcept_gridSearch|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline_trainOnConcept_gridSearch.py
 pipeline_trainOnConcept_mean|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline_trainOnConcept_mean.py
 pipeline_trainOnConcept_phonemeEmbeddings|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline_trainOnConcept_phonemeEmbeddings.py
+pipeline_trainOnConcept_weightClusters|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline_trainOnConcept_weightClusters.py
 pipeline_trainOnEachConcept|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline_trainOnEachConcept.py
 plot_singleConcept_asjp_2000_binary|/Users/marlon/Documents/BA/Workspace/Workspace/plot_singleConcept_asjp_2000_binary.py
 plot_singleConcept_asjp_2000_binary_PCA|/Users/marlon/Documents/BA/Workspace/Workspace/plot_singleConcept_asjp_2000_binary_PCA.py

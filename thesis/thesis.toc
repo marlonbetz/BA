@@ -13,9 +13,10 @@
 \contentsline {subsubsection}{\numberline {4.2.1}Autoencoders}{12}
 \contentsline {subsubsection}{\numberline {4.2.2}Variational Autoencoders}{13}
 \contentsline {subsection}{\numberline {4.3}Clustering}{15}
-\contentsline {section}{\numberline {5}Evaluation}{15}
-\contentsline {subsection}{\numberline {5.1}Data}{15}
+\contentsline {section}{\numberline {5}Evaluation}{16}
+\contentsline {subsection}{\numberline {5.1}Data}{16}
 \contentsline {subsection}{\numberline {5.2}Evaluation of $P(X)$}{16}
-\contentsline {subsection}{\numberline {5.3}Results}{16}
-\contentsline {section}{\numberline {6}Resume}{16}
-\contentsline {section}{\numberline {7}Acknowledgements}{16}
+\contentsline {subsection}{\numberline {5.3}Results}{17}
+\contentsline {section}{\numberline {6}Discussion}{17}
+\contentsline {section}{\numberline {7}Resume}{17}
+\contentsline {section}{\numberline {8}Acknowledgements}{17}

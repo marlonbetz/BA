@@ -564,12 +564,22 @@ d_{weighted}(z_1,z_2) = d_{euclidean}(\frac{z_1}{I(z_1)}),\frac{z_2}{I(z_2)}))
 
 This means that the lower the self-information for a given word is, the farer its position is shifted away from its current position. If two embeddings are close to each other but have low self-information, the weighted distance between them is correspondingly larger than the actual euclidean distance. However, if the self-information is bigger, the words can reside in a cluster with higher variance, but the weighted distance between them would be smaller than if that cluster would be situated in an area with high probability mass.
 
+Another way to weight the clusters as such is to use their respective self-information. If we define the likelihood of a cluster as 
+\begin{equation}
+\mathcal{L}(C)  =  \prod _{c \in C} P(c)
+\end{equation}
+we have its self-information as 
+\begin{equation}
+I(C)  =  - \log \mathcal{L}(C) 
+\end{equation}
+
+If the self-information of a cluster is lower than a certain threshold that has to be adjusted as hyperparameter of the model, we can assume that its inferred cognate class assignments are not trustworthy. As we prefer false negatives over false positives, we can ignore such clusters, which leaves the respective members unrelated.  
 
 \section{Evaluation}
 \subsection{Data}
 To pre-train VAE-PT,  the data provided by the Automatic Similarity Judgement Program (ASJP, \cite{wichmann2010asjp} will serve as a training corpus. ASJP provides wordlists of roughly 7200 languages, where each word is given as a string of phonemes. This vast amount of different phoneme inventories will allow for the unbiased comparison of phonemes over language boundaries. However, ASJP does not make use of IPA, but a simplified phonemic alphabet that is based on ASCII-characters. This makes it possible to incorporate data where no detailed IPA description is given, but might also reduce the quality of the resulting embedding space, as latent features that might be encoded in more specific IPA descriptions are merged. For all other data, respective conversions into the ASJP system are used.  An overview of the ASJP phonemes and their IPA counterparts are given in the appendix.
 
-Both models are tested on IELex (cf. \cite{dunn2012indo}) and the 
+VAE-PT is trained and tested on IELex (cf. \cite{dunn2012indo}), while VAE-PT is tested on it. IELex provides 250 concepts for 163 doculects. After the removal of ancient language forms and legacy doculects, this leaves around 60 languages, as the number of languages varies per concept.
 \subsection{Evaluation of $P(X)$}
 
 A first visual inspection shows that the model learns to cluster similar strings close to each other (Fig. \ref{fig:vae_phono_binary_asjp_subsample_words}). Words with similar syllable structures are located in specific subspaces of $\mathcal{Z}$. It further connects strings beyond local clusters through linear dependencies, which can interchange whole syllables of a word. 
@@ -698,6 +708,7 @@ The posterior distributions for several IELex concepts show linear dependencies 
 
 
 \subsection{Results}
+\section{Discussion}
 \section{Resume}
 \section{Acknowledgements}
 For training the phoneme embeddings, I used the word2vec implementations provided by the gensim package \cite{rehurek_lrec}. The Autoencoder was implemented with Keras \cite{chollet2015keras} and Tensorflow \cite{tensorflow2015-whitepaper}. The clustering algorithms used here were provided by scikit-learn \cite{scikit-learn}. All code connected to this thesis can be found on my github \footnote{https://github.com/marlonbetz/BA}

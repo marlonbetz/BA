@@ -1,0 +1,31 @@
+import numpy as np
+from scipy.stats import gaussian_kde
+
+class ClusterWeighting(object):
+    def __init__(self,distr):
+        self.distr = distr
+        self.kernel = gaussian_kde(distr.T)
+        
+    
+    def getClusterLogLikelihood(self,cluster_members):
+        return np.sum(np.array([np.log2(self.kernel.pdf(x)) for x in cluster_members]))
+    def getClusterSelfInformation(self,cluster_members):
+        return - self.getClusterLogLikelihood(cluster_members)
+    def rearrangeLabels(self,y_pred2members,threshold):
+        y_pred2selfInformation = dict((y,cw.getClusterSelfInformation(y_pred2members[y])) for y in y_pred2members)
+        y_pred2members_new = dict()
+        y_new= np.max(list(set(y_pred2members.keys()))) +1
+        for y in y_pred2selfInformation:
+            I = y_pred2selfInformation[y]
+            if I >= threshold:
+                y_pred2members_new[y] = y_pred2members[y]
+            else:
+                for d in y_pred2members[y]:
+                    y_pred2members_new[y_new] = np.array(d).reshape((1,-1))
+                    y_new +=1
+        return y_pred2members_new
+        
+cw = ClusterWeighting(np.random.normal(0,1,(4000,2)))
+print(cw.getClusterSelfInformation(np.random.normal(0,.01,(10,2))))
+print(cw.getClusterSelfInformation(np.random.normal(-3,.1,(4,2))))
+print(cw.rearrangeLabels({0:np.random.normal(0,1,(1,2))},1))
