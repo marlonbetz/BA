@@ -3,7 +3,7 @@ from cluster_weighting import *
 print("LOAD TEST WORDLIST")
 pathToAnnotatedWordList = "Data/IELex/output/IELex-2016.tsv.asjp"
 
-languages,words,global_ids,cognate_classes = loadAnnotatedWordList(pathToAnnotatedWordList, {1277})
+languages,words,global_ids,cognate_classes = loadAnnotatedWordList(pathToAnnotatedWordList, {1443})
 
 print("VECTORIZE TEST WORDS")
 padToMaxLength=15
@@ -20,7 +20,7 @@ latent_dim = 2
 intermediate_dim = 200
 
 
-epsilon_std = 0.1
+epsilon_std = 0.2
 nb_epoch =40000
 
 vae = VAE(latent_dim=latent_dim,
@@ -98,9 +98,7 @@ print("WEIGHT CLUSTERS AND REARRANGE INFERRED LABELS")
 cw = ClusterWeighting(posterior)
 y_pred2selfInformation = dict((y,cw.getClusterSelfInformation(y_pred2members[y])) for y in y_pred2members)
 print(y_pred2selfInformation)
-threshold = 2*np.mean(list(y_pred2selfInformation.values()))
-print("threshold",threshold)
-y_pred_weighted,i_X_changed_y = cw.rearrangeLabels(X=embeddings,y_pred=y_pred, threshold=threshold)
+y_pred_weighted,i_X_changed_y = cw.rearrangeLabels(X=embeddings,y_pred=y_pred, threshold=-20)
 y_pred_weighted = y_pred_weighted.flatten()
 print(i_X_changed_y)
 

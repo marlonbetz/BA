@@ -38,6 +38,12 @@ Bouckaert, R., Lemey, P., Dunn, M., Greenhill, S.~J., Alekseyenko, A.~V.,
   family.
 \newblock {\em Science}, 337(6097):957--960.
 
+\bibitem[\protect\astroncite{Bowman et~al.}{2015}]{bowman2015generating}
+Bowman, S.~R., Vilnis, L., Vinyals, O., Dai, A.~M., Jozefowicz, R., and Bengio,
+  S. (2015).
+\newblock Generating sentences from a continuous space.
+\newblock {\em arXiv preprint arXiv:1511.06349}.
+
 \bibitem[\protect\astroncite{Chollet}{2015}]{chollet2015keras}
 Chollet, F. (2015).
 \newblock Keras.
@@ -60,6 +66,12 @@ Doersch, C. (2016).
 \bibitem[\protect\astroncite{Dunn}{2012}]{dunn2012indo}
 Dunn, M. (2012).
 \newblock Indo-european lexical cognacy database (ielex).
+
+\bibitem[\protect\astroncite{Fabius and van
+  Amersfoort}{2014}]{fabius2014variational}
+Fabius, O. and van Amersfoort, J.~R. (2014).
+\newblock Variational recurrent auto-encoders.
+\newblock {\em arXiv preprint arXiv:1412.6581}.
 
 \bibitem[\protect\astroncite{Frey and Dueck}{2007}]{frey2007clustering}
 Frey, B.~J. and Dueck, D. (2007).
@@ -102,6 +114,12 @@ Kondrak, G. (2000).
 \newblock In {\em Proceedings of the 1st North American chapter of the
   Association for Computational Linguistics conference}, pages 288--295.
   Association for Computational Linguistics.
+
+\bibitem[\protect\astroncite{Kulkarni et~al.}{2015}]{kulkarni2015deep}
+Kulkarni, T.~D., Whitney, W.~F., Kohli, P., and Tenenbaum, J. (2015).
+\newblock Deep convolutional inverse graphics network.
+\newblock In {\em Advances in Neural Information Processing Systems}, pages
+  2539--2547.
 
 \bibitem[\protect\astroncite{Landauer et~al.}{2013}]{landauer2013handbook}
 Landauer, T.~K., McNamara, D.~S., Dennis, S., and Kintsch, W. (2013).

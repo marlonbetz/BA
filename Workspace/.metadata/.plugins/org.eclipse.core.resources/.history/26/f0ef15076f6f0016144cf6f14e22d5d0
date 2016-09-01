@@ -1,8 +1,0 @@
-import numpy as np
-from scipy.stats import gaussian_kde
-
-class ClusterWeighting(object):
-    def __init__(self,posterior):
-        pass
-    
-    def 

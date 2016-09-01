@@ -6,45 +6,45 @@ Database file #1: references.bib
 Warning--empty journal in chomsky1968sound
 Warning--empty journal in dellert2015uralic
 Warning--can't use both volume and number fields in gutmann2010noise
-You've used 28 entries,
+You've used 31 entries,
             1940 wiz_defined-function locations,
-            631 strings with 9397 characters,
-and the built_in function-call counts, 13182 in all, are:
-= -- 1251
-> -- 721
-< -- 29
-+ -- 269
-- -- 258
-* -- 1157
-:= -- 2265
-add.period$ -- 88
-call.type$ -- 28
-change.case$ -- 267
-chr.to.int$ -- 27
-cite$ -- 31
-duplicate$ -- 477
-empty$ -- 785
-format.name$ -- 304
-if$ -- 2564
+            644 strings with 9925 characters,
+and the built_in function-call counts, 14547 in all, are:
+= -- 1382
+> -- 790
+< -- 31
++ -- 293
+- -- 282
+* -- 1270
+:= -- 2495
+add.period$ -- 97
+call.type$ -- 31
+change.case$ -- 294
+chr.to.int$ -- 30
+cite$ -- 34
+duplicate$ -- 532
+empty$ -- 870
+format.name$ -- 333
+if$ -- 2835
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 25
-newline$ -- 141
-num.names$ -- 84
-pop$ -- 265
+missing$ -- 28
+newline$ -- 156
+num.names$ -- 93
+pop$ -- 295
 preamble$ -- 1
-purify$ -- 268
+purify$ -- 295
 quote$ -- 0
-skip$ -- 381
+skip$ -- 426
 stack$ -- 0
-substring$ -- 735
-swap$ -- 129
-text.length$ -- 12
+substring$ -- 811
+swap$ -- 146
+text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 166
+type$ -- 184
 warning$ -- 3
-while$ -- 91
+while$ -- 100
 width$ -- 0
-write$ -- 358
+write$ -- 395
 (There were 3 warnings)

@@ -37,12 +37,16 @@ Over the past few years, deep neural networks have been interconnected with Baye
 
  However, Computational Historical Linguistics has hardly been touched yet by the current Deep Learning boom (a notable exception is \cite{rama2016siamese}). 
  In fact, most computational models here are either adaptations or direct copies of those used for the description of biological data.
+
+In this thesis, I will propose a view on cognate identification as latent representation learning. Coming from the idea that certain computer vision models are shown to generalize well how to rotate a three-dimensional object in an two-dimensional projection and to find latent linear dependencies between high-level features, this thesis proposes a model that treats cognates as the same latent objects just seen from the perspective of another language and where sound changes, as realization of such changed perspectives, can be described as linear dependencies over words embedded in a latent space. Here, differences in the actual phonological realization of a word only blur the underlying latent structure of it, which can be shared with other words that are etymologically related. 
+
+
 The aim of this thesis is hence 
 \begin{enumerate}
 \item to combine methods from both Computational Historical Linguistics, Bayesian Models and the emerging field of Deep Learning
-\item to propose a model of modeling sound change as a walk in latent space, which is suitable for neural networksand builds the basis for this thesis
+\item to propose a model of modeling sound change as a walk in latent space, which is suitable for neural networks and builds the basis for this thesis
 \item to use variational autoencoders as a means to build such a latent space, and to investigate it
-\item to show how this uncovered structure can be used to identify cognates in an unsupervised way
+\item to cluster this uncovered structure in order to identify cognates in an unsupervised way
 \end{enumerate}
 
 I will first start by giving an overview of the problem of cognate identification and related fields of research. I will give a background on why cognate identification is important to discuss the historical connections between languages and further provide an overview on several established methods to detect cognates.  
@@ -452,25 +456,59 @@ As variational models, VAEs do not attempt to sample from the true posterior dis
 In order to approximate the true posterior  $P(z|X)$ with the approximate posterior $Q(z|X)$, we want to minimize the Kullback-Leibler divergence from the true posterior to its approximation: 
 
 \begin{equation}
-D_{KL}(Q(z|X)|P(z|X)) = E_{z\sim Q}[\log Q(z|X) - \log P(z|X)]
+D_{KL}(Q(z|X)||P(z|X)) = E_{z\sim Q}[\log Q(z|X) - \log P(z|X)]
 \end{equation}
 
 Here, we can use Bayes' rule to yield 
 
 \begin{equation}
-D_{KL}(Q(z)|P(z|X)) = E_{z\sim Q}[\log Q(z|X) - \log P(X|z)-\log P(z)] + \log P(X)
+D_{KL}(Q(z|X)||P(z|X)) = E_{z\sim Q}[\log Q(z|X) - \log P(X|z)-\log P(z)] + \log P(X)
 \end{equation}
 
 where $\log P(X)$ is outside the expectation since it is not dependent on $z$. We can rearrange that to 
 
 \begin{equation}
 \label{eq:vae_loss_original}
-\log P(X) - D_{KL}(Q(z|X)|P(z|X)) = E_{z\sim Q}[\log P(X|z) - D_{KL}(Q(z|X)||P(z))] 
+\log P(X) - D_{KL}(Q(z|X)||P(z|X)) = E_{z\sim Q}[\log P(X|z) - D_{KL}(Q(z|X)||P(z))] 
 \end{equation}
 
-Here, the left hand side makes it clear why Eq. \ref{eq:vae_loss_original} is to be maximized, as it increases the probability of $X$ and minimizes the divergence from the true to the approximated posterior. We further have $Q(z|X)$ as an \textit{encoder} that maps data points into the latent space $\mathcal{Z}$ and $P(X|z)$ as a \textit{decoder} that reconstructs a data point, given a sample $z$. As the universal approximation theorem states that networks with at least one hidden layer can approximate any continuous functions, we can reduce $D_{KL}(Q(z|X)||P(z|X))$ to zero and optimize $P(x)$ directly. The right hand side is the \textit{variational lower bound} that defines the probability that the encoder distribution $Q(z|X)$ approximates the true prior $P(z)$ and then $z$ is decoded back to it initial value in $\mathcal{X}$.
 
-To estimate the parameters of $Q$,  \cite{kingma2013auto} propose Multilayer Perceptrons (MLPs) as universal function approximator.
+
+Here, the left hand side makes it clear why Eq. \ref{eq:vae_loss_original} is to be maximized, as it increases the probability of $X$ and minimizes the divergence from the true to the approximated posterior. We further have $Q(z|X)$ as an \textit{encoder} that maps data points into the latent space $\mathcal{Z}$ and $P(X|z)$ as a \textit{decoder} that reconstructs a data point, given a sample $z$. As the universal approximation theorem states that networks with at least one hidden layer can approximate any continuous functions, we can reduce $D_{KL}(Q(z|X)||P(z|X))$ to zero and optimize $P(x)$ directly. The right hand side is the \textit{variational lower bound} that defines the probability that the encoder distribution $Q(z|X)$ approximates the true prior $P(z)$ and then $z$ is decoded back to it initial value in $\mathcal{X}$. Also, since we reduce both $D_{KL}(Q(z|X)||P(z|X))$ and $D_{KL}(Q(z|X)||P(z))$ during training, our encoder distribution $Q(z|X)$ becomes equal to the prior if $X$ is equal to the training data.
+
+As we model both prior and posterior with gaussians, we can calculate $-D_{KL}(Q(Z)||P(Z))$ directly as
+
+\begin{equation}
+\begin{split}
+-D_{KL}(Q(Z)||P(Z)) & = \int Q(z) (\log P(z) - \log Q(Z)) dz\\
+& = \frac{1}{2}\sum_{j=1}^{J}(i+\log(\sigma_j^2)-\mu_j^2-\sigma_j^2)
+\end{split}
+\end{equation}
+
+To estimate these parameters $\mu$ and $\sigma$ of $Q$,  \cite{kingma2013auto} propose Multilayer Perceptrons (MLPs) as universal function approximators. In fact, various other encoders and decoders have been proposed, such as convolutional or recurrent networks (cf. \cite{kulkarni2015deep,bowman2015generating,fabius2014variational}). 
+In the case of binary phoneme features, our decoder distribution is defined as a multivariate Bernoulli, where each probability is calculated by a MLP:
+
+\begin{equation}
+\log P(x|z) = \sum_{i=1}^{D} x_i \log y_i + (1-x_i) \log (1-y_i)
+\label{eq:multivariate_bernoulli_prob}
+\end{equation}
+
+where $x$ is a given datapoint in $X$ and $D$ is the number of dimensions of $x$. $y$ is the output of of the MLP, defined as 
+
+\begin{equation}
+y = f_\sigma (W_2 f(W_1 z + b_1 ) + b_2)
+\end{equation}
+
+where $f_\sigma$ is the elementwise sigmoid activation fuction, $f$ some other non-linear activation function, $W_1$,$W_2$ weights and $b_1$,$b_2$ biases of the network.
+
+The phoneme embeddings  can be scaled between $[0,1]$, so that every dimension becomes a binary latent feature. The rescaled location in that dimension then becomes the possibility of that phoneme having that feature. 
+
+In order to arrive at the final objective function $J_\theta$, we take the cross entropy between the true phoneme features and the predictions as reconstruction error and the KL-Divergence from Eq. \ref{eq:vae_loss_original} as a regulization term:
+
+\begin{equation}
+J_\theta = \sum_{i=1}^{D} x_i \log y_i + (1-x_i) \log (1-y_i) + \frac{1}{2}\sum_{j=1}^{J}(i+\log(\sigma_j^2)-\mu_j^2-\sigma_j^2)
+\end{equation}
+
 
 However, given that we use neural networks, we have to make sure that all gradients can be backpropagated through the network. In Eq. \ref{eq:vae_loss_original}, moving the gradient symbol into the expectation on the right hand side would yield gradients that would be independent of the parameters of $Q$. This is due to the location of the sampler as a unit inside the network - since sampling from $Q(z|X)$ is a non-continuous operation, it cannot have gradients and hence would block the backpropagation of errors to the encoder network. \cite{kingma2013auto} instead propose another objective that treats the sampling as an input to the network: Here, an auxiliary noise variable $\epsilon$ is sampled from some distribution $p(\epsilon)$:
 
@@ -551,9 +589,13 @@ Following this, 2 different models are investigated here:
 
 To cluster the embeddings, we have to make sure that the number of clusters can vary, as can the number of members for each cluster. For instance, if our word list consists of languages where the majority of languages are closely related and should show similar words, but the remaining languages are not related at all, we assume that the resulting clusters of words are not of the same size. If we do not know at all if the respective languages are related, we cannot really say what size the clusters should have either. Hence, both are variables which we do not know beforehand. 
 
+\subsection{Affinity Propagation}
+
 This thesis proposes Affinity propagation (cf. \cite{frey2007clustering}) to solve that task. Here the algorithm exchanges real-valued messages between the data points until a high-quality set of exemplars and corresponding clusters
 gradually emerges. This allows for the number of clusters and individual cluster size to be left undefined.
 
+
+\subsubsection{Cluster Weighting}
 However, as we know that  certain subspaces in $\mathcal{Z}$ accumulate more probability mass than others, we can assume that this should affect the similarity between points in $\mathcal{Z}$. In fact, the group of words with low self-information cluster among each other and are probably even closer to each other than members of actual cognate classes. Hence we have to weight the distances between the embeddings according to their respective self-information.
 
 We can define this distances as 
@@ -564,16 +606,16 @@ d_{weighted}(z_1,z_2) = d_{euclidean}(\frac{z_1}{I(z_1)}),\frac{z_2}{I(z_2)}))
 
 This means that the lower the self-information for a given word is, the farer its position is shifted away from its current position. If two embeddings are close to each other but have low self-information, the weighted distance between them is correspondingly larger than the actual euclidean distance. However, if the self-information is bigger, the words can reside in a cluster with higher variance, but the weighted distance between them would be smaller than if that cluster would be situated in an area with high probability mass.
 
-Another way to weight the clusters as such is to use their respective self-information. If we define the likelihood of a cluster as 
+Another way to weight the clusters as such is to use their respective self-information. If we define the likelihood of a cluster $c$ as the joint probability density of every cluster member $z$ as in
 \begin{equation}
-\mathcal{L}(C)  =  \prod _{c \in C} P(c)
+P(c|X) =  \prod _{z \in C} P(z|X)
 \end{equation}
 we have its self-information as 
 \begin{equation}
-I(C)  =  - \log \mathcal{L}(C) 
+I(x|Z)  =  - \log P(c|X)
 \end{equation}
 
-If the self-information of a cluster is lower than a certain threshold that has to be adjusted as hyperparameter of the model, we can assume that its inferred cognate class assignments are not trustworthy. As we prefer false negatives over false positives, we can ignore such clusters, which leaves the respective members unrelated.  
+If the self-information of a cluster is lower than a certain threshold, we can assume that its inferred cognate class assignments are not trustworthy. As we prefer false negatives over false positives, we can ignore such clusters, which leaves the respective members unrelated.  That threshold has to be adjusted as hyperparameter of the model.
 
 \section{Evaluation}
 \subsection{Data}
