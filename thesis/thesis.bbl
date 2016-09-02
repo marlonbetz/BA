@@ -97,6 +97,11 @@ Gutmann, M. and Hyv{\"a}rinen, A. (2010).
   unnormalized statistical models.
 \newblock In {\em AISTATS}, volume~1, page~6.
 
+\bibitem[\protect\astroncite{Hubert and Arabie}{1985}]{hubert1985comparing}
+Hubert, L. and Arabie, P. (1985).
+\newblock Comparing partitions.
+\newblock {\em Journal of classification}, 2(1):193--218.
+
 \bibitem[\protect\astroncite{J{\"a}ger}{2014}]{jager2014phylogenetic}
 J{\"a}ger, G. (2014).
 \newblock Phylogenetic inference from word lists using weighted alignment with
@@ -174,6 +179,12 @@ Rama, T. (2016).
   identification.
 \newblock {\em arXiv preprint arXiv:1605.05172}.
 
+\bibitem[\protect\astroncite{Rand}{1971}]{rand1971objective}
+Rand, W.~M. (1971).
+\newblock Objective criteria for the evaluation of clustering methods.
+\newblock {\em Journal of the American Statistical association},
+  66(336):846--850.
+
 \bibitem[\protect\astroncite{{\v R}eh{\r u}{\v r}ek and
   Sojka}{2010}]{rehurek_lrec}
 {\v R}eh{\r u}{\v r}ek, R. and Sojka, P. (2010).
@@ -181,6 +192,18 @@ Rama, T. (2016).
 \newblock In {\em {Proceedings of the LREC 2010 Workshop on New Challenges for
   NLP Frameworks}}, pages 45--50, Valletta, Malta. ELRA.
 \newblock \url{http://is.muni.cz/publication/884893/en}.
+
+\bibitem[\protect\astroncite{Rosenberg and Hirschberg}{2007}]{rosenberg2007v}
+Rosenberg, A. and Hirschberg, J. (2007).
+\newblock V-measure: A conditional entropy-based external cluster evaluation
+  measure.
+\newblock In {\em EMNLP-CoNLL}, volume~7, pages 410--420.
+
+\bibitem[\protect\astroncite{Vinh et~al.}{2010}]{vinh2010information}
+Vinh, N.~X., Epps, J., and Bailey, J. (2010).
+\newblock Information theoretic measures for clusterings comparison: Variants,
+  properties, normalization and correction for chance.
+\newblock {\em Journal of Machine Learning Research}, 11(Oct):2837--2854.
 
 \bibitem[\protect\astroncite{Wichmann et~al.}{2010}]{wichmann2010asjp}
 Wichmann, S., M{\"u}ller, A., Velupillai, V., Brown, C.~H., Holman, E.~W.,

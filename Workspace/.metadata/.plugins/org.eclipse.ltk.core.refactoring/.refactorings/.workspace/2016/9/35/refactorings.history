@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 5 resources" deleteContents="false" description="Delete 5 resources" element1="/Workspace/pickled_stuff/pipeline_trainOnSubsampledConcepts_gridsearchadjusted_mutual_info_scores.pkl" element2="/Workspace/pickled_stuff/pipeline_trainOnSubsampledConcepts_gridsearchadjusted_rand_scores.pkl" element3="/Workspace/pickled_stuff/pipeline_trainOnSubsampledConcepts_gridsearchcompleteness_scores.pkl" element4="/Workspace/pickled_stuff/pipeline_trainOnSubsampledConcepts_gridsearchhomogeneity_scores.pkl" element5="/Workspace/pickled_stuff/pipeline_trainOnSubsampledConcepts_gridsearchv_measure_scores.pkl" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="5" stamp="1472825217507"/>
+</session>

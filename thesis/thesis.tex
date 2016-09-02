@@ -38,16 +38,17 @@ Over the past few years, deep neural networks have been interconnected with Baye
  However, Computational Historical Linguistics has hardly been touched yet by the current Deep Learning boom (a notable exception is \cite{rama2016siamese}). 
  In fact, most computational models here are either adaptations or direct copies of those used for the description of biological data.
 
-In this thesis, I will propose a view on cognate identification as latent representation learning. Coming from the idea that certain computer vision models are shown to generalize well how to rotate a three-dimensional object in an two-dimensional projection and to find latent linear dependencies between high-level features, this thesis proposes a model that treats cognates as the same latent objects just seen from the perspective of another language and where sound changes, as realization of such changed perspectives, can be described as linear dependencies over words embedded in a latent space. Here, differences in the actual phonological realization of a word only blur the underlying latent structure of it, which can be shared with other words that are etymologically related. 
+In this thesis, I will propose a view on cognate identification as latent representation learning. Coming from the idea that certain computer vision models are shown to generalize well how to rotate a three-dimensional object in an two-dimensional projection and to find latent linear dependencies between high-level features, this thesis proposes a model that treats cognates as the same latent objects just seen from the perspective of another language. Sound changes, as realization of such changed perspectives, can be described as linear dependencies over words embedded in a latent space. Here, differences in the actual phonological realization of a word only blur the underlying latent structure of it, which can be shared with other words that are etymologically related. That latent structure is sampled from a simple bayesian hierarchical model, which allows for bayesian inference modeling, such as setting a prior belief on what such a latent structure should look like. 
 
+The model described here is comparedly simple, as it is a direct adaptation of Variational Autoencoders, a quite recent deep generative architecture that combines non-linear dimensionality reduction with the strength of variational bayesian inference. It can be used as a basis for more detailed research on how language change can be model with deep learning tools. 
 
-The aim of this thesis is hence 
-\begin{enumerate}
-\item to combine methods from both Computational Historical Linguistics, Bayesian Models and the emerging field of Deep Learning
-\item to propose a model of modeling sound change as a walk in latent space, which is suitable for neural networks and builds the basis for this thesis
-\item to use variational autoencoders as a means to build such a latent space, and to investigate it
-\item to cluster this uncovered structure in order to identify cognates in an unsupervised way
-\end{enumerate}
+%The aim of this thesis is hence 
+%\begin{enumerate}
+%\item to combine methods from both Computational Historical Linguistics, Bayesian Models and the emerging field of Deep Learning
+%\item to propose a model of modeling sound change as a walk in latent space, which is suitable for neural networks and builds the basis for this thesis
+%\item to use variational autoencoders as a means to build such a latent space, and to investigate it
+%\item to cluster this uncovered structure in order to identify cognates in an unsupervised way
+%\end{enumerate}
 
 I will first start by giving an overview of the problem of cognate identification and related fields of research. I will give a background on why cognate identification is important to discuss the historical connections between languages and further provide an overview on several established methods to detect cognates.  
 
@@ -323,8 +324,8 @@ Following that observation, there are a few models that use such features to dif
 
 
 \cite{rama2016siamese} uses binary features that are adapted to the ASJP phonemic alphabet. ASJP does not always distinguish certain features for all phonemes. For instance, voice is distinguished for labial fricatives, but not for dental ones. ASJP further merges all clicks. Vowels are differentiated, but only for 5 prototypes. The whole ASJP phoneme set can be found in the appendix. \cite{rama2016siamese} further merges all coarticulations and vowels, as they tend to be diachronically unstable, and yields phonemes with 16 binary features each. \cite{rama2016siamese} reports superior performance using those features as a basis for word vectorizations to find cognates in a supervised way.
-\subsubsection{Data-driven Embeddings}
-
+\subsubsection{Phoneme embeddings}
+\label{Phoneme embeddings}
 
 
 
@@ -622,14 +623,32 @@ If the self-information of a cluster is lower than a certain threshold, we can a
 To pre-train VAE-PT,  the data provided by the Automatic Similarity Judgement Program (ASJP, \cite{wichmann2010asjp} will serve as a training corpus. ASJP provides wordlists of roughly 7200 languages, where each word is given as a string of phonemes. This vast amount of different phoneme inventories will allow for the unbiased comparison of phonemes over language boundaries. However, ASJP does not make use of IPA, but a simplified phonemic alphabet that is based on ASCII-characters. This makes it possible to incorporate data where no detailed IPA description is given, but might also reduce the quality of the resulting embedding space, as latent features that might be encoded in more specific IPA descriptions are merged. For all other data, respective conversions into the ASJP system are used.  An overview of the ASJP phonemes and their IPA counterparts are given in the appendix.
 
 VAE-PT is trained and tested on IELex (cf. \cite{dunn2012indo}), while VAE-PT is tested on it. IELex provides 250 concepts for 163 doculects. After the removal of ancient language forms and legacy doculects, this leaves around 60 languages, as the number of languages varies per concept.
-\subsection{Evaluation of $P(X)$}
+\subsection{Evaluation of $Q(X)$}
 
-A first visual inspection shows that the model learns to cluster similar strings close to each other (Fig. \ref{fig:vae_phono_binary_asjp_subsample_words}). Words with similar syllable structures are located in specific subspaces of $\mathcal{Z}$. It further connects strings beyond local clusters through linear dependencies, which can interchange whole syllables of a word. 
+\subsubsection{Visual Inspection}
+A first visual inspection shows that VAE-PT, trained for 100 iterations, learns to cluster similar strings close to each other (Fig. \ref{fig:vae_phono_binary_asjp_subsample_words}). Words with similar syllable structures are located in specific subspaces of $\mathcal{Z}$. It further connects strings beyond local clusters through linear dependencies, which can interchange whole syllables of a word. 
 On a more global perspective, words are embedded into a high-level feature continuum that encodes word lengths (Fig. \ref{fig:vae_phono_binary_wordLength}), with smooth transitions between the respective subspaces. This is remarkable, given that there are no word boundary tokens involved during training. The model itself learns to recognize the transition from the binary code of the actual phonemes of the word to the zero-padding following it.
 Moreover, the linear dependencies are not simple renderings of the binary input code. The model learns high-level latent features, such as if a word has a phoneme with a certain distinctive feature or not (Fig. \ref{fig:vae_phono_binary_features}). If so, linear dependencies connect such words, even over very long distances. In fact, some of those linear dependencies form bigger clusters that can span the entire posterior distribution. 
 Even more remarkable is that the model learns to cluster words with similar coarticulation features \textit{even though they were excluded during training}, but only existent on some latent level (Fig. \ref{fig:vae_phono_orthofeatures}). Here, the model learns to distinguish plain /w j h/ from true labialization, palatalization and aspiration, although they were merged in the input code. If the model treated them as equal, we would expect a uniform distribution over the respective words. However, we see that the words accumulate in different subspaces. Since the model learns to cluster words according to their phonological structure, it recognizes that the context plain /w j h/ occur in differs from the context of coarticulated phonemes and hence locates the respective words in different subspaces of $\mathcal{Z}$.
 
-The posterior distributions for several IELex concepts show linear dependencies for members of the same cognate class (Fig. \ref{fig:asjp_2000_binary_singleIELEXConcepts_posteriors}). Hence, if the given semantic concept only consists of members of a single cognate class, the whole posterior shows strong linear dependencies (Fig. \ref{fig:asjp_2000_binary_singleIELEXConcepts_posteriors} top left). However, this focus on linear dependencies as a means to encode latent information makes it hard to cluster cognates. 
+The posterior distributions for several IELex concepts show linear dependencies for members of the same cognate class (Fig. \ref{fig:asjp_2000_binary_singleIELEXConcepts_posteriors}). Hence, if the given semantic concept only consists of members of a single cognate class, the whole posterior shows strong linear dependencies (Fig. \ref{fig:asjp_2000_binary_singleIELEXConcepts_posteriors} top left). However, this focus on linear dependencies as a means to encode latent information makes it hard to cluster cognates, which rely on distances or similarities between the embeddings. In fact, the posteriors for several cognate classes are often intertwined. 
+
+
+VAE-C, on the other hand, yields a far better basis for cognate identification as such. Similar words form clusters that are pushed away from the population mean, while words without similar counterparts remain close the center of the latent space. Although there are linear dependencies between similar words, it does not play such an important role as it does for VAE-PT.  
+
+\subsubsection{Grid Search over Model Parameters}
+
+To explore the performances of VAE-C under different parameter settings, a grid search over the following parameters was performed:
+\begin{itemize}
+\item Phoneme vectorization:  Binary phoneme features (cf. \cite{rama2016siamese}) vs. Word2vec Phoneme Embeddings, as explored in \ref{Phoneme embeddings}
+\item number of latent dimensions:  [2,5,10,20,50]
+\item intermediate dimensions of the encoding and decoding MLPs:  [100,200,500]
+\item the standard deviation of the auxiliary noise $\sigma_{\epsilon}$: [1,0.1,0.01]
+\end{itemize}
+For all settings, an ensemble of 2 models was trained on a subset of 10 concepts, which are randomly sampled from all IELex concepts beforehand. The models are trained for 4000 iterations
+%, to make sure the model has converged even when the explored number of latent dimensions is higher
+. 
+The performance is measured in adjusted rand indices (cf. \cite{rand1971objective,hubert1985comparing}), adjusted mutual information (cf. \cite{vinh2010information}), cluster homogeneity, cluster completeness and v-measure (cf. \cite{rosenberg2007v}).
 
 \begin{figure}[h] %  figure placement: here, top, bottom, or page
    \centering

@@ -17,6 +17,7 @@ learn_local_manifolds|/Users/marlon/Documents/BA/Workspace/Workspace/learn_local
 models|/Users/marlon/Documents/BA/Workspace/Workspace/models.py
 phoneme_embeddings|/Users/marlon/Documents/BA/Workspace/Workspace/phoneme_embeddings.py
 pickled_stuff.pipeline_trainOnEachConcept.plotter|/Users/marlon/Documents/BA/Workspace/Workspace/pickled_stuff/pipeline_trainOnEachConcept/plotter.py
+pickled_stuff.pipeline_trainOnSubsampledConcepts_gridsearch.plotter|/Users/marlon/Documents/BA/Workspace/Workspace/pickled_stuff/pipeline_trainOnSubsampledConcepts_gridsearch/plotter.py
 pipeline|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline.py
 pipeline_trainOnASJP|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline_trainOnASJP.py
 pipeline_trainOnASJP_phonemeEmbeddings|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline_trainOnASJP_phonemeEmbeddings.py
@@ -26,6 +27,7 @@ pipeline_trainOnConcept_mean|/Users/marlon/Documents/BA/Workspace/Workspace/pipe
 pipeline_trainOnConcept_phonemeEmbeddings|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline_trainOnConcept_phonemeEmbeddings.py
 pipeline_trainOnConcept_weightClusters|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline_trainOnConcept_weightClusters.py
 pipeline_trainOnEachConcept|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline_trainOnEachConcept.py
+pipeline_trainOnSubsampledConcepts_gridsearch|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline_trainOnSubsampledConcepts_gridsearch.py
 plot_singleConcept_asjp_2000_binary|/Users/marlon/Documents/BA/Workspace/Workspace/plot_singleConcept_asjp_2000_binary.py
 plot_singleConcept_asjp_2000_binary_PCA|/Users/marlon/Documents/BA/Workspace/Workspace/plot_singleConcept_asjp_2000_binary_PCA.py
 string_distances|/Users/marlon/Documents/BA/Workspace/Workspace/string_distances.py

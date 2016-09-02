@@ -1,6 +1,0 @@
-import regex 
-import numpy as np
-from gensim.models import Word2Vec
-class PhonemeEmbeddings(object):
-    def __init__(self,pathToCorpus):
-        

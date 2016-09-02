@@ -3,7 +3,7 @@ from cluster_weighting import *
 print("LOAD TEST WORDLIST")
 pathToAnnotatedWordList = "Data/IELex/output/IELex-2016.tsv.asjp"
 
-languages,words,global_ids,cognate_classes = loadAnnotatedWordList(pathToAnnotatedWordList, {1277})
+languages,words,global_ids,cognate_classes = loadAnnotatedWordList(pathToAnnotatedWordList, {617 })
 
 print("VECTORIZE TEST WORDS")
 padToMaxLength=15
@@ -16,7 +16,7 @@ print("FIT VAE")
 batch_size = X.shape[0]
 dim_phoneme_embeddings = 16
 original_dim = dim_phoneme_embeddings * padToMaxLength
-latent_dim = 2
+latent_dim = 20
 intermediate_dim = 200
 
 
@@ -173,32 +173,32 @@ from  scipy.stats import multivariate_normal as mvn
 # #plt.yticks(y_ticks)
 # plt.scatter(embeddings[:,0],embeddings[:,1])
 # plt.show()
-
-print("PLOTTING KDE OF POSTERIOR")
-plt.subplot(1,3,1)
-plt.scatter(posterior[:,0],posterior[:,1],alpha=0.01,color="black")
-#plt.imshow(post_prior,alpha=0.1)
-#sns.kdeplot(posterior[:,0],posterior[:,1])
-plt.subplot(1,3,2)
-plt.scatter(posterior[:,0],posterior[:,1],alpha=0.01,color="black")
-#plt.imshow(post_prior,alpha=0.1)
-#sns.kdeplot(posterior[:,0],posterior[:,1])
-plt.subplot(1,3,3)
-plt.scatter(posterior[:,0],posterior[:,1],alpha=0.01,color="black")
-plt.scatter(posterior_unresolved[:,0],posterior_unresolved[:,1],alpha=0.01,color="red")
-
-
+# 
+# print("PLOTTING KDE OF POSTERIOR")
+# plt.subplot(1,3,1)
+# plt.scatter(posterior[:,0],posterior[:,1],alpha=0.01,color="black")
+# #plt.imshow(post_prior,alpha=0.1)
+# #sns.kdeplot(posterior[:,0],posterior[:,1])
+# plt.subplot(1,3,2)
+# plt.scatter(posterior[:,0],posterior[:,1],alpha=0.01,color="black")
+# #plt.imshow(post_prior,alpha=0.1)
+# #sns.kdeplot(posterior[:,0],posterior[:,1])
+# plt.subplot(1,3,3)
+# plt.scatter(posterior[:,0],posterior[:,1],alpha=0.01,color="black")
+# plt.scatter(posterior_unresolved[:,0],posterior_unresolved[:,1],alpha=0.01,color="red")
 # 
 # 
-sns.set_style("white")
-cmap_y_pred = dict((label,np.random.beta(1,1,3)) for label in y_pred)
-cmap_y_pred_weighted = dict((label,np.random.beta(1,1,3)) for label in y_pred_weighted)
-cmap_y_true = dict((label,np.random.beta(1,1,3)) for label in y_true)
-for word,emb,y_p,y_p_w,y_t in zip(words,embeddings,y_pred,y_pred_weighted,y_true):
-    plt.subplot(1,3,1)
-    plt.annotate(word,emb,color=cmap_y_true[y_t])
-    plt.subplot(1,3,2)
-    plt.annotate(word+"_"+str(y_p),emb,color=cmap_y_pred[y_p])
-    plt.subplot(1,3,3)
-    plt.annotate(word+"_"+str(y_p_w),emb,color=cmap_y_pred_weighted[y_p_w])
-plt.show()
+# # 
+# # 
+# sns.set_style("white")
+# cmap_y_pred = dict((label,np.random.beta(1,1,3)) for label in y_pred)
+# cmap_y_pred_weighted = dict((label,np.random.beta(1,1,3)) for label in y_pred_weighted)
+# cmap_y_true = dict((label,np.random.beta(1,1,3)) for label in y_true)
+# for word,emb,y_p,y_p_w,y_t in zip(words,embeddings,y_pred,y_pred_weighted,y_true):
+#     plt.subplot(1,3,1)
+#     plt.annotate(word,emb,color=cmap_y_true[y_t])
+#     plt.subplot(1,3,2)
+#     plt.annotate(word+"_"+str(y_p),emb,color=cmap_y_pred[y_p])
+#     plt.subplot(1,3,3)
+#     plt.annotate(word+"_"+str(y_p_w),emb,color=cmap_y_pred_weighted[y_p_w])
+# plt.show()

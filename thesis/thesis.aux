@@ -22,12 +22,12 @@
 \citation{list2012sca}
 \citation{rama2016siamese}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Sound Change as Posterior $P(w_{recent}|w_{ancient},z)$ }{7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Cognate Identification as Hypothesis Comparison}{8}}
 \citation{bouchard2007probabilistic}
 \citation{bouchard2013automated}
 \citation{Goodfellow-et-al-2016-Book}
 \citation{chomsky1968sound}
 \citation{kondrak2000new}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Cognate Identification as Hypothesis Comparison}{9}}
 \@writefile{toc}{\contentsline {section}{\numberline {3}Related Research}{9}}
 \@writefile{toc}{\contentsline {section}{\numberline {4}Architecture}{9}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Phoneme Vectorization}{9}}
@@ -42,7 +42,8 @@
 \citation{pennington2014glove}
 \citation{morin2005hierarchical}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.1}Hand-crafted Vectorization Models}{10}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.2}Data-driven Embeddings}{10}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.2}Phoneme embeddings}{10}}
+\newlabel{Phoneme embeddings}{{4.1.2}{10}}
 \citation{goldberg2014word2vec}
 \citation{gutmann2010noise}
 \citation{mnih2012fast}
@@ -81,7 +82,13 @@
 \citation{dunn2012indo}
 \@writefile{toc}{\contentsline {section}{\numberline {5}Evaluation}{17}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Data}{17}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Evaluation of $P(X)$}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Evaluation of $Q(X)$}{17}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.1}Visual Inspection}{17}}
+\citation{rama2016siamese}
+\citation{rand1971objective}
+\citation{hubert1985comparing}
+\citation{vinh2010information}
+\citation{rosenberg2007v}
 \citation{rehurek_lrec}
 \citation{chollet2015keras}
 \citation{tensorflow2015-whitepaper}
@@ -89,15 +96,16 @@
 \bibstyle{apa}
 \bibdata{references}
 \bibcite{tensorflow2015-whitepaper}{\astroncite {Abadi et\nobreakspace  {}al.}{2015}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.2}Grid Search over Model Parameters}{18}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Results}{18}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Discussion}{18}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Resume}{18}}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Acknowledgements}{18}}
 \bibcite{Goodfellow-et-al-2016-Book}{\astroncite {Bengio and Courville}{2016}}
 \bibcite{bouchard2013automated}{\astroncite {Bouchard-C{\^o}t{\'e} et\nobreakspace  {}al.}{2013}}
 \bibcite{bouchard2007probabilistic}{\astroncite {Bouchard-C{\^o}t{\'e} et\nobreakspace  {}al.}{2007}}
 \bibcite{bouckaert2012mapping}{\astroncite {Bouckaert et\nobreakspace  {}al.}{2012}}
 \bibcite{bowman2015generating}{\astroncite {Bowman et\nobreakspace  {}al.}{2015}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Results}{18}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Discussion}{18}}
-\@writefile{toc}{\contentsline {section}{\numberline {7}Resume}{18}}
-\@writefile{toc}{\contentsline {section}{\numberline {8}Acknowledgements}{18}}
 \bibcite{chollet2015keras}{\astroncite {Chollet}{2015}}
 \bibcite{chomsky1968sound}{\astroncite {Chomsky and Halle}{1968}}
 \bibcite{dellert2015uralic}{\astroncite {Dellert}{2015}}
@@ -108,6 +116,7 @@
 \bibcite{goldberg2014word2vec}{\astroncite {Goldberg and Levy}{2014}}
 \bibcite{gray2009language}{\astroncite {Gray et\nobreakspace  {}al.}{2009}}
 \bibcite{gutmann2010noise}{\astroncite {Gutmann and Hyv{\"a}rinen}{2010}}
+\bibcite{hubert1985comparing}{\astroncite {Hubert and Arabie}{1985}}
 \bibcite{jager2014phylogenetic}{\astroncite {J{\"a}ger}{2014}}
 \bibcite{kingma2013auto}{\astroncite {Kingma and Welling}{2013}}
 \bibcite{kondrak2000new}{\astroncite {Kondrak}{2000}}
@@ -121,57 +130,60 @@
 \bibcite{scikit-learn}{\astroncite {Pedregosa et\nobreakspace  {}al.}{2011}}
 \bibcite{pennington2014glove}{\astroncite {Pennington et\nobreakspace  {}al.}{2014}}
 \bibcite{rama2016siamese}{\astroncite {Rama}{2016}}
+\bibcite{rand1971objective}{\astroncite {Rand}{1971}}
 \bibcite{rehurek_lrec}{\astroncite {{\v R}eh{\r u}{\v r}ek and Sojka}{2010}}
+\bibcite{rosenberg2007v}{\astroncite {Rosenberg and Hirschberg}{2007}}
+\bibcite{vinh2010information}{\astroncite {Vinh et\nobreakspace  {}al.}{2010}}
 \bibcite{wichmann2010asjp}{\astroncite {Wichmann et\nobreakspace  {}al.}{2010}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Other t-SNE visualizations of the embeddings created by word2vec. (top left) The model learns to clearly separate natural classes such as vowels, plain pulmonic or glottalized consonants, while other articulations seem to spread over the feature space. The colors indicate membership of a natural phonological class. (top right) A more detailed view on plain pulmonic consonants. Note the linear dependencies between voiced and unvoiced plosives and their respective nasal variant. (bottom left) Another detailed view. Note how the labialized uvular sounds cluster among glottalized consonants. (top right) The model seems to capture different manners of articulations across articulation type boundaries, as the linear dependency shows here.\relax }}{21}}
-\newlabel{fig:phoneme_embeddings_word2vec_all}{{4}{21}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Comparison of the four word2vec models evaluated. (top left) Both CBOW Models perform better than the skip-gram models over all numbers of embedding dimension. (bottom left) Mean distance between the predicted vector and the target with regard to embedding dimensions. Here, negative sampling yields less error than hierarchical softmax. (top right) Mean accuracy for the models with regard to the context window size. The models perform worse the bigger the context is. (bottom right) Mean distance between the predicted vector and the target with regard to context window size. Again, bigger contexts lead to worse predictions. \relax }}{22}}
-\newlabel{fig:phoneme_embeddings_4models_comparison_meanAccLossTopn1}{{5}{22}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Mean accuracies for analogies. The model does not seem to be able to capture the compositionality of the latent features too well. (top left) Accuracy is best for plosives across plain pulmonic as well as more complex articulations, while fricatives perform worse. (top right) Glottalized and Plain pulmonic consonant phonemes yield best performance. Among complex articulations, which all perform bad, labialized phonemes yield best results, while aspirated and palatalized phonemes perform even worse. (bottom left) Adding voice works better than removing it or adding nasality. (bottom right) Vowel analogies work far better than consonant analogies. This should be due to the small number of possible vowel phonemes.\relax }}{23}}
-\newlabel{fig:phoneme_embeddings_detailed_evaluation_topn1}{{6}{23}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Mean accuracies for analogies over the pooled consonant phonemes. Here, the model is expected to yield better results, as the number of latent features should have been reduced. (left) Accuracy is doubled compared with the unpooled phonemes. (middle) Adding voice works quite well, while removing it still yields acceptable performance. Applying nasality again works quite bad. (right) Vowel analogy tasks seem to work reasonably well, but worse than with unpooled consonants.\relax }}{23}}
-\newlabel{fig:phoneme_embeddings_detailed_evaluation_topn1_poooled}{{7}{23}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Visualization of the Variational autoencoder architecture. (left) The model with original objective as in Eq. 23\hbox {}. The stochastic unit is inside the network and would not allow for the backpropagation of error gradients through the network. (right) The model after the reparameterization with the objective as in Eq. 31\hbox {}. Here, the sampling is interpreted as an input variable, so error gradients can be backpropagated through the whole model. From \cite  {doersch2016tutorial}.\relax }}{24}}
-\newlabel{fig:vae_model_visualization}{{8}{24}}
-\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces A detailed view on a subsample of ASJP embedded into $\mathcal  {Z}$ after trained on the whole ASJP data set for 100 iterations. As can be seen, words accumulate in local subspaces with higher probability mass. Here, all words are contained in an area with shorter words that show simple CV syllable structures. Words that only differ in one distinctive feature are very close to each other, while linear dependencies over longer distances signify relationships over whole syllables that are exchanged.\relax }}{25}}
-\newlabel{fig:vae_phono_binary_asjp_subsample_words}{{9}{25}}
-\newlabel{fig:vae_phono_binary_wordLength0}{{\caption@xref {fig:vae_phono_binary_wordLength0}{ on input line 646}}{26}}
-\newlabel{sub@fig:vae_phono_binary_wordLength0}{{}{26}}
-\newlabel{fig:vae_phono_binary_wordLength1}{{\caption@xref {fig:vae_phono_binary_wordLength1}{ on input line 652}}{26}}
-\newlabel{sub@fig:vae_phono_binary_wordLength1}{{}{26}}
-\newlabel{fig:vae_phono_binary_wordLength2}{{\caption@xref {fig:vae_phono_binary_wordLength2}{ on input line 658}}{26}}
-\newlabel{sub@fig:vae_phono_binary_wordLength2}{{}{26}}
-\newlabel{fig:vae_phono_binary_wordLength3}{{\caption@xref {fig:vae_phono_binary_wordLength3}{ on input line 663}}{26}}
-\newlabel{sub@fig:vae_phono_binary_wordLength3}{{}{26}}
-\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces The ASJP data set embedded into $\mathcal  {Z}$ after trained on it for 100 iterations, colored by word length. The model learns to cluster words according to their respective length, with more frequent word lengths located in subspaces with higher probability mass.\relax }}{26}}
-\newlabel{fig:vae_phono_binary_wordLength}{{10}{26}}
-\newlabel{fig:vae_phono_binary_features0}{{\caption@xref {fig:vae_phono_binary_features0}{ on input line 673}}{27}}
-\newlabel{sub@fig:vae_phono_binary_features0}{{}{27}}
-\newlabel{fig:vae_phono_binary_features1}{{\caption@xref {fig:vae_phono_binary_features1}{ on input line 679}}{27}}
-\newlabel{sub@fig:vae_phono_binary_features1}{{}{27}}
-\newlabel{fig:vae_phono_binary_features2}{{\caption@xref {fig:vae_phono_binary_features2}{ on input line 685}}{27}}
-\newlabel{sub@fig:vae_phono_binary_features2}{{}{27}}
-\newlabel{fig:vae_phono_binary_feature3}{{\caption@xref {fig:vae_phono_binary_feature3}{ on input line 690}}{27}}
-\newlabel{sub@fig:vae_phono_binary_feature3}{{}{27}}
-\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces The ASJP data set embedded into $\mathcal  {Z}$ after trained on it for 100 iterations, colored by whether a given word has a phoneme with some specific distinctive feature. (top left) The model learns that clicks are highly unlikely to emerge evolutionary and hence assigns low probability mass to their respective subspace. (top right) The distribution of words with and without dentals. The linear dependencies are clearly visible. (bottom left) The distribution of words with and without fricatives. Again, it can be seen how they are linearly dependent of each other. (bottom right) A detailed view on the words with and without fricatives.\relax }}{27}}
-\newlabel{fig:vae_phono_binary_features}{{11}{27}}
-\newlabel{fig:vae_phono_orthofeatures0}{{\caption@xref {fig:vae_phono_orthofeatures0}{ on input line 700}}{28}}
-\newlabel{sub@fig:vae_phono_orthofeatures0}{{}{28}}
-\newlabel{fig:vae_phono_orthofeatures1}{{\caption@xref {fig:vae_phono_orthofeatures1}{ on input line 706}}{28}}
-\newlabel{sub@fig:vae_phono_orthofeatures1}{{}{28}}
-\newlabel{fig:vae_phono_orthofeatures2}{{\caption@xref {fig:vae_phono_orthofeatures2}{ on input line 712}}{28}}
-\newlabel{sub@fig:vae_phono_orthofeatures2}{{}{28}}
-\newlabel{fig:vae_phono_orthofeatures3}{{\caption@xref {fig:vae_phono_orthofeatures3}{ on input line 717}}{28}}
-\newlabel{sub@fig:vae_phono_orthofeatures3}{{}{28}}
-\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces The ASJP data set embedded into $\mathcal  {Z}$ after trained on it for 100 iterations. Since the binary features ignore coarticulations as such and encode them as independent phonemes instead, the model might learn to distinguish them, given some underlying latent features. (top left) The distribution of words that contain plain /w/ versus words with proper labialization. If the model did not learn the difference, we would expect some uniform distributions over all words that contain /w/ in the input. However, we can clearly see that words with proper labialization are located in other subspaces than words with proper /w/. Moreover, we see that words with labialized phonemes show linear dependence. (top right) The distribution of words that contain plain /y/ versus words with proper palatalization. Again, we see a clear distinction between the two. (bottom left) The distribution of words that contain plain /h/ versus words with proper aspiration. Again, we see a clear distinction between the two. (bottom right) The distribution of words that contain glottalized sounds versus that of words without. As glottalization can cover both vowels and consonants, the distributions are spread over the whole population. However, we can see that glottalized sounds cluster at the bottom right, a subspace containing mostly mostly words with velar and uvular consonants.\relax }}{28}}
-\newlabel{fig:vae_phono_orthofeatures}{{12}{28}}
-\newlabel{fig:vae_phono_orthofeatures0}{{\caption@xref {fig:vae_phono_orthofeatures0}{ on input line 728}}{29}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Other t-SNE visualizations of the embeddings created by word2vec. (top left) The model learns to clearly separate natural classes such as vowels, plain pulmonic or glottalized consonants, while other articulations seem to spread over the feature space. The colors indicate membership of a natural phonological class. (top right) A more detailed view on plain pulmonic consonants. Note the linear dependencies between voiced and unvoiced plosives and their respective nasal variant. (bottom left) Another detailed view. Note how the labialized uvular sounds cluster among glottalized consonants. (top right) The model seems to capture different manners of articulations across articulation type boundaries, as the linear dependency shows here.\relax }}{22}}
+\newlabel{fig:phoneme_embeddings_word2vec_all}{{4}{22}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Comparison of the four word2vec models evaluated. (top left) Both CBOW Models perform better than the skip-gram models over all numbers of embedding dimension. (bottom left) Mean distance between the predicted vector and the target with regard to embedding dimensions. Here, negative sampling yields less error than hierarchical softmax. (top right) Mean accuracy for the models with regard to the context window size. The models perform worse the bigger the context is. (bottom right) Mean distance between the predicted vector and the target with regard to context window size. Again, bigger contexts lead to worse predictions. \relax }}{23}}
+\newlabel{fig:phoneme_embeddings_4models_comparison_meanAccLossTopn1}{{5}{23}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Mean accuracies for analogies. The model does not seem to be able to capture the compositionality of the latent features too well. (top left) Accuracy is best for plosives across plain pulmonic as well as more complex articulations, while fricatives perform worse. (top right) Glottalized and Plain pulmonic consonant phonemes yield best performance. Among complex articulations, which all perform bad, labialized phonemes yield best results, while aspirated and palatalized phonemes perform even worse. (bottom left) Adding voice works better than removing it or adding nasality. (bottom right) Vowel analogies work far better than consonant analogies. This should be due to the small number of possible vowel phonemes.\relax }}{24}}
+\newlabel{fig:phoneme_embeddings_detailed_evaluation_topn1}{{6}{24}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Mean accuracies for analogies over the pooled consonant phonemes. Here, the model is expected to yield better results, as the number of latent features should have been reduced. (left) Accuracy is doubled compared with the unpooled phonemes. (middle) Adding voice works quite well, while removing it still yields acceptable performance. Applying nasality again works quite bad. (right) Vowel analogy tasks seem to work reasonably well, but worse than with unpooled consonants.\relax }}{24}}
+\newlabel{fig:phoneme_embeddings_detailed_evaluation_topn1_poooled}{{7}{24}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Visualization of the Variational autoencoder architecture. (left) The model with original objective as in Eq. 23\hbox {}. The stochastic unit is inside the network and would not allow for the backpropagation of error gradients through the network. (right) The model after the reparameterization with the objective as in Eq. 31\hbox {}. Here, the sampling is interpreted as an input variable, so error gradients can be backpropagated through the whole model. From \cite  {doersch2016tutorial}.\relax }}{25}}
+\newlabel{fig:vae_model_visualization}{{8}{25}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces A detailed view on a subsample of ASJP embedded into $\mathcal  {Z}$ after trained on the whole ASJP data set for 100 iterations. As can be seen, words accumulate in local subspaces with higher probability mass. Here, all words are contained in an area with shorter words that show simple CV syllable structures. Words that only differ in one distinctive feature are very close to each other, while linear dependencies over longer distances signify relationships over whole syllables that are exchanged.\relax }}{26}}
+\newlabel{fig:vae_phono_binary_asjp_subsample_words}{{9}{26}}
+\newlabel{fig:vae_phono_binary_wordLength0}{{\caption@xref {fig:vae_phono_binary_wordLength0}{ on input line 665}}{27}}
+\newlabel{sub@fig:vae_phono_binary_wordLength0}{{}{27}}
+\newlabel{fig:vae_phono_binary_wordLength1}{{\caption@xref {fig:vae_phono_binary_wordLength1}{ on input line 671}}{27}}
+\newlabel{sub@fig:vae_phono_binary_wordLength1}{{}{27}}
+\newlabel{fig:vae_phono_binary_wordLength2}{{\caption@xref {fig:vae_phono_binary_wordLength2}{ on input line 677}}{27}}
+\newlabel{sub@fig:vae_phono_binary_wordLength2}{{}{27}}
+\newlabel{fig:vae_phono_binary_wordLength3}{{\caption@xref {fig:vae_phono_binary_wordLength3}{ on input line 682}}{27}}
+\newlabel{sub@fig:vae_phono_binary_wordLength3}{{}{27}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces The ASJP data set embedded into $\mathcal  {Z}$ after trained on it for 100 iterations, colored by word length. The model learns to cluster words according to their respective length, with more frequent word lengths located in subspaces with higher probability mass.\relax }}{27}}
+\newlabel{fig:vae_phono_binary_wordLength}{{10}{27}}
+\newlabel{fig:vae_phono_binary_features0}{{\caption@xref {fig:vae_phono_binary_features0}{ on input line 692}}{28}}
+\newlabel{sub@fig:vae_phono_binary_features0}{{}{28}}
+\newlabel{fig:vae_phono_binary_features1}{{\caption@xref {fig:vae_phono_binary_features1}{ on input line 698}}{28}}
+\newlabel{sub@fig:vae_phono_binary_features1}{{}{28}}
+\newlabel{fig:vae_phono_binary_features2}{{\caption@xref {fig:vae_phono_binary_features2}{ on input line 704}}{28}}
+\newlabel{sub@fig:vae_phono_binary_features2}{{}{28}}
+\newlabel{fig:vae_phono_binary_feature3}{{\caption@xref {fig:vae_phono_binary_feature3}{ on input line 709}}{28}}
+\newlabel{sub@fig:vae_phono_binary_feature3}{{}{28}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces The ASJP data set embedded into $\mathcal  {Z}$ after trained on it for 100 iterations, colored by whether a given word has a phoneme with some specific distinctive feature. (top left) The model learns that clicks are highly unlikely to emerge evolutionary and hence assigns low probability mass to their respective subspace. (top right) The distribution of words with and without dentals. The linear dependencies are clearly visible. (bottom left) The distribution of words with and without fricatives. Again, it can be seen how they are linearly dependent of each other. (bottom right) A detailed view on the words with and without fricatives.\relax }}{28}}
+\newlabel{fig:vae_phono_binary_features}{{11}{28}}
+\newlabel{fig:vae_phono_orthofeatures0}{{\caption@xref {fig:vae_phono_orthofeatures0}{ on input line 719}}{29}}
 \newlabel{sub@fig:vae_phono_orthofeatures0}{{}{29}}
-\newlabel{fig:vae_phono_orthofeatures1}{{\caption@xref {fig:vae_phono_orthofeatures1}{ on input line 734}}{29}}
+\newlabel{fig:vae_phono_orthofeatures1}{{\caption@xref {fig:vae_phono_orthofeatures1}{ on input line 725}}{29}}
 \newlabel{sub@fig:vae_phono_orthofeatures1}{{}{29}}
-\newlabel{fig:vae_phono_orthofeatures2}{{\caption@xref {fig:vae_phono_orthofeatures2}{ on input line 740}}{29}}
+\newlabel{fig:vae_phono_orthofeatures2}{{\caption@xref {fig:vae_phono_orthofeatures2}{ on input line 731}}{29}}
 \newlabel{sub@fig:vae_phono_orthofeatures2}{{}{29}}
-\newlabel{fig:vae_phono_orthofeatures3}{{\caption@xref {fig:vae_phono_orthofeatures3}{ on input line 745}}{29}}
+\newlabel{fig:vae_phono_orthofeatures3}{{\caption@xref {fig:vae_phono_orthofeatures3}{ on input line 736}}{29}}
 \newlabel{sub@fig:vae_phono_orthofeatures3}{{}{29}}
-\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces The posterior distribution $P(z|X)$ with X being the IELex data with regards to the single semantic concepts. The model was trained on ASJP for 2000 iterations. Colors indicate the respective true cognate class. (top left) The posterior for the concept "name". As all words are cognates to each other, we see strong linear dependencies over the distribution. Also note that the embeddings are embedded into a latent continuum of word lengths, from the the top left to the bottom right. Moreover, the members of the left hand side clusters all start with consonants, while the members of the clusters on right hand side all start with vowels or approximants. (top right) The posterior for "sing". Again, cognates show stronger linear dependencies among each other. (bottom left) The posterior for "snake". The romance words (pink samples) show linear dependencies. (bottom right) A closer look on some words for "snake". As VAE-PT concentrates on clustering words with similar syllable structures, it tends to cluster words that share such similarities close to each other. Here, it overestimates the similarity between Slovak /had/ and Upper Sorbian /huZ/ on the one side and the words /sap/ (Bihari,Magahi,Urdu,Marathi) and /xap/ (Assamese) on the other. \relax }}{29}}
-\newlabel{fig:asjp_2000_binary_singleIELEXConcepts_posteriors}{{13}{29}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces The ASJP data set embedded into $\mathcal  {Z}$ after trained on it for 100 iterations. Since the binary features ignore coarticulations as such and encode them as independent phonemes instead, the model might learn to distinguish them, given some underlying latent features. (top left) The distribution of words that contain plain /w/ versus words with proper labialization. If the model did not learn the difference, we would expect some uniform distributions over all words that contain /w/ in the input. However, we can clearly see that words with proper labialization are located in other subspaces than words with proper /w/. Moreover, we see that words with labialized phonemes show linear dependence. (top right) The distribution of words that contain plain /y/ versus words with proper palatalization. Again, we see a clear distinction between the two. (bottom left) The distribution of words that contain plain /h/ versus words with proper aspiration. Again, we see a clear distinction between the two. (bottom right) The distribution of words that contain glottalized sounds versus that of words without. As glottalization can cover both vowels and consonants, the distributions are spread over the whole population. However, we can see that glottalized sounds cluster at the bottom right, a subspace containing mostly mostly words with velar and uvular consonants.\relax }}{29}}
+\newlabel{fig:vae_phono_orthofeatures}{{12}{29}}
+\newlabel{fig:vae_phono_orthofeatures0}{{\caption@xref {fig:vae_phono_orthofeatures0}{ on input line 747}}{30}}
+\newlabel{sub@fig:vae_phono_orthofeatures0}{{}{30}}
+\newlabel{fig:vae_phono_orthofeatures1}{{\caption@xref {fig:vae_phono_orthofeatures1}{ on input line 753}}{30}}
+\newlabel{sub@fig:vae_phono_orthofeatures1}{{}{30}}
+\newlabel{fig:vae_phono_orthofeatures2}{{\caption@xref {fig:vae_phono_orthofeatures2}{ on input line 759}}{30}}
+\newlabel{sub@fig:vae_phono_orthofeatures2}{{}{30}}
+\newlabel{fig:vae_phono_orthofeatures3}{{\caption@xref {fig:vae_phono_orthofeatures3}{ on input line 764}}{30}}
+\newlabel{sub@fig:vae_phono_orthofeatures3}{{}{30}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces The posterior distribution $P(z|X)$ with X being the IELex data with regards to the single semantic concepts. The model was trained on ASJP for 2000 iterations. Colors indicate the respective true cognate class. (top left) The posterior for the concept "name". As all words are cognates to each other, we see strong linear dependencies over the distribution. Also note that the embeddings are embedded into a latent continuum of word lengths, from the the top left to the bottom right. Moreover, the members of the left hand side clusters all start with consonants, while the members of the clusters on right hand side all start with vowels or approximants. (top right) The posterior for "sing". Again, cognates show stronger linear dependencies among each other. (bottom left) The posterior for "snake". The romance words (pink samples) show linear dependencies. (bottom right) A closer look on some words for "snake". As VAE-PT concentrates on clustering words with similar syllable structures, it tends to cluster words that share such similarities close to each other. Here, it overestimates the similarity between Slovak /had/ and Upper Sorbian /huZ/ on the one side and the words /sap/ (Bihari,Magahi,Urdu,Marathi) and /xap/ (Assamese) on the other. \relax }}{30}}
+\newlabel{fig:asjp_2000_binary_singleIELEXConcepts_posteriors}{{13}{30}}
