@@ -3,7 +3,7 @@ from cluster_weighting import *
 print("LOAD TEST WORDLIST")
 pathToAnnotatedWordList = "Data/IELex/output/IELex-2016.tsv.asjp"
 
-languages,words,global_ids,cognate_classes = loadAnnotatedWordList(pathToAnnotatedWordList, {617 })
+languages,words,global_ids,cognate_classes = loadAnnotatedWordList(pathToAnnotatedWordList, {2271 })
 
 print("VECTORIZE TEST WORDS")
 padToMaxLength=15
@@ -17,10 +17,10 @@ batch_size = X.shape[0]
 dim_phoneme_embeddings = 16
 original_dim = dim_phoneme_embeddings * padToMaxLength
 latent_dim = 20
-intermediate_dim = 200
+intermediate_dim = 500
 
 
-epsilon_std = 0.1
+epsilon_std = 0.01
 nb_epoch =40000
 
 vae = VAE(latent_dim=latent_dim,

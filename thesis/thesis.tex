@@ -650,6 +650,8 @@ For all settings, an ensemble of 2 models was trained on a subset of 10 concepts
 . 
 The performance is measured in adjusted rand indices (cf. \cite{rand1971objective,hubert1985comparing}), adjusted mutual information (cf. \cite{vinh2010information}), cluster homogeneity, cluster completeness and v-measure (cf. \cite{rosenberg2007v}).
 
+Fig. \ref{fig:grid_search_boxplots} summarizes the results. The binary phoneme features outperform the word2vec phoneme embeddings. Moreover, more than 20 latent dimensions do not improve the performance. As the intermediate dimensions of the encoding and decoding MLPs increase, also the performance improves. The standard deviation of the auxiliary noise $\epsilon$ also improves the performance when increased.
+
 \begin{figure}[h] %  figure placement: here, top, bottom, or page
    \centering
    \includegraphics[width=\textwidth]{vae_phono_binary_asjp_subsample_words} 
@@ -767,12 +769,18 @@ The performance is measured in adjusted rand indices (cf. \cite{rand1971objectiv
   \label{fig:asjp_2000_binary_singleIELEXConcepts_posteriors} 
 \end{figure}
 
+ \begin{figure}[h] 
+     \includegraphics[width=\linewidth]{grid_search_boxplots} 
+     \caption{The result of the grid search over several parameters of VAE-C, measured in adjusted rand indices. In general, the performance is mediocre. (top left) The binary phoneme features outperform the phoneme embeddings. (top right) 20 latent dimensions seem to outperform the other parameters. (bottom left) As the number of intermediate dimensions of the encoder and decoder MLPs increases, the performance also improves slightly. (bottom left) The results suggest that a smaller standard deviation of the auxiliary noise improves the performance.}
+    \label{fig:grid_search_boxplots} 
+\end{figure}
+
 
 \subsection{Results}
 \section{Discussion}
 \section{Resume}
 \section{Acknowledgements}
-For training the phoneme embeddings, I used the word2vec implementations provided by the gensim package \cite{rehurek_lrec}. The Autoencoder was implemented with Keras \cite{chollet2015keras} and Tensorflow \cite{tensorflow2015-whitepaper}. The clustering algorithms used here were provided by scikit-learn \cite{scikit-learn}. All code connected to this thesis can be found on my github \footnote{https://github.com/marlonbetz/BA}
+For training the phoneme embeddings, I used the word2vec implementations provided by the gensim package \cite{rehurek_lrec}. The Autoencoder was implemented with Keras \cite{chollet2015keras} and Tensorflow \cite{tensorflow2015-whitepaper}. The clustering algorithms used here were provided by scikit-learn \cite{scikit-learn}. All code connected to this thesis can be found on my github \footnote{https://github.com/marlonbetz/BA}.
 %\subsection{}
 
 

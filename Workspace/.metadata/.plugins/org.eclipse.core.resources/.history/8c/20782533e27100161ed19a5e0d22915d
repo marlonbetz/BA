@@ -1,0 +1,41 @@
+import numpy as np 
+import pickle
+import codecs
+
+adjusted_rand_scores = pickle.load(codecs.open("adjusted_rand_scores.pkl","rb"))
+adjusted_mutual_info_scores = pickle.load(codecs.open("adjusted_mutual_info_scores.pkl","rb"))
+homogeneity_scores = pickle.load(codecs.open("homogeneity_scores.pkl","rb"))
+completeness_scores = pickle.load(codecs.open("completeness_scores.pkl","rb"))
+v_measures_scores = pickle.load(codecs.open("v_measures_scores.pkl","rb"))
+
+adjusted_rand_scores_random = pickle.load(codecs.open("adjusted_rand_scores_random.pkl","rb"))
+adjusted_mutual_info_scores_random = pickle.load(codecs.open("adjusted_mutual_info_scores_random.pkl","rb"))
+homogeneity_scores_random = pickle.load(codecs.open("homogeneity_scores_random.pkl","rb"))
+completeness_scores_random = pickle.load(codecs.open("completeness_scores_random.pkl","rb"))
+v_measures_scores_random = pickle.load(codecs.open("v_measures_scores_random.pkl","rb"))
+n_cognate_classes_true_perDataPoint = pickle.load(codecs.open("n_cognate_classes_true_perDataPoint.pkl","rb"))
+n_cognate_classes_pred_perDataPoint = pickle.load(codecs.open("n_cognate_classes_pred_perDataPoint.pkl","rb"))
+
+
+import matplotlib.pyplot as plt
+
+import seaborn as sns
+
+def plot(y_label):
+    x_ticks = ["ARI","AMI","H","C","V"]
+    y = []
+    for i,data in enumerate([adjusted_rand_scores,adjusted_rand_scores_random,
+                             adjusted_mutual_info_scores,adjusted_mutual_info_scores_random,
+                             homogeneity_scores,homogeneity_scores_random,
+                             completeness_scores,completeness_scores_random,
+                             v_measures_scores,v_measures_scores_random]):
+        y.append(data.flatten())
+    y=np.array(y)
+    print(y.shape)
+    plt.boxplot(y.T)
+    plt.xticks(np.arange(1.5,len(x_ticks)+1,2),x_ticks)
+    plt.xlabel("measures")
+    plt.ylabel(y_label)
+
+plot("performance")
+plt.show()

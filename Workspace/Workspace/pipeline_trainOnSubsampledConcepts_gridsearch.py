@@ -109,8 +109,8 @@ for i_phoneme_vectorization, phoneme_vectorization in enumerate(["binary","embed
                         v_measure_scores[(i_phoneme_vectorization,i_ld,i_id,i_epsilon_std,i_concept,n_tmp)] = v
 import pickle
 import codecs
-pickle.dump(adjusted_rand_scores,codecs.open("pickled_stuff/pipeline_trainOnSubsampledConcepts_gridsearchadjusted_rand_scores.pkl","wb"))                        
-pickle.dump(adjusted_mutual_info_scores,codecs.open("pickled_stuff/pipeline_trainOnSubsampledConcepts_gridsearchadjusted_mutual_info_scores.pkl","wb"))                        
-pickle.dump(homogeneity_scores,codecs.open("pickled_stuff/pipeline_trainOnSubsampledConcepts_gridsearchhomogeneity_scores.pkl","wb"))                        
-pickle.dump(completeness_scores,codecs.open("pickled_stuff/pipeline_trainOnSubsampledConcepts_gridsearchcompleteness_scores.pkl","wb"))                        
-pickle.dump(v_measure_scores,codecs.open("pickled_stuff/pipeline_trainOnSubsampledConcepts_gridsearchv_measure_scores.pkl","wb"))                        
+pickle.dump(adjusted_rand_scores,codecs.open("pickled_stuff/pipeline_trainOnSubsampledConcepts_gridsearch/adjusted_rand_scores.pkl","wb"))                        
+pickle.dump(adjusted_mutual_info_scores,codecs.open("pickled_stuff/pipeline_trainOnSubsampledConcepts_gridsearch/adjusted_mutual_info_scores.pkl","wb"))                        
+pickle.dump(homogeneity_scores,codecs.open("pickled_stuff/pipeline_trainOnSubsampledConcepts_gridsearch/homogeneity_scores.pkl","wb"))                        
+pickle.dump(completeness_scores,codecs.open("pickled_stuff/pipeline_trainOnSubsampledConcepts_gridsearch/completeness_scores.pkl","wb"))                        
+pickle.dump(v_measure_scores,codecs.open("pickled_stuff/pipeline_trainOnSubsampledConcepts_gridsearch/v_measure_scores.pkl","wb"))                        
