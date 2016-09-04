@@ -64,6 +64,12 @@ class VAE(object):
         self.vae.compile(optimizer='Adam', loss=vae_loss)
         self.encoder = Model([self.input], self.z_mean)
         self.z_posterior_sampler = Model([self.input], self.z)
+        self.generator_input = Input((self.latent_dim,))
+        
+        #generator
+        self.generator_intermediate = self.decoding_layer_intermediate(self.generator_input)
+        self.generator_decoded = self.decoding_layer_decoded(self.generator_intermediate)
+        self.generator = Model(self.generator_input,self.generator_decoded)
 
         
     def fit(self,X,nb_epoch):

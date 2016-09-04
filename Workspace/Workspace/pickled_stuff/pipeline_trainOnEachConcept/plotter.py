@@ -13,25 +13,49 @@ adjusted_mutual_info_scores_random = pickle.load(codecs.open("adjusted_mutual_in
 homogeneity_scores_random = pickle.load(codecs.open("homogeneity_scores_random.pkl","rb"))
 completeness_scores_random = pickle.load(codecs.open("completeness_scores_random.pkl","rb"))
 v_measures_scores_random = pickle.load(codecs.open("v_measures_scores_random.pkl","rb"))
+
 n_cognate_classes_true_perDataPoint = pickle.load(codecs.open("n_cognate_classes_true_perDataPoint.pkl","rb"))
 n_cognate_classes_pred_perDataPoint = pickle.load(codecs.open("n_cognate_classes_pred_perDataPoint.pkl","rb"))
 
+adjusted_rand_scores = adjusted_rand_scores[:,:4]
+adjusted_mutual_info_scores = adjusted_mutual_info_scores[:,:4]
+homogeneity_scores = homogeneity_scores[:,:4]
+completeness_scores = completeness_scores[:,:4]
+v_measures_scores = v_measures_scores[:,:4]
+
+adjusted_rand_scores_random = adjusted_rand_scores_random[:,:4]
+adjusted_mutual_info_scores_random = adjusted_mutual_info_scores_random[:,:4]
+homogeneity_scores_random = homogeneity_scores_random[:,:4]
+completeness_scores_random = completeness_scores_random[:,:4]
+v_measures_scores_random = v_measures_scores_random[:,:4]
+
+n_cognate_classes_true_perDataPoint = n_cognate_classes_true_perDataPoint[:,:4]
+n_cognate_classes_pred_perDataPoint = n_cognate_classes_pred_perDataPoint[:,:4]
 
 import matplotlib.pyplot as plt
 
 import seaborn as sns
 sns.set_style("white")
-def plot(y_label):
+def plot(y_label,key):
     x_ticks = ["ARI","AMI","H","C","V"]
 
     y = []
-    for i,data in enumerate([adjusted_rand_scores,#adjusted_rand_scores_random,
-                             adjusted_mutual_info_scores,#adjusted_mutual_info_scores_random,
-                             homogeneity_scores,#homogeneity_scores_random,
-                             completeness_scores,#completeness_scores_random,
-                             v_measures_scores#,v_measures_scores_random
-                             ]):
-        y.append(data.flatten())
+    if key=="base":
+        for i,data in enumerate([adjusted_rand_scores,#adjusted_rand_scores_random,
+                                 adjusted_mutual_info_scores,#adjusted_mutual_info_scores_random,
+                                 homogeneity_scores,#homogeneity_scores_random,
+                                 completeness_scores,#completeness_scores_random,
+                                 v_measures_scores#,v_measures_scores_random
+                                 ]):
+            y.append(data.flatten())
+    elif key=="random":
+        for i,data in enumerate([adjusted_rand_scores_random,
+                                 adjusted_mutual_info_scores_random,
+                                 homogeneity_scores_random,
+                                 completeness_scores_random,
+                                 v_measures_scores_random
+                                 ]):
+            y.append(data.flatten()) 
     y=np.array(y)
     print(y.shape)
     plt.boxplot(y.T)
@@ -49,8 +73,10 @@ def toLatexTable():
                      index = ["ARI","AMI","H","C","V"]
                      ).transpose().to_latex()
     
-
-#plot("performance")
-#plt.show()
-
 print(toLatexTable())
+plt.subplot(1,2,1)
+plot("performance","base")
+plt.subplot(1,2,2)
+plot("performance","random")
+plt.show()
+

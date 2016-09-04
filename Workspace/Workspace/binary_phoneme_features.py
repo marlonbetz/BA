@@ -93,5 +93,17 @@ class BinaryPhonemeFeatures(object):
                 word_new += phoneme   
         return word_new
     def decodeWord(self,feature_seq):
-        return "".join([self.feature_phoneme_dict[tuple(feature)] for feature in feature_seq if True in feature]).strip()
-        
+        feature_seq = np.array(feature_seq)
+        d = np.zeros(feature_seq.shape)
+        d.fill(0.5)
+        feature_seq = np.greater_equal(feature_seq,d)
+        s = ""
+        for feature in feature_seq:
+            feature = tuple(feature)
+            if True not in feature:
+                s += ""
+            elif feature not in self.feature_phoneme_dict:
+                s += "?"
+            else:
+                s += self.feature_phoneme_dict[feature]
+        return s
