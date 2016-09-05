@@ -64,11 +64,16 @@ def plot(y_label,key):
     plt.ylabel(y_label)
 
 def toLatexTable():
-    return DataFrame(np.array([adjusted_rand_scores.mean(),#adjusted_rand_scores_random.mean(),
-                             adjusted_mutual_info_scores.mean(),#adjusted_mutual_info_scores_random.mean(),
-                             homogeneity_scores.mean(),#homogeneity_scores_random.mean(),
-                             completeness_scores.mean(),#completeness_scores_random.mean(),
-                             v_measures_scores.mean(),#v_measures_scores_random.mean()
+    return DataFrame(np.array([#adjusted_rand_scores.mean(),
+                               adjusted_rand_scores_random.mean(),
+                             #adjusted_mutual_info_scores.mean(),
+                             adjusted_mutual_info_scores_random.mean(),
+                             #homogeneity_scores.mean(),
+                             homogeneity_scores_random.mean(),
+                             #completeness_scores.mean(),
+                             completeness_scores_random.mean(),
+                             #v_measures_scores.mean(),
+                             v_measures_scores_random.mean()
                              ]),#columns=["ARI","ARI","AMI","AMI","H","H","C","C","V","V"]
                      index = ["ARI","AMI","H","C","V"]
                      ).transpose().to_latex()

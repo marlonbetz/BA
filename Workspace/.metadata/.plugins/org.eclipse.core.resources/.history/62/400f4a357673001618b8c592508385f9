@@ -1,0 +1,4 @@
+from pipeline import *
+from lingpy import *
+
+wl =lingpy.basic.wordlist.get_wordlist(path, **keywords)

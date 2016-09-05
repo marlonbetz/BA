@@ -7,6 +7,7 @@ n_ensemble = 4
 
 print("LOAD WORDLIST")
 pathToAnnotatedWordList = "Data/IELex/output/IELex-2016.tsv.asjp"
+pathToAnnotatedWordList = "Data/mattis_new/output/ObUgrian-110-21.tsv.asjp"
 
 languages,words,global_ids,cognate_classes = loadAnnotatedWordList(pathToAnnotatedWordList)
 
@@ -126,16 +127,16 @@ print("homogeneity_scores",np.mean(np.array(homogeneity_scores)))
 print("completeness_scores",np.mean(np.array(completeness_scores)))
 print("v_measures_scores",np.mean(np.array(v_measures_scores)))
 
-pickle.dump(adjusted_rand_scores,codecs.open("pickled_stuff/pipeline_trainOnEachConcept/adjusted_rand_scores.pkl","wb"))
-pickle.dump(adjusted_mutual_info_scores,codecs.open("pickled_stuff/pipeline_trainOnEachConcept/adjusted_mutual_info_scores.pkl","wb"))
-pickle.dump(homogeneity_scores,codecs.open("pickled_stuff/pipeline_trainOnEachConcept/homogeneity_scores.pkl","wb"))
-pickle.dump(completeness_scores,codecs.open("pickled_stuff/pipeline_trainOnEachConcept/completeness_scores.pkl","wb"))
-pickle.dump(v_measures_scores,codecs.open("pickled_stuff/pipeline_trainOnEachConcept/v_measures_scores.pkl","wb"))
+pickle.dump(adjusted_rand_scores,codecs.open("pickled_stuff/pipeline_trainOnEachConcept_ObUgrian/adjusted_rand_scores.pkl","wb"))
+pickle.dump(adjusted_mutual_info_scores,codecs.open("pickled_stuff/pipeline_trainOnEachConcept_ObUgrian/adjusted_mutual_info_scores.pkl","wb"))
+pickle.dump(homogeneity_scores,codecs.open("pickled_stuff/pipeline_trainOnEachConcept_ObUgrian/homogeneity_scores.pkl","wb"))
+pickle.dump(completeness_scores,codecs.open("pickled_stuff/pipeline_trainOnEachConcept_ObUgrian/completeness_scores.pkl","wb"))
+pickle.dump(v_measures_scores,codecs.open("pickled_stuff/pipeline_trainOnEachConcept_ObUgrian/v_measures_scores.pkl","wb"))
 
-pickle.dump(adjusted_rand_scores_random,codecs.open("pickled_stuff/pipeline_trainOnEachConcept/adjusted_rand_scores_random.pkl","wb"))
-pickle.dump(adjusted_mutual_info_scores_random,codecs.open("pickled_stuff/pipeline_trainOnEachConcept/adjusted_mutual_info_scores_random.pkl","wb"))
-pickle.dump(homogeneity_scores_random,codecs.open("pickled_stuff/pipeline_trainOnEachConcept/homogeneity_scores_random.pkl","wb"))
-pickle.dump(completeness_scores_random,codecs.open("pickled_stuff/pipeline_trainOnEachConcept/completeness_scores_random.pkl","wb"))
-pickle.dump(v_measures_scores_random,codecs.open("pickled_stuff/pipeline_trainOnEachConcept/v_measures_scores_random.pkl","wb"))
-pickle.dump(n_cognate_classes_true_perDataPoint,codecs.open("pickled_stuff/pipeline_trainOnEachConcept/n_cognate_classes_true_perDataPoint.pkl","wb"))
-pickle.dump(n_cognate_classes_pred_perDataPoint,codecs.open("pickled_stuff/pipeline_trainOnEachConcept/n_cognate_classes_pred_perDataPoint.pkl","wb"))
+pickle.dump(adjusted_rand_scores_random,codecs.open("pickled_stuff/pipeline_trainOnEachConcept_ObUgrian/adjusted_rand_scores_random.pkl","wb"))
+pickle.dump(adjusted_mutual_info_scores_random,codecs.open("pickled_stuff/pipeline_trainOnEachConcept_ObUgrian/adjusted_mutual_info_scores_random.pkl","wb"))
+pickle.dump(homogeneity_scores_random,codecs.open("pickled_stuff/pipeline_trainOnEachConcept_ObUgrian/homogeneity_scores_random.pkl","wb"))
+pickle.dump(completeness_scores_random,codecs.open("pickled_stuff/pipeline_trainOnEachConcept_ObUgrian/completeness_scores_random.pkl","wb"))
+pickle.dump(v_measures_scores_random,codecs.open("pickled_stuff/pipeline_trainOnEachConcept_ObUgrian/v_measures_scores_random.pkl","wb"))
+pickle.dump(n_cognate_classes_true_perDataPoint,codecs.open("pickled_stuff/pipeline_trainOnEachConcept_ObUgrian/n_cognate_classes_true_perDataPoint.pkl","wb"))
+pickle.dump(n_cognate_classes_pred_perDataPoint,codecs.open("pickled_stuff/pipeline_trainOnEachConcept_ObUgrian/n_cognate_classes_pred_perDataPoint.pkl","wb"))

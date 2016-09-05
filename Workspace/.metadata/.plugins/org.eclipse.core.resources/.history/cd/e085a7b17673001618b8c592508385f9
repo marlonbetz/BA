@@ -1,0 +1,4 @@
+from pipeline import *
+from lingpy.basic.wordlist import * 
+
+wl =get_wordlist("Data/IELex/output/IELex-2016.tsv.asjp",delimiter="\t",row="gloss")

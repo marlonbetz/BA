@@ -1,0 +1,6 @@
+from pipeline import *
+from lingpy.basic.wordlist import * 
+from lingpy import LexStat
+wl =get_wordlist("Data/IELex/output/IELex-2016.tsv",delimiter="\t",row="gloss",col="language")
+print(wl.get_dict(concept="tree",entry="transcription"))
+lex = LexStat(wl)

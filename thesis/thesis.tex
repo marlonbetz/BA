@@ -42,35 +42,25 @@ In this thesis, I will propose a view on cognate identification as latent repres
 
 The model described here is comparedly simple, as it is a direct adaptation of Variational Autoencoders, a quite recent deep generative architecture that combines non-linear dimensionality reduction with the strength of variational bayesian inference. It can be used as a basis for more detailed research on how language change can be model with deep learning tools. 
 
-%The aim of this thesis is hence 
-%\begin{enumerate}
-%\item to combine methods from both Computational Historical Linguistics, Bayesian Models and the emerging field of Deep Learning
-%\item to propose a model of modeling sound change as a walk in latent space, which is suitable for neural networks and builds the basis for this thesis
-%\item to use variational autoencoders as a means to build such a latent space, and to investigate it
-%\item to cluster this uncovered structure in order to identify cognates in an unsupervised way
-%\end{enumerate}
 
 I will first start by giving an overview of the problem of cognate identification and related fields of research. I will give a background on why cognate identification is important to discuss the historical connections between languages and further provide an overview on several established methods to detect cognates.  
 
-Then I will proceed to introduce the concept of sound change as a walk in latent space, which serves as a background for the actual inference model. Here I will talk about the main motivations for this approach as well as its major drawbacks. 
+Then I will proceed to explain the motivations why variational autoencoders are helpful tools for cognate identification and modeling sound change in general. 
 
-
-I will then discuss the actual architecture of the inference model. This first covers a general overview on the components included in the model. I will then in detail look over all components in particular. That will first cover a discussion of different methods of phoneme vectorizations. This is followed by a general overview on autoencoders as non-linear dimensionality reduction architectures first and then a description of variational autoencoders in particular, which build the basis for the model described here. I then come to the discussion of possible ways to cluster the words, i.e. to assign the actual inferred cognacy labels.
+I will then discuss the actual architecture of the inference model. This first covers a general overview on the components included in the model. I will then in detail look over all components in particular. This will first cover a discussion of different methods of phoneme vectorizations. This is followed by a general overview on autoencoders as non-linear dimensionality reduction architectures first and then a description of variational autoencoders in particular, which build the basis for the model described here. I then come to the discussion of possible ways to cluster the words, i.e. to assign the actual inferred cognacy labels.
 
 Then I will document how well those methods can be used to infer cognacy between words. I will compare the inferred labels with expert judgements first and then see how the inferred labels can infer language phylogenies, using both neighbor joining and established bayesian models of cognate evolution.
 
 Finally, I will give a resume on the model described here.
 
 
-\section{Sound Change as a Walk in Latent Space}
-\label{Sound Change as a Walk in Latent Space}
-\subsection{Motivation}
-
+\section{Motivation}
+\label{Motivation}
 \begin{figure}[h]
 \begin{center}
 \includegraphics[width=0.5\textwidth]{sc_fake_example} 
 \caption{Visualization of the concept of sound change as a walk in latent space. Here, sound changes are vectors from one word to another, where both word forms are given as points in latent space. The vector from /lob/ to /lop/ would be the same as from /tag/ to /tak/, as both vectors would describe the loss of voice in the word-final phoneme. This linear dependence means that if we fit a regression model from /tag/ to /tak/, we could generalize well to predict /lop/ from /lob/. The different lengths of the vectors are than proportional to probabilities of such as sound change to appear. Here, final devoicing should be more probable than a change from /lop/ to /tak/. }
-\label{default}
+\label{fig:final_devoicing}
 \end{center}
 \end{figure}
 In linguistic literature, sound change is usually described as a change of distinctive phonological features over phonological symbols. For instance, a sound change such as final devoicing as in 
@@ -96,20 +86,16 @@ Computational models of sound change usually treat words as string of symbols an
 
 This thesis proposes a model that tries to solve the task of cognate identification (and sound change as such) under the following assumptions:
 \begin{enumerate}
-\item The functions connecting our data with some latent space should be smooth. This allows the model to generalize from training examples to nearby points in input space, even if they were not trained on.
-\item The relationships between the data can be explained by some linear function, i.e. the data is linearly dependent. This should allow for good predictions even when the test data is far away from the training data.
-\item The underlying linear factors that produce the data are to complex to model directly, but only exist in some latent space that is not directly visible. 
-\item The model should treat factors that change some latent representation as causes for variation of the actual data, not vice versa.
+\item The functions connecting our data with some latent space should be smooth. This allows the model to generalize from training examples to nearby points in input space, even if they were not trained on. 
+\item The relationships between the data can be explained by some linear function, i.e. the data is linearly dependent. This should allow for good predictions even when the test data is far away from the training data. 
+\item The model should treat factors that change some latent representation as causes for variation of the actual data, not vice versa. That is, the model generates the latent representation.
+\item The underlying linear factors that produce the data are to complex to model directly, but only exist in some highly-abstract latent space that is not directly visible. 
 \end{enumerate}
 
-To address the smoothness assumption, we have to make sure that such a model treats phonemes and words not as symbols, but as points or distributions in some latent space. This allows for some tokens to be inherently closer to each other. \ref{Phoneme Vectorization} will discuss several such embedding methods for phonemes and \ref{Word Embeddings} will explore variational autoencoders as the preferred embedding algorithms for words.  
+To address the smoothness assumption, we have to make sure that such a model treats phonemes and words not as symbols, but as points or distributions in some latent space. This allows for some tokens to be inherently closer to each other. Section \ref{Phoneme Vectorization} will discuss several such embedding methods for phonemes and section \ref{Word Embeddings} will explore variational autoencoders as the preferred embedding algorithms for words.  
 
 
-
-
-%Coming from rules that use distinctive phonological features as in Eq. \ref{eq:final_devoicing}, we can encode every word as a sequence of phonemes that are points in some phonological feature space $\mathcal{F}$, where each dimension corresponds to phonological features such as \textsc{[velar]} or \textsc{[approximant]}. 
-
-The linearity assumption allows for the generalization over the compositional character of latent features over phonemes and words. For instance, in such a latent feature space $\mathcal{Z}$ over $\mathbb{R}^n$, a sound change $sc$ that derives a recent form of word $w_{recent}$ from an ancient form  $w_{ancient}$ should then correspond to a vector $v_{sc}$ in such a way that 
+The linearity assumption allows for the generalization over the compositional character of latent features over phonemes and words. For instance, a sound change $sc$ such as the final devoicing in Eq. \ref{eq:final_devoicing} that derives a recent form of word $w_{recent}$ from an ancient form  $w_{ancient}$ should then correspond to a vector $v_{sc}$ in such a way that 
 \begin{equation}
 \label{eq:sound_change_linear_dependency}
 v_{w_{ancient}}+v_{sc} = v_{w_{recent}}
@@ -131,183 +117,25 @@ which is equivalent to
 \begin{equation}
 v_{w_{recent}}  =   v_{w_{ancient}}  + (v_{w'_{recent}} - v_{w'_{ancient}}) 
 \end{equation}
-If we want to evaluate that latent feature space, we investigate in how far that compositional structure is preserved in our latent space. In fact, such analogy tasks can be used as an evaluation method to test whether the learned embedding space encodes the structure expected to be inherently contained in the data (cf. \cite{mikolov2013distributed}).
-
-\subsection{$P(z)$ as Prior for Evolutionary Stable Phoneme sequences}
-
-The question is then how to construct such a latent space $\mathcal{Z}$. If we follow the assumption from above that the model should treat factors in latent space as causes for variation of the actual data and not vice versa and if we further know that all words share a common structure, such as syllables and their respective internal structure, we can assume that it should be possible to model that structure by a latent variable $z$ embedded in latent space. As $z$ walks through $\mathcal{Z}$, we assume that the resulting word $x$ changes in a \textit{meaningful} way - for instance it should change certain phonological features of some phonemes in $x$ given that such changes are plausible, given the context of the other phonemes in the words. It should also be possible to add whole new affixes, but it should not inherit implausible phoneme sequences or change phoneme features in some random way. 
-
-
-As we expect that it is not possible to model the underlying factors that create the data directly, a decoder distribution $Q(z|X)$ cannot be mono-modal. However, we assume $Q(z|X)$ can be approximated by some universal function approximator that is combined with a stochastic unit. This multi-modality leads to the situation that similar points in $\mathcal{Z}$ should not necessarily coincide with similar points in our data space $\mathcal{X}$. For instance, a fictional word such as /aban/ should be closer to /ov\textipa{\~a}/ than to /a\textipa{\textdoublebarpipe}an/ in $\mathcal{Z}$ but not necessarily in $\mathcal{X}$, as it should be more probable that intervocalic voiced plosives lenite to fricatives and syllable-final nasals drop but leave some compensatory nasalization - here even at the same time - but there should be hardly any evidence of a direct sound change from /b/ to a palatal click.
-
-%As we expect that it is not possible to model the underlying factors that create the data directly, a decoder function such as $f_{decode}:\mathcal{Z} \rightarrow \mathcal{X}$ cannot be linear. However, we assume $f_{decode}$ can be approximated by some universal function approximator.
-%This non-linearity leads to the situation that similar points in $\mathcal{Z}$ should not necessarily coincide with similar points in our data space $\mathcal{X}$. For instance, a fictional word such as /aban/ should be closer to /ov\textipa{\~a}/ than to /a\textipa{\textdoublebarpipe}an/ in $\mathcal{Z}$ but not necessarily in $\mathcal{X}$, as it should be more probable that intervocalic voiced plosives lenite to fricatives and syllable-final nasals drop but leave some compensatory nasalization - here even at the same time - but there should be hardly any evidence of a direct sound change from /b/ to a palatal click.
-%Moreover, as we are interested in modeling our latent features as as probabilistic variable, we are interested in an encoder distribution $Q(z|X)$ that models the probability of $z$ given our data $X$. For the reasons given above, we expect that distribution to be highly multimodal.
-
-%
-%To model the posterior $P(z|X)$, we can use Bayes' theorem:
-%
-%\begin{equation}
-%P(z|X) = \frac{P(z)P(X|z)}{\int P(z)P(X|z)dz}
-%\end{equation}
-%
-%Here, $P(z)$ is the prior probability of $z$ and $P(X|z)$ the likelihood of our data given our latent variable. The term in the denominator is the marginal probability $P(X)$ of our Data under the given model.
-%If we want to model $z$ with the help of $X$, our objective is to maximize that marginal probability of our word list $P(X):
-%
-%\begin{equation}
-%P(X) = \int P(z)P(X|z)dz
-%\end{equation}
-%
-%
-
-We further assume that a corresponding decoder distribution $P(X|z)$ can be modeled with the same means as $Q(z|X)$.  Both can consist of any distribution with continuous parameters, as they should be differentiable to allow for the backpropagation of error gradients through the model. 
-%However, if our aim is to arrive with local modes in our posterior where evolutionary stable word forms that are similar to each other cluster among each other, we can assume that a given word $w$ in $\mathcal{Z}$ can be seen as some noisy version of another word $w'$ that is close to $w$ in $\mathcal{Z}$ - that is, we assume that $z$ can be modeled by a multivariate normal distribution. Mean and covariance of that distribution are than inferred by the model. Hence we further need a family of functions $f : \mathcal{Z} \times  \Theta \rightarrow \mathcal{X}$ that maps points in $\mathcal{Z}$ to points in the parameter space $\Theta$ of that normal distribution. The probability of our data given $z$ then becomes
-%
-%\begin{equation}
-%P(X|z;\theta) = \mathcal{N}(X|f(z,\theta))
-%\end{equation}
-
-As we expect that the words in our word list follow the central limit theorem and in the long run should be captured by a normal distribution, our latent variable $z$ is sampled from a isotropic multivariate normal prior:
-\begin{equation}
-z \sim \mathcal{N}(0,I)
-\end{equation}
-
-where $I$ is the identity matrix.
-
-If we train a deep probabilistic model such as variational autoencoders to approximate $Q(z|X)$ to $P(X)$ and maximize $P(X|z)$ (see \ref{Variational Autoencoders}), we can construct $\mathcal{Z}$ with the desired features. To arrive at such linear dependencies as in Eq. \ref{eq:sound_change_linear_dependency}, we then just have to expect them in our data $X$ in some way - e.g in form of predefined phoneme features as in \cite{kondrak2000new,list2012sca,rama2016siamese} that directly encode distinctive phonological features, pre-trained phoneme embeddings that capture the latent information of phonemes found in a corpus or as simple phoneme unigrams, in which case we would have the system learn latent phoneme features on its own. As $X$ in the decoder distribution $P(X|z)$ would be conditioned on $z$, we expect the same linear dependencies over words in $z$ as we find them in $X$.
-
-
-
-%As we again do not directly know $P(w_{ancient}|w_{recent},z)$ nor $P(w_{ancient}|z)$ unless we have language-specific diachronic data to model that likelihood, we cannot directly infer $P(w_{recent}|w_{ancient},z)$. However, we can say that 
-%\begin{equation}
-%P(w_{ancient}|w_{recent},z) \propto P(w_{recent}|z) P(w_{recent}|w_{ancient},z)
-%\end{equation}
-
-
-
-
-During training, we expect the model to learn underlying features and exploit them. As a consequence, those features should be stored in $\mathcal{Z}$. As we expect that certain features are more salient than others and further apply a gaussian prior over $z$, this finally means that certain subspaces in $\mathcal{Z}$ also contain more encoded information than others. We can define that self-information $I(z)$ as
-\begin{equation}
-I(z) = - \log P(z)
-\end{equation}
-If we have a variable $C$ that defines the belief that a given sample of $z$ is a cognate to other words and hence shares latent features with other samples, we expect this belief into $C$ to be logarithmically proportional to the self-information of $z$, as $I(z)$ is also defined in log-space:
-\begin{equation}
-\begin{split}
-\log P(C|z) & \propto  I(z) \\
-\log P(C|z) & \propto  - \log P(z) \\
-P(C|z) & \propto  - P(z) 
-\end{split}
-\end{equation}
-
-This means that as the belief into $z$ \textit{decreases}, the belief that the given word is related to other words \textit{increases}. This negative proportionality is of great help: If we have two words $z_1$ and $z_2$ and both words share similar latent features and hence are located close to each other in $\mathcal{Z}$, but are both located in a subspace with high probability mass under our prior $P(X)$, our belief into a hypothetic common predecessor is much lower than if they were located in a subspace with low probability mass. Since we have a normal prior, this means inferred cognate clusters are pushed farer away from the center of $\mathcal{Z}$ the more evidence for their grouping exists. From this follows that words that have a low self-information are hence kept close to the center of $\mathcal{Z}$ and form a cluster on their own. If we recognize such a cluster in a subspace with high probability mass, we can be sure that the members of that cluster are words that do not have any cognates.
+%If we want to evaluate that latent feature space, we investigate in how far that compositional structure is preserved in our latent space. 
+In fact, such analogy tasks can be used as an evaluation method to test whether the learned embedding space encodes the structure expected to be inherently contained in the data (cf. \cite{mikolov2013distributed}). For a visualization of this concept, see Fig. \ref{fig:final_devoicing}.
  
-%However, this information-based interpretation of $P(Z)$ also means that we cannot assume that latent features that appear often during training also have a high probability in $\mathcal{Z}$.  
-
-
-
-\subsection{Sound Change as Posterior $P(w_{recent}|w_{ancient},z)$ }
-
-
-As we usually do not know the ancient version of a word but only recent ones, we expect the cognates to have spread through the latent space from the original ancient word form to some directions. Since we assume that bigger jumps from one point in $\mathcal{Z}$ are less likely than small ones, we can expect that recent versions of an ancient word form should still be in the vicinity of the ancient word. Under the simplifying assumption that words in our word list did not jump from one semantic concept to another, this allows us embed all words of a given semantic concept into $\mathcal{Z}$ and to cluster them.
-
-However, there are some problems with this approach.
-The actual distribution of recent word forms in $\mathcal{Z}$ given the ancient forms would be given by the posterior
-
-\begin{equation}
-P(w_{recent}|w_{ancient},z,X) = \frac{P(w_{recent})P(w_{ancient},z,X|w_{recent})}{\int P(w_{recent})P(w_{ancient},z,X|w_{recent})dw_{recent}}
-\end{equation}
-
-Unfortunately, we only know $P(w_{recent}|z,X)$, while we do not know $P(w_{ancient}|w_{recent},z,X)$ directly, i.e. we cannot say anything specific about the likelihood of an ancient word given the recent words, that is the distribution of probabilities over points in $\mathcal{Z}$ where an ancient word form could be, given the distribution of its own child words.
-However, if we only consider those two terms and ignore the normalizing constant in the denominator, we have
-\begin{equation}
-P(w_{recent}|w_{ancient},z,X) \propto P(w_{recent}|z,X)P(w_{ancient}|w_{recent},z,X)
-\end{equation}
-
-This means that if our prior $P(w_{recent}|z,X)$, which is known to us, has low probability density for the area around $w_{recent}$, we can be quite certain that $P(w_{recent}|w_{ancient},z,X)$ should also be in such a low probability density area. As we except that the likelihood  $P(w_{ancient}|w_{recent},z)$ itself prefers points in $\mathcal{Z}$ that are close to $w_{recent}$ over points that are far away from it, we can say that $w_{recent}$ should be close to $w_{ancient}$. 
-However, if our prior $P(w_{recent}|z,X)$ is in an area with high probability density, the likelihood does not have such a regulating effect, as the high prior probability would allow for many points in Z to a possible point for $w_{ancient}$. 
-That has two major implications:
-
-
-\begin{itemize}
-\item  If we unpack our known prior $P(w_{recent}|z,X)$, we have
-\begin{equation}
-\begin{split}
-P(w_{recent}|z,X)  & = \frac{P(w_{recent})P(z,X|w_{recent})}{P(z,X)} \\
-P(w_{recent}|z,X) & \propto P(w_{recent})P(z,X|w_{recent})\\
-P(w_{recent}|z,X) & \propto P(w_{recent})\frac{P(z,X)P(w_{recent}|X,z)}{P(w_{recent})}\\
-P(w_{recent}|z,X) & \propto P(z,X)P(w_{recent}|z,X)\\
-P(w_{recent}|z,X) & \propto P(X)P(z|X)P(w_{recent}|z,X)\\
-\end{split}
-\end{equation}
-which involves the marginal probability of our data $P(X)$. If our data is small,  we assume that most words do not look similar. 
-For example, if we image that we have a word such as  /o/, we can hardly make any claims about how some ancient form would look like - it could come from /a\textipa{\textsubarch{U}}t/ (Latin to Italian), /ok/ (Old Norse to Bokm\r{a}l), /ob/ (Proto-Slavic to Slovak) or /ak\textipa{\super w}a/ (Latin to French). This is because /o/ as such receives high prior probability $P(w_{recent}|z)$ and hence gives high posterior probabilities over many possible ancient forms. However, if we have a word such as Polish /\textipa{swuxa\t{tC}}/ "listen", the remarkable structure of that word allows us to make much more detailed assumptions about the underlying ancient form, as we except more complex structures to be less frequent in our data and hence attract less probability density. 
-
-\end{itemize}
-
-
-
-
-%\begin{equation}
-%\frac{P(w_{ancient}=w'_{ancient}|w_{recent},w'_{recent},z,X)}{P(w_{ancient}\neq w'_{ancient}|w_{recent},w'_{recent},z,X)} \\
-%\end{equation}
-%\begin{equation}
-%= \frac{P(w_{ancient}=w'_{ancient}|z,X)P(w_{recent},w'_{recent}|w_{ancient}=w'_{ancient},z,X)}{P(w_{ancient}\neq w'_{ancient}|z,X)P(w_{recent},w'_{recent}|w_{ancient}\neq w'_{ancient},z,X)}
-%\end{equation}
-%\begin{equation}
-%= \frac{P(w_{ancient}=w'_{ancient})P(z,X|w_{ancient}=w'_{ancient})P(w_{recent},w'_{recent}|w_{ancient}=w'_{ancient},z,X)}{P(w_{ancient}\neq w'_{ancient})P(z,X|w_{ancient}=w'_{ancient})P(w_{recent},w'_{recent}|w_{ancient}\neq w'_{ancient},z,X)}
-%\end{equation}
-
-\subsection{Cognate Identification as Hypothesis Comparison}
-
-If we want to compare the two hypotheses directly and compute the Bayes Factor, we have
-
-\begin{equation}
-\frac{P(w_{ancient}=w'_{ancient}|w_{recent},w'_{recent})}{P(w_{ancient}\neq w'_{ancient}|w_{recent},w'_{recent})} \\
-\end{equation}
-\begin{equation}
-= \frac{P(w_{ancient}=w'_{ancient})P(w_{recent},w'_{recent}|w_{ancient}=w'_{ancient})}{P(w_{ancient}\neq w'_{ancient})P(w_{recent},w'_{recent}|w_{ancient}\neq w'_{ancient})}
-\end{equation}
-
-That is, we would have to define priors for both hypotheses. We cannot simply assume that both hypotheses are equally likely and share a flat prior, as we expect $P(w_{recent},w'_{recent}|w_{ancient}=w'_{ancient}) $ to be different to $ P(w_{recent},w'_{recent}|w_{ancient}\neq w'_{ancient})$.
-
-
- %& \frac{P(w_{ancient}=w'_{ancient}|w_{recent},w'_{recent},z,X)}{P(w_{ancient}\neq w'_{ancient}|w_{recent},w'_{recent},z,X)} \\
-%& = \frac{P(w_{ancient}=w'_{ancient}|z,X)P(w_{recent},w'_{recent}|w_{ancient}=w'_{ancient},z,X)}{P(w_{ancient}\neq w'_{ancient}|z,X)P(w_{recent},w'_{recent}|w_{ancient}\neq w'_{ancient},z,X)} 
-
-%& = \frac{P(z,X)P(z,X|w_{ancient}=w'_{ancient})P(w_{recent},w'_{recent}|w_{ancient}=w'_{ancient},z,X)}{P(z,X)P(z,X|w_{ancient}\neq w'_{ancient})P(w_{recent},w'_{recent}|w_{ancient}\neq w'_{ancient},z,X)} \\
-
-
-%& = \frac{P(z,X)P(z,X|w_{ancient}=w'_{ancient})P(w_{recent},w'_{recent}|w_{ancient}=w'_{ancient},z,X)}{P(z,X)P(z,X|w_{ancient}\neq w'_{ancient})P(w_{recent},w'_{recent}|w_{ancient}\neq w'_{ancient},z,X)} 
-
-
-%& = \frac{P(z|X)P(z|w_{ancient}=w'_{ancient},X)P(w_{recent},w'_{recent}|w_{ancient}=w'_{ancient},z,X)}{P(z|X)P(z|w_{ancient}\neq w'_{ancient},X)P(w_{recent},w'_{recent}|w_{ancient}\neq w'_{ancient},z,X)} \\
-%& = \frac{P(z|w_{ancient}=w'_{ancient},X)P(w_{recent},w'_{recent}|w_{ancient}=w'_{ancient},z,X)}{P(z|w_{ancient}\neq w'_{ancient},X)P(w_{recent},w'_{recent}|w_{ancient}\neq w'_{ancient},z,X)}\\
-%& =  \frac{P(z)P(w_{ancient}=w'_{ancient},X)P(w_{recent},w'_{recent}|w_{ancient}=w'_{ancient},z,X)}{P(z)P(w_{ancient}\neq w'_{ancient},X)P(w_{recent},w'_{recent}|w_{ancient}\neq w'_{ancient},z,X)} \\
-%& =  \frac{P(w_{ancient}=w'_{ancient},X)P(w_{recent},w'_{recent}|w_{ancient}=w'_{ancient},z,X)}{P(w_{ancient}\neq w'_{ancient},X)P(w_{recent},w'_{recent}|w_{ancient}\neq w'_{ancient},z,X)}
-
-
-%As not all sound changes are equiprobable,though, we expect that distribution to be distorted in a non-linearly way by the multi-modal characteristics of the posterior $p(z|X)$. That is, we have to assume that that posterior can be approximated by
-% 
-%
-%\begin{equation}
-%v_{w_{recent}} \sim f(\mathcal{N}(\mu = v_{w_{ancient}},\theta))
-%\end{equation}
-%
-%where $f$ is some non-linear function that maps points in $\mathcal{Z}$ with low probability density to to more probable regions. $f$ here then acts as the actual driving force of sound change, as it defines the actual shift through $\mathcal{Z}$. Unfortunately for us, that means that the simple assumption of cognates following some plain multivariate distribution cannot hold, as we expect complex, highly non-linear intercorrelations between the dimensions of $\mathcal{Z}$ to affect the shape of a word as it wanders around space, which should not be able to model with plain covariance.
-
-%Another critical point is that if we have to ancient words $w_{ancient}$ and $w'_{ancient}$, the distributions that model their respective  child words can show large overlaps. That is, only because two word look the same, they do not have to be related. This is the major challenge of any cognate identification system. However, as we assume that 
-
 
 \section{Related Research}
 \section{Architecture}
-
-Hence, the model should have three major components:
+Hence, the architecture of the models described here can be divided into three different components:
 \begin{enumerate}
-\item The phonemes should be embedded in a latent space, where similar phonemes should cluster in similar subspaces of the latent space.
-\item The words as sequences of such phoneme embeddings should themselves be embedded in another latent space, where words with similar shape should cluster among each other. 
-\item The word embeddings are then clustered in such a way that words that appear together in a cluster are assigned a common label, which is then predicted cognate class.
+\item The phonemes of every word are embedded in a latent space, where similar phonemes should cluster in similar subspaces of the latent space. This should allow for better generalization of sound correspondences between phonemes of different languages, following the smoothness and linearity assumption from \ref{Motivation}. Section \ref{Phoneme Vectorization} will cover this topic.
+\item The words as sequences of such phoneme embeddings should themselves be embedded in another latent space, where words with similar shape should cluster among each other.  Again, the main motivation here is smoothness and linearity, which should help to uncover latent features. Moreover, this component contains the actual variation autoencoder, which samples embeddings from a latent variable and transforms them into actual words. This follows the other two motivations - the unidirectionality of causal factors and the overcomplexity over the true underlying factors that produce the data. Section \ref{Word Embeddings} will cover this topic.
+\item The word embeddings are then clustered in such a way that words that appear together in a cluster are assigned a common label, which is then the predicted cognate class.  This follows again the smoothness assumption, as we expect words with similar latent features to cluster among each other. Here, it is important that the number and respective size of cognate classes per semantic concept can vary, so we have to find a way to cluster the words without any preference over the number of clusters or cluster size. Section \ref{Clustering} will cover this topic.
+
 \end{enumerate}
 
+Moreover, we focus on two separate models:
+\begin{enumerate}
+\item A model that tries to maximize $P(X|z)$, i.e. that learns the manifold creating the words as such. Such as model is pre-trained on a big corpus of phonologically annotated words. Here , the assumption is that given a big corpus that is representative of the data as such, the model will recognize the latent features of \textit{words as such} and can embed them in a meaningful even if it was not trained on them directly. This model will be referred to as VAE-PT.
+\item A model that tries to maximize $P(X|z,C)$, i.e that learns the manifold creating words given the respective concept. Such a model is useful as we are only interested to cluster words given a concept class. Also, this means that we only look for latent features in a given semantic concept, which should allow for finer-grained latent features. This model will be referred to as VAE-C.
+\end{enumerate}
 
 
 \subsection{Phoneme Vectorization}
@@ -383,7 +211,8 @@ The grid search was conducted over the following parameters:
 
 Fig. \ref{fig:phoneme_embeddings_detailed_evaluation_topn1} shows that the quality varies significantly with regards to the articulation type of the phonemes. For pulmonic consonants the models achieve reasonable performance, while for other coarticulation types the performance is quite bad. When following \cite{jager2014phylogenetic,rama2016siamese} and pooling coarticulation types, the models perform much better, for analogies over plosives, while the performance for fricatives has only slightly improved. 
 
-\begin{figure}[h] %  figure placement: here, top, bottom, or page
+
+\begin{figure}[h!] %  figure placement: here, top, bottom, or page
 \begin{center}
    \includegraphics[width=0.75\textwidth]{word2vec} 
    \caption{The two common architectures of word2vec. The Continuous Bag-of-Words (CBOW) model predicts the current word based on the
@@ -394,15 +223,15 @@ context, and the Skip-gram predicts surrounding words given the current word. Fr
 \end{figure}
 
 
-\begin{figure}[h]
+\begin{figure}[h!]
 \begin{center}
-\includegraphics[width=\textwidth]{phoneme_embeddings_overview_ap} 
+\includegraphics[width=0.5\textwidth]{phoneme_embeddings_overview_ap} 
 \caption{t-SNE visualization of the embeddings of all 720 phonemes contained in ASJP, trained with word2vec. The colors represent clusters inferred by Affinity Propagation. The model can clearly separate vowels and various forms of special articulation types. Pulmonic consonants can also be separated clearly from other coarticulation variants, as can uvular or pre-nasalized sounds. Less frequent phonemes, however, cannot be clearly differentiated. }
 \label{fig:phoneme_embeddings_overview_ap}
 \end{center}
 \end{figure}
 
-\begin{figure}[h] %  figure placement: here, top, bottom, or page
+\begin{figure}[h!] %  figure placement: here, top, bottom, or page
    \centering
    \includegraphics[width=\textwidth]{phoneme_embeddings_word2vec_all} 
    \caption{Other t-SNE visualizations of the embeddings created by word2vec. (top left) The model learns to clearly separate natural classes such as vowels, plain pulmonic or glottalized consonants, while other articulations seem to spread over the feature space. The colors indicate membership of a natural phonological class.  (top right) A more detailed view on plain pulmonic consonants. Note the linear dependencies between voiced and unvoiced plosives and their respective nasal variant. (bottom left) Another detailed view. Note how the labialized uvular sounds cluster among glottalized consonants. (top right) The model seems to capture different manners of articulations across articulation type boundaries, as the linear dependency shows here.}
@@ -416,7 +245,7 @@ context, and the Skip-gram predicts surrounding words given the current word. Fr
    \label{fig:phoneme_embeddings_4models_comparison_meanAccLossTopn1}
 \end{figure}
 
-\begin{figure}[h] %  figure placement: here, top, bottom, or page
+\begin{figure}[h!] %  figure placement: here, top, bottom, or page
    \centering
    \includegraphics[width=0.75\textwidth]{phoneme_embeddings_detailed_evaluation_topn1} 
    \caption{Mean accuracies for analogies. The model does not seem to be able to capture the compositionality of the latent features too well. (top left) Accuracy is best for plosives across plain pulmonic as well as more complex articulations, while fricatives perform worse. (top right) Glottalized and Plain pulmonic consonant phonemes yield best performance. Among complex articulations, which all perform bad,  labialized phonemes yield best results, while aspirated and palatalized phonemes perform even worse. (bottom left) Adding voice works better than removing it or adding nasality. (bottom right) Vowel analogies work far better than consonant analogies. This should be due to the small number of possible vowel phonemes.}
@@ -443,7 +272,7 @@ L(x,g(f(x)))
 where $L$ describes some loss function that penalizes the reconstruction error. The dimensionality of $\mathcal{Z}$ is usually assumed to be lower-dimensional, so that autoencoders can be used to reduce the dimensionality of the data. If $f$ and $g$ are linear functions, autoencoders are proven to be equal to PCA. If they are non-linear, they should allow for the detection of latent features.
 \subsubsection{Variational Autoencoders}
 \label{Variational Autoencoders}
-\begin{figure}[h] %  figure placement: here, top, bottom, or page
+\begin{figure}[h!] %  figure placement: here, top, bottom, or page
    \centering
    \includegraphics[width=\textwidth]{vae_model_visualization} 
    \caption{Visualization of the Variational autoencoder architecture. (left) The model with original objective as in Eq. \ref{eq:vae_loss_original}. The stochastic unit is inside the network and would not allow for the backpropagation of error gradients through the network. (right) The model after the reparameterization with the objective as in Eq. \ref{eq:vae_loss_reparameterized}. Here, the sampling is interpreted as an input variable, so error gradients can be backpropagated through the whole model. From \cite{doersch2016tutorial}.}
@@ -535,58 +364,48 @@ E_{\epsilon \sim \mathcal{N}(0,1)}[\log P(X|z= \mu + \sigma \odot \epsilon) - D_
 
 The model architecture is visualized in Fig. \ref{fig:vae_model_visualization}. 
 
-%VAEs first draw a sample from $p(z)$. That code than runs through a differentiable generator network $g(z)$. $x$ is then finally sampled from the likelihood $p(x;g(z)) = p(x|z)$ (cf. \cite[p. 698]{Goodfellow-et-al-2016-Book}) 
-%
-%The model learns to maximize the variational lower bound $\mathcal{L}(\theta,\phi,x^{(i)})$.
-%
-%\begin{equation}
-%\log p_\theta(x^{(i)}) = D_{KL}(q_{\phi}(z|x^{(i)})||p_\theta(z|x^{(i)}))+\mathcal{L}(\theta,\phi,x^{(i)})
-%\end{equation}
-%
-%where the first term on the right is the Kullback Leibler Divergence of the approximated posterior to the true posterior, while the second therm is the variational lower bound on the marginal likelihood of the datapoint i.
-%
-%
-%Given the probabilistic encoder $q_{\phi}(z|x)$, which serves as the approximation to the posterior of the model $p_{\theta}(z,x)$, we have a prior
-%
-%\begin{equation}
-%p_{\theta}(z) = \mathcal{z;0,I} 
-%\end{equation}
-%
-%The probabilistic decoder $p_{\theta}(x|z)$ can be a multivariate Gaussian or a Bernoulli distribution, depending on the data. The respective distribution parameters are inferred from z with a Multilayer Perceptron (MLP). The variational approximate posterior is then given by  
-%
-%
-%\begin{equation}
-%\log q_{\phi}(z|x^{(i)}) = \log \mathcal{N}(z;\mu ^{(i)},\sigma ^{2(i)}I)
-%\end{equation}
-%
-%where $\mu$ and $\sigma^2$ are inferred by the encoding MLP. 
 
-%\begin{equation}
-%\mathcal{L}(\theta,\phi,x^{(i)}) \simeq \frac{1}{2} \sum_{j=1}^{J}(1+\log((\sigma_j^{(i)})^2 )-(\mu_j^{(i)})^2 -(\sigma_j^{(i)})^2)
-%+ \frac{1}{L}\sum_{l=1}^L \log p_{\theta}(x^{(i)}|z^{(i,l)})
-%\end{equation}
-%
-%where 
-%
-%\begin{equation}
-%z^{(i,l)} = \mu(i) + \sigma^{(i)} \odot \epsilon^{(l)}
-%\end{equation}
-%
-%and 
-%
-%\begin{equation}
-%\epsilon^{(l)} \sim \mathcal{N}(0,I)
-%\end{equation}
 
-For practical purposes, such a model should not take too much time to learn the relationships between the words in our wordlist. 
 
-Following this, 2 different models are investigated here:
-\begin{enumerate}
-\item A model that tries to maximize $P(X|z)$, i.e. that learns the manifold creating the words as such. Such as model is pre-trained on a big corpus of phonologically annotated words. Here, the assumption is that if we embed our word list, we can use the maximum likelihood assumption that states that if the training data is representative for the data as such, it should be able to generalize well for similar, but unseen data. This model will be referred to as VAE-PT.
-\item A model that tries to maximize $P(X|z,C)$, i.e that learns the manifold creating words given the respective concept. Such a model is useful as we are only interested to cluster words given a concept class. Also, this means that we only look for latent features in a given semantic concept, which should allow for finer-grained latent features. This model will be referred to as VAE-C.
-\end{enumerate}
+\subsection{$P(z)$ as Prior for Evolutionary Stable Phoneme sequences}
+
+The question is then how to construct such a latent space $\mathcal{Z}$. If we follow the assumption from above that the model should treat factors in latent space as causes for variation of the actual data and not vice versa and if we further know that all words share a common structure, such as syllables and their respective internal structure, we can assume that it should be possible to model that structure by a latent variable $z$ embedded in latent space. As $z$ walks through $\mathcal{Z}$, we assume that the resulting word $x$ changes in a \textit{meaningful} way - for instance it should change certain phonological features of some phonemes in $x$ given that such changes are plausible, given the context of the other phonemes in the words. It should also be possible to add whole new affixes, but it should not inherit implausible phoneme sequences or change phoneme features in some random way. 
+
+
+As we expect that it is not possible to model the underlying factors that create the data directly, a decoder distribution $Q(z|X)$ cannot be mono-modal. However, we assume $Q(z|X)$ can be approximated by some universal function approximator that is combined with a stochastic unit. This multi-modality leads to the situation that similar points in $\mathcal{Z}$ should not necessarily coincide with similar points in our data space $\mathcal{X}$. For instance, a fictional word such as /aban/ should be closer to /ov\textipa{\~a}/ than to /a\textipa{\textdoublebarpipe}an/ in $\mathcal{Z}$ but not necessarily in $\mathcal{X}$, as it should be more probable that intervocalic voiced plosives lenite to fricatives and syllable-final nasals drop but leave some compensatory nasalization - here even at the same time - but there should be hardly any evidence of a direct sound change from /b/ to a palatal click.
+
+
+We further assume that a corresponding decoder distribution $P(X|z)$ can be modeled with the same means as $Q(z|X)$.  Both can consist of any distribution with continuous parameters, as they should be differentiable to allow for the backpropagation of error gradients through the model. 
+
+As we expect that the words in our word list follow the central limit theorem and in the long run should be captured by a normal distribution, our latent variable $z$ is sampled from a isotropic multivariate normal prior:
+\begin{equation}
+z \sim \mathcal{N}(0,I)
+\end{equation}
+
+where $I$ is the identity matrix.
+
+If we train a deep probabilistic model such as variational autoencoders to approximate $Q(z|X)$ to $P(X)$ and maximize $P(X|z)$ (see \ref{Variational Autoencoders}), we can construct $\mathcal{Z}$ with the desired features. To arrive at such linear dependencies as in Eq. \ref{eq:sound_change_linear_dependency}, we then just have to expect them in our data $X$ in some way - e.g in form of predefined phoneme features as in \cite{kondrak2000new,list2012sca,rama2016siamese} that directly encode distinctive phonological features, pre-trained phoneme embeddings that capture the latent information of phonemes found in a corpus or as simple phoneme unigrams, in which case we would have the system learn latent phoneme features on its own. As $X$ in the decoder distribution $P(X|z)$ would be conditioned on $z$, we expect the same linear dependencies over words in $z$ as we find them in $X$.
+
+
+
+
+During training, we expect the model to learn underlying features and exploit them. As a consequence, those features should be stored in $\mathcal{Z}$. As we expect that certain features are more salient than others and further apply a gaussian prior over $z$, this finally means that certain subspaces in $\mathcal{Z}$ also contain more encoded information than others. We can define that self-information $I(z)$ as
+\begin{equation}
+I(z) = - \log P(z)
+\end{equation}
+If we have a variable $C$ that defines the belief that a given sample of $z$ is a cognate to other words and hence shares latent features with other samples, we expect this belief into $C$ to be logarithmically proportional to the self-information of $z$, as $I(z)$ is also defined in log-space:
+\begin{equation}
+\begin{split}
+\log P(C|z) & \propto  I(z) \\
+\log P(C|z) & \propto  - \log P(z) \\
+P(C|z) & \propto  - P(z) 
+\end{split}
+\end{equation}
+
+This means that as the belief into $z$ \textit{decreases}, the belief that the given word is related to other words \textit{increases}. This negative proportionality is of great help: If we have two words $z_1$ and $z_2$ and both words share similar latent features and hence are located close to each other in $\mathcal{Z}$, but are both located in a subspace with high probability mass under our prior $P(X)$, our belief into a hypothetic common predecessor is much lower than if they were located in a subspace with low probability mass. Since we have a normal prior, this means inferred cognate clusters are pushed farer away from the center of $\mathcal{Z}$ the more evidence for their grouping exists. From this follows that words that have a low self-information are hence kept close to the center of $\mathcal{Z}$ and form a cluster on their own. If we recognize such a cluster in a subspace with high probability mass, we can be sure that the members of that cluster are words that do not have any cognates.
 
 \subsection{Clustering}
+\label{Clustering}
 
 To cluster the embeddings, we have to make sure that the number of clusters can vary, as can the number of members for each cluster. For instance, if our word list consists of languages where the majority of languages are closely related and should show similar words, but the remaining languages are not related at all, we assume that the resulting clusters of words are not of the same size. If we do not know at all if the respective languages are related, we cannot really say what size the clusters should have either. Hence, both are variables which we do not know beforehand. 
 
@@ -623,9 +442,7 @@ If the self-information of a cluster is lower than a certain threshold, we can a
 To pre-train VAE-PT,  the data provided by the Automatic Similarity Judgement Program (ASJP, \cite{wichmann2010asjp} will serve as a training corpus. ASJP provides wordlists of roughly 7200 languages, where each word is given as a string of phonemes. This vast amount of different phoneme inventories will allow for the unbiased comparison of phonemes over language boundaries. However, ASJP does not make use of IPA, but a simplified phonemic alphabet that is based on ASCII-characters. This makes it possible to incorporate data where no detailed IPA description is given, but might also reduce the quality of the resulting embedding space, as latent features that might be encoded in more specific IPA descriptions are merged. For all other data, respective conversions into the ASJP system are used.  An overview of the ASJP phonemes and their IPA counterparts are given in the appendix.
 
 VAE-PT is trained and tested on IELex (cf. \cite{dunn2012indo}), while VAE-PT is tested on it. IELex provides 250 concepts for 163 doculects. After the removal of ancient language forms and legacy doculects, this leaves around 60 languages, as the number of languages varies per concept.
-\subsection{Evaluation of $Q(X)$}
-
-\subsubsection{Visual Inspection}
+\subsection{Visual Inspection}
 A first visual inspection shows that VAE-PT, trained for 100 iterations, learns to cluster similar strings close to each other (Fig. \ref{fig:vae_phono_binary_asjp_subsample_words}). Words with similar syllable structures are located in specific subspaces of $\mathcal{Z}$. It further connects strings beyond local clusters through linear dependencies, which can interchange whole syllables of a word. 
 On a more global perspective, words are embedded into a high-level feature continuum that encodes word lengths (Fig. \ref{fig:vae_phono_binary_wordLength}), with smooth transitions between the respective subspaces. This is remarkable, given that there are no word boundary tokens involved during training. The model itself learns to recognize the transition from the binary code of the actual phonemes of the word to the zero-padding following it.
 Moreover, the linear dependencies are not simple renderings of the binary input code. The model learns high-level latent features, such as if a word has a phoneme with a certain distinctive feature or not (Fig. \ref{fig:vae_phono_binary_features}). If so, linear dependencies connect such words, even over very long distances. In fact, some of those linear dependencies form bigger clusters that can span the entire posterior distribution. 
@@ -635,24 +452,7 @@ The posterior distributions for several IELex concepts show linear dependencies 
 
 
 VAE-C, on the other hand, yields a far better basis for cognate identification as such. Similar words form clusters that are pushed away from the population mean, while words without similar counterparts remain close the center of the latent space. Although there are linear dependencies between similar words, it does not play such an important role as it does for VAE-PT.  
-
-\subsubsection{Grid Search over Model Parameters}
-
-To explore the performances of VAE-C under different parameter settings, a grid search over the following parameters was performed:
-\begin{itemize}
-\item Phoneme vectorization:  Binary phoneme features (cf. \cite{rama2016siamese}) vs. Word2vec Phoneme Embeddings, as explored in \ref{Phoneme embeddings}
-\item number of latent dimensions:  [2,5,10,20,50]
-\item intermediate dimensions of the encoding and decoding MLPs:  [100,200,500]
-\item the standard deviation of the auxiliary noise $\sigma_{\epsilon}$: [1,0.1,0.01]
-\end{itemize}
-For all settings, an ensemble of 2 models was trained on a subset of 10 concepts, which are randomly sampled from all IELex concepts beforehand. The models are trained for 4000 iterations
-%, to make sure the model has converged even when the explored number of latent dimensions is higher
-. 
-The performance is measured in adjusted rand indices (cf. \cite{rand1971objective,hubert1985comparing}), adjusted mutual information (cf. \cite{vinh2010information}), cluster homogeneity, cluster completeness and v-measure (cf. \cite{rosenberg2007v}).
-
-Fig. \ref{fig:grid_search_boxplots} summarizes the results. The binary phoneme features outperform the word2vec phoneme embeddings. Moreover, more than 20 latent dimensions do not improve the performance. As the intermediate dimensions of the encoding and decoding MLPs increase, also the performance improves. The standard deviation of the auxiliary noise $\epsilon$ also improves the performance when increased.
-
-\begin{figure}[h] %  figure placement: here, top, bottom, or page
+\begin{figure}[h!] %  figure placement: here, top, bottom, or page
    \centering
    \includegraphics[width=\textwidth]{vae_phono_binary_asjp_subsample_words} 
    \caption{A detailed view on a subsample of ASJP embedded into $\mathcal{Z}$ after trained on the whole ASJP data set for 100 iterations. As can be seen, words accumulate in local subspaces with higher probability mass. Here, all words are contained in an area with shorter words that show simple CV syllable structures. Words that only differ in one distinctive feature are very close to each other, while linear dependencies over longer distances signify relationships over whole syllables that are exchanged.}
@@ -769,15 +569,58 @@ Fig. \ref{fig:grid_search_boxplots} summarizes the results. The binary phoneme f
   \label{fig:asjp_2000_binary_singleIELEXConcepts_posteriors} 
 \end{figure}
 
- \begin{figure}[h] 
+\begin{figure}[h!] %  figure placement: here, top, bottom, or page
+   \centering
+   \includegraphics[width=\textwidth]{vae_c_snake} 
+   \caption{VAE-C trained on the IELex data for "snake". The left plot shows true cognates classes, the right plot shows inferred labels. Cognates, as long as they appear similar, are clustered at some subspace of $\mathcal{Z}$. Words with low self-information, such was words with no inferred cognates, are seen as "noise" by the model and grouped close to each other at the center of the latent space.}
+   \label{fig:vae_c_snake}
+\end{figure}
+\subsection{Grid Search over Model Parameters}
+
+To explore the performances of VAE-C under different parameter settings, a grid search over the following parameters was performed:
+\begin{itemize}
+\item Phoneme vectorization:  Binary phoneme features (cf. \cite{rama2016siamese}) vs. Word2vec Phoneme Embeddings, as explored in \ref{Phoneme embeddings}, i.e. 20 embedding dimensions, CBOW and HS. 
+\item number of latent dimensions:  [2,5,10,20,50]
+\item intermediate dimensions of the encoding and decoding MLPs:  [100,200,500]
+\item the standard deviation of the auxiliary noise $\sigma_{\epsilon}$: [1,0.1,0.01]
+\end{itemize}
+For all settings, an ensemble of 2 models was trained on a subset of 10 concepts, which are randomly sampled from all IELex concepts beforehand. The models are trained for 4000 iterations. 
+The performance is measured in adjusted rand indices (cf. \cite{rand1971objective,hubert1985comparing}). 
+Fig. \ref{fig:grid_search_boxplots} summarizes the results. The binary phoneme features outperform the word2vec phoneme embeddings. Moreover, more than 20 latent dimensions do not improve the performance. As the intermediate dimensions of the encoding and decoding MLPs increase, also the performance improves. The standard deviation of the auxiliary noise $\epsilon$ also improves the performance when decreased.
+
+ \begin{figure}[h!] 
      \includegraphics[width=\linewidth]{grid_search_boxplots} 
      \caption{The result of the grid search over several parameters of VAE-C, measured in adjusted rand indices. In general, the performance is mediocre. (top left) The binary phoneme features outperform the phoneme embeddings. (top right) 20 latent dimensions seem to outperform the other parameters. (bottom left) As the number of intermediate dimensions of the encoder and decoder MLPs increases, the performance also improves slightly. (bottom left) The results suggest that a smaller standard deviation of the auxiliary noise improves the performance.}
     \label{fig:grid_search_boxplots} 
 \end{figure}
 
+\subsection{Performance on IELex}
 
-\subsection{Results}
-\section{Discussion}
+VAE-C was then run on the IELex data with the parameters found optimal in the grid search above, i.e. binary phoneme features, 20 latent dimensions, 500 intermediate dimensions and $\sigma_{\epsilon}= 0.01$. Fig. \ref{fig:boxplots_IELex} summarizes the results, measured in adjusted rand indices, adjusted mutual information (cf. \cite{vinh2010information}), cluster homogeneity, cluster completeness and v-measure (cf. \cite{rosenberg2007v}).
+The model indeed finds cognates and is far better than random labeling, but the overall performance is only mediocre, especially compared to LexStat (See table \ref{table:model_comparison})
+
+\begin{table}
+\begin{tabular}{l | rrrrr}
+\toprule
+{} &       ARI &       AMI &         Homogeneity &        Completeness &         V-Measure  \\  \hline
+\midrule
+VAE-C &  0.32 &  0.36 &  0.67 &  0.57 &  0.57 \\
+LexStat & 0.59 & 0.71  & 0.99 &  0.92 & 0.95 \\
+Random &  0.00 &  0.00 &  0.42 &  0.30 &  0.32 \\
+\bottomrule
+\end{tabular}
+\label{table:model_comparison} 
+\caption{The performance of VAE-C compared to LexStat. VAE-C performs only mediocre, but far better than random indexing.}
+\end{table}
+
+ \begin{figure}[h!] 
+     \includegraphics[width=\linewidth]{boxplots_IELex} 
+     \caption{The performance of VAE-C on IELex, using the parameters obtained by the grid search (left), and random labeling (right). The measures are adjusted rand indices, adjusted mutual information, cluster homogeneity, cluster completeness and v-measure, as the harmonic mean of the latter two. The model learns to cluster similar words together, although the overall performance is mediocre.}
+    \label{fig:boxplots_IELex} 
+\end{figure}
+
+
+\subsection{Discussion}
 \section{Resume}
 \section{Acknowledgements}
 For training the phoneme embeddings, I used the word2vec implementations provided by the gensim package \cite{rehurek_lrec}. The Autoencoder was implemented with Keras \cite{chollet2015keras} and Tensorflow \cite{tensorflow2015-whitepaper}. The clustering algorithms used here were provided by scikit-learn \cite{scikit-learn}. All code connected to this thesis can be found on my github \footnote{https://github.com/marlonbetz/BA}.

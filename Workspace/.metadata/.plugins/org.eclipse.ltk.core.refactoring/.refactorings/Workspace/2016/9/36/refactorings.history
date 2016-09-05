@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Workspace/pickled_stuff/pipeline_trainOnEachConcept_bla&apos; to &apos;pipeline_trainOnEachConcept_ObUgrian&apos;" description="Rename resource &apos;pipeline_trainOnEachConcept_bla&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="pickled_stuff/pipeline_trainOnEachConcept_bla" name="pipeline_trainOnEachConcept_ObUgrian" stamp="1473072058844" updateReferences="true"/>
+</session>
