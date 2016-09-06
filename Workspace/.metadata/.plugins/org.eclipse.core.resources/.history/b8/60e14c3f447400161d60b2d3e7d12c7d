@@ -1,0 +1,66 @@
+from pipeline import *
+from string_distances import *
+print("LOAD TEST WORDLIST")
+pathToAnnotatedWordList = "Data/IELex/output/IELex-2016.tsv.asjp"
+
+languages,words,global_ids,cognate_classes = loadAnnotatedWordList(pathToAnnotatedWordList, {730})
+
+
+dists = np.zeros((len(words),len(words)))
+
+for i1,w1 in enumerate(words):
+
+from scipy.spatial.distance import cosine,euclidean
+from sklearn.preprocessing import minmax_scale
+concepts2embeddings = dict((concept,[emb for i,emb in enumerate(embeddings) if global_ids[i] == concept]) for concept in set(sorted(global_ids)))
+concepts2cognate_classes = dict((concept,[cog for i,cog in enumerate(cognate_classes) if global_ids[i] == concept]) for concept in set(sorted(global_ids)))
+#for damping_factor in np.arange(0.5,1,0.05):
+damping_factor = 0.5
+
+affinity = "precomputed"
+ap = AffinityPropagation(damping=damping_factor,
+                         #preference=pref
+                         affinity=affinity
+                         )
+
+if affinity == "precomputed":
+    alpha = 1
+    dists = np.zeros((len(embeddings),len(embeddings)))
+    for u,emb_u in enumerate(embeddings):
+        print(u,"/",len(embeddings))
+        for v,emb_v in enumerate(embeddings):
+            print(u,"/",len(embeddings)," - ",v,"/",len(embeddings))
+
+            dists[u,v] = -(
+                    euclidean(
+                            emb_u/(alpha*-np.log(kernel_posterior.pdf(emb_u))),
+                             emb_v/(alpha*-np.log(kernel_posterior.pdf(emb_v)))
+                              )
+                ) 
+    print("dists\n",dists)
+    #dists = (minmax_scale(dists)-np.max(minmax_scale(dists)))
+    #y_pred = ap.fit_predict((minmax_scale(dists)-np.max(minmax_scale(dists))).reshape((len(embeddings),len(embeddings))))
+    y_pred = ap.fit_predict(dists)
+else:
+    y_pred = ap.fit_predict(embeddings)
+n_cognate_classes = len(set(cognate_classes))
+n_concepts = len(set(global_ids))
+y_true = cognate_classes
+y_random = np.random.randint(0,int(n_cognate_classes/n_concepts),y_pred.shape)
+
+print(metrics.adjusted_rand_score(y_true, y_pred))
+print(metrics.adjusted_mutual_info_score(y_true, y_pred))
+print(metrics.homogeneity_completeness_v_measure(y_true, y_pred))
+
+print(metrics.adjusted_rand_score(y_true, y_random))
+print(metrics.adjusted_mutual_info_score(y_true, y_random))
+print(metrics.homogeneity_completeness_v_measure(y_true, y_random))
+
+
+  
+print("PLOTTING")
+import matplotlib.pyplot as plt
+import seaborn as sns
+from  scipy.stats import multivariate_normal as mvn
+
+

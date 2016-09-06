@@ -17,6 +17,12 @@ Bengio, I. G.~Y. and Courville, A. (2016).
 \newblock Deep learning.
 \newblock Book in preparation for MIT Press.
 
+\bibitem[\protect\astroncite{Bergsma and Kondrak}{2007}]{bergsma2007alignment}
+Bergsma, S. and Kondrak, G. (2007).
+\newblock Alignment-based discriminative string similarity.
+\newblock In {\em Annual meeting-Association for Computational Linguistics},
+  volume~45, page 656.
+
 \bibitem[\protect\astroncite{Bouchard-C{\^o}t{\'e}
   et~al.}{2013}]{bouchard2013automated}
 Bouchard-C{\^o}t{\'e}, A., Hall, D., Griffiths, T.~L., and Klein, D. (2013).
@@ -102,6 +108,13 @@ Hubert, L. and Arabie, P. (1985).
 \newblock Comparing partitions.
 \newblock {\em Journal of classification}, 2(1):193--218.
 
+\bibitem[\protect\astroncite{Inkpen et~al.}{2005}]{inkpen2005automatic}
+Inkpen, D., Frunza, O., and Kondrak, G. (2005).
+\newblock Automatic identification of cognates and false friends in french and
+  english.
+\newblock In {\em Proceedings of the International Conference Recent Advances
+  in Natural Language Processing}, pages 251--257.
+
 \bibitem[\protect\astroncite{J{\"a}ger}{2014}]{jager2014phylogenetic}
 J{\"a}ger, G. (2014).
 \newblock Phylogenetic inference from word lists using weighted alignment with
@@ -131,11 +144,11 @@ Landauer, T.~K., McNamara, D.~S., Dennis, S., and Kintsch, W. (2013).
 \newblock {\em Handbook of latent semantic analysis}.
 \newblock Psychology Press.
 
-\bibitem[\protect\astroncite{List}{2012}]{list2012sca}
+\bibitem[\protect\astroncite{List}{2012}]{list2012lexstat}
 List, J.-M. (2012).
-\newblock Sca: phonetic alignment based on sound classes.
-\newblock In {\em New Directions in Logic, Language and Computation}, pages
-  32--51. Springer.
+\newblock Lexstat: Automatic detection of cognates in multilingual wordlists.
+\newblock In {\em Proceedings of the EACL 2012 Joint Workshop of LINGVIS \&
+  UNCLH}, pages 117--125. Association for Computational Linguistics.
 
 \bibitem[\protect\astroncite{Mikolov et~al.}{2013a}]{mikolov2013efficient}
 Mikolov, T., Chen, K., Corrado, G., and Dean, J. (2013a).
@@ -198,6 +211,11 @@ Rosenberg, A. and Hirschberg, J. (2007).
 \newblock V-measure: A conditional entropy-based external cluster evaluation
   measure.
 \newblock In {\em EMNLP-CoNLL}, volume~7, pages 410--420.
+
+\bibitem[\protect\astroncite{Sokal}{1958}]{sokal1958statistical}
+Sokal, R.~R. (1958).
+\newblock A statistical method for evaluating systematic relationships.
+\newblock {\em University of Kansas Scientific Bulletin}, 38:1409--1438.
 
 \bibitem[\protect\astroncite{Vinh et~al.}{2010}]{vinh2010information}
 Vinh, N.~X., Epps, J., and Bailey, J. (2010).

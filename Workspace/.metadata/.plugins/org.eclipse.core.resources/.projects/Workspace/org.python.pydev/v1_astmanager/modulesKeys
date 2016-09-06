@@ -1,4 +1,5 @@
 MODULES_MANAGER_V2
+LextStat|/Users/marlon/Documents/BA/Workspace/Workspace/LextStat.py
 VAE_phono|/Users/marlon/Documents/BA/Workspace/Workspace/VAE_phono.py
 VAE_phono_binary|/Users/marlon/Documents/BA/Workspace/Workspace/VAE_phono_binary.py
 VAE_phono_binary_asjp|/Users/marlon/Documents/BA/Workspace/Workspace/VAE_phono_binary_asjp.py
@@ -12,13 +13,12 @@ asjp_2000_binary_sandbox|/Users/marlon/Documents/BA/Workspace/Workspace/asjp_200
 binary_phoneme_features|/Users/marlon/Documents/BA/Workspace/Workspace/binary_phoneme_features.py
 cluster_singleConcept_asjp_2000_binary_PCA|/Users/marlon/Documents/BA/Workspace/Workspace/cluster_singleConcept_asjp_2000_binary_PCA.py
 cluster_weighting|/Users/marlon/Documents/BA/Workspace/Workspace/cluster_weighting.py
+correlation_sandbox|/Users/marlon/Documents/BA/Workspace/Workspace/correlation_sandbox.py
 generateWords|/Users/marlon/Documents/BA/Workspace/Workspace/generateWords.py
 kld|/Users/marlon/Documents/BA/Workspace/Workspace/kld.py
 learn_local_manifolds|/Users/marlon/Documents/BA/Workspace/Workspace/learn_local_manifolds.py
 models|/Users/marlon/Documents/BA/Workspace/Workspace/models.py
 phoneme_embeddings|/Users/marlon/Documents/BA/Workspace/Workspace/phoneme_embeddings.py
-pickled_stuff.pipeline_trainOnEachConcept.plotter|/Users/marlon/Documents/BA/Workspace/Workspace/pickled_stuff/pipeline_trainOnEachConcept/plotter.py
-pickled_stuff.pipeline_trainOnEachConcept_ObUgrian.plotter|/Users/marlon/Documents/BA/Workspace/Workspace/pickled_stuff/pipeline_trainOnEachConcept_ObUgrian/plotter.py
 pipeline|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline.py
 pipeline_trainOnASJP|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline_trainOnASJP.py
 pipeline_trainOnASJP_phonemeEmbeddings|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline_trainOnASJP_phonemeEmbeddings.py
@@ -26,6 +26,7 @@ pipeline_trainOnConcept|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline_
 pipeline_trainOnConcept_gridSearch|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline_trainOnConcept_gridSearch.py
 pipeline_trainOnConcept_mean|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline_trainOnConcept_mean.py
 pipeline_trainOnConcept_phonemeEmbeddings|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline_trainOnConcept_phonemeEmbeddings.py
+pipeline_trainOnConcept_stringDistances|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline_trainOnConcept_stringDistances.py
 pipeline_trainOnConcept_weightClusters|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline_trainOnConcept_weightClusters.py
 pipeline_trainOnEachConcept|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline_trainOnEachConcept.py
 pipeline_trainOnSubsampledConcepts_gridsearch|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline_trainOnSubsampledConcepts_gridsearch.py

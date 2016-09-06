@@ -3,48 +3,49 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 The style file: apa.bst
 Database file #1: references.bib
+Warning--can't use both volume and number fields in bergsma2007alignment
 Warning--empty journal in chomsky1968sound
 Warning--empty journal in dellert2015uralic
 Warning--can't use both volume and number fields in gutmann2010noise
-You've used 35 entries,
+You've used 38 entries,
             1940 wiz_defined-function locations,
-            669 strings with 10555 characters,
-and the built_in function-call counts, 16306 in all, are:
-= -- 1564
-> -- 841
-< -- 36
-+ -- 309
-- -- 298
-* -- 1427
-:= -- 2777
-add.period$ -- 109
-call.type$ -- 35
-change.case$ -- 322
-chr.to.int$ -- 34
-cite$ -- 38
-duplicate$ -- 601
-empty$ -- 1004
-format.name$ -- 357
-if$ -- 3190
+            687 strings with 11156 characters,
+and the built_in function-call counts, 17714 in all, are:
+= -- 1709
+> -- 879
+< -- 41
++ -- 323
+- -- 310
+* -- 1537
+:= -- 2990
+add.period$ -- 118
+call.type$ -- 38
+change.case$ -- 343
+chr.to.int$ -- 37
+cite$ -- 42
+duplicate$ -- 669
+empty$ -- 1111
+format.name$ -- 374
+if$ -- 3488
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 32
-newline$ -- 176
-num.names$ -- 105
-pop$ -- 317
+missing$ -- 35
+newline$ -- 191
+num.names$ -- 114
+pop$ -- 341
 preamble$ -- 1
-purify$ -- 323
+purify$ -- 344
 quote$ -- 0
-skip$ -- 481
+skip$ -- 535
 stack$ -- 0
-substring$ -- 972
-swap$ -- 164
-text.length$ -- 15
+substring$ -- 1087
+swap$ -- 190
+text.length$ -- 18
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 208
-warning$ -- 3
-while$ -- 117
+type$ -- 226
+warning$ -- 4
+while$ -- 129
 width$ -- 0
-write$ -- 448
-(There were 3 warnings)
+write$ -- 488
+(There were 4 warnings)

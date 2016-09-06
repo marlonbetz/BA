@@ -1,4 +1,0 @@
-from pipeline import *
-from lingpy import *
-
-wl =lingpy.basic.wordlist.get_wordlist("Data/IELex/IELex-2016.tsv.asjp")
