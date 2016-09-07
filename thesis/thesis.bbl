@@ -1,232 +1,1465 @@
 \begin{thebibliography}{}
 
-\bibitem[\protect\astroncite{Abadi et~al.}{2015}]{tensorflow2015-whitepaper}
-Abadi, M., Agarwal, A., Barham, P., Brevdo, E., Chen, Z., Citro, C., Corrado,
-  G.~S., Davis, A., Dean, J., Devin, M., Ghemawat, S., Goodfellow, I., Harp,
-  A., Irving, G., Isard, M., Jia, Y., Jozefowicz, R., Kaiser, L., Kudlur, M.,
-  Levenberg, J., Man\'{e}, D., Monga, R., Moore, S., Murray, D., Olah, C.,
-  Schuster, M., Shlens, J., Steiner, B., Sutskever, I., Talwar, K., Tucker, P.,
-  Vanhoucke, V., Vasudevan, V., Vi\'{e}gas, F., Vinyals, O., Warden, P.,
-  Wattenberg, M., Wicke, M., Yu, Y., and Zheng, X. (2015).
-\newblock {TensorFlow}: Large-scale machine learning on heterogeneous systems.
-\newblock Software available from tensorflow.org.
+\bibitem [\protect \citeauthoryear {%
+Abadi%
+\ \protect \BOthers {.}}{%
+Abadi%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+tensorflow2015-whitepaper}
+\APACinsertmetastar {%
+tensorflow2015-whitepaper}%
+\begin{APACrefauthors}%
+Abadi, M.%
+, Agarwal, A.%
+, Barham, P.%
+, Brevdo, E.%
+, Chen, Z.%
+, Citro, C.%
+\BDBL {}Zheng, X.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+\APACrefbtitle {{TensorFlow}: Large-Scale Machine Learning on Heterogeneous
+  Systems.} {{TensorFlow}: Large-scale machine learning on heterogeneous
+  systems.}
+\newblock
+\begin{APACrefURL} \url{http://tensorflow.org/} \end{APACrefURL}
+\newblock
+\APACrefnote{Software available from tensorflow.org}
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Bengio and
-  Courville}{2016}]{Goodfellow-et-al-2016-Book}
-Bengio, I. G.~Y. and Courville, A. (2016).
-\newblock Deep learning.
-\newblock Book in preparation for MIT Press.
+\bibitem [\protect \citeauthoryear {%
+Baxter%
+\ \BBA {} Ramer%
+}{%
+Baxter%
+\ \BBA {} Ramer%
+}{%
+{\protect \APACyear {2000}}%
+}]{%
+baxter2000beyond}
+\APACinsertmetastar {%
+baxter2000beyond}%
+\begin{APACrefauthors}%
+Baxter, W\BPBI H.%
+\BCBT {}\ \BBA {} Ramer, A\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Beyond lumping and splitting: probabilistic issues in
+  historical linguistics} {Beyond lumping and splitting: probabilistic issues
+  in historical linguistics}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Time depth in historical linguistics}{1}{}{167--188}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Bergsma and Kondrak}{2007}]{bergsma2007alignment}
-Bergsma, S. and Kondrak, G. (2007).
-\newblock Alignment-based discriminative string similarity.
-\newblock In {\em Annual meeting-Association for Computational Linguistics},
-  volume~45, page 656.
+\bibitem [\protect \citeauthoryear {%
+Bengio%
+\ \BBA {} Courville%
+}{%
+Bengio%
+\ \BBA {} Courville%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+Goodfellow-et-al-2016-Book}
+\APACinsertmetastar {%
+Goodfellow-et-al-2016-Book}%
+\begin{APACrefauthors}%
+Bengio, I\BPBI G\BPBI Y.%
+\BCBT {}\ \BBA {} Courville, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+\APACrefbtitle {Deep Learning.} {Deep learning.}
+\newblock
+\begin{APACrefURL} \url{http://www.deeplearningbook.org} \end{APACrefURL}
+\newblock
+\APACrefnote{Book in preparation for MIT Press}
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Bouchard-C{\^o}t{\'e}
-  et~al.}{2013}]{bouchard2013automated}
-Bouchard-C{\^o}t{\'e}, A., Hall, D., Griffiths, T.~L., and Klein, D. (2013).
-\newblock Automated reconstruction of ancient languages using probabilistic
-  models of sound change.
-\newblock {\em Proceedings of the National Academy of Sciences},
-  110(11):4224--4229.
+\bibitem [\protect \citeauthoryear {%
+Bergsma%
+\ \BBA {} Kondrak%
+}{%
+Bergsma%
+\ \BBA {} Kondrak%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+bergsma2007alignment}
+\APACinsertmetastar {%
+bergsma2007alignment}%
+\begin{APACrefauthors}%
+Bergsma, S.%
+\BCBT {}\ \BBA {} Kondrak, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Alignment-based discriminative string similarity}
+  {Alignment-based discriminative string similarity}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Annual meeting-Association for Computational
+  Linguistics} {Annual meeting-association for computational linguistics}\
+  (\BVOL~45, \BPG~656).
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Bouchard-C{\^o}t{\'e}
-  et~al.}{2007}]{bouchard2007probabilistic}
-Bouchard-C{\^o}t{\'e}, A., Liang, P., Griffiths, T.~L., and Klein, D. (2007).
-\newblock A probabilistic approach to diachronic phonology.
-\newblock In {\em EMNLP-CoNLL}, pages 887--896. Citeseer.
+\bibitem [\protect \citeauthoryear {%
+Bouchard-C{\^o}t{\'e}%
+, Hall%
+, Griffiths%
+\BCBL {}\ \BBA {} Klein%
+}{%
+Bouchard-C{\^o}t{\'e}%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+bouchard2013automated}
+\APACinsertmetastar {%
+bouchard2013automated}%
+\begin{APACrefauthors}%
+Bouchard-C{\^o}t{\'e}, A.%
+, Hall, D.%
+, Griffiths, T\BPBI L.%
+\BCBL {}\ \BBA {} Klein, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Automated reconstruction of ancient languages using
+  probabilistic models of sound change} {Automated reconstruction of ancient
+  languages using probabilistic models of sound change}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Proceedings of the National Academy of
+  Sciences}{110}{11}{4224--4229}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Bouckaert et~al.}{2012}]{bouckaert2012mapping}
-Bouckaert, R., Lemey, P., Dunn, M., Greenhill, S.~J., Alekseyenko, A.~V.,
-  Drummond, A.~J., Gray, R.~D., Suchard, M.~A., and Atkinson, Q.~D. (2012).
-\newblock Mapping the origins and expansion of the indo-european language
-  family.
-\newblock {\em Science}, 337(6097):957--960.
+\bibitem [\protect \citeauthoryear {%
+Bouchard-C{\^o}t{\'e}%
+, Liang%
+, Griffiths%
+\BCBL {}\ \BBA {} Klein%
+}{%
+Bouchard-C{\^o}t{\'e}%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2007}}%
+}]{%
+bouchard2007probabilistic}
+\APACinsertmetastar {%
+bouchard2007probabilistic}%
+\begin{APACrefauthors}%
+Bouchard-C{\^o}t{\'e}, A.%
+, Liang, P.%
+, Griffiths, T\BPBI L.%
+\BCBL {}\ \BBA {} Klein, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Probabilistic Approach to Diachronic Phonology.} {A
+  probabilistic approach to diachronic phonology.}{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {EMNLP-CoNLL} {Emnlp-conll}\ (\BPGS\ 887--896).
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Bowman et~al.}{2015}]{bowman2015generating}
-Bowman, S.~R., Vilnis, L., Vinyals, O., Dai, A.~M., Jozefowicz, R., and Bengio,
-  S. (2015).
-\newblock Generating sentences from a continuous space.
-\newblock {\em arXiv preprint arXiv:1511.06349}.
+\bibitem [\protect \citeauthoryear {%
+Bouckaert%
+\ \protect \BOthers {.}}{%
+Bouckaert%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+bouckaert2012mapping}
+\APACinsertmetastar {%
+bouckaert2012mapping}%
+\begin{APACrefauthors}%
+Bouckaert, R.%
+, Lemey, P.%
+, Dunn, M.%
+, Greenhill, S\BPBI J.%
+, Alekseyenko, A\BPBI V.%
+, Drummond, A\BPBI J.%
+\BDBL {}Atkinson, Q\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Mapping the origins and expansion of the Indo-European
+  language family} {Mapping the origins and expansion of the indo-european
+  language family}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Science}{337}{6097}{957--960}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Chollet}{2015}]{chollet2015keras}
-Chollet, F. (2015).
-\newblock Keras.
-\newblock \url{https://github.com/fchollet/keras}.
+\bibitem [\protect \citeauthoryear {%
+Bowman%
+\ \protect \BOthers {.}}{%
+Bowman%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+bowman2015generating}
+\APACinsertmetastar {%
+bowman2015generating}%
+\begin{APACrefauthors}%
+Bowman, S\BPBI R.%
+, Vilnis, L.%
+, Vinyals, O.%
+, Dai, A\BPBI M.%
+, Jozefowicz, R.%
+\BCBL {}\ \BBA {} Bengio, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Generating sentences from a continuous space}
+  {Generating sentences from a continuous space}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{arXiv preprint arXiv:1511.06349}{}{}{}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Chomsky and Halle}{1968}]{chomsky1968sound}
-Chomsky, N. and Halle, M. (1968).
-\newblock The sound pattern of english.
+\bibitem [\protect \citeauthoryear {%
+Chollet%
+}{%
+Chollet%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+chollet2015keras}
+\APACinsertmetastar {%
+chollet2015keras}%
+\begin{APACrefauthors}%
+Chollet, F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+\APACrefbtitle {Keras.} {Keras.}
+\newblock
+\APAChowpublished {\url{https://github.com/fchollet/keras}}.
+\newblock
+\APACaddressPublisher{}{GitHub}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Dellert}{2015}]{dellert2015uralic}
-Dellert, J. (2015).
-\newblock Uralic and its neighbors as a test case for a lexical flow model of
-  language contact.
+\bibitem [\protect \citeauthoryear {%
+Chomsky%
+\ \BBA {} Halle%
+}{%
+Chomsky%
+\ \BBA {} Halle%
+}{%
+{\protect \APACyear {1968}}%
+}]{%
+chomsky1968sound}
+\APACinsertmetastar {%
+chomsky1968sound}%
+\begin{APACrefauthors}%
+Chomsky, N.%
+\BCBT {}\ \BBA {} Halle, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1968}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The sound pattern of English.} {The sound pattern of
+  english.}{\BBCQ}
+\newblock
 
-\bibitem[\protect\astroncite{Doersch}{2016}]{doersch2016tutorial}
-Doersch, C. (2016).
-\newblock Tutorial on variational autoencoders.
-\newblock {\em arXiv preprint arXiv:1606.05908}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Dunn}{2012}]{dunn2012indo}
-Dunn, M. (2012).
-\newblock Indo-european lexical cognacy database (ielex).
+\bibitem [\protect \citeauthoryear {%
+Dellert%
+}{%
+Dellert%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+dellert2015uralic}
+\APACinsertmetastar {%
+dellert2015uralic}%
+\begin{APACrefauthors}%
+Dellert, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Uralic and its Neighbors as a Test Case for a Lexical
+  Flow Model of Language Contact} {Uralic and its neighbors as a test case for
+  a lexical flow model of language contact}.{\BBCQ}
+\newblock
 
-\bibitem[\protect\astroncite{Fabius and van
-  Amersfoort}{2014}]{fabius2014variational}
-Fabius, O. and van Amersfoort, J.~R. (2014).
-\newblock Variational recurrent auto-encoders.
-\newblock {\em arXiv preprint arXiv:1412.6581}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Frey and Dueck}{2007}]{frey2007clustering}
-Frey, B.~J. and Dueck, D. (2007).
-\newblock Clustering by passing messages between data points.
-\newblock {\em science}, 315(5814):972--976.
+\bibitem [\protect \citeauthoryear {%
+Doersch%
+}{%
+Doersch%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+doersch2016tutorial}
+\APACinsertmetastar {%
+doersch2016tutorial}%
+\begin{APACrefauthors}%
+Doersch, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Tutorial on Variational Autoencoders} {Tutorial on
+  variational autoencoders}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{arXiv preprint arXiv:1606.05908}{}{}{}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Goldberg and Levy}{2014}]{goldberg2014word2vec}
-Goldberg, Y. and Levy, O. (2014).
-\newblock word2vec explained: deriving mikolov et al.'s negative-sampling
-  word-embedding method.
-\newblock {\em arXiv preprint arXiv:1402.3722}.
+\bibitem [\protect \citeauthoryear {%
+Dolgopolsky%
+}{%
+Dolgopolsky%
+}{%
+{\protect \APACyear {1986}}%
+}]{%
+dolgopolsky1986probabilistic}
+\APACinsertmetastar {%
+dolgopolsky1986probabilistic}%
+\begin{APACrefauthors}%
+Dolgopolsky, A\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1986}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A probabilistic hypothesis concerning the oldest
+  relationships among the language families of northern Eurasia} {A
+  probabilistic hypothesis concerning the oldest relationships among the
+  language families of northern eurasia}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Typology, Relationship and Time: A collection of papers
+  on language change and relationship by Soviet linguists}{}{}{27--50}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Gray et~al.}{2009}]{gray2009language}
-Gray, R.~D., Drummond, A.~J., and Greenhill, S.~J. (2009).
-\newblock Language phylogenies reveal expansion pulses and pauses in pacific
-  settlement.
-\newblock {\em science}, 323(5913):479--483.
+\bibitem [\protect \citeauthoryear {%
+Duane%
+, Kennedy%
+, Pendleton%
+\BCBL {}\ \BBA {} Roweth%
+}{%
+Duane%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1987}}%
+}]{%
+duane1987hybrid}
+\APACinsertmetastar {%
+duane1987hybrid}%
+\begin{APACrefauthors}%
+Duane, S.%
+, Kennedy, A\BPBI D.%
+, Pendleton, B\BPBI J.%
+\BCBL {}\ \BBA {} Roweth, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1987}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Hybrid monte carlo} {Hybrid monte carlo}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Physics letters B}{195}{2}{216--222}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Gutmann and
-  Hyv{\"a}rinen}{2010}]{gutmann2010noise}
-Gutmann, M. and Hyv{\"a}rinen, A. (2010).
-\newblock Noise-contrastive estimation: A new estimation principle for
-  unnormalized statistical models.
-\newblock In {\em AISTATS}, volume~1, page~6.
+\bibitem [\protect \citeauthoryear {%
+Dunn%
+}{%
+Dunn%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+dunn2012indo}
+\APACinsertmetastar {%
+dunn2012indo}%
+\begin{APACrefauthors}%
+Dunn, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+\APACrefbtitle {Indo-European lexical cognacy database (IELex).} {Indo-european
+  lexical cognacy database (ielex).}
+\newblock
+\APACaddressPublisher{}{URL: http://ielex. mpi. nl}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Hubert and Arabie}{1985}]{hubert1985comparing}
-Hubert, L. and Arabie, P. (1985).
-\newblock Comparing partitions.
-\newblock {\em Journal of classification}, 2(1):193--218.
+\bibitem [\protect \citeauthoryear {%
+Fabius%
+\ \BBA {} van Amersfoort%
+}{%
+Fabius%
+\ \BBA {} van Amersfoort%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+fabius2014variational}
+\APACinsertmetastar {%
+fabius2014variational}%
+\begin{APACrefauthors}%
+Fabius, O.%
+\BCBT {}\ \BBA {} van Amersfoort, J\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Variational recurrent auto-encoders} {Variational
+  recurrent auto-encoders}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{arXiv preprint arXiv:1412.6581}{}{}{}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Inkpen et~al.}{2005}]{inkpen2005automatic}
-Inkpen, D., Frunza, O., and Kondrak, G. (2005).
-\newblock Automatic identification of cognates and false friends in french and
-  english.
-\newblock In {\em Proceedings of the International Conference Recent Advances
-  in Natural Language Processing}, pages 251--257.
+\bibitem [\protect \citeauthoryear {%
+Frey%
+\ \BBA {} Dueck%
+}{%
+Frey%
+\ \BBA {} Dueck%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+frey2007clustering}
+\APACinsertmetastar {%
+frey2007clustering}%
+\begin{APACrefauthors}%
+Frey, B\BPBI J.%
+\BCBT {}\ \BBA {} Dueck, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Clustering by passing messages between data points}
+  {Clustering by passing messages between data points}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{science}{315}{5814}{972--976}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{J{\"a}ger}{2014}]{jager2014phylogenetic}
-J{\"a}ger, G. (2014).
-\newblock Phylogenetic inference from word lists using weighted alignment with
-  empirically determined weights.
-\newblock In {\em Quantifying Language Dynamics}, pages 155--204. Brill.
+\bibitem [\protect \citeauthoryear {%
+Geman%
+\ \BBA {} Geman%
+}{%
+Geman%
+\ \BBA {} Geman%
+}{%
+{\protect \APACyear {1984}}%
+}]{%
+geman1984stochastic}
+\APACinsertmetastar {%
+geman1984stochastic}%
+\begin{APACrefauthors}%
+Geman, S.%
+\BCBT {}\ \BBA {} Geman, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1984}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Stochastic relaxation, Gibbs distributions, and the
+  Bayesian restoration of images} {Stochastic relaxation, gibbs distributions,
+  and the bayesian restoration of images}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on pattern analysis and machine
+  intelligence}{}{6}{721--741}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Kingma and Welling}{2013}]{kingma2013auto}
-Kingma, D.~P. and Welling, M. (2013).
-\newblock Auto-encoding variational bayes.
-\newblock {\em arXiv preprint arXiv:1312.6114}.
+\bibitem [\protect \citeauthoryear {%
+Goldberg%
+\ \BBA {} Levy%
+}{%
+Goldberg%
+\ \BBA {} Levy%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+goldberg2014word2vec}
+\APACinsertmetastar {%
+goldberg2014word2vec}%
+\begin{APACrefauthors}%
+Goldberg, Y.%
+\BCBT {}\ \BBA {} Levy, O.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {word2vec Explained: deriving Mikolov et al.'s
+  negative-sampling word-embedding method} {word2vec explained: deriving
+  mikolov et al.'s negative-sampling word-embedding method}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{arXiv preprint arXiv:1402.3722}{}{}{}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Kondrak}{2000}]{kondrak2000new}
-Kondrak, G. (2000).
-\newblock A new algorithm for the alignment of phonetic sequences.
-\newblock In {\em Proceedings of the 1st North American chapter of the
-  Association for Computational Linguistics conference}, pages 288--295.
-  Association for Computational Linguistics.
+\bibitem [\protect \citeauthoryear {%
+Gray%
+, Drummond%
+\BCBL {}\ \BBA {} Greenhill%
+}{%
+Gray%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2009}}%
+}]{%
+gray2009language}
+\APACinsertmetastar {%
+gray2009language}%
+\begin{APACrefauthors}%
+Gray, R\BPBI D.%
+, Drummond, A\BPBI J.%
+\BCBL {}\ \BBA {} Greenhill, S\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Language phylogenies reveal expansion pulses and pauses
+  in Pacific settlement} {Language phylogenies reveal expansion pulses and
+  pauses in pacific settlement}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{science}{323}{5913}{479--483}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Kulkarni et~al.}{2015}]{kulkarni2015deep}
-Kulkarni, T.~D., Whitney, W.~F., Kohli, P., and Tenenbaum, J. (2015).
-\newblock Deep convolutional inverse graphics network.
-\newblock In {\em Advances in Neural Information Processing Systems}, pages
-  2539--2547.
+\bibitem [\protect \citeauthoryear {%
+Gutmann%
+\ \BBA {} Hyv{\"a}rinen%
+}{%
+Gutmann%
+\ \BBA {} Hyv{\"a}rinen%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+gutmann2010noise}
+\APACinsertmetastar {%
+gutmann2010noise}%
+\begin{APACrefauthors}%
+Gutmann, M.%
+\BCBT {}\ \BBA {} Hyv{\"a}rinen, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Noise-contrastive estimation: A new estimation principle
+  for unnormalized statistical models.} {Noise-contrastive estimation: A new
+  estimation principle for unnormalized statistical models.}{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {AISTATS} {Aistats}\ (\BVOL~1, \BPG~6).
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Landauer et~al.}{2013}]{landauer2013handbook}
-Landauer, T.~K., McNamara, D.~S., Dennis, S., and Kintsch, W. (2013).
-\newblock {\em Handbook of latent semantic analysis}.
-\newblock Psychology Press.
+\bibitem [\protect \citeauthoryear {%
+Hinton%
+\ \BBA {} Salakhutdinov%
+}{%
+Hinton%
+\ \BBA {} Salakhutdinov%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+hinton2006reducing}
+\APACinsertmetastar {%
+hinton2006reducing}%
+\begin{APACrefauthors}%
+Hinton, G\BPBI E.%
+\BCBT {}\ \BBA {} Salakhutdinov, R\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Reducing the dimensionality of data with neural
+  networks} {Reducing the dimensionality of data with neural networks}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Science}{313}{5786}{504--507}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{List}{2012}]{list2012lexstat}
-List, J.-M. (2012).
-\newblock Lexstat: Automatic detection of cognates in multilingual wordlists.
-\newblock In {\em Proceedings of the EACL 2012 Joint Workshop of LINGVIS \&
-  UNCLH}, pages 117--125. Association for Computational Linguistics.
+\bibitem [\protect \citeauthoryear {%
+Hubert%
+\ \BBA {} Arabie%
+}{%
+Hubert%
+\ \BBA {} Arabie%
+}{%
+{\protect \APACyear {1985}}%
+}]{%
+hubert1985comparing}
+\APACinsertmetastar {%
+hubert1985comparing}%
+\begin{APACrefauthors}%
+Hubert, L.%
+\BCBT {}\ \BBA {} Arabie, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1985}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Comparing partitions} {Comparing partitions}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of classification}{2}{1}{193--218}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Mikolov et~al.}{2013a}]{mikolov2013efficient}
-Mikolov, T., Chen, K., Corrado, G., and Dean, J. (2013a).
-\newblock Efficient estimation of word representations in vector space.
-\newblock {\em arXiv preprint arXiv:1301.3781}.
+\bibitem [\protect \citeauthoryear {%
+Inkpen%
+, Frunza%
+\BCBL {}\ \BBA {} Kondrak%
+}{%
+Inkpen%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2005}}%
+}]{%
+inkpen2005automatic}
+\APACinsertmetastar {%
+inkpen2005automatic}%
+\begin{APACrefauthors}%
+Inkpen, D.%
+, Frunza, O.%
+\BCBL {}\ \BBA {} Kondrak, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Automatic identification of cognates and false friends
+  in French and English} {Automatic identification of cognates and false
+  friends in french and english}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the International Conference Recent
+  Advances in Natural Language Processing} {Proceedings of the international
+  conference recent advances in natural language processing}\ (\BPGS\
+  251--257).
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Mikolov et~al.}{2013b}]{mikolov2013distributed}
-Mikolov, T., Sutskever, I., Chen, K., Corrado, G.~S., and Dean, J. (2013b).
-\newblock Distributed representations of words and phrases and their
-  compositionality.
-\newblock In {\em Advances in neural information processing systems}, pages
-  3111--3119.
+\bibitem [\protect \citeauthoryear {%
+J{\"a}ger%
+}{%
+J{\"a}ger%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+jager2014phylogenetic}
+\APACinsertmetastar {%
+jager2014phylogenetic}%
+\begin{APACrefauthors}%
+J{\"a}ger, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Phylogenetic inference from word lists using weighted
+  alignment with empirically determined weights} {Phylogenetic inference from
+  word lists using weighted alignment with empirically determined
+  weights}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Quantifying Language Dynamics} {Quantifying language
+  dynamics}\ (\BPGS\ 155--204).
+\newblock
+\APACaddressPublisher{}{Brill}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Mnih and Teh}{2012}]{mnih2012fast}
-Mnih, A. and Teh, Y.~W. (2012).
-\newblock A fast and simple algorithm for training neural probabilistic
-  language models.
-\newblock {\em arXiv preprint arXiv:1206.6426}.
+\bibitem [\protect \citeauthoryear {%
+Kingma%
+\ \BBA {} Welling%
+}{%
+Kingma%
+\ \BBA {} Welling%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+kingma2013auto}
+\APACinsertmetastar {%
+kingma2013auto}%
+\begin{APACrefauthors}%
+Kingma, D\BPBI P.%
+\BCBT {}\ \BBA {} Welling, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Auto-encoding variational bayes} {Auto-encoding
+  variational bayes}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{arXiv preprint arXiv:1312.6114}{}{}{}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Morin and Bengio}{2005}]{morin2005hierarchical}
-Morin, F. and Bengio, Y. (2005).
-\newblock Hierarchical probabilistic neural network language model.
-\newblock In {\em Aistats}, volume~5, pages 246--252. Citeseer.
+\bibitem [\protect \citeauthoryear {%
+Kondrak%
+}{%
+Kondrak%
+}{%
+{\protect \APACyear {2000}}%
+}]{%
+kondrak2000new}
+\APACinsertmetastar {%
+kondrak2000new}%
+\begin{APACrefauthors}%
+Kondrak, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A new algorithm for the alignment of phonetic sequences}
+  {A new algorithm for the alignment of phonetic sequences}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the 1st North American chapter of the
+  Association for Computational Linguistics conference} {Proceedings of the 1st
+  north american chapter of the association for computational linguistics
+  conference}\ (\BPGS\ 288--295).
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Pedregosa et~al.}{2011}]{scikit-learn}
-Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel,
-  O., Blondel, M., Prettenhofer, P., Weiss, R., Dubourg, V., Vanderplas, J.,
-  Passos, A., Cournapeau, D., Brucher, M., Perrot, M., and Duchesnay, E.
-  (2011).
-\newblock Scikit-learn: Machine learning in {P}ython.
-\newblock {\em Journal of Machine Learning Research}, 12:2825--2830.
+\bibitem [\protect \citeauthoryear {%
+Kulkarni%
+, Whitney%
+, Kohli%
+\BCBL {}\ \BBA {} Tenenbaum%
+}{%
+Kulkarni%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+kulkarni2015deep}
+\APACinsertmetastar {%
+kulkarni2015deep}%
+\begin{APACrefauthors}%
+Kulkarni, T\BPBI D.%
+, Whitney, W\BPBI F.%
+, Kohli, P.%
+\BCBL {}\ \BBA {} Tenenbaum, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Deep convolutional inverse graphics network} {Deep
+  convolutional inverse graphics network}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Advances in Neural Information Processing Systems}
+  {Advances in neural information processing systems}\ (\BPGS\ 2539--2547).
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Pennington et~al.}{2014}]{pennington2014glove}
-Pennington, J., Socher, R., and Manning, C.~D. (2014).
-\newblock Glove: Global vectors for word representation.
-\newblock In {\em EMNLP}, volume~14, pages 1532--43.
+\bibitem [\protect \citeauthoryear {%
+Landauer%
+, McNamara%
+, Dennis%
+\BCBL {}\ \BBA {} Kintsch%
+}{%
+Landauer%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+landauer2013handbook}
+\APACinsertmetastar {%
+landauer2013handbook}%
+\begin{APACrefauthors}%
+Landauer, T\BPBI K.%
+, McNamara, D\BPBI S.%
+, Dennis, S.%
+\BCBL {}\ \BBA {} Kintsch, W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2013}.
+\newblock
+\APACrefbtitle {Handbook of latent semantic analysis} {Handbook of latent
+  semantic analysis}.
+\newblock
+\APACaddressPublisher{}{Psychology Press}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Rama}{2016}]{rama2016siamese}
-Rama, T. (2016).
-\newblock Siamese convolutional networks based on phonetic features for cognate
-  identification.
-\newblock {\em arXiv preprint arXiv:1605.05172}.
+\bibitem [\protect \citeauthoryear {%
+Lauly%
+\ \protect \BOthers {.}}{%
+Lauly%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+lauly2014autoencoder}
+\APACinsertmetastar {%
+lauly2014autoencoder}%
+\begin{APACrefauthors}%
+Lauly, S.%
+, Larochelle, H.%
+, Khapra, M.%
+, Ravindran, B.%
+, Raykar, V\BPBI C.%
+\BCBL {}\ \BBA {} Saha, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {An autoencoder approach to learning bilingual word
+  representations} {An autoencoder approach to learning bilingual word
+  representations}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Advances in Neural Information Processing Systems}
+  {Advances in neural information processing systems}\ (\BPGS\ 1853--1861).
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Rand}{1971}]{rand1971objective}
-Rand, W.~M. (1971).
-\newblock Objective criteria for the evaluation of clustering methods.
-\newblock {\em Journal of the American Statistical association},
-  66(336):846--850.
+\bibitem [\protect \citeauthoryear {%
+Le%
+\ \BBA {} Mikolov%
+}{%
+Le%
+\ \BBA {} Mikolov%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+le2014distributed}
+\APACinsertmetastar {%
+le2014distributed}%
+\begin{APACrefauthors}%
+Le, Q\BPBI V.%
+\BCBT {}\ \BBA {} Mikolov, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Distributed Representations of Sentences and Documents.}
+  {Distributed representations of sentences and documents.}{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {ICML} {Icml}\ (\BVOL~14, \BPGS\ 1188--1196).
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{{\v R}eh{\r u}{\v r}ek and
-  Sojka}{2010}]{rehurek_lrec}
-{\v R}eh{\r u}{\v r}ek, R. and Sojka, P. (2010).
-\newblock {Software Framework for Topic Modelling with Large Corpora}.
-\newblock In {\em {Proceedings of the LREC 2010 Workshop on New Challenges for
-  NLP Frameworks}}, pages 45--50, Valletta, Malta. ELRA.
-\newblock \url{http://is.muni.cz/publication/884893/en}.
+\bibitem [\protect \citeauthoryear {%
+List%
+}{%
+List%
+}{%
+{\protect \APACyear {2012}}%
+{\protect \APACexlab {{\protect \BCnt {1}}}}}]{%
+list2012lexstat}
+\APACinsertmetastar {%
+list2012lexstat}%
+\begin{APACrefauthors}%
+List, J\BHBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012{\protect \BCnt {1}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {LexStat: Automatic detection of cognates in multilingual
+  wordlists} {Lexstat: Automatic detection of cognates in multilingual
+  wordlists}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the EACL 2012 Joint Workshop of LINGVIS
+  \& UNCLH} {Proceedings of the eacl 2012 joint workshop of lingvis \& unclh}\
+  (\BPGS\ 117--125).
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Rosenberg and Hirschberg}{2007}]{rosenberg2007v}
-Rosenberg, A. and Hirschberg, J. (2007).
-\newblock V-measure: A conditional entropy-based external cluster evaluation
-  measure.
-\newblock In {\em EMNLP-CoNLL}, volume~7, pages 410--420.
+\bibitem [\protect \citeauthoryear {%
+List%
+}{%
+List%
+}{%
+{\protect \APACyear {2012}}%
+{\protect \APACexlab {{\protect \BCnt {2}}}}}]{%
+list2012sca}
+\APACinsertmetastar {%
+list2012sca}%
+\begin{APACrefauthors}%
+List, J\BHBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012{\protect \BCnt {2}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {SCA: phonetic alignment based on sound classes} {Sca:
+  phonetic alignment based on sound classes}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {New Directions in Logic, Language and Computation} {New
+  directions in logic, language and computation}\ (\BPGS\ 32--51).
+\newblock
+\APACaddressPublisher{}{Springer}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Sokal}{1958}]{sokal1958statistical}
-Sokal, R.~R. (1958).
-\newblock A statistical method for evaluating systematic relationships.
-\newblock {\em University of Kansas Scientific Bulletin}, 38:1409--1438.
+\bibitem [\protect \citeauthoryear {%
+List%
+\ \BBA {} Forkel%
+}{%
+List%
+\ \BBA {} Forkel%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+List2016e}
+\APACinsertmetastar {%
+List2016e}%
+\begin{APACrefauthors}%
+List, J\BHBI M.%
+\BCBT {}\ \BBA {} Forkel, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+\APACrefbtitle {LingPy. A Python library for historical linguistics.} {Lingpy.
+  a python library for historical linguistics.}
+\newblock
+\APACaddressPublisher{Jena}{Max Planck Institute for the Science of Human
+  History}.
+\newblock
+\begin{APACrefURL} \url{http://lingpy.org} \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{https://zenodo.org/badge/latestdoi/5137/lingpy/lingpy}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Vinh et~al.}{2010}]{vinh2010information}
-Vinh, N.~X., Epps, J., and Bailey, J. (2010).
-\newblock Information theoretic measures for clusterings comparison: Variants,
-  properties, normalization and correction for chance.
-\newblock {\em Journal of Machine Learning Research}, 11(Oct):2837--2854.
+\bibitem [\protect \citeauthoryear {%
+Mikolov%
+, Chen%
+, Corrado%
+\BCBL {}\ \BBA {} Dean%
+}{%
+Mikolov%
+, Chen%
+\BCBL {}\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+mikolov2013efficient}
+\APACinsertmetastar {%
+mikolov2013efficient}%
+\begin{APACrefauthors}%
+Mikolov, T.%
+, Chen, K.%
+, Corrado, G.%
+\BCBL {}\ \BBA {} Dean, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Efficient estimation of word representations in vector
+  space} {Efficient estimation of word representations in vector space}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{arXiv preprint arXiv:1301.3781}{}{}{}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Wichmann et~al.}{2010}]{wichmann2010asjp}
-Wichmann, S., M{\"u}ller, A., Velupillai, V., Brown, C.~H., Holman, E.~W.,
-  Brown, P., Sauppe, S., Belyaev, O., Urban, M., Molochieva, Z., et~al. (2010).
-\newblock The asjp database (version 13).
-\newblock {\em See http://email. eva. mpg. de/wichmann/languages. htm}.
+\bibitem [\protect \citeauthoryear {%
+Mikolov%
+, Sutskever%
+, Chen%
+, Corrado%
+\BCBL {}\ \BBA {} Dean%
+}{%
+Mikolov%
+, Sutskever%
+\BCBL {}\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+mikolov2013distributed}
+\APACinsertmetastar {%
+mikolov2013distributed}%
+\begin{APACrefauthors}%
+Mikolov, T.%
+, Sutskever, I.%
+, Chen, K.%
+, Corrado, G\BPBI S.%
+\BCBL {}\ \BBA {} Dean, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Distributed representations of words and phrases and
+  their compositionality} {Distributed representations of words and phrases and
+  their compositionality}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Advances in neural information processing systems}
+  {Advances in neural information processing systems}\ (\BPGS\ 3111--3119).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Mnih%
+\ \BBA {} Teh%
+}{%
+Mnih%
+\ \BBA {} Teh%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+mnih2012fast}
+\APACinsertmetastar {%
+mnih2012fast}%
+\begin{APACrefauthors}%
+Mnih, A.%
+\BCBT {}\ \BBA {} Teh, Y\BPBI W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A fast and simple algorithm for training neural
+  probabilistic language models} {A fast and simple algorithm for training
+  neural probabilistic language models}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{arXiv preprint arXiv:1206.6426}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Morin%
+\ \BBA {} Bengio%
+}{%
+Morin%
+\ \BBA {} Bengio%
+}{%
+{\protect \APACyear {2005}}%
+}]{%
+morin2005hierarchical}
+\APACinsertmetastar {%
+morin2005hierarchical}%
+\begin{APACrefauthors}%
+Morin, F.%
+\BCBT {}\ \BBA {} Bengio, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Hierarchical Probabilistic Neural Network Language
+  Model.} {Hierarchical probabilistic neural network language model.}{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Aistats} {Aistats}\ (\BVOL~5, \BPGS\ 246--252).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Mortarino%
+}{%
+Mortarino%
+}{%
+{\protect \APACyear {2009}}%
+}]{%
+mortarino2009improved}
+\APACinsertmetastar {%
+mortarino2009improved}%
+\begin{APACrefauthors}%
+Mortarino, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {An improved statistical test for historical linguistics}
+  {An improved statistical test for historical linguistics}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Statistical Methods and Applications}{18}{2}{193--204}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Pedregosa%
+\ \protect \BOthers {.}}{%
+Pedregosa%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
+}]{%
+scikit-learn}
+\APACinsertmetastar {%
+scikit-learn}%
+\begin{APACrefauthors}%
+Pedregosa, F.%
+, Varoquaux, G.%
+, Gramfort, A.%
+, Michel, V.%
+, Thirion, B.%
+, Grisel, O.%
+\BDBL {}Duchesnay, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Scikit-learn: Machine Learning in {P}ython}
+  {Scikit-learn: Machine learning in {P}ython}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Machine Learning
+  Research}{12}{}{2825--2830}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Pennington%
+, Socher%
+\BCBL {}\ \BBA {} Manning%
+}{%
+Pennington%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+pennington2014glove}
+\APACinsertmetastar {%
+pennington2014glove}%
+\begin{APACrefauthors}%
+Pennington, J.%
+, Socher, R.%
+\BCBL {}\ \BBA {} Manning, C\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Glove: Global Vectors for Word Representation.} {Glove:
+  Global vectors for word representation.}{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {EMNLP} {Emnlp}\ (\BVOL~14, \BPGS\ 1532--43).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rama%
+}{%
+Rama%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+rama2016siamese}
+\APACinsertmetastar {%
+rama2016siamese}%
+\begin{APACrefauthors}%
+Rama, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Siamese convolutional networks based on phonetic
+  features for cognate identification} {Siamese convolutional networks based on
+  phonetic features for cognate identification}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{arXiv preprint arXiv:1605.05172}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rand%
+}{%
+Rand%
+}{%
+{\protect \APACyear {1971}}%
+}]{%
+rand1971objective}
+\APACinsertmetastar {%
+rand1971objective}%
+\begin{APACrefauthors}%
+Rand, W\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1971}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Objective criteria for the evaluation of clustering
+  methods} {Objective criteria for the evaluation of clustering
+  methods}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of the American Statistical
+  association}{66}{336}{846--850}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{\v R}eh{\r u}{\v r}ek%
+\ \BBA {} Sojka%
+}{%
+{\v R}eh{\r u}{\v r}ek%
+\ \BBA {} Sojka%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+rehurek_lrec}
+\APACinsertmetastar {%
+rehurek_lrec}%
+\begin{APACrefauthors}%
+{\v R}eh{\r u}{\v r}ek, R.%
+\BCBT {}\ \BBA {} Sojka, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{{\APACmonth{05}}}{22}.
+\newblock
+{\BBOQ}\APACrefatitle {{Software Framework for Topic Modelling with Large
+  Corpora}} {{Software Framework for Topic Modelling with Large
+  Corpora}}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {{Proceedings of the LREC 2010 Workshop on New Challenges
+  for NLP Frameworks}} {{Proceedings of the LREC 2010 Workshop on New
+  Challenges for NLP Frameworks}}\ (\BPGS\ 45--50).
+\newblock
+\APACaddressPublisher{Valletta, Malta}{ELRA}.
+\newblock
+\APACrefnote{\url{http://is.muni.cz/publication/884893/en}}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rosenberg%
+\ \BBA {} Hirschberg%
+}{%
+Rosenberg%
+\ \BBA {} Hirschberg%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+rosenberg2007v}
+\APACinsertmetastar {%
+rosenberg2007v}%
+\begin{APACrefauthors}%
+Rosenberg, A.%
+\BCBT {}\ \BBA {} Hirschberg, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {V-Measure: A Conditional Entropy-Based External Cluster
+  Evaluation Measure.} {V-measure: A conditional entropy-based external cluster
+  evaluation measure.}{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {EMNLP-CoNLL} {Emnlp-conll}\ (\BVOL~7, \BPGS\ 410--420).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Silberer%
+\ \BBA {} Lapata%
+}{%
+Silberer%
+\ \BBA {} Lapata%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+silberer2014learning}
+\APACinsertmetastar {%
+silberer2014learning}%
+\begin{APACrefauthors}%
+Silberer, C.%
+\BCBT {}\ \BBA {} Lapata, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Learning Grounded Meaning Representations with
+  Autoencoders.} {Learning grounded meaning representations with
+  autoencoders.}{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {ACL (1)} {Acl (1)}\ (\BPGS\ 721--732).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Socher%
+, Huang%
+, Pennin%
+, Manning%
+\BCBL {}\ \BBA {} Ng%
+}{%
+Socher%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
+}]{%
+socher2011dynamic}
+\APACinsertmetastar {%
+socher2011dynamic}%
+\begin{APACrefauthors}%
+Socher, R.%
+, Huang, E\BPBI H.%
+, Pennin, J.%
+, Manning, C\BPBI D.%
+\BCBL {}\ \BBA {} Ng, A\BPBI Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Dynamic pooling and unfolding recursive autoencoders for
+  paraphrase detection} {Dynamic pooling and unfolding recursive autoencoders
+  for paraphrase detection}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Advances in Neural Information Processing Systems}
+  {Advances in neural information processing systems}\ (\BPGS\ 801--809).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sokal%
+}{%
+Sokal%
+}{%
+{\protect \APACyear {1958}}%
+}]{%
+sokal1958statistical}
+\APACinsertmetastar {%
+sokal1958statistical}%
+\begin{APACrefauthors}%
+Sokal, R\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1958}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A statistical method for evaluating systematic
+  relationships} {A statistical method for evaluating systematic
+  relationships}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{University of Kansas Scientific
+  Bulletin}{38}{}{1409--1438}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Theano Development Team}%
+}{%
+{Theano Development Team}%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+2016arXiv160502688short}
+\APACinsertmetastar {%
+2016arXiv160502688short}%
+\begin{APACrefauthors}%
+{Theano Development Team}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{{\APACmonth{05}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Theano: A {Python} framework for fast computation of
+  mathematical expressions}} {{Theano: A {Python} framework for fast
+  computation of mathematical expressions}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{arXiv e-prints}{abs/1605.02688}{}{}.
+\newblock
+\begin{APACrefURL} \url{http://arxiv.org/abs/1605.02688} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Turchin%
+, Peiros%
+\BCBL {}\ \BBA {} Gell-Mann%
+}{%
+Turchin%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2010}}%
+}]{%
+turchin2010analyzing}
+\APACinsertmetastar {%
+turchin2010analyzing}%
+\begin{APACrefauthors}%
+Turchin, P.%
+, Peiros, I.%
+\BCBL {}\ \BBA {} Gell-Mann, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Analyzing genetic connections between languages by
+  matching consonant classes} {Analyzing genetic connections between languages
+  by matching consonant classes}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Language Relationship}{3}{}{117--126}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Vinh%
+, Epps%
+\BCBL {}\ \BBA {} Bailey%
+}{%
+Vinh%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2010}}%
+}]{%
+vinh2010information}
+\APACinsertmetastar {%
+vinh2010information}%
+\begin{APACrefauthors}%
+Vinh, N\BPBI X.%
+, Epps, J.%
+\BCBL {}\ \BBA {} Bailey, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Information theoretic measures for clusterings
+  comparison: Variants, properties, normalization and correction for chance}
+  {Information theoretic measures for clusterings comparison: Variants,
+  properties, normalization and correction for chance}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Machine Learning
+  Research}{11}{Oct}{2837--2854}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wichmann%
+\ \protect \BOthers {.}}{%
+Wichmann%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2010}}%
+}]{%
+wichmann2010asjp}
+\APACinsertmetastar {%
+wichmann2010asjp}%
+\begin{APACrefauthors}%
+Wichmann, S.%
+, M{\"u}ller, A.%
+, Velupillai, V.%
+, Brown, C\BPBI H.%
+, Holman, E\BPBI W.%
+, Brown, P.%
+\BDBL {}others%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The ASJP database (version 13)} {The asjp database
+  (version 13)}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{See http://email. eva. mpg. de/wichmann/languages.
+  htm}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zhang%
+\ \protect \BOthers {.}}{%
+Zhang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+zhang2014bilingually}
+\APACinsertmetastar {%
+zhang2014bilingually}%
+\begin{APACrefauthors}%
+Zhang, J.%
+, Liu, S.%
+, Li, M.%
+, Zhou, M.%
+, Zong, C.%
+\BCBL {}\ \BOthersPeriod {.}\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Bilingually-constrained Phrase Embeddings for Machine
+  Translation.} {Bilingually-constrained phrase embeddings for machine
+  translation.}{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {ACL (1)} {Acl (1)}\ (\BPGS\ 111--121).
+\PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}

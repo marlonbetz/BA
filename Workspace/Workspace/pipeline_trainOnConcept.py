@@ -16,11 +16,11 @@ print("FIT VAE")
 batch_size = X.shape[0]
 dim_phoneme_embeddings = 16
 original_dim = dim_phoneme_embeddings * padToMaxLength
-latent_dim = 2
-intermediate_dim = 200
+latent_dim = 40
+intermediate_dim = 1000
 
 
-epsilon_std = 0.1
+epsilon_std = 0.001
 nb_epoch =20000
 
 vae = VAE(latent_dim=latent_dim,
@@ -53,7 +53,7 @@ concepts2cognate_classes = dict((concept,[cog for i,cog in enumerate(cognate_cla
 #for damping_factor in np.arange(0.5,1,0.05):
 damping_factor = 0.5
 
-affinity = "precomputed"
+affinity = "euclidean"
 ap = AffinityPropagation(damping=damping_factor,
                          #preference=pref
                          affinity=affinity
@@ -137,21 +137,21 @@ from  scipy.stats import multivariate_normal as mvn
 # plt.scatter(embeddings[:,0],embeddings[:,1])
 # plt.show()
 
-print("PLOTTING KDE OF POSTERIOR")
-plt.subplot(1,2,1)
-#plt.imshow(post_prior,alpha=0.1)
-sns.kdeplot(posterior[:,0],posterior[:,1])
-plt.subplot(1,2,2)
-#plt.imshow(post_prior,alpha=0.1)
-sns.kdeplot(posterior[:,0],posterior[:,1])
-# 
-# 
-sns.set_style("white")
-cmap_y_pred = dict((label,np.random.beta(1,1,3)) for label in y_pred)
-cmap_y_true = dict((label,np.random.beta(1,1,3)) for label in y_true)
-for word,emb,y_p,y_t in zip(words,embeddings,y_pred,y_true):
-    plt.subplot(1,2,1)
-    plt.annotate(word,emb,color=cmap_y_true[y_t])
-    plt.subplot(1,2,2)
-    plt.annotate(word,emb,color=cmap_y_pred[y_p])
-plt.show()
+# print("PLOTTING KDE OF POSTERIOR")
+# plt.subplot(1,2,1)
+# #plt.imshow(post_prior,alpha=0.1)
+# sns.kdeplot(posterior[:,0],posterior[:,1])
+# plt.subplot(1,2,2)
+# #plt.imshow(post_prior,alpha=0.1)
+# sns.kdeplot(posterior[:,0],posterior[:,1])
+# # 
+# # 
+# sns.set_style("white")
+# cmap_y_pred = dict((label,np.random.beta(1,1,3)) for label in y_pred)
+# cmap_y_true = dict((label,np.random.beta(1,1,3)) for label in y_true)
+# for word,emb,y_p,y_t in zip(words,embeddings,y_pred,y_true):
+#     plt.subplot(1,2,1)
+#     plt.annotate(word,emb,color=cmap_y_true[y_t])
+#     plt.subplot(1,2,2)
+#     plt.annotate(word,emb,color=cmap_y_pred[y_p])
+# plt.show()

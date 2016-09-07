@@ -1,51 +1,60 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
-The style file: apa.bst
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: references.bib
-Warning--can't use both volume and number fields in bergsma2007alignment
-Warning--empty journal in chomsky1968sound
-Warning--empty journal in dellert2015uralic
-Warning--can't use both volume and number fields in gutmann2010noise
-You've used 38 entries,
-            1940 wiz_defined-function locations,
-            687 strings with 11156 characters,
-and the built_in function-call counts, 17714 in all, are:
-= -- 1709
-> -- 879
-< -- 41
-+ -- 323
-- -- 310
-* -- 1537
-:= -- 2990
-add.period$ -- 118
-call.type$ -- 38
-change.case$ -- 343
-chr.to.int$ -- 37
-cite$ -- 42
-duplicate$ -- 669
-empty$ -- 1111
-format.name$ -- 374
-if$ -- 3488
-int.to.chr$ -- 2
-int.to.str$ -- 0
-missing$ -- 35
-newline$ -- 191
-num.names$ -- 114
-pop$ -- 341
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Warning--No journal in chomsky1968sound
+Warning--No journal in dellert2015uralic
+Warning--`others' not consistent with 6th ed. of the APA Manual
+You've used 53 entries,
+            6951 wiz_defined-function locations,
+            1565 strings with 20837 characters,
+and the built_in function-call counts, 106587 in all, are:
+= -- 13538
+> -- 984
+< -- 4767
++ -- 4867
+- -- 113
+* -- 6518
+:= -- 18339
+add.period$ -- 248
+call.type$ -- 53
+change.case$ -- 942
+chr.to.int$ -- 0
+cite$ -- 108
+duplicate$ -- 2941
+empty$ -- 4171
+format.name$ -- 1554
+if$ -- 20802
+int.to.chr$ -- 0
+int.to.str$ -- 163
+missing$ -- 0
+newline$ -- 1358
+num.names$ -- 424
+pop$ -- 2215
 preamble$ -- 1
-purify$ -- 344
+purify$ -- 218
 quote$ -- 0
-skip$ -- 535
+skip$ -- 7136
 stack$ -- 0
-substring$ -- 1087
-swap$ -- 190
-text.length$ -- 18
+substring$ -- 5475
+swap$ -- 1706
+text.length$ -- 239
 text.prefix$ -- 0
-top$ -- 0
-type$ -- 226
-warning$ -- 4
-while$ -- 129
+top$ -- 1
+type$ -- 5456
+warning$ -- 3
+while$ -- 539
 width$ -- 0
-write$ -- 488
-(There were 4 warnings)
+write$ -- 1708
+(There were 3 warnings)

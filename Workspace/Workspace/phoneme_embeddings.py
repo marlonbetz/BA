@@ -3,13 +3,13 @@ import numpy as np
 from gensim.models import Word2Vec
 import codecs
 class PhonemeEmbeddings(object):
-    def __init__(self,pathToASJPCorpusFile,sg,size,window,negative,hs,min_count):
-        self.fit(pathToASJPCorpusFile, sg, size, window, negative, hs, min_count)
-    def fit(self,pathToASJPCorpusFile,sg,size,window,negative,hs,min_count):
+    def __init__(self,pathToASJPCorpusFile,ignoreCoarticulations,sg,size,window,negative,hs,min_count):
+        self.fit(pathToASJPCorpusFile, ignoreCoarticulations,sg, size, window, negative, hs, min_count)
+    def fit(self,pathToASJPCorpusFile,ignoreCoarticulations,sg,size,window,negative,hs,min_count):
          
          
         print("FIT PHONEME EMBEDDING MODEL")
-        self.w2v_model = Word2Vec(sentences=self.extractPhonemes(self.collectWords(pathToASJPCorpusFile)),
+        self.w2v_model = Word2Vec(sentences=self.extractPhonemes(self.collectWords(pathToASJPCorpusFile,ignoreCoarticulations)),
                              sg = sg,
                              size=size,
                              window=window,
@@ -21,7 +21,7 @@ class PhonemeEmbeddings(object):
         print("EXTRACT ALL PHONEMES AND ADD WORD BOUNDARIES AND GET RID OF EMPTY STRINGS")
         return [["<s>"]+self.getListofASJPPhonemes(word)+["</s>"] for word in words if len(word) > 0]
  
-    def collectWords(self,pathToASJPCorpusFile):
+    def collectWords(self,pathToASJPCorpusFile,ignoreCoarticulations):
         print("COLLECT WORDS")
         allWords = []
         for i,line in enumerate(codecs.open(pathToASJPCorpusFile,"r","utf-8")):
@@ -35,6 +35,12 @@ class PhonemeEmbeddings(object):
                         words_tmp[i] = words_tmp[i].replace(" ","")              
                         words_tmp[i] = words_tmp[i].replace("\r","")
                         words_tmp[i] = words_tmp[i].replace("\n","")
+                        if ignoreCoarticulations:
+                            words_tmp[i] = words_tmp[i].replace("*","")
+                            words_tmp[i] = words_tmp[i].replace("\"","")
+                            words_tmp[i] = words_tmp[i].replace("~","")
+                            words_tmp[i] = words_tmp[i].replace("$","")
+
         
                     for i_w,word in enumerate(words_tmp):
                         if len(self.getListofASJPPhonemes(word)) > 0:

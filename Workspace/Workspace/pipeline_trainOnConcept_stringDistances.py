@@ -3,7 +3,7 @@ from string_distances import *
 print("LOAD WORDLIST")
 pathToAnnotatedWordList = "Data/IELex/output/IELex-2016.tsv.asjp"
 
-languages,words,global_ids,cognate_classes = loadAnnotatedWordList(pathToAnnotatedWordList, None)
+languages,words,global_ids,cognate_classes = loadAnnotatedWordList(pathToAnnotatedWordList, {730})
 print("concepts2words")
 concepts2words = dict((concept,[word for i,word in enumerate(words) if global_ids[i] == concept]) for concept in set(sorted(global_ids)))
 print("concepts2cognate_classes")
@@ -24,7 +24,7 @@ for i,concept in enumerate(concepts2words):
     for i1,w1 in enumerate(words_tmp):
         #print(w1)
         for i2,w2 in enumerate(words_tmp):
-            dists[i1,i2] = - xdice(w1, w2)
+            dists[i1,i2] = - levenshtein(w1, w2)
     
     
     damping_factor = 0.5

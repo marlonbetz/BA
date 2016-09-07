@@ -1,8 +1,0 @@
-from pipeline import *
-
-from scipy.stats import spearmanr,pearsonr
-
-cluster1 = np.random.normal(0,1,(10,2))
-cluster2 = np.random.normal(1,.7,(10,2))
-cluster2 = np.random.normal(-1,1.3,(10,2))
-cluster2 = np.random.normal(-1,1,(10,2))

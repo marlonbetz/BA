@@ -10,7 +10,8 @@
 \usepackage{amsmath}
 \usepackage{floatrow}
 \usepackage{subcaption}
-
+\usepackage{apacite}
+\usepackage[]{natbib}
 
 \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
 \graphicspath{{/Users/marlon/Documents/BA/thesis/pictures/}}
@@ -118,12 +119,12 @@ which is equivalent to
 v_{w_{recent}}  =   v_{w_{ancient}}  + (v_{w'_{recent}} - v_{w'_{ancient}}) 
 \end{equation}
 %If we want to evaluate that latent feature space, we investigate in how far that compositional structure is preserved in our latent space. 
-In fact, such analogy tasks can be used as an evaluation method to test whether the learned embedding space encodes the structure expected to be inherently contained in the data (cf. \cite{mikolov2013distributed}). For a visualization of this concept, see Fig. \ref{fig:final_devoicing}.
+In fact, such analogy tasks can be used as an evaluation method to test whether the learned embedding space encodes the structure expected to be inherently contained in the data \citep{mikolov2013distributed}. For a visualization of this concept, see Fig. \ref{fig:final_devoicing}.
  
 
 \section{Related Research}
 
-Cognate identification systems can be divided into two major groups. Supervised systems learn from a set of positive and negative examples to differentiate between cognates and unrelated words. This is usually done with several forms of string comparisons, such as normalized levenshtein distance, Dice coefficients or  alignment scores based on the Needleman-Wunsch algorithm (cf. \cite{bergsma2007alignment,inkpen2005automatic}), weighted alignments with predefined weights (cf. \cite{kondrak2000new}) or PMI-weighted alignments \cite{jager2014phylogenetic}.  \cite{rama2016siamese} further uses siamese convolutional networks to differentiate between cognates and unrelated words.
+Cognate identification systems can be divided into two major groups. Supervised systems learn from a set of positive and negative examples to differentiate between cognates and unrelated words. This is usually done with several forms of string comparisons, such as normalized levenshtein distance, Dice coefficients or  alignment scores based on the Needleman-Wunsch algorithm  \citep{bergsma2007alignment,inkpen2005automatic}, weighted alignments with predefined weights \citep{kondrak2000new} or PMI-weighted alignments \citep{jager2014phylogenetic}.  \cite{rama2016siamese} further uses siamese convolutional networks to differentiate between cognates and unrelated words.
 
 Unsupervised system also employ such string comparisons, but assume that cognates should share similar shapes and hence the distance between them should be low. Hence, after predefining some threshold, words with mutual distances beyond that threshold are labeled as unrelated, while words closer to each other are labeled as cognates.  LexStat, originally proposed in \cite{list2012lexstat}, can be seen as the gold-standard for unsupervised systems. LexStat first converts all phonemes into a list of features, then creates scoring schemes for all language pairs, computes pairwise distances between all words based on those scoring schemes and finally clusters the words. 
 
@@ -146,18 +147,16 @@ Moreover, we focus on two separate models:
 
 \subsection{Phoneme Vectorization}
 \label{Phoneme Vectorization}
-Various computational models of sound change treat phonemes as purely symbolic, which means they are treated as equidistant to each other. While such models can achieve good performance on the task of modeling sound change (cf. \cite{bouchard2007probabilistic,bouchard2013automated}), they cannot generalize to process data they have not seen during training. Such an ability only comes from the \textit{smoothness assumption} that $f(x + \epsilon d) \approx f(x)$ for unit $d$ and some small error $\epsilon$ (cf.\cite[p. 555]{Goodfellow-et-al-2016-Book}). This assumption allows a model to generalize from training data to close poinst in input space.  However, as long as phonemes are treated purely as equidistant symbols, any given trainable model should not be able to generalize to process unseen data.
-Moreover, it is established knowledge that certain phonemes share binary features such as \textit{[velar]}, \textit{[voice]}  or\textit{[ATR]} (cf. \cite{chomsky1968sound}). Such latent features regulate how certain phonemes are distributed among each other - e.g. unvoiced consonants occur in word-final positions more often than voiced consonants. Hence they also influence the diachronic evolution of the phonological shape of a word - if a sound appears in a context that is not typical for its actual distribution, it either makes the context change or it changes itself to adapt to the context. For instance, palatal consonants often palatalize other surrounding consonants, while voiced consonants often devoice word-finally.
+Various computational models of sound change treat phonemes as purely symbolic, which means they are treated as equidistant to each other. While such models can achieve good performance on the task of modeling sound change  \citep{bouchard2007probabilistic,bouchard2013automated}, they cannot generalize to process data they have not seen during training. Such an ability only comes from the \textit{smoothness assumption} that $f(x + \epsilon d) \approx f(x)$ for unit $d$ and some small error $\epsilon$ \citep[p. 555]{Goodfellow-et-al-2016-Book}. This assumption allows a model to generalize from training data to close poinst in input space.  However, as long as phonemes are treated purely as equidistant symbols, any given trainable model should not be able to generalize to process unseen data.
+Moreover, it is established knowledge that certain phonemes share binary features such as \textit{[velar]}, \textit{[voice]}  or\textit{[ATR]} \citep{chomsky1968sound}. Such latent features regulate how certain phonemes are distributed among each other - e.g. unvoiced consonants occur in word-final positions more often than voiced consonants. Hence they also influence the diachronic evolution of the phonological shape of a word - if a sound appears in a context that is not typical for its actual distribution, it either makes the context change or it changes itself to adapt to the context. For instance, palatal consonants often palatalize other surrounding consonants, while voiced consonants often devoice word-finally.
 Following that observation, there are a few models that use such features to differentiate between phonemes. 
 
 \subsubsection{Hand-crafted Vectorization Models}
 
+Most hand-crafted vectorization models are used for weighted string alignments. Here, the distance between two phonemes is used yield an alignment score between the phonemes. \cite{dolgopolsky1986probabilistic} proposes a merger of all phonemes into a set of 10 phoneme groups, where transitions between  members of a group are more likely than transitions between members of a single group. The groupings are based on an analysis of sound-correspondences between 400 languages of northern Eurasia (cf. \cite[p. 119]{list2012lexstat}). This system has been used by several studies dealing with stochastical aspects of genetic relationships between languages \citep{baxter2000beyond,mortarino2009improved,turchin2010analyzing}. An enhanced version of this system that is extended to cover all IPA characters and its most common diacritics as well as vowels builds the basis for LexStat \citep{list2012sca,list2012lexstat}. To turn those sound classes into vectors that can be used as input for the variational autoencoder, each sound class is represented as a binary one-hot vector. \cite{kondrak2000new} uses 12 real-valued features bounded between zero and one to allow for a weighted alignment of phoneme sequences. Here it is argued that binary features cannot capture the actual continuum e.g. between velar and uvular sounds. Each feature can moreover be weighted to allow for modeling the relative importance of a given feature.
 
 
-\cite{kondrak2000new} uses 12 real-valued features bounded between zero and one to allow for a weighted alignment of phoneme sequences. Here it is argued that binary features cannot capture the actual continuum e.g. between velar and uvular sounds. Each feature can moreover be weighted to allow for modeling the relative importance of a given feature.
-
-
-\cite{rama2016siamese} uses binary features that are adapted to the ASJP phonemic alphabet. ASJP does not always distinguish certain features for all phonemes. For instance, voice is distinguished for labial fricatives, but not for dental ones. ASJP further merges all clicks. Vowels are differentiated, but only for 5 prototypes. The whole ASJP phoneme set can be found in the appendix. \cite{rama2016siamese} further merges all coarticulations and vowels, as they tend to be diachronically unstable, and yields phonemes with 16 binary features each. \cite{rama2016siamese} reports superior performance using those features as a basis for word vectorizations to find cognates in a supervised way.
+\cite{rama2016siamese}, on the other hand,  uses binary features that are adapted to the ASJP phonemic alphabet (cf. \cite{wichmann2010asjp}). ASJP does not always distinguish certain features for all phonemes. For instance, voice is distinguished for labial fricatives, but not for dental ones. ASJP further merges all clicks. Vowels are differentiated, but only for 5 prototypes. The whole ASJP phoneme set can be found in the appendix. \cite{rama2016siamese} further merges all coarticulations and vowels, as they tend to be diachronically unstable, and yields phonemes with 16 binary features each. \cite{rama2016siamese} reports superior performance using those features as a basis for word vectorizations to find cognates with siamese convolutional networks.
 \subsubsection{Phoneme embeddings}
 \label{Phoneme embeddings}
 
@@ -169,9 +168,9 @@ If we assume that phonemes do not change unconditionally nor randomly, but inste
 
 There are several families of algorithms that perform such an embedding. Earlier models are based on factorized co-occurrence matrices, such as Latent Semantic Analysis \cite{landauer2013handbook}. This approach is inherently intuitive, as the factorized context of a given phoneme would then be taken as point in latent space, so similar contexts than inherently lead to proximity in latent space. However, over the past few years, more recent neural embedding models such as word2vec \cite{mikolov2013efficient,mikolov2013distributed,goldberg2014word2vec}  have been shown to outperform those count-based models, although GloVe \cite{pennington2014glove}, as more recent count-based model, seems to achieve similar performance.
 
-Word2vec is a shallow network that consists of a linear encoder and softmax classification layer. There are two architectures: Continuous Bag Of Words (CBOW), that learns to predict a token given its context, and Skip-Gram (SG) that is trained to predict the context given the token (c.f. Fig. \ref{fig:word2vec}). They both have in common that they assume the token and its context to occupy the same location in latent space. This allows for a compositionality of the learned latent features. For instance, to re-use the example from above, the embeddings for /\textipa{T} / and /\textipa{\textsubarch{i}}/ are not expected to be close in the latent space, as the overall contexts they can appear in should be quite different. However, given that they appear together as /\textipa{T\textsubarch{i}}/, the addition or mean of the respective embeddings should be close to each other.
+Word2vec is a shallow network that consists of a linear encoder and softmax classification layer. There are two architectures: Continuous Bag Of Words (CBOW), that learns to predict a token given its context, and Skip-Gram (SG) that is trained to predict the context given the token (cf. Fig. \ref{fig:word2vec}). They both have in common that they assume the token and its context to occupy the same location in latent space. This allows for a compositionality of the learned latent features. For instance, to re-use the example from above, the embeddings for /\textipa{T} / and /\textipa{\textsubarch{i}}/ are not expected to be close in the latent space, as the overall contexts they can appear in should be quite different. However, given that they appear together as /\textipa{T\textsubarch{i}}/, the addition or mean of the respective embeddings should be close to each other.
 
-As traditional softmax classification is computaltionally expensive expensive given a larger number of token types, several alternative classifiers have emerged during the past few years. One is Hierarchical Softmax (HS, cf. {\cite{morin2005hierarchical}). Here, the classifier layer is a binary tree with the actual token types as leaves. At every node, the network learns to either follow the left or the right branch with a certain probability as in Eq. \ref{eq:skipgram_softmax_prob} that is equal to the sum of the child elements of the respective  branch, but is actually computed as the product of $h^\top$ and the output vector of the word at node $n$ pulled through a logistic sigmoid:
+As traditional softmax classification is computaltionally expensive expensive given a larger number of token types, several alternative classifiers have emerged during the past few years. One is Hierarchical Softmax (HS, \cite{morin2005hierarchical}). Here, the classifier layer is a binary tree with the actual token types as leaves. At every node, the network learns to either follow the left or the right branch with a certain probability as in Eq. \ref{eq:skipgram_softmax_prob} that is equal to the sum of the child elements of the respective  branch, but is actually computed as the product of $h^\top$ and the output vector of the word at node $n$ pulled through a logistic sigmoid:
 
 \begin{equation}
 p(right|n,c) = \sigma(h^\top v'_n) 
@@ -240,7 +239,7 @@ context, and the Skip-gram predicts surrounding words given the current word. Fr
 \begin{figure}[h!] %  figure placement: here, top, bottom, or page
    \centering
    \includegraphics[width=\textwidth]{phoneme_embeddings_word2vec_all} 
-   \caption{Other t-SNE visualizations of the embeddings created by word2vec. (top left) The model learns to clearly separate natural classes such as vowels, plain pulmonic or glottalized consonants, while other articulations seem to spread over the feature space. The colors indicate membership of a natural phonological class.  (top right) A more detailed view on plain pulmonic consonants. Note the linear dependencies between voiced and unvoiced plosives and their respective nasal variant. (bottom left) Another detailed view. Note how the labialized uvular sounds cluster among glottalized consonants. (top right) The model seems to capture different manners of articulations across articulation type boundaries, as the linear dependency shows here.}
+   \caption{Some t-SNE visualizations of the embeddings created by word2vec. (top left) The model learns to clearly separate natural classes such as vowels, plain pulmonic or glottalized consonants, while other articulations seem to spread over the feature space. The colors indicate membership of a natural phonological class.  (top right) A more detailed view on plain pulmonic consonants. Note the linear dependencies between voiced and unvoiced plosives and their respective nasal variant. (bottom left) Another detailed view. Note how the labialized uvular sounds cluster among glottalized consonants. (top right) The model seems to capture different manners of articulations across articulation type boundaries, as the linear dependency shows here.}
    \label{fig:phoneme_embeddings_word2vec_all}
 \end{figure}
 
@@ -272,10 +271,10 @@ context, and the Skip-gram predicts surrounding words given the current word. Fr
 
 Autoencoders are a family of neural network architectures that are trained to construct a code of some given data. Given an encoder function $f: \mathcal{X} \rightarrow \mathcal{Z}$ and a decoder (i.e. generator) function $g: \mathcal{Z} \rightarrow \mathcal{X}$, they are trained on encoding and reconstructing the data, yielding a loss function
 \begin{equation}
-L(x,g(f(x)))
+J(x,g(f(x)))
 \end{equation}
  
-where $L$ describes some loss function that penalizes the reconstruction error. The dimensionality of $\mathcal{Z}$ is usually assumed to be lower-dimensional, so that autoencoders can be used to reduce the dimensionality of the data. If $f$ and $g$ are linear functions, autoencoders are proven to be equal to PCA. If they are non-linear, they should allow for the detection of latent features.
+where $J$ describes some loss function that penalizes the reconstruction error. The dimensionality of $\mathcal{Z}$ is usually assumed to be lower-dimensional, so that autoencoders can be used to reduce the dimensionality of the data, although sparse autoencoders use higher-dimensional hidden layers with some sparsity constraint. If $f$ and $g$ are linear functions, autoencoders are proven to be equal to PCA. If they are non-linear, they allow for the recognition of latent features \citep{hinton2006reducing}. Autoencoders are used in various NLP fields, such as Machine Translation, \citep{lauly2014autoencoder,zhang2014bilingually}, Paraphrase Detection  \citep{socher2011dynamic} or Information Retrieval \citep{silberer2014learning,le2014distributed}. Also, word2vec \citep{mikolov2013efficient,mikolov2013distributed,goldberg2014word2vec} as the probably most popular embedding algorithm is in fact a shallow autoencoder.
 \subsubsection{Variational Autoencoders}
 \label{Variational Autoencoders}
 \begin{figure}[h!] %  figure placement: here, top, bottom, or page
@@ -287,7 +286,7 @@ where $L$ describes some loss function that penalizes the reconstruction error. 
 
 Variational Autoencoders (VAEs) were first described in \cite{kingma2013auto}. Instead of just using a lower-dimensional layer as a bottle neck for non-linear dimensionality reduction, VAEs assume that the code can be modeled by a latent variable $z$ with some prior $p(z)$. This allows for the incorporation of bayesian inference tasks where the marginalization of variables is important, including maximum a posteriori estimates of $\theta$ and an approximation of the posterior $P(z|X)$. Instead of encoder and decoder functions, distributions are used instead to model the relationship between $\mathcal{X} $ and $  \mathcal{Z}$.
 
-As variational models, VAEs do not attempt to sample from the true posterior distribution $P(z|X)$ directly. Markov Chain Monte Carlo methods such as Gibbs sampling or Hamiltonian Monte Carlo rely on whole batches during training, which is not suitable for bigger data sets. Instead, variational method assume that the true posterior can be approximated by another parametric distribution $Q(z|X)$ whose parameters can be estimated analytically. 
+As variational models, VAEs do not attempt to sample from the true posterior distribution $P(z|X)$ directly. Popular Markov Chain Monte Carlo methods, such as Gibbs sampling \citep{geman1984stochastic} or Hamiltonian Monte Carlo \citep{duane1987hybrid}, can approximate the true posterior, but rely on whole batches during training, which is not suitable for bigger data sets. Instead, variational method assume that the true posterior can be approximated by another parametric distribution $Q(z|X)$ whose parameters can be estimated analytically. 
 
 In order to approximate the true posterior  $P(z|X)$ with the approximate posterior $Q(z|X)$, we want to minimize the Kullback-Leibler divergence from the true posterior to its approximation: 
 
@@ -317,11 +316,11 @@ As we model both prior and posterior with gaussians, we can calculate $-D_{KL}(Q
 \begin{equation}
 \begin{split}
 -D_{KL}(Q(Z)||P(Z)) & = \int Q(z) (\log P(z) - \log Q(Z)) dz\\
-& = \frac{1}{2}\sum_{j=1}^{J}(i+\log(\sigma_j^2)-\mu_j^2-\sigma_j^2)
+& = \frac{1}{2}\sum_{j=1}^{J}(1+\log(\sigma_j^2)-\mu_j^2-\sigma_j^2)
 \end{split}
 \end{equation}
 
-To estimate these parameters $\mu$ and $\sigma$ of $Q$,  \cite{kingma2013auto} propose Multilayer Perceptrons (MLPs) as universal function approximators. In fact, various other encoders and decoders have been proposed, such as convolutional or recurrent networks (cf. \cite{kulkarni2015deep,bowman2015generating,fabius2014variational}). 
+To estimate these parameters $\mu$ and $\sigma$ of $Q$,  \cite{kingma2013auto} propose Multilayer Perceptrons (MLPs) as universal function approximators. In fact, various other encoders and decoders have been proposed, such as convolutional or recurrent networks \citep{kulkarni2015deep,bowman2015generating,fabius2014variational}. 
 In the case of binary phoneme features, our decoder distribution is defined as a multivariate Bernoulli, where each probability is calculated by a MLP:
 
 \begin{equation}
@@ -342,7 +341,7 @@ The phoneme embeddings  can be scaled between $[0,1]$, so that every dimension b
 In order to arrive at the final objective function $J_\theta$, we take the cross entropy between the true phoneme features and the predictions as reconstruction error and the KL-Divergence from Eq. \ref{eq:vae_loss_original} as a regulization term:
 
 \begin{equation}
-J_\theta = \sum_{i=1}^{D} x_i \log y_i + (1-x_i) \log (1-y_i) + \frac{1}{2}\sum_{j=1}^{D_{\mathcal{Z}}}(i+\log(\sigma_j^2)-\mu_j^2-\sigma_j^2)
+J_\theta = \sum_{i=1}^{D} x_i \log y_i + (1-x_i) \log (1-y_i) + \frac{1}{2}\sum_{j=1}^{D_{\mathcal{Z}}}(1+\log(\sigma_j^2)-\mu_j^2-\sigma_j^2)
 \end{equation}
 
 where $D$ is the dimensionality of the original data and $D_{\mathcal{Z}}$ the dimensionality of the latent space.
@@ -375,7 +374,7 @@ The model architecture is visualized in Fig. \ref{fig:vae_model_visualization}.
 
 
 
-\subsection{Interpretation of $\mathcal{Z}$}
+\subsubsection{Interpretation of $\mathcal{Z}$}
 
 The question is then how to interpret such a latent space $\mathcal{Z}$. In the case of VAE-PT, where we train the model on a big corpus, we assume it encodes the inherent structure of words as such. As the latent variable $z$ walks through $\mathcal{Z}$, we assume that the decoded word changes in a \textit{meaningful} way - for instance it should change certain phonological features of some phonemes in $x$ given that such changes are plausible, given the context of the other phonemes in the words. It should also be possible to add whole new affixes, but it should not inherit implausible phoneme sequences or change phoneme features in some random way. The multi-modality of our encoder distribution $Q(z|X)$ leads to the situation that similar points in $\mathcal{Z}$ should not necessarily coincide with similar points in our data space $\mathcal{X}$. For instance, a fictional word such as /aban/ should be closer to /ov\textipa{\~a}/ than to /a\textipa{\textdoublebarpipe}an/ in $\mathcal{Z}$ but not necessarily in $\mathcal{X}$, as it should be more probable that intervocalic voiced plosives lenite to fricatives and syllable-final nasals drop but leave some compensatory nasalization - here even at the same time - but there should be hardly any evidence of a direct sound change from /b/ to a palatal click. To arrive at such linear dependencies over sound changes as in Eq. \ref{eq:sound_change_linear_dependency}, we then just have to expect them in our data $X$ in some latent way. As $X$ in the decoder distribution $P(X|z)$ would be conditioned on $z$, we expect the same linear dependencies over words in $z$ as we find them in $X$.
 
@@ -400,9 +399,9 @@ In the case of VAE-C, where we train the model only on a handful of words, we do
 \subsection{Clustering}
 \label{Clustering}
 
-To cluster the embeddings, we have to make sure that the number of clusters can vary, as can the number of members for each cluster. For instance, if our word list consists of languages where the majority of languages are closely related and should show similar words, but the remaining languages are not related at all, we assume that the resulting clusters of words are not of the same size. If we do not know at all if the respective languages are related, we cannot really say what size the clusters should have either. Hence, both are variables which we do not know beforehand. LexStat, as the best current model for unsupervised cognate identification, makes use of the UPGMA clustering algorithm (cf. \cite{sokal1958statistical}). 
+To cluster the embeddings, we have to make sure that the number of clusters can vary, as can the number of members for each cluster. For instance, if our word list consists of languages where the majority of languages are closely related and should show similar words, but the remaining languages are not related at all, we assume that the resulting clusters of words are not of the same size. If we do not know at all if the respective languages are related, we cannot really say what size the clusters should have either. Hence, both are variables which we do not know beforehand. LexStat, as the best current model for unsupervised cognate identification, makes use of the UPGMA clustering algorithm citep{sokal1958statistical}. 
 
-This thesis proposes Affinity propagation (cf. \cite{frey2007clustering}) to solve that task. Here the algorithm exchanges real-valued messages between the data points until a high-quality set of exemplars and corresponding clusters
+This thesis proposes Affinity propagation \citep{frey2007clustering} to solve that task. Here the algorithm exchanges real-valued messages between the data points until a high-quality set of exemplars and corresponding clusters
 gradually emerges. This allows for the number of clusters and individual cluster size to be left undefined. The algorithm can take any pair-wise similarities as input. In the case of euclidean distance as the preferred measure, the authors suggest taking the the negative squared euclidean distance, such that higher distance corresponds to  lower similarity. There are two types of messages: the responsibility $r(i,k)$ sent from a data point $i$ to a candidate exemplar point $k$ encodes the evidence that $k$ can serve as an exemplar for $i$. The availability $a(i,k)$, which is sent from $k$ back to $i$, encodes the evidence that $k$ should be the exemplar for $i$, taking into account all other points that choose $k$ as an exemplar.
 
 
@@ -429,14 +428,14 @@ gradually emerges. This allows for the number of clusters and individual cluster
 %\begin{equation}
 %I(x|Z)  =  - \log P(c|X)
 %\end{equation}
-
-If the self-information of a cluster is lower than a certain threshold, we can assume that its inferred cognate class assignments are not trustworthy. As we prefer false negatives over false positives, we can ignore such clusters, which leaves the respective members unrelated.  That threshold has to be adjusted as hyperparameter of the model.
+%
+%If the self-information of a cluster is lower than a certain threshold, we can assume that its inferred cognate class assignments are not trustworthy. As we prefer false negatives over false positives, we can ignore such clusters, which leaves the respective members unrelated.  That threshold has to be adjusted as hyperparameter of the model.
 
 \section{Evaluation}
 \subsection{Data}
-To pre-train VAE-PT,  the data provided by the Automatic Similarity Judgement Program (ASJP, \cite{wichmann2010asjp} will serve as a training corpus. ASJP provides wordlists of roughly 7200 languages, where each word is given as a string of phonemes. This vast amount of different phoneme inventories will allow for the unbiased comparison of phonemes over language boundaries. However, ASJP does not make use of IPA, but a simplified phonemic alphabet that is based on ASCII-characters. This makes it possible to incorporate data where no detailed IPA description is given, but might also reduce the quality of the resulting embedding space, as latent features that might be encoded in more specific IPA descriptions are merged. For all other data, respective conversions into the ASJP system are used.  An overview of the ASJP phonemes and their IPA counterparts are given in the appendix.
+To pre-train VAE-PT,  the data provided by the Automatic Similarity Judgement Program (ASJP, \cite{wichmann2010asjp}) will serve as a training corpus. ASJP provides wordlists of roughly 7200 languages, where each word is given as a string of phonemes. This vast amount of different phoneme inventories will allow for the unbiased comparison of phonemes over language boundaries. However, ASJP does not make use of IPA, but a simplified phonemic alphabet that is based on ASCII-characters. This makes it possible to incorporate data where no detailed IPA description is given, but might also reduce the quality of the resulting embedding space, as latent features that might be encoded in more specific IPA descriptions are merged. For all other data, respective conversions into the ASJP system are used.  An overview of the ASJP phonemes and their IPA counterparts are given in the appendix.
 
-VAE-PT is trained and tested on IELex (cf. \cite{dunn2012indo}), while VAE-PT is tested on it. IELex provides 250 concepts for 163 doculects. After the removal of ancient language forms and legacy doculects, this leaves around 60 languages, as the number of languages varies per concept.
+VAE-PT is trained and tested on IELex \citep{dunn2012indo}, while VAE-PT is tested on it. IELex provides 250 concepts for 163 doculects. After the removal of ancient language forms and legacy doculects, this leaves around 60 languages, as the number of languages varies per concept.
 \subsection{Visual Inspection}
 A first visual inspection shows that VAE-PT, trained for 100 iterations, learns to cluster similar strings close to each other (Fig. \ref{fig:vae_phono_binary_asjp_subsample_words}). Words with similar syllable structures are located in specific subspaces of $\mathcal{Z}$. It further connects strings beyond local clusters through linear dependencies, which can interchange whole syllables of a word. 
 On a more global perspective, words are embedded into a high-level feature continuum that encodes word lengths (Fig. \ref{fig:vae_phono_binary_wordLength}), with smooth transitions between the respective subspaces. This is remarkable, given that there are no word boundary tokens involved during training. The model itself learns to recognize the transition from the binary code of the actual phonemes of the word to the zero-padding following it.
@@ -574,13 +573,18 @@ VAE-C, on the other hand, yields a far better basis for cognate identification a
 
 To explore the performances of VAE-C under different parameter settings, a grid search over the following parameters was performed:
 \begin{itemize}
-\item Phoneme vectorization:  Binary phoneme features (cf. \cite{rama2016siamese}) vs. Word2vec Phoneme Embeddings, as explored in \ref{Phoneme embeddings}, i.e. 20 embedding dimensions, CBOW and HS. 
-\item number of latent dimensions:  [2,5,10,20,50]
-\item intermediate dimensions of the encoding and decoding MLPs:  [100,200,500]
-\item the standard deviation of the auxiliary noise $\sigma_{\epsilon}$: [1,0.1,0.01]
+\item Phoneme vectorization:  \begin{itemize}
+\item Dolgopolsky one hots (cf. \cite{dolgopolsky1986probabilistic,list2012sca})
+\item SCA one hots (cf. \cite{list2012sca})
+\item Binary ASJP phoneme features (cf. \cite{rama2016siamese}) 
+\item Phoneme embeddings, as explored in \ref{Phoneme embeddings}, i.e. 20 embedding dimensions, CBOW, HS, trained on ASJP with all coarticulations removed. 
 \end{itemize}
-For all settings, an ensemble of 2 models was trained on a subset of 10 concepts, which are randomly sampled from all IELex concepts beforehand. The models are trained for 4000 iterations. 
-The performance is measured in adjusted rand indices (cf. \cite{rand1971objective,hubert1985comparing}). 
+\item number of latent dimensions:  [10,20,50]
+%\item intermediate dimensions of the encoding and decoding MLPs:  [100,200,500]
+\item the standard deviation of the auxiliary noise $\sigma_{\epsilon}$: [0.1,0.01,0.001]
+\end{itemize}
+For all settings, the models were trained on a subset of 10 concepts, which are randomly sampled from all IELex concepts beforehand. The models are trained for 2000 iterations. 
+The performance is measured in adjusted rand indices \citep{rand1971objective,hubert1985comparing}. 
 Fig. \ref{fig:grid_search_boxplots} summarizes the results. The binary phoneme features outperform the word2vec phoneme embeddings. Moreover, more than 20 latent dimensions do not improve the performance. As the intermediate dimensions of the encoding and decoding MLPs increase, also the performance improves. The standard deviation of the auxiliary noise $\epsilon$ also improves the performance when decreased.
 
  \begin{figure}[h!] 
@@ -591,7 +595,7 @@ Fig. \ref{fig:grid_search_boxplots} summarizes the results. The binary phoneme f
 
 \subsection{Performance on IELex}
 
-VAE-C was then run on the IELex data with the parameters found optimal in the grid search above, i.e. binary phoneme features, 20 latent dimensions, 500 intermediate dimensions and $\sigma_{\epsilon}= 0.01$. Fig. \ref{fig:boxplots_IELex} summarizes the results, measured in adjusted rand indices, adjusted mutual information (cf. \cite{vinh2010information}), cluster homogeneity, cluster completeness and v-measure (cf. \cite{rosenberg2007v}).
+VAE-C was then run on the IELex data with the parameters found optimal in the grid search above, i.e. binary phoneme features, 20 latent dimensions, 500 intermediate dimensions and $\sigma_{\epsilon}= 0.01$. Fig. \ref{fig:boxplots_IELex} summarizes the results, measured in adjusted rand indices, adjusted mutual information \citep{vinh2010information}, cluster homogeneity, cluster completeness and v-measure \citep{rosenberg2007v}.
 The model indeed finds cognates and is far better than random labeling, but the overall performance is only mediocre, especially compared to LexStat (See table \ref{table:model_comparison})
 
 \begin{table}
@@ -601,12 +605,12 @@ The model indeed finds cognates and is far better than random labeling, but the 
 \midrule
 VAE-C &  0.32 &  0.36 &  0.67 &  0.57 &  0.57 \\
 LexStat & \textbf{0.59} & \textbf{0.71}  & \textbf{0.99} &  \textbf{0.92} & \textbf{0.95} \\
-Normalized Levenshtein Distance & 0.38 & 0.44 & 0.77 & 0.61 &0.64 \\
+NLD-AP & 0.38 & 0.44 & 0.77 & 0.61 &0.64 \\
 Random &  0.00 &  0.00 &  0.42 &  0.30 &  0.32 \\
 \bottomrule
 \end{tabular}
 \label{table:model_comparison} 
-\caption{The performance of VAE-C compared to LexStat. VAE-C performs only mediocre, but at least better than random labeling.}
+\caption{The performance of VAE-C compared to LexStat. NLD-AP uses Normalized Levenshtein Distances as distance metric and Affinity Propagation as clustering algorithm. VAE-C performs only mediocre, but at least better than random labeling.}
 \end{table}
 
  \begin{figure}[h!] 
@@ -625,10 +629,10 @@ VAE-C however, performs much better than VAE-PT. It overfits to the training dat
 
 In this thesis, I have shown how recent tools from the emerging deep learning framework can be used for unsupervised cognate identification. Although the two models described here do not perform better than well-established methods on the task of cognate identification as such, they allow for great introspection on the compositional structure of words and the linear factors that create it. Especially when trained on a big corpus, the model can uncover very abstract features and hence could be a basis for more research on how and why certain words evolve differently than others. 
 \section{Acknowledgements}
-For training the phoneme embeddings, I used the word2vec implementations provided by the gensim package \cite{rehurek_lrec}. The Autoencoder was implemented with Keras \cite{chollet2015keras} and Tensorflow \cite{tensorflow2015-whitepaper}. The clustering algorithms used here were provided by scikit-learn \cite{scikit-learn}. All code connected to this thesis can be found on my github \footnote{https://github.com/marlonbetz/BA}.
+For training the phoneme embeddings, I used the word2vec implementations provided by the gensim package \citep{rehurek_lrec}. The Autoencoder was implemented with Keras \citep{chollet2015keras}, Tensorflow \citep{tensorflow2015-whitepaper} and theano \citep{2016arXiv160502688short}. For converting phonemes into the Dolgopolsky and SCA format, I used the lingpy library \citep{List2016e}. The clustering algorithms used here were provided by scikit-learn \citep{scikit-learn}. All code connected to this thesis can be found on my github \footnote{https://github.com/marlonbetz/BA}.
 %\subsection{}
 
 
-\bibliographystyle{apa}
+\bibliographystyle{apacite}
 \bibliography{references}
 \end{document}  
