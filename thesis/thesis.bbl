@@ -60,10 +60,10 @@ Baxter, W\BPBI H.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Bengio%
+I\BPBI G\BPBI Y.~Bengio%
 \ \BBA {} Courville%
 }{%
-Bengio%
+I\BPBI G\BPBI Y.~Bengio%
 \ \BBA {} Courville%
 }{%
 {\protect \APACyear {2016}}%
@@ -84,6 +84,34 @@ Bengio, I\BPBI G\BPBI Y.%
 \begin{APACrefURL} \url{http://www.deeplearningbook.org} \end{APACrefURL}
 \newblock
 \APACrefnote{Book in preparation for MIT Press}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Y.~Bengio%
+, Courville%
+\BCBL {}\ \BBA {} Vincent%
+}{%
+Y.~Bengio%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+bengio2013representation}
+\APACinsertmetastar {%
+bengio2013representation}%
+\begin{APACrefauthors}%
+Bengio, Y.%
+, Courville, A.%
+\BCBL {}\ \BBA {} Vincent, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Representation learning: A review and new perspectives}
+  {Representation learning: A review and new perspectives}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE transactions on pattern analysis and machine
+  intelligence}{35}{8}{1798--1828}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -112,6 +140,34 @@ Bergsma, S.%
 \BIn{} \APACrefbtitle {Annual meeting-Association for Computational
   Linguistics} {Annual meeting-association for computational linguistics}\
   (\BVOL~45, \BPG~656).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Blei%
+, Ng%
+\BCBL {}\ \BBA {} Jordan%
+}{%
+Blei%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2003}}%
+}]{%
+blei2003latent}
+\APACinsertmetastar {%
+blei2003latent}%
+\begin{APACrefauthors}%
+Blei, D\BPBI M.%
+, Ng, A\BPBI Y.%
+\BCBL {}\ \BBA {} Jordan, M\BPBI I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Latent dirichlet allocation} {Latent dirichlet
+  allocation}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of machine Learning
+  research}{3}{Jan}{993--1022}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -233,6 +289,33 @@ Bowman, S\BPBI R.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Chater%
+\ \BBA {} Manning%
+}{%
+Chater%
+\ \BBA {} Manning%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+chater2006probabilistic}
+\APACinsertmetastar {%
+chater2006probabilistic}%
+\begin{APACrefauthors}%
+Chater, N.%
+\BCBT {}\ \BBA {} Manning, C\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Probabilistic models of language processing and
+  acquisition} {Probabilistic models of language processing and
+  acquisition}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Trends in cognitive sciences}{10}{7}{335--344}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Chollet%
 }{%
 Chollet%
@@ -280,6 +363,30 @@ Chomsky, N.%
   english.}{\BBCQ}
 \newblock
 
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Crocker%
+}{%
+Crocker%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+crocker2010computational}
+\APACinsertmetastar {%
+crocker2010computational}%
+\begin{APACrefauthors}%
+Crocker, M\BPBI W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Computational psycholinguistics} {Computational
+  psycholinguistics}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computational Linguistics and Natural Language
+  Processing Handbook. Wiley Blackwell, London, UK}{}{}{}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -353,6 +460,36 @@ Dolgopolsky, A\BPBI B.%
 \newblock
 \APACjournalVolNumPages{Typology, Relationship and Time: A collection of papers
   on language change and relationship by Soviet linguists}{}{}{27--50}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Dosovitskiy%
+, Tobias~Springenberg%
+\BCBL {}\ \BBA {} Brox%
+}{%
+Dosovitskiy%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+dosovitskiy2015learning}
+\APACinsertmetastar {%
+dosovitskiy2015learning}%
+\begin{APACrefauthors}%
+Dosovitskiy, A.%
+, Tobias~Springenberg, J.%
+\BCBL {}\ \BBA {} Brox, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Learning to generate chairs with convolutional neural
+  networks} {Learning to generate chairs with convolutional neural
+  networks}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the IEEE Conference on Computer Vision
+  and Pattern Recognition} {Proceedings of the ieee conference on computer
+  vision and pattern recognition}\ (\BPGS\ 1538--1546).
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -569,10 +706,41 @@ Gutmann, M.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Hinton%
+G.~Hinton%
+\ \protect \BOthers {.}}{%
+G.~Hinton%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+hinton2012deep}
+\APACinsertmetastar {%
+hinton2012deep}%
+\begin{APACrefauthors}%
+Hinton, G.%
+, Deng, L.%
+, Yu, D.%
+, Dahl, G\BPBI E.%
+, Mohamed, A\BHBI r.%
+, Jaitly, N.%
+\BDBL {}others%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Deep neural networks for acoustic modeling in speech
+  recognition: The shared views of four research groups} {Deep neural networks
+  for acoustic modeling in speech recognition: The shared views of four
+  research groups}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Signal Processing Magazine}{29}{6}{82--97}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+G\BPBI E.~Hinton%
 \ \BBA {} Salakhutdinov%
 }{%
-Hinton%
+G\BPBI E.~Hinton%
 \ \BBA {} Salakhutdinov%
 }{%
 {\protect \APACyear {2006}}%
@@ -679,6 +847,32 @@ J{\"a}ger, G.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Kessler%
+}{%
+Kessler%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+kessler2007word}
+\APACinsertmetastar {%
+kessler2007word}%
+\begin{APACrefauthors}%
+Kessler, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Word similarity metrics and multilateral comparison}
+  {Word similarity metrics and multilateral comparison}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of Ninth Meeting of the ACL Special Interest
+  Group in Computational Morphology and Phonology} {Proceedings of ninth
+  meeting of the acl special interest group in computational morphology and
+  phonology}\ (\BPGS\ 6--14).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Kingma%
 \ \BBA {} Welling%
 }{%
@@ -702,6 +896,35 @@ Kingma, D\BPBI P.%
   variational bayes}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{arXiv preprint arXiv:1312.6114}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kiros%
+\ \protect \BOthers {.}}{%
+Kiros%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+kiros2015skip}
+\APACinsertmetastar {%
+kiros2015skip}%
+\begin{APACrefauthors}%
+Kiros, R.%
+, Zhu, Y.%
+, Salakhutdinov, R\BPBI R.%
+, Zemel, R.%
+, Urtasun, R.%
+, Torralba, A.%
+\BCBL {}\ \BBA {} Fidler, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Skip-thought vectors} {Skip-thought vectors}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Advances in neural information processing systems}
+  {Advances in neural information processing systems}\ (\BPGS\ 3294--3302).
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -930,6 +1153,35 @@ List, J\BHBI M.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Mackay%
+\ \BBA {} Kondrak%
+}{%
+Mackay%
+\ \BBA {} Kondrak%
+}{%
+{\protect \APACyear {2005}}%
+}]{%
+mackay2005computing}
+\APACinsertmetastar {%
+mackay2005computing}%
+\begin{APACrefauthors}%
+Mackay, W.%
+\BCBT {}\ \BBA {} Kondrak, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Computing word similarity and identifying cognates with
+  Pair Hidden Markov Models} {Computing word similarity and identifying
+  cognates with pair hidden markov models}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the Ninth Conference on Computational
+  Natural Language Learning} {Proceedings of the ninth conference on
+  computational natural language learning}\ (\BPGS\ 40--47).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Mikolov%
 , Chen%
 , Corrado%
@@ -1127,6 +1379,34 @@ Pennington, J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Radford%
+, Metz%
+\BCBL {}\ \BBA {} Chintala%
+}{%
+Radford%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+radford2015unsupervised}
+\APACinsertmetastar {%
+radford2015unsupervised}%
+\begin{APACrefauthors}%
+Radford, A.%
+, Metz, L.%
+\BCBL {}\ \BBA {} Chintala, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Unsupervised representation learning with deep
+  convolutional generative adversarial networks} {Unsupervised representation
+  learning with deep convolutional generative adversarial networks}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{arXiv preprint arXiv:1511.06434}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Rama%
 }{%
 Rama%
@@ -1296,6 +1576,39 @@ Socher, R.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Socher%
+\ \protect \BOthers {.}}{%
+Socher%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+socher2013recursive}
+\APACinsertmetastar {%
+socher2013recursive}%
+\begin{APACrefauthors}%
+Socher, R.%
+, Perelygin, A.%
+, Wu, J\BPBI Y.%
+, Chuang, J.%
+, Manning, C\BPBI D.%
+, Ng, A\BPBI Y.%
+\BCBL {}\ \BBA {} Potts, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Recursive deep models for semantic compositionality over
+  a sentiment treebank} {Recursive deep models for semantic compositionality
+  over a sentiment treebank}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the conference on empirical methods in
+  natural language processing (EMNLP)} {Proceedings of the conference on
+  empirical methods in natural language processing (emnlp)}\ (\BVOL\ 1631,
+  \BPG~1642).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Sokal%
 }{%
 Sokal%
@@ -1344,6 +1657,28 @@ Sokal, R\BPBI R.%
 \APACjournalVolNumPages{arXiv e-prints}{abs/1605.02688}{}{}.
 \newblock
 \begin{APACrefURL} \url{http://arxiv.org/abs/1605.02688} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Trask%
+}{%
+Trask%
+}{%
+{\protect \APACyear {1996}}%
+}]{%
+trask1996historical}
+\APACinsertmetastar {%
+trask1996historical}%
+\begin{APACrefauthors}%
+Trask, R\BPBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1996}.
+\newblock
+\APACrefbtitle {Historical linguistics} {Historical linguistics}.
+\newblock
+\APACaddressPublisher{}{Oxford University Press}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1405,6 +1740,32 @@ Vinh, N\BPBI X.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Wahle%
+}{%
+Wahle%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+wahle2013alignment}
+\APACinsertmetastar {%
+wahle2013alignment}%
+\begin{APACrefauthors}%
+Wahle, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2013}.
+\unskip\
+\newblock
+\APACrefbtitle {Alignment and word comparison with Pair Hidden Markov Models}
+  {Alignment and word comparison with pair hidden markov models}\
+  \APACtypeAddressSchool {\BUPhD}{}{}.
+\unskip\
+\newblock
+\APACaddressSchool {}{Eberhard Karls Universit{\"a}t T{\"u}bingen}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Wichmann%
 \ \protect \BOthers {.}}{%
 Wichmann%
@@ -1432,6 +1793,35 @@ Wichmann, S.%
 \newblock
 \APACjournalVolNumPages{See http://email. eva. mpg. de/wichmann/languages.
   htm}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zen%
+\ \BBA {} Senior%
+}{%
+Zen%
+\ \BBA {} Senior%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+zen2014deep}
+\APACinsertmetastar {%
+zen2014deep}%
+\begin{APACrefauthors}%
+Zen, H.%
+\BCBT {}\ \BBA {} Senior, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Deep mixture density networks for acoustic modeling in
+  statistical parametric speech synthesis} {Deep mixture density networks for
+  acoustic modeling in statistical parametric speech synthesis}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2014 IEEE International Conference on Acoustics, Speech
+  and Signal Processing (ICASSP)} {2014 ieee international conference on
+  acoustics, speech and signal processing (icassp)}\ (\BPGS\ 3844--3848).
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

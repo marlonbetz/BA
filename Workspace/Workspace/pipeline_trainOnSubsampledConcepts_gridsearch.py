@@ -1,12 +1,12 @@
 from pipeline import *
 from lingpy import  *
 
-n_subsamples = 2
+n_subsamples = 10
 phoneme_vectorizations = ["dolgo","sca","binary","embeddings"]
 latent_dims = np.array([10,20,50])
 epsilon_stds = np.array([0.1,0.01,0.001])
 n_ensemble = 1
-nb_epoch = 1000
+nb_epoch = 4000
 intermediate_dim = 1000
 
 print("LOAD WORDLIST TO SAMPLE FROM")

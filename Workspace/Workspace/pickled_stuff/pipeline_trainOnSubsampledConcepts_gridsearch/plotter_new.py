@@ -52,12 +52,37 @@ def plot_epsilon_stds(data,y_label):
     plt.xticks(range(1,len(x_ticks)+1),x_ticks)
     plt.xlabel(r"$\sigma_{\epsilon}$")
 
+def onlyPlotBinary(data,y_label):
+    d = data[2]
+    x_ticks = epsilon_stds
+    y = []
+    for i,key in enumerate(latent_dims):
+        y.append(d[:,i,:].flatten())
+    y=np.array(y)
+    print(y.shape)
+    plt.boxplot(y.T)
+    plt.xticks(range(1,len(x_ticks)+1),x_ticks)
+    plt.xlabel("latent dimensions")
+    
+def onlyPlotSCA(data,y_label):
+    d = data[1]
+    x_ticks = epsilon_stds
+    y = []
+    for i,key in enumerate(latent_dims):
+        y.append(d[:,i,:].flatten())
+    y=np.array(y)
+    print(y.shape)
+    plt.boxplot(y.T)
+    plt.xticks(range(1,len(x_ticks)+1),x_ticks)
+    plt.xlabel("latent dimensions")
+#     
 plt.subplot(1,3,1)
 plot_phoneme_vectorization(v_measure_scores, "ars")
 plt.subplot(1,3,2)
 plot_latent_dims(v_measure_scores, "ars")
 plt.subplot(1,3,3)
 plot_epsilon_stds(v_measure_scores, "ars")
+#onlyPlotSCA(v_measure_scores, y_label="")
 plt.show()
 # plot_latent_dims(np.random.normal(0,1,adjusted_rand_scores.shape), "ars")
 # plot_intermediate_dims(np.random.normal(0,1,adjusted_rand_scores.shape), "ars")
