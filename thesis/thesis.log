@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  8 SEP 2016 19:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  9 SEP 2016 18:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -539,7 +539,7 @@ e_words.png Graphic file (type png)
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_asjp_subsample
 _words.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_asjp_subsample_words.png used on input line 450.
+inary_asjp_subsample_words.png used on input line 451.
 (pdftex.def)             Requested size: 430.00462pt x 257.99982pt.
 
 
@@ -554,7 +554,7 @@ g Graphic file (type png)
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_wordLength.png
 >
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_wordLength.png used on input line 459.
+inary_wordLength.png used on input line 460.
 (pdftex.def)             Requested size: 215.0023pt x 147.81316pt.
 
 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_wordLength_detail1
@@ -565,7 +565,7 @@ tail1.png Graphic file (type png)
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_wordLength_det
 ail1.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_wordLength_detail1.png used on input line 465.
+inary_wordLength_detail1.png used on input line 466.
 (pdftex.def)             Requested size: 215.0023pt x 147.81316pt.
 
 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_wordLength_detail2
@@ -576,7 +576,7 @@ tail2.png Graphic file (type png)
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_wordLength_det
 ail2.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_wordLength_detail2.png used on input line 471.
+inary_wordLength_detail2.png used on input line 472.
 (pdftex.def)             Requested size: 215.0023pt x 147.81316pt.
 
 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_wordLength_detail3
@@ -587,7 +587,7 @@ tail3.png Graphic file (type png)
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_wordLength_det
 ail3.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_wordLength_detail3.png used on input line 476.
+inary_wordLength_detail3.png used on input line 477.
 (pdftex.def)             Requested size: 215.0023pt x 147.81316pt.
 
 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_clicks.png, id=98,
@@ -597,7 +597,7 @@ aphic file (type png)
 
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_clicks.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_clicks.png used on input line 486.
+inary_clicks.png used on input line 487.
 (pdftex.def)             Requested size: 215.0023pt x 147.81316pt.
 
 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_dental.png, id=99,
@@ -607,7 +607,7 @@ aphic file (type png)
 
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_dental.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_dental.png used on input line 492.
+inary_dental.png used on input line 493.
 (pdftex.def)             Requested size: 215.0023pt x 147.81316pt.
 
 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_fricative.png, id=
@@ -617,7 +617,7 @@ File: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_fricative.png
 
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_fricative.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_fricative.png used on input line 498.
+inary_fricative.png used on input line 499.
 (pdftex.def)             Requested size: 215.0023pt x 147.81316pt.
 
 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_fricative_detail1.
@@ -628,7 +628,7 @@ ail1.png Graphic file (type png)
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_fricative_deta
 il1.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_fricative_detail1.png used on input line 503.
+inary_fricative_detail1.png used on input line 504.
 (pdftex.def)             Requested size: 215.0023pt x 147.81316pt.
 
 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_orthofeature_labia
@@ -639,7 +639,7 @@ labialized.png Graphic file (type png)
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_orthofeature_l
 abialized.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_orthofeature_labialized.png used on input line 513.
+inary_orthofeature_labialized.png used on input line 514.
 (pdftex.def)             Requested size: 215.0023pt x 147.81316pt.
 
 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_orthofeature_palat
@@ -650,7 +650,7 @@ palatalized.png Graphic file (type png)
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_orthofeature_p
 alatalized.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_orthofeature_palatalized.png used on input line 519.
+inary_orthofeature_palatalized.png used on input line 520.
 (pdftex.def)             Requested size: 215.0023pt x 147.81316pt.
 
 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_orthofeature_aspir
@@ -661,7 +661,7 @@ aspirated.png Graphic file (type png)
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_orthofeature_a
 spirated.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_orthofeature_aspirated.png used on input line 525.
+inary_orthofeature_aspirated.png used on input line 526.
 (pdftex.def)             Requested size: 215.0023pt x 147.81316pt.
 
 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_orthofeature_glott
@@ -672,7 +672,7 @@ glottalized.png Graphic file (type png)
 <use /Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_orthofeature_g
 lottalized.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_phono_b
-inary_orthofeature_glottalized.png used on input line 530.
+inary_orthofeature_glottalized.png used on input line 531.
 (pdftex.def)             Requested size: 215.0023pt x 147.81316pt.
 
 </Users/marlon/Documents/BA/thesis/pictures/asjp_200_binary_singleConcept_poste
@@ -683,7 +683,7 @@ posterior_name.png Graphic file (type png)
 <use /Users/marlon/Documents/BA/thesis/pictures/asjp_200_binary_singleConcept_p
 osterior_name.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/asjp_200_bi
-nary_singleConcept_posterior_name.png used on input line 541.
+nary_singleConcept_posterior_name.png used on input line 542.
 (pdftex.def)             Requested size: 215.0023pt x 161.25072pt.
 
 </Users/marlon/Documents/BA/thesis/pictures/asjp_200_binary_singleConcept_poste
@@ -694,7 +694,7 @@ posterior_sing.png Graphic file (type png)
 <use /Users/marlon/Documents/BA/thesis/pictures/asjp_200_binary_singleConcept_p
 osterior_sing.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/asjp_200_bi
-nary_singleConcept_posterior_sing.png used on input line 547.
+nary_singleConcept_posterior_sing.png used on input line 548.
 (pdftex.def)             Requested size: 215.0023pt x 161.25072pt.
 
 </Users/marlon/Documents/BA/thesis/pictures/asjp_200_binary_singleConcept_poste
@@ -705,7 +705,7 @@ posterior_snake.png Graphic file (type png)
 <use /Users/marlon/Documents/BA/thesis/pictures/asjp_200_binary_singleConcept_p
 osterior_snake.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/asjp_200_bi
-nary_singleConcept_posterior_snake.png used on input line 553.
+nary_singleConcept_posterior_snake.png used on input line 554.
 (pdftex.def)             Requested size: 215.0023pt x 161.25072pt.
 
 </Users/marlon/Documents/BA/thesis/pictures/asjp_200_binary_singleConcept_poste
@@ -716,7 +716,7 @@ posterior_snake_detail2.png Graphic file (type png)
 <use /Users/marlon/Documents/BA/thesis/pictures/asjp_200_binary_singleConcept_p
 osterior_snake_detail2.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/asjp_200_bi
-nary_singleConcept_posterior_snake_detail2.png used on input line 558.
+nary_singleConcept_posterior_snake_detail2.png used on input line 559.
 (pdftex.def)             Requested size: 215.0023pt x 161.25072pt.
 
 </Users/marlon/Documents/BA/thesis/pictures/vae_c_snake.png, id=110, 1300.86pt 
@@ -725,36 +725,36 @@ File: /Users/marlon/Documents/BA/thesis/pictures/vae_c_snake.png Graphic file (
 type png)
  <use /Users/marlon/Documents/BA/thesis/pictures/vae_c_snake.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/vae_c_snake
-.png used on input line 567.
+.png used on input line 568.
 (pdftex.def)             Requested size: 430.00462pt x 257.99982pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[20] [21 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_asjp_subs
+ample_words.png>]
+</Users/marlon/Documents/BA/thesis/pictures/new_grid_search_boxplots.png, id=11
+8, 930.8376pt x 311.4837pt>
+File: /Users/marlon/Documents/BA/thesis/pictures/new_grid_search_boxplots.png G
+raphic file (type png)
 
-</Users/marlon/Documents/BA/thesis/pictures/grid_search_boxplots.png, id=111, 5
-85.387pt x 453.1329pt>
-File: /Users/marlon/Documents/BA/thesis/pictures/grid_search_boxplots.png Graph
-ic file (type png)
-
-<use /Users/marlon/Documents/BA/thesis/pictures/grid_search_boxplots.png>
-Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/grid_search
-_boxplots.png used on input line 590.
-(pdftex.def)             Requested size: 430.00462pt x 332.85854pt.
+<use /Users/marlon/Documents/BA/thesis/pictures/new_grid_search_boxplots.png>
+Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/new_grid_se
+arch_boxplots.png used on input line 592.
+(pdftex.def)             Requested size: 430.00462pt x 143.89261pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[20]
-./thesis.tex:602: Undefined control sequence.
-l.602 \toprule
+./thesis.tex:604: Undefined control sequence.
+l.604 \toprule
               
 ? r
 OK, entering \nonstopmode...
-./thesis.tex:604: Undefined control sequence.
+./thesis.tex:606: Undefined control sequence.
 <recently read> \midrule 
                          
-l.604 \midrule
+l.606 \midrule
               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -762,10 +762,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis.tex:609: Undefined control sequence.
+./thesis.tex:611: Undefined control sequence.
 <recently read> \bottomrule 
                             
-l.609 \bottomrule
+l.611 \bottomrule
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -774,25 +774,29 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-</Users/marlon/Documents/BA/thesis/pictures/boxplots_IELex.png, id=115, 727.758
+Overfull \hbox (8.63454pt too wide) in paragraph at lines 603--613
+ [][] 
+ []
+
+
+</Users/marlon/Documents/BA/thesis/pictures/boxplots_IELex.png, id=119, 727.758
 9pt x 292.6935pt>
 File: /Users/marlon/Documents/BA/thesis/pictures/boxplots_IELex.png Graphic fil
 e (type png)
 
 <use /Users/marlon/Documents/BA/thesis/pictures/boxplots_IELex.png>
 Package pdftex.def Info: /Users/marlon/Documents/BA/thesis/pictures/boxplots_IE
-Lex.png used on input line 616.
+Lex.png used on input line 618.
 (pdftex.def)             Requested size: 430.00462pt x 172.94223pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[21 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_asjp_subsample
-_words.png>] [22 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_w
-ordLength.png> </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_wor
-dLength_detail1.png> </Users/marlon/Documents/BA/thesis/pictures/vae_phono_bina
-ry_wordLength_detail2.png> </Users/marlon/Documents/BA/thesis/pictures/vae_phon
-o_binary_wordLength_detail3.png>] (./thesis.bbl
+[22 </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_wordLength.png
+> </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_wordLength_detai
+l1.png> </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_wordLength
+_detail2.png> </Users/marlon/Documents/BA/thesis/pictures/vae_phono_binary_word
+Length_detail3.png>] (./thesis.bbl
 Underfull \hbox (badness 1062) in paragraph at lines 14--34
 []\OT1/cmr/m/n/10 Abadi, M., Agar-wal, A., Barham, P., Brevdo, E., Chen, Z., Ci
 tro, C., ... Zheng, X.
@@ -818,18 +822,18 @@ _name.png> </Users/marlon/Documents/BA/thesis/pictures/asjp_200_binary_singleCo
 ncept_posterior_sing.png> </Users/marlon/Documents/BA/thesis/pictures/asjp_200_
 binary_singleConcept_posterior_snake.png> </Users/marlon/Documents/BA/thesis/pi
 ctures/asjp_200_binary_singleConcept_posterior_snake_detail2.png>] [31 </Users/
-marlon/Documents/BA/thesis/pictures/vae_c_snake.png>] [32 </Users/marlon/Docume
-nts/BA/thesis/pictures/grid_search_boxplots.png>] [33 </Users/marlon/Documents/
-BA/thesis/pictures/boxplots_IELex.png>] (./thesis.aux)
+marlon/Documents/BA/thesis/pictures/vae_c_snake.png> </Users/marlon/Documents/B
+A/thesis/pictures/new_grid_search_boxplots.png>] [32 </Users/marlon/Documents/B
+A/thesis/pictures/boxplots_IELex.png>] (./thesis.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6803 strings out of 493089
- 107244 string characters out of 6134842
- 181967 words of memory out of 5000000
- 10160 multiletter control sequences out of 15000+600000
+ 6804 strings out of 493089
+ 107285 string characters out of 6134842
+ 183271 words of memory out of 5000000
+ 10161 multiletter control sequences out of 15000+600000
  15106 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,15n,43p,2404b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -853,10 +857,10 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2015/tex
 mf-dist/fonts/type1/public/tipa/tipa10.pfb></usr/local/texlive/2015/texmf-dist/
 fonts/type1/public/tipa/tipa8.pfb>
-Output written on thesis.pdf (33 pages, 3656624 bytes).
+Output written on thesis.pdf (32 pages, 3658704 bytes).
 PDF statistics:
- 244 PDF objects out of 1000 (max. 8388607)
- 135 compressed objects within 2 object streams
+ 241 PDF objects out of 1000 (max. 8388607)
+ 133 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  131 words of extra memory for PDF output out of 10000 (max. 10000000)
 

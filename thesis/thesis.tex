@@ -374,7 +374,7 @@ The model architecture is visualized in Fig. \ref{fig:vae_model_visualization}.
 
 
 \subsubsection{Interpretation of $\mathcal{Z}$}
-
+\label{interpretation_of_z}
 The question is then how to interpret such a latent space $\mathcal{Z}$. In the case of VAE-PT, where we train the model on a big corpus, we assume it encodes the inherent structure of words as such. As the latent variable $z$ walks through $\mathcal{Z}$, we assume that the decoded word changes in a \textit{meaningful} way - for instance it should change certain phonological features of some phonemes in $x$ given that such changes are plausible, given the context of the other phonemes in the words. It should also be possible to add whole new affixes, but it should not inherit implausible phoneme sequences or change phoneme features in some random way. The multi-modality of our encoder distribution $Q(z|X)$ leads to the situation that similar points in $\mathcal{Z}$ should not necessarily coincide with similar points in our data space $\mathcal{X}$. For instance, a fictional word such as /aban/ should be closer to /ov\textipa{\~a}/ than to /a\textipa{\textdoublebarpipe}an/ in $\mathcal{Z}$ but not necessarily in $\mathcal{X}$, as it should be more probable that intervocalic voiced plosives lenite to fricatives and syllable-final nasals drop but leave some compensatory nasalization - here even at the same time - but there should be hardly any evidence of a direct sound change from /b/ to a palatal click. To arrive at such linear dependencies over sound changes as in Eq. \ref{eq:sound_change_linear_dependency}, we then just have to expect them in our data $X$ in some latent way. As $X$ in the decoder distribution $P(X|z)$ would be conditioned on $z$, we expect the same linear dependencies over words in $z$ as we find them in $X$.
 
 
@@ -436,12 +436,13 @@ To pre-train VAE-PT,  the data provided by the Automatic Similarity Judgement Pr
 
 VAE-PT is trained and tested on IELex \citep{dunn2012indo}, while VAE-PT is tested on it. IELex provides IPA-annotated words for 250 concepts for 163 Indo-European doculects. After the removal of ancient language forms and legacy doculects, this leaves around 60 languages, as the number of languages varies per concept.
 \subsection{Visual Inspection}
-A first visual inspection shows that VAE-PT, trained for 100 iterations, learns to cluster similar strings close to each other (Fig. \ref{fig:vae_phono_binary_asjp_subsample_words}). Words with similar syllable structures are located in specific subspaces of $\mathcal{Z}$. It further connects strings beyond local clusters through linear dependencies, which can interchange whole syllables of a word. 
+To gain a first visual understanding how VAE-PT structures the latent space, we ran it for 100 iterations on ASJP. Each word was encoded with the binary features from \cite{rama2016siamese} and zero-padded to a maximum length of 15 phonemes. The encoding and decoding MLPs had hidden layers of 500 units each.
+Indeed, VAE-PT learns to cluster similar strings close to each other (Fig. \ref{fig:vae_phono_binary_asjp_subsample_words}). Words with similar syllable structures are located in specific subspaces of $\mathcal{Z}$. It further connects strings beyond local clusters through linear dependencies, which can interchange whole syllables of a word. 
 On a more global perspective, words are embedded into a high-level feature continuum that encodes word lengths (Fig. \ref{fig:vae_phono_binary_wordLength}), with smooth transitions between the respective subspaces. This is remarkable, given that there are no word boundary tokens involved during training. The model itself learns to recognize the transition from the binary code of the actual phonemes of the word to the zero-padding following it.
-Moreover, the linear dependencies are not simple renderings of the binary input code. The model learns high-level latent features, such as if a word has a phoneme with a certain distinctive feature or not (Fig. \ref{fig:vae_phono_binary_features}). If so, linear dependencies connect such words, even over very long distances. In fact, some of those linear dependencies form bigger clusters that can span the entire posterior distribution. 
+Moreover, the linear dependencies are not simple renderings of the binary input code. The model learns high-level latent features, such as if a word has a phoneme with a certain distinctive feature or not (Fig. \ref{fig:vae_phono_binary_features}). If so, linear dependencies connect such words, even over very long distances. In fact, some of those linear dependencies form bigger clusters that can span the entire population. 
 Even more remarkable is that the model learns to cluster words with similar coarticulation features \textit{even though they were excluded during training}, but only existent on some latent level (Fig. \ref{fig:vae_phono_orthofeatures}). Here, the model learns to distinguish plain /w j h/ from true labialization, palatalization and aspiration, although they were merged in the input code. If the model treated them as equal, we would expect a uniform distribution over the respective words. However, we see that the words accumulate in different subspaces. Since the model learns to cluster words according to their phonological structure, it recognizes that the context plain /w j h/ occur in differs from the context of coarticulated phonemes and hence locates the respective words in different subspaces of $\mathcal{Z}$.
 
-The posterior distributions for several IELex concepts show linear dependencies for members of the same cognate class (Fig. \ref{fig:asjp_2000_binary_singleIELEXConcepts_posteriors}). Hence, if the given semantic concept only consists of members of a single cognate class, the whole posterior shows strong linear dependencies (Fig. \ref{fig:asjp_2000_binary_singleIELEXConcepts_posteriors} top left). However, this focus on linear dependencies as a means to encode latent information makes it hard to cluster cognates, which rely on distances or similarities between the embeddings. In fact, the posteriors for several cognate classes are often intertwined. Hence, VAE-PT is excluded from the following investigations.
+The posterior distributions for several IELex concepts show linear dependencies for members of the same cognate class (Fig. \ref{fig:asjp_2000_binary_singleIELEXConcepts_posteriors}). Hence, if the given semantic concept only consists of members of a single cognate class, the whole posterior shows strong linear dependencies (Fig. \ref{fig:asjp_2000_binary_singleIELEXConcepts_posteriors} top left). However, this focus on linear dependencies as a means to encode latent information makes it hard to cluster cognates, which rely on distances or similarities between the embeddings. In fact, the posteriors for several cognate classes are often intertwined. However, this is actually what we expected (cf. section \ref{interpretation_of_z}). Hence, VAE-PT is excluded from the following investigations how to improve the actual clustering.
 
 
 VAE-C, on the other hand, yields a far better basis for cognate identification as such. Similar words form clusters that are pushed away from the population mean, while words without similar counterparts remain close the center of the latent space. Although there are linear dependencies between similar words, it does not play such an important role as it does for VAE-PT.  
@@ -582,33 +583,34 @@ To explore the performances of VAE-C under different parameter settings, a grid 
 %\item intermediate dimensions of the encoding and decoding MLPs:  [100,200,500]
 \item the standard deviation of the auxiliary noise $\sigma_{\epsilon}$: [0.1,0.01,0.001]
 \end{itemize}
-For all settings, the models were trained on a subset of 10 concepts, which are randomly sampled from all IELex concepts beforehand. The models are trained for 2000 iterations. 
-The performance is measured in adjusted rand indices \citep{rand1971objective,hubert1985comparing}. 
-Fig. \ref{fig:grid_search_boxplots} summarizes the results. The binary phoneme features outperform the word2vec phoneme embeddings. Moreover, more than 20 latent dimensions do not improve the performance. As the intermediate dimensions of the encoding and decoding MLPs increase, also the performance improves. The standard deviation of the auxiliary noise $\epsilon$ also improves the performance when decreased.
+For all settings, the models were trained on a validation set of 10 concepts, which are randomly sampled from all IELex concepts beforehand. The models are trained for 4000 iterations. The encoding and decoding MLPs both have hidden layers of 1000 units. All words were zero-padded to a maximum length of 10 phonemes, following \citep{rama2016siamese}. The performance is measured in adjusted rand indices \citep{rand1971objective,hubert1985comparing}. 
+Fig. \ref{fig:grid_search_boxplots} summarizes the results. The binary phoneme features outperform the word2vec phoneme embeddings, which perform nevertheless much better than the sound class one hot vectors. Also, the number of latent dimensions does not seem to influence the performance too much. While 10 latent dimensions slightly seem to outperform 20 and 50 in this grid search, higher-dimensional latent spaces are generally known to require more time to have a network converge, which could also be the case here - the 4000 iterations simply might not be enough for such higher-dimensional spaces. While we think that it is quite possible to improve the performance with an increased dimensionality of the latent space, as it should then be able to encode much more information in general, we do not think it is for practical value in our case. One the one hand, iterating a model over every semantic concept in the data set takes time. In our setup, 1000 iterations over one concept roughly took 20 seconds, varying by the number of latent dimensions and hidden dimensions of the encoding and decoding MLPs. Summed up for every single concept in the data and 4000 iterations for every such concept, it already took around 8 hours to perform that grid search from above. On the other hand, we do not expect the clustering to work efficiently in higher-dimensional space anymore anyway, as due to the the curse of dimensionality all points should then become more and more equidistant to each other, and thus clusters should be harder to identify. % While 10 dimensions slightly outperform 20, 10 dimensions show more variance, too. This might be an indicator to favor 20 dimensions.
+
+The standard deviation of the auxiliary noise $\sigma_{\epsilon}$ also does not seem to influence the performance too much either. However, a rather high standard deviation seems to outperform the other configurations slightly. This might be due to the reasons discussed in section \ref{interpretation_of_z} - an increased auxiliary noise forces the network to learn more abstract features.
 
  \begin{figure}[h!] 
-     \includegraphics[width=\linewidth]{grid_search_boxplots} 
-     \caption{The result of the grid search over several parameters of VAE-C, measured in adjusted rand indices. In general, the performance is mediocre. (top left) The binary phoneme features outperform the phoneme embeddings. (top right) 20 latent dimensions seem to outperform the other parameters. (bottom left) As the number of intermediate dimensions of the encoder and decoder MLPs increases, the performance also improves slightly. (bottom left) The results suggest that a smaller standard deviation of the auxiliary noise improves the performance.}
+     \includegraphics[width=\linewidth]{new_grid_search_boxplots} 
+     \caption{The result of the grid search over several parameters of VAE-C, measured in adjusted rand indices. (left) The binary phoneme features outperform the phoneme embeddings. The sound class one hot vectors only show mediocre performance. (middle) the number of latent dimensions does not seem to influence the performance too much. An increased dimensionality shows slightly worse performance, but this might due to the network not having converged yet. (right) An increased auxiliary noise coincides with better performance over all model.}
     \label{fig:grid_search_boxplots} 
 \end{figure}
 
 \subsection{Performance on IELex}
 
-VAE-C was then run on the IELex data with the parameters found optimal in the grid search above, i.e. binary phoneme features, 20 latent dimensions, 500 intermediate dimensions and $\sigma_{\epsilon}= 0.01$. Fig. \ref{fig:boxplots_IELex} summarizes the results, measured in adjusted rand indices, adjusted mutual information \citep{vinh2010information}, cluster homogeneity, cluster completeness and v-measure \citep{rosenberg2007v}.
+VAE-C was then run on the remaining 197 semantic concepts on IELex with the parameters found optimal in the grid search above, i.e. binary phoneme features, 10 latent dimensions, 1000 intermediate dimensions and $\sigma_{\epsilon}= 0.1$. Fig. \ref{fig:boxplots_IELex} summarizes the results, measured in adjusted rand indices, adjusted mutual information \citep{vinh2010information}, cluster homogeneity, cluster completeness, v-measure \citep{rosenberg2007v} as well as pairwise precision, recall and F1-score.
 The model indeed finds cognates and is far better than random labeling, but the overall performance is only mediocre, especially compared to LexStat (cf. table \ref{table:model_comparison})
 
 \begin{table}
-\begin{tabular}{l | rrrrr}
+\begin{tabular}{l | rrrrrrrr}
 \toprule
-{} &       ARI &       AMI &         Homogeneity &        Completeness &         V-Measure  \\  \hline
+{} &       ARI &       AMI &         Homogeneity &        Completeness &         V-Measure &Precision&Recall&F1 \\  \hline
 \midrule
-VAE-C &  0.32 &  0.36 &  0.67 &  0.57 &  0.57 \\
-LexStat & \textbf{0.59} & \textbf{0.71}  & \textbf{0.99} &  \textbf{0.92} & \textbf{0.95} \\
-NLD-AP & 0.38 & 0.44 & 0.77 & 0.61 &0.64 \\
-Random &  0.00 &  0.00 &  0.42 &  0.30 &  0.32 \\
+VAE-C &  0.32 &  0.37 &  0.68 &  0.56 &  0.58 &  0.68 &  0.44 &  0.49 \\ 
+LexStat & \textbf{0.58} & \textbf{0.71} & \textbf{0.99} & \textbf{0.91} &  \textbf{0.95} & \textbf{0.94} & \textbf{0.46} &  \textbf{0.62} \\
+NLD-AP &  0.32 & 0.38 & 0.74 &0.57 & 0.60 & 0.71 & 0.42 & 0.48 \\
+Random &  0.00 &  0.00 &  0.42 &  0.30 &  0.32 &  0.42 &  0.18 &  0.22 \\
 \bottomrule
 \end{tabular}
-\caption{The performance of VAE-C compared to LexStat. NLD-AP uses Normalized Levenshtein Distances as distance metric and Affinity Propagation as clustering algorithm. VAE-C performs only mediocre, but at least better than random labeling.}
+\caption{The performance of VAE-C compared to LexStat. NLD-AP uses Normalized Levenshtein Distances between IPA-annotated words as distance metric and Affinity Propagation as clustering algorithm. VAE-C performs only mediocre, but at least better than random labeling.}
 \label{table:model_comparison} 
 \end{table}
 
@@ -619,11 +621,11 @@ Random &  0.00 &  0.00 &  0.42 &  0.30 &  0.32 \\
 \end{figure}
 
 
-\subsection{Discussion}
-
-VAE-PT shows extraordinary performance in uncovering latent features. It can recognize the compositional structure of words, as it learns to form linear dependencies over distinctive phonological features, whole phonemes or even syllables. However, most information is encoded by such dependencies which is not suitable for flat clustering methods, where we expect that the location of a data point can be used to compare it with other data points. Although the smoothness assumption holds for VAE-PT, as we end up with clusters of very similar words, only a handful of actual cognates can be found in those. Following this, the performance of the model is quite bad, only slightly better than random labeling. 
-
-VAE-C however, performs much better than VAE-PT. It overfits to the training data, but by that encodes as much latent information as possible. Words with similar phonological structures cluster among each other. Although an increased auxiliary noise has its theoretical motivations, bigger values of $\sigma_{\epsilon}$ rather decrease the overall performance of the model. 
+%\subsection{Discussion}
+%
+%VAE-PT shows extraordinary performance in uncovering latent features. It can recognize the compositional structure of words, as it learns to form linear dependencies over distinctive phonological features, whole phonemes or even syllables. However, most information is encoded by such dependencies which is not suitable for flat clustering methods, where we expect that the location of a data point can be used to compare it with other data points. Although the smoothness assumption holds for VAE-PT, as we end up with clusters of very similar words, only a handful of actual cognates can be found in those. Following this, the performance of the model is quite bad, only slightly better than random labeling. 
+%
+%VAE-C however, performs much better than VAE-PT. It overfits to the training data, but by that encodes as much latent information as possible. Words with similar phonological structures cluster among each other. Although an increased auxiliary noise has its theoretical motivations, bigger values of $\sigma_{\epsilon}$ rather decrease the overall performance of the model. 
 \section{Resume}
 
 In this thesis, I have shown how recent tools from the emerging deep learning framework can be used for unsupervised cognate identification. Although the two models described here do not perform better than well-established methods on the task of cognate identification as such, they allow for great introspection on the compositional structure of words and the linear factors that create it. Especially when trained on a big corpus, the model can uncover very abstract features and hence could be a basis for more research on how and why certain words evolve differently than others. 

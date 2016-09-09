@@ -22,7 +22,7 @@ intermediate_dim = 1000
 
 
 epsilon_std = 0.001
-nb_epoch =2000
+nb_epoch =20000
 
 vae = VAE(latent_dim=latent_dim,
           original_dim=original_dim,
@@ -85,10 +85,14 @@ n_concepts = len(set(global_ids))
 y_true = cognate_classes
 y_random = np.random.randint(0,int(n_cognate_classes/n_concepts),y_pred.shape)
 
+from pairwise_evalaution import PairwiseEvaluation
+pe = PairwiseEvaluation(embeddings,y_true,y_pred)
+print(pe.getPrecisionRecallF1())
 print(metrics.adjusted_rand_score(y_true, y_pred))
 print(metrics.adjusted_mutual_info_score(y_true, y_pred))
 print(metrics.homogeneity_completeness_v_measure(y_true, y_pred))
-
+pe = PairwiseEvaluation(embeddings,y_true,y_random)
+print(pe.getPrecisionRecallF1())
 print(metrics.adjusted_rand_score(y_true, y_random))
 print(metrics.adjusted_mutual_info_score(y_true, y_random))
 print(metrics.homogeneity_completeness_v_measure(y_true, y_random))

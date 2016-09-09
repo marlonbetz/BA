@@ -1,0 +1,5 @@
+
+class PairwiseEvaluation(object):
+    def __init__(self,x,true,predicted):
+        for x1 in set(x):
+            for x2 in set(x)

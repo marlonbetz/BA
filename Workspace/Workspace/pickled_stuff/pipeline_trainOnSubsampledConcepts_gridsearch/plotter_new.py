@@ -5,7 +5,7 @@ from pandas import DataFrame
 sns.set_style("white")
 
 n_subsamples = 10
-phoneme_vectorizations = ["dolgo","sca","binary","embeddings"]
+phoneme_vectorizations = ["Dolgopolsky","SCA","Binary\nFeatures","Embeddings"]
 latent_dims = np.array([10,20,50])
 epsilon_stds = np.array([0.1,0.01,0.001])
 n_ensemble = 1
@@ -28,7 +28,8 @@ def plot_phoneme_vectorization(data,y_label):
     print(y.shape)
     plt.boxplot(y.T)
     plt.xticks(range(1,len(x_ticks)+1),x_ticks)
-    plt.xlabel("phoneme vectorization")
+    plt.xlabel("Phoneme Vectorization")
+    plt.ylabel(y_label)
     
 def plot_latent_dims(data,y_label):
     x_ticks = latent_dims
@@ -39,7 +40,9 @@ def plot_latent_dims(data,y_label):
     print(y.shape)
     plt.boxplot(y.T)
     plt.xticks(range(1,len(x_ticks)+1),x_ticks)
-    plt.xlabel("latent dimensions")
+    plt.xlabel("Latent Dimensions")
+    plt.ylabel(y_label)
+
 
 def plot_epsilon_stds(data,y_label):
     x_ticks = epsilon_stds
@@ -51,22 +54,23 @@ def plot_epsilon_stds(data,y_label):
     plt.boxplot(y.T)
     plt.xticks(range(1,len(x_ticks)+1),x_ticks)
     plt.xlabel(r"$\sigma_{\epsilon}$")
+    plt.ylabel(y_label)
 
 def onlyPlotBinary(data,y_label):
     d = data[2]
     x_ticks = epsilon_stds
     y = []
-    for i,key in enumerate(latent_dims):
+    for i,key in enumerate(epsilon_stds):
         y.append(d[:,i,:].flatten())
     y=np.array(y)
     print(y.shape)
     plt.boxplot(y.T)
     plt.xticks(range(1,len(x_ticks)+1),x_ticks)
-    plt.xlabel("latent dimensions")
+    plt.xlabel(r"$\sigma_{\epsilon}$")
     
-def onlyPlotSCA(data,y_label):
-    d = data[1]
-    x_ticks = epsilon_stds
+def onlyPlotEmbeddings(data,y_label):
+    d = data[3]
+    x_ticks = latent_dims
     y = []
     for i,key in enumerate(latent_dims):
         y.append(d[:,i,:].flatten())
@@ -74,15 +78,27 @@ def onlyPlotSCA(data,y_label):
     print(y.shape)
     plt.boxplot(y.T)
     plt.xticks(range(1,len(x_ticks)+1),x_ticks)
-    plt.xlabel("latent dimensions")
+    plt.xlabel("latent_dims")
+    
+def onlyPlotSCA(data,y_label):
+    d = data[1]
+    x_ticks = epsilon_stds
+    y = []
+    for i,key in enumerate(epsilon_stds):
+        y.append(d[:,i,:].flatten())
+    y=np.array(y)
+    print(y.shape)
+    plt.boxplot(y.T)
+    plt.xticks(range(1,len(x_ticks)+1),x_ticks)
+    plt.xlabel("Latent Dimensions")
 #     
-plt.subplot(1,3,1)
-plot_phoneme_vectorization(v_measure_scores, "ars")
-plt.subplot(1,3,2)
-plot_latent_dims(v_measure_scores, "ars")
-plt.subplot(1,3,3)
-plot_epsilon_stds(v_measure_scores, "ars")
-#onlyPlotSCA(v_measure_scores, y_label="")
+# plt.subplot(1,3,1)
+# plot_phoneme_vectorization(v_measure_scores, "ARI")
+# plt.subplot(1,3,2)
+# plot_latent_dims(v_measure_scores, "ARI")
+# plt.subplot(1,3,3)
+# plot_epsilon_stds(v_measure_scores, "ARI")
+onlyPlotBinary(v_measure_scores, y_label="")
 plt.show()
 # plot_latent_dims(np.random.normal(0,1,adjusted_rand_scores.shape), "ars")
 # plot_intermediate_dims(np.random.normal(0,1,adjusted_rand_scores.shape), "ars")

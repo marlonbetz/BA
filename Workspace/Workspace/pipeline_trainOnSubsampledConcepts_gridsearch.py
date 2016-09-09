@@ -20,7 +20,8 @@ _,words_ipa,_,_ = loadAnnotatedWordList(pathToAnnotatedWordList_ipa)
 
 
 global_id_types = np.array(list(set(global_ids)))
-global_id_types_subset = np.array(global_ids)[np.random.choice(global_id_types, n_subsamples, replace=False)]
+print(len(global_id_types))
+global_id_types_subset = np.random.choice(global_id_types, n_subsamples, replace=False)
 print("global_id_types_subset")
 print(global_id_types_subset)
 del languages,words,global_ids,cognate_classes

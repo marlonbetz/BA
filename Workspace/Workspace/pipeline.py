@@ -6,6 +6,14 @@ from phoneme_embeddings import PhonemeEmbeddings
 from models import VAE
 from sklearn.cluster import AffinityPropagation
 from sklearn import metrics
+
+def getRidOfValidationSet(languages,words,global_ids,cognate_classes,stoplist):
+    indices = []
+    for i,id in enumerate(global_ids):
+        if id not in stoplist:
+            indices.append(i)
+    return np.array(languages)[indices],np.array(words)[indices],np.array(global_ids)[indices],np.array(cognate_classes)[indices]
+
 def getListofASJPPhonemes(word):
     phonemes_alone="pbmfv84tdszcnSZCjT5kgxNqGX7hlLwyr!ieaouE3"
     phonemeSearchRegex = "["+phonemes_alone+"][\"\*]?(?!["+phonemes_alone+"]~|["+phonemes_alone+"]{2}\$)|["+phonemes_alone+"]{2}?~|["+phonemes_alone+"]{3}?\$"

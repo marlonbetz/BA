@@ -2,12 +2,13 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="isRegEx"/>
-		<item value="50" key="selection"/>
+		<item value="self.sum" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="sum"/>
 			<item value="100"/>
 			<item value="(?&lt;=scores)"/>
 			<item value=",codecs"/>
@@ -15,9 +16,9 @@
 			<item value="pickled_stuff/pipeline_trainOnEachConcept/"/>
 			<item value="\Radjusted_rand_scores = pickle\.load\(,codecs\.open\(&quot;pickled_stuff/pipeline_trainOnEachConcept/adjusted_rand_scores\.pkl&quot;,&quot;wb&quot;\)\)\Radjusted_mutual_info_scores = pickle\.load\(,codecs\.open\(&quot;pickled_stuff/pipeline_trainOnEachConcept/adjusted_mutual_info_scores\.pkl&quot;,&quot;wb&quot;\)\)\Rhomogeneity_scores = pickle\.load\(,codecs\.open\(&quot;pickled_stuff/pipeline_trainOnEachConcept/homogeneity_scores\.pkl&quot;,&quot;wb&quot;\)\)\Rcompleteness_scores = pickle\.load\(,codecs\.open\(&quot;pickled_stuff/pipeline_trainOnEachConcept/completeness_scores\.pkl&quot;,&quot;wb&quot;\)\)\Rv_measures_scores = pickle\.load\(,codecs\.open\(&quot;pickled_stuff/pipeline_trainOnEachConcept/v_measures_scores\.pkl&quot;,&quot;wb&quot;\)\)\R\Radjusted_rand_scores_random = pickle\.load\(,codecs\.open\(&quot;pickled_stuff/pipeline_trainOnEachConcept/adjusted_rand_scores_random\.pkl&quot;,&quot;wb&quot;\)\)\Radjusted_mutual_info_scores_random = pickle\.load\(,codecs\.open\(&quot;pickled_stuff/pipeline_trainOnEachConcept/adjusted_mutual_info_scores_random\.pkl&quot;,&quot;wb&quot;\)\)\Rhomogeneity_scores_random = pickle\.load\(,codecs\.open\(&quot;pickled_stuff/pipeline_trainOnEachConcept/homogeneity_scores_random\.pkl&quot;,&quot;wb&quot;\)\)\Rcompleteness_scores_random = pickle\.load\(,codecs\.open\(&quot;pickled_stuff/pipeline_trainOnEachConcept/completeness_scores_random\.pkl&quot;,&quot;wb&quot;\)\)\Rv_measures_scores_random = pickle\.load\(,codecs\.open\(&quot;pickled_stuff/pipeline_trainOnEachConcept/v_measures_scores_random\.pkl&quot;,&quot;wb&quot;\)\)\Rn_cognate_classes_true_perDataPoint = pickle\.load\(,codecs\.open\(&quot;pickled_stuff/pipeline_trainOnEachConcept/n_cognate_classes_true_perDataPoint\.pkl&quot;,&quot;wb&quot;\)\)\Rn_cognate_classes_pred_perDataPoint = pickle\.load\(,codecs\.open\(&quot;pickled_stuff/pipeline_trainOnEachConcept/n_cognate_classes_pred_perDataPoint\.pkl&quot;,&quot;wb&quot;\)\)\R"/>
 			<item value="pickle\.load\(([\w_]+)"/>
-			<item value="pickle\.load\(([\w_])"/>
 		</list>
 		<list key="replacehistory">
+			<item value="self.sum"/>
 			<item value="50"/>
 			<item value="codecs"/>
 			<item value="rb"/>
@@ -25,14 +26,13 @@
 			<item value="\1 = pickle\.load\("/>
 			<item value="load"/>
 			<item value="weighted"/>
-			<item value="True"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="265" key="DIALOG_WIDTH"/>
 		<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
 		<item value="399" key="DIALOG_HEIGHT"/>
-		<item value="935" key="DIALOG_X_ORIGIN"/>
-		<item value="300" key="DIALOG_Y_ORIGIN"/>
+		<item value="933" key="DIALOG_X_ORIGIN"/>
+		<item value="301" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

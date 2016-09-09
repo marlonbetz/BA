@@ -6,7 +6,14 @@ def writeToFile():
     print("LOAD TEST WORDLIST")
     pathToAnnotatedWordList = "Data/IELex/output/IELex-2016.tsv"
     
-    languages,words,global_ids,cognate_classes = loadAnnotatedWordList(pathToAnnotatedWordList, )
+    print("LOAD WORDLIST")
+    #pathToAnnotatedWordList = "Data/mattis_new/output/ObUgrian-110-21.tsv.asjp"
+    languages,words,global_ids,cognate_classes = loadAnnotatedWordList(pathToAnnotatedWordList)
+    print(len(set(global_ids)))
+    stoplist = {221 , 646 ,1333 ,1224 , 778 ,1402, 1411, 1232, 1203, 1292}
+
+    languages,words,global_ids,cognate_classes = getRidOfValidationSet(languages,words,global_ids,cognate_classes,stoplist)
+    print(len(set(global_ids)))
     with codecs.open("lexstat_wordlist.txt","w",encoding="UTF-8") as f:
         f.write("CONCEPT\tIPA\tDOCULECT\tCOGID\n")
         for l,w,gi,cog in zip(languages,words,global_ids,cognate_classes):
@@ -41,6 +48,9 @@ def printMeasures():
     ars = metrics.adjusted_rand_score(y_true, y_pred)
     ami = metrics.adjusted_mutual_info_score(y_true, y_pred)
     h,c,v = metrics.homogeneity_completeness_v_measure(y_true, y_pred)
-    print(ars,ami,h,c,v)
+    from pairwise_evalaution import PairwiseEvaluation
+    pw = PairwiseEvaluation(np.arange(len(y_true)),y_true,y_pred)
+    p,r,f1 = pw.getPrecisionRecallF1()
+    print(ars,ami,h,c,v,p,r,f1)
 #writeToFile()
 printMeasures()

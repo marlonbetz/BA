@@ -108,41 +108,42 @@
 \citation{sokal1958statistical}
 \citation{frey2007clustering}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.3}Interpretation of $\mathcal  {Z}$}{18}}
+\newlabel{interpretation_of_z}{{4.2.3}{18}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Clustering}{18}}
 \newlabel{Clustering}{{4.3}{18}}
 \citation{wichmann2010asjp}
 \citation{dunn2012indo}
+\citation{rama2016siamese}
 \@writefile{toc}{\contentsline {section}{\numberline {5}Evaluation}{19}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Data}{19}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Visual Inspection}{19}}
 \citation{dolgopolsky1986probabilistic,list2012sca}
 \citation{list2012sca}
 \citation{rama2016siamese}
+\citation{rama2016siamese}
 \citation{rand1971objective,hubert1985comparing}
-\citation{vinh2010information}
-\citation{rosenberg2007v}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Grid Search over Model Parameters}{20}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Performance on IELex}{20}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces A detailed view on a subsample of ASJP embedded into $\mathcal  {Z}$ after trained on the whole ASJP data set for 100 iterations. As can be seen, words accumulate in local subspaces with higher probability mass. Here, all words are contained in an area with shorter words that show simple CV syllable structures. Words that only differ in one distinctive feature are very close to each other, while linear dependencies over longer distances signify relationships over whole syllables that are exchanged.\relax }}{21}}
 \newlabel{fig:vae_phono_binary_asjp_subsample_words}{{7}{21}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Discussion}{21}}
+\citation{vinh2010information}
+\citation{rosenberg2007v}
+\newlabel{fig:vae_phono_binary_wordLength0}{{\caption@xref {fig:vae_phono_binary_wordLength0}{ on input line 461}}{22}}
+\newlabel{sub@fig:vae_phono_binary_wordLength0}{{}{22}}
+\newlabel{fig:vae_phono_binary_wordLength1}{{\caption@xref {fig:vae_phono_binary_wordLength1}{ on input line 467}}{22}}
+\newlabel{sub@fig:vae_phono_binary_wordLength1}{{}{22}}
+\newlabel{fig:vae_phono_binary_wordLength2}{{\caption@xref {fig:vae_phono_binary_wordLength2}{ on input line 473}}{22}}
+\newlabel{sub@fig:vae_phono_binary_wordLength2}{{}{22}}
+\newlabel{fig:vae_phono_binary_wordLength3}{{\caption@xref {fig:vae_phono_binary_wordLength3}{ on input line 478}}{22}}
+\newlabel{sub@fig:vae_phono_binary_wordLength3}{{}{22}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces The ASJP data set embedded into $\mathcal  {Z}$ after trained on it for 100 iterations, colored by word length. The model learns to cluster words according to their respective length, with more frequent word lengths located in subspaces with higher probability mass.\relax }}{22}}
+\newlabel{fig:vae_phono_binary_wordLength}{{8}{22}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Performance on IELex}{22}}
 \citation{rehurek_lrec}
 \citation{chollet2015keras}
 \citation{tensorflow2015-whitepaper}
 \citation{2016arXiv160502688short}
 \citation{List2016e}
 \citation{scikit-learn}
-\newlabel{fig:vae_phono_binary_wordLength0}{{\caption@xref {fig:vae_phono_binary_wordLength0}{ on input line 460}}{22}}
-\newlabel{sub@fig:vae_phono_binary_wordLength0}{{}{22}}
-\newlabel{fig:vae_phono_binary_wordLength1}{{\caption@xref {fig:vae_phono_binary_wordLength1}{ on input line 466}}{22}}
-\newlabel{sub@fig:vae_phono_binary_wordLength1}{{}{22}}
-\newlabel{fig:vae_phono_binary_wordLength2}{{\caption@xref {fig:vae_phono_binary_wordLength2}{ on input line 472}}{22}}
-\newlabel{sub@fig:vae_phono_binary_wordLength2}{{}{22}}
-\newlabel{fig:vae_phono_binary_wordLength3}{{\caption@xref {fig:vae_phono_binary_wordLength3}{ on input line 477}}{22}}
-\newlabel{sub@fig:vae_phono_binary_wordLength3}{{}{22}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces The ASJP data set embedded into $\mathcal  {Z}$ after trained on it for 100 iterations, colored by word length. The model learns to cluster words according to their respective length, with more frequent word lengths located in subspaces with higher probability mass.\relax }}{22}}
-\newlabel{fig:vae_phono_binary_wordLength}{{8}{22}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Resume}{22}}
 \bibstyle{apacite}
 \bibdata{references}
 \bibcite{tensorflow2015-whitepaper}{{1}{{\APACyear {2015}}}{{Abadi\ \BOthers {.}}}{{Abadi\ \BOthers {.}}}}
@@ -151,12 +152,13 @@
 \bibcite{bengio2013representation}{{4}{{\APACyear {2013}}}{{Y.~Bengio\ \BOthers {.}}}{{Y.~Bengio, Courville,{}\ \&{} Vincent}}}
 \bibcite{bergsma2007alignment}{{5}{{\APACyear {2007}}}{{Bergsma\ \&{} Kondrak}}{{Bergsma\ \&{} Kondrak}}}
 \bibcite{blei2003latent}{{6}{{\APACyear {2003}}}{{Blei\ \BOthers {.}}}{{Blei, Ng,{}\ \&{} Jordan}}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces The performance of VAE-C compared to LexStat. NLD-AP uses Normalized Levenshtein Distances between IPA-annotated words as distance metric and Affinity Propagation as clustering algorithm. VAE-C performs only mediocre, but at least better than random labeling.\relax }}{23}}
+\newlabel{table:model_comparison}{{1}{23}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Resume}{23}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Acknowledgements}{23}}
 \bibcite{bouchard2013automated}{{7}{{\APACyear {2013}}}{{Bouchard-C{\^o}t{\'e}\ \BOthers {.}}}{{Bouchard-C{\^o}t{\'e}, Hall, Griffiths,{}\ \&{} Klein}}}
 \bibcite{bouchard2007probabilistic}{{8}{{\APACyear {2007}}}{{Bouchard-C{\^o}t{\'e}\ \BOthers {.}}}{{Bouchard-C{\^o}t{\'e}, Liang, Griffiths,{}\ \&{} Klein}}}
 \bibcite{bouckaert2012mapping}{{9}{{\APACyear {2012}}}{{Bouckaert\ \BOthers {.}}}{{Bouckaert\ \BOthers {.}}}}
-\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces The performance of VAE-C compared to LexStat. NLD-AP uses Normalized Levenshtein Distances as distance metric and Affinity Propagation as clustering algorithm. VAE-C performs only mediocre, but at least better than random labeling.\relax }}{23}}
-\newlabel{table:model_comparison}{{1}{23}}
-\@writefile{toc}{\contentsline {section}{\numberline {7}Acknowledgements}{23}}
 \bibcite{bowman2015generating}{{10}{{\APACyear {2015}}}{{Bowman\ \BOthers {.}}}{{Bowman\ \BOthers {.}}}}
 \bibcite{chater2006probabilistic}{{11}{{\APACyear {2006}}}{{Chater\ \&{} Manning}}{{Chater\ \&{} Manning}}}
 \bibcite{chollet2015keras}{{12}{{\APACyear {2015}}}{{Chollet}}{{Chollet}}}
@@ -215,39 +217,39 @@
 \bibcite{wichmann2010asjp}{{65}{{\APACyear {2010}}}{{Wichmann\ \BOthers {.}}}{{Wichmann\ \BOthers {.}}}}
 \bibcite{zen2014deep}{{66}{{\APACyear {2014}}}{{Zen\ \&{} Senior}}{{Zen\ \&{} Senior}}}
 \bibcite{zhang2014bilingually}{{67}{{\APACyear {2014}}}{{Zhang\ \BOthers {.}}}{{Zhang\ \BOthers {.}}}}
-\newlabel{fig:vae_phono_binary_features0}{{\caption@xref {fig:vae_phono_binary_features0}{ on input line 487}}{28}}
+\newlabel{fig:vae_phono_binary_features0}{{\caption@xref {fig:vae_phono_binary_features0}{ on input line 488}}{28}}
 \newlabel{sub@fig:vae_phono_binary_features0}{{}{28}}
-\newlabel{fig:vae_phono_binary_features1}{{\caption@xref {fig:vae_phono_binary_features1}{ on input line 493}}{28}}
+\newlabel{fig:vae_phono_binary_features1}{{\caption@xref {fig:vae_phono_binary_features1}{ on input line 494}}{28}}
 \newlabel{sub@fig:vae_phono_binary_features1}{{}{28}}
-\newlabel{fig:vae_phono_binary_features2}{{\caption@xref {fig:vae_phono_binary_features2}{ on input line 499}}{28}}
+\newlabel{fig:vae_phono_binary_features2}{{\caption@xref {fig:vae_phono_binary_features2}{ on input line 500}}{28}}
 \newlabel{sub@fig:vae_phono_binary_features2}{{}{28}}
-\newlabel{fig:vae_phono_binary_feature3}{{\caption@xref {fig:vae_phono_binary_feature3}{ on input line 504}}{28}}
+\newlabel{fig:vae_phono_binary_feature3}{{\caption@xref {fig:vae_phono_binary_feature3}{ on input line 505}}{28}}
 \newlabel{sub@fig:vae_phono_binary_feature3}{{}{28}}
 \@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces The ASJP data set embedded into $\mathcal  {Z}$ after trained on it for 100 iterations, colored by whether a given word has a phoneme with some specific distinctive feature. (top left) The model learns that clicks are highly unlikely to emerge evolutionary and hence assigns low probability mass to their respective subspace. (top right) The distribution of words with and without dentals. The linear dependencies are clearly visible. (bottom left) The distribution of words with and without fricatives. Again, it can be seen how they are linearly dependent of each other. (bottom right) A detailed view on the words with and without fricatives.\relax }}{28}}
 \newlabel{fig:vae_phono_binary_features}{{9}{28}}
-\newlabel{fig:vae_phono_orthofeatures0}{{\caption@xref {fig:vae_phono_orthofeatures0}{ on input line 514}}{29}}
+\newlabel{fig:vae_phono_orthofeatures0}{{\caption@xref {fig:vae_phono_orthofeatures0}{ on input line 515}}{29}}
 \newlabel{sub@fig:vae_phono_orthofeatures0}{{}{29}}
-\newlabel{fig:vae_phono_orthofeatures1}{{\caption@xref {fig:vae_phono_orthofeatures1}{ on input line 520}}{29}}
+\newlabel{fig:vae_phono_orthofeatures1}{{\caption@xref {fig:vae_phono_orthofeatures1}{ on input line 521}}{29}}
 \newlabel{sub@fig:vae_phono_orthofeatures1}{{}{29}}
-\newlabel{fig:vae_phono_orthofeatures2}{{\caption@xref {fig:vae_phono_orthofeatures2}{ on input line 526}}{29}}
+\newlabel{fig:vae_phono_orthofeatures2}{{\caption@xref {fig:vae_phono_orthofeatures2}{ on input line 527}}{29}}
 \newlabel{sub@fig:vae_phono_orthofeatures2}{{}{29}}
-\newlabel{fig:vae_phono_orthofeatures3}{{\caption@xref {fig:vae_phono_orthofeatures3}{ on input line 531}}{29}}
+\newlabel{fig:vae_phono_orthofeatures3}{{\caption@xref {fig:vae_phono_orthofeatures3}{ on input line 532}}{29}}
 \newlabel{sub@fig:vae_phono_orthofeatures3}{{}{29}}
 \@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces The ASJP data set embedded into $\mathcal  {Z}$ after trained on it for 100 iterations. Since the binary features ignore coarticulations as such and encode them as independent phonemes instead, the model might learn to distinguish them, given some underlying latent features. (top left) The distribution of words that contain plain /w/ versus words with proper labialization. If the model did not learn the difference, we would expect some uniform distributions over all words that contain /w/ in the input. However, we can clearly see that words with proper labialization are located in other subspaces than words with proper /w/. Moreover, we see that words with labialized phonemes show linear dependence. (top right) The distribution of words that contain plain /y/ versus words with proper palatalization. Again, we see a clear distinction between the two. (bottom left) The distribution of words that contain plain /h/ versus words with proper aspiration. Again, we see a clear distinction between the two. (bottom right) The distribution of words that contain glottalized sounds versus that of words without. As glottalization can cover both vowels and consonants, the distributions are spread over the whole population. However, we can see that glottalized sounds cluster at the bottom right, a subspace containing mostly mostly words with velar and uvular consonants.\relax }}{29}}
 \newlabel{fig:vae_phono_orthofeatures}{{10}{29}}
-\newlabel{fig:vae_phono_orthofeatures0}{{\caption@xref {fig:vae_phono_orthofeatures0}{ on input line 542}}{30}}
+\newlabel{fig:vae_phono_orthofeatures0}{{\caption@xref {fig:vae_phono_orthofeatures0}{ on input line 543}}{30}}
 \newlabel{sub@fig:vae_phono_orthofeatures0}{{}{30}}
-\newlabel{fig:vae_phono_orthofeatures1}{{\caption@xref {fig:vae_phono_orthofeatures1}{ on input line 548}}{30}}
+\newlabel{fig:vae_phono_orthofeatures1}{{\caption@xref {fig:vae_phono_orthofeatures1}{ on input line 549}}{30}}
 \newlabel{sub@fig:vae_phono_orthofeatures1}{{}{30}}
-\newlabel{fig:vae_phono_orthofeatures2}{{\caption@xref {fig:vae_phono_orthofeatures2}{ on input line 554}}{30}}
+\newlabel{fig:vae_phono_orthofeatures2}{{\caption@xref {fig:vae_phono_orthofeatures2}{ on input line 555}}{30}}
 \newlabel{sub@fig:vae_phono_orthofeatures2}{{}{30}}
-\newlabel{fig:vae_phono_orthofeatures3}{{\caption@xref {fig:vae_phono_orthofeatures3}{ on input line 559}}{30}}
+\newlabel{fig:vae_phono_orthofeatures3}{{\caption@xref {fig:vae_phono_orthofeatures3}{ on input line 560}}{30}}
 \newlabel{sub@fig:vae_phono_orthofeatures3}{{}{30}}
 \@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces The posterior distribution $P(z|X)$ with X being the IELex data with regards to the single semantic concepts. The model was trained on ASJP for 2000 iterations. Colors indicate the respective true cognate class. (top left) The posterior for the concept "name". As all words are cognates to each other, we see strong linear dependencies over the distribution. Also note that the embeddings are embedded into a latent continuum of word lengths, from the the top left to the bottom right. Moreover, the members of the left hand side clusters all start with consonants, while the members of the clusters on right hand side all start with vowels or approximants. (top right) The posterior for "sing". Again, cognates show stronger linear dependencies among each other. (bottom left) The posterior for "snake". The romance words (pink samples) show linear dependencies. (bottom right) A closer look on some words for "snake". As VAE-PT concentrates on clustering words with similar syllable structures, it tends to cluster words that share such similarities close to each other. Here, it overestimates the similarity between Slovak /had/ and Upper Sorbian /huZ/ on the one side and the words /sap/ (Bihari,Magahi,Urdu,Marathi) and /xap/ (Assamese) on the other. \relax }}{30}}
 \newlabel{fig:asjp_2000_binary_singleIELEXConcepts_posteriors}{{11}{30}}
 \@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces VAE-C trained on the IELex data for "snake". The left plot shows true cognates classes, the right plot shows inferred labels. Cognates, as long as they appear similar, are clustered at some subspace of $\mathcal  {Z}$. Words with low self-information, such was words with no inferred cognates, are seen as "noise" by the model and grouped close to each other at the center of the latent space.\relax }}{31}}
 \newlabel{fig:vae_c_snake}{{12}{31}}
-\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces The result of the grid search over several parameters of VAE-C, measured in adjusted rand indices. In general, the performance is mediocre. (top left) The binary phoneme features outperform the phoneme embeddings. (top right) 20 latent dimensions seem to outperform the other parameters. (bottom left) As the number of intermediate dimensions of the encoder and decoder MLPs increases, the performance also improves slightly. (bottom left) The results suggest that a smaller standard deviation of the auxiliary noise improves the performance.\relax }}{32}}
-\newlabel{fig:grid_search_boxplots}{{13}{32}}
-\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces The performance of VAE-C on IELex, using the parameters obtained by the grid search (left), and random labeling (right). The measures are adjusted rand indices, adjusted mutual information, cluster homogeneity, cluster completeness and v-measure, as the harmonic mean of the latter two. The model learns to cluster similar words together, although the overall performance is mediocre.\relax }}{33}}
-\newlabel{fig:boxplots_IELex}{{14}{33}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces The result of the grid search over several parameters of VAE-C, measured in adjusted rand indices. (left) The binary phoneme features outperform the phoneme embeddings. The sound class one hot vectors only show mediocre performance. (middle) the number of latent dimensions does not seem to influence the performance too much. An increased dimensionality shows slightly worse performance, but this might due to the network not having converged yet. (right) An increased auxiliary noise coincides with better performance over all model.\relax }}{31}}
+\newlabel{fig:grid_search_boxplots}{{13}{31}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces The performance of VAE-C on IELex, using the parameters obtained by the grid search (left), and random labeling (right). The measures are adjusted rand indices, adjusted mutual information, cluster homogeneity, cluster completeness and v-measure, as the harmonic mean of the latter two. The model learns to cluster similar words together, although the overall performance is mediocre.\relax }}{32}}
+\newlabel{fig:boxplots_IELex}{{14}{32}}

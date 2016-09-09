@@ -14,7 +14,6 @@
 \contentsline {subsection}{\numberline {5.1}Data}{19}
 \contentsline {subsection}{\numberline {5.2}Visual Inspection}{19}
 \contentsline {subsection}{\numberline {5.3}Grid Search over Model Parameters}{20}
-\contentsline {subsection}{\numberline {5.4}Performance on IELex}{20}
-\contentsline {subsection}{\numberline {5.5}Discussion}{21}
-\contentsline {section}{\numberline {6}Resume}{22}
+\contentsline {subsection}{\numberline {5.4}Performance on IELex}{22}
+\contentsline {section}{\numberline {6}Resume}{23}
 \contentsline {section}{\numberline {7}Acknowledgements}{23}
