@@ -873,10 +873,36 @@ Kessler, B.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Kingma%
+D.~Kingma%
+\ \BBA {} Ba%
+}{%
+D.~Kingma%
+\ \BBA {} Ba%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+kingma2014adam}
+\APACinsertmetastar {%
+kingma2014adam}%
+\begin{APACrefauthors}%
+Kingma, D.%
+\BCBT {}\ \BBA {} Ba, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Adam: A method for stochastic optimization} {Adam: A
+  method for stochastic optimization}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{arXiv preprint arXiv:1412.6980}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+D\BPBI P.~Kingma%
 \ \BBA {} Welling%
 }{%
-Kingma%
+D\BPBI P.~Kingma%
 \ \BBA {} Welling%
 }{%
 {\protect \APACyear {2013}}%

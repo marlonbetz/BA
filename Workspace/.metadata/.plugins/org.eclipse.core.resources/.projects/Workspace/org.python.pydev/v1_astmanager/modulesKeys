@@ -21,8 +21,6 @@ learn_local_manifolds|/Users/marlon/Documents/BA/Workspace/Workspace/learn_local
 models|/Users/marlon/Documents/BA/Workspace/Workspace/models.py
 pairwise_evaluation|/Users/marlon/Documents/BA/Workspace/Workspace/pairwise_evaluation.py
 phoneme_embeddings|/Users/marlon/Documents/BA/Workspace/Workspace/phoneme_embeddings.py
-pickled_stuff.pipeline_trainOnEachConcept.plotter|/Users/marlon/Documents/BA/Workspace/Workspace/pickled_stuff/pipeline_trainOnEachConcept/plotter.py
-pickled_stuff.pipeline_trainOnSubsampledConcepts_gridsearch.plotter_new|/Users/marlon/Documents/BA/Workspace/Workspace/pickled_stuff/pipeline_trainOnSubsampledConcepts_gridsearch/plotter_new.py
 pipeline|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline.py
 pipeline_trainOnASJP|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline_trainOnASJP.py
 pipeline_trainOnASJP_phonemeEmbeddings|/Users/marlon/Documents/BA/Workspace/Workspace/pipeline_trainOnASJP_phonemeEmbeddings.py

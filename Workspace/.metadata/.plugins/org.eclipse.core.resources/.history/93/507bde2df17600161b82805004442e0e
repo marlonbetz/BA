@@ -83,12 +83,12 @@ for i,item in enumerate(X_dict.items()):
         batch_size = X.shape[0]
         dim_phoneme_embeddings = 16
         original_dim = dim_phoneme_embeddings * padToMaxLength
-        latent_dim = 10
-        intermediate_dim = 1000
+        latent_dim = 20
+        intermediate_dim = 100
         
         
         epsilon_std = 0.1
-        nb_epoch =8000
+        nb_epoch =4000
         
         vae = VAE(latent_dim=latent_dim,
                   original_dim=original_dim,
