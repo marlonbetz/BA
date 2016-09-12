@@ -1348,6 +1348,28 @@ Mortarino, C.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Ng%
+}{%
+Ng%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+ng2011sparse}
+\APACinsertmetastar {%
+ng2011sparse}%
+\begin{APACrefauthors}%
+Ng, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Sparse autoencoder} {Sparse autoencoder}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{CS294A Lecture notes}{72}{}{1--19}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Pedregosa%
 \ \protect \BOthers {.}}{%
 Pedregosa%
