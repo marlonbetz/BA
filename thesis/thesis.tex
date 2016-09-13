@@ -13,15 +13,42 @@
 \usepackage{apacite}
 \usepackage[]{natbib}
 \usepackage[utf8]{inputenc}
+\usepackage[toc,page]{appendix}
+\usepackage{longtable}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+
 
 \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
 \graphicspath{{/Users/marlon/Documents/BA/thesis/pictures/}}
 
-\title{Unsupervised Cognate Identification with Variational Autoencoders}
-\author{Marlon Betz}
+
+
+\title{
+	{Bachelor Thesis}\\
+	{\normalsize Submitted in Fulfilment of the Requirements for the Degree of} \\ %\vspace*{0.5cm}{\large Bachelor of Arts} \\ % \vspace*{0.5cm}
+	 {\small in} \\  %\vspace*{0.5cm}
+	 {\large  International Studies in Computational Linguistics (ISCL) } \\ \vspace*{1cm} \hline \vspace*{1cm} 
+	{\Huge \textbf{Unsupervised Cognate Identification with Variational Autoencoders}}\\ \vspace*{1cm} \hline \vspace*{1cm}
+	{\LARGE  Author: Marlon Betz }  \\
+	{\LARGE  Supervisor: Dr. Çağrı Çöltekin }  \\
+\date{\today} \\
+\vspace*{2cm}
+	{\Large Eberhard Karls Universität Tübingen}\\
+	{\large Seminar für Sprachwissenschaft} \\
+	\vspace*{1cm}
+	{\includegraphics[width=0.5\textwidth]{uni_logo}}
+}
+
+
+%\title{Unsupervised Cognate Identification with Variational Autoencoders}
+%\author{Marlon Betz}
 %\date{}                                           % Activate to display a given date or no date
 
 \begin{document}
+\thispagestyle{empty}
 \maketitle
 \thispagestyle{empty}
 \newpage
@@ -321,14 +348,14 @@ where $\log P(X)$ is outside the expectation since it is not dependent on $z$. W
 
 
 
-Here, the left hand side makes it clear why Eq. \ref{eq:vae_loss_original} is to be maximized, as it increases the probability of $X$ and minimizes the divergence from the true to the approximated posterior. We further have $Q(z|X)$ as an \textit{encoder} that maps data points into the latent space $\mathcal{Z}$ and $P(X|z)$ as a \textit{decoder} that reconstructs a data point, given a sample $z$. As the universal approximation theorem states that networks with at least one hidden layer can approximate any continuous functions, we can reduce $D_{KL}(Q(z|X)||P(z|X))$ to zero and optimize $P(x)$ directly. The right hand side is the \textit{variational lower bound} that defines the expectation that the encoder distribution $Q(z|X)$ approximates the true prior $P(z)$ and then $z$ is decoded back to it initial value. Also, since we reduce both $D_{KL}(Q(z|X)||P(z|X))$ and $D_{KL}(Q(z|X)||P(z))$ during training, our encoder distribution $Q(z|X)$ becomes equal to the prior if $X$ is equal to the training data.
+Here, the left hand side makes it clear why Eq. \ref{eq:vae_loss_original} is to be maximized, as it increases the probability of $X$ and minimizes the divergence from the true to the approximated posterior. We further have $Q(z|X)$ as an \textit{encoder} that maps data points into the latent space $\mathcal{Z}$ and $P(X|z)$ as a \textit{decoder} that reconstructs a data point, given a sample $z$. As the universal approximation theorem states that networks with at least one hidden layer can approximate any continuous functions, we can reduce $D_{KL}(Q(z|X)||P(z|X))$ to zero and optimize $P(x)$ directly. The right hand side is the \textit{variational lower bound} that defines the expectation that the encoder distribution $Q(z|X)$ approximates the true prior $P(z)$ and then $z$ is decoded back to it initial value. Also, since we reduce both $D_{KL}(Q(z|X)||P(z|X))$ and $D_{KL}(Q(z|X)||P(z))$ during training, our encoder distribution $Q(z|X)$ becomes equal to the prior $Q(z)$  if $X$ is equal to the training data.
 
 As we model both prior and posterior with multivariate Gaussians, we can calculate $-D_{KL}(Q(Z)||P(Z))$ directly as
 
 \begin{equation}
 \begin{split}
 -D_{KL}(Q(Z)||P(Z)) & = \int Q(z) (\log P(z) - \log Q(Z)) dz\\
-& = \frac{1}{2}\sum_{j=1}^{J}(1+\log(\sigma_j^2)-\mu_j^2-\sigma_j^2)
+& = \frac{1}{2}\sum_{j=1}^{D_{\mathcal{Z}}}(1+\log(\sigma_j^2)-\mu_j^2-\sigma_j^2)
 \end{split}
 \end{equation}
 This follows \cite[p. 10-11]{kingma2013auto}.
@@ -461,15 +488,15 @@ A first visual inspection after 5 iterations over ASJP shows that the phoneme em
 To evaluate further if such data driven phoneme embeddings are able to capture the natural distinction between phoneme classes, a test set over 108 analogy tests was used to conduct a grid search over several word2vec architectures and their parameters. Each such analogy test was is the form
 
 \begin{equation}
-v(phoneme_1) + v(phoneme_2) -  v(phoneme_3) \approx v(phoneme_4)
+v_{phoneme_1} + v_{phoneme_2} -  v_{phoneme_3} \approx v_{phoneme_4}
 \end{equation} 
 
-where $v(phoneme_1)$ is the vector corresponding to $phoneme_1$ and $v(phoneme_2) - v(phoneme_3)$ can be seen as the latent phonological information available in $phoneme_2$ but not in $phoneme_3$,  while $v(phoneme_1) + v(phoneme_2) -  v(phoneme_3) $ is then this latent phonological information added to $phoneme_1$, which should be close to the vector corresponding to $phoneme_4$. For example, in
+where $v_{phoneme_1}$ is the vector corresponding to $phoneme_1$ and $v_{phoneme_2} -  v_{phoneme_3}$ can be seen as the latent phonological information available in $phoneme_2$ but not in $phoneme_3$,  while $v_{phoneme_1} + v_{phoneme_2} -  v_{phoneme_3}$ is then this latent phonological information added to $phoneme_1$, which should be close to the vector corresponding to $phoneme_4$. For example, in
 
 \begin{equation}
-v(\textbf{/i/} ) + v(\textbf{/u*/} ) -  v(\textbf{/u/} ) \approx v(\textbf{/i*/} )
+v_{\textbf{/i/} } + v_{\textbf{/u*/} } -  v_{\textbf{/u/} } \approx v_{\textbf{/i*/} }
 \end{equation}
-$v(\textbf{/u*/} ) -  v(\textbf{/u/} )$ describes a latent feature that should correspond to \textsc{[+nasalized]}, which is then added to the phoneme \textbf{/i/} to yield a nasalized \textbf{/i*/}.
+$v_{\textbf{/u*/} } -  v_{\textbf{/u/} }$ describes a latent feature that should correspond to \textsc{[+nasalized]}, which is then added to the phoneme \textbf{/i/} to yield a nasalized \textbf{/i*/}.
 The grid search was conducted over the following parameters:
 \begin{itemize}
 \item Model architecture: CBOW, SG
@@ -483,26 +510,26 @@ The grid search was conducted over the following parameters:
 
 Figure \ref{fig:phoneme_embeddings_detailed_evaluation_topn1} shows that the quality varies significantly with regards to the articulation type of the phonemes. For pulmonic consonants the models achieve reasonable performance, while for other coarticulation types the performance is quite bad. In fact, when evaluating the correlation between frequency and performance of a given natural phoneme class, both Spearman and Pearson correlation tests indicate correlation indices of 0.9. When following \cite{jager2014phylogenetic,rama2016siamese} and pooling coarticulation types, the models perform much better for analogies over plosives, while the performance for fricatives has only slightly improved (see Figure \ref{fig:phoneme_embeddings_detailed_evaluation_topn1_poooled}). 
 
-\begin{figure}[h!] %  figure placement: here, top, bottom, or page
-   \centering
-   \includegraphics[width=\textwidth]{phoneme_embeddings_4models_comparison_meanAccLossTopn1} 
-   \caption{Comparison of the four word2vec models evaluated. (top left) Both CBOW Models perform better than the skip-gram models over all numbers of embedding dimension. (bottom left) Mean distance between the predicted vector and the target with regard to embedding dimensions. Here, negative sampling yields less error than hierarchical softmax. (top right) Mean accuracy for the models with regard to the context window size. The models perform worse the bigger the context is. (bottom right) Mean distance between the predicted vector and the target with regard to context window size. Again, bigger contexts lead to worse predictions. }
-   \label{fig:phoneme_embeddings_4models_comparison_meanAccLossTopn1}
-\end{figure}
-
-\begin{figure}[h!] %  figure placement: here, top, bottom, or page
-   \centering
-   \includegraphics[width=0.75\textwidth]{phoneme_embeddings_detailed_evaluation_topn1} 
-   \caption{Mean accuracies for analogies. The model does not seem to be able to capture the compositionality of the latent features too well. (top left) Accuracy is best for plosives across plain pulmonic as well as more complex articulations, while fricatives perform worse. (top right) Glottalized and Plain pulmonic consonant phonemes yield best performance. Among complex articulations, which all perform bad,  labialized phonemes yield best results, while aspirated and palatalized phonemes perform even worse. (bottom left) Adding voice works better than removing it or adding nasality. (bottom right) Vowel analogies work far better than consonant analogies. This should be due to the small number of possible vowel phonemes.}
-   \label{fig:phoneme_embeddings_detailed_evaluation_topn1}
-\end{figure}
-
-\begin{figure}[h!] %  figure placement: here, top, bottom, or page
-   \centering
-   \includegraphics[width=\textwidth]{phoneme_embeddings_detailed_evaluation_consonants_topn1_poooled} 
-   \caption{Mean accuracies for analogies over the pooled consonant phonemes. Here, the model is expected to yield better results, as the number of latent features should have been reduced. (left) Accuracy is doubled compared with the unpooled phonemes. (middle) Adding voice works quite well, while removing it still yields acceptable performance. Applying nasality again works quite bad. (right) Vowel analogy tasks seem to work reasonably well, but worse than with unpooled consonants.}
-   \label{fig:phoneme_embeddings_detailed_evaluation_topn1_poooled}
-\end{figure}
+%\begin{figure}[h!] %  figure placement: here, top, bottom, or page
+%   \centering
+%   \includegraphics[width=\textwidth]{phoneme_embeddings_4models_comparison_meanAccLossTopn1} 
+%   \caption{Comparison of the four word2vec models evaluated. (top left) Both CBOW Models perform better than the skip-gram models over all numbers of embedding dimension. (bottom left) Mean distance between the predicted vector and the target with regard to embedding dimensions. Here, negative sampling yields less error than hierarchical softmax. (top right) Mean accuracy for the models with regard to the context window size. The models perform worse the bigger the context is. (bottom right) Mean distance between the predicted vector and the target with regard to context window size. Again, bigger contexts lead to worse predictions. }
+%   \label{fig:phoneme_embeddings_4models_comparison_meanAccLossTopn1}
+%\end{figure}
+%
+%\begin{figure}[h!] %  figure placement: here, top, bottom, or page
+%   \centering
+%   \includegraphics[width=0.75\textwidth]{phoneme_embeddings_detailed_evaluation_topn1} 
+%   \caption{Mean accuracies for analogies. The model does not seem to be able to capture the compositionality of the latent features too well. (top left) Accuracy is best for plosives across plain pulmonic as well as more complex articulations, while fricatives perform worse. (top right) Glottalized and Plain pulmonic consonant phonemes yield best performance. Among complex articulations, which all perform bad,  labialized phonemes yield best results, while aspirated and palatalized phonemes perform even worse. (bottom left) Adding voice works better than removing it or adding nasality. (bottom right) Vowel analogies work far better than consonant analogies. This should be due to the small number of possible vowel phonemes.}
+%   \label{fig:phoneme_embeddings_detailed_evaluation_topn1}
+%\end{figure}
+%
+%\begin{figure}[h!] %  figure placement: here, top, bottom, or page
+%   \centering
+%   \includegraphics[width=\textwidth]{phoneme_embeddings_detailed_evaluation_consonants_topn1_poooled} 
+%   \caption{Mean accuracies for analogies over the pooled consonant phonemes. Here, the model is expected to yield better results, as the number of latent features should have been reduced. (left) Accuracy is doubled compared with the unpooled phonemes. (middle) Adding voice works quite well, while removing it still yields acceptable performance. Applying nasality again works quite bad. (right) Vowel analogy tasks seem to work reasonably well, but worse than with unpooled consonants.}
+%   \label{fig:phoneme_embeddings_detailed_evaluation_topn1_poooled}
+%\end{figure}
 
 
 
@@ -553,7 +580,7 @@ VAE-C, on the other hand, yields a far better basis for cognate identification a
   \label{fig:vae_phono_binary_wordLength} 
 \end{figure}
 
-    \begin{figure}[ht] 
+    \begin{figure}[h!] 
   \begin{subfigure}[b]{0.5\linewidth}
     \centering
     \includegraphics[width=\linewidth]{vae_phono_binary_clicks} 
@@ -580,7 +607,7 @@ VAE-C, on the other hand, yields a far better basis for cognate identification a
   \label{fig:vae_phono_binary_features} 
 \end{figure}
 
-    \begin{figure}[ht] 
+    \begin{figure}[h!] 
   \begin{subfigure}[b]{0.5\linewidth}
     \centering
     \includegraphics[width=\linewidth]{vae_phono_binary_orthofeature_labialized} 
@@ -606,39 +633,39 @@ VAE-C, on the other hand, yields a far better basis for cognate identification a
   \caption{The ASJP data set embedded into $\mathcal{Z}$ after trained on it for 100 iterations. Since the binary features ignore coarticulations as such and encode them as independent phonemes instead, the model might learn to distinguish them, given some underlying latent features. (top left) The distribution of words that contain plain /w/ versus words with proper labialization. If the model did not learn the difference, we would expect some uniform distributions over all words that contain /w/ in the input. However, we can clearly see that words with proper labialization are located in other subspaces than words with proper /w/. Moreover, we see that words with labialized phonemes show linear dependence. (top right) The distribution of words that contain plain /y/ versus words with proper palatalization. Again, we see a clear distinction between the two. (bottom left) The distribution of words that contain plain /h/ versus words with proper aspiration. Again, we see a clear distinction between the two. (bottom right) The distribution of words that contain glottalized sounds versus that of words without. As glottalization can cover both vowels and consonants, the distributions are spread over the whole population. However, we can see that glottalized sounds cluster at the bottom right, a subspace containing mostly mostly words with velar and uvular consonants.}
   \label{fig:vae_phono_orthofeatures} 
 \end{figure}
-
-
- \begin{figure}[ht] 
-  \begin{subfigure}[b]{0.5\linewidth}
-    \centering
-    \includegraphics[width=\linewidth]{asjp_200_binary_singleConcept_posterior_name.png} 
-    \label{fig:vae_phono_orthofeatures0} 
-    \vspace{4ex}
-  \end{subfigure}%% 
-  \begin{subfigure}[b]{0.5\linewidth}
-    \centering
-    \includegraphics[width=\linewidth]{asjp_200_binary_singleConcept_posterior_sing.png} 
-    \label{fig:vae_phono_orthofeatures1} 
-    \vspace{4ex}
-  \end{subfigure} 
-  \begin{subfigure}[b]{0.5\linewidth}
-    \centering
-    \includegraphics[width=\linewidth]{asjp_200_binary_singleConcept_posterior_snake.png} 
-    \label{fig:vae_phono_orthofeatures2} 
-  \end{subfigure}%%
-  \begin{subfigure}[b]{0.5\linewidth}
-    \centering
-    \includegraphics[width=\linewidth]{asjp_200_binary_singleConcept_posterior_snake_detail2.png} 
-    \label{fig:vae_phono_orthofeatures3} 
-  \end{subfigure} 
-  \caption{The encoder distribution $Q(z|X)$ with X being the IELex data with regards to the single semantic concepts. The model was trained on ASJP for 2000 iterations. Colors indicate the respective true cognate class. (top left) The posterior for the concept "name". As all words are cognates to each other, we see strong linear dependencies over the distribution. Also note that the embeddings are embedded into a latent continuum of word lengths, from the the top left to the bottom right. Moreover, the members of the left hand side clusters all start with consonants, while the members of the clusters on right hand side all start with vowels or approximants. (top right) The posterior for "sing". Again, cognates show stronger linear dependencies among each other than unrelated words. (bottom left) The posterior for "snake". The romance words (pink samples) show linear dependencies. (bottom right) A closer look on some words for "snake". As VAE-PT concentrates on clustering words with similar syllable structures, it tends to cluster words that share such similarities close to each other. Here, it overestimates the similarity between Slovak /had/ and Upper Sorbian /huZ/ on the one side and the words /sap/ (Bihari, Magahi, Urdu, Marathi) and /xap/ (Assamese) on the other.  }
-  \label{fig:asjp_2000_binary_singleIELEXConcepts_posteriors} 
-\end{figure}
-
+%
+%
+% \begin{figure}[h!] 
+%  \begin{subfigure}[b]{0.5\linewidth}
+%    \centering
+%    \includegraphics[width=\linewidth]{asjp_200_binary_singleConcept_posterior_name.png} 
+%    \label{fig:vae_phono_orthofeatures0} 
+%    \vspace{4ex}
+%  \end{subfigure}%% 
+%  \begin{subfigure}[b]{0.5\linewidth}
+%    \centering
+%    \includegraphics[width=\linewidth]{asjp_200_binary_singleConcept_posterior_sing.png} 
+%    \label{fig:vae_phono_orthofeatures1} 
+%    \vspace{4ex}
+%  \end{subfigure} 
+%  \begin{subfigure}[b]{0.5\linewidth}
+%    \centering
+%    \includegraphics[width=\linewidth]{asjp_200_binary_singleConcept_posterior_snake.png} 
+%    \label{fig:vae_phono_orthofeatures2} 
+%  \end{subfigure}%%
+%  \begin{subfigure}[b]{0.5\linewidth}
+%    \centering
+%    \includegraphics[width=\linewidth]{asjp_200_binary_singleConcept_posterior_snake_detail2.png} 
+%    \label{fig:vae_phono_orthofeatures3} 
+%  \end{subfigure} 
+%  \caption{The encoder distribution $Q(z|X)$ with X being the IELex data with regards to the single semantic concepts. The model was trained on ASJP for 2000 iterations. Colors indicate the respective true cognate class. (top left) The posterior for the concept "name". As all words are cognates to each other, we see strong linear dependencies over the distribution. Also note that the embeddings are embedded into a latent continuum of word lengths, from the the top left to the bottom right. Moreover, the members of the left hand side clusters all start with consonants, while the members of the clusters on right hand side all start with vowels or approximants. (top right) The posterior for "sing". Again, cognates show stronger linear dependencies among each other than unrelated words. (bottom left) The posterior for "snake". The romance words (pink samples) show linear dependencies. (bottom right) A closer look on some words for "snake". As VAE-PT concentrates on clustering words with similar syllable structures, it tends to cluster words that share such similarities close to each other. Here, it overestimates the similarity between Slovak /had/ and Upper Sorbian /huZ/ on the one side and the words /sap/ (Bihari, Magahi, Urdu, Marathi) and /xap/ (Assamese) on the other.  }
+%  \label{fig:asjp_2000_binary_singleIELEXConcepts_posteriors} 
+%\end{figure}
+%
 \begin{figure}[h!] %  figure placement: here, top, bottom, or page
    \centering
    \includegraphics[width=\textwidth]{vae_c_snake} 
-   \caption{VAE-C trained on the IELex data for "snake", where every word is encoded as a sequence of binary phoneme features. The standard deviation of the auxiliary noise is set to $0.1$, which results in an encoder distribution approximating a Gaussian distribution. The left plot shows true cognates classes, the right plot shows inferred labels. Cognates, as long as they appear similar, are clustered at some subspace of $\mathcal{Z}$. Words with low self-information, such was words with no inferred cognates, are seen as "noise" by the model and grouped close to each other at the center of the latent space.}
+   \caption{VAE-C trained on the IELex data for "snake", where every word is encoded as a sequence of binary phoneme features. The standard deviation of the auxiliary noise is set to $0.1$, which results in an encoder distribution that approximates a Gaussian distribution while it still allows certain subspaces that are more distant to the center to attract more probability mass if they contain a cognate cluster with high credibility. The left plot shows true cognates classes, the right plot shows inferred labels. Cognates, as long as they appear similar, are clustered in subspaces of $\mathcal{Z}$ that are more distant to the center. Words with low self-information, such was words with no inferred cognates, are seen as "noise" by the model and grouped close to each other at the center of the latent space.}
    \label{fig:vae_c_snake}
 \end{figure}
 \subsubsection{Grid Search over Model Parameters}
@@ -712,8 +739,324 @@ The models described here allow for great introspection on the compositional str
 \section{Acknowledgements}
 For training the phoneme embeddings, we used the word2vec implementations provided by the gensim package \citep{rehurek_lrec}. The Autoencoder was implemented with Keras \citep{chollet2015keras}, Tensorflow \citep{tensorflow2015-whitepaper} and theano \citep{2016arXiv160502688short}. For converting phonemes into the Dolgopolsky and SCA format as well as running LexStat on IELex, we used the lingpy library \citep{List2016e}. The clustering algorithms used here were provided by scikit-learn \citep{scikit-learn}. All code connected to this thesis can be found on my github \footnote{https://github.com/marlonbetz/BA}.
 %\subsection{}
-
-
 \bibliographystyle{apacite}
 \bibliography{references}
+\appendix
+\section{Appendix} \label{App:Appendix}
+\subsection{ASJP Alphabet} \label{App:ASJPAlphabet}
+\begin{longtable}{ l l l }
+\caption{ASJP consonants with their IPA equivalents. Glottalization is marked by a following double quote, coarticulation is indicated by a tilde (if one co-articulator) or a dollar sign (if two co-articulators). The tables follow  \cite{jager2014phylogenetic}.}
+%\centering 
+ &  &  \\
+ASJP code symbol & Description & IPA equivalent \\ \hline
+p & voiceless bilabial stop and fricative & b, \textipa{B} \\
+b & voiced bilabial stop and fricative & f \\
+f & voiceless labiodental fricative & v \\
+v & voiced labiodental fricative & m \\
+m & bilabial nasal & m \\
+w & voiced bilabial-velar approximant & w \\
+8 & voicedless and voiced dental fricative & \textipa{T}, \textipa{D} \\
+4 & dental nasal & \textipa{\|[n} \\
+t & voiceless alvolar stop & t \\
+d & voiced alveolar stop & d \\
+s & voiceless alveolar fricative & s \\
+z & voiced alveolar fricative & z \\
+c & voicless and voiced alveolar affricate & \textipa{\t{ts}}, \textipa{\t{dz}}  \\
+n & alvolar nasal & n \\
+r & rhotics & r, \textipa{R}, \textipa{\:r}, \textipa{\;R} \\
+l & voiced alveolar lateral approximant & l \\
+S & voiceless post-alveolar fricative & \textipa{S} \\
+Z & voiced post-alveolar fricative & \textipa{Z} \\
+C & voiceless palato-alveolar affricate & \textipa{\t{tS}} \\
+j & voiced palato-alveolar affricate & \textipa{\t{dZ}} \\
+T & voicless and voiced palatal stop & c, \textipa{\textbardotlessj}  \\
+5 & palatal nasal & \textipa{\textltailn}  \\
+y & palatal approximant & j \\
+k & voiceless velar stop & k \\
+g & voiced velar stop & g \\
+x & voiceless and voiced velar fricative & x, \textipa{G} \\
+N & velar nasal & \textipa{N} \\
+q & voiceless uvular stop & q \\
+G & voiced uvular stop & \textipa{\;q} \\
+X & voiceless and voiced uvular/pharyngeal fricatives & \textipa{X}, \textipa{K}, \textipa{\textcrh}, \textipa{Q} \\
+h & voiceless and voiced glottal fricative & h, \textipa{H} \\
+7 & glottal stop & \textipa{P} \\
+L & all other laterals & \textipa{\;L}, \textipa{\:l}, \textipa{L} \\
+! & clicks & \textipa{\textbullseye}, \textipa{||}, \textipa{|}, \textipa{\textdoublebarpipe}  \\
+\end{longtable}
+\begin{longtable}{ l l l }
+\centering
+\caption{ASJP vowels with their IPA equivalents. Nasality is marked by a following asterisk.}
+& & \\
+ASJP code symbol & Description & IPA equivalent \\ \hline
+i & high front vowel, rounded and unrounded &\textipa{I}, \textipa{I}, y, \textipa{Y}\\
+e & mid front vowel, rounded and unrounded & e, \textipa{\o}\\
+E & low front vowel, rounded and unrounded & \textipa{\ae}, \textipa{E}, \textipa{\oe}, \textipa{\OE}\\
+3 & high and mid central vowel, rounded and unrounded & \textipa{1}, \textipa{9}, \textipa{@}, \textipa{3}, \textipa{8}, \textipa{O}, \textipa{8}, \textipa{\textcloseepsilon}\\
+a & low central vowel, unrounded & a, \textipa{5}\\
+u & high back vowel, rounded and unrounded & \textipa{W}, u\\
+o & mid and low back vowel, rounded and unrounded & \textipa{7}, \textipa{2}, \textipa{A}, o, \textipa{O}, \textipa{6} \\
+\end{longtable}
+
+
+\subsection{Analogy Tests for Phoneme Embeddings} \label{App:analogy_tests}
+
+
+\begin{longtable}{ l | l | l }
+
+\caption{Consonant analogy tests. All analogy tasks consist of 2 positive values, one negative value and a target value.}
+\centering
+\tiny
+\hline \multicolumn{3}{l}{voiceless plosive $\rightarrow$ nasal via unvoiced plosive}\\  \hline
+positive & negative & target \\ \hline
+p, n & t & m \\
+t, m & p & n \\
+k, n & t & N \\ 
+ \hline \multicolumn{3}{l}{voiced plosive $\rightarrow$ nasal via voiced plosive}\\  \hline
+b, n & d & m \\
+d, m & b & n \\
+g, n & d & N \\
+ \hline \multicolumn{3}{l}{plain voiced plosive $\rightarrow$ plain nasal via plain unvoiced plosive}\\  \hline
+b, n & t & m \\
+d, m & p & n \\
+g, n & t & N \\
+ \hline \multicolumn{3}{l}{plain unvoiced plosive $\rightarrow$ plain voiced plosive via plain voiced plosive}\\  \hline
+p, d & t & b \\
+t, b & p & d \\
+k, d & t & g \\
+ \hline \multicolumn{3}{l}{plain voiced plosive $\rightarrow$ plain unvoiced plosive via plain unvoiced plosive}\\  \hline
+b, t & d & p \\
+d, p & b & t \\
+g, t & d & k \\
+ \hline \multicolumn{3}{l}{labialized voiced plosive $\rightarrow$  labialized nasal via labialized unvoiced plosive}\\  \hline
+bw$\sim$, nw$\sim$ & tw$\sim$ & mw$\sim$ \\
+dw$\sim$, mw$\sim$ & pw$\sim$ & nw$\sim$ \\
+gw$\sim$, nw$\sim$ & tw$\sim$ & Nw$\sim$ \\
+ \hline \multicolumn{3}{l}{labialized unvoiced plosive $\rightarrow$ labialized voiced plosive via labialized voiced plosive}\\  \hline
+pw$\sim$, dw$\sim$ & tw$\sim$ & bw$\sim$ \\
+tw$\sim$, bw$\sim$ & pw$\sim$ & dw$\sim$ \\
+kw$\sim$, dw$\sim$ & tw$\sim$ & gw$\sim$ \\
+ \hline \multicolumn{3}{l}{labialized voiced plosive $\rightarrow$ labialized unvoiced plosive via labialized unvoiced plosive}\\  \hline
+bw$\sim$, tw$\sim$ & dw$\sim$ & pw$\sim$ \\
+dw$\sim$, pw$\sim$ & bw$\sim$ & tw$\sim$ \\
+gw$\sim$, tw$\sim$ & dw$\sim$ & kw$\sim$ \\
+ \hline \multicolumn{3}{l}{palazalized voiced plosive $\rightarrow$  palazalized nasal via palazalized unvoiced plosive}\\  \hline
+by$\sim$, ny$\sim$ & ty$\sim$ & my$\sim$ \\
+dy$\sim$, my$\sim$ & py$\sim$ & ny$\sim$ \\
+gy$\sim$, ny$\sim$ & ty$\sim$ & Ny$\sim$ \\
+ \hline \multicolumn{3}{l}{palazalized unvoiced plosive $\rightarrow$ palazalized voiced plosive via palazalized voiced plosive}\\  \hline
+py$\sim$, dy$\sim$ & ty$\sim$ & by$\sim$ \\
+ty$\sim$, by$\sim$ & py$\sim$ & dy$\sim$ \\
+ky$\sim$, dy$\sim$ & ty$\sim$ & gy$\sim$ \\
+ \hline \multicolumn{3}{l}{palazalized voiced plosive $\rightarrow$ palazalized unvoiced plosive via palazalized unvoiced plosive}\\  \hline
+by$\sim$, ty$\sim$ & dy$\sim$ & py$\sim$ \\
+dy$\sim$, py$\sim$ & by$\sim$ & ty$\sim$ \\
+gy$\sim$, ty$\sim$ & dy$\sim$ & ky$\sim$ \\
+ \hline \multicolumn{3}{l}{aspirated voiced plosive $\rightarrow$  aspirated nasal via aspirated unvoiced plosive}\\  \hline
+bh$\sim$, nh$\sim$ & th$\sim$ & mh$\sim$ \\
+dh$\sim$, mh$\sim$ & ph$\sim$ & nh$\sim$ \\
+gh$\sim$, nh$\sim$ & th$\sim$ & Nh$\sim$ \\
+ \hline \multicolumn{3}{l}{aspirated unvoiced plosive $\rightarrow$ aspirated voiced plosive via aspirated voiced plosive}\\  \hline
+ph$\sim$, dh$\sim$ & th$\sim$ & bh$\sim$ \\
+th$\sim$, bh$\sim$ & ph$\sim$ & dh$\sim$ \\
+kh$\sim$, dh$\sim$ & th$\sim$ & gh$\sim$ \\
+
+ \hline \multicolumn{3}{l}{aspirated voiced plosive $\rightarrow$ aspirated unvoiced plosive via aspirated unvoiced plosive    }\\  \hline
+bh$\sim$, th$\sim$ & dh$\sim$ & ph$\sim$ \\
+dh$\sim$, ph$\sim$ & bh$\sim$ & th$\sim$ \\
+gh$\sim$, th$\sim$ & dh$\sim$ & kh$\sim$ \\
+
+ \hline \multicolumn{3}{l}{glottalized voiced plosive $\rightarrow$  glottalized nasal via glottalized unvoiced plosive }\\  \hline
+b", n" & t" & m" \\
+d", m" & p" & n" \\
+g", n" & t" & N" \\
+
+ \hline \multicolumn{3}{l}{glottalized unvoiced plosive $\rightarrow$ glottalized voiced plosive via glottalized voiced plosive   }\\  \hline
+p", d" & t" & b" \\
+t", b" & p" & d" \\
+k", d" & t" & g" \\
+
+ \hline \multicolumn{3}{l}{glottalized voiced plosive $\rightarrow$ glottalized unvoiced plosive via glottalized unvoiced plosive   }\\  \hline
+b", t" & d" & p" \\
+d", p" & b" & t" \\
+g", t" & d" & k" \\
+
+%
+%\end{tabular}
+%\end{table}
+%
+%
+%
+%\begin{table}[h]
+%\centering
+%\tiny
+%\caption{Consonant analogy tests (continued)}
+%\begin{tabular}{ l | l | l }
+\hline\multicolumn{3}{l}{unvoiced pulmonic plosive  $\rightarrow$ unvoiced aspirated plosive via unvoiced aspirated plosive }\\  \hline
+positive & negative & target \\ \hline
+
+p, th$\sim$ & t & ph$\sim$ \\
+t, ph$\sim$ & p & th$\sim$ \\
+k, th$\sim$ & t & kh$\sim$ \\
+
+\hline \multicolumn{3}{l}{voiced pulmonic plosive  $\rightarrow$ voiced aspirated plosive via voiced aspirated plosive  }\\  \hline
+
+b, dh$\sim$ & d & bh$\sim$ \\
+d, bh$\sim$ & b & dh$\sim$ \\
+g, dh$\sim$ & d & gh$\sim$ \\
+
+\hline \multicolumn{3}{l}{unvoiced plain plosive  $\rightarrow$ unvoiced palatalized plosive via unvoiced palatalized plosive  }\\  \hline
+
+p, ty$\sim$ & t & py$\sim$ \\
+t, py$\sim$ & p & ty$\sim$ \\
+k, ty$\sim$ & t & ky$\sim$ \\
+
+
+\hline \multicolumn{3}{l}{voiced plain plosive  $\rightarrow$ voiced palatalized plosive via voiced palatalized plosive }\\  \hline
+
+b, dy$\sim$ & d & by$\sim$ \\
+d, by$\sim$ & b & dy$\sim$ \\
+g, dy$\sim$ & d & gy$\sim$ \\
+
+\hline \multicolumn{3}{l}{unvoiced plain plosive  $\rightarrow$ unvoiced labialized plosive via unvoiced labialized plosive }\\  \hline
+
+p, t" & t & p" \\
+t, p" & p & t" \\
+k, t" & t & k" \\
+
+\hline \multicolumn{3}{l}{voiced plain plosive  $\rightarrow$ voiced labialized plosive via voiced labialized plosive      }\\  \hline
+
+b, d" & d & b" \\
+d, b" & b & d" \\
+g, d" & d & g" \\
+
+\hline \multicolumn{3}{l}{unvoiced pulmonic plosive  $\rightarrow$ unvoiced glottalized plosive via unvoiced glottalized plosive  }\\  \hline
+
+p, t" & t & p" \\
+t, p" & p & t" \\
+k, t" & t & k" \\
+
+\hline \multicolumn{3}{l}{voiced pulmonic plosive  $\rightarrow$ voiced glottalized plosive via voiced glottalized plosive}\\  \hline
+
+b, d" & d & b" \\
+d, b" & b & d" \\
+g, d" & d & g" \\
+
+\hline \multicolumn{3}{l}{POA transitions for unvoiced plosives}\\  \hline
+p, d & b & t \\
+t, b & d & p \\
+k, d & g & t \\
+
+\hline \multicolumn{3}{l}{POA transitions for voiced plosives}\\  \hline
+
+b, t & p & d \\
+d, p & t & b \\
+g, t & k & d \\
+
+\hline \multicolumn{3}{l}{POA transitions for  nasals}\\  \hline
+
+m, d & b & n \\
+n, b & d & m \\
+N, d & g & n \\
+
+\hline \multicolumn{3}{l}{POA transitions for unvoiced fricatives}\\  \hline
+
+f, t & p & s \\
+s, p & t & f \\
+x, t & k & s \\
+X, k & q & x \\
+
+\hline \multicolumn{3}{l}{POA transitions for voiced fricatives}\\  \hline
+
+v, d & b & z \\
+z, b & d & v \\
+\end{longtable}
+
+\newpage
+
+\caption{Vowel analogy tests}
+\begin{longtable}{ l | l | l }
+\caption{Vowel analogy tests}
+\centering
+\hline \multicolumn{3}{l}{apply \textsc{[+rounded]}}\\  \hline
+positive & negative & target \\\hline
+i, o & e & u \\
+e, u & i & o \\
+\hline \multicolumn{3}{l}{apply \textsc{[+high]}}\\  \hline
+i, o & u & e \\
+e, u & o & i \\
+\hline \multicolumn{3}{l}{apply \textsc{[+nasal]}}\\  \hline
+i, u* & u & i* \\
+e, o* & o & e* \\
+u, i* & i & u* \\
+o, e* & e & o* \\
+a, o* & o & a* \\
+E, e* & e & E* \\
+3, E* & E & 3* \\
+\hline \multicolumn{3}{l}{apply \textsc{[-nasal]}}\\  \hline
+i*, u & u* & i \\
+e*, o & o* & e \\
+u*, i & i* & u \\
+o*, e & e* & o \\
+a*, o & o* & a \\
+E*, e & e* & E \\
+3*, E & E* & 3 \\
+\end{longtable}
+
+\newpage
+\subsection{Additional Figures} \label{App:figures}
+\begin{figure}[h] %  figure placement: here, top, bottom, or page
+   \centering
+   \includegraphics[width=0.9\textwidth]{phoneme_embeddings_4models_comparison_meanAccLossTopn1} 
+   \caption{Comparison of the four word2vec models evaluated. (top left) Both CBOW Models perform better than the skip-gram models over all numbers of embedding dimension. (bottom left) Mean distance between the predicted vector and the target with regard to embedding dimensions. Here, negative sampling yields less error than hierarchical softmax. (top right) Mean accuracy for the models with regard to the context window size. The models perform worse the bigger the context is. (bottom right) Mean distance between the predicted vector and the target with regard to context window size. Again, bigger contexts lead to worse predictions. }
+   \label{fig:phoneme_embeddings_4models_comparison_meanAccLossTopn1}
+\end{figure}
+
+\begin{figure}[] %  figure placement: here, top, bottom, or page
+   \centering
+   \includegraphics[width=0.75\textwidth]{phoneme_embeddings_detailed_evaluation_topn1} 
+   \caption{Mean accuracies for analogies. The model does not seem to be able to capture the compositionality of the latent features too well. (top left) Accuracy is best for plosives across plain pulmonic as well as more complex articulations, while fricatives perform worse. (top right) Glottalized and Plain pulmonic consonant phonemes yield best performance. Among complex articulations, which all perform bad,  labialized phonemes yield best results, while aspirated and palatalized phonemes perform even worse. (bottom left) Adding voice works better than removing it or adding nasality. (bottom right) Vowel analogies work far better than consonant analogies. This should be due to the small number of possible vowel phonemes.}
+   \label{fig:phoneme_embeddings_detailed_evaluation_topn1}
+\end{figure}
+
+\begin{figure}[] %  figure placement: here, top, bottom, or page
+   \centering
+   \includegraphics[width=\textwidth]{phoneme_embeddings_detailed_evaluation_consonants_topn1_poooled} 
+   \caption{Mean accuracies for analogies over the pooled consonant phonemes. Here, the model is expected to yield better results, as the number of latent features should have been reduced. (left) Accuracy is doubled compared with the unpooled phonemes. (middle) Adding voice works quite well, while removing it still yields acceptable performance. Applying nasality again works quite bad. (right) Vowel analogy tasks seem to work reasonably well, but worse than with unpooled consonants.}
+   \label{fig:phoneme_embeddings_detailed_evaluation_topn1_poooled}
+\end{figure}
+
+
+
+ \begin{figure}[h!] 
+  \begin{subfigure}[b]{0.5\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{asjp_200_binary_singleConcept_posterior_name.png} 
+    \label{fig:vae_phono_orthofeatures0} 
+    \vspace{4ex}
+  \end{subfigure}%% 
+  \begin{subfigure}[b]{0.5\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{asjp_200_binary_singleConcept_posterior_sing.png} 
+    \label{fig:vae_phono_orthofeatures1} 
+    \vspace{4ex}
+  \end{subfigure} 
+  \begin{subfigure}[b]{0.5\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{asjp_200_binary_singleConcept_posterior_snake.png} 
+    \label{fig:vae_phono_orthofeatures2} 
+  \end{subfigure}%%
+  \begin{subfigure}[b]{0.5\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{asjp_200_binary_singleConcept_posterior_snake_detail2.png} 
+    \label{fig:vae_phono_orthofeatures3} 
+  \end{subfigure} 
+  \caption{The encoder distribution $Q(z|X)$ with X being the IELex data with regards to the single semantic concepts. The model was trained on ASJP for 2000 iterations. Colors indicate the respective true cognate class. (top left) The posterior for the concept "name". As all words are cognates to each other, we see strong linear dependencies over the distribution. Also note that the embeddings are embedded into a latent continuum of word lengths, from the the top left to the bottom right. Moreover, the members of the left hand side clusters all start with consonants, while the members of the clusters on right hand side all start with vowels or approximants. (top right) The posterior for "sing". Again, cognates show stronger linear dependencies among each other than unrelated words. (bottom left) The posterior for "snake". The romance words (pink samples) show linear dependencies. (bottom right) A closer look on some words for "snake". As VAE-PT concentrates on clustering words with similar syllable structures, it tends to cluster words that share such similarities close to each other. Here, it overestimates the similarity between Slovak /had/ and Upper Sorbian /huZ/ on the one side and the words /sap/ (Bihari, Magahi, Urdu, Marathi) and /xap/ (Assamese) on the other.  }
+  \label{fig:asjp_2000_binary_singleIELEXConcepts_posteriors} 
+\end{figure}
+
+
+
+
+
 \end{document}  
