@@ -1348,6 +1348,35 @@ Mortarino, C.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Nair%
+\ \BBA {} Hinton%
+}{%
+Nair%
+\ \BBA {} Hinton%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+nair2010rectified}
+\APACinsertmetastar {%
+nair2010rectified}%
+\begin{APACrefauthors}%
+Nair, V.%
+\BCBT {}\ \BBA {} Hinton, G\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Rectified linear units improve restricted boltzmann
+  machines} {Rectified linear units improve restricted boltzmann
+  machines}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the 27th International Conference on
+  Machine Learning (ICML-10)} {Proceedings of the 27th international conference
+  on machine learning (icml-10)}\ (\BPGS\ 807--814).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Ng%
 }{%
 Ng%

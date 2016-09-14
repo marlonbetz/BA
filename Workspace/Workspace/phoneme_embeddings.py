@@ -19,7 +19,10 @@ class PhonemeEmbeddings(object):
                              )
     def extractPhonemes(self,words):
         print("EXTRACT ALL PHONEMES AND ADD WORD BOUNDARIES AND GET RID OF EMPTY STRINGS")
-        return [["<s>"]+self.getListofASJPPhonemes(word)+["</s>"] for word in words if len(word) > 0]
+        tmp = [["<s>"]+self.getListofASJPPhonemes(word)+["</s>"] for word in words if len(word) > 0]
+        print("number of words:",len(tmp))
+        print("number of phoneme tokens:",np.sum([len(t)-2 for t in tmp])) # -2 due to boundary symbols
+        return tmp
  
     def collectWords(self,pathToASJPCorpusFile,ignoreCoarticulations):
         print("COLLECT WORDS")
@@ -58,6 +61,7 @@ class PhonemeEmbeddings(object):
                                     allWords.append(word_splitted[1])
                             else:
                                 allWords.append(word)
+
         return allWords
                             
     def getListofASJPPhonemes(self,word):
