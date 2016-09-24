@@ -1,8 +1,0 @@
-from pipeline import *
-from lingpy.sequence import sound_classes
-
-class SoundClassFeatures(object):
-    def __init__(self,model):
-        self.model = model
-        assert model =="sca" or model =="dolgo"
-        

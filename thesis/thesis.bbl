@@ -60,38 +60,11 @@ Baxter, W\BPBI H.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-I\BPBI G\BPBI Y.~Bengio%
-\ \BBA {} Courville%
-}{%
-I\BPBI G\BPBI Y.~Bengio%
-\ \BBA {} Courville%
-}{%
-{\protect \APACyear {2016}}%
-}]{%
-Goodfellow-et-al-2016-Book}
-\APACinsertmetastar {%
-Goodfellow-et-al-2016-Book}%
-\begin{APACrefauthors}%
-Bengio, I\BPBI G\BPBI Y.%
-\BCBT {}\ \BBA {} Courville, A.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2016}{}{}.
-\newblock
-\APACrefbtitle {Deep Learning.} {Deep learning.}
-\newblock
-\begin{APACrefURL} \url{http://www.deeplearningbook.org} \end{APACrefURL}
-\newblock
-\APACrefnote{Book in preparation for MIT Press}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Y.~Bengio%
+Bengio%
 , Courville%
 \BCBL {}\ \BBA {} Vincent%
 }{%
-Y.~Bengio%
+Bengio%
 \ \protect \BOthers {.}}{%
 {\protect \APACyear {2013}}%
 }]{%
@@ -651,6 +624,34 @@ Goldberg, Y.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Goodfellow%
+, Bengio%
+\BCBL {}\ \BBA {} Courville%
+}{%
+Goodfellow%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+Goodfellow-et-al-2016-Book}
+\APACinsertmetastar {%
+Goodfellow-et-al-2016-Book}%
+\begin{APACrefauthors}%
+Goodfellow, I.%
+, Bengio, Y.%
+\BCBL {}\ \BBA {} Courville, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+\APACrefbtitle {Deep Learning.} {Deep learning.}
+\newblock
+\begin{APACrefURL} \url{http://www.deeplearningbook.org} \end{APACrefURL}
+\newblock
+\APACrefnote{Book in preparation for MIT Press}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Gray%
 , Drummond%
 \BCBL {}\ \BBA {} Greenhill%
@@ -1095,6 +1096,40 @@ Le, Q\BPBI V.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Ling%
+, Dyer%
+, Black%
+\BCBL {}\ \BBA {} Trancoso%
+}{%
+Ling%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+ling2015two}
+\APACinsertmetastar {%
+ling2015two}%
+\begin{APACrefauthors}%
+Ling, W.%
+, Dyer, C.%
+, Black, A.%
+\BCBL {}\ \BBA {} Trancoso, I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Two/too simple adaptations of word2vec for syntax
+  problems} {Two/too simple adaptations of word2vec for syntax
+  problems}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the 2015 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies} {Proceedings of the 2015 conference of the north american
+  chapter of the association for computational linguistics: Human language
+  technologies}\ (\BPGS\ 1299--1304).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 List%
 }{%
 List%
@@ -1476,9 +1511,11 @@ Radford, A.%
 \newblock
 \APACrefYearMonthDay{2015}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Unsupervised representation learning with deep
-  convolutional generative adversarial networks} {Unsupervised representation
-  learning with deep convolutional generative adversarial networks}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Unsupervised representation learning with how sound
+  changes take place at some given point in time convolutional generative
+  adversarial networks} {Unsupervised representation learning with how sound
+  changes take place at some given point in time convolutional generative
+  adversarial networks}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{arXiv preprint arXiv:1511.06434}{}{}{}.
 \PrintBackRefs{\CurrentBib}
