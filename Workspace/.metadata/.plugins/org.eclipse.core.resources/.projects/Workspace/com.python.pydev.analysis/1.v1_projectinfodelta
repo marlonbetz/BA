@@ -1,1 +1,11 @@
-DELSTRphoneme_embeddings
+INSTUPphoneme_embeddings_evaluate_pooledPhonemes
+/Users/marlon/Documents/BA/Workspace/Workspace/phoneme_embeddings_evaluate_pooledPhonemes.py
+INFOS:&&2|1|2|0&&2|3|2|0&&2|4|2|0&&3|5|2|0&&3|5|2|0&&3|5|2|0&&3|5|2|0&&3|5|2|0&&3|5|2|0&&3|5|2|0&&3|6|2|0&&3|7|2|0&&3|8|2|0
+getListofASJPPhonemes=3
+df=5
+getPerformance=4
+phoneme_embeddings_evaluate_pooledPhonemes=2
+x1=6
+x2=7
+x3=8
+vectorLinspace=1

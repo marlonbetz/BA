@@ -44,7 +44,7 @@ def getPerformance(pathToAnnotatedWordList,topn):
     n_ensemble  =10
     sg = 0
     hs = 1
-    dim_embedding = 100
+    dim_embedding = 20
     window =1
     negative = 0
     mean_acc_all = []

@@ -58,14 +58,31 @@
  \includepdf[pages=-]{antiplagiatserklaerung.pdf}
 
 \newpage
+
+\thispagestyle{empty}
 \newpage
+
+\begin{abstract}
+\thispagestyle{empty}
+
+Cognate Identification is the task of finding words that share a common historical origin. Finding cognates is one of the most important tasks in Historical Linguistics, as it allows for the discovery of relationships between languages and helps to understand how sound change affects words over time.
+
+This thesis proposes a model of cognate identification as latent representation learning, where phonemes and words are projected into a latent space, where subspaces encode certain phonological features. Under the assumption that cognates share a similar phonological shape and meaning, we then cluster the resulting embeddings to infer cognates.
+
+We first evaluated how phoneme embeddings trained with word2vec on the ASJP corpus can encode distinctive phonological features, such as voice or nasality. While they encode certain phonological features via subspaces and linear dependencies that are typical for embeddings, analogy tests that evaluate the intrinsic quality of the embeddings are only mediocre. Only vowel embeddings and embeddings that ignore articulation types perform reasonably well. The results suggest more data is needed to yield good results, as well as embedding models that specifically incorporate order of the phonemes in context, which is ignored by the standard word2vec architecture.
+
+We then embedded words into a latent space using Variational Autoencoders, a deep generative neural network architecture that can be used for probabilistic non-linear dimensionality reduction. Each word was encoded using several phoneme vectorization methods as well as the phoneme embeddings. In this thesis, we focussed on two models. The first model was trained on the ASJP corpus, a multilingual corpus of over 7000 languages. We found that this model is able to embed the words in such a way that local subspaces of the latent space encode certain phonotactic features such as word length, syllable structure or the presence or absence of certain phonemes, such as clicks or glottalized sounds. Subspaces are interconnected via linear dependencies that allow for the modeling of sound change via tensor products applied to the word embeddings.  However, when clustering the embeddings to infer cognate class labels, the performance is quite bad, as the model focusses on encoding information via linear dependencies over longer distances. 
+
+The second model was trained only on Indo-European words of a given semantic concept. It learns to embed similar words close to each other, which provides a much better basis for clustering. While Phoneme embeddings work better than one-hot vectors based on Dolgopolsky and SCA sound classes, we can report better performance with binary phoneme features adapted to the ASJP phonemic alphabet. When using Affinity Propagation to cluster the resulting embeddings, the performance is similar to using Normalized Levenshtein Distances between the IPA-annotated words, but inferior to more methods such as LexStat. This indicates that the network learns to distinguish phoneme sequences in an unsupervised way, but needs more specific priors that regulate the distribution of cognates in the latent space to provide a better basis for cognate identification in particular.
+\end{abstract}
+\newpage
+
 
 \tableofcontents
 \thispagestyle{empty}
+%mbering{arabic}
 \newpage
-\pagenumbering{arabic}
 \setcounter{page}{1}
-
 \section{Introduction}
 
 Historical Linguistics investigates language from a diachronic perspective, i.e. it seeks to uncover the history of languages and the structure of the hidden forces that drive language change.  Computational Historical Linguistics accordingly deals with computational methods to explore the history of languages and topics closely related to it, such as phylogenetic inferences of language families \citep{bouckaert2012mapping}, migration of language speakers \citep{gray2009language}, inferring lexical flows between languages \citep{dellert2015uralic} or modeling sound change \citep{bouchard2013automated}.  
@@ -935,14 +952,14 @@ E*, e & e* & E \\
 \begin{figure}[] %  figure placement: here, top, bottom, or page
    \centering
    \includegraphics[width=0.75\textwidth]{phoneme_embeddings_detailed_evaluation_topn1_20dim} 
-   \caption{Mean accuracies for analogies. The model does not seem to be able to capture the compositionality of the latent features too well. (top left) Accuracy is best for plosives across plain pulmonic as well as more complex articulations, while fricatives perform worse. (top right) Aspirated, glottalized and Plain pulmonic consonant phonemes yield best performance. However, only embeddings of plain pulmonic consonants show reasonable quality. (bottom left) Adding voice works better than removing it or adding nasality. (bottom right) Vowel analogies work far better than consonant analogies. This should be due to the small number of possible vowel phonemes.}
+   \caption{Mean accuracies for analogies. The model does not seem to be able to capture the compositionality of the latent features too well. (top left) Accuracy is best for plosives across plain pulmonic as well as more complex articulations, while fricatives perform worse. (top right) Aspirated and Plain pulmonic consonant phonemes yield better performance than other articulation types. However, for all articulation types, the performance is quite bad. (bottom left) Adding voice works better than removing it or adding nasality. (bottom right) Vowel analogies work far better than consonant analogies. This should be due to the small number of possible vowel phonemes.}
    \label{fig:phoneme_embeddings_detailed_evaluation_topn1}
 \end{figure}
 
 \begin{figure}[] %  figure placement: here, top, bottom, or page
    \centering
-   \includegraphics[width=0.75\textwidth]{phoneme_embeddings_detailed_evaluation_consonants_topn1_poooled_20dim} 
-   \caption{Mean accuracies for analogies over the phonemes after pooling all articulation types. Here, the model is expected to yield better results, as the number of latent features should have been reduced. (left) Accuracy is doubled compared with the unpooled consonants. (middle) Adding voice works quite well, while removing it still yields acceptable performance. Applying nasality again works quite bad, while removing voice from consonants again works best by far (right) Vowel analogy tasks seem to work reasonably well, but worse than with unpooled consonants.}
+   \includegraphics[width=0.75\textwidth]{phoneme_embeddings_detailed_evaluation_topn1_poooled} 
+   \caption{Mean accuracies for analogies over the phonemes after pooling all articulation types. Here, the model is expected to yield better results, as the number of latent features should have been reduced. (left) Accuracy is doubled compared with the unpooled consonants. (middle) Adding voice yields acceptable performance, while removing voice from consonants again works best by far. However, applying nasality again works quite bad. (right) Vowel analogy tasks seem to work reasonably well, but worse than with unpooled consonants.}
    \label{fig:phoneme_embeddings_detailed_evaluation_topn1_poooled}
 \end{figure}
 
