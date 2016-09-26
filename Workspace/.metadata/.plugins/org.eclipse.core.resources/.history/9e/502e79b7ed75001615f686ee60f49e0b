@@ -1,8 +1,0 @@
-
-class PairwiseEvaluation(object):
-    def __init__(self,x,true,predicted):
-        sums = dict()
-        for x1,true1,pred1 in zip(x,true,predicted):
-            for x2 in zip(x,true,predicted):
-                if true1 == true2
-                

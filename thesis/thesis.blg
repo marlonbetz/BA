@@ -18,15 +18,15 @@ Warning--No journal in dellert2015uralic
 Warning--`others' not consistent with 6th ed. of the APA Manual
 You've used 71 entries,
             6951 wiz_defined-function locations,
-            1657 strings with 24399 characters,
-and the built_in function-call counts, 144429 in all, are:
-= -- 18414
+            1657 strings with 24342 characters,
+and the built_in function-call counts, 143927 in all, are:
+= -- 18357
 > -- 1333
-< -- 6421
-+ -- 6598
+< -- 6364
++ -- 6541
 - -- 151
-* -- 8774
-:= -- 24733
+* -- 8728
+:= -- 24573
 add.period$ -- 336
 call.type$ -- 71
 change.case$ -- 1256
@@ -35,7 +35,7 @@ cite$ -- 144
 duplicate$ -- 4023
 empty$ -- 5621
 format.name$ -- 2111
-if$ -- 28204
+if$ -- 28147
 int.to.chr$ -- 0
 int.to.str$ -- 217
 missing$ -- 0
@@ -45,9 +45,9 @@ pop$ -- 3001
 preamble$ -- 1
 purify$ -- 290
 quote$ -- 0
-skip$ -- 9718
+skip$ -- 9707
 stack$ -- 0
-substring$ -- 7466
+substring$ -- 7409
 swap$ -- 2330
 text.length$ -- 328
 text.prefix$ -- 0

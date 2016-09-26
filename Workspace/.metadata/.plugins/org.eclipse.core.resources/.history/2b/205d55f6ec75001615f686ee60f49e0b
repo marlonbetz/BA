@@ -1,4 +1,0 @@
-
-class PairwiseEvaluation(object):
-    def __init__(self,x,true,predicted):
-        for x1 in set()

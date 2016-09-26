@@ -1511,11 +1511,9 @@ Radford, A.%
 \newblock
 \APACrefYearMonthDay{2015}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Unsupervised representation learning with how sound
-  changes take place at some given point in time convolutional generative
-  adversarial networks} {Unsupervised representation learning with how sound
-  changes take place at some given point in time convolutional generative
-  adversarial networks}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Unsupervised representation learning with convolutional
+  generative adversarial networks} {Unsupervised representation learning with
+  convolutional generative adversarial networks}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{arXiv preprint arXiv:1511.06434}{}{}{}.
 \PrintBackRefs{\CurrentBib}
